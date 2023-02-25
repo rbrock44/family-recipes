@@ -1,21 +1,23 @@
-import {TestBed} from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 import {RouterTestingModule} from '@angular/router/testing';
-import {AppComponent} from './app.component';
+import {RecipeComponent} from './recipe.component';
 
-describe('AppComponent', () => {
+describe('RecipeComponent', () => {
+  let fixture: ComponentFixture<RecipeComponent>
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
       ],
       declarations: [
-        AppComponent
+        RecipeComponent
       ],
     }).compileComponents();
+
+    fixture = TestBed.createComponent(RecipeComponent);
   });
 
   it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });

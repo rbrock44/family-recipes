@@ -1,21 +1,21 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {Recipe} from '../models/recipe.model';
+import {Recipe} from '../models/recipe.interface';
 import {firstValueFrom} from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class RecipeReaderService {
-  recipeTotal = 10;
+  recipeTotal = 0;
 
   constructor(private http: HttpClient) {
   }
 
-  createFilenames(): string[] {
+  createFilenames(total: number = this.recipeTotal): string[] {
     let array: string[] = []
 
-    for (let i = 1; i < this.recipeTotal + 1; i++) {
+    for (let i = 1; i < total + 1; i++) {
       let name = i + '';
       if ((i + '').length == 1) {
         name = '00' + i;

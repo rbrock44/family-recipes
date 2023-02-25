@@ -1,0 +1,65 @@
+<h1 class="center">Family Recipes</h1>
+
+<div>
+  <div class="center">
+    <mat-form-field class="form-field">
+      <mat-label class="mat-label">Search</mat-label>
+      <div class="center">
+        <input [formControl]="searchControl"
+               data-search-input
+               matInput
+
+               type="text"
+        >
+        <div class="center">
+          <mat-icon>search</mat-icon>
+        </div>
+      </div>
+    </mat-form-field>
+  </div>
+
+
+  <div class="center">
+    <mat-accordion>
+      <mat-expansion-panel (closed)="panelOpenState = false"
+                           (opened)="panelOpenState = true">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Advanced Search
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-checkbox>Hooper Family Only</mat-checkbox>
+
+        <div class="dropdown-ctn">
+          <div class="dropdown__label" data-dropdown-label>
+            Category
+          </div>
+          <div class="dropdown__data">
+            <mat-form-field class="dropdown-form-field">
+              <mat-select [formControl]="categoryControl">
+                <mat-option *ngFor="let cat of this.categories" [value]="cat.value" data-dropdown-option>
+                  {{cat.name}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        </div>
+
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+
+  <!--  *ngIf="results.length > 0"-->
+  <div class="results">
+    <div class="center">
+      <p>{{results.length}} Results</p>
+    </div>
+    <div class="center">
+      <div class="results-box center">
+        <div *ngFor="let result of results">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

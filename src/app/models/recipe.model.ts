@@ -1,12 +1,17 @@
-import {Yield} from './yield.model';
-import {Ingredient} from './ingredient.model';
+import {Recipe} from './recipe.interface';
+import {IngredientModel} from './ingredient.model';
+import {YieldModel} from './yield.model';
 
-export interface Recipe {
-  name: string;
-  author: string;
-  category: number;
-  instructions: string;
-  filename: string;
-  ingredients: Ingredient[];
-  yield: Yield;
+export class RecipeModel implements Recipe {
+  name: string = '';
+  author: string = '';
+  category: number = 0;
+  instructions: string = '';
+  filename: string = '';
+  ingredients: IngredientModel[] = [];
+  yield: YieldModel = {amount: 0, name: ''};
+
+  public constructor(init?: Partial<RecipeModel>) {
+    Object.assign(this, init);
+  }
 }
