@@ -37,11 +37,36 @@ input {
 }
 
 .results-box {
-  height: 60vh;
+  height: 55vh;
   width: 40vw;
-  border: 1px solid black;
 }
 
+.span {
+  display: inline-flex;
+  width: 100%
+}
+
+.result {
+  height: 6vh;
+  width: 40vw;
+  cursor: pointer;
+}
+
+.author {
+  justify-content: center;
+}
+
+.name {
+  width: 50%
+}
+
+.quarter {
+  width: 33%
+}
+
+.bold {
+  font-weight: bold;
+}
 
 /* Responsive Styles */
 @media screen and (max-width: 767px) {

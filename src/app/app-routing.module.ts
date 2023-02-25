@@ -13,7 +13,7 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: 'recipe',
+    path: 'recipe/:filename',
     component: RecipeComponent,
   },
 ];

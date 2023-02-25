@@ -28,7 +28,7 @@
             Advanced Search
           </mat-panel-title>
         </mat-expansion-panel-header>
-        <mat-checkbox>Hooper Family Only</mat-checkbox>
+        <mat-checkbox [formControl]="familyControl">Hooper Family Only</mat-checkbox>
 
         <div class="dropdown-ctn">
           <div class="dropdown__label" data-dropdown-label>
@@ -52,12 +52,16 @@
   <!--  *ngIf="results.length > 0"-->
   <div class="results">
     <div class="center">
-      <p>{{results.length}} Results</p>
+      <p class="bold">{{results.length}} Result(s)</p>
     </div>
     <div class="center">
-      <div class="results-box center">
-        <div *ngFor="let result of results">
-
+      <div class="results-box">
+        <div (click)="click(result)" *ngFor="let result of results" class="result center">
+          <div class="span">
+            <div class="name">{{result.name}}</div>
+            <span class="author quarter">{{result.author}}</span>
+            <span class="quarter">{{result.filename}}</span>
+          </div>
         </div>
       </div>
     </div>

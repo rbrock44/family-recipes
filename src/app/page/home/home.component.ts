@@ -4,6 +4,8 @@ import {DropdownOption} from '../../models/dropdown-option.model';
 import {Recipe} from '../../models/recipe.interface';
 import {RecipeService} from '../../services/recipe.service';
 import {debounceTime, distinctUntilChanged} from 'rxjs';
+import {RecipeModel} from '../../models/recipe.model';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +17,22 @@ export class HomeComponent {
   panelOpenState = false;
   searchControl: FormControl = new FormControl('');
   categoryControl: FormControl = new FormControl(0);
-  results: Recipe[] = []
+  familyControl: FormControl = new FormControl(false);
+  results: Recipe[] = [
+    new RecipeModel({
+      name: 'Example',
+      author: 'Ryan',
+      category: 1,
+      filename: '001',
+      ingredients: [
+        {name: 'a', amount: 1},
+        {name: 'b', amount: 2},
+        {name: 'c', amount: 3}
+      ],
+      instructions: 'how to',
+      yield: {name: 'b', amount: 12}
+    })
+  ]
 
   categories = [
     new DropdownOption('', 0),
@@ -27,12 +44,23 @@ export class HomeComponent {
     new DropdownOption('Cakes, Cookies & Desserts', 6)
   ]
 
-  constructor(private service: RecipeService) {
+  constructor(
+    private router: Router,
+    private service: RecipeService
+  ) {
     this.searchControl.valueChanges.pipe(
       debounceTime(400),
       distinctUntilChanged()
     ).subscribe(value => {
-
+      this.results = this.service.search(
+        value,
+        this.categoryControl.value,
+        this.familyControl.value
+      )
     })
+  }
+
+  click(recipe: Recipe) {
+    this.router.navigateByUrl(`/recipe/${recipe.filename}`).then();
   }
 }

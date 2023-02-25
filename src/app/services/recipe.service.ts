@@ -7,17 +7,17 @@ import {Category} from '../models/category.enum';
   providedIn: 'root'
 })
 export class RecipeService {
-  recipes: Recipe[] = []
-  hooperFamily: string[] = [
+  private recipes: Recipe[] = [];
+  private hooperFamily: string[] = [
     'Rebecca Hooper',
     'Christin Estes',
     'Cheryl Hooper',
     'Charlotte Hooper',
     'Joan Drury',
-  ]
+  ];
 
   constructor(private reader: RecipeReaderService) {
-    this.recipes = this.reader.readRecipes()
+    this.recipes = this.reader.readRecipes();
   }
 
   search(criteria: string, category: Category = 0, onlyHooperFamily: boolean = false): Recipe[] {
@@ -30,9 +30,13 @@ export class RecipeService {
     }
 
     if (onlyHooperFamily) {
-      list = list.filter(it => this.hooperFamily.indexOf(it.author) > -1)
+      list = list.filter(it => this.hooperFamily.indexOf(it.author) > -1);
     }
 
-    return list
+    return list;
+  }
+
+  getRecipe(filename: string): Recipe {
+    return this.recipes.filter(it => it.filename == filename)[0];
   }
 }
