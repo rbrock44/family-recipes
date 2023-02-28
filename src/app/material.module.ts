@@ -20,9 +20,9 @@ import {MatTableModule} from '@angular/material/table';
     MatInputModule,
     MatDialogModule,
     MatOptionModule,
+    MatTableModule,
     MatSelectModule,
     MatSortModule,
-    MatTableModule
   ],
   exports: [
     MatCheckboxModule,
@@ -32,9 +32,9 @@ import {MatTableModule} from '@angular/material/table';
     MatInputModule,
     MatDialogModule,
     MatOptionModule,
+    MatTableModule,
     MatSelectModule,
     MatSortModule,
-    MatTableModule
   ]
 })
 export class MaterialModule {

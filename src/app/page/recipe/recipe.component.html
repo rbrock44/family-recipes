@@ -12,7 +12,8 @@
 </div>
 
 
-<h3 class="center" *ngIf="recipe.yield.amount > 0">Serves: {{timesBatch(recipe?.yield?.amount)}} {{recipe?.yield?.name}}</h3>
+<h3 class="center" *ngIf="recipe.yield.amount > 0">Serves: {{timesBatch(recipe?.yield?.amount)}} {{recipe?.yield?.name}}
+</h3>
 <!-- ingredients, 2 columns -->
 <div class="ingredients-cont">
     <!-- <div class="ingredients-column left">Value1</div> -->
@@ -31,3 +32,30 @@
 <div class="center">
     <p class="instructions">{{recipe?.instructions}}</p>
 </div>
+
+<div class="spacer" *ngIf="!showDry && !showLiquid"></div>
+
+<div class="center column" *ngIf="showLiquid">
+    <span>
+        <h3 class="conversion-title" (click)="close()">Liquid Conversions</h3>
+    </span>
+    <app-liquid-conversion></app-liquid-conversion>
+</div>
+
+<div class="center column" *ngIf="showDry">
+    <span>
+        <h3 class="conversion-title" (click)="close(false)">Dry Conversions</h3>
+    </span>
+    <app-dry-conversion></app-dry-conversion>
+</div>
+
+<div class="bottom">
+    <div class="liquid-button">
+        <span *ngIf="!showLiquid" (click)="open()" class="button style">Liquid</span>
+    </div>
+    <div  class="dry-button">
+        <span *ngIf="!showDry" (click)="open(false)" class="button style">Dry</span>
+    </div>
+</div>
+
+<div class="bottom-bar"></div>

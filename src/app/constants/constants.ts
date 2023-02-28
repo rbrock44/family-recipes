@@ -1,57 +1,6 @@
 import { DropdownOption } from "../models/dropdown-option.model";
-
-export const RESET_EVERYTHING_MESSAGE: string = 'This will reset everything to the default settings.';
-export const ACTION_CANCELLED_MESSAGE: string = 'Action Cancelled.';
-export const RESET_SETTINGS_SUCCESS_MESSAGE: string = 'Setting reset successfully.';
-export const APPLY_SETTING_SUCCESS_MESSAGE: string = 'Settings applied successfully.';
-export const PERFORM_THIS_ACTION: string = 'Are you sure you want to perform this action?';
-
-export const COLOR_OPTIONS = [
-  {
-    name: 'Black',
-    value: '--black-color-'
-  },
-  {
-    name: 'Blue',
-    value: '--blue-color-'
-  },
-  {
-    name: 'Gray',
-    value: '--gray-color-'
-  },
-  {
-    name: 'Gray Dark',
-    value: '--gray-dark-color-'
-  },
-  {
-    name: 'Green',
-    value: '--green-color-'
-  },
-  {
-    name: 'Orange',
-    value: '--orange-color-'
-  },
-  {
-    name: 'Pink',
-    value: '--pink-color-'
-  },
-  {
-    name: 'Purple',
-    value: '--purple-color-'
-  },
-  {
-    name: 'Red',
-    value: '--red-color-'
-  },
-  {
-    name: 'Yellow',
-    value: '--yellow-color-'
-  },
-  {
-    name: 'White',
-    value: '--white-color-'
-  }
-];
+import { DryConversion } from "../models/dry-conversion.model";
+import { LiquidConversion } from "../models/liquid-conversion.model";
 
 export const CATEGORIES = [
   new DropdownOption('', 0),
@@ -62,12 +11,24 @@ export const CATEGORIES = [
   new DropdownOption('Breads, Rolls & Pastries', 5,),
   new DropdownOption('Cakes, Cookies & Desserts', 6)
 ];
-export const COLOR_DEFAULT = '--blue-color-';
-export const REFRESH_RATE_DEFAULT = 60;
-export const SHOW_SPORTS_DEFAULT = true;
-export const WHICH_SELECTION_DEFAULT = false;
-export const TODAY: string = 'Today';
-export const UPCOMING: string = 'Upcoming';
+
+export const DRY_CONVERSIONS = [
+  new DryConversion(1, 16, 48, 128),
+  new DryConversion(.75, 12, 36, 96),
+  new DryConversion(.66, 10, 32, 85),
+  new DryConversion(.5, 8, 24, 64),
+  new DryConversion(.33, 5, 16, 43),
+  new DryConversion(.25, 4, 12, 32),
+  new DryConversion(.125, 2, 6, 16),
+];
+
+export const LIQUID_CONVERSIONS = [
+  new LiquidConversion(1, 4, 8, 16),
+  new LiquidConversion(.5, 2, 4, 8),
+  new LiquidConversion(.25, 1, 2, 4),
+  new LiquidConversion(.125, .5, 1, 2),
+  new LiquidConversion(.0625, .25, .5, 1),
+];
 
 export function isNullOrUndefined(str: string): boolean {
   return str == null || str === 'undefined' || str === 'null';
@@ -84,13 +45,5 @@ export function toBoolean(value: any): boolean {
       return true;
     default:
       return false;
-  }
-}
-
-export function liveTime(time: string): string {
-  if (time.length > 0) {
-    return time;
-  } else {
-    return 'LIVE'
   }
 }

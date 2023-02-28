@@ -13,6 +13,8 @@ import {RecipeService} from '../../services/recipe.service';
   styleUrls: ['./recipe.component.scss']
 })
 export class RecipeComponent {
+  showLiquid: boolean = false;
+  showDry: boolean = false;
   recipe: Recipe = new RecipeModel();
   batchControl: FormControl = new FormControl(1, [Validators.min(1), Validators.pattern("^[1-9][0-9]*$")]);
 
@@ -45,4 +47,20 @@ export class RecipeComponent {
       return this.recipe.ingredients.slice(half)
     }
   }
+
+  close(isLiquid: boolean = true): void {
+      if (isLiquid) {
+        this.showLiquid = false;
+      } else {
+        this.showDry = false;
+      }
+  }
+
+  open(isLiquid: boolean = true): void {
+    if (isLiquid) {
+      this.showLiquid = true;
+    } else {
+      this.showDry = true;
+    }
+}
 }

@@ -1,8 +1,13 @@
 h1 {
-  display: flex;
-  margin-top: 5vh;
-  margin-bottom: 2vh;
-  font-size: 60px;
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 60px;
+}
+
+.conversion-title {
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .center {
@@ -17,14 +22,16 @@ h1 {
 
 .instructions {
     width: 50%;
+    font-size: 14px;
+    margin-bottom: 25px
 }
 
 .ingredients-cont {
     justify-content: center;
     display: flex;
     align-items: center;
+    margin-left: 10vw;
 }
-
 
 .ingredients-column {
     width: 20vw;
@@ -32,4 +39,104 @@ h1 {
 
 .ingredient {
     font-weight: bold;
+    font-size: 14px;
+}
+
+.column {
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.button {
+    font-size: 24px;
+    cursor: pointer;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.liquid-button {
+    width: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.dry-button {
+    width: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.style {
+    background-color: #512DA8;
+    border-radius: 40%;
+    padding: 0px 10px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    width: 80%;
+}
+
+.bottom-bar {
+    height: 25px
+}
+
+.spacer {
+    height: 100px
+}
+
+@media screen and (max-width: 1200px) {
+    .ingredients-column {
+        width: 250px;
+        min-width: 200px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .instructions {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ingredients-cont {
+        flex-direction: column;
+    }
+
+    .ingredient, .instructions {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .instructions {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .instructions {
+        width: 90%;
+    }
 }

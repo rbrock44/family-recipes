@@ -13,10 +13,16 @@ export class RecipeService {
   private recipes: Recipe[] = [];
   private hooperFamily: string[] = [
     'Rebecca Hooper',
-    'Christin Estes',
-    'Cheryl Hooper',
+    'C. Allen Collier',
+    'Christine Estes',
+    'Caleb Estes',
+    'Zachary Estes',
+    'Cheryl Stone',
+    'Catrina Stone',
     'Charlotte Hooper',
     'Joan Drury',
+    'Ryan Brock',
+    'Sara Hooper',
   ];
 
   constructor(
@@ -33,11 +39,13 @@ export class RecipeService {
   search(criteria: string, category: Category = 0, onlyHooperFamily: boolean = false): Recipe[] {
     let list: Recipe[] = [];
 
-    if (criteria.trim() != '') {
+    let crit = criteria.toUpperCase().trim();
+
+    if (crit.trim() != '') {
       list = this.recipes.filter(it =>
-        it.name.toUpperCase().indexOf(criteria) > -1 ||
-        it.author.toUpperCase().indexOf(criteria) > -1 ||
-        it.filename.toUpperCase().indexOf(criteria) > -1
+        it.name.toUpperCase().indexOf(crit) > -1 ||
+        it.author.toUpperCase().indexOf(crit) > -1 ||
+        it.filename.toUpperCase().indexOf(crit) > -1
       );
     } else {
       list = cloneDeep(this.recipes);

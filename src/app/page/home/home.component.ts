@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { DropdownOption } from '../../models/dropdown-option.model';
 import { Recipe } from '../../models/recipe.interface';
@@ -16,7 +16,7 @@ import { CATEGORIES } from 'src/app/constants/constants';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   title = 'family-recipes';
   panelOpenState = false;
   searchControl: FormControl = new FormControl('');
@@ -34,7 +34,11 @@ export class HomeComponent {
   constructor(
     private router: Router,
     private service: RecipeService
-  ) {
+  ) { }
+
+  ngOnInit(): void {
+    this.dataSource.sort = this.sort;
+
     this.searchControl.valueChanges.pipe(
       debounceTime(400),
       distinctUntilChanged()
@@ -59,10 +63,41 @@ export class HomeComponent {
       value,
       this.categoryControl.value,
       this.familyControl.value
-    );;
+    );
   }
 
   getCategory(categoryNumber: number): string {
     return getCategory(categoryNumber);
   }
+
+  sortData(): void {
+    switch (this.sort.direction) {
+      case 'asc':
+        this.sortTable(this.sort.active)
+        this.sort.direction = 'asc';
+        break;
+      case 'desc':
+        this.sortTable(this.sort.active, false)
+        this.sort.direction = 'desc';
+        break;
+      default:
+        this.sortTable("filename")
+        this.sort.direction = '';
+    }
+  }
+
+  private sortTable(column: string, asc: boolean = true) {
+    this.dataSource.data = this.dataSource.data.sort((a: Recipe, b: Recipe) => {
+      let value1 = RecipeModel.getValue(column, a);
+      let value2 = RecipeModel.getValue(column, b);
+      if (value1 > value2) {
+        return asc ? 1 : -1
+      } else if (value1 < value2) {
+        return asc ? -1 : 1
+      } else {
+        return 0
+      }
+    });
+  }
+
 }

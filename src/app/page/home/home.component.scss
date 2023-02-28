@@ -1,22 +1,19 @@
 h1 {
   display: flex;
-  margin: 5vh;
+  margin: 4rem;
   font-size: 100px;
 }
 
 input {
   border: 1px solid black;
+  height: 4vh;
+  width: 20vw;
 }
 
 .center {
   justify-content: center;
   align-items: center;
   display: flex;
-}
-
-input {
-  height: 4vh;
-  width: 20vw;
 }
 
 .form-field {
@@ -41,29 +38,6 @@ input {
   width: 60%;
 }
 
-.span {
-  display: inline-flex;
-  width: 100%
-}
-
-.result {
-  height: 6vh;
-  width: 40vw;
-  cursor: pointer;
-}
-
-.author {
-  justify-content: center;
-}
-
-.name {
-  width: 50%
-}
-
-.quarter {
-  width: 33%
-}
-
 .bold {
   font-weight: bold;
 }
@@ -78,35 +52,45 @@ input {
 }
 
 
-.mat-table, mat-expansion-panel, mat-label, input {
+.mat-table,
+mat-expansion-panel,
+input {
   background: #D1C4E9;
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 767px) {
-  .card-container > *:not(.circle-link),
-  .terminal {
-    width: 100%;
+@media screen and (max-width: 1400px) {
+  .results-box {
+    width: 80%;
   }
 
-  .card:not(.highlight-card) {
-    height: 16px;
-    margin: 8px 0;
-  }
-
-  .card.highlight-card span {
-    margin-left: 72px;
-  }
-
-  svg#rocket-smoke {
-    right: 120px;
-    transform: rotate(-5deg);
+  input, .form-field {
+    width: 200px;
   }
 }
 
-@media screen and (max-width: 575px) {
-  svg#rocket-smoke {
-    display: none;
-    visibility: hidden;
+@media screen and (max-width: 1100px) {
+  .results-box {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    margin: 2rem;
+    font-size: 50px;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 30px;
   }
 }
