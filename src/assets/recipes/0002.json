@@ -1,0 +1,32 @@
+{
+   "name": "Puppy Chow",
+   "author": "Linda Menz",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "family size box of Crispix"
+      },
+      {
+         "amount": 12,
+         "name": "oz. chocolate chips"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. peanut butter"
+      },
+      {
+         "amount": 1,
+         "name": "stick of butter"
+      },
+      {
+         "amount": 1,
+         "name": "box powdered suger"
+      }
+   ],
+   "instructions": "Pour cereal into large Tupperware bowl. In small saucepan melt chocolate chips, peanut butter and butter. Pour over cereal and shake until coated. Open bowl and add powdered suger. Shake untill coated",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

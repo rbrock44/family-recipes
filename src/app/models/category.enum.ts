@@ -7,3 +7,11 @@ export enum Category {
   'Breads, Rolls & Pastries' = 5,
   'Cakes, Cookies & Desserts' = 6
 }
+
+export function getCategory(num: number): string {
+  const cats = Object.keys(Category).filter((item) => {
+    return isNaN(Number(item));
+  });
+
+  return cats[num - 1]
+}

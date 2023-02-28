@@ -1,3 +1,5 @@
+import { DropdownOption } from "../models/dropdown-option.model";
+
 export const RESET_EVERYTHING_MESSAGE: string = 'This will reset everything to the default settings.';
 export const ACTION_CANCELLED_MESSAGE: string = 'Action Cancelled.';
 export const RESET_SETTINGS_SUCCESS_MESSAGE: string = 'Setting reset successfully.';
@@ -51,7 +53,15 @@ export const COLOR_OPTIONS = [
   }
 ];
 
-export const TITLE_DEFAULT = 'Home Page';
+export const CATEGORIES = [
+  new DropdownOption('', 0),
+  new DropdownOption('Appetizers, Relishes & Pickles', 1,),
+  new DropdownOption('Soups, Salads & Sauces', 2,),
+  new DropdownOption('Meats & Main Dishes', 3,),
+  new DropdownOption('Vegetables', 4,),
+  new DropdownOption('Breads, Rolls & Pastries', 5,),
+  new DropdownOption('Cakes, Cookies & Desserts', 6)
+];
 export const COLOR_DEFAULT = '--blue-color-';
 export const REFRESH_RATE_DEFAULT = 60;
 export const SHOW_SPORTS_DEFAULT = true;

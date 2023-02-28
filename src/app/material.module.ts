@@ -7,6 +7,8 @@ import {MatOptionModule} from '@angular/material/core';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatSortModule} from '@angular/material/sort';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [],
@@ -18,7 +20,9 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatInputModule,
     MatDialogModule,
     MatOptionModule,
-    MatSelectModule
+    MatSelectModule,
+    MatSortModule,
+    MatTableModule
   ],
   exports: [
     MatCheckboxModule,
@@ -28,7 +32,9 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatInputModule,
     MatDialogModule,
     MatOptionModule,
-    MatSelectModule
+    MatSelectModule,
+    MatSortModule,
+    MatTableModule
   ]
 })
 export class MaterialModule {

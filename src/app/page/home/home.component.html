@@ -1,67 +1,83 @@
-<h1 class="center">Family Recipes</h1>
+<div class="purple">
+  <h1 class="center">Family Recipes</h1>
 
-<div>
-  <div class="center">
-    <mat-form-field class="form-field">
-      <mat-label class="mat-label">Search</mat-label>
-      <div class="center">
-        <input [formControl]="searchControl"
-               data-search-input
-               matInput
-
-               type="text"
-        >
-        <div class="center">
-          <mat-icon>search</mat-icon>
-        </div>
-      </div>
-    </mat-form-field>
-  </div>
-
-
-  <div class="center">
-    <mat-accordion>
-      <mat-expansion-panel (closed)="panelOpenState = false"
-                           (opened)="panelOpenState = true">
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            Advanced Search
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-        <mat-checkbox [formControl]="familyControl">Hooper Family Only</mat-checkbox>
-
-        <div class="dropdown-ctn">
-          <div class="dropdown__label" data-dropdown-label>
-            Category
-          </div>
-          <div class="dropdown__data">
-            <mat-form-field class="dropdown-form-field">
-              <mat-select [formControl]="categoryControl">
-                <mat-option *ngFor="let cat of this.categories" [value]="cat.value" data-dropdown-option>
-                  {{cat.name}}
-                </mat-option>
-              </mat-select>
-            </mat-form-field>
-          </div>
-        </div>
-
-      </mat-expansion-panel>
-    </mat-accordion>
-  </div>
-
-  <!--  *ngIf="results.length > 0"-->
-  <div class="results">
+  <div>
     <div class="center">
-      <p class="bold">{{results.length}} Result(s)</p>
+      <mat-form-field class="form-field">
+        <mat-label class="mat-label">Search</mat-label>
+        <div class="center input">
+          <input [formControl]="searchControl" data-search-input matInput type="text">
+          <div class="center">
+            <mat-icon (click)="search('')">search</mat-icon>
+          </div>
+        </div>
+      </mat-form-field>
     </div>
+
     <div class="center">
-      <div class="results-box">
-        <div (click)="click(result)" *ngFor="let result of results" class="result center">
-          <div class="span">
-            <div class="name">{{result.name}}</div>
-            <span class="author quarter">{{result.author}}</span>
-            <span class="quarter">{{result.filename}}</span>
+      <mat-accordion>
+        <mat-expansion-panel (closed)="panelOpenState = false" (opened)="panelOpenState = true">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Advanced Search
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-checkbox [formControl]="familyControl">Hooper Family Only</mat-checkbox>
+
+          <div class="dropdown-ctn">
+            <div class="dropdown__label" data-dropdown-label>
+              Category
+            </div>
+            <div class="dropdown__data">
+              <mat-form-field class="dropdown-form-field">
+                <mat-select [formControl]="categoryControl" (selectionChange)="search()">
+                  <mat-option *ngFor="let cat of this.categories" [value]="cat.value" data-dropdown-option>
+                    {{cat.name}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
           </div>
+
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+
+    <div class="results" *ngIf="dataSource.data.length > 0">
+      <div class="center">
+        <p class="bold">{{dataSource.data.length}} Result(s)</p>
+      </div>
+      <div class="center">
+        <div class="results-box">
+          <mat-table [dataSource]="this.dataSource" matSort class="mat-elevation-z8">
+            <!-- name Column -->
+            <ng-container matColumnDef="name">
+              <mat-header-cell *matHeaderCellDef mat-sort-header>Name</mat-header-cell>
+              <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+            </ng-container>
+
+            <!-- author Column -->
+            <ng-container matColumnDef="author">
+              <mat-header-cell *matHeaderCellDef mat-sort-header>Author</mat-header-cell>
+              <mat-cell *matCellDef="let element"> {{element.author}} </mat-cell>
+            </ng-container>
+
+            <!-- category Column -->
+            <ng-container matColumnDef="category">
+              <mat-header-cell *matHeaderCellDef mat-sort-header>Category</mat-header-cell>
+              <mat-cell *matCellDef="let element"> {{getCategory(element.category)}} </mat-cell>
+            </ng-container>
+
+            <!-- filename Column -->
+            <ng-container matColumnDef="filename">
+              <mat-header-cell *matHeaderCellDef mat-sort-header>Number</mat-header-cell>
+              <mat-cell *matCellDef="let element"> {{element.filename}} </mat-cell>
+            </ng-container>
+
+
+            <mat-header-row *matHeaderRowDef="this.displayColumns"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: this.displayColumns;" (click)="click(row)"></mat-row>
+          </mat-table>
         </div>
       </div>
     </div>

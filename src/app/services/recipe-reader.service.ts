@@ -7,7 +7,7 @@ import {firstValueFrom} from 'rxjs';
   providedIn: 'root'
 })
 export class RecipeReaderService {
-  recipeTotal = 0;
+  recipeTotal = 2;
 
   constructor(private http: HttpClient) {
   }
@@ -18,8 +18,10 @@ export class RecipeReaderService {
     for (let i = 1; i < total + 1; i++) {
       let name = i + '';
       if ((i + '').length == 1) {
-        name = '00' + i;
+        name = '000' + i;
       } else if ((i + '').length == 2) {
+        name = '00' + i;
+      } else if ((i + '').length == 3) {
         name = '0' + i;
       }
 
@@ -28,14 +30,15 @@ export class RecipeReaderService {
 
     return array
   }
-
+  
   readRecipes(filenames: string[] = this.createFilenames()): Recipe[] {
     let array: Recipe[] = []
     filenames.forEach(async it => {
-      const text: string = await firstValueFrom(this.http.get(`assets/recipes/${it}.json`, {responseType: 'text'}))
+      const text: string = await this.firstValueFrom(it);
       let recipe = this.convertRecipe(text);
       recipe.filename = it;
-      array.push()
+
+      array.push(recipe);
     })
 
     return array
@@ -44,5 +47,9 @@ export class RecipeReaderService {
   convertRecipe(text: string): Recipe {
     let jsonObj = JSON.parse(text);
     return jsonObj as Recipe;
+  }
+
+  firstValueFrom(fileNumber: string): Promise<string> {
+    return firstValueFrom(this.http.get(`assets/recipes/${fileNumber}.json`, { responseType: 'text' }));
   }
 }

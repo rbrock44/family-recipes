@@ -1,0 +1,35 @@
+h1 {
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  font-size: 60px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.batch {
+    width: 60px;
+}
+
+.instructions {
+    width: 50%;
+}
+
+.ingredients-cont {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.ingredients-column {
+    width: 20vw;
+}
+
+.ingredient {
+    font-weight: bold;
+}

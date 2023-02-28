@@ -9,12 +9,14 @@ import {ReactiveFormsModule} from '@angular/forms';
 import {MaterialModule} from './material.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
     HomeComponent,
-    RecipeComponent
+    RecipeComponent,
   ],
   imports: [
     AppRoutingModule,

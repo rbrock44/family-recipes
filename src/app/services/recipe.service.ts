@@ -1,7 +1,10 @@
-import {Injectable} from '@angular/core';
-import {Recipe} from '../models/recipe.interface';
-import {RecipeReaderService} from './recipe-reader.service';
-import {Category} from '../models/category.enum';
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { cloneDeep } from 'lodash';
+import { Category } from '../models/category.enum';
+import { Recipe } from '../models/recipe.interface';
+import { RecipeReaderService } from './recipe-reader.service';
+
 
 @Injectable({
   providedIn: 'root'
@@ -16,14 +19,30 @@ export class RecipeService {
     'Joan Drury',
   ];
 
-  constructor(private reader: RecipeReaderService) {
+  constructor(
+    private http: HttpClient,
+    private reader: RecipeReaderService
+  ) {
+    this.load();
+  }
+
+  load(): void {
     this.recipes = this.reader.readRecipes();
   }
 
   search(criteria: string, category: Category = 0, onlyHooperFamily: boolean = false): Recipe[] {
-    let list = this.recipes.filter(it =>
-      it.name.indexOf(criteria) > -1 || it.author.indexOf(criteria) > -1 || it.filename.indexOf(criteria) > -1
-    );
+    let list: Recipe[] = [];
+
+    if (criteria.trim() != '') {
+      list = this.recipes.filter(it =>
+        it.name.toUpperCase().indexOf(criteria) > -1 ||
+        it.author.toUpperCase().indexOf(criteria) > -1 ||
+        it.filename.toUpperCase().indexOf(criteria) > -1
+      );
+    } else {
+      list = cloneDeep(this.recipes);
+    }
+
 
     if (category != 0) {
       list = list.filter(it => it.category == category);
@@ -36,7 +55,15 @@ export class RecipeService {
     return list;
   }
 
-  getRecipe(filename: string): Recipe {
-    return this.recipes.filter(it => it.filename == filename)[0];
+
+  readFile(fileNumber: string): void {
+    const text = this.reader.firstValueFrom(fileNumber);
+
+    text.then(value => {
+      let recipe = this.reader.convertRecipe(value);
+      recipe.filename = fileNumber;
+
+      this.recipes.push(recipe)
+    })
   }
 }

@@ -38,7 +38,7 @@ input {
 
 .results-box {
   height: 55vh;
-  width: 40vw;
+  width: 60%;
 }
 
 .span {
@@ -66,6 +66,20 @@ input {
 
 .bold {
   font-weight: bold;
+}
+
+.mat-header-row {
+  display: flex;
+}
+
+.mat-row {
+  cursor: pointer;
+  display: flex;
+}
+
+
+.mat-table, mat-expansion-panel, mat-label, input {
+  background: #D1C4E9;
 }
 
 /* Responsive Styles */

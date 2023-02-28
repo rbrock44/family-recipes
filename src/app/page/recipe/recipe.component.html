@@ -1,0 +1,33 @@
+<app-header></app-header>
+<h1 class="center">{{recipe?.name}}</h1>
+<h2 class="center">{{recipe?.author}}</h2>
+
+<div class="center">
+    <mat-form-field class="form-field batch">
+        <mat-label class="mat-label">Batches</mat-label>
+        <div class="center">
+            <input [formControl]="batchControl" data-search-input matInput type="number">
+        </div>
+    </mat-form-field>
+</div>
+
+
+<h3 class="center" *ngIf="recipe.yield.amount > 0">Serves: {{timesBatch(recipe?.yield?.amount)}} {{recipe?.yield?.name}}</h3>
+<!-- ingredients, 2 columns -->
+<div class="ingredients-cont">
+    <!-- <div class="ingredients-column left">Value1</div> -->
+    <div class="ingredients-column">
+        <span *ngFor="let ing of halfIngredients()">
+            <p class="ingredient">{{timesBatch(ing.amount)}} {{ing.name}}</p>
+        </span>
+    </div>
+    <div class="ingredients-column">
+        <span *ngFor="let ing of halfIngredients(false)">
+            <p class="ingredient">{{timesBatch(ing.amount)}} {{ing.name}}</p>
+        </span>
+    </div>
+</div>
+
+<div class="center">
+    <p class="instructions">{{recipe?.instructions}}</p>
+</div>
