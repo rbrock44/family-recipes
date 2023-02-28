@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { cloneDeep } from 'lodash';
 import { Category } from '../models/category.enum';
@@ -26,7 +25,6 @@ export class RecipeService {
   ];
 
   constructor(
-    private http: HttpClient,
     private reader: RecipeReaderService
   ) {
     this.load();

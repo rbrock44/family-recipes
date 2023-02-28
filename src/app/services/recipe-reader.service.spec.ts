@@ -5,7 +5,7 @@ import {HttpClientTestingModule} from '@angular/common/http/testing';
 import {HttpClient} from '@angular/common/http';
 import {RecipeModel} from '../models/recipe.model';
 
-describe('RecipeService', () => {
+describe('RecipeReaderService', () => {
   let reader: RecipeReaderService;
   let http: HttpClient;
 
@@ -26,16 +26,16 @@ describe('RecipeService', () => {
 
   it('should create filenames by total number', () => {
     const expected = [
-      '001',
-      '002',
-      '003',
-      '004',
-      '005',
-      '006',
-      '007',
-      '008',
-      '009',
-      '010',
+      '0001',
+      '0002',
+      '0003',
+      '0004',
+      '0005',
+      '0006',
+      '0007',
+      '0008',
+      '0009',
+      '0010',
     ];
 
     const result = reader.createFilenames(10);
@@ -44,11 +44,11 @@ describe('RecipeService', () => {
 
   it('should create filenames by total number round 2', () => {
     const expected = [
-      '001',
-      '002',
-      '003',
-      '004',
-      '005',
+      '0001',
+      '0002',
+      '0003',
+      '0004',
+      '0005',
     ];
 
     const result = reader.createFilenames(5);

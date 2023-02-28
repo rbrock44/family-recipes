@@ -1,11 +1,10 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
-import {ActivatedRoute} from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Ingredient } from 'src/app/models/ingredient.interface';
 import { RecipeReaderService } from 'src/app/services/recipe-reader.service';
-import {Recipe} from '../../models/recipe.interface';
-import {RecipeModel} from '../../models/recipe.model';
-import {RecipeService} from '../../services/recipe.service';
+import { Recipe } from '../../models/recipe.interface';
+import { RecipeModel } from '../../models/recipe.model';
 
 @Component({
   selector: 'app-root',
@@ -31,10 +30,12 @@ export class RecipeComponent {
     })
   }
 
-  timesBatch(value: any): number {
+  timesBatch(value: any): string {
     const newValue: string = value == undefined ? '0' : value.toString();
 
-    return this.batchControl.value * +newValue
+    const total = this.batchControl.value * +newValue
+
+    return total == 0 ? '' : total.toString()
   }
 
   

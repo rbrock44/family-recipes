@@ -1,0 +1,24 @@
+{
+   "name": "Water Chestnut and Bacon Appetizer",
+   "author": "Maris P.",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "water chestnuts"
+      },
+      {
+         "amount": 0,
+         "name": "soy sauce"
+      },
+      {
+         "amount": 0,
+         "name": "bacon strips"
+      }
+   ],
+   "instructions": "Wrap a whole water chestnut in half a bacon strip. Secure it with a toothpick and dip soy sauce. Broil until bacon is cripsy",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

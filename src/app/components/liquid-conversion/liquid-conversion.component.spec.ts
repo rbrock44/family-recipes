@@ -1,13 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
-import { expectElementPresent, expectElementToContainContent } from '../../constants/expectations.spec';
 import { MaterialModule } from '../../material.module';
-import { ConversionTableComponent } from './liquid-conversion.component';
+import { LiquidConversionComponent } from './liquid-conversion.component';
 
 describe('HomeComponent', () => {
-  let fixture: ComponentFixture<ConversionTableComponent>;
-  let component: ConversionTableComponent;
+  let fixture: ComponentFixture<LiquidConversionComponent>;
+  let component: LiquidConversionComponent;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -17,11 +16,11 @@ describe('HomeComponent', () => {
         RouterTestingModule
       ],
       declarations: [
-        ConversionTableComponent
+        LiquidConversionComponent
       ],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ConversionTableComponent);
+    fixture = TestBed.createComponent(LiquidConversionComponent);
     component = fixture.componentInstance;
   });
 

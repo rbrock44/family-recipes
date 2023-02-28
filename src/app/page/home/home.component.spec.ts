@@ -4,6 +4,7 @@ import {HomeComponent} from './home.component';
 import {expectElementPresent, expectElementToContainContent} from '../../constants/expectations.spec';
 import {MaterialModule} from '../../material.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 describe('HomeComponent', () => {
   let fixture: ComponentFixture<HomeComponent>;
@@ -13,6 +14,7 @@ describe('HomeComponent', () => {
     await TestBed.configureTestingModule({
       imports: [
         BrowserAnimationsModule,
+        HttpClientTestingModule,
         MaterialModule,
         RouterTestingModule
       ],
