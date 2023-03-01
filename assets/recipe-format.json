@@ -1,0 +1,24 @@
+{
+  "name": "Example",
+  "author": "Ryan",
+  "category": 1,
+  "ingredients": [
+    {
+      "name": "a",
+      "amount": 1
+    },
+    {
+      "name": "b",
+      "amount": 2
+    },
+    {
+      "name": "c",
+      "amount": 3
+    }
+  ],
+  "instructions": "how to",
+  "yield": {
+    "name": "b",
+    "amount": 12
+  }
+}

@@ -1,0 +1,44 @@
+{
+   "name": "Traditional Party Mix",
+   "author": "Elaine Heuring",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. butter or margarin"
+      },
+      {
+         "amount": 1.25,
+         "name": "tsp. seasoned salt"
+      },
+      {
+         "amount": 4.5,
+         "name": "tsp. Worcestershire sauce"
+      },
+      {
+         "amount": 2,
+         "name": "c. Corn Chex cereal"
+      },
+      {
+         "amount": 2,
+         "name": "c. Rice Chex cereal"
+      },
+      {
+         "amount": 2,
+         "name": "c. Bran Chex cereal"
+      },
+      {
+         "amount": 2,
+         "name": "c. Wheat Chex cereal"
+      },
+      {
+         "amount": 1,
+         "name": "c. salted mixed nuts"
+      }
+   ],
+   "instructions": "Preheat oven to 250°. Heat butter in large shallow roasting pan (about 15x10x2 inches) in oven until melted. Remove. Stir in season salt and Wercestshire sauce. Add Chex and nuts. Mix until all pieces are coated. Heat in oven 1 hour. Stir every 15 minutes. Spread on absorbant paper to cool.",
+   "yield": {
+      "amount": 9,
+      "name": "cups"
+   }
+}
