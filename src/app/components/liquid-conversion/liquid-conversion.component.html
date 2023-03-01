@@ -1,24 +1,24 @@
 <div class="purple">
 
   <div class="results-box">
-    <mat-table [dataSource]="this.dataSource" matSort class="mat-elevation-z8">
+    <mat-table [dataSource]="this.dataSource" class="mat-elevation-z8">
       <ng-container matColumnDef="gallons">
-        <mat-header-cell *matHeaderCellDef mat-sort-header>Gallons</mat-header-cell>
+        <mat-header-cell *matHeaderCellDef>gallons</mat-header-cell>
         <mat-cell *matCellDef="let element"> {{element.gallons}} </mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="quarts">
-        <mat-header-cell *matHeaderCellDef mat-sort-header>Quarts</mat-header-cell>
+        <mat-header-cell *matHeaderCellDef>quarts</mat-header-cell>
         <mat-cell *matCellDef="let element"> {{element.quarts}} </mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="pints">
-        <mat-header-cell *matHeaderCellDef mat-sort-header>Pints</mat-header-cell>
+        <mat-header-cell *matHeaderCellDef>pints</mat-header-cell>
         <mat-cell *matCellDef="let element"> {{element.pints}} </mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="cups">
-        <mat-header-cell *matHeaderCellDef mat-sort-header>Cups</mat-header-cell>
+        <mat-header-cell *matHeaderCellDef>cups</mat-header-cell>
         <mat-cell *matCellDef="let element"> {{element.cups}} </mat-cell>
       </ng-container>
 
