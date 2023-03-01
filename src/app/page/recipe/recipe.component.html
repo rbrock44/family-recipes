@@ -30,21 +30,21 @@
 </div>
 
 <div class="center">
-    <p class="instructions">{{recipe?.instructions}}</p>
+    <p class="instructions center">{{recipe?.instructions}}</p>
 </div>
 
 <div class="spacer" *ngIf="!showDry && !showLiquid"></div>
 
 <div class="center column" *ngIf="showLiquid">
     <span>
-        <h3 class="conversion-title" (click)="close()">Liquid Conversions</h3>
+        <h3 class="conversion-title button style" (click)="close()">Liquid Conversions</h3>
     </span>
     <app-liquid-conversion></app-liquid-conversion>
 </div>
 
 <div class="center column" *ngIf="showDry">
     <span>
-        <h3 class="conversion-title" (click)="close(false)">Dry Conversions</h3>
+        <h3 class="conversion-title button style" (click)="close(false)">Dry Conversions</h3>
     </span>
     <app-dry-conversion></app-dry-conversion>
 </div>

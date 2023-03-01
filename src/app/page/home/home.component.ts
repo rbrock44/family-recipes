@@ -40,8 +40,7 @@ export class HomeComponent implements OnInit {
     this.dataSource.sort = this.sort;
 
     this.searchControl.valueChanges.pipe(
-      debounceTime(400),
-      distinctUntilChanged()
+      debounceTime(300)
     ).subscribe(value => {
       this.search(value);
     });

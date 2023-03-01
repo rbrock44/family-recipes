@@ -37,18 +37,13 @@ export class RecipeService {
   search(criteria: string, category: Category = 0, onlyHooperFamily: boolean = false): Recipe[] {
     let list: Recipe[] = [];
 
-    let crit = criteria.toUpperCase().trim();
+    let crits = criteria.toUpperCase().trim().split(' ');
 
-    if (crit.trim() != '') {
-      list = this.recipes.filter(it =>
-        it.name.toUpperCase().indexOf(crit) > -1 ||
-        it.author.toUpperCase().indexOf(crit) > -1 ||
-        it.filename.toUpperCase().indexOf(crit) > -1
-      );
+    if (crits[0].trim() != '') {
+      list = this.recipes.filter(it => this.matchesAllCriteria(crits, it));
     } else {
       list = cloneDeep(this.recipes);
     }
-
 
     if (category != 0) {
       list = list.filter(it => it.category == category);
@@ -61,7 +56,6 @@ export class RecipeService {
     return list;
   }
 
-
   readFile(fileNumber: string): void {
     const text = this.reader.firstValueFrom(fileNumber);
 
@@ -71,5 +65,17 @@ export class RecipeService {
 
       this.recipes.push(recipe)
     })
+  }
+
+  private matchesAllCriteria(criteria: string[], recipe: Recipe): boolean {
+    let value = true;
+
+    criteria.forEach(it => {
+      value = value && (recipe.name.toUpperCase().indexOf(it) > -1 ||
+        recipe.author.toUpperCase().indexOf(it) > -1 ||
+        recipe.filename.toUpperCase().indexOf(it) > -1)
+    })
+
+    return value;
   }
 }
