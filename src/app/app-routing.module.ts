@@ -9,13 +9,9 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: 'home',
-    component: HomeComponent,
-  },
-  {
-    path: 'recipe/:filename',
+    path: ':filename',
     component: RecipeComponent,
-  },
+  }
 ];
 
 @NgModule({

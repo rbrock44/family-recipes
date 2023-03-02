@@ -54,7 +54,7 @@ export class HomeComponent implements OnInit {
   }
 
   click(recipe: Recipe): void {
-    this.router.navigateByUrl(`/recipe/${recipe.filename}`).then();
+    this.router.navigateByUrl(`/${recipe.filename}`).then();
   }
 
   search(value: string = this.searchControl.value): void {
