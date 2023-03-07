@@ -67,6 +67,22 @@ export class RecipeService {
     })
   }
 
+  firstValueFrom(fileNumber: string): Promise<string> {
+    return this.reader.firstValueFrom(fileNumber);
+  }
+
+  convertRecipe(text: string): Recipe {
+    return this.reader.convertRecipe(text);
+  }
+
+  addToFavorites(fileNumber: string): void {
+    this.reader.addToFavorites(fileNumber);
+  }
+
+  readFavorites(): string[] {
+    return this.reader.readFavorites();
+  }
+
   private matchesAllCriteria(criteria: string[], recipe: Recipe): boolean {
     let value = true;
 

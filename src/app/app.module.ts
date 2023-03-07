@@ -12,6 +12,7 @@ import { MaterialModule } from './material.module';
 import { HomeComponent } from './page/home/home.component';
 import { RecipeComponent } from './page/recipe/recipe.component';
 import { DryConversionComponent } from './components/dry-conversion/dry-conversion.component';
+import { RecipeTableComponent } from './components/recipe-table/recipe-table.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { DryConversionComponent } from './components/dry-conversion/dry-conversi
     HomeComponent,
     LiquidConversionComponent,
     RecipeComponent,
+    RecipeTableComponent
   ],
   imports: [
     AppRoutingModule,

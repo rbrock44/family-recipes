@@ -8,6 +8,7 @@ import {firstValueFrom} from 'rxjs';
 })
 export class RecipeReaderService {
   recipeTotal = 3;
+  FAVORITE_NAME = "family-recipe-favorites"
 
   constructor(private http: HttpClient) {
   }
@@ -51,5 +52,17 @@ export class RecipeReaderService {
 
   firstValueFrom(fileNumber: string): Promise<string> {
     return firstValueFrom(this.http.get(`assets/recipes/${fileNumber}.json`, { responseType: 'text' }));
+  }
+
+  addToFavorites(fileNumber: string): void {
+    let favorites: string[] = this.readFavorites(); 
+    favorites.push(fileNumber);
+    localStorage.setItem(this.FAVORITE_NAME, JSON.stringify(favorites));
+  }
+
+  readFavorites(): string[] {
+    let favs = localStorage.getItem(this.FAVORITE_NAME);
+    let favorites: string[] = !!favs ? JSON.parse(this.FAVORITE_NAME) : ["0003"];
+    return favorites;
   }
 }

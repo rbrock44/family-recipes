@@ -14,9 +14,9 @@
       </mat-form-field>
     </div>
 
-    <div class="center">
+    <div class="center searchDiv">
       <mat-accordion>
-        <mat-expansion-panel (closed)="panelOpenState = false" (opened)="panelOpenState = true">
+        <mat-expansion-panel>
           <mat-expansion-panel-header>
             <mat-panel-title>
               Advanced Search
@@ -43,43 +43,21 @@
       </mat-accordion>
     </div>
 
-    <div class="results" *ngIf="dataSource.data.length > 0">
-      <div class="center">
-        <p class="bold">{{dataSource.data.length}} Result(s)</p>
-      </div>
-      <div class="center">
-        <div class="results-box">
-          <mat-table [dataSource]="this.dataSource" matSort class="mat-elevation-z8" (matSortChange)="sortData()">
-            <!-- name Column -->
-            <ng-container matColumnDef="name">
-              <mat-header-cell *matHeaderCellDef mat-sort-header>Name</mat-header-cell>
-              <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
-            </ng-container>
+    <div class="center" *ngIf="favoritesDataSource.data.length > 0">
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Favorites
+            </mat-panel-title>
+          </mat-expansion-panel-header>
 
-            <!-- author Column -->
-            <ng-container matColumnDef="author">
-              <mat-header-cell *matHeaderCellDef mat-sort-header>Author</mat-header-cell>
-              <mat-cell *matCellDef="let element"> {{element.author}} </mat-cell>
-            </ng-container>
+          <app-recipe-table [dataSource]="favoritesDataSource" [removeColumns]="true"></app-recipe-table>
 
-            <!-- category Column -->
-            <ng-container matColumnDef="category">
-              <mat-header-cell *matHeaderCellDef mat-sort-header>Category</mat-header-cell>
-              <mat-cell *matCellDef="let element"> {{getCategory(element.category)}} </mat-cell>
-            </ng-container>
-
-            <!-- filename Column -->
-            <ng-container matColumnDef="filename">
-              <mat-header-cell *matHeaderCellDef mat-sort-header>Number</mat-header-cell>
-              <mat-cell *matCellDef="let element"> {{element.filename}} </mat-cell>
-            </ng-container>
-
-
-            <mat-header-row *matHeaderRowDef="this.displayColumns"></mat-header-row>
-            <mat-row *matRowDef="let row; columns: this.displayColumns;" (click)="click(row)"></mat-row>
-          </mat-table>
-        </div>
-      </div>
+        </mat-expansion-panel>
+      </mat-accordion>
     </div>
+
+    <app-recipe-table [dataSource]="dataSource"></app-recipe-table>
   </div>
 </div>

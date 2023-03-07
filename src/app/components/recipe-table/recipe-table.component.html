@@ -1,0 +1,38 @@
+<div [ngClass]="getResultClass()" *ngIf="dataSource.data.length > 0">
+  <div class="center">
+    <p class="bold">{{dataSource.data.length}} Result(s)</p>
+  </div>
+  <div class="center">
+    <div  [ngClass]="getResultBoxClass()">
+      <mat-table [dataSource]="this.dataSource" matSort class="mat-elevation-z8" (matSortChange)="sortData()">
+        <!-- name Column -->
+        <ng-container matColumnDef="name">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Name</mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+        </ng-container>
+
+        <!-- author Column -->
+        <ng-container matColumnDef="author">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Author</mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.author}} </mat-cell>
+        </ng-container>
+
+        <!-- category Column -->
+        <ng-container matColumnDef="category">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Category</mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{getCategory(element.category)}} </mat-cell>
+        </ng-container>
+
+        <!-- filename Column -->
+        <ng-container matColumnDef="filename">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Number</mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.filename}} </mat-cell>
+        </ng-container>
+
+
+        <mat-header-row *matHeaderRowDef="this.displayColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: this.displayColumns;" (click)="click(row)"></mat-row>
+      </mat-table>
+    </div>
+  </div>
+</div>

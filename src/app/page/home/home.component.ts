@@ -24,21 +24,15 @@ export class HomeComponent implements OnInit {
   familyControl: FormControl = new FormControl(false);
 
   dataSource = new MatTableDataSource<Recipe>();
-  displayColumns: string[] = ['name', 'author', 'category', 'filename'];
-
-  // @ts-ignore
-  @ViewChild(MatSort) sort: MatSort;
+  favoritesDataSource = new MatTableDataSource<Recipe>();
 
   categories = CATEGORIES;
 
   constructor(
-    private router: Router,
     private service: RecipeService
   ) { }
 
   ngOnInit(): void {
-    this.dataSource.sort = this.sort;
-
     this.searchControl.valueChanges.pipe(
       debounceTime(300)
     ).subscribe(value => {
@@ -51,10 +45,8 @@ export class HomeComponent implements OnInit {
     ).subscribe(() => {
       this.search();
     });
-  }
 
-  click(recipe: Recipe): void {
-    this.router.navigateByUrl(`/${recipe.filename}`).then();
+    this.loadFavorites();
   }
 
   search(value: string = this.searchControl.value): void {
@@ -69,34 +61,13 @@ export class HomeComponent implements OnInit {
     return getCategory(categoryNumber);
   }
 
-  sortData(): void {
-    switch (this.sort.direction) {
-      case 'asc':
-        this.sortTable(this.sort.active)
-        this.sort.direction = 'asc';
-        break;
-      case 'desc':
-        this.sortTable(this.sort.active, false)
-        this.sort.direction = 'desc';
-        break;
-      default:
-        this.sortTable("filename")
-        this.sort.direction = '';
-    }
-  }
-
-  private sortTable(column: string, asc: boolean = true) {
-    this.dataSource.data = this.dataSource.data.sort((a: Recipe, b: Recipe) => {
-      let value1 = RecipeModel.getValue(column, a);
-      let value2 = RecipeModel.getValue(column, b);
-      if (value1 > value2) {
-        return asc ? 1 : -1
-      } else if (value1 < value2) {
-        return asc ? -1 : 1
-      } else {
-        return 0
-      }
+  loadFavorites(): void {
+    this.service.readFavorites().forEach(filename => {
+      this.service.firstValueFrom(filename).then(contents => {
+        let recipe = this.service.convertRecipe(contents)
+        recipe.filename = filename;
+        this.favoritesDataSource.data = this.favoritesDataSource.data.concat(recipe)
+      });
     });
   }
-
 }
