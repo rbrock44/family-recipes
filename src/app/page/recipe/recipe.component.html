@@ -1,6 +1,10 @@
 <app-header></app-header>
 <h1 class="center">{{recipe?.name}}</h1>
 <h2 class="center">{{recipe?.author}}</h2>
+<h2 class="center">
+    <mat-icon *ngIf="isFavorite()" (click)="unfavorite()">favorite</mat-icon>
+    <mat-icon *ngIf="!isFavorite()" (click)="favorite()">favorite_border</mat-icon>
+</h2>
 
 <div class="center">
     <mat-form-field class="form-field batch">

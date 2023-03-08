@@ -17,14 +17,16 @@ export class RecipeComponent {
   recipe: Recipe = new RecipeModel();
   batchControl: FormControl = new FormControl(1, [Validators.min(1), Validators.pattern("^[1-9][0-9]*$")]);
 
+  filename: string = ""
+
   constructor(
     private route: ActivatedRoute,
     private service: RecipeReaderService
   ) {
     this.route.paramMap.subscribe(params => {
       let value = params.get('filename');
-      value = value != null ? value.toString() : '001';
-      this.service.firstValueFrom(value).then(it => {
+      this.filename = value != null ? value.toString() : '001';
+      this.service.firstValueFrom(this.filename).then(it => {
         this.recipe = this.service.convertRecipe(it)
       });
     })
@@ -32,15 +34,14 @@ export class RecipeComponent {
 
   timesBatch(value: any): string {
     const newValue: string = value == undefined ? '0' : value.toString();
-
     const total = this.batchControl.value * +newValue
 
     return total == 0 ? '' : total.toString()
   }
 
-  
+
   halfIngredients(firstHalf: boolean = true): Ingredient[] {
-    const half = Math.ceil(this.recipe.ingredients.length / 2); 
+    const half = Math.ceil(this.recipe.ingredients.length / 2);
 
     if (firstHalf) {
       return this.recipe.ingredients.slice(0, half)
@@ -50,11 +51,11 @@ export class RecipeComponent {
   }
 
   close(isLiquid: boolean = true): void {
-      if (isLiquid) {
-        this.showLiquid = false;
-      } else {
-        this.showDry = false;
-      }
+    if (isLiquid) {
+      this.showLiquid = false;
+    } else {
+      this.showDry = false;
+    }
   }
 
   open(isLiquid: boolean = true): void {
@@ -63,5 +64,17 @@ export class RecipeComponent {
     } else {
       this.showDry = true;
     }
-}
+  }
+
+  isFavorite(): boolean {
+    return this.service.readFavorites().indexOf(this.filename) > -1;
+  }
+
+  favorite(): void {
+    this.service.addToFavorites(this.filename);
+  }
+
+  unfavorite(): void {
+    this.service.removeFromFavorites(this.filename);
+  }
 }

@@ -1,7 +1,7 @@
-import {Injectable} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
-import {Recipe} from '../models/recipe.interface';
-import {firstValueFrom} from 'rxjs';
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Recipe } from '../models/recipe.interface';
+import { firstValueFrom } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -31,7 +31,7 @@ export class RecipeReaderService {
 
     return array
   }
-  
+
   readRecipes(filenames: string[] = this.createFilenames()): Recipe[] {
     let array: Recipe[] = []
     filenames.forEach(async it => {
@@ -55,14 +55,25 @@ export class RecipeReaderService {
   }
 
   addToFavorites(fileNumber: string): void {
-    let favorites: string[] = this.readFavorites(); 
+    let favorites: string[] = this.readFavorites();
     favorites.push(fileNumber);
-    localStorage.setItem(this.FAVORITE_NAME, JSON.stringify(favorites));
+    this.setFavorites(favorites);
+  }
+
+  removeFromFavorites(fileNumber: string): void {
+    let favorites: string[] = this.readFavorites();
+    favorites = favorites.filter(it => it != fileNumber);
+    
+    this.setFavorites(favorites);
   }
 
   readFavorites(): string[] {
     let favs = localStorage.getItem(this.FAVORITE_NAME);
-    let favorites: string[] = !!favs ? JSON.parse(this.FAVORITE_NAME) : ["0003"];
+    let favorites: string[] = !!favs ? JSON.parse(favs) : [];
     return favorites;
+  }
+
+  private setFavorites(favorites: string[]) {
+    localStorage.setItem(this.FAVORITE_NAME, JSON.stringify(favorites));
   }
 }
