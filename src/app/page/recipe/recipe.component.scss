@@ -88,6 +88,10 @@ h1 {
     height: 100px
 }
 
+.underline {
+    border-bottom: solid #7E57C2;
+}
+
 @media screen and (max-width: 1200px) {
     .ingredients-column {
         width: 250px;

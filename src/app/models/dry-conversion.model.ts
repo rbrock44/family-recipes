@@ -8,7 +8,7 @@ export class DryConversion  {
   teaspoons: number = 0;
   cups: number = 0;
   
-  public constructor(cups: number, teaspoons: number, tablespoons: number, grams: number) {
+  public constructor(cups: number, tablespoons: number, teaspoons: number, grams: number) {
     this.grams = grams;
     this.tablespoons = tablespoons;
     this.teaspoons = teaspoons;

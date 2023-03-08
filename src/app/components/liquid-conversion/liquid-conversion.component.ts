@@ -10,5 +10,5 @@ import { LiquidConversion } from 'src/app/models/liquid-conversion.model';
 })
 export class LiquidConversionComponent {
   dataSource = new MatTableDataSource<LiquidConversion>(LIQUID_CONVERSIONS);
-  displayColumns: string[] = ['gallons', 'quarts', 'cups', 'pints'];
+  displayColumns: string[] = ['gallons', 'cups', 'quarts', 'pints'];
 }

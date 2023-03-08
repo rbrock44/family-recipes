@@ -8,7 +8,7 @@ export class LiquidConversion  {
   pints: number = 0;
   cups: number = 0;
   
-  public constructor(gallons: number, quarts: number, pints: number, cups: number) {
+  public constructor(gallons: number, cups: number, quarts: number, pints: number, ) {
     this.gallons = gallons;
     this.quarts = quarts;
     this.pints = pints;

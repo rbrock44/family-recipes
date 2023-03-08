@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
+import { REGEX_TO_HIGHLIGHT } from 'src/app/constants/constants';
 import { Ingredient } from 'src/app/models/ingredient.interface';
 import { RecipeReaderService } from 'src/app/services/recipe-reader.service';
 import { Recipe } from '../../models/recipe.interface';
@@ -76,5 +77,21 @@ export class RecipeComponent {
 
   unfavorite(): void {
     this.service.removeFromFavorites(this.filename);
+  }
+
+  shouldUnderline(ingredient: Ingredient): string {
+    let value = '';
+    let display: string = this.getIngredientDisplay(ingredient);
+    REGEX_TO_HIGHLIGHT.forEach(regex => {
+      if (display.search(regex) > -1) {
+        value = 'underline';  
+      }
+    });
+
+    return value;
+  }
+
+  getIngredientDisplay(ingredient: Ingredient): string {
+    return `${this.timesBatch(ingredient.amount)} ${ingredient.name}`
   }
 }

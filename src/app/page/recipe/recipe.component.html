@@ -23,12 +23,12 @@
     <!-- <div class="ingredients-column left">Value1</div> -->
     <div class="ingredients-column">
         <span *ngFor="let ing of halfIngredients()">
-            <p class="ingredient">{{timesBatch(ing.amount)}} {{ing.name}}</p>
+            <p class="ingredient" [ngClass]="shouldUnderline(ing)">{{getIngredientDisplay(ing)}}</p>
         </span>
     </div>
     <div class="ingredients-column">
         <span *ngFor="let ing of halfIngredients(false)">
-            <p class="ingredient">{{timesBatch(ing.amount)}} {{ing.name}}</p>
+            <p class="ingredient" [ngClass]="shouldUnderline(ing)">{{getIngredientDisplay(ing)}}</p>
         </span>
     </div>
 </div>
