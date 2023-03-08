@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "gh-pages": "gh-pages -d dist/family-recipes",
-    "deploy": "ng build --prod --base-href=https://rbrock44.github.io/family-recipes/"
+    "deploy": "ng build --base-href=https://rbrock44.github.io/family-recipes/"
   },
   "private": true,
   "dependencies": {
