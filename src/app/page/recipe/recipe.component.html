@@ -23,12 +23,12 @@
     <!-- <div class="ingredients-column left">Value1</div> -->
     <div class="ingredients-column">
         <span *ngFor="let ing of halfIngredients()">
-            <p class="ingredient" [ngClass]="shouldUnderline(ing)">{{getIngredientDisplay(ing)}}</p>
+            <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">{{getIngredientDisplay(ing)}}</p>
         </span>
     </div>
     <div class="ingredients-column">
         <span *ngFor="let ing of halfIngredients(false)">
-            <p class="ingredient" [ngClass]="shouldUnderline(ing)">{{getIngredientDisplay(ing)}}</p>
+            <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">{{getIngredientDisplay(ing)}}</p>
         </span>
     </div>
 </div>

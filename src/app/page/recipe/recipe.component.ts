@@ -80,18 +80,26 @@ export class RecipeComponent {
   }
 
   shouldUnderline(ingredient: Ingredient): string {
-    let value = '';
-    let display: string = this.getIngredientDisplay(ingredient);
-    REGEX_TO_HIGHLIGHT.forEach(regex => {
-      if (display.search(regex) > -1) {
-        value = 'underline';  
-      }
-    });
-
-    return value;
+    return this.regexMatch(ingredient, 'underline');
   }
 
   getIngredientDisplay(ingredient: Ingredient): string {
     return `${this.timesBatch(ingredient.amount)} ${ingredient.name}`
+  }
+
+  getTitle(ingredient: Ingredient): string {
+      return this.regexMatch(ingredient, 'Possible conversion detected');
+  }
+
+  private regexMatch(ingredient: Ingredient, matchValue: string): string {
+    let value = '';
+    let display: string = this.getIngredientDisplay(ingredient);
+    REGEX_TO_HIGHLIGHT.forEach(regex => {
+      if (display.search(regex) > -1) {
+        value = matchValue;  
+      }
+    });
+
+    return value;
   }
 }
