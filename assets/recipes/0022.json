@@ -1,0 +1,20 @@
+{
+   "name": "Fruit Dip",
+   "author": "Christine Estes",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "large jar of marshmallow creme"
+      }
+   ],
+   "instructions": "Mix together until smooth. Great with strawberries and grapes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

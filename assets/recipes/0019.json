@@ -1,0 +1,36 @@
+{
+   "name": "Fruit Dip",
+   "author": "Marilyn Friend",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. pineapple juice "
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten "
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. sugar"
+      },
+	  {
+         "amount": 1,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 10,
+         "name": "c. Cool Whip"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. flour"
+      }
+   ],
+   "instructions": "Combine sugar and flour in saucepan. Add enough pineapple juice to make smooth paste. Slowly stir in rest of juice. Cook over medium heat until thick. Stir in remaining ingredients. Cook until thick. Cool. Fold in Cool Whip just before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

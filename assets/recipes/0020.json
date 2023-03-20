@@ -1,0 +1,16 @@
+{
+   "name": "Caramel Dip",
+   "author": "Charlotte Hooper",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can sweetened condensed milk"
+      }
+   ],
+   "instructions": "Boil the unopened can for 1 1?2 hours. This makes a great dip for apples.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

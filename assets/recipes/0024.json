@@ -1,0 +1,28 @@
+{
+   "name": "Fruit Cheese Dip",
+   "author": "Shari Landewe",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese, softened"
+      },
+      {
+         "amount": 1,
+         "name": "small banana, mashed"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. ground nutmeg"
+      },
+	  {
+         "amount": 0.5,
+         "name": "c. canned crushed pineapple"
+      }
+   ],
+   "instructions": "Mix all ingredients together and serve with apple wedges, pear wedges, strawberries or other fruit dippers.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

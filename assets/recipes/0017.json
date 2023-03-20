@@ -1,0 +1,20 @@
+{
+   "name": "Diabetic Caramel Popcorn",
+   "author": "Charlotte Hooper",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "c. popped popcorn"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. honey"
+      }
+   ],
+   "instructions": "Spread popcorn evenly in large, shallow baking pan. In small saucepan, melt margarine and blend in honey. Pour over popcorn, stirring to coat all pieces. Bake at 325° for 8 to 10 minutes, stirring often. Cool slightly in pan before removing. Store in airtight contain- er. Serving size: 1 cup. Per serving: calories: 108, carbohydrate: 16g, protein: 2g, fat: 4 g, sodium: 42 mg. Exchanges per serving: 1 starch, 1 fat.",
+   "yield": {
+      "amount": 6,
+      "name": "cups"
+   }
+}

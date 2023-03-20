@@ -1,0 +1,28 @@
+{
+   "name": "Popcorn Balls",
+   "author": "Cheryl Stone",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "gallon popped corn"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. marshmallows"
+      },
+	  {
+         "amount": 3,
+         "name": "Tbsp. margarine"
+      }
+   ],
+   "instructions": "Melt marshmallows and margarine over low heat, stirring constantly. Add vanilla. Pour mixture over popped corn and shape into balls. Place on waxed paper.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

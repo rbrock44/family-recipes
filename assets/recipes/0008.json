@@ -1,0 +1,28 @@
+{
+   "name": "Appetizer Meatballs Sauce",
+   "author": "Kristie Milam",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "14 oz. bottle of hot or regular ketchup"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 1,
+         "name": "12 oz. jar of apple jelly"
+      },
+	  {
+         "amount": 1,
+         "name": "12 oz. jar of currant jelly"
+      }
+   ],
+   "instructions": "Combine ketchup and cornstarch in roasting pan. Stir in jellies; add meatballs. Cover and bake for 30 minutes.",
+   "yield": {
+      "amount": 8,
+      "name": "dozen"
+   }
+}
