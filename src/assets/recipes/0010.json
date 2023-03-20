@@ -1,0 +1,40 @@
+{
+   "name": "Hush Puppies",
+   "author": "Shirley Drury",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "onion, finely chopped, if desired"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. milk"
+      } ,
+	  {
+         "amount": 3,
+         "name": "c. corn meal"
+      },
+      {
+         "amount": 1,
+         "name": "egg, if desired"
+      }
+   ],
+   "instructions": "Beat together the corn meal, baking powder, salt, milk and water. Blend in egg and onion. With hands, mold mixture into little cakes (about 1 tablespoon each) and fry in about 1 inch deep fat until well browned (1 1/2 minutes on each side). Drain on paper. Serve very hot.",
+   "yield": {
+      "amount": 2,
+      "name": "dozen"
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "name": "Sausage Balls",
+   "author": "Maris Elizabeth",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "c. Bisquick"
+      },
+      {
+         "amount": 1,
+         "name": "lb. sharp Cheddar cheese"
+      },
+      {
+         "amount": 1,
+         "name": "lb. hot sausage"
+      }
+   ],
+   "instructions": "Blend, shape into small balls. Bake at 350 degrees for 25 minutes",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

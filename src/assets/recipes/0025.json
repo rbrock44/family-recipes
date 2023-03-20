@@ -1,0 +1,24 @@
+{
+   "name": "Ro-Tel Cheese Dip",
+   "author": "Marilyn Friend",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can Ro-Tel tomatoes"
+      },
+      {
+         "amount": 2,
+         "name": "2 lb. Velveeta cheese"
+      },
+      {
+         "amount": 1,
+         "name": "Chips (Doritos)"
+      }
+   ],
+   "instructions": "Combine cheese (cubed) and can of Ro-Tel tomatoes (cut up); heat until cheese is melted. Great with Doritos chips. You may also add browned ground beef to cheese dip.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

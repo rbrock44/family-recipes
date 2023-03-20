@@ -1,0 +1,44 @@
+{
+   "name": "Mexi Dip",
+   "author": "Carol Peters",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. dry mustard"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. chili powder"
+      },
+	  {
+         "amount": 1,
+         "name": "(8 oz.) can tomato sauce"
+      },
+      {
+         "amount": 1,
+         "name": "small onion (finely chopped)"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. taco seasoning mix"
+      },
+	  {
+         "amount": 0.5,
+         "name": "medium green pepper, finely chopped"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) can mashed refried beans"
+      }
+   ],
+   "instructions": "May use about 4 c. jalapeno peppers, if desired. Cook and stir ground beef in 10 inch skillet until brown; drain. Stir in mustard, chili powder, onion, peppers, beans, tomato sauce and seasoning mix. Heat to boiling, stirring constantly. Spread in ungreased 9 inch casserole dish.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "name": "Fruit Dip",
+   "author": "Rebecca Hooper",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "small container Cool Whip"
+      },
+      {
+         "amount": 2,
+         "name": "(8 oz.) pkg. fruit flavored cream cheese"
+      },
+      {
+         "amount": 2,
+         "name": "(7 oz.) jars marshmallow cream"
+      }
+   ],
+   "instructions": "Cream the cream cheese; add marshmallow cream. When well blended, add Cool Whip. Serve with chunks of cantaloupe, honeydew melon, pineapple, apple, banana, grapes, strawberries, etc.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

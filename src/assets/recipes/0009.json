@@ -1,0 +1,48 @@
+{
+   "name": "Hush Puppies",
+   "author": "Annita Layton",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. cornmeal"
+      },
+      {
+         "amount": 1,
+         "name": "onion, chopped"
+      } ,
+	  {
+         "amount": 1,
+         "name": "Tbsp. oil"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+	  {
+         "amount": 0.75,
+         "name": "c. buttermilk"
+      },
+	  {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

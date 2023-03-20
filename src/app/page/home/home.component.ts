@@ -33,6 +33,9 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    document.querySelectorAll('[type=search]').forEach((element) => {
+      this.blurKeyboard(element);
+    });
     this.searchControl.valueChanges.pipe(
       debounceTime(300)
     ).subscribe(value => {
@@ -48,6 +51,14 @@ export class HomeComponent implements OnInit {
 
     this.loadFavorites();
   }
+
+  blurKeyboard(element: any) {
+    element.addEventListener('keyup', (keyboardEvent: any) => {
+      if (keyboardEvent.code === 'Enter') {
+        element.blur();
+      }
+    });
+  };
 
   search(value: string = this.searchControl.value): void {
     this.dataSource.data = this.service.search(

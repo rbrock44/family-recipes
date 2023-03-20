@@ -1,0 +1,28 @@
+{
+   "name": "Dip for Apples",
+   "author": "Gale Ledure",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese (softened)"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+	  {
+         "amount": 1,
+         "name": "c. Honey Roasted peanuts (chopped)"
+      }
+   ],
+   "instructions": "Mix together and dip your apples in.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

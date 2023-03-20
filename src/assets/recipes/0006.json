@@ -1,0 +1,28 @@
+ {
+   "name": "Sausage Snacks Italiano",
+   "author": "Rick Schlosser",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "8 oz. can Pillsbury quick crescent dinner rolls"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. grated Parmesan cheese"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. oregano"
+      },
+	  {
+         "amount": 8,
+         "name": "Brown 'N Serve sausage links"
+      }
+   ],
+   "instructions": "Separate crescent dough into 4 rectangles; press perforations to seal. Combine cheese and oregano; sprinkle over dough. Cut each dough rectangle crosswise to form 2 squares. Place a sausage link on each square; roll up. Cut each roll into 3 or 4 pieces. Secure each with a toothpick. Place cut side down on an ungreased cookie sheet. Bake at 375 degrees for 12 to 15 minutes until golden brown. Refrigerate any leftovers.",
+   "yield": {
+      "amount": 2,
+      "name": "dozen appetizers"
+   }
+}

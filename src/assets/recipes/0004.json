@@ -1,0 +1,40 @@
+{
+   "name": "Miniature Pizza Snacks",
+   "author": "Ramona Bess",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. hot sausage"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. garlic bread"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. oregano"
+      } ,
+	  {
+         "amount": 1,
+         "name": "lb. Velveeta cheese"
+      } ,
+	  {
+         "amount": 1,
+         "name": "Tbsp. Worcestershire sauce"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. catsup"
+      },
+      {
+         "amount": 1,
+         "name": "Party rye bread"
+      }
+   ],
+   "instructions": "Brown sausage and drain. Add cheese and remaining ingredients. Spread on party rye bread. Bake at 375 degrees for 5 minutes on middle rack. May be frozen",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

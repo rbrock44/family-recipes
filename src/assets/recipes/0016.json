@@ -1,0 +1,40 @@
+{
+   "name": "Oven Baked Popcorn",
+   "author": "Shirley Drury",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "qt. popped corn (or +1 per batch)"
+      },
+      {
+         "amount": 2,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. margarine"
+      },
+	  {
+         "amount": 0.5,
+         "name": "c. white syrup"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+	  {
+         "amount": 0.5,
+         "name": "tsp. baking soda"
+      }
+   ],
+   "instructions": "Pour popped corn into a large roaster. Boil remaining ingredi- ents, except baking soda, together for five minutes. Remove from heat and add baking soda. Stir until this quits bubbling. Pour over corn, gradually stirring after each addition to coat the corn. Bake 1 hour at 225° stirring every 15 minutes. Store in tight containers. Will keep crisp for several week.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

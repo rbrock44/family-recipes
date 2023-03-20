@@ -1,0 +1,48 @@
+{
+   "name": "Hush Puppies",
+   "author": "Shirley Drury",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. yellow corn meal"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+	  {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. baking soda"
+      },
+	  {
+         "amount": 1,
+         "name": "tsp. onion salt"
+      },
+      {
+         "amount": 2,
+         "name": "c. butter milk"
+      },
+      {
+         "amount": 3,
+         "name": "c. green onion"
+      }
+   ],
+   "instructions": "Mix well, all ingredients. Drop onto cookie sheet using a tea- spoon and bake between 350° and 375° until done",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

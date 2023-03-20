@@ -18,9 +18,7 @@
 
 <h3 class="center" *ngIf="recipe.yield.amount > 0">Serves: {{timesBatch(recipe?.yield?.amount)}} {{recipe?.yield?.name}}
 </h3>
-<!-- ingredients, 2 columns -->
 <div class="ingredients-cont">
-    <!-- <div class="ingredients-column left">Value1</div> -->
     <div class="ingredients-column">
         <span *ngFor="let ing of halfIngredients()">
             <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">{{getIngredientDisplay(ing)}}</p>

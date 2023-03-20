@@ -1,0 +1,24 @@
+{
+   "name": "Mexi Dip Sour Cream Topping",
+   "author": "Carol Peters",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. shredded Cheddar cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. dairy sour cream "
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. chili powder"
+      }
+   ],
+   "instructions": "Mix sour cream, 2 tablespoons of shredded cheese, and chili powder together. Spread sour cream topping over ground beef mixture. Sprinkle with cheese. Serve with corn chips if desired. Makes about 3 1/2 cups of dip. 30 calories per tablespoon.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
