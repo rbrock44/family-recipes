@@ -1,0 +1,28 @@
+{
+   "name": "Onion Dip",
+   "author": "Paula Castleman",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(12 oz.) cottage cheese"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) cream cheese"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. chopped onion"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. chopped green pepper"
+      }
+   ],
+   "instructions": "Mix all ingredients and refrigerate overnight or several hours before serving. More onion and green pepper can be used for a stronger flavor.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

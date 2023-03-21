@@ -1,0 +1,44 @@
+{
+   "name": "Onion Rings",
+   "author": "Janet Welter",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 0.66,
+         "name": "c. milk"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0,
+         "name": "Vegetable oil or shortening for frying"
+      },
+	  {
+         "amount": 1,
+         "name": "Tbsp. oil"
+      },
+      {
+         "amount": 1,
+         "name": "large Spanish onion "
+      },
+      {
+         "amount": 0,
+         "name": "Water"
+      },
+	  {
+         "amount": 1,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt "
+      }
+   ],
+   "instructions": "Peel onion; cut into 1?2 inch slices. Separate into ring. Place in a large bowl and cover with water. Refrigerate for 30 minutes, drain on paper towels. Combine flour and salt. Add egg, milk, and 1 tablespoon of oil, beating until smooth. Dip rings into this batter and fry in hot oil or shortening (375) until golden on both sides. Drain on paper towels.",
+   "yield": {
+      "amount": 4,
+      "name": "(4 to 6) servings"
+   }
+}

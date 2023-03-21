@@ -1,0 +1,44 @@
+{
+   "name": "Taco Dip",
+   "author": "Charlotte Hooper",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "8 oz. pkg. cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. taco seasoning"
+      },
+	  {
+         "amount": 0,
+         "name": "Shredded lettuce"
+      },
+      {
+         "amount": 0,
+         "name": "Chopped tomatoes"
+      },
+      {
+         "amount": 0,
+         "name": "Chopped onions"
+      },
+	  {
+         "amount": 0,
+         "name": "Shredded cheese"
+      },
+      {
+         "amount": 0,
+         "name": "Sliced olives or anything you like on tacos"
+      }
+   ],
+   "instructions": "Mix taco seasoning, sour cream and cream cheese until well blended. Spread on cookie sheet. Add your favorite toppings. Serve with tortilla chips.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "name": "Our favorite cheese roll",
+   "author": "Sara Hooper",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. Velveeta cheese"
+      },
+      {
+         "amount": 1,
+         "name": "(3 oz.) cream cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. garlic powder"
+      }
+   ],
+   "instructions": "Mix all ingredients. Shape into ball or roll.",
+   "yield": {
+      "amount": 0,
+      "name": "Mix all ingredients. Shape into ball or roll."
+   }
+}

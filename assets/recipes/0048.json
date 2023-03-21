@@ -1,0 +1,48 @@
+{
+   "name": "Cheese ball",
+   "author": "Helen Menz, Donna Menz",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "stick oleo"
+      },
+      {
+         "amount": 8,
+         "name": "oz. grated Cheddar cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": " c. Miracle Whip"
+      },
+	  {
+         "amount": 1,
+         "name": "Tbsp. minced onion"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. liquid smoke"
+      },
+	  {
+         "amount": 0.5,
+         "name": "tsp. Worcestershire sauce "
+      },
+      {
+         "amount": 0.5,
+         "name": "Tbsp. chopped pimentos"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Take first 4 ingredients from refrigerator and soften at room temperature until they are soft enough to blend with mixer at stir speed. Add remaining ingredients until well mixed. Make a ball and sprinkle with paprika and chili powder or roll in chopped nuts.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

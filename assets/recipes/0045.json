@@ -1,0 +1,36 @@
+{
+   "name": "Denise's cheese roll",
+   "author": "Ramona Glastetter",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. Velveeta"
+      },
+      {
+         "amount": 0,
+         "name": "paprika"
+      },
+      {
+         "amount": 3,
+         "name": "oz. cream cheese"
+      },
+	  {
+         "amount": 0.25,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. red pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Let cheeses soften. Mix all ingredients except paprika. Shape into roll. Sprinkle with paprika.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

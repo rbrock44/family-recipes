@@ -1,0 +1,28 @@
+{
+   "name": "Party cheese roll",
+   "author": "Germaine Robert",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. lemon juice"
+      },
+      {
+         "amount": 2,
+         "name": "(8 oz.) pkg. Philadelphia Cream Cheese"
+      },
+      {
+         "amount": 2,
+         "name": "(8 oz.) pkg. shredded sharp Cheddar cheese"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. Worcestershire sauce"
+      }
+   ],
+   "instructions": "Combine softened cream cheese, and Cheddar cheese, mixing until well blended. Add remaining ingredients. Mix well. Shape into ball, roll ball in crushed nuts. Chill before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

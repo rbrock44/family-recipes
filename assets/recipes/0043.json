@@ -1,0 +1,44 @@
+{
+   "name": "Braunschweiger Ball",
+   "author": "Ann Glueck",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. braunschweiger"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. concentrated lemon juice"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. brown sugar"
+      }	  ,
+	  {
+         "amount": 1,
+         "name": "1 (8 oz.) cream cheese"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. Worcestershire sauce"
+      },
+      {
+         "amount": 0,
+         "name": "Onion salt"
+      },
+	  {
+         "amount": 0,
+         "name": "Garlic salt"
+      },
+      {
+         "amount": 0,
+         "name": "Bacon bits to season"
+      }
+   ],
+   "instructions": "Mix thoroughly. Form into ball.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

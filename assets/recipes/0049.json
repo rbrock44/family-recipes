@@ -1,0 +1,48 @@
+{
+   "name": "Cheese ball",
+   "author": "Shirley Drury",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. Kraft shredded sharp Cheddar cheese"
+      },
+      {
+         "amount": 2,
+         "name": "(8 oz.) pkg. cream cheese, softened"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. pecans, chopped"
+      },
+	  {
+         "amount": 1,
+         "name": "Tbsp. pimentos"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. Worcestershire sauce"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. chopped onion"
+      },
+	  {
+         "amount": 1,
+         "name": "Tbsp. green pepper"
+      },
+      {
+         "amount": 0,
+         "name": "Dash cayenne pepper"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. lemon juice"
+      }
+   ],
+   "instructions": "Combine cream cheese and Cheddar cheese. Mix well. Add all other ingredients except pecans and mix until well blended. Put the chopped nuts on wax paper, shape cheese mixture into a ball and roll in the nuts. Let chill for a few hours in refrigerator before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

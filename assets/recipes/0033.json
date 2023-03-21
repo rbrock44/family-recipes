@@ -1,0 +1,28 @@
+{
+   "name": "Chili Dip",
+   "author": "Annita Essner",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. (8 oz.) cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "can Chili with no beans"
+      },
+      {
+         "amount": 0,
+         "name": "Jalapeno peppers"
+      },
+      {
+         "amount": 0,
+         "name": "Cheddar Cheese, shredded"
+      }
+   ],
+   "instructions": "Spread cream cheese in 8 x 8 square pan. Layer jalapeno peppers on top. Spread can of chili on next. Top with shredded cheese. Bake at 350° until it bubbles. Serve with corn chips.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

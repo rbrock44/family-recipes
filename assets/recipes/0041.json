@@ -1,0 +1,40 @@
+{
+   "name": "Pickle Eggs",
+   "author": "Emma Nichols, Donna Menz",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 1,
+         "name": "onion, grated (Onion Flakes can be used)"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. lemon juice"
+      }	  ,
+	  {
+         "amount": 1,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. mustard powder"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. garlic powder"
+      },
+	  {
+         "amount": 1,
+         "name": "Tbsp. salt"
+      }
+   ],
+   "instructions": "Mix all together and heat in microwave, let cool and put in eggs. Refrigerate. Makes 12 to 18 eggs.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

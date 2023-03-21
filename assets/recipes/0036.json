@@ -1,0 +1,36 @@
+{
+   "name": "Neiman Marcus Dip",
+   "author": "S.M.P",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "bunch green onions, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "c. pecans"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. seasoned salt"
+      },
+      {
+         "amount": 12,
+         "name": "slices bacon, cooked and crumbled"
+      },
+      {
+         "amount": 4,
+         "name": "c. Cheddar cheese, grated"
+      },
+      {
+         "amount": 2,
+         "name": "(2-3) c. mayonnaise"
+      }
+   ],
+   "instructions": "Mix together.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

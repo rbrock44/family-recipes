@@ -1,0 +1,44 @@
+{
+   "name": "Cheese ball",
+   "author": "Annita Layton",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "oz. cream cheese, softened "
+      },
+      {
+         "amount": 0,
+         "name": "dash of pepper"
+      },
+      {
+         "amount": 0,
+         "name": "dash of seasoned salt"
+      },
+	  {
+         "amount": 10,
+         "name": "oz. sharp Cheddar cheese, shredded"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "1/4 c. Miracle Whip"
+      },
+	  {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 4,
+         "name": "(4 to 5) drops of Tabasco sauce"
+      }
+   ],
+   "instructions": "Blend both cheeses till smooth. Add remaining ingredients. Mix well. Shape into ball and sprinkle with paprika or chopped pecans.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
