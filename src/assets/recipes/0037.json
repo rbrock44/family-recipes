@@ -1,0 +1,32 @@
+{
+   "name": "Shrimp Dip",
+   "author": "S.M.P",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. Worcestershire sauce"
+      },
+      {
+         "amount": 2,
+         "name": "(8 oz.) pkg, cream cheese"
+      },
+      {
+         "amount": 3,
+         "name": "cans shrimp."
+      },
+      {
+         "amount": 0.5,
+         "name": "medium onion"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. mayonnaise"
+      }
+   ],
+   "instructions": "Set out cream cheese to soften. Grate onion fine. Mix other ingredients. Serve with crackers, corn chips or potato chips. If refrigerated before-hand, remove from refrigerator and set at room temperature before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

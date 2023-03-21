@@ -1,0 +1,36 @@
+{
+   "name": "Chili Cheese Dip",
+   "author": "Christine Estes",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "can Hormel Chili with no beans"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. shredded Monterey Jack and Colby cheese"
+      },
+	  {
+         "amount": 1,
+         "name": "can chopped green chilies (optional)"
+      },
+      {
+         "amount": 0,
+         "name": "Sliced jalapeno peppers (optional)"
+      },
+      {
+         "amount": 0,
+         "name": "Tortilla chips (for dipping)"
+      }
+   ],
+   "instructions": "Spread cream cheese over bottom of 8 x 13 glass pan. Spread chili over cream cheese. Add green chilies (optional). Top with cheese and sliced jalapeno peppers (optional). Bake at 325° until bubbly. Let sit for 5 minutes before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "name": "Deviled Eggs",
+   "author": "Ramona Glastetter",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 0.125,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. mayonnaise"
+      },
+      {
+         "amount": 6,
+         "name": "hard-cooked eggs"
+      },
+	  {
+         "amount": 1,
+         "name": "tsp. mustard"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Shell the eggs, cut each in half and remove the yolks. Mash the yolks with a fork. Add all other ingredients to mashed yolks and mix until smooth. Fill the whites with the mixture.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

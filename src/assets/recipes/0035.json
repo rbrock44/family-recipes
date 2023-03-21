@@ -1,0 +1,32 @@
+{
+   "name": "Broccili Cheese Dip",
+   "author": "Michelle Stull",
+   "category": 1, 
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box frozen broccili"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of mushroom soup"
+      },
+      {
+         "amount": 2,
+         "name": "tubes plain cheese (8 oz.)"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. seasoned salt"
+      }
+   ],
+   "instructions": "Cook broccili and drain well. add the remaing inredients and cook until cheese is melted.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

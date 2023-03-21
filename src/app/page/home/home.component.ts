@@ -33,9 +33,9 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    document.querySelectorAll('[type=search]').forEach((element) => {
-      this.blurKeyboard(element);
-    });
+    // document.querySelectorAll('[type=search]').forEach((element) => {
+    //   this.blurKeyboard(element);
+    // });
     this.searchControl.valueChanges.pipe(
       debounceTime(300)
     ).subscribe(value => {

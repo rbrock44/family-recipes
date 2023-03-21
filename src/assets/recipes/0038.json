@@ -1,0 +1,44 @@
+{
+   "name": "Dill Dip",
+   "author": "C. Allen Collier",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "tsp. dill weed"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. parsley flakes"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1.5,
+         "name": "dill pickles (juice)"
+      },
+      {
+         "amount": 1.5,
+         "name": " tsp. Accent"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      }
+   ],
+   "instructions": "Combine all ingredients. Refrigerate for at least 8 hours before using. Serve with chips.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
