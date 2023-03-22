@@ -1,22 +1,42 @@
 {
-   "name": "Dill pickles (Addition To Each Quart Jar)",
-   "author": "Hazel Leubbers",
+   "name": "Creamy Peach Dessert",
+   "author": "Lorena Essner",
    "category": 1,
    "ingredients": [
       {
-         "amount": 2,
-         "name": "cloves garlic"
+         "amount": 1.33,
+         "name": "c. graham cracker crumbs"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. margarine melted"
       },
       {
          "amount": 2,
-         "name": "hot peppers"
+         "name": "pkg. vanilla pudding"
       },
       {
-         "amount": 1.5,
-         "name": "tsp. dill seed Pickles"
+         "amount": 2,
+         "name": "pkg. peach Jell-O"
+      },
+      {
+         "amount": 3.5,
+         "name": "water or 3 c. water and 1/2 c. peach juice"
+      },
+      {
+         "amount": 1,
+         "name": "can peaches, drained and diced"
+      },
+      {
+         "amount": 12,
+         "name": "oz. whipped topping"
       }
    ],
-   "instructions": "Add all ingredients to jars. Pour the hot liquid over the cucum- bers and then seal. Let the jars set for 3 weeks before using. Makes 4 quarts",
+   "instructions": "Mix together graham cracker crumbs, sugar and margarine. Make crust of 1/2 mixture in 9 x 13 inch pan. Do not bake or chill. Combine pudding, Jell-O and water in sauce pan. Cook and stir over medi- um heat until mixture comes to a full boil. Pour into bowl and chill until it begins to jell. Add peaches and fold in whipped topping. Then spoon into crust and sprinkle with remaining crumbs. Chill.",
    "yield": {
       "amount": 0,
       "name": ""
