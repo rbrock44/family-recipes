@@ -1,0 +1,32 @@
+{
+   "name": "Slaw",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "cup vinegar"
+      },
+      {
+         "amount": 1,
+         "name": "cup vegetable oil"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. turmeric"
+      },
+      {
+         "amount": 0.66,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Mix together and pour over shredded cabbage, carrots, onions and celery. Serve immediately or refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

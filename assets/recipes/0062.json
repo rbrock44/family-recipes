@@ -1,0 +1,52 @@
+{
+   "name": "Cucumber relish",
+   "author": "In Memory of Ella I. Schlosser",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "gal. cucumbers, ground"
+      },
+      {
+         "amount": 2,
+         "name": "red peppers, ground"
+      },
+      {
+         "amount": 5,
+         "name": "c. vinegar"
+      },
+	  {
+         "amount": 1,
+         "name": "Tbsp. mustard seed"
+      },
+      {
+         "amount": 2,
+         "name": "green peppers, ground"
+      },
+      {
+         "amount": 8,
+         "name": "medium onions, ground"
+      },
+	  {
+         "amount": 1,
+         "name": "Tbsp. turmeric powder"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. celery seed"
+      },
+      {
+         "amount": 4,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. salt"
+      }
+   ],
+   "instructions": "",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

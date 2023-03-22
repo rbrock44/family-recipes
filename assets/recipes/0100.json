@@ -1,0 +1,36 @@
+{
+   "name": "Layered Jello Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "pkg. strawberry Jell-O"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. boiling water"
+      },
+      {
+         "amount": 0,
+         "name": "Small pkg. frozen strawberries"
+      },
+      {
+         "amount": 3,
+         "name": "bananas"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. pecans, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "pint sour cream"
+      }
+   ],
+   "instructions": "Dissolve Jell-O in water. Add strawberries. Stir until dissolved. Add pecans and bananas. Pour into 9 x 13 dish and chill. (Set extra aside.) Spoon on sour cream. Pour on remaining Jell-O. Chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

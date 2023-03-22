@@ -1,0 +1,28 @@
+{
+   "name": "Spiced nuts",
+   "author": "Lorena Essner",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. nuts (I use 2 1/2 to 3 cups) "
+      },
+      {
+         "amount": 1,
+         "name": " tsp. cloves"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Mix egg whites and nuts. Mix sugar and spices. Pour over nut mixture. Bake at 300° for 25 minutes, stirring in between.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

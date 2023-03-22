@@ -1,0 +1,32 @@
+{
+   "name": "Fruit Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "cans pineapple chunks, drained"
+      },
+      {
+         "amount": 4,
+         "name": "bananas, sliced"
+      },
+      {
+         "amount": 2,
+         "name": "cans mandarin oranges, drained"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. frozen strawberries, thawed"
+      },
+      {
+         "amount": 1,
+         "name": "can peach pie filling"
+      }
+   ],
+   "instructions": "Mix ingredients and chill before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

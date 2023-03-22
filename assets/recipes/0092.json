@@ -1,0 +1,36 @@
+{
+   "name": "Fruit Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Any fresh fruit (kiwi, bananas, strawberries, etc.)"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. vanilla instant pudding "
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. Tang"
+      },
+      {
+         "amount": 2,
+         "name": "cans mandarin oranges"
+      },
+      {
+         "amount": 2,
+         "name": "cans pineapple"
+      },
+      {
+         "amount": 2,
+         "name": "cans fruit cocktail"
+      }
+   ],
+   "instructions": "Drain fruit juices in bowl and mix in instant pudding and Tang. Pour mixture over fruit. Chill 3 to 5 hours before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

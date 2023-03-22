@@ -1,0 +1,20 @@
+{
+   "name": "Layered Salad Dressing",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. Miracle Whip"
+      },
+      {
+         "amount": 2,
+         "name": "1 pkg. Hidden Valley Dressing"
+      }
+   ],
+   "instructions": "Mix together well and top salad. Then top with bacon bits or fried bacon, crumbled.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

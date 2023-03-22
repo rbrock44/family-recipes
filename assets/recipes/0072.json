@@ -1,0 +1,44 @@
+{
+   "name": "Creamy Swiss and Broccoli Soup",
+   "author": "Zachary Estes",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. chopped ham"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) pkg. frozen chopped broccoli"
+      },
+	  {
+         "amount": 2,
+         "name": "c. milk"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 8,
+         "name": "oz. natural Swiss cheese, cubed"
+      },
+	  {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "dash of pepper"
+      }
+   ],
+   "instructions": "Boil ham in water for 10 minutes; add broccoli. Cook until ten- der. Gradually add milk to flour, stirring until well blended. Gradually add milk mixture to ham mixture, stirring constantly until mixture slightly thickens. Simmer 5 minutes, stirring occasionally. Add cheese and seasonings. Cook until cheese begins to melt.",
+   "yield": {
+      "amount": 4,
+      "name": "to 6"
+   }
+}

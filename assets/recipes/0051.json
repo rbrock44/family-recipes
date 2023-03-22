@@ -1,0 +1,36 @@
+{
+   "name": "Oyster crackers",
+   "author": "Donna Stamp",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. original ranch dressing mix"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. garlic salt"
+      },
+      {
+         "amount": 5,
+         "name": "c. oyster crackers"
+      },
+	  {
+         "amount": 0.75,
+         "name": "c. oil"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. dillweed"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. lemon pepper"
+      }
+   ],
+   "instructions": "Mix oil, dillweed, lemon pepper, garlic salt, and ranch dressing. Pour over crackers. Bake at 250° for 15 to 20 minutes stirring halfway through cooking time. Cool on wax paper. Great snack. Freezes well.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

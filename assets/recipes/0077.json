@@ -1,0 +1,44 @@
+{
+   "name": "Cucumbers In Sour Cream",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. thick sour cream"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. vinegar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. prepared mustard"
+      },
+      {
+         "amount": 0,
+         "name": "Dash of pepper"
+      },
+      {
+         "amount": 1,
+         "name": " Tbsp. minced onion"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "cucumbers"
+      }
+   ],
+   "instructions": "Mix all ingredients except cucumbers. Chill. If more spicy taste is desired, add more vinegar, mustard, etc. Wash 2 cucumbers; cut off ends to seeds and slice in about 1/4-inch slices; pour sour cream dressing over cucumbers. Let marinate. Keep chilled and turn a couple of times. Makes a little over 1 cup. Serve on coleslaw or vegetable salad.",
+   "yield": {
+      "amount": 1,
+      "name": "cup (litte over)"
+   }
+}

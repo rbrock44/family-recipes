@@ -1,0 +1,56 @@
+{
+   "name": "Potato Soup",
+   "author": "Kristie Milam",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. celery, cubed"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. oleo"
+      },
+      {
+         "amount": 3,
+         "name": "c. milk"
+      },
+	  {
+         "amount": 1,
+         "name": "can chicken broth"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+	  {
+         "amount": 0.5,
+         "name": "c. chopped onion"
+      },
+      {
+         "amount": 4,
+         "name": "c. potatoes, cubed"
+      },
+      {
+         "amount": 0,
+         "name": "Salt "
+      },
+	  {
+         "amount": 0.5,
+         "name": "c. carrots, shredded"
+      },
+      {
+         "amount": 0,
+         "name": "Pepper"
+      }
+   ],
+   "instructions": "Cook onion in oleo. Add to potatoes, celery, carrots, chicken broth, salt and pepper. Cover and simmer on low to medium heat for 15 minutes. Add milk and heat until hot, but do not let boil. Blend flour and 1?2 cup of milk until thickened. Add to soup and heat until slightly thickened.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

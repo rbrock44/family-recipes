@@ -1,0 +1,52 @@
+{
+   "name": "Cabbage Slaw Salad",
+   "author": "Louise Alderman",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. beef Ramen noodles"
+      },
+      {
+         "amount": 1,
+         "name": "lb. shredded cabbage"
+      },
+      {
+         "amount": 0.25,
+         "name": "shredded red cabbage"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. broccoli"
+      },
+      {
+         "amount": 0.25,
+         "name": "sunflower seeds"
+      },
+      {
+         "amount": 1,
+         "name": "bunch green onions, diced"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Canola oil"
+      },
+      {
+         "amount": 0,
+         "name": "Broth from Ramen noodles"
+      },
+      {
+         "amount": 0.25,
+         "name": "Broth from Ramen noodles"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. vinegar"
+      }
+   ],
+   "instructions": "Crumble Ramen noodles in large bowl. Add cabbage, red cab- bage, broccoli, seeds and green onions. Mix well. To make dressing combine oil, broth, sugar and vinegar in a shaker bottle. Shake to dissolve broth. Pour over vegetable mixture. If dry, may need more dressing",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

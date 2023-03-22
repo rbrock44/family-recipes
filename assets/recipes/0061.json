@@ -1,0 +1,40 @@
+{
+   "name": "Sweet pickles",
+   "author": "In Memory of Ella I. Schlosser",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 7,
+         "name": "lb. cucumbers, peeled, seeded and cut into sticks"
+      },
+      {
+         "amount": 2,
+         "name": "qt. white vinegar"
+      },
+      {
+         "amount": 5,
+         "name": "lb. sugar"
+      }	  ,
+	  {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. pickling spice"
+      },
+      {
+         "amount": 14,
+         "name": "lb. alum"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. pickling lime"
+      }
+   ],
+   "instructions": "First day: place lime in 2 gallons of water with cucumber sticks. Soak for 24 hours. Second day: remove from lime water and wash through four waters. Then fix 1/4 pound of alum in 2 gallons of water and soak sticks for 12 hours. Third day: remove from alum water. Wash one time, soak in clear water for 6 hours. Drain. Make a syrup of vinegar, 1 quart water, sugar, and salt. Add spices. Boil and pour over cucumbers. Let stand 4 hours. Then place syrup over heat and boil until clear 30 - 35 minutes. Place sticks in jars and seal.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

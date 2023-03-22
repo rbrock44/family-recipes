@@ -1,0 +1,40 @@
+{
+   "name": "Hawaiian Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "cans mandarin oranges"
+      },
+      {
+         "amount": 1,
+         "name": "can coconut"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 0.5,
+         "name": "pkg. small marshmallows"
+      },
+      {
+         "amount": 1,
+         "name": "can fruit cocktail"
+      },
+      {
+         "amount": 1,
+         "name": "can chunk pineapple"
+      }
+   ],
+   "instructions": "Drain the fruit cocktail, pineapple, and mandarin oranges. Add other ingredients and mix well. Serve chilled.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

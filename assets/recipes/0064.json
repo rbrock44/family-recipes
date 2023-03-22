@@ -1,0 +1,52 @@
+{
+   "name": "Kelso Ladies Chili",
+   "author": "St. Augustine Cafeteria",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. dry chopped onion"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. paprika"
+      },
+      {
+         "amount": 3,
+         "name": "qt. tomato juice"
+      },
+	  {
+         "amount": 1,
+         "name": "tsp. sugar, optional"
+      },
+      {
+         "amount": 2,
+         "name": "qt. pinto beans, after cooked"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. garlic powder"
+      },
+	  {
+         "amount": 0.25,
+         "name": "c. and 1 tsp. salt, or as desired"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. chili powder"
+      },
+      {
+         "amount": 7,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. black pepper"
+      }
+   ],
+   "instructions": "Put ground beef and spices in pot and brown well. Stir constantly or it will stick. When brown, add tomato juice and pinto beans. Bring to a boil. Then add sugar. Stir constantly or it will burn and stick very fast. Use French's brand spices. This makes a very large pot full.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

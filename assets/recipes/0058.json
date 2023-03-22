@@ -1,0 +1,24 @@
+{
+   "name": "Dill pickles (Addition To Each Quart Jar)",
+   "author": "Hazel Leubbers",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "cloves garlic"
+      },
+      {
+         "amount": 2,
+         "name": "hot peppers"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. dill seed Pickles"
+      }
+   ],
+   "instructions": "Add all ingredients to jars. Pour the hot liquid over the cucum- bers and then seal. Let the jars set for 3 weeks before using. Makes 4 quarts",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "name": "Chicken Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "c. cubed cooked chicken"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. diced celery"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "hard-cooked eggs, quartered"
+      },
+      {
+         "amount": 3,
+         "name": "sweet pickles, chopped"
+      },
+      {
+         "amount": 0,
+         "name": "Mayonnaise"
+      }
+   ],
+   "instructions": "Combine chicken, celery, salt, eggs, and pickles. Moisten with mayonnaise: serve on lettuce and garnish with additional egg slices and olives.",
+   "yield": {
+      "amount": 8,
+      "name": "servings"
+   }
+}

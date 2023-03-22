@@ -1,0 +1,48 @@
+{
+   "name": "Potato Soup",
+   "author": "Rita Koeppel",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Basil"
+      },
+      {
+         "amount": 0,
+         "name": "Potatoes"
+      },
+      {
+         "amount": 0,
+         "name": "Salt"
+      },
+	  {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 0,
+         "name": "Onion powder "
+      },
+      {
+         "amount": 0,
+         "name": "Celery salt"
+      },
+	  {
+         "amount": 0,
+         "name": "Parsley"
+      },
+      {
+         "amount": 0,
+         "name": "Little instant potatoes to thicken (optional)"
+      },
+      {
+         "amount": 0,
+         "name": "Milk"
+      }
+   ],
+   "instructions": "Peel the potatoes and cut into small cubes. Boil until soft in large pot. While potatoes are boiling, brown beef. Put beef in pot with pota- toes. Add all of above seasonings to taste. Pour milk in to give white, creamy texture. Pour some instant potato flakes in to thicken slightly if desired.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

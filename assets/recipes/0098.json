@@ -1,0 +1,36 @@
+{
+   "name": "Orange Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "medium can of pineapple chunks, drained"
+      },
+      {
+         "amount": 1,
+         "name": "can mandarin oranges, drained"
+      },
+      {
+         "amount": 1,
+         "name": "lb. cottage cheese (small curd)"
+      },
+      {
+         "amount": 1,
+         "name": "(3 oz.) orange JELL-O"
+      },
+      {
+         "amount": 1,
+         "name": "medium size Cool Whip"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. miniature marshmallows"
+      }
+   ],
+   "instructions": "Stir all ingredients together except JELL-O. Sprinkle JELL-O over fruit mixture and mix well. Refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "name": "Paul's Beef Vegetable Soup",
+   "author": "Paul Essner",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. chopped onions"
+      },
+      {
+         "amount": 2,
+         "name": "c. chopped carrots"
+      },
+      {
+         "amount": 2.5,
+         "name": "lb. beef stew meat"
+      },
+	  {
+         "amount": 1,
+         "name": "small head cabbage"
+      },
+      {
+         "amount": 2,
+         "name": "(15 oz.) cans tomato sauce"
+      },
+      {
+         "amount": 6,
+         "name": "c. diced potatoes"
+      },
+	  {
+         "amount": 1,
+         "name": "(15 oz.) can corn"
+      },
+      {
+         "amount": 2,
+         "name": "c. chopped celery"
+      },
+      {
+         "amount": 1,
+         "name": "can diced tomatoes"
+      }
+   ],
+   "instructions": "Cook beef in pan of water about 2 hours. Then add all of the ingredients except the cabbage. Cook about 11?2 to 2 hours. Add the cut up head of cabbage 30 minutes before soup is finished cooking. Season to taste.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

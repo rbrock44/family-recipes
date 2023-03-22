@@ -1,0 +1,52 @@
+{
+   "name": "Overnight Layered Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. sour cream"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. mayonnaise"
+      },
+      {
+         "amount": 1.5,
+         "name": "head cauliflower"
+      },
+      {
+         "amount": 0.5,
+         "name": "head lettuce, shredded"
+      },
+      {
+         "amount": 0.5,
+         "name": "bunch broccoli"
+      },
+      {
+         "amount": 0.5,
+         "name": "pkg. frozen peas (thawed and drained)"
+      },
+      {
+         "amount": 4,
+         "name": "hard boiled eggs"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar "
+      },
+      {
+         "amount": 0,
+         "name": "Bacon"
+      },
+      {
+         "amount": 0,
+         "name": "Grated Cheddar cheese"
+      }
+   ],
+   "instructions": "Layer lettuce, cauliflower, broccoli and peas in that order. Mix sour cream, mayonnaise and sugar; spread on top. Sprinkle with grated cheese, crumbled bacon and sliced eggs. Cover and chill overnight. Can add to other vegetables like, small onion (diced) and green peppers (diced).",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
