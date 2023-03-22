@@ -1,0 +1,185 @@
+{
+   "name": "One Meal for 600 People",
+   "author": "",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 24,
+         "name": "large sandwich bread for dressing"
+      },
+      {
+         "amount": 6,
+         "name": "gal. corn"
+      },
+      {
+         "amount": 6,
+         "name": "gal. sweet potatoes"
+      },
+      {
+         "amount": 4,
+         "name": "lb. bags of carrots"
+      },
+      {
+         "amount": 10,
+         "name": "lb. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Big box of pepper"
+      },
+      {
+         "amount": 60,
+         "name": "lb. potatoes"
+      },
+      {
+         "amount": 2,
+         "name": "qt. oil"
+      },
+      {
+         "amount": 10,
+         "name": "lb. onion"
+      },
+      {
+         "amount": 3,
+         "name": "jars instant tea"
+      },
+      {
+         "amount": 9,
+         "name": "lb. butter"
+      },
+      {
+         "amount": 1,
+         "name": "gal. or 12 cans cranberry sauce"
+      },
+      {
+         "amount": 28,
+         "name": "or 20 dozen eggs"
+      },
+      {
+         "amount": 4,
+         "name": "lb. ham or bacon"
+      },
+      {
+         "amount": 250,
+         "name": "lb. ice in bags"
+      },
+      {
+         "amount": 20,
+         "name": "large hens"
+      },
+      {
+         "amount": 16,
+         "name": "large sandwich bread"
+      },
+	  {
+         "amount": 6,
+         "name": "gal. green beans"
+      },
+      {
+         "amount": 75,
+         "name": "lb. cabbage"
+      },
+      {
+         "amount": 4,
+         "name": "large celery"
+      },
+      {
+         "amount": 20,
+         "name": "lb. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "lb. coffee"
+      },
+      {
+         "amount": 1,
+         "name": "gal. vinegar"
+      },
+      {
+         "amount": 25,
+         "name": "lb. flour"
+      },
+      {
+         "amount": 1,
+         "name": "can chicken base"
+      },
+      {
+         "amount": 1,
+         "name": "jar coffee creamer"
+      },
+      {
+         "amount": 2,
+         "name": "box brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "box corn starch"
+      },
+      {
+         "amount": 1,
+         "name": "can Pam spray"
+      },
+      {
+         "amount": 0,
+         "name": "Cinnamon or red hots, 1 bag only"
+      },
+      {
+         "amount": 0,
+         "name": "Toothpicks"
+      },
+      {
+         "amount": 0,
+         "name": "Dishwashing liquid "
+      },
+      {
+         "amount": 250,
+         "name": "lb. of ice in bags"
+      },
+      {
+         "amount": 1,
+         "name": "roll paper towels"
+      },
+	  {
+         "amount": 1,
+         "name": "roll plastic tablecloth"
+      },
+      {
+         "amount": 600,
+         "name": "paper plates"
+      },
+      {
+         "amount": 600,
+         "name": "napkins"
+      },
+      {
+         "amount": 1,
+         "name": "large box of foil"
+      },
+      {
+         "amount": 1,
+         "name": "box trash bags"
+      },
+      {
+         "amount": 0,
+         "name": "Dish cloths"
+      },
+      {
+         "amount": 0,
+         "name": "Matches"
+      },
+      {
+         "amount": 2,
+         "name": "2 big coolers"
+      },
+      {
+         "amount": 600,
+         "name": "600 Dessert plates"
+      }
+   ],
+   "instructions": "Get something for cooks for lunch, ham and dessert.
+This list of ingredients was used by mother, Mrs. Ella I. Schlosser, for her children's wedding meals. There were no preparation details found. All I can say, is the meals were fantastic.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

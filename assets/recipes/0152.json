@@ -1,0 +1,48 @@
+{
+   "name": "Goulash",
+   "author": "Julie Kenkel",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(28 oz.) jar of spaghetti sauce"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. garlic salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. black pepper"
+      },
+      {
+         "amount": 8,
+         "name": "oz. uncooked elbow macaroni"
+      },
+      {
+         "amount": 0.5,
+         "name": "to 2 lb. ground beef"
+      },
+      {
+         "amount": 0.5,
+         "name": "of a medium green pepper, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "small onion, chopped"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "(4 oz.) shredded Mozzarella cheese"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. In skillet, brown ground beef, green pepper and onion, stirring frequently. Drain excess liquid. Add remaining ingredients, except cheese; mix well. Put in a 22 quart casserole dish that has been coated with vegetable spray; cover and bake for 25 minutes. Remove from oven and top with Mozzarella cheese. Return to oven and bake, uncovered, for 15 to 20 more minutes, or until thoroughly heated and the cheese has melted.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

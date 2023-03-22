@@ -1,0 +1,44 @@
+{
+   "name": "Quick Cheeseburger Bake",
+   "author": "Karla Essner",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(10 3/4 oz.) can condensed Cheddar cheese soup"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "c. frozen mixed vegetables"
+      },
+      {
+         "amount": 1,
+         "name": "c. shredded Cheddar cheese"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. chopped onion"
+      },
+      {
+         "amount": 2,
+         "name": "c. Bisquick baking mix"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. milk"
+      }
+   ],
+   "instructions": "Heat oven to 400°. Generously grease 13 x 9 x 2 inch baking dish. Brown beef and onion together in skillet; drain. Stir in soup, vegetables, and milk. Stir baking mix and water with fork in greased baking dish until moistened; spread evenly. Spread beef mixture over batter; sprinkle with cheese. Bake 30 minutes.",
+   "yield": {
+      "amount": 8,
+      "name": "to 10 servings"
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "Mexican Dish Casserole",
+   "author": "",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can cream of chicken soup"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "can enchilada sauce"
+      },
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "(4 oz.) can chopped green chilies"
+      },
+      {
+         "amount": 1,
+         "name": "(1 lb.) box Velveeta cheese"
+      },
+      {
+         "amount": 1,
+         "name": "large bag of corn chips or tortilla chips"
+      }
+   ],
+   "instructions": "Line a 9 x 13 inch pan with aluminum foil. Cover entire bottom of pan with corn chips. Set aside. Brown ground beef and spread over corn chips. In a separate bowl mix cream of chicken soup, cream of mushroom soup, enchilada sauce and green chilies. Spread this mix- ture over ground beef. Slice Velveeta cheese and completely cover top of casserole with it. Cover loosely with aluminum foil so cheese won't burn. Bake at 450° for 30 minutes. Use rest of corn chips or tortilla chips to eat with the casserole.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

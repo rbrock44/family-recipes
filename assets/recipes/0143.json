@@ -1,0 +1,40 @@
+{
+   "name": "Meatloaf",
+   "author": "Patty Cope",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. grated carrots"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper"
+      },
+      {
+         "amount": 1,
+         "name": "lb. extra lean ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "egg, beaten"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. beef broth"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. instant potatoes, dry"
+      }
+   ],
+   "instructions": "Mix all ingredients together with hands. May need to add more or less potatoes, add enough to form a loaf. Place in baking dish and make a loaf. Put in oven, pre-heated to 350°. Bake for 45 minutes. When almost done, spread ketchup on top and bake a little longer.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

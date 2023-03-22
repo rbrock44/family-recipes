@@ -1,0 +1,40 @@
+{
+   "name": "Quick Dinner in a Skillet",
+   "author": "Alice Walter",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "large can of pork and beans"
+      },
+      {
+         "amount": 2,
+         "name": "medium onion, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "medium bell pepper, chopped"
+      },
+      {
+         "amount": 2,
+         "name": "c. catsup"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 2,
+         "name": "Salt to taste"
+      },
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      }
+   ],
+   "instructions": "Brown ground beef, onions and bell pepper. Pour off excess grease. Combine all other ingredients and cook over medium heat for 10 to 15 minutes. Serve with green salad and rolls. This is a quick meal for someone on the go.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
