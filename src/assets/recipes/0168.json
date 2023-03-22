@@ -1,0 +1,52 @@
+{
+   "name": "Beef Macaroni Casserole",
+   "author": "Helen Menz",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. elbow macaroni"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "onion, chopped"
+      },
+      {
+         "amount": 2,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "Cooking oil"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. chili powder"
+      },
+      {
+         "amount": 1,
+         "name": "(4 oz.) can taco sauce or some taco seasoning"
+      },
+      {
+         "amount": 2,
+         "name": "can cream of mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "c. tomato juice"
+      },
+      {
+         "amount": 2,
+         "name": "c. grated cheese"
+      }
+   ],
+   "instructions": "Cook macaroni in water with salt until tender. Fry onion and ground beef in small amount of cooking oil until partially cooked. Add chili powder and taco sauce; mix well. Add soup and tomato juice. Mix in macaroni; pour into casserole. Cover with cheese. Bake covered at 350° for 30 minutes.",
+   "yield": {
+      "amount": 6,
+      "name": "servings"
+   }
+}

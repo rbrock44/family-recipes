@@ -1,0 +1,48 @@
+{
+   "name": "Rice-Beef Dasserole",
+   "author": "Helen Menz, Donna Menz",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.33,
+         "name": "c. chopped green peppers"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped onion"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped celery"
+      },
+      {
+         "amount": 1,
+         "name": "c. regular, uncooked rice"
+      },
+      {
+         "amount": 2,
+         "name": "(10 1/2 oz.) cans beef vegetable soup"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. Tabasco sauce"
+      },
+      {
+         "amount": 1,
+         "name": "(3 oz.) can chow mein noodles or use bread browned in a skillet"
+      }
+   ],
+   "instructions": "Brown beef in large skillet. Add vegetables and rice. Cook until rice is golden. Add soup, salt, pepper, and Tabasco sauce. Heat to boiling, stir well. Pour into 2 quart casserole dish and cover. Bake at 350° for 25 minutes. Sprinkle noodles or bread over casserole before serving.",
+   "yield": {
+      "amount": 6,
+      "name": "to 8 servings"
+   }
+}

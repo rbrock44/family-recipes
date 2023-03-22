@@ -1,0 +1,40 @@
+{
+   "name": "Nacho Casserole",
+   "author": "Anna Rose Bles",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. taco seasoning"
+      },
+      {
+         "amount": 1,
+         "name": "can nacho cheese soup"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "can tomato sauce"
+      },
+      {
+         "amount": 0,
+         "name": "Corn chips"
+      },
+      {
+         "amount": 1,
+         "name": "c. rice"
+      },
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      }
+   ],
+   "instructions": "Cook rice. Brown beef. Add seasoning to beef. Put rice in casserole. Top with meat. Mix soup, milk, and sauce. Pour over meat. Top with corn chips. Bake at 350° for 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

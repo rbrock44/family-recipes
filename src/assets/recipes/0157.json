@@ -1,0 +1,68 @@
+{
+   "name": "South-of-the-Border Special",
+   "author": "Mary Ann Lumsden",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "medium onion, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "clove garlic, minced"
+      },
+      {
+         "amount": 2,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) can tomato sauce"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. chili powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. dried oregano"
+      },
+      {
+         "amount": 1,
+         "name": "(15 oz.) can red kidney beans, drained"
+      },
+      {
+         "amount": 1.5,
+         "name": "of a 1 lb. pkg. of nacho flavored tortilla chips"
+      },
+      {
+         "amount": 1,
+         "name": "c. shredded lettuce"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. medium tomatoes, chopped"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sliced green onions"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. shopped, ripe olives"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) carton sour cream"
+      }
+   ],
+   "instructions": "Coarsely crush the chips. In skillet brown ground beef, onion and garlic. Drain fat. Stir in water, tomato sauce, chili powder and oregano. Pour half the mixture into a 13 x 9 x 2 inch baking dish. Top with half the beans and half the chips. Repeat layering. Cover and bake the dish in a 350° oven for 30 minutes, or until heated through. Top with remaining ingredients.",
+   "yield": {
+      "amount": 8,
+      "name": "to 10 servings"
+   }
+}

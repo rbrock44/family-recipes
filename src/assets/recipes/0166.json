@@ -1,0 +1,36 @@
+{
+   "name": "Cheese Enchiladas Sauce",
+   "author": "Rebecca Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. butter"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. paprika"
+      },
+      {
+         "amount": 2,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. (6 oz.) cheese"
+      }
+   ],
+   "instructions": "Fry tortillas in hot oil for 5 seconds on each side. Dip tortillas in enchilada sauce; spoon some of the Cheese Sauce inside each and roll up. Place seam side down in a baking dish. Combine remaining Cheese Sauce and enchilada sauce; pour over tortillas. Bake at 350° for 25 minutes. To make sauce, melt butter; blend in flour, salt and paprika. Add milk and stir until sauce thickens. Blend in cheese.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

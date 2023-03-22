@@ -1,0 +1,48 @@
+{
+   "name": "Plenty for 20",
+   "author": "",
+   "category": 3                                  ,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "lb. sausage"
+      },
+      {
+         "amount": 2,
+         "name": "medium chopped onions"
+      },
+      {
+         "amount": 4,
+         "name": "sprigs chopped celery"
+      },
+      {
+         "amount": 1.5,
+         "name": "can green peas, drained"
+      },
+      {
+         "amount": 1.5,
+         "name": "lb. Velveeta cheese"
+      },
+      {
+         "amount": 1.5,
+         "name": "can tomatoes, drained and diced up"
+      },
+      {
+         "amount": 1,
+         "name": "large can mushrooms"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) pkg. Vermicelli spaghetti, cooked"
+      }
+   ],
+   "instructions": "Brown ground beef, sausage, onions and celery; celery should be tender. Drain. Melt the Velveeta cheese and stir into meat mixture. Add the remaining ingredients and mix well. Bake in two 9 x 13 dishes for 30 minutes at 350°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

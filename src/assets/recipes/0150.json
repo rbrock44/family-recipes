@@ -1,0 +1,40 @@
+{
+   "name": "Ramona's Salmon Loaf",
+   "author": "R.G.",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. salmon liquid and milk"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. coarse cracker crumbs"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. lemon juice"
+      },
+      {
+         "amount": 1,
+         "name": "can salmon"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. chopped onions"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt and pepper-optional"
+      }
+   ],
+   "instructions": "Heat oven to 350°. Grease loaf pan. Flake salmon and remove bone. Blend in egg, stir in remaining ingredients. Spoon lightly into pan and bake for 45 minutes. Garnish with lemon wedges.",
+   "yield": {
+      "amount": 4,
+      "name": "servings"
+   }
+}

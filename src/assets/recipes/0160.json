@@ -1,0 +1,68 @@
+{
+   "name": "Cheeseburger Pie",
+   "author": "S.M.",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "unbaked pie crust (9 or 10 inch)"
+      },
+      {
+         "amount": 1,
+         "name": "lb. lean ground beef"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. chopped onion"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. green peppers"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. bread crumbs"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. oregano"
+      },
+      {
+         "amount": 1,
+         "name": "small can tomato sauce"
+      },
+      {
+         "amount": 2,
+         "name": "c. grated Cheddar cheese"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. dry mustard"
+      },
+      {
+         "amount": 0,
+         "name": "pinch of seasoning salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. Worcestershire sauce"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      }
+   ],
+   "instructions": "Brown beef and drain. Put back in skillet and add next six ingredients and cook until onions and peppers are soft. Put meat mixture in a lined pie pan. For the topping pat cheese in saucepan; mix egg, milk, and add along with the seasonings. Stir until the cheese melts. Pour over meat in pie pan. Bake 20 minutes at 425°. Before serving you can pour either chili sauce or taco sauce around the outer edge. Cut into wedges.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

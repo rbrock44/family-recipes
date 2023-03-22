@@ -1,0 +1,40 @@
+{
+   "name": "Beef and Rice Casserole",
+   "author": "Patty Cope",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. beef cut in 1 inch cubes"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      },
+      {
+         "amount": 1,
+         "name": "can beef broth"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter, melted"
+      },
+      {
+         "amount": 1,
+         "name": "c. rice (not instant)"
+      },
+      {
+         "amount": 2,
+         "name": "cans mushrooms"
+      },
+      {
+         "amount": 1,
+         "name": "small onion, grated"
+      }
+   ],
+   "instructions": "Place beef in skillet and brown. In casserole dish put beef broth, melted butter, rice, onions, mushrooms and browned beef. Stir and place covered dish in preheated oven at 350°. Bake for 1 hour.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
