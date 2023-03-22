@@ -1,0 +1,44 @@
+{
+   "name": "Sweet and sour Dill Pickles",
+   "author": "Ryan Brock",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "medium size cucumbers (to fill 4 qt. size jars)"
+      },
+      {
+         "amount": 2,
+         "name": "celery stalks, quartered"
+      },
+      {
+         "amount": 4,
+         "name": "c. white sugar"
+      },
+	  {
+         "amount": 1,
+         "name": "onion, sliced"
+      },
+      {
+         "amount": 2,
+         "name": "c. water"
+      },
+      {
+         "amount": 8,
+         "name": "heads fresh dill"
+      },
+	  {
+         "amount": 1,
+         "name": "qt. vinegar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. salt (use good canning salt for best results)"
+      }
+   ],
+   "instructions": "Wash cucumbers and cut into chunks, enough to fill 4 quarts. To each jar add 3 or 4 slices of onion, 2 pieces of celery and 2 heads of dill. Dissolve sugar and salt in vinegar and water; bring to a boil. Place cucumbers in jars, then cover with hot sugar, salt, vinegar and water. Seal at once. For best results, do not use for 30 days. Makes 4 quarts.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

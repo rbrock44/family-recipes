@@ -1,0 +1,24 @@
+{
+   "name": "Cole slaw",
+   "author": "Charlotte Hooper",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. white vinegar"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      },
+      {
+         "amount": 1,
+         "name": "c. oil"
+      }
+   ],
+   "instructions": "",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,52 @@
+{
+   "name": "Layered Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "head lettuce or spinach"
+      },
+      {
+         "amount": 0,
+         "name": "Chopped celery"
+      },
+      {
+         "amount": 0,
+         "name": "Green peppers"
+      },
+      {
+         "amount": 0,
+         "name": "Cauliflower"
+      },
+      {
+         "amount": 0,
+         "name": "Broccoli"
+      },
+      {
+         "amount": 0,
+         "name": "Carrots"
+      },
+      {
+         "amount": 10,
+         "name": "oz. frozen peas"
+      },
+      {
+         "amount": 0,
+         "name": "Fresh mushrooms"
+      },
+      {
+         "amount": 0,
+         "name": "Hard boiled eggs"
+      },
+      {
+         "amount": 8,
+         "name": "oz. shredded Cheddar cheese"
+      }
+   ],
+   "instructions": "Layer each item in a large container.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

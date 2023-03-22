@@ -1,0 +1,32 @@
+{
+   "name": "Coca-Cola Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "small pkg. cherry jello"
+      },
+      {
+         "amount": 1,
+         "name": "small pkg. lime jello"
+      },
+      {
+         "amount": 1,
+         "name": "large can crushed pineapple"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. Coca-Cola"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Mix together cherry jello, lime jello and crushed pineapple. Put on stove and cook until boiling. Take off stove and add Coke and nuts to mixture. Stir in pan well; pour in bowl and refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

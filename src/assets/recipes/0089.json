@@ -1,0 +1,52 @@
+{
+   "name": "Spinach Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "slices bacon, fried and broken in pieces"
+      },
+      {
+         "amount": 2,
+         "name": "hard boiled eggs"
+      },
+      {
+         "amount": 1,
+         "name": "watershed nuts"
+      },
+      {
+         "amount": 1,
+         "name": "lb. spinach"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. catsup"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "medium onion"
+      },
+      {
+         "amount": 0,
+         "name": "Dash of seasoned salt"
+      }
+   ],
+   "instructions": "Mix together oil, vinegar, catsup, sugar, onion, and seasoned salt. Refrigerate overnight. Mix together bacon, eggs, nuts and spinach. Stir in dressing.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,44 @@
+{
+   "name": "Bread and butter pickles",
+   "author": "Hazel Luebbers",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "lb. cucumbers, sliced"
+      },
+      {
+         "amount": 3,
+         "name": "onions, sliced"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. coarse salt"
+      },
+      {
+         "amount": 5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 5,
+         "name": "c. cider vinegar"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. turmeric"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. celery seed"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. cloves"
+      }
+   ],
+   "instructions": "Cover cucumbers, onions and salt with cold water and ice cubes. Let sit about 3 hours. Do not use metal container. Mix sugar, vinegar, turmeric, cloves and celery seed and simmer 30 minutes. Pour cold water off cucumbers and pack in jars; cover with hot liquid. Process 10 minutes in hot water bath.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

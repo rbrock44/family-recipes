@@ -7,7 +7,7 @@ if [ -z "$1" ]
 fi
 
 loc="C:\\workspace\\family-recipes\\scripts\\"
-x=1
+x=128
 
 while [ $x -le $1 ]
 do 
@@ -18,8 +18,64 @@ do
 		echo '{';
 		echo '   "name": "",';
 		echo '   "author": "",';
-		echo '   "category": 1,';
+		echo '   "category": 3                                  ,';
 		echo '   "ingredients": [';
+		echo '      {';
+		echo '         "amount": 1',;
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 2,';
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 1',;
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 2,';
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 1',;
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 2,';
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 1',;
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 2,';
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 1',;
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 2,';
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 1',;
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 2,';
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 1',;
+		echo '         "name": ""';
+		echo '      },';
+		echo '      {';
+		echo '         "amount": 2,';
+		echo '         "name": ""';
+		echo '      },';
 		echo '      {';
 		echo '         "amount": 1',;
 		echo '         "name": ""';

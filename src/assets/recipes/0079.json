@@ -1,0 +1,48 @@
+{
+   "name": "Fruited Chicken Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. finely chopped cooked chicken"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. lemon juice"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. mayonnaise (not Miracle Whip)"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. finely chopped celery"
+      },
+      {
+         "amount": 3,
+         "name": "c. crushed pineapple, well drained"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. finely chopped apple"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0.225,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. onion powder"
+      }
+   ],
+   "instructions": "Combine first four ingredients, mix well. Add remaining ingredients and refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

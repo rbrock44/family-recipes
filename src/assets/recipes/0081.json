@@ -1,0 +1,32 @@
+{
+   "name": "Spaghetti Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "large or 2 small tomatoes chopped"
+      },
+      {
+         "amount": 1,
+         "name": "green pepper chopped"
+      },
+      {
+         "amount": 1,
+         "name": "bottle Zesty Italian salad dressing"
+      },
+      {
+         "amount": 1,
+         "name": "can seasoned salad croutons"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. spaghetti"
+      }
+   ],
+   "instructions": "Break spaghetti into small pieces and boil until soft. Mix tomato, green pepper and croutons in bowl. Add cooked spaghetti and mix in dressing. May be eaten hot or cold.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

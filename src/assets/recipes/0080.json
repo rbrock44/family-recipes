@@ -1,0 +1,28 @@
+{
+   "name": "Hot Chicken Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can cream of chicken soup"
+      },
+      {
+         "amount": 2,
+         "name": "chicken breast, cooked and sliced"
+      },
+      {
+         "amount": 1,
+         "name": "c. celery, diced"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. almonds, slivered"
+      }
+   ],
+   "instructions": "This ingredient is for topping. Can also use potato chips. Mix all ingredients and bake at 350° for 25 minutes. Do not overbake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

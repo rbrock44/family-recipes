@@ -1,0 +1,40 @@
+{
+   "name": "Frozen Fruit Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can Eagle Brand milk"
+      },
+      {
+         "amount": 12,
+         "name": "oz. Cool Whip"
+      },
+      {
+         "amount": 16,
+         "name": "oz. frozen strawberries"
+      },
+      {
+         "amount": 1,
+         "name": "can crushed pineapple, drained"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. lemon juice"
+      },
+      {
+         "amount": 2,
+         "name": "(2 or 3) sliced bananas"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Throw it together. Freeze in 9 or 12 inch round pan.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

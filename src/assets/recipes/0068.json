@@ -1,0 +1,60 @@
+{
+   "name": "Snow Day Potato Soup",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "onion, diced"
+      },
+      {
+         "amount": 2,
+         "name": "c. water (or more)"
+      },
+      {
+         "amount": 3,
+         "name": "green onions chopped"
+      },
+	  {
+         "amount": 1,
+         "name": "stick butter or margarine"
+      },
+      {
+         "amount": 1,
+         "name": "stalk celery, diced"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. flour"
+      },
+	  {
+         "amount": 1,
+         "name": "(8 oz.) carton sour cream"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. bacon, cooked crisp and crumbled"
+      },
+      {
+         "amount": 8,
+         "name": "to 10 red potatoes"
+      },
+	  {
+         "amount": 1,
+         "name": "c. grated Cheddar cheese"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper"
+      },
+      {
+         "amount": 6,
+         "name": "c. milk"
+      }
+   ],
+   "instructions": "Chop potatoes (skin on) into 1-inch chunks and just barely cov- er with water, cook until almost tender. Saute onions and celery in stick of butter, add to potatoes and water. Mix flour and milk, add to potato mixture. Let simmer for 1?2 hour to thicken and add salt and pepper. Serve in bowls or crocks, topped with 1 tablespoon sour cream, grated cheese, green onion and crumbled bacon. Great served with warm, crusty bread and butter.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

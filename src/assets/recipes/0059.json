@@ -1,0 +1,24 @@
+{
+   "name": "Dill pickles (Hot liquid)",
+   "author": "Hazel Leubbers",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. water"
+      },
+      {
+         "amount": 2,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. table salt"
+      }
+   ],
+   "instructions": "Mix all ingredients and bring to a boil.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

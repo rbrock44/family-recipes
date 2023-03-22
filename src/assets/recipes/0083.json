@@ -1,0 +1,28 @@
+{
+   "name": "Pasta House Salad (Dressing)",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. Good Seasons Zesty Italian Mix"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. artichoke heart water"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. oil"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. Regina red wine vinegar with garlic"
+      }
+   ],
+   "instructions": "",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

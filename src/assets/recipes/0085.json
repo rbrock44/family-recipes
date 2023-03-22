@@ -1,0 +1,48 @@
+{
+   "name": "Seven Layer Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. grated Cheddar cheese"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "head lettuce"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. celery"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. onion"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. broccoli"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cauliflower"
+      },
+      {
+         "amount": 0.5,
+         "name": "jar of Bac*Os"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. Miracle Whip"
+      }
+   ],
+   "instructions": "Cut up vegetables and arrange in layers. Add sugar to miracle whip and spread over top of layers. Sprinkle with cheese and Bac*Os. Make the day before serving to give a better flavor.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

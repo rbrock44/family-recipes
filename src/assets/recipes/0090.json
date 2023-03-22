@@ -1,0 +1,40 @@
+{
+   "name": "Spinach Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb. washed fresh spinach"
+      },
+      {
+         "amount": 4,
+         "name": "boiled eggs, chopped"
+      },
+      {
+         "amount": 8,
+         "name": "fresh slices of bacon crumbles, cooked"
+      },
+      {
+         "amount": 0,
+         "name": "Salt to taste"
+      },
+      {
+         "amount": 0,
+         "name": "Pepper to taste"
+      },
+      {
+         "amount": 1,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. white vinegar"
+      }
+   ],
+   "instructions": "Place spinach in bowl. Add salt, pepper, and vinegar. Heat vegetable oil until hot. Pour over spinach to wilt. Then add chopped eggs and crumbled bacon. Serve immediately. This recipe can also be used for leaf lettuce. Just eliminate the eggs and bacon.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

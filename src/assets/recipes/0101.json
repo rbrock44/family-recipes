@@ -1,0 +1,44 @@
+{
+   "name": "Cranberry Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. cherry flavored gelatin"
+      },
+      {
+         "amount": 1,
+         "name": "c. hot water"
+      },
+      {
+         "amount": 1,
+         "name": "c. pineapple juice (drained from crushed pineapple)"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. ground raw cranberries"
+      },
+      {
+         "amount": 1,
+         "name": "c. drained crushed pineapple"
+      },
+      {
+         "amount": 1,
+         "name": "c. finely chopped celery"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts, chopped"
+      }
+   ],
+   "instructions": "Mix hot water with gelatin and stir thoroughly. Add pineapple juice and cool. Pour sugar over ground cranberries. Let stand while gelatin is cooling. When gelatin starts to thicken, add cranberries, pineapple, celery and nuts. Place in mold and chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

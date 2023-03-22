@@ -1,0 +1,56 @@
+{
+   "name": "Chicken Vegetable Noodle Soup",
+   "author": "Lois and Lynna Drury",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(6 oz.) can tomato puree (optional)"
+      },
+      {
+         "amount": 20,
+         "name": "whole all spice"
+      },
+      {
+         "amount": 1,
+         "name": "large stewing hen"
+      },
+	  {
+         "amount": 1,
+         "name": "pkg. celery (remove leaves)"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chicken soup base"
+      },
+      {
+         "amount": 4,
+         "name": "medium onions"
+      },
+	  {
+         "amount": 1,
+         "name": "whole cabbage"
+      },
+      {
+         "amount": 6,
+         "name": "to 8 bay leaves"
+      },
+      {
+         "amount": 20,
+         "name": "whole cloves"
+      },
+	  {
+         "amount": 1,
+         "name": "bag carrots"
+      },
+      {
+         "amount": 2,
+         "name": "bags of Kluski or homemade noodles"
+      }
+   ],
+   "instructions": "In a large stew pot, place hen, spices, tomato juice and puree. Add water to pot a little over half full. Cook chicken until done. Re- move and debone. Place celery pieces, carrots, onions and cabbage in bubbling broth. Cook until done. Remove vegetables to a warm plat- ter. Drop noodles in broth and cook until done. Serve noodle soup in soup bowls and add vegetables and chicken on top or serve them as a side dish.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "name": "Pasta House Salad",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can artichoke hearts"
+      },
+      {
+         "amount": 2,
+         "name": "medium head iceberg lettuce"
+      },
+      {
+         "amount": 0,
+         "name": "Red onion, sliced thin"
+      },
+      {
+         "amount": 1,
+         "name": "head red leaf or romaine lettuce"
+      },
+      {
+         "amount": 1,
+         "name": "cup Parmesan cheese"
+      }
+   ],
+   "instructions": "Drain and cut the artichoke hearts but reserve the water. Mix the above ingredients (except the artichoke heart water) one hour before serving. Add dressing right before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

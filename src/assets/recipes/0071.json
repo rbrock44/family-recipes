@@ -1,0 +1,56 @@
+{
+   "name": "Cheese Soup",
+   "author": "Rebecca Hooper",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "small pkg. frozen cauliflower"
+      },
+      {
+         "amount": 1,
+         "name": "small pkg. frozen broccoli"
+      },
+      {
+         "amount": 2,
+         "name": "cans cream of chicken soup"
+      },
+	  {
+         "amount": 1,
+         "name": "to 2 lb. Velveeta cheese"
+      },
+      {
+         "amount": 5,
+         "name": "to 6 strips crisp bacon, crumbled"
+      },
+      {
+         "amount": 4,
+         "name": "chicken bouillon cubes"
+      },
+	  {
+         "amount": 1,
+         "name": "qt. water"
+      },
+      {
+         "amount": 1,
+         "name": "c. diced onion"
+      },
+      {
+         "amount": 1,
+         "name": "c. diced celery"
+      },
+      {
+         "amount": 2,
+         "name": "c. cubed raw potatoes"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. diced carrots"
+      }
+   ],
+   "instructions": "Mix bouillon cubes, water, onion, celery and potatoes together. Cover and cook 20 to 30 minutes. Add remaining vegetables and cook until tender. Add cream of chicken soup and 1 cup water. Add Velveeta cheese and cook slowly until all cheese is melted. Sprinkle in bacon crumbs.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

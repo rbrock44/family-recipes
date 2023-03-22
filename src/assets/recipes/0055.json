@@ -1,0 +1,36 @@
+{
+   "name": "Pineapple Dessert",
+   "author": "Lorenna Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. pineapple"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. flour"
+      },
+	  {
+         "amount": 2,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 24,
+         "name": "marshmallows"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      }
+   ],
+   "instructions": "Drain juice from pineapple. Add eggs, flour, and sugar. Cook until thick. Add pineappleand marshmallows.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

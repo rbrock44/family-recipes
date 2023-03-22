@@ -1,0 +1,44 @@
+{
+   "name": "Kelso Ladies Slaw Mixture",
+   "author": "",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. apple cider vinegar (no other)"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Crisco oil (no other)"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 4,
+         "name": "gal. cut slaw, approximately"
+      },
+      {
+         "amount": 0,
+         "name": "Handful of onions"
+      },
+      {
+         "amount": 0,
+         "name": "Handful of carrots"
+      }
+   ],
+   "instructions": "Mix vinegar, sugar, oil, salt and pepper together and let stand. To slaw, add onions, carrots and 2 dippers full of dressing mixture.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

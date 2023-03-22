@@ -1,15 +1,11 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { DropdownOption } from '../../models/dropdown-option.model';
+import { MatTableDataSource } from '@angular/material/table';
+import { debounceTime, distinctUntilChanged } from 'rxjs';
+import { CATEGORIES } from 'src/app/constants/constants';
+import { getCategory } from 'src/app/models/category.enum';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
-import { debounceTime, distinctUntilChanged } from 'rxjs';
-import { RecipeModel } from '../../models/recipe.model';
-import { Router } from '@angular/router';
-import { MatTableDataSource } from '@angular/material/table';
-import { getCategory } from 'src/app/models/category.enum';
-import { MatSort } from '@angular/material/sort';
-import { CATEGORIES } from 'src/app/constants/constants';
 
 @Component({
   selector: 'app-root',
