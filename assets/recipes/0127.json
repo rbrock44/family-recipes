@@ -1,0 +1,44 @@
+{
+   "name": "Barbecue Sauce",
+   "author": "Joan Drury",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "Tbsp. Worcestershire sauce"
+      },
+      {
+         "amount": 0,
+         "name": "Few drops Tabasco sauce"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. catsup"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. celery seed"
+      }
+   ],
+   "instructions": "Combine all ingredients. Heat to boiling. Let simmer 30 minutes. Makes enough sauce for basting 4 pounds of spareribs.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

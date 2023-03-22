@@ -1,0 +1,32 @@
+{
+   "name": "Watergate Salad",
+   "author": "Shirley Drury",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(20 oz.) crushed pineapple with juice"
+      },
+      {
+         "amount": 1,
+         "name": "(3 1/2 oz.) instant pistachio pudding dry"
+      },
+      {
+         "amount": 1,
+         "name": "c. miniature marshmallows"
+      },
+      {
+         "amount": 2,
+         "name": "(9 oz.) Cool Whip"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Mix pineapple and juice with dry pudding until blended. Add marshmallows, Cool Whip and nuts. Mix together and chill. May be served as salad or dessert.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

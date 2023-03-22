@@ -1,0 +1,40 @@
+{
+   "name": "Beef Teriyaki",
+   "author": "R. Parker",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. Worcestershire sauce"
+      },
+      {
+         "amount":0.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "small clove garlic, crushed"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. ginger root"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sherry or white wine"
+      },
+      {
+         "amount": 2,
+         "name": "steaks (T-bone)"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. soy sauce"
+      }
+   ],
+   "instructions": "Wash meat. Place in shallow baking dish. Pour marinade over steaks, refrigerate 2 or 3 hours. Turn occasionally. Drain, reserve marinade. Place in shallow baking dish. Broil 12 inches from broiler for 15 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

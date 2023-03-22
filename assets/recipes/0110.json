@@ -1,0 +1,36 @@
+{
+   "name": "Cottage Cheese Salad",
+   "author": "Rebecca Hooper",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(16 oz.) smooth creamed cottage cheese"
+      },
+      {
+         "amount": 1,
+         "name": "regular size Cool Whip"
+      },
+      {
+         "amount": 1,
+         "name": "small pkg. orange JELL-O"
+      },
+      {
+         "amount": 1,
+         "name": "can crushed pineapple"
+      },
+      {
+         "amount": 1,
+         "name": "can mandarin oranges"
+      },
+      {
+         "amount": 0,
+         "name": "nuts optional"
+      }
+   ],
+   "instructions": "Drain good, the pineapple and oranges. Mix JELL-O dry (do not add water) to the cottage cheese. Mix in Cool Whip and remaining ingredients. Best to chill over night.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

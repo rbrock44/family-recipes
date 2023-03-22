@@ -1,0 +1,40 @@
+{
+   "name": "Pasta Salad",
+   "author": "Marilyn Friend",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "oz. garden spirals macaroni"
+      },
+      {
+         "amount": 1,
+         "name": "bunch fresh broccoli"
+      },
+      {
+         "amount": 1,
+         "name": "small cauliflower"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. carrots"
+      },
+      {
+         "amount": 1,
+         "name": "green pepper"
+      },
+      {
+         "amount": 0,
+         "name": "Few slices ham, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "to 1 1/2 bottles (8 oz.) Italian dressing"
+      }
+   ],
+   "instructions": "",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

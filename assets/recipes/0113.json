@@ -1,0 +1,40 @@
+{
+   "name": "Speedy Salad",
+   "author": "Tina Schlosser",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "small pkg. instant vanilla pudding"
+      },
+      {
+         "amount": 1,
+         "name": "c. Cool Whip"
+      },
+      {
+         "amount": 1,
+         "name": "can (1 lb. 14 oz.) fruit cocktail, drained"
+      },
+      {
+         "amount": 1,
+         "name": "can (11 oz.) mandarin oranges, drained"
+      },
+      {
+         "amount": 1,
+         "name": "jar (4 oz.) maraschino cherries, drained and sliced"
+      },
+      {
+         "amount": 2,
+         "name": "bananas"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (6 oz.) miniature marshmallows"
+      }
+   ],
+   "instructions": "Prepare pudding as directed, fold in all ingredients and chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

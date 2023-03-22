@@ -1,0 +1,60 @@
+{
+   "name": "Vegetable-Pasta Toss",
+   "author": "Pat Schlosser",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "oz. vermicelli, broken into thirds"
+      },
+      {
+         "amount": 4,
+         "name": "c. bite-sized broccoli flowerets"
+      },
+      {
+         "amount": 4,
+         "name": "c. bite-sized cauliflowerets"
+      },
+      {
+         "amount": 1,
+         "name": "large red onion, thinly sliced into rings"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. grated Parmesan cheese "
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. basil leaves"
+      },
+      {
+         "amount": 2,
+         "name": "c. mayonnaise"
+      },
+      {
+         "amount": 1,
+         "name": "lb. bacon, crisp fried and crumbled"
+      },
+      {
+         "amount": 2,
+         "name": "c. season croutons"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) can sliced water chestnuts, drained"
+      }
+   ],
+   "instructions": "Cook vermicelli using package directions. drain. Combine broccoli, cauliflower and onion in large bowl. Mix Parmesan cheese, sugar, salt, basil and mayonnaise in small bowl. Add to vegetables, toss lightly. Chill for several hours to overnight. Add bacon, vermicelli, croutons and water chestnuts just before serving, toss lightly.",
+   "yield": {
+      "amount": 20,
+      "name": "to 24 servings"
+   }
+}

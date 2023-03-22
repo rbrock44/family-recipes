@@ -1,0 +1,48 @@
+{
+   "name": "Cranberry Salad",
+   "author": "Louise Alderman",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. raw apples, diced fine"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "qt. raw cranberries"
+      },
+      {
+         "amount": 1,
+         "name": "small can crushed pineapple"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. lemon Jello"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. marshmallows"
+      },
+      {
+         "amount": 1,
+         "name": "c. hot water"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped celery"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Grind cranberries and marshmallows. Mix lemon Jello with 1 cup hot water, then cool. Add other ingredients and chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

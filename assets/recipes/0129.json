@@ -1,0 +1,60 @@
+{
+   "name": "Beef Stroganoff",
+   "author": "Rebecca Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "lb. top round steak (1?2 inch thick)"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. lemon juice"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 5,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. fat"
+      },
+      {
+         "amount": 1,
+         "name": "medium onion, thinly sliced"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sliced fresh mushrooms"
+      },
+      {
+         "amount": 1,
+         "name": "c. beef bouillon"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sour cream"
+      },
+      {
+         "amount": 0,
+         "name": "Hot noodles or rice"
+      },
+      {
+         "amount": 1,
+         "name": "c. consomme"
+      }
+   ],
+   "instructions": "Cut meat in strips 1 by 2 inches; dredge in 3 Tbsp. flour and brown in fat. Push meat to one side of pan, add onion; cook until soft. Add mushrooms, 1?2 cup consomme, lemon juice, salt and pepper to meat and onion mixture. Cover pan; cook over low heat 45 to 60 minutes or until meat is tender. Blend remaining 2 Tbsp. of flour with remaining consomme, add to hot mixture-cook over low heat until sauce is smooth and thickened, stirring constantly. blend in sour cream and heat; do not boil. Serve over hot noodles or rice.",
+   "yield": {
+      "amount": 6,
+      "name": "servings"
+   }
+}

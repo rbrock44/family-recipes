@@ -1,0 +1,64 @@
+{
+   "name": "Salisbury Steak Dinner",
+   "author": "Ruth Schlosser",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can cream of celery coup"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. prepared mustard"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. Worcestershire sauce"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. prepared horseradish"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. dry bread crumbs"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. finely chopped onion"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Dash pepper"
+      },
+      {
+         "amount": 1.5,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "to 2 Tbsp. cooking oil"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. parsley"
+      }
+   ],
+   "instructions": "In a bowl combine soup, mustard, Worcestershire sauce and horseradish. Blend well. Set aside. In another bowl lightly beat the egg. Add bread crumbs, onion, salt, pepper and 1/4 cup of the soup mix- ture. Add beef and mix well. Shape into six patties. In a large skillet brown the patties in oil. Drain, combine remaining soup mixture with water and pour over patties. Cover and cook over low heat for 10 to 15 minutes or until meat is done. Remove patties to a serving plate. Spoon sauce over meat. Sprinkle with parsley.",
+   "yield": {
+      "amount": 6,
+      "name": "servings"
+   }
+}

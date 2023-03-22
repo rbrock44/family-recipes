@@ -1,0 +1,24 @@
+{
+   "name": "Italian Round Steak",
+   "author": "Sara Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "small bottle Wishbone Italian dressing"
+      },
+      {
+         "amount": 3,
+         "name": "lb. round steak"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      }
+   ],
+   "instructions": "Cover bottom of cookie sheet with aluminum foil. Place steaks in pan. Cover steaks with dressing. Salt and pepper as desired. Add another layer of aluminum foil and combine edges. Bake at 350° until meat is tender. Approximately 2 hours.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

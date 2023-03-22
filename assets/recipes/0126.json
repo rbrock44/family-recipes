@@ -1,0 +1,48 @@
+{
+   "name": "Spaghetti Sauce or Pizza Sauce",
+   "author": "Charlotte Hooper",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "qt. tomato juice"
+      },
+      {
+         "amount": 1,
+         "name": "large can tomato paste"
+      },
+      {
+         "amount": 1,
+         "name": "beef bouillon cube"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. garlic salt"
+      },
+      {
+         "amount": 1,
+         "name": "green pepper"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. oregano, ground"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "large onion"
+      }
+   ],
+   "instructions": "Mix all ingredients leaving pepper and onion whole. Cook slowly until thick, about 2 hours. Fill prepared jars and seal. To insure good seal, pressure for 10 minutes on 5 pounds of pressure.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "name": "Watergate Salad",
+   "author": "Juanita Dannenmueller",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(20 oz.) can crushed pineapple"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 1,
+         "name": "regular size Pistachio pudding"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. small marshmallows, more if desired"
+      }
+   ],
+   "instructions": "Mix all together. Don't drain pineapples. Don't make up pudding. Put in refrigerator.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

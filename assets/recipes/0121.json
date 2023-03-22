@@ -1,0 +1,24 @@
+{
+   "name": "Pasta Salad",
+   "author": "Nicholas Dannenmueller",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. (16 oz.) spiral vegetable noodles"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. Broccoli Cole Slaw Mixture"
+      },
+      {
+         "amount": 1,
+         "name": "bottle Hidden Valley Ranch Salad Dressing"
+      }
+   ],
+   "instructions": "Boil noodles in water and salt. Drain and cool under tap water. In large bowl, combine noodles, washed broccoli mixture and ranch dressing. Serve.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

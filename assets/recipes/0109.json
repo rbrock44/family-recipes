@@ -1,0 +1,48 @@
+{
+   "name": "Million Dollar Rice Salad",
+   "author": "Catrina Stone",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese, softened"
+      },
+      {
+         "amount": 1.5,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. mayonnaise"
+      },
+      {
+         "amount": 2,
+         "name": "c. cooked rice, cooled"
+      },
+      {
+         "amount": 1,
+         "name": "(20 oz.) can crushed pineapple, drained"
+      },
+      {
+         "amount": 12,
+         "name": " maraschino cherries, halved"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) pkg. miniature marshmallows"
+      },
+      {
+         "amount": 0.5,
+         "name": "pt. whipping cream, whipped"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Combine cream cheese, sugar and mayonnaise until smooth. Add rice, cherries, pineapple and marshmallows and mix well. Fold in whipped cream and pecans.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

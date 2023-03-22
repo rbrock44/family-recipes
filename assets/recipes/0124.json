@@ -1,0 +1,52 @@
+{
+   "name": "Marinade for Beef",
+   "author": "Joan Drury",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Wesson oil"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. thyme"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. red wine or wine vinegar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. A1 steak sauce"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. onion powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 0,
+         "name": "London Broil or sirloin tip roast"
+      }
+   ],
+   "instructions": "For marinade combine first 9 ingredients. Pour over beef; cover and refrigerate for several hours or overnight. Cook beef on a grill, using the marinade as a basting sauce.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

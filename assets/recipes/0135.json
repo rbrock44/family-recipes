@@ -1,0 +1,56 @@
+{
+   "name": "Pepper Steak",
+   "author": "R. Parker",
+   "category": 3                                  ,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "c. thinly sliced round steak"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. paprika"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. beef broth"
+      },
+      {
+         "amount": 1,
+         "name": "c. sliced onion"
+      },
+      {
+         "amount": 2,
+         "name": "green or red peppers, sliced into thin strips"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. soy sauce"
+      },
+      {
+         "amount": 2,
+         "name": "large tomatoes, wedged"
+      }
+   ],
+   "instructions": "Sprinkle beef with paprika and garlic and let set for about 15 minutes. Brown beef in butter. Add beef broth and simmer, covered, for 30 minutes. Add sliced onion and peppers. Cook for 5 minutes. Combine water, soy sauce, and cornstarch. Stir and thicken beef mixture. Add tomatoes, wedged. Leave only long enough to heat through. Serve over hot cooked rice.",
+   "yield": {
+      "amount": 6,
+      "name": "servings"
+   }
+}

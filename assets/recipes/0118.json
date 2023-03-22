@@ -1,0 +1,32 @@
+{
+   "name": "Hot Potato Salad",
+   "author": "Shirley Drury",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. dry mustard"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. chopped parsley"
+      }
+   ],
+   "instructions": "Cook potatoes, drain, peel, slice. Fry bacon until crisp, drain. Combine onion, vinegar, water, sugar, salt, pepper and mustard. Heat well. Add to potatoes. Then add bacon and parsley, mixing carefully with fork so potatoes are not broken. Heat slowly.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

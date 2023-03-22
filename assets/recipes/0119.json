@@ -1,0 +1,36 @@
+{
+   "name": "Pizza Salad",
+   "author": "Linda Menz",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. Crescent rolls (8 count)"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. salad dressing"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. dill weed"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. onion powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. garlic powder"
+      }
+   ],
+   "instructions": "Unroll crescent rolls, lay flat on cookie sheet. bake 5-8 minutes until light brown. Cool. Mix all other ingredients and spread on top of cooled crust. Dice in very small pieces 1/4 cup to 1/2 cup of fresh vegetables. Can use carrots, broccoli, radishes. Sprinkle on top of cream cheese layer and top with shredded Cheddar cheese. Refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
