@@ -1,0 +1,36 @@
+{
+   "name": "Cherry Dream Salad",
+   "author": "Tina Blattel",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "large container of Cool Whip "
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 1,
+         "name": "large can cherry pie filling"
+      },
+      {
+         "amount": 1,
+         "name": "large can crushed pineapple (drained)"
+      },
+      {
+         "amount": 1,
+         "name": "can sweetened condensed milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      }
+   ],
+   "instructions": "Add all ingredients in large bowl and chill. Favorite for carry-in dinners.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

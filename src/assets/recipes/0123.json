@@ -1,0 +1,44 @@
+{
+   "name": "Oriental Marinade For Steaks",
+   "author": "David Glastetter",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. pineapple or orange juice"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. soy sauce"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. brown sugar"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. honey"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. ketchup"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. peanut butter"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. mustard"
+      }
+   ],
+   "instructions": "In small saucepan, combine ingredients. Heat marinade over medium heat until sugar is dissolved and mixture is blended, stirring often. Remove from heat; cool slightly. Marinade steaks, turning occasionally, in refrigerator for at least 30 minutes. Cook steaks as desired.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

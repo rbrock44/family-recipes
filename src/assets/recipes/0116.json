@@ -1,0 +1,32 @@
+{
+   "name": "Dressing For Lettuce",
+   "author": "Helen Menz, Donna Menz",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "to 1 c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. oil"
+      },
+      {
+         "amount": 1,
+         "name": "c. vinegar"
+      }
+   ],
+   "instructions": "Mix all together and pour over lettuce. Use for cucumbers too.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

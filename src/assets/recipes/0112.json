@@ -1,0 +1,56 @@
+{
+   "name": "Frog's Eye Salad",
+   "author": "Donna Menz",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "Tbsp. all purpose flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. pineapple juice"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. lemon juice"
+      },
+      {
+         "amount": 1,
+         "name": "(1 lb.) pkg. Acini De Pepe, uncooked"
+      },
+      {
+         "amount": 3,
+         "name": "(11 oz.) cans mandarin oranges, drained"
+      },
+      {
+         "amount": 2,
+         "name": "(20 oz.) cans pineapple chunks, drained"
+      },
+      {
+         "amount": 1,
+         "name": "(9 oz.) carton Cool Whip, thawed"
+      },
+      {
+         "amount": 1,
+         "name": "c. miniature marshmallows (optional)"
+      },
+      {
+         "amount": 1,
+         "name": "c. flaked coconut (optional)"
+      }
+   ],
+   "instructions": "Combine sugar, flour and salt. Stir in pineapple juice and eggs. Cook, stirring constantly until thickened. Add lemon juice; cool to room temperature. Prepare Acini De Pepe according to package directions; drain. Combine egg mixture and pasta, mix well and refrigerate overnight in airtight container. Add remaining ingredients and mix thoroughly. Refrigerate in airtight container until thoroughly chilled. Refrigerate leftovers.",
+   "yield": {
+      "amount": 25,
+      "name": "servings"
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "Cottage Cheese Salad",
+   "author": "Lisa Schlosser",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "large can crushed pineapple"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "boxes lime JELL-O"
+      },
+      {
+         "amount": 1,
+         "name": "large can Milnot"
+      },
+      {
+         "amount": 0,
+         "name": "Small carton cottage cheese"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 0,
+         "name": "Nuts, optional"
+      }
+   ],
+   "instructions": "Heat pineapple and JELL-O just long enough for JELL-O to dissolve. Let cool. Whip the Milnot and add cottage cheese, vanilla and sugar. Mix together. Chill. May add nuts.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

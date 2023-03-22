@@ -1,0 +1,44 @@
+{
+   "name": "Swiss Steak",
+   "author": "Shirley Drury",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "Tbsp. fat"
+      },
+      {
+         "amount": 2,
+         "name": "lb. round or chuck steak, 1 inch thick"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) can seasoned tomato sauce"
+      },
+      {
+         "amount": 2,
+         "name": "(5 1/2 oz.) cans pizza sauce"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. enriched flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "medium onion, sliced"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      }
+   ],
+   "instructions": "Combine flour, salt, and pepper; pound into steak. Brown slowly on both sides in hot fat. Pour tomato sauce and pizza sauce over meat. Top with onion slices. Simmer uncovered 10 minutes. Cover and bake in moderate oven (350°) for 1 hour or a little longer, until the steak is fork-tender.",
+   "yield": {
+      "amount": 6,
+      "name": "servings"
+   }
+}

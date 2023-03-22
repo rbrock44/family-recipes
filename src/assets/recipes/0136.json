@@ -1,0 +1,48 @@
+{
+   "name": "Chow Mein",
+   "author": "Sara Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. uncooked rice"
+      },
+      {
+         "amount": 3,
+         "name": "cans cream of mushroom soup"
+      },
+      {
+         "amount": 3,
+         "name": "cans cream of chicken soup"
+      },
+      {
+         "amount": 4,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 3,
+         "name": "cans Chinese noodles"
+      },
+      {
+         "amount": 3,
+         "name": "lb. hamburger, salted and browned"
+      },
+      {
+         "amount": 4,
+         "name": "c. celery"
+      },
+      {
+         "amount": 3,
+         "name": "large onions, chopped"
+      },
+      {
+         "amount": 0.75,
+         "name": "C. soy sauce"
+      }
+   ],
+   "instructions": "Brown and salt hamburger. Add remaining ingredients except noodles. Mix and bake 1 hour at 350°. Sprinkle Chinese noodles over top and bake an additional 15 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "name": "Watergate Salad",
+   "author": "Irene Blattel",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. instant pistachio pudding"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 1,
+         "name": "lb. can crushed pineapple (undrained)"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. mini marshmallows"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) container of Cool Whip"
+      }
+   ],
+   "instructions": "Combine all ingredients. Refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

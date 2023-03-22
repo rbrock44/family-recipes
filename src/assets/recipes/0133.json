@@ -1,0 +1,64 @@
+{
+   "name": "Oriental Beef Strips",
+   "author": "Rebecca Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb. thin sliced beef strips"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. cooking oil"
+      },
+      {
+         "amount": 0,
+         "name": "Water"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. soy sauce"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper (optional)"
+      },
+      {
+         "amount": 1,
+         "name": "clove garlic, minced"
+      },
+      {
+         "amount": 3,
+         "name": "carrots"
+      },
+      {
+         "amount": 2,
+         "name": "green peppers, cut in strips"
+      },
+      {
+         "amount": 8,
+         "name": "green onions"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. water "
+      },
+      {
+         "amount": 0,
+         "name": "Rice"
+      }
+   ],
+   "instructions": "Brown slices of beef strips in cooking oil. Pour off drippings, measure and add water to make 1 cup. Combine with soy sauce, sugar, pepper and garlic; add to meat, cover and continue cooking 15 minutes. Combine cornstarch and water and use to thicken cooking liquid for gravy. Serve with cooked rice.",
+   "yield": {
+      "amount": 6,
+      "name": "to 8 servings"
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "name": "Minute Steaks",
+   "author": "C. Allen Collier",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "medium onion, sliced"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. red cooking wine"
+      },
+      {
+         "amount": 1,
+         "name": "medium green pepper, sliced"
+      },
+      {
+         "amount": 6,
+         "name": "cube steaks"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) can mushrooms"
+      }
+   ],
+   "instructions": "Brown cube steaks and remove from skillet. Saute onions and peppers. Place mushrooms and wine in skillet over onions and pep- pers and add steaks. Heat until mushrooms and steaks are warm.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

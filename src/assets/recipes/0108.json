@@ -1,0 +1,32 @@
+{
+   "name": "Five Cup Salad",
+   "author": "Rebecca Hooper",
+   "category": 2                                  ,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 1,
+         "name": "c. miniature marshmallows"
+      },
+      {
+         "amount": 1,
+         "name": "c. sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "c. pineapple tid bits"
+      },
+      {
+         "amount": 1,
+         "name": "c. orange tid bits"
+      }
+   ],
+   "instructions": "Mix all together and let set for 24 hours. Then serve.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

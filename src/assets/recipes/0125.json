@@ -1,0 +1,56 @@
+{
+   "name": "Spaghetti Sauce",
+   "author": "Marian Essner",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "gal. cut up ripe tomatoes"
+      },
+      {
+         "amount": 2,
+         "name": "large. or 4 medium onions"
+      },
+      {
+         "amount": 4,
+         "name": "green peppers"
+      },
+      {
+         "amount": 3,
+         "name": "cloves garlic"
+      },
+      {
+         "amount": 2,
+         "name": "bay leaves"
+      },
+      {
+         "amount": 8,
+         "name": "tsp. parsley"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. thyme"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. basil"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. marjoram"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Cook together until tender. Put in blender or colander and put back on stove and heat to boil. Can while hot. Very Good.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

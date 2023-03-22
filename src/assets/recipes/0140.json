@@ -1,0 +1,44 @@
+{
+   "name": "Steak With Brewed In Taste",
+   "author": "Ruth Schlosser",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Flour as needed"
+      },
+      {
+         "amount": 2,
+         "name": "lb. round steak"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      },
+      {
+         "amount": 1,
+         "name": "onion, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "(4 1/2 oz.) can tomatoes"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. basil, ground"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. Worcestershire sauce"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. beer Onion"
+      }
+   ],
+   "instructions": "Pound flour into steak, cut in pieces and brown in oil. Place in casserole. Using the pan that the meat was browned in, saute onion. Add tomatoes, seasoning, and beer. Bring mixture to a boil. Pour con- tents over meat and bake at 350° for 1 1/2 hours.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

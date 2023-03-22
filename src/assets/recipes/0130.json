@@ -1,0 +1,48 @@
+{
+   "name": "Noodles Romanoff",
+   "author": "Rebecca Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. Instant Minced Onion"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. Instant Minced Garlic"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. Worcestershire sauce"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. Season-All"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. noodles"
+      },
+      {
+         "amount": 1,
+         "name": "c. cottage cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. cottage cheese"
+      },
+      {
+         "amount": 1,
+         "name": "Dash ground Red Pepper"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. grated Cheddar cheese"
+      }
+   ],
+   "instructions": "Cook noodles as directed on package; drain. Combine noodles with remaining ingredients except grated cheese. Put in buttered 1 1?2 quart casserole; sprinkle top with grated Cheddar cheese. Bake in 350° oven for 30 minutes or until heated through and bubbly and cheese has melted.",
+   "yield": {
+      "amount": 6,
+      "name": "servings"
+   }
+}
