@@ -1,0 +1,28 @@
+{
+   "name": "Onion Baked Pork Chops",
+   "author": "Karla Essner",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "envelope Lipton dry onion soup mix"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. Italian style bread crumbs"
+      },
+      {
+         "amount": 8,
+         "name": "pork chops, 1/2 inch thick"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten"
+      }
+   ],
+   "instructions": "Combine dry soup mix with bread crumbs. Dip chops in egg, then bread crumb mixture, coating well. Place in lightly greased shal- low baking dish. In conventional oven, bake at 350 degrees turning once, for 1 hour or until tender. In microwave, microwave chops, uncovered at medium power for 40 minutes or until tender; rearranging once. Let stand covered for 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

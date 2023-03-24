@@ -1,0 +1,56 @@
+{
+   "name": "Cashew Chicken",
+   "author": "Rachael Schlosser",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "whole chicken breasts, skinned, and boned"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. soy sauce"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. chicken broth"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 1,
+         "name": "large green pepper, cubed"
+      },
+      {
+         "amount": 1,
+         "name": "large sweet red pepper, cubed, or 2 to 3 small red hot peppers, shredded"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. MSG, optional"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. cashews"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. oil"
+      },
+      {
+         "amount": 1,
+         "name": "small onion, cubed"
+      }
+   ],
+   "instructions": "Cut chicken into 1 inch squares. Mix soy sauce, chicken broth, cornstarch, sugar, and MSG (optional) in a plastic bag or bowl. Add chicken cubes and marinate about fifteen minutes. Heat oil until it reaches 176.7° C and saute cashews until golden, about 30 seconds; remove and set aside. Add marinated chicken cubes and stir fry for 3-4 minutes or until chicken turns white; remove from pan and set aside. Add onion, green pepper, and red pepper to pan; cook about 1 minute. Return nuts and chicken to pan. Mix thoroughly. Cook 1 minute and serve.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "name": "Busy Day Chicken",
+   "author": "Lori Reinagel",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "fryer"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. uncooked rice (not minute rice)"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. dry onion soup"
+      }
+   ],
+   "instructions": "Grease 9 x 12 x 2 inch pan on bottom and sides. Sprinkle rice over bottom. Warm soup with milk in microwave for 2 minutes. Stir. Pour over rice and arrange chicken pieces over this. Sprinkle with onion soup mix. Cover and bake at 350° for about 1 1/2 to 2 hours.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

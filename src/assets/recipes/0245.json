@@ -1,0 +1,24 @@
+{
+   "name": "Evelyn Kluesner's Chicken Casserole",
+   "author": "Louise Alderman",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. cooked chicken"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of mushroom or cream of chicken soup"
+      },
+      {
+         "amount": 1,
+         "name": "box chicken-flavored Rice-A-Roni"
+      }
+   ],
+   "instructions": "Cook Rice-A-Roni according to box directions adding 1?2 cup extra liquid. Stir in soup mixing thoroughly, then add chicken meat. Pour into casserole and top with crushed potato chips. Bake at 350° 15 to 20 minutes. I have used chicken broth instead of water when fixing.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

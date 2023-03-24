@@ -1,0 +1,36 @@
+{
+   "name": "Zachary's Favorite Chicken And Dumplings",
+   "author": "Charlotte Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. chicken broth"
+      },
+      {
+         "amount": 2,
+         "name": "stewing hen"
+      },
+      {
+         "amount": 1,
+         "name": "Water"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt "
+      },
+      {
+         "amount": 2,
+         "name": "Flour, enough to make stiff dough"
+      }
+   ],
+   "instructions": "Cook stewing hen until done. Save broth. Chop the meat into small pieces. Add juice and water to large saucepan. Bring back to a boil. Then make dumplings and add them to broth mixture. To make dumplings, mix eggs, 1?2 cup broth and salt together. Add flour, beating well after each addition. When dough is stiff, roll out and slice, dropping in boiling broth. Cook for 5 minutes, stirring after each dumpling is added. Add meat and stir well. Put lid on pot and let stand for 10 minutes. Salt and pepper to taste.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

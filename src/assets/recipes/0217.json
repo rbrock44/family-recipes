@@ -1,0 +1,48 @@
+{
+   "name": "Apple-Glazed Pork Loin",
+   "author": "Shirley Drury",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Loin or rib pork roast"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. enriched flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. dry mustard"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 2,
+         "name": "c. sweetened applesauce"
+      },
+      {
+         "amount": 4,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cloves"
+      }
+   ],
+   "instructions": "Have the backbone loosened from the ribs for easy carving. Rub a mixture of flour, salt, dry mustard and pepper over the roast; place in open roasting pan with fat side up. Roast in slow oven, 325 degrees, until meat thermometer registers 185 degrees approximately 35 to 40 minutes per pound of meat. Remove backbone in kitchen when roast is done. About 1 hour before roast is done, spread with a mixture of the remaining ingredients. Return to oven until meat is done.",
+   "yield": {
+      "amount": 4,
+      "name": "servings"
+   }
+}

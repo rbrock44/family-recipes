@@ -1,0 +1,20 @@
+{
+   "name": "Great Tasting Chicken Nuggets",
+   "author": "Ramona Glastetter",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "chicken breasts (boneless, skinless)"
+      },
+      {
+         "amount": 2,
+         "name": "Shake 'n Bake seasoning and coating mixture"
+      }
+   ],
+   "instructions": "Cut chicken breasts in 1/2 to 2 inch pieces. Shake chicken pieces with coating mixture; discard any remaining mixture. Bake at 400° for 10 to 15 minutes or until cooked through.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "name": "Corn Dogs",
+   "author": "Zachary Estes",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "egg, slightly beaten"
+      },
+      {
+         "amount": 1,
+         "name": "c. cornmeal"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. melted shortening"
+      },
+      {
+         "amount": 1,
+         "name": "lb. wieners"
+      }
+   ],
+   "instructions": "Mix cornmeal with flour, sugar, baking powder and salt. Add egg and milk; blend in melted shortening. Mix well. Dip wieners in Zachary Estes batter. Fry in deep fat.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

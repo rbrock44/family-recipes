@@ -1,0 +1,40 @@
+{
+   "name": "Oven Fried Chicken",
+   "author": "S.P.",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. Parmesan cheese"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 1,
+         "name": "chicken, cut up"
+      },
+      {
+         "amount": 1,
+         "name": "c. butter, melted"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. dry bread crumbs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Paprika"
+      }
+   ],
+   "instructions": "Mix bread crumbs, cheese, salt and pepper. Dip chicken in butter. Roll in bread crumb mixture. Place in baking dish, sprinkle with paprika. Bake at 350° for 1 hour. Do not turn chicken while cooking. It will brown on both sides.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

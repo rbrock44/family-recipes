@@ -1,0 +1,40 @@
+{
+   "name": "Country Chicken with Creamy Gravy (Gravy)",
+   "author": "Rebecca Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "Tbsp. butter, melted"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. evaporated skimmed milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. plus 2 tsp. canned chicken broth"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. lite salt (optional)"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. white pepper"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. chopped fresh chives (optional)"
+      }
+   ],
+   "instructions": "Combine butter and flour in saucepan on top of stove. Over low heat gradually add milk, and broth stirring until smooth. Cook until thickened. Add salt and pepper. Add chives if desired. Serve over chicken.",
+   "yield": {
+      "amount": 2,
+      "name": "cups"
+   }
+}

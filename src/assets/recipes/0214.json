@@ -1,0 +1,32 @@
+{
+   "name": "Barbecue Beef Pie",
+   "author": "Christine Estes",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. barbecue sauce"
+      },
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "can crescent rolls"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. brown sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. shredded Cheddar cheese"
+      }
+   ],
+   "instructions": "Brown ground beef and drain. Combine beef, barbecue sauce and brown sugar. Press crescent rolls on sides and bottom of pie plate. Bake for 5 minutes at 400°. Spoon meat mixture on top of rolls. Add cheese on top of meat. Bake for 10 to 12 more minutes.",
+   "yield": {
+      "amount": 6,
+      "name": "servings"
+   }
+}

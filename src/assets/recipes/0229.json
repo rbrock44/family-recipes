@@ -1,0 +1,44 @@
+{
+   "name": "One Pot Chicken Tetrazzini",
+   "author": "Shirley Boham",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. cooked chicken"
+      },
+      {
+         "amount": 1,
+         "name": "onion, chopped"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped celery"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 1,
+         "name": "can cream chicken soup"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. lemon juice"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0,
+         "name": "pinch of nutmeg"
+      }
+   ],
+   "instructions": "Saute onion and celery in butter. Arrange chicken in layer over onion and celery. Add spaghetti and rest of ingredients. Cover and bring to a boil, simmer for 15 to 20 minutes. Garnish with grated Parmesan cheese and paprika.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

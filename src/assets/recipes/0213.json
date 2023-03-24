@@ -1,0 +1,36 @@
+{
+   "name": "Barbecue Beef Sauce",
+   "author": "Shirley Drury",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.33,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. dry mustard"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. allspice"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. lemon juice"
+      },
+      {
+         "amount": 0,
+         "name": "Catsup"
+      }
+   ],
+   "instructions": "Place all ingredients except catsup and lemon juice in a small bowl. Mix thoroughly. Stir in catsup and lemon juice. Spoon over loaves; as directed.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
