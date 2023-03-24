@@ -1,0 +1,36 @@
+{
+   "name": "Taco Chicken",
+   "author": "Don and Clara Essner Family",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can Rotel diced tomatoes"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of chicken soup"
+      },
+      {
+         "amount": 1,
+         "name": "chicken, deboned"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. Doritos brand taco-flavored chips"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (8 oz.) taco cheese (shredded)"
+      }
+   ],
+   "instructions": "rumble Doritos chips and layer at the bottom of a 9 x 12 inch dish. Next layer is your deboned chicken. Mix together soups and Rotel tomatoes until they start boiling. Pour over the chicken layer. Cover dish with Saran Wrap and microwave for 25 minutes. Take off Saran Wrap and sprinkle cheese on top. Microwave until cheese is melted.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,56 @@
+{
+   "name": "Chicken Puffs",
+   "author": "S.P.",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. shredded Swiss cheese"
+      },
+      {
+         "amount": 1,
+         "name": "1 egg"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. salad dressing"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 0,
+         "name": "Dash of salt"
+      },
+      {
+         "amount": 2,
+         "name": "c. finely chopped cooked chicken"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. chopped celery"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. dry white wine"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Dash of pepper"
+      }
+   ],
+   "instructions": "Melt butter in 1/4 cup boiling water. Add flour and dash of salt; stir vigorously. Cook and stir mixture until dough forms a ball that doesn't separate. Remove from heat and cool slightly. Add egg and beat vigorously until smooth. Stir in cheese. Drop dough onto greased baking sheet, using level teaspoon of dough for each puff. Bake at 375°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

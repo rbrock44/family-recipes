@@ -1,0 +1,36 @@
+{
+   "name": "Chicken Tetrazzini",
+   "author": "Shelly Dohogne",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "whole chicken"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. linguini noodles"
+      },
+      {
+         "amount": 2,
+         "name": "green peppers"
+      },
+      {
+         "amount": 2,
+         "name": "cans cream of mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "c. Mozzarella cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. chicken broth"
+      }
+   ],
+   "instructions": "Boil chicken and cut into bite-size pieces. Cook noodles and drain. Spray 9 x 13 inch pan with Pam. Layer noodles, then chicken. Mix chicken broth and mushroom soup and then pour over chicken. Saute peppers for next layer. Top with cheese. Bake at 250° for 20 minutes or 350° for 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,72 @@
+{
+   "name": "Chicken Stir-Fry",
+   "author": "Rebecca Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. onion powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. ground ginger"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. soy sauce"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. cold water"
+      },
+      {
+         "amount": 1,
+         "name": "lb. boneless, skinless chicken breasts, slightly frozen"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. sesame oil or vegetable oil"
+      },
+      {
+         "amount": 1,
+         "name": "green pepper, cut into thin strips"
+      },
+      {
+         "amount": 1,
+         "name": "red pepper, cut into thin strips"
+      },
+      {
+         "amount": 1,
+         "name": "c. fresh snow peas"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) can whole water"
+      },
+      {
+         "amount": 0,
+         "name": "chestnuts, drained and sliced"
+      },
+      {
+         "amount": 4,
+         "name": "c. hot, cooked rice"
+      }
+   ],
+   "instructions": "Combine garlic powder, onion powder, ginger, brown sugar, soy sauce, cornstarch, and water in a small bowl and set aside. Thinly slice chicken breasts. Preheat oil in a wok or large skillet over medium heat. Add green pepper, red pepper, and snow peas to wok or skillet. Cook until vegetables are crisp and tender, 3 minutes, stirring con- stantly. Push vegetables to the side of the wok or skillet. Add chicken and cook until chicken is lightly browned, 3 minutes, stirring constant- ly. Add water chestnuts and stir vegetables and chicken together. Stir in seasoning mixture. Bring to a boil and cook until mixture thickens slightly, 1 to 2 minutes, stirring constantly. Serve over hot rice.",
+   "yield": {
+      "amount": 4,
+      "name": "servings"
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "name": "Chicken Stew",
+   "author": "Dale Schlosser",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 10,
+         "name": "to 15 chickens"
+      },
+      {
+         "amount": 2,
+         "name": "jars soup base"
+      },
+      {
+         "amount": 1,
+         "name": "box barley"
+      },
+      {
+         "amount": 2,
+         "name": "stalks celery"
+      },
+      {
+         "amount": 10,
+         "name": "lb. potatoes"
+      },
+      {
+         "amount": 4,
+         "name": "lb. carrots"
+      },
+      {
+         "amount": 1,
+         "name": "large onion"
+      },
+      {
+         "amount": 25,
+         "name": "pkg. egg noodles (12 oz. bags)"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      }
+   ],
+   "instructions": "Pressure chickens until done. Strain the broth into 30 gallon kettle. Debone the chicken and cube it. Then add all vegetables and other ingredients and cook until done.",
+   "yield": {
+      "amount": 30,
+      "name": "gallons"
+   }
+}

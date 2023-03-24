@@ -1,0 +1,44 @@
+{
+   "name": "Country Chicken with Creamy Gravy (Chicken)",
+   "author": "Rebecca Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. corn flakes cereal, crushed"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. paprika"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. poultry seasoning"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. whole thyme"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. lite salt (optional)"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. eggs"
+      },
+      {
+         "amount": 6,
+         "name": "(4 oz.) skinned, boned chicken breast halves"
+      }
+   ],
+   "instructions": "Place cereal, paprika, poultry seasoning, thyme, salt, and pepper in a shallow dish, stirring well to combine. Pour eggs in a shallow bowl or dish. Dip chicken breast halves in eggs to coat. Dredge in cereal mixture. Place coated chicken in a 11 x 7 x 2 inch baking dish with thickest portions towards outside of dish. Cover with wax paper, and microwave at high for 12 minutes or until chicken is done. Rotate dish a half turn every 4 minutes. You can also bake chicken in the oven at 350° for 30 to 35 minutes. Spoon Creamy Gravy evenly over chicken. Serve immediately.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

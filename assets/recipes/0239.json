@@ -1,0 +1,40 @@
+{
+   "name": "Rotel Chicken Casserole",
+   "author": "S.P.",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 7,
+         "name": " chicken breasts, stewed, boned, cut in small pieces"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of chicken soup"
+      },
+      {
+         "amount": 1,
+         "name": "can diced Rotel"
+      },
+      {
+         "amount": 1,
+         "name": "(17 oz.) can chicken broth"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) pkg. shredded sharp cheese"
+      },
+      {
+         "amount": 1,
+         "name": "large bag tortilla chips"
+      }
+   ],
+   "instructions": "Place a layer of crushed chips in bottom of 9 x 13 inch dish. Mix together soups, Rotel, broth, and chicken (a whisk works well). Pour 1/2 mixture over chip layer. Sprinkle 1?2 of the cheese over soup mixture. Repeat chip layer. Pour remaining soup mixture over chips. Repeat cheese layer. Cover top with light layer of crushed chips. Bake 30 minutes at 350°.",
+   "yield": {
+      "amount": 10,
+      "name": "10 to 12 servings"
+   }
+}

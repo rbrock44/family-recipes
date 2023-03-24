@@ -1,0 +1,28 @@
+{
+   "name": "Beer Wieners",
+   "author": "Maris P.",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "pkg. hot dogs"
+      },
+      {
+         "amount": 32,
+         "name": "oz. ketchup"
+      },
+      {
+         "amount": 1,
+         "name": "box of brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "can beer"
+      }
+   ],
+   "instructions": "Cut each hot dog into four pieces. Boil all the hot dogs in the beer. When hot dogs are done, add ketchup and brown sugar. Bring to boil and cook on medium heat for 30 minutes until mixture is thick.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

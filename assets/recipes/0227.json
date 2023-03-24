@@ -1,0 +1,44 @@
+{
+   "name": "Chicken Tetrazzini",
+   "author": "Louise Alderman",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. butter or margarine"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of mushroom soup (undiluted)"
+      },
+      {
+         "amount": 1,
+         "name": "can of cream of chicken soup (undiluted)"
+      },
+      {
+         "amount": 1,
+         "name": "(4 1/2 oz.) can sliced mushrooms (drained)"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. chopped pimentos"
+      },
+      {
+         "amount": 2,
+         "name": "c. cubed chicken (or more)"
+      },
+      {
+         "amount": 4,
+         "name": "oz. spaghetti, cooked and drained"
+      },
+      {
+         "amount": 0,
+         "name": "Grated Parmesan cheese"
+      }
+   ],
+   "instructions": "In a large pan melt butter and add soups. Remove from heat and add rest of ingredients except cheese. Pour into greased casserole dish and sprinkle with cheese. Bake uncovered at 350° for 35 to 40 minutes or until bubbly. If made ahead and refrigerated, it will take longer to bake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

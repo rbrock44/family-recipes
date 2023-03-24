@@ -1,0 +1,52 @@
+{
+   "name": "Chicken Cordon Bleu",
+   "author": "Annita Layton",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "medium whole chicken breasts, skinned and boned"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. Swiss cheese slices"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. sliced cooked ham"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. all-purpose flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. paprika"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. butter or margarine"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. dry white wine"
+      },
+      {
+         "amount": 1,
+         "name": "chicken-flavor bouillon cube or envelope or 1 teaspoon chicken flavor stock base"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 1,
+         "name": "c. heavy or whipping cream"
+      }
+   ],
+   "instructions": "",
+   "yield": {
+      "amount": 0,
+      "name": "Spread chicken breasts flat; fold cheese and ham slices to fit on top. Fold breasts over filling and fasten edges with toothpicks. On waxed paper, mix flour and paprika; use mixture to coat chicken pieces. In a 12-inch skillet over medium heat, in hot butter or marga- rine, cook chicken until browned on all sides. Add wine and bouillon. Reduce heat to low; cover and simmer 30 minutes or until fork-tender; remove the toothpicks. In cup, blend cornstarch and cream until smooth; gradually stir into skillet. Cook, stirring constantly, until thickened. Serve over chicken."
+   }
+}

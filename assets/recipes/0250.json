@@ -1,0 +1,49 @@
+{
+   "name": "Ham and Cheese Quiche",
+   "author": "Karen",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. (1/2 lb.) ham cubes"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) pastry shell"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. chopped onions"
+      },
+      {
+         "amount": 2,
+         "name": "c. shredded Swiss cheese"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. scalded milk"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) pkg. frozen broccoli"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, slightly beaten"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. pepper"
+      }
+   ],
+   "instructions": "Cook, drain and chop broccoli. Layer half of broccoli, ham and cheese in shell. Repeat with second half. Sprinkle onion over it and set aside. Gradually stir milk into eggs and add seasonings. Pour into pastry shell and bake at 450° for 10 minutes. Reduce heat to 325° and cook 35 minutes. Let stand a few minutes before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
+

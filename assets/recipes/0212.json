@@ -1,0 +1,40 @@
+{
+   "name": "Barbecue Beef Loaves",
+   "author": "Shirley Drury",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "lb. ground chuck"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. fine dry bread crumbs"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. instant minced onions"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. shredded raw carrots"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 1,
+         "name": "c. evaporated milk"
+      }
+   ],
+   "instructions": "Place all ingredients in medium size mixing bowl. Mix well. Form into individual loaves and place in 8 4 x 6 4 x 2 inch baking dish. Bake in oven at 350° for 20 minutes. While loaves are baking, prepare sauce according to directions. After 20 minutes, spoon over loaves and bake 30 minutes longer.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

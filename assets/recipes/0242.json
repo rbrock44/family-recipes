@@ -1,0 +1,40 @@
+{
+   "name": "CHICKEN PERIGORD-STYLE",
+   "author": " Annita Layton",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. butter or margarine"
+      },
+      {
+         "amount": 8,
+         "name": "whole chicken breasts, skinned and boned"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. all-purpose flour"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "(13 3/4 oz.) can chicken broth"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. half-and-half"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. mushrooms, sliced"
+      }
+   ],
+   "instructions": "In 12-inch skillet or 6-quart Dutch oven over medium-high heat, in 6 tablespoons hot butter or margarine, cook chicken, a few pieces at a time, until browned on all sides. Set chicken aside. In drippings, over medium heat, in remaining 2 tablespoons butter, cook mush- rooms until golden, about 5 minutes. With slotted spoon, remove mushrooms to small bowl. Into drippings, over medium heat, stir flour and salt until blended. Gradually stir in chicken broth and half- and-half and cook, stirring constantly, until mixture is thickened. Place chicken and mushrooms in sauce. Reduce heat to low; cover and simmer 25 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

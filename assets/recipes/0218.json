@@ -1,0 +1,44 @@
+{
+   "name": "Sweet and Sour Pork",
+   "author": "S.M.P",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. pork cut in strips"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. oil"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. soy sauce"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) can pineapple chunks and juice"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "green pepper, in strips"
+      }
+   ],
+   "instructions": "In large skillet, brown pork in oil. Remove. Mix cornstarch with Juice from pineapple; add to skillet. Add vinegar, brown sugar and soy sauce. Stir over low heat until clear and thick. Add pineapple and pork. Bring to a boil and simmer for 5 minutes. Add green pepper and cook 1 to 2 minutes more, just enough to heat through and heighten color. Serve over hot cooked rice.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

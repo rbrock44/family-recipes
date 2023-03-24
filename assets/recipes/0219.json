@@ -1,0 +1,44 @@
+{
+   "name": "Stir-Fried Bean and Noodles",
+   "author": "Karla Essner",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. beef top round or boneless sirloin steak"
+      },
+      {
+         "amount": 2,
+         "name": "(3 oz.) pkg. Oriental flavor instant Ramen noodles"
+      },
+      {
+         "amount": 2,
+         "name": "c. water"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. cornstarch"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. vegetable oil"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. broccoli florets or 2 c. frozen"
+      },
+      {
+         "amount": 2,
+         "name": "medium carrots, cut diagonally into thin slices"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. grated orange peel, optional"
+      }
+   ],
+   "instructions": "Cut beef steak lengthwise in half; cut crosswise into 1/2 inch thick strips. In medium bowl, combine seasoning packets from noodles, 1?2 cup of the water and cornstarch. Add beef, tossing to coat. In large nonstick skillet, heat 1 tablespoon of the oil over medium-high heat until hot. Add broccoli and carrots; stir-fry 1 minute. Break noodles into several pieces; add to skillet with remaining 1 1/2 cups water. Bring to a boil; reduce heat. Cover and simmer over low heat 3 to 5 minutes or until vegetables are tender and almost all liquid is absorbed, stirring occasionally to separate noodles. Transfer to warm platter. In same skillet, heat remaining oil over medium-high heat until hot. Remove beef from marinade. Add beef (1?2 at a time) and stir-fry 1 to 2 minutes or until outside surface is no longer pink. Do not overcook. Spoon beef and pan juices over noodles. Sprinkle with orange peel, if desired. Serve immediately. This recipe has a total preparation and cooking time of 30 minutes. Nutrition facts per serving using beef top round steak: 476 calories, 37 g. protein, 22 g. fat, 33 g. carbohydrates, 5.2 mg. iron, 1019 mg. sodium, 83 mg. cholesterol. Nutrition facts per serving using beef sir- loin steak.: 486 calories, 35 g. protein, 24 g. fat, 33 g. carbohydrates, 5.8 mg. iron, 1024 mg. sodium, 84 mg. cholesterol.",
+   "yield": {
+      "amount": 4,
+      "name": "servings"
+   }
+}

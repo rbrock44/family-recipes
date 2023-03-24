@@ -1,0 +1,60 @@
+{
+   "name": "Baked Chicken Breast",
+   "author": "Helen Cox",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "(12 oz.) chicken breasts"
+      },
+      {
+         "amount": 2,
+         "name": "c. sour cream"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. lemon juice"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. Worcestershire sauce"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. paprika"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. celery salt"
+      },
+      {
+         "amount": 4,
+         "name": "cloves garlic chopped"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 1.75,
+         "name": "c. dry bread crumbs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      }
+   ],
+   "instructions": "Combine sour cream, lemon juice, Worcestershire sauce, celery salt, salt, paprika, garlic, salt, and pepper. Add chicken to sour cream mixture coating each piece. Let stand overnight. Heat oven to 35°. Roll chicken in crumbs, coating evenly. Arrange in large shallow pan in single layer. Cover with sour cream mixture. Bake for approximately 1 hour. Along with the above I bake in casserole dish, 1 can beef consomme soup, 1 cup rice, 1 can rice, 1 can water and 1 stick margarine for 1 hour. Serve with chicken or separately.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

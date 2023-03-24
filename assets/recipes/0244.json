@@ -1,0 +1,48 @@
+{
+   "name": "Buttermilk Pecan Chicken",
+   "author": "Annita Layton",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "Tbsp. paprika"
+      },
+      {
+         "amount": 1,
+         "name": "c. ground pecans"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 1,
+         "name": "egg, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Dash of pepper"
+      },
+      {
+         "amount": 2,
+         "name": "to 3 lb. boneless, skinless chicken breasts"
+      }
+   ],
+   "instructions": "Place butter in large shallow roasting pan in oven until melted. Remove and set aside. Mix buttermilk and egg; set aside. Combine flour, pecans, paprika, salt and pepper in medium bowl. Coat chicken in buttermilk mixture, then in flour mixture. Place in roasting pan, turn to coat with butter. Bake at 375° about 45 minutes to 1 hour until chicken is a deep golden brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

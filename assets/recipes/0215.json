@@ -1,0 +1,40 @@
+{
+   "name": "Homestyle Tuna Pot Pie",
+   "author": "Anna Bollinger",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. refrigerated all-ready pie crusts (2 crusts)"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) can chunk light tuna, drained"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) pkg. frozen peas and carrots"
+      },
+      {
+         "amount": 0.5,
+         "name": "chopped onion"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) can cream of potato or mushroom soup"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. poultry seasoning or dried thyme"
+      }
+   ],
+   "instructions": "Line 9 inch pie pan with 1 crust; set aside. Combine remaining ingredients. Add salt and pepper to taste. Pour filling in pie pan. Top with second crust. Seal and crimp edges. Slit top of crust to vent and bake at 375 degrees for 45 to 50 minutes or until golden brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

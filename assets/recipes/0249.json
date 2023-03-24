@@ -1,0 +1,48 @@
+{
+   "name": "He-Man Quiche",
+   "author": "Maris P.",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "small pkg. Monterey Jack pepper cheese"
+      },
+      {
+         "amount": 0.75,
+         "name": "lb. sausage or ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. chopped broccoli, cooked and drained"
+      },
+      {
+         "amount": 1,
+         "name": "can chopped mushrooms"
+      },
+      {
+         "amount": 0.5,
+         "name": "bell pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "onion"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper"
+      },
+      {
+         "amount": 1,
+         "name": "deep dish pie shell"
+      }
+   ],
+   "instructions": "After preparing ingredients, pour into a big bowl and stir well. Cover with pie crust strips like an apple pie. Do not pack mixture down. Bake at 350° for 45 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

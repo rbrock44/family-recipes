@@ -1,0 +1,52 @@
+{
+   "name": "Chicken and Snow Pea Stir-Fry",
+   "author": "Revella Schlosser",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. chicken broth"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. soy sauce"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. vegetable oil"
+      },
+      {
+         "amount": 2,
+         "name": "skinned and boned chicken breasts, halved and cut into 1/4 inch strips"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sliced celery"
+      },
+      {
+         "amount": 0.25,
+         "name": "lb. fresh snow pea pods"
+      },
+      {
+         "amount": 4,
+         "name": "large mushrooms, sliced"
+      },
+      {
+         "amount": 3,
+         "name": "green onions, sliced"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. slivered almonds, toasted"
+      }
+   ],
+   "instructions": "Combine broth, soy sauce, and cornstarch in a small bowl, set aside. Pour oil around top of a preheated nonstick wok or large skillet, coating sides. Heat at medium-high heat for 1 minute. Add chicken, cook, stirring constantly, for 4 minutes or until chicken is almost done. Add celery, pea pods, mushrooms and onions. Cook, stirring constantly, 3 to 4 minutes or until vegetables are tender and chicken is done. Stir in toasted almonds. Stir in broth mixture, cook, stirring constantly, until thickens and boils. Boil for 1 minute, stirring constantly. Serve over rice.",
+   "yield": {
+      "amount": 2,
+      "name": "servings"
+   }
+}

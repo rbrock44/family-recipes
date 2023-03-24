@@ -1,0 +1,40 @@
+{
+   "name": "Chicken Casserole",
+   "author": "Louise Alderman",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. Uncle Ben's Long Grain wild rice"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. mayonnaise"
+      },
+      {
+         "amount": 2,
+         "name": "cans cream of chicken soup"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped celery"
+      },
+      {
+         "amount": 2,
+         "name": "small onions (chopped)"
+      },
+      {
+         "amount": 1,
+         "name": "can sliced water chestnuts (optional)"
+      },
+      {
+         "amount": 2,
+         "name": "c. cooked chicken (cut up)"
+      }
+   ],
+   "instructions": "Make the rice ahead as directed on package. Prepare other ingredients. Mix altogether and place in 9 x 13 inch pan. Bake at 300° for 45 minutes. This can be made the day before and refrigerated or frozen. It may take longer to bake if cold.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

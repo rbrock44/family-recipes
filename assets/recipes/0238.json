@@ -1,0 +1,40 @@
+{
+   "name": "Honey Mustard Chicken",
+   "author": "R.P.",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "pieces of chicken"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. lemon extract"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Dijon mustard"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. honey"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. paprika"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. dried basil"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      }
+   ],
+   "instructions": "Place chicken in glass dish. Squeeze lemon over chicken. Mix mustard, honey, paprika, and basil. Spread over chicken and marinate for 1 hour. Turn and baste all over. Bake at 350° for 45 to 60 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

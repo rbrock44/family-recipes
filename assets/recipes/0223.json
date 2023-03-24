@@ -1,0 +1,36 @@
+{
+   "name": "Chicken and Dumplings",
+   "author": "Leola Essner",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "Flour"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. bouillon"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "old hen"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. broth"
+      }
+   ],
+   "instructions": "Cook old hen to make broth. Remove when done, let cool. Then pick chicken from bones. Beat eggs and broth in bowl and mix in flour until stiff enough to roll out and cut. Cut dumplings and drop in boil- ing broth. Add butter and bouillon after you put in dumplings. Cook until tender and add the chicken.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
