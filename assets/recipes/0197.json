@@ -1,0 +1,36 @@
+{
+   "name": "Zesty Ziti",
+   "author": "Donna Menz",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. Italian sausage, cut into 1/2 inch pieces"
+      },
+      {
+         "amount": 1,
+         "name": "large onion, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "medium green pepper, diced"
+      },
+      {
+         "amount": 1,
+         "name": "large clove garlic, minced"
+      },
+      {
+         "amount": 1,
+         "name": "(32 oz.) jar Prego spaghetti sauce"
+      },
+      {
+         "amount": 0,
+         "name": "Hot cooked ziti or shell macaroni"
+      }
+   ],
+   "instructions": "In 2 quart saucepan, over medium heat, cook sausage, onion, and green pepper with garlic until sausage is done and vegetables are ten- der. Spoon off fat. Add spaghetti sauce. Heat thoroughly, stirring occasionally. Pour over ziti and mix.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

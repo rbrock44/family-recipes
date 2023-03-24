@@ -1,0 +1,68 @@
+{
+   "name": "Italian Spaghetti with Meat Sauce",
+   "author": "Donna Menz",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "medium onion, finely chopped"
+      },
+      {
+         "amount": 1,
+         "name": "green pepper, finely chopped"
+      },
+      {
+         "amount": 2,
+         "name": "(15 oz.) cans tomato sauce"
+      },
+      {
+         "amount": 2,
+         "name": "(12 oz.) cans tomato paste"
+      },
+      {
+         "amount": 1,
+         "name": "(7 1/2 oz.) can pitted olive, drained and sliced"
+      },
+      {
+         "amount": 2,
+         "name": "envelopes Italian-Style Spaghetti sauce mix with mushrooms"
+      },
+      {
+         "amount": 3,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. oregano leaves"
+      },
+      {
+         "amount": 2,
+         "name": "cloves garlic, crushed"
+      },
+      {
+         "amount": 1,
+         "name": "bay leaf, crumbled"
+      },
+      {
+         "amount": 16,
+         "name": "oz. spaghetti"
+      },
+      {
+         "amount": 0,
+         "name": "Grated Parmesan cheese"
+      }
+   ],
+   "instructions": "Cook and stir meat, onion, and pepper until meat is brown and onion is tender. Stir in remaining ingredients except spaghetti and cheese. Cover; simmer 1 1?2 hours, stirring occasionally. Cook spaghetti and drain well. Serve with sauce and top with cheese.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

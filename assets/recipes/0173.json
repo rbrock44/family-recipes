@@ -1,0 +1,48 @@
+{
+   "name": "Beef and Zucchini Casserole",
+   "author": "Donna Scherer",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "lb. ground beef, browned"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. uncooked rice"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 2,
+         "name": "medium zucchini"
+      },
+      {
+         "amount": 1,
+         "name": "small onion"
+      },
+      {
+         "amount": 1,
+         "name": "(6 oz.) can tomatoes"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. soy sauce"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. basil"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      }
+   ],
+   "instructions": "Combine all above ingredients in a casserole dish. Microwave on high 27 minutes or bake in 350° oven for 1 hour.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

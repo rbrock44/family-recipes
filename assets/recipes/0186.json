@@ -1,0 +1,32 @@
+{
+   "name": "Lasagna",
+   "author": "Charlotte Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 2,
+         "name": "(16 oz.) pkg. lasagna noodles"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) spaghetti sauce (any kind)"
+      },
+      {
+         "amount": 2,
+         "name": "(8 oz.) shredded Cheddar cheese"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) shredded Mozzarella cheese"
+      }
+   ],
+   "instructions": "Brown ground beef and boil the noodles. Mix the spaghetti sauce with the browned beef. In a large casserole, put a layer of noodles fol- lowed by a layer of meat and then a layer of cheese. Repeat layers until out of ingredients. Bake at 350° for about one hour or until cheese is melted and brown on the edges. Before baking, this dish can also be frozen and baked later. Makes large casserole.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

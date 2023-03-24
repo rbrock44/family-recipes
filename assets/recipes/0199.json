@@ -1,0 +1,28 @@
+{
+   "name": "Bagel Pizzas",
+   "author": "Dustin P. Glastetter",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. bagels"
+      },
+      {
+         "amount": 2,
+         "name": "Grated Mozzarella cheese"
+      },
+      {
+         "amount": 1,
+         "name": "Tomato sauce"
+      },
+      {
+         "amount": 2,
+         "name": "Pepperoni slices and other favorite toppings"
+      }
+   ],
+   "instructions": "Slice bagels in half and place on a cookie sheet. Spoon on sauce. Sprinkle with cheese, meat, or other toppings. Bake at 350° for 10 to 15 minutes or until cheese is melted.",
+   "yield": {
+      "amount": 4,
+      "name": "4 to 6 servings"
+   }
+}

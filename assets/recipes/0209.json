@@ -1,0 +1,32 @@
+{
+   "name": "Barbecued Frank Burgers--Juicy Burgers",
+   "author": "Helen Menz, Donna Menz",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.33,
+         "name": "c. chopped dill pickles"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. chopped onions"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. hot dogs, sliced"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. barbecue sauce"
+      }
+   ],
+   "instructions": "Brown ground beef, drain. Stir in hot dogs, barbecue sauce, pick- les and onions. Cover and cook for 15 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

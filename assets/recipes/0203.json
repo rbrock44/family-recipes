@@ -1,0 +1,48 @@
+{
+   "name": "Homemade Pizza",
+   "author": "Charlotte Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. Red Star dry yeast"
+      },
+      {
+         "amount": 1,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. cooking oil"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0,
+         "name": "Pizza or spaghetti sauce"
+      },
+      {
+         "amount": 0,
+         "name": "Favorite meat or vegetable toppings"
+      },
+      {
+         "amount": 0,
+         "name": "Mozzarella cheese"
+      }
+   ],
+   "instructions": "Add yeast and sugar to warm water. Mix thoroughly. Add salt and oil and mix well. Then add flour and beat vigorously. Turn dough on floured board and knead for 30 seconds. Let stand for 20 minutes. Roll dough to fit pans. Pre-bake dough for 10 minutes or until top of crust is no longer sticky. Top crust with favorite meat or vegetable toppings. Finally, add cheese. At this point, you can cover and freeze. Bake at 425° for 15 to 25 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

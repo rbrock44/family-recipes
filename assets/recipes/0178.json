@@ -1,0 +1,68 @@
+{
+   "name": "Spaghetti Pie",
+   "author": "Tina Schlosser",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "oz. spaghetti"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. chopped green peppers"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) can tomatoes"
+      },
+      {
+         "amount": 1,
+         "name": "(6 oz.) can tomato paste"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. oregano"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. garlic salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shredded Mozzarella cheese"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. Parmesan cheese"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, well beaten"
+      },
+      {
+         "amount": 1,
+         "name": "c. cottage cheese"
+      },
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped onions"
+      }
+   ],
+   "instructions": "Cook spaghetti according to package directions. Drain. You should have about 3 cups. Stir butter, cheese, and beaten eggs into spaghetti. Mix well. Form a crust with this mixture. Spread cottage cheese over spaghetti. Cook ground beef, onions, and green peppers until vegetables are tender and meat is brown. Drain off excess fat. Stir in undrained tomatoes, tomato paste, sugar, oregano, and garlic salt. Heat through. Pour on top of cottage cheese. Bake uncovered at 350° for about 20 minutes. Sprinkle the Mozzarella cheese on top and bake for five more minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

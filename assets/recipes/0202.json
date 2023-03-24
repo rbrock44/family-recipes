@@ -1,0 +1,32 @@
+{
+   "name": "Pizza Dough",
+   "author": " Helen Menz, Donna Menz",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. oil"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. baking powder"
+      }
+   ],
+   "instructions": "Mix all ingredients together to make crust.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

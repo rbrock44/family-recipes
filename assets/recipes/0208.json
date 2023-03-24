@@ -1,0 +1,44 @@
+{
+   "name": "Barbecued Beans",
+   "author": "Anna Rose Bles",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(1 lb. 12 oz.) can of pork 'n beans"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped onion"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. Worcestershire sauce"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. vinegar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. catsup"
+      }
+   ],
+   "instructions": "Brown beef and onion. Pour off fat. Add remaining ingredients. Mix well. Pour into 1 1?2 quart casserole. Bake at 350° for 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

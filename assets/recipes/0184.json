@@ -1,0 +1,64 @@
+{
+   "name": "Lasagna",
+   "author": "Carol Peters",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vegetable oil"
+      },
+      {
+         "amount": 1,
+         "name": "clove garlic (crushed)"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. parsley flakes"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "(28 oz.) can whole tomatoes, quartered and drained or equal tomato juice/sauce"
+      },
+      {
+         "amount": 2,
+         "name": "(6 oz.) cans tomato paste Mushrooms, if desired"
+      },
+      {
+         "amount": 12,
+         "name": "lasagna noodles"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) carton cottage cheese"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Parmesan cheese"
+      },
+      {
+         "amount": 4,
+         "name": "c. shredded Mozzarella cheese"
+      }
+   ],
+   "instructions": "Saute beef in oil until browned, stirring to crumble meat. Stir in garlic, parsley, 1 teaspoon salt, tomatoes and tomato paste. Simmer uncovered for 45 to 50 minutes or until thickened; set aside. Cook noodles according to package directions; drain. Combine cottage cheese, eggs, 1 teaspoon salt, pepper and Parmesan cheese; mix well. Layer 1?2 of noodles, cottage cheese mixture, Mozzarella and meat sauce in greased 13x9x2 inch baking dish. Repeat layers; bake at 375° for 30 minutes.",
+   "yield": {
+      "amount": 6,
+      "name": "6 to 8 servings"
+   }
+}

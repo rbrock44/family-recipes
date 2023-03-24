@@ -1,0 +1,64 @@
+{
+   "name": "Crunchy Beef-Noodle Bake",
+   "author": "Donna Menz",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped onion"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of chicken soup"
+      },
+      {
+         "amount": 1,
+         "name": "(4 oz.) can mushrooms, undrained"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "small green pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sliced pitted olives"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. soy sauce"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. uncooked egg noodles"
+      },
+      {
+         "amount": 1,
+         "name": "c. chow mein noodles"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. mixed nuts, salted"
+      },
+      {
+         "amount": 1,
+         "name": "c. Cheddar cheese, shredded"
+      }
+   ],
+   "instructions": "Cook ground beef and onion in 10 inch skillet, stirring frequently until beef is brown; drain. Stir in remaining ingredients except cheese, noodles, and nuts. Pour into ungreased 2 quart casserole. Sprinkle with cheese. Cover and bake 50 minutes at 350°. Top with noodles and nuts. Bake uncovered for 10 minutes. To serve later: cover and refrigerate up to 24 hours. Bake uncovered in 350° for 50 minutes. Top with noodles and nuts. Bake uncovered 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

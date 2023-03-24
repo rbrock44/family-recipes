@@ -1,0 +1,32 @@
+{
+   "name": "Fettuccine Alfredo",
+   "author": "Rebecca Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "oz. fettuccine"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. grated Parmesan cheese"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. light cream or whipping cream, at room temperature"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. margarine or butter, cut up and at room temperature"
+      },
+      {
+         "amount": 0,
+         "name": "Fresh coarsely cracked black pepper"
+      }
+   ],
+   "instructions": "Cook pasta according to package. Immediately drain. Return pasta to hot kettle or Dutch oven. Add Parmesan cheese, light cream or whipped cream, and margarine or butter. Toss gently until pasta is well coated. Transfer to a warm serving dish. Sprinkle with pepper. Serve immediately.",
+   "yield": {
+      "amount": 4,
+      "name": "main dish servings"
+   }
+}

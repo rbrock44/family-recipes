@@ -1,0 +1,40 @@
+{
+   "name": "Juicy Burgers",
+   "author": "Joan Drury",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 2,
+         "name": "c. bread crumbs"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. barbecue sauce"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. Worcestershire sauce"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. vinegar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. sugar"
+      }
+   ],
+   "instructions": "Brown meat, milk, and bread crumbs until meat is done. Add barbecue sauce, Worcestershire sauce, vinegar and sugar. Simmer until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

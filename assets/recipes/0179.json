@@ -1,0 +1,52 @@
+{
+   "name": "Spaghetti Casserole",
+   "author": "In Memory of Ella T. Schlosser",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 10,
+         "name": "onions"
+      },
+      {
+         "amount": 4,
+         "name": "to 6 peppers"
+      },
+      {
+         "amount": 4,
+         "name": "to 5 garlic buds"
+      },
+      {
+         "amount": 4,
+         "name": "cans tomato soup"
+      },
+      {
+         "amount": 2,
+         "name": "cans tomatoes"
+      },
+      {
+         "amount": 0,
+         "name": "Mushrooms"
+      },
+      {
+         "amount": 0,
+         "name": "Olives"
+      },
+      {
+         "amount": 0,
+         "name": "Grated cheese"
+      },
+      {
+         "amount": 0,
+         "name": "Spaghetti noodles, cooked"
+      }
+   ],
+   "instructions": "Brown meat in skillet, add other ingredients. Add tomato soup and tomatoes. Cook 2 to 4 hours. After cooked, add mushrooms, sliced stuffed olives, grated cheese, and cooked spaghetti. Add water if too thick.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
