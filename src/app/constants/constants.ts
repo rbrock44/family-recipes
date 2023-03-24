@@ -31,6 +31,21 @@ export const LIQUID_CONVERSIONS = [
   new LiquidConversion(.0625, .25, .5, 1),
 ];
 
+export const HOOPER_FAMILY: string[] = [
+  'C. Allen Collier',
+  'Caleb Estes',
+  'Catrina Stone',
+  'Charlotte Hooper',
+  'Christine Estes',
+  'Cheryl Stone',
+  'In Memory of Ella I. Schlosser, Charlotte Hooper',
+  'Joan Drury',
+  'Rebecca Hooper',
+  'Ryan Brock',
+  'Sara Hooper',
+  'Zachary Estes',
+];
+
 const THREE_RX = '[1-9]\\d{2,}';
 const TWO_RX = '[1-9]\\d';
 const DECIMAL_RX = '(?:\\.[0-9]+)?';

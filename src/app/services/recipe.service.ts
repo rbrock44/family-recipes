@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { cloneDeep } from 'lodash';
+import { HOOPER_FAMILY } from '../constants/constants';
 import { Category } from '../models/category.enum';
 import { Recipe } from '../models/recipe.interface';
 import { RecipeReaderService } from './recipe-reader.service';
@@ -10,19 +11,6 @@ import { RecipeReaderService } from './recipe-reader.service';
 })
 export class RecipeService {
   private recipes: Recipe[] = [];
-  private hooperFamily: string[] = [
-    'Rebecca Hooper',
-    'C. Allen Collier',
-    'Christine Estes',
-    'Caleb Estes',
-    'Zachary Estes',
-    'Cheryl Stone',
-    'Catrina Stone',
-    'Charlotte Hooper',
-    'Joan Drury',
-    'Ryan Brock',
-    'Sara Hooper',
-  ];
 
   constructor(
     private reader: RecipeReaderService
@@ -50,7 +38,7 @@ export class RecipeService {
     }
 
     if (onlyHooperFamily) {
-      list = list.filter(it => this.hooperFamily.indexOf(it.author) > -1);
+      list = list.filter(it => HOOPER_FAMILY.indexOf(it.author) > -1);
     }
 
     return list;
