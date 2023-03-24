@@ -1,0 +1,32 @@
+{
+   "name": "Creamy Fettuccine Alfredo",
+   "author": "Annita Layton",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz. pkg.) cream cheese, cubed"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. Parmesan cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter or margarine"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) fettuccine noodles, cooked and drained"
+      }
+   ],
+   "instructions": "In large saucepan, stir together cream cheese, Parmesan cheese, butter, and milk over low heat until smooth. Add fettuccine noodles and toss lightly.",
+   "yield": {
+      "amount": 4,
+      "name": "servings"
+   }
+}

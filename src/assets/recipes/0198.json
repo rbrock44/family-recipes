@@ -1,0 +1,40 @@
+{
+   "name": "Pizza Burgers",
+   "author": "St. Augustine Cafeteria",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "lb. Mozzarella grated cheese"
+      },
+      {
+         "amount": 15,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 22,
+         "name": "qt. tomato paste"
+      },
+      {
+         "amount": 6,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. gallic powder"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. Italian seasoning or oregano"
+      }
+   ],
+   "instructions": "Brown ground beef. Mix all ingredients, except the cheese, together with meat. Spread on buns, top with cheese. Makes enough for 40, 5-inch buns or 36, 4-inch buns.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

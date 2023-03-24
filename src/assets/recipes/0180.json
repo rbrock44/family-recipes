@@ -1,0 +1,56 @@
+{
+   "name": "Easy Oven Spaghetti",
+   "author": "Donna Menz",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "c. onion, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "(28 oz.) can sliced tomatoes, undrained"
+      },
+      {
+         "amount": 1,
+         "name": "(4 oz.) can mushrooms, drained"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. chopped green peppers"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. chili powder"
+      },
+      {
+         "amount": 1,
+         "name": "(7 oz.) pkg. thin spaghetti, broken in half"
+      },
+      {
+         "amount": 1,
+         "name": "c. shredded Cheddar cheese"
+      }
+   ],
+   "instructions": "Heat oven to 375°. Cook ground beef and onions in a Dutch oven until beef is done. Stir in remaining ingredients, except the cheese. Add uncooked spaghetti. Cover and bake about 45 minutes, stirring occasionally, until spaghetti is tender. Sprinkle with cheese and bake uncovered about 5 minutes until cheese is melted. I add 2 cans of tomatoes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

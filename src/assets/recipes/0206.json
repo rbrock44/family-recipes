@@ -1,0 +1,40 @@
+{
+   "name": "Chicken Pot Pie",
+   "author": "Brenda Schlosser Morrison",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "cans cream of broccoli soup"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. dried thyme leaves, crushed"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 4,
+         "name": "c. cooked cut-up vegetables"
+      },
+      {
+         "amount": 2,
+         "name": "c. cubed cooked chicken or turkey"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) can refrigerator Hungry Jack flaky biscuits"
+      }
+   ],
+   "instructions": "Can use broccoli, cauliflower, carrots and potatoes. In 3 quart oblong baking dish, combine soup, milk, thyme and pepper. Stir in vegetables and chicken. Bake at 400° for 15 minutes or until mixture begins to bubble. Meanwhile, cut each biscuit into quarters. Remove dish from oven; stir. Arrange biscuit pieces over hot chicken mixture. Bake 15 minutes or until biscuits are golden brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "One Step Lasagna",
+   "author": "Bonnie LeGrand",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "lb. hamburger, browned"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) box lasagne noodles"
+      },
+      {
+         "amount": 16,
+         "name": "oz. Mozzarella cheese, thinly sliced or shredded"
+      },
+      {
+         "amount": 30,
+         "name": "oz. Prego Spaghetti sauce"
+      },
+      {
+         "amount": 1,
+         "name": "(15 oz.) container Ricotta cheese or cottage cheese "
+      },
+      {
+         "amount": 0.5,
+         "name": "c. grated Parmesan cheese"
+      }
+   ],
+   "instructions": "Combine browned beef with water and spaghetti sauce in a bowl. Cover bottom of 13 x 9 x 2 inch baking dish with 1 1?2 cups of sauce. Arrange layer of uncooked noodles, slightly overlapping, on top of sauce. Spread half of the Ricotta and half of the Mozzarella and 2 tea- spoons Parmesan over the noodles. Add another layer of sauce. Re- peat with another layer of noodles, the remaining Ricotta and Mozzarella and 2 teaspoons of Parmesan. Top with layer of noodles. Pour remaining sauce over; spreading evenly to cover edges of noodles. Sprinkle with 1?2 cup Parmesan. Cover tightly with foil. Set on cookie sheet and bake in preheated 350° oven for 1 hour. Let stand, covered 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

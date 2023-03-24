@@ -1,0 +1,40 @@
+{
+   "name": "Cavatini",
+   "author": "Brian Hulshof",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "large jar spaghetti sauce"
+      },
+      {
+         "amount": 12,
+         "name": "oz. Mozzarella cheese"
+      },
+      {
+         "amount": 1,
+         "name": "medium green pepper, chopped"
+      },
+      {
+         "amount": 12,
+         "name": "oz. pkg. mixed pasta shapes, cooked and drained"
+      },
+      {
+         "amount": 0.5,
+         "name": "pkg. pepperoni"
+      },
+      {
+         "amount": 6,
+         "name": "oz. can mushrooms"
+      }
+   ],
+   "instructions": "Brown ground beef and drain. Combine ground beef, spaghetti sauce, green pepper, pepperoni, and mushrooms. Heat through. Com- bine this mixture with the cooked pasta. Pour half of this mixture with the cooked pasta. Pour half the mixture in a 9 x 9 inch baking pan. Layer half of the Mozzarella cheese on top. Pour in rest of the ground beef mixture and top with the remaining cheese. Bake at 350° for 20 to 25 minutes or until cheese is melted and bubbly.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

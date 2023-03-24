@@ -1,0 +1,52 @@
+{
+   "name": "Marzetti",
+   "author": "Nancy Weissmueller",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "large onion, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "large green pepper, chopped"
+      },
+      {
+         "amount": 0,
+         "name": "Garlic to taste"
+      },
+      {
+         "amount": 0,
+         "name": "Pepper to taste"
+      },
+      {
+         "amount": 0,
+         "name": "Salt to taste"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) pkg. egg noodles, cooked"
+      },
+      {
+         "amount": 2,
+         "name": "cans tomato soup"
+      },
+      {
+         "amount": 2,
+         "name": "cans cream of mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) pkg. grated Cheddar cheese"
+      }
+   ],
+   "instructions": "Brown together, ground beef, onion, green pepper and season- ings. Mix remaining ingredients, but only half the cheese, with ground beef mixture. Pour into casserole dish. Sprinkle half of the Cheddar cheese on top. Bake for 25 to 30 minutes in 350° oven.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

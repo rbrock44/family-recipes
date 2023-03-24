@@ -1,0 +1,64 @@
+{
+   "name": "Lasagna",
+   "author": "Beverly Essner",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "clove garlic, minced"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. whole basil"
+      },
+      {
+         "amount": 2.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "pint tomato juice or 1 lb. can of tomatoes"
+      },
+      {
+         "amount": 2,
+         "name": "(6 oz.) cans tomato paste"
+      },
+      {
+         "amount": 8,
+         "name": "oz. pkg. lasagna noodles"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten slightly"
+      },
+      {
+         "amount": 3,
+         "name": "c. cottage cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Parmesan cheese"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. parsley flakes"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 1,
+         "name": "lb. Mozzarella cheese"
+      }
+   ],
+   "instructions": "Brown meat and drain fat. Add garlic, basil, 1 1?2 teaspoon salt, tomato juice and tomato paste. Prepare lasagna noodles and cook according to package directions. Drain and rinse. In a separate bowl mix together eggs, cottage cheese, Parmesan cheese, parsley, 1 tea- spoon salt, and pepper. Lay half noodles in 13 x 92 x 2 inch pan. Spread with half cottage cheese filling, half Mozzarella, and half meat mixture. Repeat. Bake at 375° for 30 minutes. Let stand 10-15 min- utes before cutting into squares. Can be made ahead and refrigerated. Bake for 45 minutes in that case.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

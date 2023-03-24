@@ -1,0 +1,28 @@
+{
+   "name": "Joannie Burgers",
+   "author": "Joan Drury",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. Lawry's Seasoning Salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. Open Pit Original barbecue "
+      },
+      {
+         "amount": 1,
+         "name": "tsp. black pepper sauce"
+      },
+      {
+         "amount": 1.5,
+         "name": "lb. ground beef"
+      }
+   ],
+   "instructions": "Mix thoroughly. Form into patties and place on hot grill. Grill until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

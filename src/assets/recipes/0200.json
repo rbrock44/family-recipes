@@ -1,0 +1,36 @@
+{
+   "name": "Rice-a-Roni Pizza",
+   "author": "Emma Nichols, Donna Menz",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. beef Rice-A-Roni"
+      },
+      {
+         "amount": 1,
+         "name": "can spaghetti sauce"
+      },
+      {
+         "amount": 0,
+         "name": "Pepperoni"
+      },
+      {
+         "amount": 0,
+         "name": "Olives"
+      },
+      {
+         "amount": 0,
+         "name": "Mushrooms"
+      },
+      {
+         "amount": 0,
+         "name": "Cheese"
+      }
+   ],
+   "instructions": "Prepare Rice-A-Roni according to directions. Spread on 12 inch pizza pan. Bake for 5 minutes at 450°. Top with remaining ingredients. Bake until cheese is melted.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

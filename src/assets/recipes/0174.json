@@ -1,0 +1,44 @@
+{
+   "name": "Potato Sausage Casserole",
+   "author": "Clara H. Essner",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. bulk pork sausage"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of mushroom soup"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped onion"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 3,
+         "name": "c. sliced and peeled raw potatoes"
+      },
+      {
+         "amount": 2,
+         "name": "c. shredded Cheddar cheese"
+      }
+   ],
+   "instructions": "Brown sausage, drain and set aside. Combine soup, milk, onion, salt and pepper. In a greased 2 quart casserole, layer half of the potatoes, half of the soup mixture and half of the sausage. Repeat, ending with sausage. Cover and bake at 350° for 1 hour or until potatoes are tender. Sprinkle with cheese. Return to oven uncovered for 2 or 3 minutes. Garnish with parsley if desired.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

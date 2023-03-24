@@ -1,0 +1,32 @@
+{
+   "name": "Easy Fettuccine",
+   "author": "Karla Essner",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 2,
+         "name": "(8 oz.) Velveeta Italiana Process Cheese Spread, cubed"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. (1 oz.) grated Parmesan cheese"
+      },
+      {
+         "amount": 8,
+         "name": "to 9 oz. fettuccine, cooked and drained"
+      }
+   ],
+   "instructions": "Melt together Italiana cheese spread, milk, and Parmesan cheese in microwave or over low heat on stovetop. Stir in garlic powder. Add fettuccine; mix lightly. Serve immediately.",
+   "yield": {
+      "amount": 4,
+      "name": "servings"
+   }
+}

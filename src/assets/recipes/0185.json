@@ -1,0 +1,32 @@
+{
+   "name": "Lasagna",
+   "author": "Denise Glastetter",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box lasagna noodles 32 oz. spaghetti sauce"
+      },
+      {
+         "amount": 2,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "lb. hamburger, drained"
+      },
+      {
+         "amount": 2,
+         "name": "oz. cottage cheese"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. Mozzarella cheese"
+      }
+   ],
+   "instructions": "Cook lasagna noodles and drain. Brown hamburger; drain. Combine with spaghetti sauce. Blend cottage cheese and egg until smooth. In casserole dish, make 2 layers of: 3 meat sauce, 1/2 noodles, 1/2 cottage cheese mixture and 1/2 Mozzarella cheese. Top with 13 meat sauce. Bake at 375° for 30 minutes or until boiling.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

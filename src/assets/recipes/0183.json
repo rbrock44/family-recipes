@@ -1,0 +1,52 @@
+{
+   "name": "Korean Meat Balls",
+   "author": "Karen",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "lb. ground chuck beef"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. vegetable oil"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "clove garlic, minced"
+      },
+      {
+         "amount": 15,
+         "name": "whole water chestnuts, sliced"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. soy sauce"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. chopped scallions"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. margarine"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 0,
+         "name": "Flour to dredge"
+      }
+   ],
+   "instructions": "Combine ground beef with soy sauce, oil, sugar, scallions, garlic, and margarine. Mix well. Roll the meat mixture into balls 3/4 inch in diameter. Place water chestnut inside meatball. Coat with flour, then dip into beaten eggs. Fry in hot well-greased skillet, turn over and cook until done. Drain on absorbent paper, serve hot.To prepare ahead, cook meat balls in the morning. Place in cov- ered dish and refrigerate. Reheat by spreading meat balls on baking sheet and place in preheated oven at 300° for 5 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

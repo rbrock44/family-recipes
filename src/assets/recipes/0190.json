@@ -1,0 +1,56 @@
+{
+   "name": "Mostaccioli",
+   "author": "Marilyn Friend",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "lb. noodles"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. Chili-O mix"
+      },
+      {
+         "amount": 8,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 4,
+         "name": "medium onions, chopped"
+      },
+      {
+         "amount": 8,
+         "name": "(10 1/2 oz.) cans tomato soup"
+      },
+      {
+         "amount": 8,
+         "name": "(15 oz.) cans tomato sauce"
+      },
+      {
+         "amount": 8,
+         "name": "soup cans water"
+      },
+      {
+         "amount": 8,
+         "name": "tsp. oregano, or more"
+      },
+      {
+         "amount": 3.5,
+         "name": "tsp. garlic powder or more"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Pepper to taste"
+      }
+   ],
+   "instructions": "Brown meat and onions. Mix together other ingredients, except noodles. Add browned meat, onions, and Chili-O mix. Cook until thick.",
+   "yield": {
+      "amount": 150,
+      "name": "servings"
+   }
+}

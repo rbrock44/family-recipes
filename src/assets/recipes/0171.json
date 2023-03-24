@@ -1,0 +1,44 @@
+{
+   "name": "Crusty Beef Casserole",
+   "author": "Shirley Boham",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped onion"
+      },
+      {
+         "amount": 2,
+         "name": "cans tomato sauce"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. chili powder"
+      },
+      {
+         "amount": 0,
+         "name": "Patty Cope"
+      },
+      {
+         "amount": 1,
+         "name": "c. Cheddar cheese, shredded"
+      },
+      {
+         "amount": 1,
+         "name": "can pinto beans, drained"
+      },
+      {
+         "amount": 1,
+         "name": "(6 oz.) pkg. cornbread mix"
+      }
+   ],
+   "instructions": "Cook ground beef and onion until meat is browned. Drain and stir in tomato sauce and chili powder. Spoon meat mixture into a greased 12 x 8 baking dish. Top with cheese and spoon beans over cheese. Prepare cornbread mix according to package directions; pour over the beans. Bake at 400° for 25 minutes or until cornbread is golden brown. Can use other types of beans also, like chili, red kidney or even blackeyed peas.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

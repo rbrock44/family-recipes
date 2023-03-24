@@ -1,0 +1,44 @@
+{
+   "name": "Pizza Sauce",
+   "author": "Helen Menz, Donna Menz",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(1 qt.) can tomato juice"
+      },
+      {
+         "amount": 1,
+         "name": "1 lb. ground beef, browned and drained"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      },
+      {
+         "amount": 0,
+         "name": "Garlic to taste"
+      },
+      {
+         "amount": 0,
+         "name": "Onion to taste"
+      },
+      {
+         "amount": 0,
+         "name": "Cheese"
+      },
+      {
+         "amount": 0,
+         "name": "Sugar"
+      },
+      {
+         "amount": 0,
+         "name": "Flour to thicken"
+      }
+   ],
+   "instructions": "Mix all together and heat until cheese melts. Pour over crust and bake at 375° for 15 to 25 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

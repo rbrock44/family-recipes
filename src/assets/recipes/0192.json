@@ -1,0 +1,56 @@
+{
+   "name": "Mostaccioli",
+   "author": "Beverly Essner",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(15 oz.) can tomato sauce"
+      },
+      {
+         "amount": 1,
+         "name": "soup can of water"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. oregano"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Pepper to taste"
+      },
+      {
+         "amount": 1,
+         "name": "lb. mostaccioli noodles"
+      },
+      {
+         "amount": 0.5,
+         "name": "pkg. Chili-O mix"
+      },
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "small onion, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "can tomato soup"
+      }
+   ],
+   "instructions": "Prepare mostaccioli noodles as directed on package. Brown meat and onions in large skillet. Mix together sauce, soup, water,  oregano, and garlic powder. Add browned meat, onion, and chili mix. Simmer until thick. Pour over prepared noodles. Sprinkle with Parmesan cheese, if desired.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

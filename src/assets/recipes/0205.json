@@ -1,0 +1,52 @@
+{
+   "name": "Easy Chicken Pot Pie",
+   "author": "Martha J. Hamm",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1.66,
+         "name": "c. frozen mixed vegetables, thawed"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped onion"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "Bisquick Original baking mix"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 1,
+         "name": "c. cut-up cooked chicken"
+      },
+      {
+         "amount": 1,
+         "name": "(10 3/4 oz.) can condensed cream of chicken soup"
+      }
+   ],
+   "instructions": "Heat oven to 400°. Mix vegetables, chicken and soup in ungreased 9 inch pie plate. Stir remaining ingredients with fork until blended. Pour into pie plate. Bake for 30 minutes or until golden brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
