@@ -1,0 +1,24 @@
+{
+   "name": "Deluxe Mashed Potatoes",
+   "author": "Rita Koeppel",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Instant potato mix and ingredients needed for serving of 12"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. (8 oz.) sour cream Paprika"
+      }
+   ],
+   "instructions": "Prepare instant potatoes as directed on box for 12. Mix cream cheese and sour cream into potatoes. Put in 9 x 13 pan and sprinkle top with paprika. Can drizzle a little melted butter on top. Bake at 375° for 45-60 minutes. May also be seasoned with garlic salt and parsley if desired. Dish may be prepared early and stored in refrigerator.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

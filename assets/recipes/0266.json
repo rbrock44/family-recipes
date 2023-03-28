@@ -1,0 +1,40 @@
+{
+   "name": "Soy Fried Rice",
+   "author": "Christine Estes",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "Tbsp. cooking oil (peanut or Mazola)"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "bunch green onions and tops, sliced"
+      },
+      {
+         "amount": 1,
+         "name": "(14 oz.) box Minute rice, cooked as directed or 1 c. regular rice, cooked and drained"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. soy sauce"
+      },
+      {
+         "amount": 1,
+         "name": "c. cooked, diced shrimp or 1 c. cooked, diced"
+      },
+      {
+         "amount": 0,
+         "name": "Pork tenderloin (optional)"
+      }
+   ],
+   "instructions": "Heat oil; add eggs, mixing constantly while breaking up with fork. Add eggs and onions to rice with soy sauce to color rice brown. Blend very well and serve hot. (Can be reheated in oven at 350° for 30 minutes.) If desired, stir in 1 cup cooked, diced shrimp or 1 cup cooked, diced pork tenderloin.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

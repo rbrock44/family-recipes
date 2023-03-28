@@ -1,0 +1,56 @@
+{
+   "name": "Egg Rolls",
+   "author": "Annita Layton",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Pepper"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. Spring egg roll wrappers, square"
+      },
+      {
+         "amount": 1,
+         "name": "fairly large head of cabbage, cut like slaw"
+      },
+      {
+         "amount": 1,
+         "name": "lb. carrots, grated"
+      },
+      {
+         "amount": 1,
+         "name": "lb. pork sausage (ground pork shoulder, etc.)"
+      },
+      {
+         "amount": 0.5,
+         "name": "pkg. fresh mushrooms or 1 large can"
+      },
+      {
+         "amount": 1,
+         "name": "onion, chopped"
+      },
+      {
+         "amount": 0,
+         "name": "Salt"
+      },
+      {
+         "amount": 0,
+         "name": "Accent"
+      },
+      {
+         "amount": 0,
+         "name": "Seasoned salt"
+      },
+      {
+         "amount": 1,
+         "name": "clove garlic, minced"
+      }
+   ],
+   "instructions": "Brown pork, mushrooms, onion and garlic until lightly brown; drain. Blanche cabbage and carrots by putting them in boiling water and bringing the water to a boil again. Boil for 30 to 60 seconds more until done but still crunchy. Drain and run cold water over them. Pick up handfuls and squeeze ALL water out. Put in bowl and mix seasonings to taste. Add 1 egg and 1 egg white. Beat egg yolk and add 1 Tbsp. water. Set aside. Put a wrapper in front of you, like a diamond. Put 1/4 cup of mixture on bottom half. Roll up halfway. Fold corners in and spread yolk on rest. Roll up. Fry in skillet with plenty of grease. Can freeze. Thaw well before frying.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

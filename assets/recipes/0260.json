@@ -1,0 +1,36 @@
+{
+   "name": "Vegetable Pizza",
+   "author": "Jennifer Clark",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "(8 oz.) pkg. Crescent rolls"
+      },
+      {
+         "amount": 11,
+         "name": "oz. cream cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. mayonnaise"
+      },
+      {
+         "amount": 0,
+         "name": "Shredded cheese"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. dry ranch dressing mix"
+      },
+      {
+         "amount": 0,
+         "name": "Vegetables (broccoli, tomatoes, cauliflower, carrots)"
+      }
+   ],
+   "instructions": "Press the crescent rolls into a 15 x 10 x 1 inch baking sheet to form a crust. Bake in 350° oven for 12-15 minutes. Combine cream cheese, mayonnaise and ranch dressing mix. Spread thinly over cooled crust. Top with cheese and vegetables.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

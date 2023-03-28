@@ -1,0 +1,36 @@
+{
+   "name": "Brunch Eggs",
+   "author": "Shirley Drury",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(1 lb.) pkg. Wilson's pork sausage, browned and drained"
+      },
+      {
+         "amount": 4,
+         "name": "slices white bread, cubed, without crusts"
+      },
+      {
+         "amount": 2,
+         "name": "c. grated Cheddar cheese"
+      },
+      {
+         "amount": 4,
+         "name": "c. milk"
+      },
+      {
+         "amount": 12,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. dry mustard"
+      }
+   ],
+   "instructions": "Mix eggs, milk, and mustard. Gently add other ingredients to the mixture. Salt and pepper to taste. Pour into a greased 9 x 13 inch cake pan. Refrigerate overnight. Bake at 350° for 45 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

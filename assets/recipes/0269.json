@@ -1,0 +1,40 @@
+{
+   "name": "Macaroni and Cheese",
+   "author": "S.P.",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1.75,
+         "name": "c. elbow macaroni"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. all purpose flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Dash pepper"
+      },
+      {
+         "amount": 2,
+         "name": "c. milk"
+      },
+      {
+         "amount": 2,
+         "name": "c. (8 oz.) sharp process American cheese"
+      }
+   ],
+   "instructions": "Cook the macaroni in boiling salted water until tender; drain. In saucepan, melt butter; blend in flour, salt and pepper. Add milk; cook and stir until thick and bubbly. Add cheese, cubed, stir until melted. Mix cheese sauce with macaroni. Turn into 1/2 quart casserole. Bake at 350° for 35 to 40 minutes, or until heated through.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

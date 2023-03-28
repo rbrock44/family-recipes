@@ -1,0 +1,40 @@
+{
+   "name": "Spinach-Bacon Casserole",
+   "author": "Shirley Efting",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "lb. bacon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. frozen chopped spinach"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. bread crumbs"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shredded Provolone or Mozzarella cheese"
+      }
+   ],
+   "instructions": "Dice bacon; fry and drain. Cook spinach. Beat eggs slightly, then add milk and salt. Stir in spinach, bread crumbs, bacon and half of cheese. Place in 11?2 quart casserole dish. Sprinkle remaining cheese over casserole. Bake at 375° for 30 to 35 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

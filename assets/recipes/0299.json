@@ -1,0 +1,44 @@
+{
+   "name": "Pecan Sweet Potatoes",
+   "author": "Shirley Drury",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "medium sweet potatoes"
+      },
+      {
+         "amount": 0,
+         "name": "Salted water"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 1,
+         "name": "c. orange juice"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. grated orange rind "
+      },
+      {
+         "amount": 0.33,
+         "name": "c. Sherry (optional)"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      }
+   ],
+   "instructions": "Cook sweet potatoes in boiling salt water until tender. Peel and cut in half lengthwise. Place in 1 1?2 quart shallow casserole one layer thick. Sprinkle with sugar and pecans. Pour on orange juice, rind and Sherry. Dot with butter. Cover and bake in preheated oven, 350° for Shirley Drury 45 minutes or until juice has cooked into potatoes.",
+   "yield": {
+      "amount": 6,
+      "name": "servings"
+   }
+}

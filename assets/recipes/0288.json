@@ -1,0 +1,52 @@
+{
+   "name": "Potato Casserole",
+   "author": "Marilyn Friend",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(32 oz.) or 2 (10 oz.) pkg. frozen hash browns"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. melted butter or margarine"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of chicken soup"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) pkg. grated Cheddar or American cheese"
+      },
+      {
+         "amount": 2,
+         "name": "(8 oz.) carton sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "small onion, chopped"
+      },
+      {
+         "amount": 2,
+         "name": "c. crushed corn flakes"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. melted butter"
+      }
+   ],
+   "instructions": "Place partially thawed potatoes in a greased casserole dish. Mix next 7 ingredients and pour on top of potatoes. Sprinkle corn flakes and remaining butter on top. Bake at 350° for 45 minutes. Variations: You may use 5 cups boiled and cubed potatoes instead of hash browns. Some prefer 1 (8 ounce) carton sour cream instead of two. Others prefer using 1 (8 ounce) package cream cheese in place of sour cream. This is a great potluck dish by adding 1 cup diced ham.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

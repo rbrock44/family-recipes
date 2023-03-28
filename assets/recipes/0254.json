@@ -1,0 +1,40 @@
+{
+   "name": "Breakfast Casserole",
+   "author": "Anna Rose Bles",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. sausage, browned and drained"
+      },
+      {
+         "amount": 6,
+         "name": "slices bread, cubed"
+      },
+      {
+         "amount": 8,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "c. grated Cheddar cheese"
+      },
+      {
+         "amount": 2,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Pepper to taste"
+      }
+   ],
+   "instructions": "Put bread in the bottom of a greased casserole dish. Mix together other ingredients and pour over bread. Refrigerate overnight. Bake 45 minutes at 350°. Variation: Mushrooms, green peppers, and onions can be added.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

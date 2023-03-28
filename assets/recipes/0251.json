@@ -1,0 +1,52 @@
+{
+   "name": "Quiche Lorraine",
+   "author": "M.E.",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "oz. bacon (cooked and crumbled)"
+      },
+      {
+         "amount": 9,
+         "name": "inch pastry shell"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. (7 oz.) Swiss cheese, natural, coarsely shredded"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Dash cayenne"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "(4 oz.) can mushrooms"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0,
+         "name": "Dash nutmeg"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. half-and-half"
+      }
+   ],
+   "instructions": "Bake pastry shell at 425° until lightly browned. Cool. Fry bacon until crisp, let cool, crumble. Saute mushrooms. Place bacon into pas- try shell. Sprinkle cheese and mushrooms over the bacon. Mix season- ings and sprinkle over cheese. Beat eggs and half-and-half together. Pour over cheese and bacon. Bake 45 minutes or until lightly browned and knife inserted into the center comes out clean.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

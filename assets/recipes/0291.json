@@ -1,0 +1,44 @@
+{
+   "name": "Hash Brown Casserole",
+   "author": "Rebecca Hooper",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb. bag hash browns"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. onion, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of chicken soup"
+      },
+      {
+         "amount": 2,
+         "name": "c. Cheddar cheese, grated"
+      },
+      {
+         "amount": 1,
+         "name": "stick margarine, melted"
+      },
+      {
+         "amount": 1,
+         "name": "pint sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. pepper"
+      }
+   ],
+   "instructions": "Mix all ingredients together and put in a 3 quart oblong baking dish. Bake at 350° for 1 1/4 hours.",
+   "yield": {
+      "amount": 10,
+      "name": "10 to 12 servings"
+   }
+}

@@ -1,0 +1,60 @@
+{
+   "name": "Spinach Casserole",
+   "author": "Jeanne Barbatti",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(10 oz.) can cream of celery soup"
+      },
+      {
+         "amount": 1,
+         "name": "c. sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "lb. ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "clove garlic"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. mushrooms"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. dried onion"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. oregano"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) pkg. chopped spinach"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. minute rice"
+      },
+      {
+         "amount": 6,
+         "name": "to 8 slices Mozzarella cheese"
+      }
+   ],
+   "instructions": "Cook ground beef and drain. Cook rice. Mix all ingredients together, put in casserole dish and top with Mozzarella cheese slices. Bake at 350° for 15 to 20 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "name": "Macaroni and Egg",
+   "author": "In Memory of Mrs. Theon (Ella) Schlosser, Charlotte Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "stick margarine or butter"
+      },
+      {
+         "amount": 1,
+         "name": "lb. macaroni"
+      },
+      {
+         "amount": 6,
+         "name": "eggs, beaten well"
+      }
+   ],
+   "instructions": "Boil macaroni until done. Drain well. Place margarine in skillet and melt. Add macaroni and eggs. Cook until eggs are done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

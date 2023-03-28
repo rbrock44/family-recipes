@@ -1,0 +1,40 @@
+{
+   "name": "Cheese Potatoes in Foil",
+   "author": "C. Allen Collier",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "large baking potatoes, pared cracked or coarsely ground"
+      },
+      {
+         "amount": 0,
+         "name": "pepper to taste"
+      },
+      {
+         "amount": 0,
+         "name": "salt to taste"
+      },
+      {
+         "amount": 4,
+         "name": "or 5 slices bacon, cooked"
+      },
+      {
+         "amount": 1,
+         "name": "large onion, sliced"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. sharp cheese, cubed"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter or margarine"
+      }
+   ],
+   "instructions": "Slice potatoes onto a large piece of foil. Sprinkle with pepper and salt. Crumble bacon over potatoes. Add onion and cheese. Dot with butter. Wrap loosely and seal well with double fold. Cook in 350° oven for about 1 hour or until done, turning occasionally.",
+   "yield": {
+      "amount": 4,
+      "name": "4 to 6 servings"
+   }
+}

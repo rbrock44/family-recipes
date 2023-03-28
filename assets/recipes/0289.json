@@ -1,0 +1,40 @@
+{
+   "name": "Potato Casserole",
+   "author": "Revella Schlosser",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "medium size potatoes"
+      },
+      {
+         "amount": 1,
+         "name": "pint sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of chicken soup"
+      },
+      {
+         "amount": 0,
+         "name": "salt and pepper to taste"
+      },
+      {
+         "amount": 2,
+         "name": "c. Cheddar cheese, grated"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped onions-fine"
+      },
+      {
+         "amount": 0.5,
+         "name": "stick oleo"
+      }
+   ],
+   "instructions": "Boil potatoes, cool and grate. Melt butter, add sour cream, cheese, soup and onion. Add to grated potatoes and mix well. Pour into 9 x 13 inch baking dish that has been greased. Top with buttered crumbs if desired. Bake at 325° for 45 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

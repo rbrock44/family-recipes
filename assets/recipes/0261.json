@@ -1,0 +1,32 @@
+{
+   "name": "Easy Vegetable Pizza",
+   "author": "Rebecca Hooper",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "purchased, pre-baked pizza crust*"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. dry Hidden Valley Ranch Dressing"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) sour cream"
+      },
+      {
+         "amount": 0,
+         "name": "Vegetables of your choice"
+      },
+      {
+         "amount": 0,
+         "name": "Cheddar or Mozzarella cheese (optional)"
+      }
+   ],
+   "instructions": "Add dry dressing to sour cream and stir. Smear the mixture, evenly over the pizza crust. Clean and cut the vegetables then add them to the top. Also add the cheese. Serve or refrigerate until needed.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

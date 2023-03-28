@@ -1,0 +1,56 @@
+{
+   "name": "Macaroni Imperial",
+   "author": "Vernita Bles",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. uncooked macaroni, broken in pieces"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. bread crumbs"
+      },
+      {
+         "amount": 0.25,
+         "name": "melted butter"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. red pepper, chopped fine"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. green pepper, chopped"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. grated onion"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. grated American cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk, scalded"
+      },
+      {
+         "amount": 3,
+         "name": "egg yolks, well beaten"
+      },
+      {
+         "amount": 3,
+         "name": "egg whites, stiffly beaten"
+      }
+   ],
+   "instructions": "Cook macaroni in large amount of boiling salt water until done. Then drain. Combine bread crumbs, butter, red and green peppers, onion, salt and cheese. Add hot milk over egg yolks, stirring well. Add macaroni then fold in egg whites. Pour into well greased casserole. Bake in a moderate oven 325°, until firm.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

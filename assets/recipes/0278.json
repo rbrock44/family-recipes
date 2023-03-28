@@ -1,0 +1,24 @@
+{
+   "name": "Parmesan Baked Potatoes",
+   "author": "Linda Menz",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "Tbsp. melted butter"
+      },
+      {
+         "amount": 8,
+         "name": "medium, red, unpeeled potatoes, cut lengthwise"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. grated Parmesan cheese"
+      }
+   ],
+   "instructions": "Pour butter into 9 x 13 pan. Sprinkle cheese. Place potatoes face down. Bake uncovered at 400° for 40 to 45 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

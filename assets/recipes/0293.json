@@ -1,0 +1,28 @@
+{
+   "name": "Spinach Casserole",
+   "author": "Christine Estes",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "frozen bags of spinach"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "can Durkee onions"
+      }
+   ],
+   "instructions": "Lightly cook the spinach and drain. Mix the cream cheese and soup together and add to the spinach in a 9 x 13 baking dish. Also add 1?2 can of Durkee onions, reserving the other 1?2 as topping for the last 5 minutes of baking. Bake for 30 minutes at 350°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

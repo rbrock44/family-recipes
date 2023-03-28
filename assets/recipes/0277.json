@@ -1,0 +1,28 @@
+{
+   "name": "Potatoes",
+   "author": "Tina Schlosser",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. Lipton onion soup mix"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. oil"
+      },
+      {
+         "amount": 6,
+         "name": "medium potatoes"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      }
+   ],
+   "instructions": "Wash potatoes and quarter, leave peeling on. Mix soup, oil, and water. Pour over potatoes. Bake 1 hour at 400°. Stir 3 times.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
