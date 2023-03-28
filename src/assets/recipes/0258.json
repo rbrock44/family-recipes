@@ -1,0 +1,24 @@
+{
+   "name": "Canning Tomatoes",
+   "author": "Sister Henrica Huck",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Tomatoes"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Sterilize jars and lids. Blanche tomatoes and peel. Fill jars with whole or parts of tomatoes. Add sugar and salt but no water. Seal tight. Place jars on cookie sheet in 250° oven for 1 hour. Do not pre-heat oven. Leave in oven overnight.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

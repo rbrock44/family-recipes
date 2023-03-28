@@ -1,0 +1,48 @@
+{
+   "name": "Corn Relish",
+   "author": "Shirley Drury",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "c. fresh corn"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. dry mustard"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped onion"
+      },
+      {
+         "amount": 3,
+         "name": "c. chopped sweet red peppers"
+      },
+      {
+         "amount": 8,
+         "name": "c. finely chopped cabbage"
+      },
+      {
+         "amount": 4,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. celery seed"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. salt"
+      }
+   ],
+   "instructions": "Combine ingredients in a large kettle and cook for 20 minutes Pour in jars and seal at once.",
+   "yield": {
+      "amount": 5,
+      "name": "pints"
+   }
+}

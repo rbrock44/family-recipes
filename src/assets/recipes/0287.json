@@ -1,0 +1,36 @@
+{
+   "name": "Spicy Oven-Fried Potato Wedges",
+   "author": "S.P.",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "baking potatoes, cut into thin wedges"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vegetable oil"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. onion powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. ground red pepper"
+      },
+      {
+         "amount": 0.25,
+         "name": "1/4 tsp. black pepper"
+      }
+   ],
+   "instructions": "Preheat oven to 450°. Spray nonstick baking sheet with Pam. Pour oil over potatoes and arrange on baking sheet. Bake 10 minutes. Turn potatoes and bake 10 minutes longer, until lightly browned. Sprinkle with spices and mix well.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

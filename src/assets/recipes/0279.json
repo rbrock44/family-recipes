@@ -1,0 +1,44 @@
+{
+   "name": "Twice Baked Potatoes",
+   "author": "Becky Essner",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "bunch green onions"
+      },
+      {
+         "amount": 5,
+         "name": "Tbsp. margarine"
+      },
+      {
+         "amount": 0,
+         "name": "Milk"
+      },
+      {
+         "amount": 10,
+         "name": "to 12 medium potatoes"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) sour cream"
+      },
+      {
+         "amount": 0,
+         "name": "Salt"
+      },
+      {
+         "amount": 0,
+         "name": "Pepper"
+      },
+      {
+         "amount": 0,
+         "name": "oz. shredded Velveeta cheese"
+      }
+   ],
+   "instructions": "Peel potatoes, cut in chunks, and boil until soft enough to mash. Drain. Mix with 3 Tbsp. margarine, salt and pepper to taste, and enough milk to make them just slightly runny. (Just a little more than if you were serving regular mashed potatoes.) Chop onions in small pieces and saute in 2 Tbsp. margarine. Add to potatoes and mix well. Stir in about 2/3 bag of Velveeta. (Use more if you like cheese.) Bake at 350° in 9 x 13 buttered pan for 20 to 30 minutes or until potatoes are bubbly. This recipe can be made ahead of time and frozen. Thaw before baking.",
+   "yield": {
+      "amount": 10,
+      "name": "10 to 12 servings"
+   }
+}

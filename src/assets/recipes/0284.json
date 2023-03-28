@@ -1,0 +1,40 @@
+{
+   "name": "Scalloped Potatoes",
+   "author": "Martha J. Hamm",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. diced potatoes"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. minced onion"
+      },
+      {
+         "amount": 0,
+         "name": "Butter"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. diced or grated cheese"
+      }
+   ],
+   "instructions": "Cook potatoes for about 10 minutes in boiling salted water. Drain, reserving 1 cup water. Place potatoes in baking dish. Saute onion in 4 Tbsp. of melted butter in a saucepan; blend in flour. Add reserved water and milk. Cook, stirring until thick. Remove from heat; add cheese, salt and pepper to taste. Stir. Pour over potatoes. Bake for 30 minutes at 350°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

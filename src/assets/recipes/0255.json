@@ -1,0 +1,32 @@
+{
+   "name": "Egg Casserole",
+   "author": "Rebecca Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 12,
+         "name": "eggs, soft scrambled"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. parsley flakes"
+      },
+      {
+         "amount": 1,
+         "name": "lb. bacon or ham, cooked and drained"
+      },
+      {
+         "amount": 1,
+         "name": "c. mild Cheddar cheese, grated"
+      }
+   ],
+   "instructions": "Mix together in 9 x 13 casserole dish and cover. Store in the refrigerator overnight. Bake at 350° for 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

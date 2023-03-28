@@ -1,0 +1,28 @@
+{
+   "name": "Sweet Potatoes and Marshmallows",
+   "author": "Charlotte Hooper",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "sweet potatoes, cooked until done"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 1,
+         "name": "bag miniature marshmallows"
+      }
+   ],
+   "instructions": "Stir in sugar. Pour into casserole. Mash potatoes with butter. dish. Sprinkle on marshmallows. Bake in oven until marshmallows are melted and brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

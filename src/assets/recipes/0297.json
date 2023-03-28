@@ -1,0 +1,40 @@
+{
+   "name": "Reba McEntire's Sweet Potato Casserole (Potato Mixture)",
+   "author": "Helen Kluesner",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(16 oz.) can sweet potatoes, drained*"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. melted butter or margarine"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. In a large bowl, mash potatoes. Add remaining casserole ingredients and mix well. Pour into buttered 1 quart casserole dish.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

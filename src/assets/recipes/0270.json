@@ -1,0 +1,28 @@
+{
+   "name": "Macaroni and Cheese",
+   "author": "Caleb Estes",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. macaroni, cooked"
+      },
+      {
+         "amount": 1,
+         "name": "stick margarine or butter"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.33,
+         "name": "or 2 lb. Velveeta cheese *American cheese can also be used instead of Velveeta. Use about 8 slices."
+      }
+   ],
+   "instructions": "Mix all ingredients together and cook until cheese is melted. May need more cheese or milk to your taste.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

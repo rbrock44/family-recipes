@@ -1,0 +1,40 @@
+{
+   "name": "Potato Casserole",
+   "author": "Anna Bollinger",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. hash browns"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. and 2 Tbsp. margarine"
+      },
+      {
+         "amount": 1,
+         "name": "pint sour cream"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped green onions"
+      },
+      {
+         "amount": 2,
+         "name": "c. grated Cheddar cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. crushed corn flakes"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. Pour 1/2 c. melted margarine into 9 x 12 baking dish. Add 1/2 pkg. of frozen hash browns. Mix soup, sour cream, milk, and green onions in separate bowl. Pour 1/2 mixture over hash browns. Sprinkle 1 c. grated cheese on top. Add remainder of mixture and hash browns on top. Sprinkle remaining cheese on, then cover with crushed corn flakes. Drizzle 2 Tbsp. melted margarine on top. Bake for 45 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

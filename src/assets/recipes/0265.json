@@ -1,0 +1,56 @@
+{
+   "name": "Fried Rice",
+   "author": "Annita Layton",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "red or green pepper, chopped"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "medium onion, chopped"
+      },
+      {
+         "amount": 4,
+         "name": "small carrots, grated"
+      },
+      {
+         "amount": 2,
+         "name": "to 3 c. cooked rice"
+      },
+      {
+         "amount": 0,
+         "name": "Garlic salt"
+      },
+      {
+         "amount": 0,
+         "name": "Seasoned salt"
+      },
+      {
+         "amount": 0,
+         "name": "Curry Powder"
+      },
+      {
+         "amount": 0,
+         "name": "Accent"
+      },
+      {
+         "amount": 0,
+         "name": "Soy Sauce"
+      },
+      {
+         "amount": 3,
+         "name": "to 4 Tbsp. butter"
+      }
+   ],
+   "instructions": "Prepare eggs as for scrambled eggs. Remove and set aside. Melt butter; add onion and saute 2 to 3 minutes. Add pepper and carrots; stir fry for 1 to 2 minutes. Add seasonings and soy sauce to taste. Add rice and eggs. Heat through. Variation: One small can of drained, cooked salad shrimp may be added with seasonings.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

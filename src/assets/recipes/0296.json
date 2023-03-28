@@ -1,0 +1,24 @@
+{
+   "name": "Sweet Potato Casserole Topping",
+   "author": "Tina Blattel",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 0.5,
+         "name": "stick melted oleo"
+      }
+   ],
+   "instructions": "Mix and sprinkle over sweet potatoes. Bake again at 350° for 20 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

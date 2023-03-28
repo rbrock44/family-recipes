@@ -1,0 +1,44 @@
+{
+   "name": "Fried Rice",
+   "author": "Rebecca Hooper",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "tsp. black pepper"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. beef flavor base"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. soy sauce"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. instant minced onion"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. oil or butter"
+      },
+      {
+         "amount": 3,
+         "name": "c. cold, cooked rice"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, lightly beaten"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped cooked meat *Meat can be chicken, pork, beef, shrimp, lobster, sausage, or bacon."
+      }
+   ],
+   "instructions": "Saute onion in hot oil until golden brown. Add rice; heat thor- oughly, stirring often. Stir in beaten eggs, pepper, beef flavor base and soy sauce. Saute 3 minutes, continuing to stir. Add meat and continue heating until mixture is steaming hot.",
+   "yield": {
+      "amount": 6,
+      "name": "servings"
+   }
+}

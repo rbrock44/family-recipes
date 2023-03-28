@@ -1,0 +1,36 @@
+{
+   "name": "Cheese Potatoes",
+   "author": "Tina Blattel",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 5,
+         "name": "lb. potatoes, boiled, cooled, peeled and cubed"
+      },
+      {
+         "amount": 1,
+         "name": "lb. Velveeta cheese, cubed"
+      },
+      {
+         "amount": 1,
+         "name": "medium onion, chopped and sauteed in butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "to 1/4 jar bacon bits"
+      },
+      {
+         "amount": 1,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      }
+   ],
+   "instructions": "Mix all ingredients together, except cheese. Add cheese to top of potato mixture. Cover and refrigerate overnight. Bake at 350° for 30 to 40 minutes in 9 x 13 dish with foil covering top. Make this a day ahead of time and bake just before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

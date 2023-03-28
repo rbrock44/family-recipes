@@ -1,0 +1,44 @@
+{
+   "name": "Scalloped Potatoes",
+   "author": "Charlotte Hooper",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. water"
+      },
+      {
+         "amount": 4,
+         "name": "sliced potatoes"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. American cheese"
+      }
+   ],
+   "instructions": "Cook potatoes, 1/2 c. water and salt for 5 minutes. Drain and pour into well oiled 1 1?2 quart baking dish. Heat milk, butter and cheese. Make a thin paste using the flour and 3 Tbsp. water. Add to milk mix- ture and bring to boil. Bake in 350° oven for 50 minutes.",
+   "yield": {
+      "amount": 6,
+      "name": "servings"
+   }
+}

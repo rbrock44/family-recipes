@@ -1,0 +1,28 @@
+{
+   "name": "Easy Potatoes",
+   "author": "Sara Hooper",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 5,
+         "name": "large potatoes, sliced"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "to 1 stick of margarine or butter"
+      },
+      {
+         "amount": 0,
+         "name": "Lawry's seasoning salt"
+      }
+   ],
+   "instructions": "Fill 9 x 13 glass pan with potatoes, add milk. Slice butter or margarine into pats and lay on top of the potato slices. Sprinkle Lawry's seasoning salt over the potatoes. Bake at 400° until potatoes are done, approximately 1 hour.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

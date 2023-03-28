@@ -1,0 +1,24 @@
+{
+   "name": "Champion Cheese Potatoes",
+   "author": "R.G.",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "baking potatoes"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. Cheddar cheese, grated"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. onion, grated"
+      }
+   ],
+   "instructions": "Pierce potatoes with a fork several times. Bake in a preheated 350° oven for 11?2 hours. Cut in half lengthwise and scoop out insides into a medium bowl. Mash with a fork. Add cheese and onion. Mix well. Spoon equal amounts of mashed potato back into the skins. Re- turn to oven and bake 10 minutes.",
+   "yield": {
+      "amount": 2,
+      "name": "servings"
+   }
+}

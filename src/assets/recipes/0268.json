@@ -1,0 +1,32 @@
+{
+   "name": "Sweet Rice",
+   "author": "Catrina Stone",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "Tbsp. butter or margarine"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. milk"
+      },
+      {
+         "amount": 2,
+         "name": "c. white rice"
+      },
+      {
+         "amount": 2,
+         "name": "to 3 c. water"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      }
+   ],
+   "instructions": "Cook rice in water until done. Drain. Add sugar, butter and milk. Cook until thick. Serve with cinnamon sprinkled on each serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

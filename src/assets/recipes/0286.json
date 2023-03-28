@@ -1,0 +1,32 @@
+{
+   "name": "Super Scalloped Taters",
+   "author": "R.G.",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "baking potatoes, peeled and thinly sliced"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter or margarine"
+      },
+      {
+         "amount": 0.5,
+         "name": "Monterey Jack cheese, shredded"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Cheddar cheese, shredded"
+      }
+   ],
+   "instructions": "Bring milk in a saucepan to boiling over medium-high heat. Add potatoes and butter or margarine. Cover and lower heat to simmer. Cook 15 minutes. Pour potatoes and milk into a greased casserole. Add 1/4 cup of each cheese. Mix well. Sprinkle remaining cheese on top. Bake in a preheated 325° oven 1 hour.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

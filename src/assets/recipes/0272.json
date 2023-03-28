@@ -1,0 +1,24 @@
+{
+   "name": "Onion Roasted Potatoes",
+   "author": "Donna Stamp",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "envelope Lipton Onion Recipe Soup Mix"
+      },
+      {
+         "amount": 2,
+         "name": "lb. all purpose potatoes, cut into large chunks"
+      },
+      {
+         "amount": 0.33,
+         "name": "cup olive or vegetable oil"
+      }
+   ],
+   "instructions": "Preheat oven to 450°. In large plastic bowl or bag, add all ingredients. Close bag and shake, or toss in bowl, until potatoes are evenly coated. Empty potatoes into shallow baking or roasting pan; discard bag. Bake, stirring occasionally, 40 minutes. Or until potatoes are tender and golden brown. Garnish, if desired, with chopped parsley.",
+   "yield": {
+      "amount": 8,
+      "name": "servings"
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "name": "Fried Rice",
+   "author": "C.A.",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "medium egg, slightly beaten"
+      },
+      {
+         "amount": 0.25,
+         "name": "onion, diced"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. diced celery"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. shredded carrots"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cooked enriched cold rice"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. soy sauce"
+      }
+   ],
+   "instructions": "In hot nonstick skillet, scramble egg; remove from skillet and cut up into tiny pieces. Set aside. Stir cooked onions, celery and carrots in the same skillet until slightly softened. Stir in rice. Add soy sauce. Cook at high heat for 3 minutes, stirring constantly. Stir in scrambled egg, remove form heat and serve immediately. Serves 1. Variation: Add 1/4 cup chicken, diced.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
