@@ -1,0 +1,36 @@
+{
+   "name": "Swedish Tea Ring (Raisin-Cherry Mixture)",
+   "author": "Shirley Drury",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. soft butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts, chopped"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. seeded raisins"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. candied cherries"
+      }
+   ],
+   "instructions": "Mix all ingredients together.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

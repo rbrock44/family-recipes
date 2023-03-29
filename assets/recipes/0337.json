@@ -1,0 +1,48 @@
+{
+   "name": "Homemade Bread",
+   "author": "St. Augustine Cafeteria",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "c. shortening, melted"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. yeast"
+      },
+      {
+         "amount": 2,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 9,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 1.33,
+         "name": "c. dry milk"
+      },
+      {
+         "amount": 10,
+         "name": "lb. flour or more"
+      }
+   ],
+   "instructions": "Mix yeast, 2 cups warm water and 2 tablespoons of sugar; set aside. Mix dry milk, salt, 1 cup sugar and 3 of the flour together. Add water, yeast mixture and shortening. Mix well. Then add rest of the flour. Knead and let rise until double. Makes about 9 (2 pound) loaves. Bake at 400° for 15 minutes, 350° for 45 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,44 @@
+{
+   "name": "Edna Margen's Cool Carrots",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb. carrots, peeled and sliced"
+      },
+      {
+         "amount": 1,
+         "name": "green pepper, cut into rings"
+      },
+      {
+         "amount": 1,
+         "name": "medium onion, thinly sliced and separated into large rings"
+      },
+      {
+         "amount": 1,
+         "name": "(10 3/4 oz.) can tomato soup, undiluted"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. dry mustard"
+      }
+   ],
+   "instructions": "Cook carrots in boiling salted water for 5 minutes or until crisp tender. Drain. Combine carrots, green pepper and onion in a 13 x 9 x 2 inch pan. Toss until mixed. Combine soup, sugar, oil, vinegar, and mustard; stir until combined. Pour soup mixture over carrot mixture, cover and marinate in refrigerator for 8 hours or overnight.",
+   "yield": {
+      "amount": 12,
+      "name": "12 to 14 servings"
+   }
+}

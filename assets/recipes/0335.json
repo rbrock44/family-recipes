@@ -1,0 +1,28 @@
+{
+   "name": "Kraut",
+   "author": "Martha Hamm",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "gal. water"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. white vinegar"
+      }
+   ],
+   "instructions": "Bring to a boil and set aside to cool. Pack shredded cabbage tight in jars. Pour liquid over cabbage, seal.",
+   "yield": {
+      "amount": 11,
+      "name": "quarts"
+   }
+}

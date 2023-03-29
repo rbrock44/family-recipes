@@ -1,0 +1,28 @@
+{
+   "name": "Glazed Carrots",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "to 5 carrots"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. brown sugar"
+      },
+      {
+         "amount": 0,
+         "name": "Salt to taste (optional)"
+      }
+   ],
+   "instructions": "Wash, pare and cut into sticks, as many as needed. Cook in a small amount of water until tender, about 15 minutes. Add butter and sugar and cook over low heat until the carrots are glazed and shiny.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

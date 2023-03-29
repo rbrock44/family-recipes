@@ -1,0 +1,40 @@
+{
+   "name": "Homemade Bread",
+   "author": "Janet Welter",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "to 3 1/2 c. all purpose flour"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. dry yeast"
+      },
+      {
+         "amount": 1,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. shortening"
+      }
+   ],
+   "instructions": "Dissolve yeast in warm water in large bowl. Let set for 5 minutes. Add sugar, shortening, egg, salt and 1/2 of the flour. Beat at low speed with mixer until smooth. Gradually stir, by hand, enough remaining flour to make a soft dough. Place dough in a well greased bowl, turning to grease top. Place covered in a warm place and let rise for 1 hour or until double in size. Punch down, turn out on a lightly floured board and knead 4 or 5 times. Shape into a loaf, place in a greased bread pan. Cover and let rise. Bake 20 minutes at 350° or until bread has a hollow sound when tapped. Remove from pan and cool on a wire rack.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

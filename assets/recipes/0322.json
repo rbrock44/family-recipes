@@ -1,0 +1,40 @@
+{
+   "name": "Broccoli Cheese Casserole",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "bag frozen broccoli"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter"
+      },
+      {
+         "amount": 2,
+         "name": "c. regular, raw rice"
+      },
+      {
+         "amount": 1,
+         "name": "large jar cheez whiz"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of celery soup"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of chicken soup"
+      },
+      {
+         "amount": 1,
+         "name": "soup can of milk"
+      }
+   ],
+   "instructions": "Melt the margarine and mix with all other ingredients. Pour into 9 x 13 greased baking dish. Bake 1 hour at 350°. Stir about 3 times while baking.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,56 @@
+{
+   "name": "Marinated Carrots",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb. chopped carrots"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped onions"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. oil"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of tomato soup"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. mustard"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 1,
+         "name": "green pepper, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. Worcestershire sauce"
+      }
+   ],
+   "instructions": "Boil carrots until done. Mix all ingredients, except carrots. Let set 1 hour. Pour over the cooked and drained carrots.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "name": "Corn Casserole",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box Chicken in a Biskit crackers"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. melted margarine"
+      },
+      {
+         "amount": 2,
+         "name": "cans cream corn"
+      },
+      {
+         "amount": 1,
+         "name": "bag frozen broccoli, thawed"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. Velveeta cheese"
+      },
+      {
+         "amount": 1,
+         "name": "can whole kernel corn, drained"
+      }
+   ],
+   "instructions": "Crush crackers and mix with margarine. Combine half of cracker mixture with remaining ingredients in a casserole dish. Top with remaining crackers. Bake at 350° for 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

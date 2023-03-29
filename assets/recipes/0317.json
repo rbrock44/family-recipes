@@ -1,0 +1,40 @@
+{
+   "name": "Zucchini Casserole",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. shredded zucchini"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped onions"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. shredded Cheddar cheese"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. bisquick"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      }
+   ],
+   "instructions": "Mix all ingredients. Pour into 9 x 9 inch pan. Bake at 350° for 45 minutes or until golden brown and crusty.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

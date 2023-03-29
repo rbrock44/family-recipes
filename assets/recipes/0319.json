@@ -1,0 +1,44 @@
+{
+   "name": "Baked Squash",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb. yellow squash"
+      },
+      {
+         "amount": 2,
+         "name": "c. onions, chopped"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 12,
+         "name": "eggs"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cracker crumbs"
+      },
+      {
+         "amount": 0,
+         "name": "Melted butter"
+      }
+   ],
+   "instructions": "Wash squash and cut into small pieces. Cook in salted water until tender. Drain. Mash the squash and add the butter, salt, pepper, and onions. Combine the milk and eggs. Mix well with squash. Put in baking dish. Top with melted butter and cracker crumbs. Bake 20 to 25 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

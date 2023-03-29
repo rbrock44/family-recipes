@@ -1,0 +1,48 @@
+{
+   "name": "Squash Patties",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. cooked squash"
+      },
+      {
+         "amount": 1,
+         "name": "egg, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. chopped onion"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      }
+   ],
+   "instructions": "Mix all ingredients together and drop by teaspoon in a little grease or oil, just enough oil in a skillet to brown on one side, then turn over and brown the other side.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

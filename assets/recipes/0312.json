@@ -1,0 +1,48 @@
+{
+   "name": "Zesty Carrot Bake",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. carrots, cut into 1/2 inch slices"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. minced onions"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. mayonnaise"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. prepared horseradish"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. dry bread crumbs"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter or margarine, melted"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shredded Cheddar cheese"
+      }
+   ],
+   "instructions": "On stovetop or microwave oven, cook carrots until tender. Place in a 1 quart baking dish; set aside. In a small bowl combine the next 5 ingredients; mix well. Pour over carrots. Combine bread crumbs and butter; sprinkle on top. Bake uncovered at 350° for 25 to 30 minutes. Sprinkle with cheese. Return to oven for 2 to 3 minutes or until cheese melts.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "name": "Beets",
+   "author": "Hazel Leubbers",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. cloves"
+      },
+      {
+         "amount": 2,
+         "name": "c. water"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. allspice Beets"
+      }
+   ],
+   "instructions": "Boil beets in their jackets. When tender, peel beets. Mix remain- ing ingredients together. Slice the beets into the mixture and bring to a boil for about 10 minutes. Put in jars and seal.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

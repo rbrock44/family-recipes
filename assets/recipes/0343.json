@@ -1,0 +1,28 @@
+{
+   "name": "Ice Box Yeast Rolls (Crumb Mixture)",
+   "author": "Shirley Drury",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      }
+   ],
+   "instructions": "Mix all ingredients together to make crumbs.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

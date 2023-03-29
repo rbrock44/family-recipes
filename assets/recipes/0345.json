@@ -1,0 +1,32 @@
+{
+   "name": "Notre Dame High School Bread Dough",
+   "author": "Charlotte Hooper",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 3,
+         "name": "pkg. dry Red Star yeast"
+      },
+      {
+         "amount": 0.5,
+         "name": "pkg. dry Red Star yeast"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. yeast"
+      }
+   ],
+   "instructions": "Mix yeast and sugar with water. Stir until dissolved. Add butter, salt and dry milk. Stir well. Then add flour, beating after each cup. When mixed, knead dough for 3 minutes. Divide dough into 3 parts. Shape into French style loaves and place on greased cookie sheets. Let rise until double in size. Bake at 350° for 30 minutes. Great for spaghetti dinner or French style sandwiches.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

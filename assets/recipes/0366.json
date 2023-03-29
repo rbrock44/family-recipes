@@ -1,0 +1,32 @@
+{
+   "name": "Red Lobster Biscuits",
+   "author": "Don and Clara Essner Family, Rachael schlosser",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. Bisquick (all purpose baking mix)"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shredded Cheddar cheese"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. butter or margarine"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. garlic powder"
+      }
+   ],
+   "instructions": "Preheat oven to 450°. Combine the Bisquick, milk and Cheddar cheese together with a wooden spoon until soft dough forms. Beat vigorously for 30 seconds. Drop dough by heaping tablespoons into an ungreased cookie sheet. Bake 8 to 10 minutes until golden brown. Combine melted butter or margarine with the garlic powder and brush it over the warm biscuits before removing them from the cookie sheet. Serve warm.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

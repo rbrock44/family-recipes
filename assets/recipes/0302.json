@@ -1,0 +1,36 @@
+{
+   "name": "Corn Casserole",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "cans cream style corn"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) sour cream"
+      },
+      {
+         "amount": 2,
+         "name": "cans whole kernel corn, drained"
+      },
+      {
+         "amount": 2,
+         "name": "boxes Jiffy Corn Muffin Mix"
+      }
+   ],
+   "instructions": "Melt margarine and add it to the eggs. Mix all ingredients and bake in 350 degrees oven for 50 to 60 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

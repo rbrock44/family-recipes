@@ -1,0 +1,32 @@
+{
+   "name": "Josephine Messmer's Pickled Beets",
+   "author": "Louise Alderman",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. beet juice"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. italian dressing, dry mix"
+      },
+      {
+         "amount": 12,
+         "name": "cans sliced beets or whole"
+      }
+   ],
+   "instructions": "Drain beets. Heat to boiling, everything but beets. Remove from heat and add beets.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

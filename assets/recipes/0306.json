@@ -1,0 +1,28 @@
+{
+   "name": "Canned Green Beans",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Green beans, cleaned and washed"
+      },
+      {
+         "amount": 0,
+         "name": "Washed canning jars"
+      },
+      {
+         "amount": 0,
+         "name": "Salt"
+      },
+      {
+         "amount": 0,
+         "name": "Water"
+      }
+   ],
+   "instructions": "Put green beans in prepared jars. Add 1/2 teaspoon salt to a pint jar and 1 teaspoon salt to a quart jar. Fill with water and seal. Place in pressure cooker. Let them come to 10 pounds of pressure for 20 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

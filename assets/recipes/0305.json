@@ -1,0 +1,24 @@
+{
+   "name": "Creamed Corn Casserole",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "cans shoe peg corn, drained"
+      },
+      {
+         "amount": 1,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) cream cheese"
+      }
+   ],
+   "instructions": "Bake in 350° oven for 30 minutes. Ramona Bess and Louise Maria's favorite.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

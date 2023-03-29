@@ -1,0 +1,80 @@
+{
+   "name": "",
+   "author": "",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": ""
+      },
+      {
+         "amount": 2,
+         "name": ""
+      },
+      {
+         "amount": 1,
+         "name": ""
+      },
+      {
+         "amount": 2,
+         "name": ""
+      },
+      {
+         "amount": 1,
+         "name": ""
+      },
+      {
+         "amount": 2,
+         "name": ""
+      },
+      {
+         "amount": 1,
+         "name": ""
+      },
+      {
+         "amount": 2,
+         "name": ""
+      },
+      {
+         "amount": 1,
+         "name": ""
+      },
+      {
+         "amount": 2,
+         "name": ""
+      },
+      {
+         "amount": 1,
+         "name": ""
+      },
+      {
+         "amount": 2,
+         "name": ""
+      },
+      {
+         "amount": 1,
+         "name": ""
+      },
+      {
+         "amount": 2,
+         "name": ""
+      },
+      {
+         "amount": 1,
+         "name": ""
+      },
+      {
+         "amount": 2,
+         "name": ""
+      },
+      {
+         "amount": 3,
+         "name": ""
+      }
+   ],
+   "instructions": "",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

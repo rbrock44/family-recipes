@@ -1,0 +1,40 @@
+{
+   "name": "Batter Fried Vegetables",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. all purpose flour, sifted"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Any vegetables"
+      },
+      {
+         "amount": 0,
+         "name": "Oil for frying"
+      }
+   ],
+   "instructions": "Combine flour, egg, milk, baking powder, and salt to make bat- ter. Beat until smooth. Cover; let stand at least 15 minutes before using. Cut desired amount of vegetables. Dip the cut pieces into the batter; let surplus drain off. Deep fry at 350° until brown and crisp.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,44 @@
+{
+   "name": "Swedish Tea Ring",
+   "author": "Shirley Drury",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. fat"
+      },
+      {
+         "amount": 1,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. yeast"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 8,
+         "name": "to 8 1/2 c. flour"
+      }
+   ],
+   "instructions": "Scald milk and stir in sugar, salt and fat. Cool to lukewarm. Put warm water in mixing bowl and stir in yeast until dissolved. Add to the lukewarm milk the eggs and about half of the flour. Beat until smooth. Add remaining flour and beat until dough leaves sides of bowl. Turn out on lightly floured cutting board and knead until dough is satiny, springy and smooth. Return to bowl, cover and let rise to double in warm place. Punch down and turn out on lightly floured board. Shape according to desired type. Let rise. Roll dough into oblong 9 x 18 inch shape. Spread with the raisin-cherry mixture. Roll up tightly, beginning at wide side. Seal well by pinching edges of roll together. Then, place sealed edge down in ring on lightly greased baking sheets (size 17 by 14). Join ends of ring, seal. With scissors, make cuts 2/3 of the way through the ring at inch intervals. Turn each section on its side. Let rise and bake in moderate oven at 375° for 12 to 15 minutes until golden brown. Frost while warm and decorate with nuts and cherries.",
+   "yield": {
+      "amount": 3,
+      "name": "stollen"
+   }
+}

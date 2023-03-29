@@ -1,0 +1,44 @@
+{
+   "name": "Broccoli Rice Casserole",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. broccoli, chopped"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. rice, cooked"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. celery, chopped"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. onion, chopped"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. cheese, grated"
+      },
+      {
+         "amount": 1,
+         "name": "(10 3/4 oz.) can cream of chicken soup"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of mushroom soup (10 3/4 oz.)"
+      }
+   ],
+   "instructions": "Cook broccoli until tender. Drain. Saute onions and celery in butter. Add soups, broccoli, rice and cheese. Save some cheese to put on top. Pour into buttered casserole and sprinkle cheese on top. Bake at 350° for about 20 minutes. Use 2 quart casserole dish or a long baking dish.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

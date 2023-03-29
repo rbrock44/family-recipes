@@ -1,0 +1,40 @@
+{
+   "name": "Old-Fashioned Candied Yams",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "medium yams"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla flavor"
+      },
+      {
+         "amount": 0,
+         "name": "Pinch of salt"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. nutmeg"
+      },
+      {
+         "amount": 0.25,
+         "name": "stick butter or margarine"
+      }
+   ],
+   "instructions": "Peel and cut yams in quarters. Sprinkle with sugar and nutmeg; add butter. Add vanilla, salt and water. Cover and simmer over medi- um heat until liquid forms a syrup. Remove from heat and serve.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

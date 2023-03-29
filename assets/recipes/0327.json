@@ -1,0 +1,36 @@
+{
+   "name": "Sour Cream Cucumbers",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "large cucumbers, peeled and sliced"
+      },
+      {
+         "amount": 1,
+         "name": "large onion sliced into rings"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sour cream"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. cider vinegar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      }
+   ],
+   "instructions": "In a bowl, combine the cucumbers and onions. Combine remaining ingredients and pour over cucumbers. Mix well. Chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

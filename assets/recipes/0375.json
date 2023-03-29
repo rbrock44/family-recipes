@@ -1,0 +1,52 @@
+{
+   "name": "Sweet Rolls",
+   "author": "Charlotte Hooper",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. lukewarm water"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. Red Star yeast"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. Wesson oil"
+      },
+      {
+         "amount": 2,
+         "name": "c. milk"
+      },
+      {
+         "amount": 2.5,
+         "name": "lb. flour or more"
+      },
+      {
+         "amount": 1.25,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 0,
+         "name": "Cinnamon"
+      },
+      {
+         "amount": 0,
+         "name": "Sugar"
+      }
+   ],
+   "instructions": "Dissolve yeast in lukewarm water. Heat milk and shortening until lukewarm. Beat eggs and add sugar and salt to this. Pour in milk and shortening. Add flour to make a thick batter like cake. Add the yeast mixture. Add more flour until smooth and satiny. Let rise for 2 hours. Roll out on floured board, about 1/4 inch thick. Melt 1 1?4 stick margarine and pour over dough. Then sprinkle sugar and cinna- mon over the dough. Roll like a jelly roll. Slice into rolls about 1/4 inch thick and place on greased pan. Let rise for 1 hour. Bake in 400° to 425° oven for around 10 to 12 minutes. Top with icing.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

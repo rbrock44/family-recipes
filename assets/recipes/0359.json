@@ -1,0 +1,44 @@
+{
+   "name": "White Bread",
+   "author": "In Memory of Ella I. Schlosser",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. yeast"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. shortening, melted"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nonfat milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sifted all-purpose flour, approximately"
+      }
+   ],
+   "instructions": "Soften yeast in warm water. Combine sugar, salt, shortening and water. Combine nonfat milk solids and 2 cups flour. Add to the above mixture. Add softened yeast. Beat until smooth. Add remaining flour gradually to make a soft dough. Turn out on a lightly floured pastry cloth and knead until surface of dough is smooth. Place in a greased bowl. Turn once to bring greased side up. Cover. Let rise in a warm place until double in bulk, about 45 minutes. Turn out on a pastry cloth. Knead. Shape into a loaf pan 8 1/2 x 5 x 2 1/2 inches. Cover and let rise until double in bulk, about 30 minutes. Bake in a moderate oven (350°) for about 40 minutes.",
+   "yield": {
+      "amount": 1,
+      "name": "loaf"
+   }
+}

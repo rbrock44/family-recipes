@@ -1,0 +1,32 @@
+{
+   "name": "Beanie Weenies",
+   "author": "Zachary Estes",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "small can Showboat pork 'n beans, drained"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. beef hot dogs"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. ketchup"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. barbecue sauce"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. brown sugar"
+      }
+   ],
+   "instructions": "Slice hot dogs and add all other ingredients in saucepan. Cook slowly stirring often until hot dogs are done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

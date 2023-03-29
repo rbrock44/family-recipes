@@ -1,0 +1,32 @@
+{
+   "name": "Kraut Dumplings",
+   "author": "Ginny Robert",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 0.33,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "large can sauerkraut"
+      },
+      {
+         "amount": 1,
+         "name": "large onion, sliced"
+      },
+      {
+         "amount": 1,
+         "name": "c. bisquick"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. margarine"
+      }
+   ],
+   "instructions": "Empty sauerkraut into a 3 quart sauce pan. Heat to boiling point. Meanwhile saute onions in margarine until done. Mix Bisquick and milk until a soft dough forms. Drop by teaspoons into boiling kraut. Cook uncovered over low heat 10 minutes. Cover and cook 10 minutes more. Carefully remove with large spoon to platter and top dumplings with onions. Serve with roast pork.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

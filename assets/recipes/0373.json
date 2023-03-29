@@ -1,0 +1,68 @@
+{
+   "name": "Extra Good Cinnamon Rolls",
+   "author": "Shelly Dohogne",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. yeast"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 2,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening or oleo"
+      },
+      {
+         "amount": 5,
+         "name": "c. flour (more or less to make soft dough)"
+      },
+      {
+         "amount": 0,
+         "name": "Brown sugar"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0,
+         "name": "Powdered sugar"
+      },
+      {
+         "amount": 0,
+         "name": "Milk"
+      }
+   ],
+   "instructions": "Dissolve yeast and sugar in 21?2 c. water. Let stand a while. Add 2 c. water, salt, sugar, eggs and flour. Beat, let stand until it bubbles. Add shortening and flour until soft dough is achieved. Let rise until double. Roll out and spread with butter and 1?2 of a 1 pound box of brown sugar and 4 tsp. cinnamon. Roll up dough and cut into rolls. Place in pan. Let rise until light. Bake at 375° for about 20 minutes. Drizzle warm rolls with a glaze made from powdered sugar and milk.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

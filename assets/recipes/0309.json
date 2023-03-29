@@ -1,0 +1,52 @@
+{
+   "name": "Kelso Copper Pennies",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "medium onions, sliced"
+      },
+      {
+         "amount": 2,
+         "name": "lb. carrots, sliced"
+      },
+      {
+         "amount": 1,
+         "name": "green pepper, cut into strips"
+      },
+      {
+         "amount": 1,
+         "name": "(10 1/2 oz.) can tomato soup"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. vinegar"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cooking oil"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. prepared mustard"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. Worcestershire sauce"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Cook carrots in salted water about 10 minutes. Drain, put the vegetables in a large bowl. Combine rest of ingredients and pour over vegetables. Let stand several hours or over night. Keeps a long time.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
