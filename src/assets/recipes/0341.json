@@ -1,0 +1,44 @@
+{
+   "name": "Irish Soda Bread",
+   "author": "Fr. Oliver Clavin",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. whole wheat flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. white flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. bran"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. granulated sugar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. margarine"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. buttermilk"
+      }
+   ],
+   "instructions": "Put all dry ingredients into bowl and mix. Rub in the margarine with fingertips. Make a well in the center and pour in the buttermilk. Mix well and knead lightly. Roll into a ball, using a little flour. Place dough in a deep round floured 8 inch cake pan or iron skil- let (a loaf pan can be used). With a floured knife, make a deep cross across the top of the bread. Bake in 400° oven for 40 minutes. Remove the bread from the pan immediately and wrap in a towel. Stand it on its edge to cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

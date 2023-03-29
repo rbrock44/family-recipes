@@ -1,0 +1,28 @@
+{
+   "name": "FRIED GREEN TOMATOES",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "large, firm, green tomatoes"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      },
+      {
+         "amount": 1,
+         "name": "c. corn meal"
+      },
+      {
+         "amount": 0,
+         "name": "Bacon drippings"
+      }
+   ],
+   "instructions": "Cut tomatoes into 1/4 inch slices. Season with salt and pepper; coat in the corn meal. Heat bacon drippings in a heavy skillet; add tomatoes and fry slowly until brown, turning once.",
+   "yield": {
+      "amount": 6,
+      "name": "6 to 8 servings"
+   }
+}

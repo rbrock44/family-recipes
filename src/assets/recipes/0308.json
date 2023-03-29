@@ -1,0 +1,24 @@
+{
+   "name": "Green Bean Casserole with Onion Rings",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. canned green beans"
+      },
+      {
+         "amount": 1,
+         "name": "can undiluted cream mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "can French fried onion rings"
+      }
+   ],
+   "instructions": "Mix beans and mushroom soup. Pour into buttered baking dish. Bake 1 hour at 300° until bubbling. Sprinkle onion rings over top of beans and bake 15 minutes.",
+   "yield": {
+      "amount": 8,
+      "name": "servings"
+   }
+}

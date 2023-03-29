@@ -1,0 +1,40 @@
+{
+   "name": "Broccoli and Corn",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(12 oz.) can sweet corn with red and green peppers, drained"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) frozen chopped broccoli, thawed and drained"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. basil"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. oleo"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. pepper"
+      }
+   ],
+   "instructions": "Melt oleo and saute corn and broccoli. Cook until heated and tender, then add seasoning and heat.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

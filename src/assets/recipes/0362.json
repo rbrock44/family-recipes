@@ -1,0 +1,33 @@
+{
+   "name": "Southern Corn Bread",
+   "author": "Shirley Drury",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. corn meal"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      }
+      
+   ],
+   "instructions": "Mix all ingredients together and place in cornsticks or muffin pan. In 450° oven, bake for 10 to 15 minutes for corn sticks or muffins; 20 to 25 minutes for corn bread. Makes 12 muffins, corn sticks, or pieces.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

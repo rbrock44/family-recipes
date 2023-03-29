@@ -1,0 +1,44 @@
+{
+   "name": "Piping Hot Potato Rolls",
+   "author": "Annita Layton",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. mashed potatoes"
+      },
+      {
+         "amount": 1,
+         "name": "c. melted shortening"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 3,
+         "name": "c. lukewarm water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 6,
+         "name": "6 to 8 c. flour"
+      }
+   ],
+   "instructions": "Combine one cup of water with yeast; set aside. In large bowl, combine remaining water with shortening, sugar, salt, eggs, baking powder, potatoes and 3 cups of the flour. Add dissolved yeast to mixture. All ingredients should be at lukewarm temperature. Let stand in warm place for 30 minutes. When light, work in enough of the remaining flour so dough may be handled and kneaded. The more you knead the dough, the finer and nicer the texture of rolls. Cover and set in warm place for about 2 hours. Punch down and let rise again. Punch down again and form into rolls or desired shape (crescents). Allow to rise again for about 15 minutes. Put into a cold oven and turn temperature to 400°. Bake for approximately 25 minutes.",
+   "yield": {
+      "amount": 3,
+      "name": "dozen rolls"
+   }
+}

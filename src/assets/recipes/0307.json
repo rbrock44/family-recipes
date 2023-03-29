@@ -1,0 +1,40 @@
+{
+   "name": "Green Bean Casserole",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "(16 oz.) cans green beans, drained"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped onions"
+      },
+      {
+         "amount": 1,
+         "name": "(10 3/4 oz.) can cream of mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "(10 3/4 oz.) can cream of celery soup"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sliced almonds, optional"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      },
+      {
+         "amount": 1,
+         "name": "(3 oz.) can fried onion rings"
+      }
+   ],
+   "instructions": "Mix all ingredients together except onion rings. Bake at 325° for about 45 minutes, sprinkling onion rings on top for last 15 minutes of cooking time.",
+   "yield": {
+      "amount": 10,
+      "name": "10 to 12 servings"
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "Hot Rolls for Notre Dame High School",
+   "author": "Juanita Dannenmueller",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "qt. warm water"
+      },
+      {
+         "amount": 3,
+         "name": "c. sugar "
+      },
+      {
+         "amount": 4,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.33,
+         "name": "lb. or 1 c. yeast"
+      },
+      {
+         "amount": 6,
+         "name": "eggs or 1 c. frozen eggs"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 10,
+         "name": "lb. and 7 c. flour"
+      }
+   ],
+   "instructions": "Mix well and add as much flour that is needed so dough is not sticky and comes away from sides of mixer. Place in large dishpan. Let rise until double. Shape into rolls and let rise until double again. Bake in 8x10 pans at 350° for 30 minutes.",
+   "yield": {
+      "amount": 616,
+      "name": "rolls"
+   }
+}

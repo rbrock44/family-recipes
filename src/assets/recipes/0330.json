@@ -1,0 +1,28 @@
+{
+   "name": "Fried Apples",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "Gala or Delicious apples"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.5,
+         "name": "stick butter or margarine"
+      }
+   ],
+   "instructions": "Wash, quarter and core apples. Cut each slice in half again. Place in large skillet with water. Cook until soft and most of water is gone. Add butter and sugar. Turn to medium heat. Cook until apples and sugar mixture become like caramel. Serve hot.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

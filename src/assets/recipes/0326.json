@@ -1,0 +1,44 @@
+{
+	"name": "Cauliflower Morocco",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. fresh mushrooms, sliced"
+      },
+      {
+         "amount": 1,
+         "name": "onion, chopped"
+      },
+      {
+         "amount": 0,
+         "name": "butter"
+      },
+      {
+         "amount": 0,
+         "name": "juice of 1 lemon"
+      },
+      {
+         "amount": 1,
+         "name": "large head cauliflower"
+      },
+      {
+         "amount": 0,
+         "name": "garlic, basil, salt and pepper to taste"
+      },
+      {
+         "amount": 3,
+         "name": "c. cooked brown rice"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. grated Cheddar cheese"
+      }
+   ],
+   "instructions": "Saute mushrooms and onion in butter with juice of 1 lemon. Saute cauliflowerets in butter with garlic, basil, salt and pepper to taste. Mix all ingredients and put in greased casserole. Cover and bake at 350° for 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

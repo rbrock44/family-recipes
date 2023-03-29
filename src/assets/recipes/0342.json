@@ -1,0 +1,44 @@
+{
+   "name": "Ice Box Yeast Rolls",
+   "author": "Shirley Drury",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. lukewarm water"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. yeast"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. lukewarm milk"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, lightly beaten"
+      },
+      {
+         "amount": 6,
+         "name": "c. flour"
+      }
+   ],
+   "instructions": "Dissolve yeast in lukewarm water. Let stand. Mix together sug- ar, oil, salt and eggs. Add yeast mixture and milk. Add flour until dough is thick. Knead well. Place in oiled bowl and cover with plastic wrap. Put in refrigerator. Remove dough 3 hours before baking. Shape into rolls and place into greased pans. Let rise until double. When dough is ready to bake, top with well drained fruit or pie filling. Sprinkle the crumb mixture on rest. Bake at 350° until done. ",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

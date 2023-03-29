@@ -1,0 +1,44 @@
+{
+   "name": "Hot Rolls",
+   "author": "Rita Jansen",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. mashed potatoes"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "qt. and 1/4 c. warm water"
+      },
+      {
+         "amount": 12,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. and 1 tsp. sugar"
+      }
+   ],
+   "instructions": "Mix together, yeast, 1 teaspoon sugar and 1/4 cup warm water and let stand. Heat until lukewarm, 1?2 cup sugar, buttermilk, margarine and salt. Then, add mashed potatoes, eggs, and 1 quart water to the milk and yeast mixtures. Add enough flour until dough is satiny. Place in well greased bowl and let rise until double. Then shape into rolls and let rise until double. Bake at 350° until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

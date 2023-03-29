@@ -1,0 +1,44 @@
+{
+   "name": "Biscuits",
+   "author": "Donna Menz",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. oleo"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0,
+         "name": "dash salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. melted butter"
+      }
+   ],
+   "instructions": "Mix flour, baking powder, baking soda, salt and sugar in a mix- ing bowl. Cut in the oleo until mixture resembles coarse crumbs. Add buttermilk. Mix quickly to make a soft dough. Turn out onto a lightly floured surface. Knead a few times to make a soft dough, don't over knead or the biscuits will turn hard and dry. Roll out a 6 x 6 square and place on an ungreased baking sheet. With a knife, cut dough into 12 even portions. Do not separate. Bake at 400° until golden about 15 minutes. Serve piping hot with butter or honey.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

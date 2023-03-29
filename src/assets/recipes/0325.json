@@ -1,0 +1,44 @@
+{
+   "name": "Broccoli Casserole",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can cream of mushroom soup"
+      },
+      {
+         "amount": 1,
+         "name": "can cream of celery soup"
+      },
+      {
+         "amount": 1,
+         "name": "medium onion"
+      },
+      {
+         "amount": 1,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. Velveeta"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. quick cooking rice"
+      },
+      {
+         "amount": 1,
+         "name": "lb. pkg. frozen broccoli"
+      }
+   ],
+   "instructions": "Saute onion in margarine. Add cream of mushroom soup, cream of celery soup, Velveeta, milk, rice and broccoli while still over low heat. Pour heated mixture into casserole dish. Bake at 350° for 45 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

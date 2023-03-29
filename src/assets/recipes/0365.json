@@ -1,0 +1,44 @@
+{
+   "name": "Red Lobster Inspired Garlic Cheese",
+   "author": "Brian Hulshof",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. mayonnaise"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. self rising flour"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. Kraft American cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. garlic powder, not salt"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. melted butter or margarine"
+      },
+      {
+         "amount": 0,
+         "name": "Muffin paper liners"
+      }
+   ],
+   "instructions": "",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

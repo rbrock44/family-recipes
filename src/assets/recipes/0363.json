@@ -1,0 +1,48 @@
+{
+   "name": "Magic Biscuits",
+   "author": "Sara Hooper",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 5,
+         "name": "c. plain flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. soda"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 2,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. dry yeast"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. hot water"
+      }
+   ],
+   "instructions": "Mix dry ingredients; cut in shortening. Add buttermilk and yeast that has been dissolved in hot water. Put in oiled bowl in refrigerator. You don't have to wait for rising. Roll out and cut with biscuit cutter. Bake at 425° for 10 minutes. Notes: These biscuits taste even better the second day. Use only the amount needed. Batter will keep up to a week in the refrigerator.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

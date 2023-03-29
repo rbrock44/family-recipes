@@ -1,0 +1,44 @@
+{
+   "name": "Corn Casserole",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box Jiffy corn bread mix"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "can corn with juice"
+      },
+      {
+         "amount": 1,
+         "name": "can cream style com"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. onions"
+      },
+      {
+         "amount": 1,
+         "name": "stick oleo, melted"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) shredded Cheddar cheese"
+      }
+   ],
+   "instructions": "Mix all together except cheese and put into 9 x 13 pan. Bake at 350° for 1/2 hour. Can put part of the cheese inside with the corn.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "name": "Cinnamon Rolls",
+   "author": "In Memory of Celena Blattel",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. yeast"
+      },
+      {
+         "amount": 1,
+         "name": "c. lukewarm water"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk, scalded"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. shortening"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 7,
+         "name": "c. flour"
+      }
+   ],
+   "instructions": "Combine, yeast, water and 2 teaspoon sugar. Stir and let stand for 10 minutes. Then add milk, shortening, 1/2 cup sugar and salt. Let mixture cool until lukewarm. Then, add eggs and 2 cups flour. Beat with spoon to make batter. Add remaining flour a little at a time. Knead it like bread. Put in bowl. Let rise to more than double. Roll dough out to 1/2 inch thick. Spread melted butter over dough. Sprinkle with sugar, cinnamon and nut mixture. Roll like a jelly roll and cut in 1 inch thick slices. Put in greased pan and let rise until doubled. Bake at 375° until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

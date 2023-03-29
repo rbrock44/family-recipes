@@ -1,0 +1,40 @@
+{
+   "name": "Stove Top BBQ Beans",
+   "author": "",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "medium onion, chopped"
+      },
+      {
+         "amount": 4,
+         "name": "slices bacon"
+      },
+      {
+         "amount": 1,
+         "name": "small green pepper, chopped"
+      },
+      {
+         "amount": 2,
+         "name": "(1 lb.) cans pork 'n beans"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. smokey BBQ sauce"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. firmly packed brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. mustard"
+      }
+   ],
+   "instructions": "Fry bacon until crisp, remove from skillet and crumble. Add onion and green pepper to bacon drippings; fry until soft. Add crumbled bacon, pork 'n beans, brown sugar, BBQ sauce and mustard. Bring to a boil on medium heat; cook 15 minutes, stirring occasionally to keep from sticking.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
