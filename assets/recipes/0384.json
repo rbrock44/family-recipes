@@ -1,0 +1,32 @@
+{
+   "name": "French Coffee Lace (Filling Mixture)",
+   "author": "Shirley Drury",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. finely chopped apples"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "c. raisins, ground"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      }
+   ],
+   "instructions": "Mix all ingredients and let boil for one minute. Let cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,78 +1,38 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Homemade Pizza Meat",
+   "author": "Becky Essner",
+   "category": 3,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
+         "name": "lb. ground beef or pork"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0,
+         "name": "sausage"
       },
       {
-         "amount": 1,
-         "name": ""
+         "amount": 0,
+         "name": "Italian seasoning"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0,
+         "name": "Oregano"
       },
       {
-         "amount": 1,
-         "name": ""
+         "amount": 0,
+         "name": "Basil"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0,
+         "name": "Rosemary"
       },
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "amount": 8,
+         "name": "oz. Mozzarella cheese"
       }
    ],
-   "instructions": "",
+   "instructions": "Brown meat and drain. Again, add the seasonings to taste and cook over low heat for about 2 to 3 more minutes. Sprinkle meat over sauce. May also add pepperoni slices, slivers of onion, sliced green peppers, mushrooms, olives and other toppings. Top with cheese. Bake in preheated 425° oven for 20 to 25 minutes.",
    "yield": {
       "amount": 0,
       "name": ""

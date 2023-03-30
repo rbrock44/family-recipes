@@ -1,0 +1,24 @@
+{
+   "name": "Donuts (Glaze)",
+   "author": "Janet Welter",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "box powdered sugar"
+      }
+   ],
+   "instructions": "",
+   "yield": {
+      "amount": 0,
+      "name": "Bring the water and sugar to a boil. Take off burner and stir in the powdered sugar (sift in). Dip fried donuts. Drain on a wire rack."
+   }
+}

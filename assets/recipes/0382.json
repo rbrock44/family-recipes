@@ -1,0 +1,28 @@
+{
+   "name": "Sharen's Coffee Cake (Streusel Topping)",
+   "author": "Maris",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 2,
+         "name": "c. butter"
+      }
+   ],
+   "instructions": "Combine flour, sugar and cinnamon; cut in butter until crumbly.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

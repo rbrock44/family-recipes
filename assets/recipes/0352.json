@@ -1,78 +1,34 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Homemade Pizza Dough",
+   "author": "Becky Essner",
+   "category": 3,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "pkg. yeast"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "c. warm water"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "tsp. salt"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "to 2 tsp. sugar"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "Tbsp. vegetable oil"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "name": "c. flour"
       }
    ],
-   "instructions": "",
+   "instructions": "Dissolve yeast in warm water. Let this sit for 5 minutes. Add salt, sugar, oil and flour. Mix well with large spoon until dough is smooth. Divide in half and roll out with rolling pin. Place on greased pizza pans.",
    "yield": {
       "amount": 0,
       "name": ""

@@ -1,78 +1,46 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Chicken Dinner with Sour-Cream Gravy",
+   "author": "Annita Layton",
+   "category": 3,
    "ingredients": [
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
          "amount": 3,
-         "name": ""
+         "name": "Tbsp. salad oil"
+      },
+      {
+         "amount": 1,
+         "name": "(2 1/2 to 3 lb.) broiler fryer, cut up"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. pepper"
+      },
+      {
+         "amount": 10.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 2,
+         "name": "c. diagonally sliced celery"
+      },
+      {
+         "amount": 2,
+         "name": "c. diagonally sliced carrots"
+      },
+      {
+         "amount": 1,
+         "name": "c. regular long-grain rice "
+      },
+      {
+         "amount": 1,
+         "name": "8 oz. container sour cream"
       }
    ],
-   "instructions": "",
+   "instructions": "In 12-inch skillet over medium-high heat, in hot salad oil, cook chicken pieces until browned on all sides. Sprinkle chicken with salt and pepper. Add water and heat to boiling. Reduce heat to low. Cover and simmer for 20 minutes. Add celery and carrot slices. Cover and simmer 15 minutes more or until chicken and vegetables are fork- tender, stirring occasionally. Meanwhile, prepare rice as label directs. Spoon onto warm platter and keep warm. With slotted spoon, arrange chicken and vegetables on cooked rice. To prepare sour-cream gravy, spoon fat from drippings remaining in skillet. Into drippings, stir sour cream. Over medium heat, heat through, scraping any bits from bottom of pan. Do not allow mixture to boil or sour cream will curdle. Pour sour cream gravy over chicken and vegetables and serve immediately.",
    "yield": {
       "amount": 0,
       "name": ""

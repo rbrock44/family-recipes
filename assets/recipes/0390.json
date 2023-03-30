@@ -1,0 +1,40 @@
+{
+   "name": "Donuts",
+   "author": "Janet Welter",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. dry yeast"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt "
+      },
+      {
+         "amount": 4,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      }
+   ],
+   "instructions": "Dissolve yeast in warm water. Add sugar, shortening, salt, egg and 2 cups of flour. Mix with mixer until smooth. Add the other 2 cups of flour and mix by hand. Cover and let rise, in a warm place, until double in size. Punch down, roll out on lightly floured board and cut into donuts. Place on a cooke sheet, cover and let rise again. Deep fry in shortening at 375°. Drain on paper towels.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

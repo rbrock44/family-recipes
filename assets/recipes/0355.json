@@ -1,78 +1,74 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Spicy Bean and Beef Pie",
+   "author": "Kristie Milam",
+   "category": 3,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
+         "name": "lb. ground beef"
       },
       {
          "amount": 2,
-         "name": ""
+         "name": "to 3 garlic cloves, minced"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "(11 1⁄2 oz.) can condensed bean with bacon soup, undiluted"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "(16 oz.) jar thick and chunky picante sauce, divided"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0.25,
+         "name": "c. cornstarch"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "Tbsp. chopped fresh parsley"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "tsp. paprika"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "tsp. salt"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0.25,
+         "name": "tsp. pepper"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "(16 oz.) can kidney beans, rinsed and drained"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) can black beans, rinsed and drained"
       },
       {
          "amount": 2,
-         "name": ""
+         "name": "c. shredded Cheddar cheese, divided"
       },
       {
-         "amount": 3,
-         "name": ""
+         "amount": 0.75,
+         "name": "c. sliced green onions, divided"
+      },
+      {
+         "amount": 0,
+         "name": "Pastry for double crust pie (10 inches)"
+      },
+      {
+         "amount": 1,
+         "name": "c. sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "(2 1/4 oz.) can sliced ripe olives, drained"
       }
    ],
-   "instructions": "",
+   "instructions": "In a skillet, cook beef and garlic until beef is browned; drain. In a large bowl, combine soup, 1 cup picante sauce, cornstarch, parsley, paprika, salt and pepper. Mix well. Fold in beans, 1 1/4 cup of cheese, 1/2 cup onion and the beef mixture. Line pie plate with bottom pastry; fill with bean mixture. Top with remaining pastry; seal and flute edges. Cut slits in the top crust. Bake at 425° for 30 to 35 min- utes, or until lightly browned. Let stand for 5 minutes before cutting. Garnish with sour cream, olives and remaining picante sauce, cheese and onions.",
    "yield": {
       "amount": 0,
       "name": ""

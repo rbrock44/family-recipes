@@ -1,78 +1,34 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Broccoli Cauliflower Salad",
+   "author": "Denise Menz, Donna Menz",
+   "category": 2,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
+         "name": "c. Miracle Whip"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0.5,
+         "name": "c. oil"
       },
       {
-         "amount": 1,
-         "name": ""
+         "amount": 0.25,
+         "name": "c. vinegar"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0,
+         "name": "Onions"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "c. sugar"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "name": "tsp. mustard"
       }
    ],
-   "instructions": "",
+   "instructions": "Pour over cut up vegetables. Refrigerate.",
    "yield": {
       "amount": 0,
       "name": ""

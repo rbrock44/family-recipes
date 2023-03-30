@@ -1,78 +1,26 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Fried Sweet Potatoes",
+   "author": "Charlotte Hooper",
+   "category": 4,
    "ingredients": [
       {
-         "amount": 1,
-         "name": ""
+         "amount": 6,
+         "name": "sweet potatoes, peeled and cut into eighths"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0,
+         "name": "Water"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "c. sugar"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "amount": 0.5,
+         "name": "c. butter"
       }
    ],
-   "instructions": "",
+   "instructions": "Boil potatoes in water until done. Drain well. Melt butter in skillet. Pour in potatoes and top with sugar. Cook until syrup like and golden brown.",
    "yield": {
       "amount": 0,
       "name": ""

@@ -1,80 +1,40 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Homestyle Tuna Pot Pie",
+   "author": "Anna Bollinger",
+   "category": 3,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "pkg. refrigerated all-ready pie crusts (2 crusts)"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "(12 1⁄2 oz.) can chunk light tuna, drained"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "(10 oz.) pkg. frozen peas and carrots"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0.5,
+         "name": "c. chopped onion"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "(10 3/4 oz.) can cream of potato or mushroom soup"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0.5,
+         "name": "c. milk"
       },
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "amount": 0.5,
+         "name": "tsp. poultry seasoning or dried thyme"
       }
    ],
-   "instructions": "",
+   "instructions": "Line 9 inch pie pan with 1 crust; set aside. Combine remaining ingredients. Add salt and pepper to taste. Pour filling in pie pan. Top with second crust. Seal and crimp edges. Slit top of crust to vent and bake at 375° for 45 to 50 minutes or until golden brown.",
    "yield": {
-      "amount": 0,
-      "name": ""
+      "amount": 6,
+      "name": "servings"
    }
 }

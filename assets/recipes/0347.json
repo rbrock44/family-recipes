@@ -1,80 +1,48 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Lime Pickles",
+   "author": "Hazel Luebbers",
+   "category": 1,
    "ingredients": [
       {
-         "amount": 1,
-         "name": ""
+         "amount": 9,
+         "name": "lb. pickles"
       },
       {
          "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
+         "name": "c. lime"
       },
       {
          "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
+         "name": "gal. water"
       },
       {
          "amount": 2,
-         "name": ""
+         "name": "qt. vinegar"
+      },
+      {
+         "amount": 8,
+         "name": "c. sugar"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "tsp. celery seed"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "tsp. whole cloves"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "tsp. mixed spices"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "name": "Tbsp. salt"
       }
    ],
-   "instructions": "",
+   "instructions": "Slice the pickles and cover with lime and water. Let the pickles soak in the solution for 24 hours. Rinse solution from vegetables. Let them stand in clean cold water for 3 more hours. Drain. Mix all other ingredients, add pickles and let sit overnight. Bring mixture to a boil for 35 minutes. Can add alum, if desired. Put in jars and seal.",
    "yield": {
-      "amount": 0,
-      "name": ""
+      "amount": 10,
+      "name": "pints"
    }
 }

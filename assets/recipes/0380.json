@@ -1,0 +1,60 @@
+{
+   "name": "Butter Quick Coffee Cake",
+   "author": "Annita Layton",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 4.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. butter"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. coconut or chopped nuts"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Sift flour, sugar, baking powder and salt into bowl. Add butter, egg and milk. Beat hard for 2 minutes. Pour into large oblong pan that has been greased and floured. Sprinkle with mixture of 1/4 cup soft butter, 1/4 cup flour, brown sugar, coconut or chopped nuts, and cinnamon (Mix with pastry blender or fork). Bake at 350° for 35-45 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

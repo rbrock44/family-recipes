@@ -1,0 +1,44 @@
+{
+   "name": "Sharen's Coffee Cake",
+   "author": "Maris",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. almond extract"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) container of sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "21 oz.) can cherry pie filling Pam"
+      }
+   ],
+   "instructions": "Preheat oven to 375°. Spray two 9 inch round cake pans with Pam. Cream butter and sugar. Beat in eggs until mixture is very light and fluffy. Add extract. Combine flour and soda. Add to creamed mixture alternately with sour cream. Divide batter evenly in pans, spreading fruit filling on top. Sprinkle streusel topping over pie filling. Bake 25 to 35 minutes until cake tests done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

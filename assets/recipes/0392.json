@@ -1,0 +1,40 @@
+{
+   "name": "Ramona's Drop Doughnuts",
+   "author": "Ramona Glastetter",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. melted butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. sweet milk"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Cream sugar and eggs, add other ingredients. Drop from a teaspoon in hot lard or Crisco until brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
