@@ -1,78 +1,26 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Homemade Pizza Sauce",
+   "author": "Becky Essner",
+   "category": 3,
    "ingredients": [
       {
-         "amount": 1,
-         "name": ""
+         "amount": 8,
+         "name": "oz. tomato sauce"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0,
+         "name": "Oregano"
       },
       {
-         "amount": 1,
-         "name": ""
+         "amount": 0,
+         "name": "Garlic salt"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "amount": 0,
+         "name": "Parmesan cheese"
       }
    ],
-   "instructions": "",
+   "instructions": "Mix with tomato sauce, oregano, garlic salt, and Parmesan cheese to taste. (Approximately 1/8 teaspoon each of oregano and garlic salt. Approximately 1/4 cup Parmesan cheese.) Or, you can use purchased spaghetti sauce of your choice. Spread on dough.",
    "yield": {
       "amount": 0,
       "name": ""

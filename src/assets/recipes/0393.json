@@ -1,0 +1,24 @@
+{
+   "name": "Ramona's Drop Doughnuts (Glaze)",
+   "author": "Ramona Glastetter",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. warm water"
+      }
+   ],
+   "instructions": "Mix well, put in small bowl. Roll drop doughnuts in glaze. Put on wax paper to drain and glaze to dry.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

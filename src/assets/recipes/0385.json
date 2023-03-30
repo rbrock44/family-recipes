@@ -1,0 +1,28 @@
+{
+   "name": "Monkey Bread",
+   "author": "Shirley Drury",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can buttermilk refrigerator biscuits (10 count)"
+      },
+      {
+         "amount": 1,
+         "name": "stick margarine, melted"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Cut each biscuit in fourths. Melt the margarine. Combine cinna- mon and sugar together in small bowl. Drop biscuits into the melted margarine and roll in cinnamon-sugar mixture. Place in greased glass pie pan and bake at 350° for 20 minutes or until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

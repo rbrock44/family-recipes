@@ -1,0 +1,56 @@
+{
+   "name": "French Breakfast Puffs",
+   "author": "Annita Layton",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 0.33,
+         "name": "c. soft shortening, part butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. butter, melted"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Grease bottom of muffin cups. Mix shortening, 1/2 cup sugar and egg thoroughly. Measure flour by dip-level-pour method. Blend flour, baking powder, salt and nutmeg. Stir in alternately with milk. Fill muffin cups 2/3 full. Bake at 350° for 20 to 25 minutes. Immediately roll in the melted butter, then in sugar and cinnamon.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

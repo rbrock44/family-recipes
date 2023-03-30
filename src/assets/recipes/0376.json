@@ -1,0 +1,32 @@
+{
+   "name": "Sweet Rolls (Icing)",
+   "author": "Charlotte Hooper",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. Crisco"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. dry white cake mix"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. powdered sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. cold water"
+      },
+      {
+         "amount": 0,
+         "name": "Butter or vanilla flavoring"
+      }
+   ],
+   "instructions": "Mix Crisco and dry cake mix. Add powdered sugar, water and flavoring. Mix well until smooth.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

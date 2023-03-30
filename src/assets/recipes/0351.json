@@ -1,78 +1,50 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Enchiladas Casserole",
+   "author": "Ramona Bess Blankenship",
+   "category": 3,
    "ingredients": [
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 1.5,
+         "name": "lb. ground beef"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "onion, chopped"
       },
       {
          "amount": 3,
-         "name": ""
+         "name": "Tbsp. garlic cloves"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. vinegar"
+      },
+      {
+         "amount": 3,
+         "name": "c. tomato juice"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. chili powder"
+      },
+      {
+         "amount": 0,
+         "name": "Salt and pepper to taste"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. cheese"
+      },
+      {
+         "amount": 3,
+         "name": "dozen crackers"
       }
    ],
-   "instructions": "",
+   "instructions": "Brown meat and add onion, garlic cloves, vinegar, tomato juice, chili powder, salt and pepper. Mix well and bring to a boil. Reduce heat and cook for 20 minutes. Stir in flour and cook over low heat until thick. Remove and put in 2 quart dish. Put a layer of crackers, meat, cheese, etc. Bake at 350° for 20 to 25 minutes.",
    "yield": {
       "amount": 0,
       "name": ""

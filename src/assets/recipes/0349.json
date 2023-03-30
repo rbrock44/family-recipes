@@ -1,78 +1,46 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Incredible Egg Macaroni Salad",
+   "author": "Anna Bollinger",
+   "category": 2,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "(17 1/4 oz.) pkg. Macaroni and Cheese dinner"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "(10 oz.) pkg. frozen peas"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "medium tomato, chopped"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0.75,
+         "name": "c. Miracle Whip salad dressing"
       },
       {
-         "amount": 1,
-         "name": ""
+         "amount": 0.5,
+         "name": "c. celery slices"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0.5,
+         "name": "c. chopped onion"
       },
       {
-         "amount": 1,
-         "name": ""
+         "amount": 0.5,
+         "name": "tsp. salt"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0,
+         "name": "dash of pepper"
       },
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "amount": 6,
+         "name": "hard-cooked eggs"
       }
    ],
-   "instructions": "",
+   "instructions": "Prepare macaroni and cheese dinner as directed on the package. Add peas, tomatoes, salad dressing, celery, onion and seasonings. Chop 5 eggs, add to dinner mixture. Mix lightly. Chill. Stir in additional salad dressing before serving, if desired. Garnish with remaining egg, sliced",
    "yield": {
       "amount": 0,
       "name": ""

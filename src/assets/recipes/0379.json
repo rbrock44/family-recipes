@@ -1,0 +1,60 @@
+{
+   "name": "Caramel Rolls",
+   "author": "Shirley Drury",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 0,
+         "name": "Lump butter"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. corn syrup"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. yeast"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      }
+   ],
+   "instructions": "Ingredients should be to warm yeast temperature. Dissolve yeast in water. Add milk, lump butter, sugar, egg and salt. Add 1 1?2 cup flour and mix well. Then, add 1 3/4 cup flour and mix by hand until dough is satiny. Let rise for 30 minutes. Then mix brown sugar, butter, corn syrup and cinnamon together. Pour in 9 x 13 pan. Drop dough by teaspoon into caramel mixture. Cover with plastic wrap and refrigerate over night. Bake at 350° for 15 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

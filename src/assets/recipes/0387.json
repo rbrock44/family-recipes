@@ -1,0 +1,40 @@
+{
+   "name": "Soft Pretzels",
+   "author": "Anna Rose Bles",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "egg, beaten"
+      },
+      {
+         "amount": 0,
+         "name": "Coarse salt"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. yeast"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      }
+   ],
+   "instructions": "Measure warm water in large mixing bowl. Sprinkle on yeast and stir until it looks soft. Add salt, sugar, and flour. Mix and knead dough. Roll and twist into letters, numerals, snakes, etc. Grease cookie sheets. Brush pretzels with beaten eggs and sprinkle with salt. Bake at 425° for 12 to 15 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

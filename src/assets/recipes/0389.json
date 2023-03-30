@@ -1,0 +1,40 @@
+{
+   "name": "Small Donuts",
+   "author": "In Memory of Anna Diebold",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0,
+         "name": "A little salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 1,
+         "name": "yeast cake"
+      },
+      {
+         "amount": 4,
+         "name": "c. flour"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      }
+   ],
+   "instructions": "Heat milk and sugar to boiling. Add 2 cups flour. Let cool. Add eggs, a little salt, water and yeast. Add 2 cups more flour. Mix and ut in ice box. Keep in ice box until used. Cut and fry or use big spoon and drop in hot grease.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

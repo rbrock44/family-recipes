@@ -1,78 +1,50 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Zesty Saltine Meatloaf",
+   "author": "S.P.",
+   "category": 3,
    "ingredients": [
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 1.5,
+         "name": "lb. ground beef, turkey or deer"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "c. saltine crackers"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0.33,
+         "name": "c. chopped onion"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "tsp. Worcestershire sauce"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0.25,
+         "name": "c. milk"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "c. shredded Cheddar cheese"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0.25,
+         "name": "c. catsup"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "egg"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 1,
+         "name": "tsp. salt"
       },
       {
-         "amount": 3,
-         "name": ""
+         "amount": 1,
+         "name": "tsp. pepper"
       }
    ],
-   "instructions": "",
+   "instructions": "In large mixing bowl, combine ground beef, turkey or deer with milk, 1⁄2 cup cracker crumbs, onion, Worcestershire sauce, catsup, egg, salt and pepper; blend thoroughly. Place mixture on a large piece of waxed paper. Cover with another piece of waxed paper and roll out to rectangle about 9 x 15 inches. Remove top sheet of paper. Combine remaining cracker crumbs and cheese. Sprinkle over meat mixture. Roll up. Place in pan and bake at 350° for 1 hour and 15 minutes.",
    "yield": {
       "amount": 0,
       "name": ""

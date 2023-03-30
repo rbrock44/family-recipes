@@ -1,0 +1,44 @@
+{
+   "name": "Cinnamon Twists",
+   "author": "In Memory of Anna Diebold",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "cake yeast"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "c. sour cream"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. shortening"
+      },
+      {
+         "amount": 3,
+         "name": "c. sifted flour"
+      }
+   ],
+   "instructions": "Heat cream to lukewarm. Add sugar, soda, and salt. Crumble yeast into mixture. Stir well. Add eggs, shortening, and flour. Fold until smooth. Roll in oblong pan. Cut. Twist. Let rise about 1 hour. Bake at 375°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,78 +1,34 @@
 {
-   "name": "",
-   "author": "",
-   "category": 5,
+   "name": "Mexican Dip",
+   "author": "Anita Essner",
+   "category": 1,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "can refried beans"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "pkg. taco seasoning"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 8,
+         "name": "oz. sour cream"
       },
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0,
+         "name": "Jalepeno peppers"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "c. salsa"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "name": "c. Cheddar cheese, shredded"
       }
    ],
-   "instructions": "",
+   "instructions": "Spread refried beans on platter. Mix taco seasoning and sour cream. Spread on beans. Put jalepeno peppers on next layer, then salsa on next layer. Top with shredded cheese. Serve cold with corn chips or tortilla chips.",
    "yield": {
       "amount": 0,
       "name": ""
