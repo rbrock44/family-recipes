@@ -1,0 +1,28 @@
+{
+   "name": "Carrot Cake (Icing)",
+   "author": "In Memory of Ella I. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) Philadelphia cream cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "stick butter"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "box powdered sugar"
+      }
+   ],
+   "instructions": "Beat with mixer and spread on cake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

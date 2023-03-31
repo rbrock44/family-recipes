@@ -1,0 +1,36 @@
+{
+   "name": "Nut Bread",
+   "author": "Dale Schlosser",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. half black walnuts and pecans"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. Bisquick"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. Gold Medal flour *Do not use self rising flour"
+      }
+   ],
+   "instructions": "Heat oven to 350°. Grease 9 x 5 x 3 inch loaf pan. Combine bak- ing mix, sugar, flour, egg and milk. Beat vigorously for 30 seconds. Stir in nuts. Pour into pan. Bake for 1 hour or until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

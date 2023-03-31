@@ -1,0 +1,40 @@
+{
+   "name": "Apple Crumb Cake",
+   "author": "Gale Ledure",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "box yellow or white cake mix"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter, melted"
+      },
+      {
+         "amount": 2,
+         "name": "c. sliced apples"
+      },
+      {
+         "amount": 1,
+         "name": "c. sour cream"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Mix cake mix and butter until crumbly with mixer. Take out 2/3 cup of mixture and set aside. Put 1/3 cake mix in pan for the first layer. For second layer, arrange apples on top. Beat sour cream and egg pour over apples for third layer. Mix together remaining together and cake mix, brown sugar, cinnamon and sprinkle on top. Bake at 350° for 25 to 30 minutes. Refrigerate and reheat leftovers.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

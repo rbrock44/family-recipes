@@ -1,0 +1,60 @@
+{
+   "name": "Pumpkin Bread",
+   "author": "S.B.G.",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 3.5,
+         "name": "c. all-purpose flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 3,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. vegetable shortening"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 4,
+         "name": "eggs, well beaten"
+      },
+      {
+         "amount": 2,
+         "name": "c. pumpkin"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Mix dry ingredients together. In separate bowl, blend eggs, sugar, pumpkin, vegetable shortening and vanilla together. To the dry ingredients work in pumpkin mixture, a small amount at a time, and blend well. Put in greased and floured 3 pound coffee cans and bake at 350 degrees for 1 hour. Test to see if done, as it may need 5 or 10 more minutes baking.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

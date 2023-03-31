@@ -1,0 +1,24 @@
+{
+   "name": "Strawberry Bread (Butter)",
+   "author": "Anna Rose Bles",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(10 oz.) pkg. frozen strawberries"
+      },
+      {
+         "amount": 1,
+         "name": "c. butter, soften"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. powdered sugar, sifted"
+      }
+   ],
+   "instructions": "In blender combine strawberries, butter, and sifted powdered sugar. Cover and blend until smooth. Keep in refrigerator to store. Slice strawberry bread thin and spread butter on.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

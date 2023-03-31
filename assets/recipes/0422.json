@@ -1,0 +1,24 @@
+{
+   "name": "Cherry Scones (Orange Glaze)",
+   "author": "Annita Layton",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sifted powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. orange juice"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Stir together. Stir in more orange juice, a teaspoon at a time, until glaze is of drizzling consistency.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

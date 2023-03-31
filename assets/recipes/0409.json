@@ -1,0 +1,56 @@
+{
+   "name": "Zucchini Bread",
+   "author": "Shelly Dohogne",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. oil"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 2,
+         "name": "c. grated zucchini"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Mix oil, eggs and zucchini. Combine dry ingredients. Add zucchini mixture and blend well. Add nuts. Pour into two greased and floured loaf pans. Bake at 325 degrees for 1 hour. Let stand about 15 minutes and remove from pan.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

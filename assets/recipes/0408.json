@@ -1,0 +1,68 @@
+{
+   "name": "Sharen's Zucchini Bread",
+   "author": "Ramona Glastetter",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "c. grated, unpeeled zucchini"
+      },
+      {
+         "amount": 1,
+         "name": "c. raisins"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "c. oil"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "cups sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt (optional)"
+      },
+      {
+         "amount": 1,
+         "name": "c. oil"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "In a large mixing bowl, combine flour, sugar, cinnamon, soda, baking powder, oil, vanilla and eggs. Beat at medium speed until well mixed. Stir in zucchini, raisins and nuts. Pour into greased 13x9x2 inch pan. Bake at 350° for 50 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

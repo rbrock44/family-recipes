@@ -1,0 +1,52 @@
+{
+   "name": "Zucchini Bread",
+   "author": "Shirley Drury",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "c. oil"
+      },
+      {
+         "amount": 4,
+         "name": "c. zucchini squash (raw grated with peel)"
+      },
+      {
+         "amount": 4,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 6,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 6,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 6,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      }
+   ],
+   "instructions": "Beat eggs and add oil, squash, sugar and vanilla. Mix well. Sift dry ingredients and combine with liquid mixture. Mix well. Bake at 325° for 1 hour.",
+   "yield": {
+      "amount": 2,
+      "name": "loaves"
+   }
+}

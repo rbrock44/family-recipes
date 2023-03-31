@@ -1,0 +1,68 @@
+{
+   "name": "Fresh Apple Spice Cake",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 1,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "large eggs"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 1.25,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 2,
+         "name": "c. chopped apples"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts, chopped"
+      }
+   ],
+   "instructions": "Cream margarine and sugars with electric mixer until light and fluffy. Add eggs, one at a time beating after each addition. Sift togeth- er the flour, baking powder, baking soda, salt and 2 teaspoons of cin- namon. Add sifted dry ingredients and milk in thirds alternately, beating until smooth after each addition. Fold in apples, spread batter in 9 x 13 x 2 inch pan. Sprinkle sugar, cinnamon and nuts on top. Bake at 300° for about 1 hour and 15 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

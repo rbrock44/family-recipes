@@ -1,0 +1,52 @@
+{
+   "name": "Banana Bread",
+   "author": "Ramona Bess",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "c. oil"
+      },
+      {
+         "amount": 2,
+         "name": "to 3 bananas, smashed"
+      },
+      {
+         "amount": 2,
+         "name": "to 3 tsp. vanilla"
+      },
+      {
+         "amount": 3,
+         "name": "C. flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "to 3 tsp. cinnamon"
+      }
+   ],
+   "instructions": "Add all ingredients to large mixing bowl. Beat well. Then, pour mixture into well greased loaf pans. Bake at 350° for 40 to 45 minutes.",
+   "yield": {
+      "amount": 2,
+      "name": "loaves"
+   }
+}

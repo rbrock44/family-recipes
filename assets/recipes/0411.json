@@ -1,0 +1,76 @@
+{
+   "name": "Zucchini Muffins",
+   "author": "Helen Raines",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "c. oil"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "cups sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt (optional)"
+      },
+      {
+         "amount": 1,
+         "name": "c. oil"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Combine sugar, oil, eggs, vanilla and zucchini. Add remaining ingredients; stir until moistened. Pour in muffin cups. Fill 14 full. Bake 18 minutes at 400°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

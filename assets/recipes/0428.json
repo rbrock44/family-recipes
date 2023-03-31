@@ -1,0 +1,24 @@
+{
+   "name": "Cherry Nut Angel Food Cake",
+   "author": "Charlotte Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. (2 step) angel food cake mix"
+      },
+      {
+         "amount": 18,
+         "name": "oz. jar maraschino cherries"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Mix angel food cake as directed. When finished fold cherries and pecans. Pour into tube cake pan and bake according to package directions. When done you can add the icing of your choice. It is also good without icing.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

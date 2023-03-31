@@ -1,0 +1,52 @@
+{
+   "name": "Banana Bread",
+   "author": "Juanita Dannenmueller",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 3,
+         "name": "ripe bananas, mashed"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter or oleo"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Cream the butter and sugar. Add eggs and vanilla and beat. Add ripe bananas. Mix in sifted dry ingredients. Bake at 350° for 1 hour.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

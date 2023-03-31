@@ -1,0 +1,52 @@
+{
+   "name": "Turnovers",
+   "author": "Annita Layton",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. yeast"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "egg, beaten"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0,
+         "name": "Fruit pie filling"
+      }
+   ],
+   "instructions": "Mix flour, sugar, salt, and shortening in large bowl until crumbly. Dissolve yeast in water. Add milk, egg and vanilla. Mix and add to dry ingredients. Take small amounts of dough and roll out in pow- dered sugar. Cut out with a 2 pound coffee can. Put 1 tablespoon fruit pie filling in center of dough. Dot with butter. Fold in half and press edges together with fork to seal. Cut 2 slits in top. Sprinkle with sugar and cinnamon. Place on cookie sheets and bake at 350° for 20 minutes. Drizzle with powdered sugar icing while warm.",
+   "yield": {
+      "amount": 22,
+      "name": "turnovers"
+   }
+}

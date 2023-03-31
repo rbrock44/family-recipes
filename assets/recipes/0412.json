@@ -1,0 +1,44 @@
+{
+   "name": "Brownie Muffins",
+   "author": "Sr. Rose Marie",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "oz. Baker's semisweet chocolate"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. butter flavoring"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "sticks butter"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Melt butter, chocolate, butter flavoring and nuts in a double boiler. In separate bowl, combine remaining ingredients. Combine the two mixtures and bake in muffin tins 25 to 30 minutes at 350°. The muffins should be chewy the top being a lighter brown than the rest of the muffin. They will be kind of crackly.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

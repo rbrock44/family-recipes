@@ -1,0 +1,48 @@
+{
+   "name": "Refrigerator Muffins",
+   "author": "Paula Castleman",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 15,
+         "name": "oz. box Raisin Bran"
+      },
+      {
+         "amount": 5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "extra c. raisins"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 4,
+         "name": "beaten eggs"
+      },
+      {
+         "amount": 1,
+         "name": "c. oil"
+      },
+      {
+         "amount": 1,
+         "name": "qt. buttermilk"
+      }
+   ],
+   "instructions": "Mix together in large bowl, everything except eggs, oil and buttermilk. Then add the eggs, oil and buttermilk. Grease muffin tins or use paper liners. Bake 15 to 20 minutes at 375°. Mixture may be kept in refrigerator for a few weeks.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

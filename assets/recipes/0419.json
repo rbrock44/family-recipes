@@ -1,0 +1,60 @@
+{
+   "name": "Strawberry Bread",
+   "author": "Zachary Estes",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "tsp. soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sour cream"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. lemon juice"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 1,
+         "name": "c. strawberry preserves"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. red food coloring"
+      }
+   ],
+   "instructions": "Blend butter, sugar, vanilla, salt and juice; beat in eggs one at a time. Dissolve soda in sour cream. Add to egg mixture. Fold in flour, nuts, preserves and food coloring. Pour batter into 2 large greased loaf pans. Bake at 350° for 35 to 40 minutes or until bread pulls away from pan.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

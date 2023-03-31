@@ -1,0 +1,52 @@
+{
+   "name": "Fresh Apple Cake",
+   "author": "Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. peeled, sliced apples"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. oil"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. In large bowl, stir together apples and sug- ar. Add dry ingredients, stir well. In separate bowl beat eggs, oil and vanilla. Stir egg mixture into apple mixture, blending until thoroughly moistened. Stir in pecans. Pour into greased 9 x 13 inch pan. Bake 50 minutes or until cake springs back. Serve with apple dessert sauce or Cool Whip.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

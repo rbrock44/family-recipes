@@ -1,0 +1,20 @@
+{
+   "name": "Carrot Cake (Icing)",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) Philadelphia cream cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "stick oleo or butter"
+      }
+   ],
+   "instructions": "Beat well. Frost cake. Mix well. Add dry ingredients and Bake in three 9 inch pans at 300°",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

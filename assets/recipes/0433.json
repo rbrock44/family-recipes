@@ -1,0 +1,52 @@
+{
+   "name": "Apple Cake",
+   "author": "Shelly dohogne",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 5,
+         "name": "c. chopped apples"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Cream shortening, sugar, and eggs. Sift together dry ingredients. Add pecans and apples. Press into lightly greased 9x13 inch pan. Bake at 350° for 50 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

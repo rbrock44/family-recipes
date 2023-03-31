@@ -1,0 +1,64 @@
+{
+   "name": "Grandma Meyer's Fresh Apple Cake",
+   "author": "Tina Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "c. diced apples"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 1,
+         "name": "stick margarine "
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Pour one cup of sugar over apples and let stand for one hour. Mix together dry ingredients. Cream margarine, brown sugar and eggs. Alternate apples and flour mixture until it is all used up. Fold in the coconut and nuts. Put in greased baking pan and bake at 350° for 25 to 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
