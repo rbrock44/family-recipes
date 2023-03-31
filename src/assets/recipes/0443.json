@@ -1,0 +1,60 @@
+{
+   "name": "Ramona's Carrot Cake",
+   "author": "Ramona Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2.5,
+         "name": "Tbsp. hot water"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. raw grated carrots"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Beat eggs for 10 minutes. Add sugar and hot water and mix well. Add oil slowly. Add remaining ingredients. Blend well. Bake at 350° for 30 minutes. Ice with cream cheese frosting.",
+   "yield": {
+      "amount": 2,
+      "name": "layers"
+   }
+}

@@ -1,0 +1,44 @@
+{
+   "name": "Crusty Garlic Bread",
+   "author": "Rebecca Hooper",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "cloves garlic, minced"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. olive oil"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. chopped fresh parsley"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. chopped fresh thyme"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. chopped fresh marjoram or 3/4 tsp. dried marjoram"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. paprika"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. grated Parmesan cheese (optional)"
+      },
+      {
+         "amount": 2,
+         "name": "small (4 oz.) loaves Italian or French bread"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. In a small bowl, combine the garlic and oil; mix well. In another small bowl, combine parsley, thyme, marjoram, and paprika. Add Parmesan; mix well. Cut each loaf crosswise into diagonal slices, without cutting all the way through. Brush cut sides of slices with garlic oil. Sprinkle herb mixture between slices. Wrap each loaf in foil; place on a baking sheet. Bake until heated through, about 10 to 15 minutes. Unwrap the loaves and place them on a breadboard or in a basket. Serve immediately.  Per serving: Calories 72 (20 % from fat) Carbohydrates 12g Protein 2g Sodium 139mg Fat 1g Cholesterol 0mg.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

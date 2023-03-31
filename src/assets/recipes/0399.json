@@ -1,0 +1,52 @@
+{
+   "name": "Raisin Bread",
+   "author": "In Memory of Ella I. Schlosser",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. oleo"
+      },
+      {
+         "amount": 1,
+         "name": "box raisins"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. soda"
+      },
+      {
+         "amount": 2,
+         "name": "beaten eggs"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 2,
+         "name": "c. boiling water"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 4,
+         "name": "c. flour"
+      }
+   ],
+   "instructions": "Pour the boiling water over the raisins, oleo and soda. Cool. Add eggs, sugar, cinnamon, salt, nuts and flour. Bake in 3 pound coffee cans, that are greased good to the top. Bake for 1 hour at 350°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "Crunchy Apricot Cake",
+   "author": "Ramona Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(1 lb. 6 oz.) can apricot pie filling"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (1 layer size) white cake mix"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. flaked coconut"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter or margarine, melted"
+      }
+   ],
+   "instructions": "Spread pie filling in bottom of 9 x 9 x 2 inch baking dish. Com-bine cake mix, the water, and the egg. Using electric mixer, beat 4 minutes on medium speed. Pour over pie filling; sprinkle with coconut and pecans. Drizzle butter or margarine over top. Bake in moderate oven, 350°, for 40 minutes. Serve warm.",
+   "yield": {
+      "amount": 9,
+      "name": "servings"
+   }
+}

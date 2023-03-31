@@ -1,0 +1,56 @@
+{
+   "name": "Carrot Cake",
+   "author": "Tina Blattel",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2.5,
+         "name": "Tbsp. hot water"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. oil"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. raw carrots (grated)"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Beat eggs well. Add sugar and hot water. Mix well. Add oil slowly. Add balance of ingredients and blend well. Bake 1 hour at 350°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

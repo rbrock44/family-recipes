@@ -1,0 +1,32 @@
+{
+   "name": "Pizza Crust",
+   "author": "Kristie Milam",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. oil"
+      }
+   ],
+   "instructions": "Mix all ingredients. Gather together and press into a ball. Knead dough in bowl 10 times to make smooth. Roll out dough. Top with your favorite toppings. Bake at 425° for 20 to 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

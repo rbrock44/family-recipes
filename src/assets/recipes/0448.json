@@ -1,0 +1,36 @@
+{
+   "name": "Carrot Cake",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. oil"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      }
+   ],
+   "instructions": "Mix sugar and oil. Add eggs. vanilla. Mix in carrots and nuts. for 40 to 50 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

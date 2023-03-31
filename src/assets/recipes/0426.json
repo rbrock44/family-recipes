@@ -1,0 +1,44 @@
+{
+   "name": "Yellow Angel Food Cake",
+   "author": "In Memory of Ella I. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 5,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. cream of tartar"
+      }
+   ],
+   "instructions": "Beat yolks of eggs thick and lemon colored. Add water and beat about 4 minutes. Add flour, baking powder and salt sifted together. Beat whites stiff, adding cream of tarter. Fold whites into batter and pour in ungreased angel food pan. Bake in oven that is slow at first, 300. After 15 minutes increase heat to moderate oven, 350°. Then, bake for another 30 to 35 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "name": "Pizza Crust",
+   "author": "Charlotte Hooper",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. dry yeast"
+      },
+      {
+         "amount": 1,
+         "name": "c. warm water"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. cooking oil"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "c. sifted flour"
+      }
+   ],
+   "instructions": "Add yeast to warm water. Stir to dissolve. Add flour, salt, and oil. Beat vigorously. Turn the dough onto lightly floured surface. Knead until smooth for 30 seconds. Cover with wax paper and then a towel. Let set 20 minutes. Divide dough into 3 parts; roll each por- tion to fit 12 inch pan (Makes 3-12 inch pizzas). Place on greased pan. Press dough to make the edges of circle slightly thick. Add favorite sauce, meat, toppings and cheese. Bake at 425 for 15 to 20 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,56 @@
+{
+   "name": "Zucchini Bread",
+   "author": "Lorena Essner",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. oil"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 2,
+         "name": "c. grated zucchini"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. baking powder"
+      }
+   ],
+   "instructions": "Beat eggs until light and foamy. Add oil, sugar, zucchini, and vanilla. Mix lightly, but well. Add flour, salt, cinnamon, and baking powder, sifted together. Mix until blended. Divide batter into two well greased 9x5x2 loaf pans. Bake at 325° for 1 hour or until loaf tests done. Raisins and nuts may be added if desired.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

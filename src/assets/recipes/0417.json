@@ -1,0 +1,48 @@
+{
+   "name": "Strawberry Bread",
+   "author": "Anna Rose Bles",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "(10 oz.) frozen or 3 c. fresh berries"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. oil"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Mix the berries, eggs and oil together. Blend in rest of ingredients. Pour into 2 loaf greased and floured pans or greased pans with waxed paper. Bake at 350° for 1 to 1 1?2 hours. Top with strawberry butter.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

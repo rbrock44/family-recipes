@@ -1,0 +1,20 @@
+{
+   "name": "Homemade Noodles",
+   "author": "Charlotte Hooper",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      }
+   ],
+   "instructions": "Mix eggs and flour until mixture becomes very stiff. If it is too moist, more flour must be added. Roll dough, when ready to cut, cut with a pasta noodle maker. When done, separate and let dry completely. Then they can be put in bags and froze.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

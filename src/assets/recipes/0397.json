@@ -1,0 +1,44 @@
+{
+   "name": "My Apricot Muffins",
+   "author": "Ramona Glastetter",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cut dried apricots"
+      },
+      {
+         "amount": 1,
+         "name": "egg, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. melted butter or oleo"
+      }
+   ],
+   "instructions": "Mix together flour, baking powder, sugar and salt. Add apricots to flour mixture. Combine egg, milk and oleo. Add to flour, beating only enough to dampen all flour. Bake in greased muffin pans in 425° oven for 25 minutes, or until done. Makes 12 muffins. For plain muf- fins, omit fruit.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

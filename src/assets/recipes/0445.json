@@ -1,0 +1,44 @@
+{
+   "name": "Carrot Cake",
+   "author": "In Memory of Ella I. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Wesson oil"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon Dash salt"
+      },
+      {
+         "amount": 3,
+         "name": "c. grated carrots (raw)"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Mix sugar and oil. Add eggs and beat. Add dry ingredients to sugar mixture. Add carrots. Bake at 300° for 40 to 50 minutes. ",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

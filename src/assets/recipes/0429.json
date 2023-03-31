@@ -1,0 +1,16 @@
+{
+   "name": "Angel Food Cake Roll Up (Cake)",
+   "author": "Shirley Eftink",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. angel food cake mix"
+      }
+   ],
+   "instructions": "Prepare an angel food cake mix as directed on the box. Pour batter into a 12 x 16 inch cookie sheet lined with waxed paper. Bake until edges are golden brown or cake springs back when touched in the center. While cake is still hot, turn over onto a towel sprinkled with powdered sugar. Peel off waxed paper. Carefully roll towel and cake from wide end. Cool completely.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

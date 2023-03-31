@@ -1,0 +1,64 @@
+{
+   "name": "Applesauce Cake",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2.25,
+         "name": "C. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. allspice"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. oleo or Crisco"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. applesauce"
+      },
+      {
+         "amount": 1,
+         "name": "c. raisins"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. cloves"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 3,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Mix together sugar, shortening and vanilla. Beat in eggs. Add applesauce. Add flour, spices, baking soda and salt. Mix in nuts and raisins. Grease and flour an angel food cake pan. Pour batter into pan and bake for 1 hour at 350°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

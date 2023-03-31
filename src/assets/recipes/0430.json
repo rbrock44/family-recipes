@@ -1,0 +1,28 @@
+{
+   "name": "Angel Food Cake Roll Up (Filling)",
+   "author": "Shirley Eftink",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "(9 oz.) Cool Whip"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Cream powdered sugar, cream cheese and vanilla. Stir in Cool Whip. Unroll cake and fill with filling. Re-roll. Refrigerate until ready for use.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

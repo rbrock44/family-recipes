@@ -1,0 +1,52 @@
+{
+   "name": "Banana Nut Cake",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.66,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1.66,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.25,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. mashed ripe bananas"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. finely chopped pecans"
+      }
+   ],
+   "instructions": "Heat oven to 350°. Grease and flour 13 x 9 x 2 inch or two 9 inch or three 8 inch round baking pans. Measure all ingredients into large mixer bowl. Blend 1?2 minute on low speed, scraping bowl constantly. Beat 3 minutes on high speed, scraping bowl occasionally. Pour into pan(s). Bake oblong cake 45 to 50 minutes, layers 35 to 40 minutes or until wooden pick inserted in center comes out clean. Cool. Frost with Mock Whip Icing.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

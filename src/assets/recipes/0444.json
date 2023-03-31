@@ -1,0 +1,32 @@
+{
+   "name": "Ramona's Carrot Cake (Cream Cheese Frosting)",
+   "author": "Ramona Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese"
+      },
+      {
+         "amount": 0.25,
+         "name": "lb. softened butter"
+      },
+      {
+         "amount": 1,
+         "name": "box confectioners' sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Cream together cream cheese and butter. Add confectioners' sugar, vanilla and chopped pecans.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "name": "Fresh Apple Cake (Dessert Sauce)",
+   "author": "Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. oleo"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. heaving cream or evaporated milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Place all ingredients in saucepan; stir. Bring to boil over medium heat and cook for 3 minutes. Serve warm over cake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

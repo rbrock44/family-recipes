@@ -1,0 +1,56 @@
+{
+   "name": "Banana Muffins",
+   "author": "Shelly Dohogne",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 2,
+         "name": "overripe bananas"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. water"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Sift flour, baking powder, baking soda and salt together. Cream the brown sugar and margarine with the egg. Mash the bananas with the water and the vanilla. Add the banana and egg mixtures to the dry ingredients. Stir only enough to moisten. Add nuts. Spoon batter into greased muffin pan. Bake at 350° for 25 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

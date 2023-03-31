@@ -1,0 +1,40 @@
+{
+   "name": "Julie's Famous Angel Food Cake",
+   "author": "Donna Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "cup plus 2 Tbsp. sugar "
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. egg whites"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. cake flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cream of tartar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Sift flour and 1 cup sugar, set aside. Beat until foamy egg whites, cream of tartar and salt. Gradually add sugar while mixer is beating egg whites. When egg whites are stiff, add vanilla. Fold in flour and sugar mixture in small amounts. Place in ungreased tube pan. Bake at 350° for 35 to 40 minutes. Cool upside down.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,60 @@
+{
+   "name": "German Apple Cake",
+   "author": "Marian M. Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 5,
+         "name": "baking apples"
+      },
+      {
+         "amount": 5,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 3,
+         "name": "c. unsifted flour"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla extract"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. orange juice"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking soda"
+      }
+   ],
+   "instructions": "Peel apples and thinly slice. In a bowl, toss apple slices with 5 tablespoons sugar and cinnamon and let set while mixing other ingredients. Grease and flour a 10 inch tube pan or Bundt pan. Preheat oven to 350°. In a large bowl, mix together sugar, eggs, oil, vanilla. Beat well. Add dry ingredients; flour, salt, baking soda, baking powder. Mix thoroughly. Add orange juice. Blend for 1 minute on low speed, then increase speed to medium for 3 minutes. You will have a very thick batter. Fill prepared pan with alternating layers of batter and apple mixture, making a total of 3 batter layers and 2 apple layers. Start and finish with batter. (Be sure not to make apple layers too thick or cake will not hold together.) Bake for 1 1/2 to 1 3/4 hours or until knife comes out clean. Cool on rack for 10 minutes. Allow cake to cool completely on rack. Then invert cake and remove from pan.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

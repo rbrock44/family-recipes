@@ -1,0 +1,52 @@
+{
+   "name": "Banana Cake",
+   "author": "Doris Moore, In Memory of Ella I. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. cake flour, sift before measuring"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar, sifted"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "c. mashed ripe bananas"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. buttermilk or yogurt"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. Sift cake flour, baking powder, baking soda and salt. Cream butter and add sugar, mixing until very light. Beat in eggs one at a time. Mix together bananas and vanilla and buttermilk or yogurt. Add the flour mixture to the butter mixture in about 3 parts, alternating with thirds of the banana mixture. Stir the batter after each addition until smooth. Bake in greased pans for about 1/2 an hour. When cool, place between the layers: 2 sliced ripe bananas and spread the cake with a white icing.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

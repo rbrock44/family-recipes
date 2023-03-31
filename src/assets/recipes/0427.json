@@ -1,0 +1,28 @@
+{
+   "name": "Cherry-Nut Angel Food Cake",
+   "author": "S.B.G",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box angel food cake mix as directed on box"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. chopped maraschino cherries"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. chopped pecans or othernuts"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. almond extract"
+      }
+   ],
+   "instructions": "Mix cake mix as directed on box. Add other ingredients and beat on low speed for about 15 seconds. Bake at 350 degrees for 40 to 45 minutes until top is deep golden brown. Do not under bake. Turn angel food pan upside down until completely cool. Remove from pan and ice with glaze icing or cream cheese frosting.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

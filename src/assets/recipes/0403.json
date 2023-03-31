@@ -1,0 +1,48 @@
+{
+   "name": "Banana Nut Bread",
+   "author": "Joan Drury",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.75,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. mashed, ripe bananas"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped walnuts"
+      }
+   ],
+   "instructions": "Beat shortening and sugar together. Add eggs and beat well. Sift together flour, baking powder, soda and salt. Then add 1/2 bananas and 1/2 flour mixture. Mix well. Add remaining banana and flour mixtures. Mix well. Add chopped walnuts and place in well greased and floured loaf pan. Bake at 350° for 40 to 45 minutes. Remove from pan and cool on rack.",
+   "yield": {
+      "amount": 1,
+      "name": "loaf"
+   }
+}
