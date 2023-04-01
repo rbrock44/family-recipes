@@ -1,0 +1,28 @@
+{
+   "name": "Oatmeal Cake (Topping)",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "Tbsp. melted butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. pecans"
+      }
+   ],
+   "instructions": "Mix together. Spread on cake. Place under broiler until brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

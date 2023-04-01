@@ -1,0 +1,28 @@
+{
+   "name": "Hummingbird Cake (Cream Cheese Frosting)",
+   "author": "Maris Elizabeth",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "(8 oz.) pkg. cream cheese, softened"
+      },
+      {
+         "amount": 1,
+         "name": "c. margarine, softened"
+      },
+      {
+         "amount": 2,
+         "name": "(1 lb.) pkg. powdered sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Combine cream cheese and margarine. Cream until smooth. Add powdered sugar. Beat until light and fluffy. Add vanilla. Spread frosting between layers, sides, and top. Sprinkle with remaining cup of pecans.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

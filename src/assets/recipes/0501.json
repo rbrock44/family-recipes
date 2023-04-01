@@ -1,0 +1,36 @@
+{
+   "name": "Oatmeal Cake (Icing)",
+   "author": "Ramona Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. pet milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. pecans, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. vanilla flavoring"
+      }
+   ],
+   "instructions": "Mix icing over a warm burner and it will cover the cake better. Then put it under the broiler and let it brown and it will bubble. Bake in 9 x 13 inch pan. Serve warm or cold.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

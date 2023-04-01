@@ -1,0 +1,36 @@
+{
+   "name": "Chocolate Sheet Cake (Frosting)",
+   "author": "Nancy Weissmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. cocoa"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. buttermilk"
+      },
+      {
+         "amount": 3,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. pecans (optional)"
+      }
+   ],
+   "instructions": "Mix together and bring to a boil the margarine, cocoa, and buttermilk. Stir in the powdered sugar, vanilla, and pecans. Pour over warm cake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "name": "Ooey Gooey Butter Cake",
+   "author": "Charlotte Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. yellow cake mix (Aldi brand makes best)"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) cream cheese"
+      },
+      {
+         "amount": 3.75,
+         "name": "c. powdered sugar"
+      }
+   ],
+   "instructions": "Melt butter, add cake mix and 2 eggs. Mix well and pat into pre- pared cookie sheet. Soften cream cheese and add powdered sugar and 2 eggs. Beat well. Pour on top of cake mixture. Bake at 350° for 30 to 35 minutes or until top is cracked.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

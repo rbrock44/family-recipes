@@ -1,0 +1,24 @@
+{
+   "name": "Peter Paul Mound Cake",
+   "author": "Guess who?",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box Duncan Hines chocolate cake mix"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. oil"
+      },
+      {
+         "amount": 1,
+         "name": "box instant chocolate pudding"
+      }
+   ],
+   "instructions": "Mix cake mix as directed on box. Add oil and one box pudding. Bake in a 9 x 13 inch greased and floured pan at 350°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

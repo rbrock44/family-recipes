@@ -1,0 +1,48 @@
+{
+   "name": "Peter Paul Mound Cake (Icing)",
+   "author": "Guess who?",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 24,
+         "name": "large marshmallows"
+      },
+      {
+         "amount": 1,
+         "name": "c. sweet milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "large pkg. coconut (frozen)"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. Coca-Cola"
+      },
+      {
+         "amount": 1,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 4,
+         "name": "heaping tsp. cocoa"
+      },
+      {
+         "amount": 1,
+         "name": "box powdered sugar"
+      }
+   ],
+   "instructions": "Heat marshmallows, milk, and sugar until melted. Add coconut and vanilla. Mix Coca-Cola, margarine and cocoa. Heat to boiling and add powdered sugar. Spread over cake by spoonfuls. Allow to cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

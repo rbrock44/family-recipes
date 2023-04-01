@@ -1,0 +1,40 @@
+{
+   "name": "Italian Creme Cake",
+   "author": "Sharen",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "small can coconut (1/2 c.)"
+      },
+      {
+         "amount": 5,
+         "name": "egg whites, stiffly beaten"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. vegetable shortening"
+      },
+      {
+         "amount": 5,
+         "name": "egg yolks"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Cream margarine and shortening; add sugar and beat until mixture is smooth. Add egg yolks and beat well. Combine flour and baking soda and add to creamed mixture alternately with buttermilk. Stir in vanilla. Add coconut and nuts. Fold in egg whites. Pour batter into 3 greased and floured 8 inch cake pans. Bake at 350° for 25 minutes or until cake tests done; cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

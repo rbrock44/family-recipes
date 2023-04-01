@@ -1,0 +1,60 @@
+{
+   "name": "Chocolate Chip Cake",
+   "author": "Donna Stamp, Donna Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.33,
+         "name": "c. dairy sour cream"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. margarine, softened"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 6,
+         "name": "oz. pkg. (1 cup) semi-sweet chocolate chips"
+      }
+   ],
+   "instructions": "Heat oven to 350°. Grease (not oil) 13 x 9 inch pan in large bowl, blend first 9 ingredients at low speed until moistened. Beat 3 minutes at medium speed. Pour half of batter (about 2 1?2 cups) into prepared pan. In small bowl, combine 1?2 cup sugar and cinnamon. Sprinkle half of sugar mixture and chocolate chips over batter. Repeat with remaining batter, sugar mixture, and chocolate chips. Bake at 350' for 35 to 40 minutes or until toothpick inserted in center comes out clean.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

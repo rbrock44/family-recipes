@@ -1,0 +1,32 @@
+{
+   "name": "Turtle Fudge Cake",
+   "author": "Ruth Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box devil's food cake mix"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 1,
+         "name": "small pkg. chocolate pudding (cook type)"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chocolate chips"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Prepare pudding as directed on the package. Blend cake mix into hot pudding. Pour in oblong 13 x 9 1/2 inch pan. Sprinkle with coconut, chocolate chips, and nuts. Bake at 350° for 30 to 35 minutes. Serve warm with whipped cream.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

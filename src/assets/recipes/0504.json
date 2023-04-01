@@ -1,0 +1,40 @@
+{
+   "name": "Better Than Sex Cake",
+   "author": "Guess Who?",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box yellow cake mix"
+      },
+      {
+         "amount": 1,
+         "name": "large can crushed pineapple"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "box vanilla pudding mix"
+      },
+      {
+         "amount": 0,
+         "name": "Cool Whip"
+      },
+      {
+         "amount": 0,
+         "name": "Maraschino cherries"
+      },
+      {
+         "amount": 0,
+         "name": "Coconut"
+      }
+   ],
+   "instructions": "Bake 1 box yellow cake mix as usual. Cook 1 can crushed pine- apple and 1 cup sugar until dissolved. Put on top of cool cake. Add 1 box of vanilla pudding, mix according to directions. Put on top of pineapple. Cool. Add Cool Whip, maraschino cherries, and coconut if desired. Refrigerate overnight.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "name": "Cotton Pickin Cake (Icing)",
+   "author": "Iva Welter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "large container Cool Whip"
+      },
+      {
+         "amount": 1,
+         "name": "flat size can crushed pineapple"
+      },
+      {
+         "amount": 1,
+         "name": "large box instant vanilla pudding"
+      }
+   ],
+   "instructions": "Mix with spoon. Cover layers, sides, and top. Keep covered and store in refrigerator.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

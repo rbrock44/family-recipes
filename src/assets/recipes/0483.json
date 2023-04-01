@@ -1,0 +1,32 @@
+{
+   "name": "Easy Cake",
+   "author": "In Memory of Helen Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sweet milk"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      }
+   ],
+   "instructions": "Mix all ingredients together and beat well. Pour into well greased pan and bake at 350° until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

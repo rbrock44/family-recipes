@@ -1,0 +1,32 @@
+{
+   "name": "Cherry Dump Cake",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can cherry pie filling"
+      },
+      {
+         "amount": 1,
+         "name": "can crushed pineapple (drained)"
+      },
+      {
+         "amount": 1,
+         "name": "yellow cake mix (sift if lumpy) "
+      },
+      {
+         "amount": 1,
+         "name": "c. oats"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter"
+      }
+   ],
+   "instructions": "In an oblong pan put cherry pie filling, followed by crushed pine- apple. Sift cake mix over top of cherry pie filling and pineapple. Sprinkle oats and nuts over cake mix and put butter slices on top of the oats and nuts. Bake at 350° for 50 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

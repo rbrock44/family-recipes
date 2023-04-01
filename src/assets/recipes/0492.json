@@ -1,0 +1,60 @@
+{
+   "name": "Jam Cake",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. jam"
+      },
+      {
+         "amount": 1,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. soda dissolved in buttermilk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. allspice"
+      }
+   ],
+   "instructions": "Cream shortening and sugar together. Add eggs. Sift all dry ingredients together. Add alternately with buttermilk. Add jam. Bake in 350° oven.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

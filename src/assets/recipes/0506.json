@@ -1,0 +1,24 @@
+{
+   "name": "Mandarin Orange Cake (Topping)",
+   "author": "Helen Kluesner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Mandarin Orange cake"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) container Cool Whip, thawed"
+      },
+      {
+         "amount": 1,
+         "name": "small can crushed pineapple 1 box coconut instant pudding"
+      }
+   ],
+   "instructions": "Mix all together and spread over cooled cake. Refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

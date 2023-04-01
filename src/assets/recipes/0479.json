@@ -1,0 +1,32 @@
+{
+   "name": "Surprise Cupcakes",
+   "author": "Louise Maria",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. devil's food cake mix"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "egg, beaten"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. chocolate chips"
+      }
+   ],
+   "instructions": "Mix cake according to directions. Mix together cream cheese, egg, and sugar. Add chocolate chips. Fill cupcake paper 1/4 to 2/3 full of cake mix. Put 1 teaspoon full of cheese mixture on top of each. Bake according to package directions.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

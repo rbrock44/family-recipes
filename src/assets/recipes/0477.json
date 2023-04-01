@@ -1,0 +1,36 @@
+{
+   "name": "Fast Fixin' Chocolate Chip Cake",
+   "author": "Sister Dorothy Reinhold",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 1,
+         "name": "(18.25 oz.) box devil's food cake mix"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "(4 serving size) pkg. chocolate instant pudding mix"
+      },
+      {
+         "amount": 1,
+         "name": "(6 oz.) pkg. chocolate chips"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. You don't need bowl. Pour oil into a 13 x 9 x 2 inch pan. Tilt pan until bottom is covered with oil. Put cake mix, eggs, water, pudding mix, and chocolate chips into pan; stir with a fork or spoon until blended, about 2 minutes. Scrape sides; spread batter evenly in pan. Bake 35 to 45 minutes, until tooth pick inserted near center comes out clean. Cooled cake may be sprinkled with pow- dered sugar. Use a knife to loosen cake from sides; cut and serve directly from pan. Store leftover cake loosely covered. Variation: Prepare pan as directed, using 1/4 cup oil. Add cake mix, 2 eggs, 1/2 cup water and 1 (20 to 23 ounce) can cherry pie filling. Mix, bake, and serve.",
+   "yield": {
+      "amount": 16,
+      "name": "servings"
+   }
+}

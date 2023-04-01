@@ -1,0 +1,24 @@
+{
+   "name": "Cotton Pickin Cake",
+   "author": "Iva Welter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box Duncan Hines cake mix (buttery kind)"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Wesson oil (no other kind) 1 can mandarin oranges-juice and all"
+      }
+   ],
+   "instructions": "Blend cake mix, eggs, oil and oranges in mixer. Bake in 3 layers at 325° or until pick comes out dry. Completely cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

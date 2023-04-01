@@ -1,0 +1,64 @@
+{
+   "name": "Sharen's Blue Ribbon Carrot Cake",
+   "author": "Sharen",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "all-purpose flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, well beaten"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla extract"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) can crushed pineapple, drained"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. flaked coconut"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. ground cinnamon"
+      },
+      {
+         "amount": 0.75,
+         "name": "C. vegetable oil"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. grated carrots"
+      }
+   ],
+   "instructions": "Combine eggs, oil, buttermilk, sugar, and vanilla. Beat until smooth. Stir in flour mixture, pineapple, carrots, coconut, and chopped nuts. Pour batter into 2 greased and floured 9-inch round cake pans. Bake at 350° for 35 to 40 minutes or until a wooden pick inserted in center comes out clean. Cool in pan 15 minutes. Remove and let cool completely. Use Cream Cheese Frosting to frost cake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

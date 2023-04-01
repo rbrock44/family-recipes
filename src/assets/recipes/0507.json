@@ -1,0 +1,28 @@
+{
+   "name": "Pina Colada Cake",
+   "author": "Shirley Eftink",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "white or yellow cake mix"
+      },
+      {
+         "amount": 1,
+         "name": "box whipped topping"
+      },
+      {
+         "amount": 0,
+         "name": "Coconut"
+      },
+      {
+         "amount": 1,
+         "name": "can crushed pineapple"
+      }
+   ],
+   "instructions": "Bake cake mix according to directions on box. Remove from oven. Poke holes in cake with fork. Pour can of pina colada and juice from pineapple over cake. Cover cake with pineapple. Put on whipped topping. Sprinkle with coconut.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
