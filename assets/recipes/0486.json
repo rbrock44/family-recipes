@@ -1,0 +1,36 @@
+{
+   "name": "Gooey Butter Cake",
+   "author": "Beverly Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box yellow cake mix"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "stick of margarine, melted"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3.75,
+         "name": "c. powdered sugar"
+      }
+   ],
+   "instructions": "Mix together cake mix, 1 egg, and margarine and press into greased 9 x 13 inch pan. Blend cream cheese, 2 eggs, vanilla, and powdered sugar. Pour mixture over cake and bake for 30 to 35 minutes at 350°. Sprinkle with powdered sugar.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

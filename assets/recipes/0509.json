@@ -1,0 +1,56 @@
+{
+   "name": "Pineapple-Banana Cake",
+   "author": "Irene Blattel",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. cooking oil"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "can pina colada"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) can crushed pineapple-juice included"
+      },
+      {
+         "amount": 2,
+         "name": "c. diced bananas"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Measure dry ingredients, dice bananas and cover with flour. Mix well with rest of dry ingredients. Add oil, nuts, vanilla, eggs, and pine- apple. Blend by hand. Bake at 350°. Serve warm with whipped topping or ice with your favorite frosting. This cake freezes very well.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

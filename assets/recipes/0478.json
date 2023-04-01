@@ -1,0 +1,44 @@
+{
+   "name": "Championship Cupcakes",
+   "author": "Shari Landewe",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 1,
+         "name": "c. butter, melted"
+      },
+      {
+         "amount": 4,
+         "name": "oz. semi-sweet chocolate, melted"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0,
+         "name": "Pinch of salt"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. Line 18 muffin cups with paper baking cups. In a large bowl, combine pecans, butter, chocolate, and vanilla. Set aside. Mix the sugar, flour, salt, and eggs. Stir into the chocolate mixture, blending well. Pour into prepared tins, filling each slightly more than half. Bake 25 to 30 minutes.",
+   "yield": {
+      "amount": 18,
+      "name": "cupcakes"
+   }
+}

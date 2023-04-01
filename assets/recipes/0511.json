@@ -1,0 +1,28 @@
+{
+   "name": "Zucchini-Pineapple Cake (Pineapple Cream Cheese Frosting)",
+   "author": "Revella Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can (8 oz.) crushed pineapple undrained"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese softened"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. butter or margarine, softened"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) box powdered sugar"
+      }
+   ],
+   "instructions": "Place pineapple in a wire mesh strainer. Press with back of spoon against the sides of the strainer to squeeze out liquid. Set pineap- ple aside and discard liquid. Beat cream cheese and butter at medium speed with an electric mixer until fluffy. Gradually stir in powdered sugar and pineapple. Frosting will be soft and may be refrigerated 1 hour before spreading over cake.",
+   "yield": {
+      "amount": 3,
+      "name": "cups"
+   }
+}

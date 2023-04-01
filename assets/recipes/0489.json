@@ -1,0 +1,52 @@
+{
+   "name": "Hummingbird Cake",
+   "author": "Maris Elizabeth",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 18,
+         "name": "oz. can crushed pineapple, undrained"
+      },
+      {
+         "amount": 2,
+         "name": "c. chopped bananas"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. salad oil"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Combine flour, sugar, baking soda, and cinnamon. Add eggs and oil. Stir until moist. Do not beat. Stir in vanilla, pineapple, bananas and 1 cup nuts. Bake in 3 greased and floured 9 inch cake pans at 350° for 25 to 30 minutes. Cool 10 minutes. Remove from pans and cool completely. Frost with cream cheese frosting.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "Chocolate Cream Dream",
+   "author": "Don and Clara Essner Family",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. 12 oz. semi sweet chocolate chips"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. water"
+      },
+      {
+         "amount": 4,
+         "name": "eggs, separated"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) container of Cool Whip"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 1,
+         "name": "angel food cake broken into pieces"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. sugar"
+      }
+   ],
+   "instructions": "Melt chocolate chips over low heat. Beat in water until smooth. Beat in egg yolks one at a time. Cook over medium heat until thickened. Pour into large bowl and cool 15 minutes. Beat egg whites until frothy, then beat in sugar, 1 tablespoon at a time. Beat until stiff peaks form. Fold whipped cream, egg whites, and nuts into chocolate mixture. Arrange cake pieces in a buttered 9 x 13 inch dish. Pour chocolate mixture over cake. Sprinkle nuts over top of cake and refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

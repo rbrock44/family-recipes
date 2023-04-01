@@ -1,0 +1,44 @@
+{
+   "name": "Light Golden Cake",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2.25,
+         "name": "c. sifted Softasilk flour"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. soft shortening"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. flavoring"
+      },
+      {
+         "amount": 2,
+         "name": "eggs (1/3 to 1/2 c.)"
+      }
+   ],
+   "instructions": "Sift together flour, sugar, baking powder, and salt. Add shorten- ing. Mix together milk and flavoring. Pour a little over half of milk and flavoring mixture into above mixture. Beat 2 minutes. Add remaining milk and beat 2 minutes. Pour into greased and floured pans. Bake at 350° until cake tests done. Cool. Finish with filling or frosting as desired.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

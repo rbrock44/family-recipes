@@ -1,0 +1,36 @@
+{
+   "name": "Neiman Marcus Cake",
+   "author": "Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. German chocolate cake"
+      },
+      {
+         "amount": 4,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "stick oleo"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "lb. powdered sugar"
+      }
+   ],
+   "instructions": "Mix cake mix, 2 eggs, oleo and nuts together and spread on a greased 9 x 13 inch pan (will be a stiff dough). Mix 2 eggs, vanilla, cream cheese, and powdered sugar together and spread on top of cake batter and bake at 350° for 30 to 35 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

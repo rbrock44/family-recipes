@@ -1,0 +1,28 @@
+{
+   "name": "Mandarin Orange Cake",
+   "author": "Helen Kluesner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. Pillsbury yellow cake mix"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 1,
+         "name": "can mandarin oranges"
+      }
+   ],
+   "instructions": "Mix all together. Bake in a 350° oven for 20 to 25 minutes. Cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

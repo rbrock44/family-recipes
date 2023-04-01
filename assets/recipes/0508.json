@@ -1,0 +1,40 @@
+{
+   "name": "Pineapple Cream Cake",
+   "author": "Dorothy Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box yellow cake mix"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. vanilla instant pudding (small pkg.)"
+      },
+      {
+         "amount": 2,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) can crushed pineapple (drained)"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) Cool Whip"
+      },
+      {
+         "amount": 1,
+         "name": "Nuts, coconut, or cherries if desired"
+      }
+   ],
+   "instructions": "Mix and bake cake as directed on package in a 9 x 13 inch pan. Let cool. Beat softened cream cheese with 1/2 cup milk until smooth. Add 1 1?2 cup milk and pudding mix. Beat on low speed until well blended. Let stand 5 to 10 minutes. Spread this over the cooled cake, then spread the drained pineapple over the pudding mixture. Next spread Cool Whip on top. Sprinkle with nuts, coconut or cherries. Chill and serve.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

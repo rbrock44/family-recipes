@@ -1,0 +1,32 @@
+{
+   "name": "Chocolate Caramel Filled Cake",
+   "author": "Karen M.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(14 oz.) pkg. caramels, unwrapped"
+      },
+      {
+         "amount": 1,
+         "name": "box chocolate cake mix"
+      },
+      {
+         "amount": 1,
+         "name": "(14 oz.) can Eagle brand milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Melt caramels and butter in large saucepan over low heat. Remove from heat; stir in Eagle brand milk until smooth. Prepare cake mix according to package directions. Pour 2 cups of batter into a 9 x 13 inch baking pan, coated with cooking spray. Bake at 350° for 15 minutes. Spread caramel mixture over cake; pour remaining cake batter over caramel mixture, top with nuts. Continue to bake at 350° for 30 to 35 minutes or until done. Cool and cut into squares to serve.",
+   "yield": {
+      "amount": 18,
+      "name": "squares"
+   }
+}

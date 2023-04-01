@@ -1,0 +1,36 @@
+{
+   "name": "Miracle Whip Chocolate Cake",
+   "author": "Karla Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. cocoa"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. Miracle Whip salad dressing"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. hot water"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Mix dry ingredients. Stir in Miracle Whip with a spoon. Stir in hot water. Stir in vanilla. Spray 13 x 9 inch pan with nonstick cooking spray. Pour batter into pan. Bake at 350° for 25 to 30 minutes. If desired, recipe makes 36 cupcakes. Spoon 2 tablespoons batter in each baking cup. Bake at 350° for 20 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

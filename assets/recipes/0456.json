@@ -1,0 +1,36 @@
+{
+   "name": "Upside-Down German Chocolate Cake",
+   "author": "Shelley Dohogne",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "German chocolate cake"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 1,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 8,
+         "name": "oz. cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "lb. powdered sugar"
+      }
+   ],
+   "instructions": "Grease a 9 x 13 inch pan very well. Sprinkle pecans and coconut in bottom of pan. Mix cake according to directions and pour over pecans and coconut. Melt together margarine and cream cheese. Stir in powdered sugar. Spread this mixture over cake batter. Bake for 35 to 45 minutes or until toothpick that has been inserted comes out clean. (Use oven temperature suggested on cake mix.) Let cool in pan 5 to 10 minutes. Flip onto serving platter.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

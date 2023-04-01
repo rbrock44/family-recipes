@@ -1,0 +1,28 @@
+{
+   "name": "Coconut Cake",
+   "author": "Louise Maria",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box white cake mix (Duncan Hines)"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. frozen coconut"
+      }
+   ],
+   "instructions": "Prepare cake mix as directed on box. After cake is baked, bring milk, sugar and coconut to a boil. With a fork, punch holes in cake and pour the mixture over cake. Refrigerate. Let set overnight. Top with Cool Whip and coconut.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

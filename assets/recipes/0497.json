@@ -1,0 +1,52 @@
+{
+   "name": "Oatmeal Cake",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.25,
+         "name": "c. boiling water"
+      },
+      {
+         "amount": 1,
+         "name": "c. oats"
+      },
+      {
+         "amount": 1,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.33,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Pour water over oats and let stand 20 minutes. Cream sugars and shortening. Add eggs. Beat well. Add oat mixture, dry ingredients and vanilla. Bake at 350° until done. Sprinkle with additional topping.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

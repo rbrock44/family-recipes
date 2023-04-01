@@ -1,0 +1,48 @@
+{
+   "name": "Chocolate Sheet Cake",
+   "author": "Nancy Weissmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "sticks margarine"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. cocoa"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Mix together and bring to a boil the margarine, cocoa, and water. Mix together the flour, sugar, and baking soda. Add dry mixture to liquid mixture. Stir in the milk, eggs, and vanilla. Bake on large, greased, and floured cookie sheet in 350° oven for 20 minutes. ",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

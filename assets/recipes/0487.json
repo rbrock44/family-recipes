@@ -1,0 +1,44 @@
+{
+   "name": "Honey Bun Cake",
+   "author": "Beverly Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box yellow cake mix"
+      },
+      {
+         "amount": 8,
+         "name": "oz. sour cream"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. milk"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 1,
+         "name": "small box vanilla pudding"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Mix together cake mix, sour cream, milk, eggs, oil, and pudding. Beat very well. Spread of batter in a 9 x 13 inch greased pan. Mix brown sugar with cinnamon. Sprinkle over batter. Pour remaining batter over this. Swirl batter with knife. Bake at 350° for 40 minutes. Remove from oven. Pour powdered sugar glaze over top while hot.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

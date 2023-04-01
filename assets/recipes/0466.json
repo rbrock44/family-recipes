@@ -1,0 +1,36 @@
+{
+   "name": "Turtle Cake",
+   "author": "Helen Kluesner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. melted butter"
+      },
+      {
+         "amount": 1,
+         "name": "box German chocolate cake mix"
+      },
+      {
+         "amount": 35,
+         "name": "caramels"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. evaporated milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. chocolate chips"
+      }
+   ],
+   "instructions": "Prepare cake mix as on package. Pour half of batter into a greased 9 x 13 inch pan and bake at 350° for 15 minutes. Melt caramels with milk and butter in a sauce pan over low heat stirring constantly. After the 15 minutes of baking pour melted caramels, 1 cup nuts, and chocolate chips over the cake. Pour remaining batter over this filling and sprinkle with remaining nuts and bake about 30 minutes longer.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

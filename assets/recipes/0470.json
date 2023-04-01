@@ -1,0 +1,24 @@
+{
+   "name": "Glazed Chocolate Cherry Cake",
+   "author": "Anna Rose Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "devil's food pudding cake mix"
+      },
+      {
+         "amount": 1,
+         "name": "(21 oz.) can cherry pie filling"
+      },
+      {
+         "amount": 2,
+         "name": "large eggs"
+      }
+   ],
+   "instructions": "Combine all ingredients, stirring until blended (batter will be thick). Spread evenly in a greased and floured 13 x 9 x 2 inch pan. Bake at 350° for 25 minutes. Cool in pan on wire rack 15 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

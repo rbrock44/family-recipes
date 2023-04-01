@@ -1,0 +1,48 @@
+{
+   "name": "Irish Trifle",
+   "author": "Fr. Oliver Clavin",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Sherry, any kind, about 1 c. "
+      },
+      {
+         "amount": 0,
+         "name": "Strawberry jam"
+      },
+      {
+         "amount": 1,
+         "name": "(6 oz.) pkg. red gelatin"
+      },
+      {
+         "amount": 0,
+         "name": "Stale sponge cake"
+      },
+      {
+         "amount": 1,
+         "name": "can fruit, any kind"
+      },
+      {
+         "amount": 0,
+         "name": "Custard or instant pudding, about 3 pt."
+      },
+      {
+         "amount": 0,
+         "name": "Whipped cream"
+      },
+      {
+         "amount": 0,
+         "name": "Strawberries or other fruit for topping"
+      },
+      {
+         "amount": 1,
+         "name": "c. boiling water"
+      }
+   ],
+   "instructions": "Mix gelatin with boiling water. Let cool. In the meantime, soak pieces of cake in sherry in bottom of glass bowl. Spread cake with a layer of jam. Pour cooled gelatin on top of soaked cake. Chill. Drain the can of fruit and pour fruit on top of gelatin. Prepare instant pud- ding or custard, and pour over the fruit. Chill. Before serving, top with the whipped cream and cherries, strawberries, peaches or fruit of choice.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

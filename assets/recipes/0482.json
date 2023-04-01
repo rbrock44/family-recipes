@@ -1,0 +1,36 @@
+{
+   "name": "Italian Creme Cake (Frosting)",
+   "author": "Sharen",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 0,
+         "name": "Chopped pecans"
+      },
+      {
+         "amount": 1,
+         "name": "box powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. flour (to thicken)"
+      }
+   ],
+   "instructions": "Beat cream cheese and margarine until smooth. Add sugar and mix well. Add vanilla and beat until smooth. Spread on cake. Sprinkle with chopped pecans.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

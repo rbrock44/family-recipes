@@ -1,0 +1,52 @@
+{
+   "name": "Oatmeal Cake",
+   "author": "Ramona Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. quick oats"
+      },
+      {
+         "amount": 1.33,
+         "name": "c. boiling water"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 1.33,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      }
+   ],
+   "instructions": "Pour boiling water over oats. Let stand for 20 minutes. Add all other ingredients. Bake at 350° for 35 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,52 @@
+{
+   "name": "Spice Cake",
+   "author": "In Memory of Anna Diebold",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "egg, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "c. sour milk or buttermilk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter or lard"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. cornstarch mixed with 1/2 c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cloves"
+      }
+   ],
+   "instructions": "Cream butter and vanilla until light. Add beaten egg and mix well. Add milk, soda, nutmeg, cinnamon, cloves and flour. Bake in a moderate oven.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "name": "Jam Cake (Caramel Icing)",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. milk"
+      }
+   ],
+   "instructions": "Melt butter. Add brown sugar. Cook 2 minutes. Add milk, bring to a boil. Take off fire, cool, then beat in powdered sugar and spread.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

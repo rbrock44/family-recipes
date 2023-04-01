@@ -1,0 +1,52 @@
+{
+   "name": "20 Minute Cake",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "sticks oleo"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. cocoa"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      }
+   ],
+   "instructions": "Sift sugar and flour together. Set aside. Mix oleo, cocoa, and water in saucepan. Bring to a rapid boil. Then pour over sugar and flour mixture and stir until blended. Add remaining ingredients and mix well. Pour into greased 11 x 16 inch pan. Bake 20 minutes at 400°. Begin making icing 5 minutes before cake is done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

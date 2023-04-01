@@ -1,0 +1,28 @@
+{
+   "name": "Chocolate Trifle",
+   "author": "Donna Stamp",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "baked angel food cake, torn into bite-size pieces"
+      },
+      {
+         "amount": 2,
+         "name": "small pkg. fat free chocolate pudding"
+      },
+      {
+         "amount": 1,
+         "name": "large container low-fat Cool Whip"
+      },
+      {
+         "amount": 1,
+         "name": "Skor candy bar or 1 Butterfinger candy bar"
+      }
+   ],
+   "instructions": "Mix pudding according to package directions. In a punch bowl layer 1?2 angel food cake pieces, 1?2 mixed pudding, 1?2 container Cool Whip, and 1?2 crushed candy bar. Repeat layers ending with crushed candy bar on top. Chill until ready to serve.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

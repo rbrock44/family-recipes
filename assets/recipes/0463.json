@@ -1,0 +1,36 @@
+{
+   "name": "Mississippi Mudd Cake (Icing)",
+   "author": "Guess who?",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box confectioners sugar"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter, softened"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cocoa"
+      }
+   ],
+   "instructions": "Mix all ingredients together and spread on cake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
