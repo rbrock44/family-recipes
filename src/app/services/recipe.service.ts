@@ -13,6 +13,7 @@ export class RecipeService {
   private recipes: Recipe[] = [];
   selectedRecipe: Recipe = cloneDeep(EMPTY_RECIPE);
   useFavoritesList: boolean = false;
+  searchList: string[] = [];
 
   constructor(
     private reader: RecipeReaderService
@@ -78,21 +79,13 @@ export class RecipeService {
 
     if (this.useFavoritesList) {
       const favorites = this.readFavorites();
-      let index = favorites.indexOf(this.selectedRecipe.filename);
-      if (index < favorites.length - 1) {
-        index++;
-      } else {
-        index = 0;
-      }
+      let index = this.getNextIndex(favorites);
 
       filename = favorites[index];
     } else {
-      let numberToLoad = +this.selectedRecipe.filename + 1;
-      if (numberToLoad >= this.reader.recipeTotal) {
-        numberToLoad = 1
-      }
+      let index = this.getNextIndex(this.searchList);
 
-      filename = this.reader.createFilename(numberToLoad);
+      filename = this.searchList[index];
     }
 
     this.readRecipe(filename);
@@ -103,21 +96,13 @@ export class RecipeService {
 
     if (this.useFavoritesList) {
       const favorites = this.readFavorites();
-      let index = favorites.indexOf(this.selectedRecipe.filename);
-      if (index > 0) {
-        index--;
-      } else {
-        index = favorites.length - 1;
-      }
+      const index = this.getPreviousIndex(favorites);
 
       filename = favorites[index];
     } else {
-      let numberToLoad = +this.selectedRecipe.filename - 1;
-      if (numberToLoad <= 1) {
-        numberToLoad = this.reader.recipeTotal
-      }
+      const index = this.getPreviousIndex(this.searchList);
 
-      filename = this.reader.createFilename(numberToLoad);
+      filename = this.searchList[index];
     }
 
     this.readRecipe(filename);
@@ -139,6 +124,10 @@ export class RecipeService {
     });
   }
 
+  getSelectedRecipeIndex(): number {
+    return this.searchList.indexOf(this.selectedRecipe.filename) + 1;
+  }
+
   private matchesAllCriteria(criteria: string[], recipe: Recipe): boolean {
     let value = true;
 
@@ -149,5 +138,27 @@ export class RecipeService {
     })
 
     return value;
+  }
+
+  private getNextIndex(list: string[]): number {
+    let index = list.indexOf(this.selectedRecipe.filename);
+    if (index < list.length - 1) {
+      index++;
+    } else {
+      index = 0;
+    }
+
+    return index;
+  }
+
+  private getPreviousIndex(list: string[]): number {
+    let index = list.indexOf(this.selectedRecipe.filename);
+    if (index > 0) {
+      index--;
+    } else {
+      index = list.length - 1;
+    }
+
+    return index;
   }
 }

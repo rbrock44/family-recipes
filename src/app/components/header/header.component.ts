@@ -11,20 +11,25 @@ import { RecipeService } from 'src/app/services/recipe.service';
             <a mat-tab-link
                mat-theme="accent"
                (click)="service.setEmptyRecipe()"
-               class="nav-bar-link"
+               class="nav-bar-link cursor"
                data-home-nav>Home
             </a>
             <a mat-tab-link
               mat-theme="accent"
               (click)="service.previousRecipe()"
-              class="nav-bar-link"
+              class="nav-bar-link cursor"
               data-previous-nav><<
             </a>
             <a mat-tab-link
               mat-theme="accent"
               (click)="service.nextRecipe()"
-              class="nav-bar-link"
+              class="nav-bar-link cursor"
               data-next-nav>>>
+            </a>
+            <a mat-tab-link
+               mat-theme="accent"
+               class="nav-bar-link"
+               data-total-nav>{{service.getSelectedRecipeIndex()}}/{{service.searchList.length}}
             </a>
           </div>
         </nav>
