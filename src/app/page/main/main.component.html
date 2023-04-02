@@ -1,0 +1,4 @@
+<div class="purple">
+  <app-home *ngIf="service.selectedRecipe.filename == ''"></app-home>
+  <app-recipe *ngIf="service.selectedRecipe.filename != ''" [recipe]="service.selectedRecipe"></app-recipe>
+</div>

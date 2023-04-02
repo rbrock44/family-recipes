@@ -13,6 +13,7 @@ import { HomeComponent } from './page/home/home.component';
 import { RecipeComponent } from './page/recipe/recipe.component';
 import { DryConversionComponent } from './components/dry-conversion/dry-conversion.component';
 import { RecipeTableComponent } from './components/recipe-table/recipe-table.component';
+import { MainComponent } from './page/main/main.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { RecipeTableComponent } from './components/recipe-table/recipe-table.com
     HeaderComponent,
     HomeComponent,
     LiquidConversionComponent,
+    MainComponent,
     RecipeComponent,
     RecipeTableComponent
   ],

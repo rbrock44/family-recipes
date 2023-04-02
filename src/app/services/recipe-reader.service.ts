@@ -17,19 +17,25 @@ export class RecipeReaderService {
     let array: string[] = []
 
     for (let i = 1; i < total + 1; i++) {
-      let name = i + '';
-      if ((i + '').length == 1) {
-        name = '000' + i;
-      } else if ((i + '').length == 2) {
-        name = '00' + i;
-      } else if ((i + '').length == 3) {
-        name = '0' + i;
-      }
+      let name = this.createFilename(i);
 
       array.push(name)
     }
 
     return array
+  }
+
+  createFilename(num: number): string {
+    let name = num + '';
+    if ((num + '').length == 1) {
+      name = '000' + num;
+    } else if ((num + '').length == 2) {
+      name = '00' + num;
+    } else if ((num + '').length == 3) {
+      name = '0' + num;
+    }
+
+    return name
   }
 
   readRecipes(filenames: string[] = this.createFilenames()): Recipe[] {
@@ -63,7 +69,7 @@ export class RecipeReaderService {
   removeFromFavorites(fileNumber: string): void {
     let favorites: string[] = this.readFavorites();
     favorites = favorites.filter(it => it != fileNumber);
-    
+
     this.setFavorites(favorites);
   }
 

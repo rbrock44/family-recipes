@@ -1,36 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
-import { ActivatedRoute } from '@angular/router';
 import { REGEX_TO_HIGHLIGHT } from 'src/app/constants/constants';
 import { Ingredient } from 'src/app/models/ingredient.interface';
-import { RecipeReaderService } from 'src/app/services/recipe-reader.service';
+import { RecipeService } from 'src/app/services/recipe.service';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeModel } from '../../models/recipe.model';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-recipe',
   templateUrl: './recipe.component.html',
   styleUrls: ['./recipe.component.scss']
 })
 export class RecipeComponent {
+  @Input() recipe: Recipe = new RecipeModel();
   showLiquid: boolean = false;
   showDry: boolean = false;
-  recipe: Recipe = new RecipeModel();
   batchControl: FormControl = new FormControl(1, [Validators.min(1), Validators.pattern("^[1-9][0-9]*$")]);
 
-  filename: string = ""
-
   constructor(
-    private route: ActivatedRoute,
-    private service: RecipeReaderService
+    private service: RecipeService
   ) {
-    this.route.paramMap.subscribe(params => {
-      let value = params.get('filename');
-      this.filename = value != null ? value.toString() : '001';
-      this.service.firstValueFrom(this.filename).then(it => {
-        this.recipe = this.service.convertRecipe(it)
-      });
-    })
   }
 
   timesBatch(value: any): string {
@@ -39,7 +28,6 @@ export class RecipeComponent {
 
     return total == 0 ? '' : total.toString()
   }
-
 
   halfIngredients(firstHalf: boolean = true): Ingredient[] {
     const half = Math.ceil(this.recipe.ingredients.length / 2);
@@ -68,15 +56,15 @@ export class RecipeComponent {
   }
 
   isFavorite(): boolean {
-    return this.service.readFavorites().indexOf(this.filename) > -1;
+    return this.service.readFavorites().indexOf(this.recipe.filename) > -1;
   }
 
   favorite(): void {
-    this.service.addToFavorites(this.filename);
+    this.service.addToFavorites(this.recipe.filename);
   }
 
   unfavorite(): void {
-    this.service.removeFromFavorites(this.filename);
+    this.service.removeFromFavorites(this.recipe.filename);
   }
 
   shouldUnderline(ingredient: Ingredient): string {

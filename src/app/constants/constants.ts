@@ -1,6 +1,8 @@
 import { DropdownOption } from "../models/dropdown-option.model";
 import { DryConversion } from "../models/dry-conversion.model";
 import { LiquidConversion } from "../models/liquid-conversion.model";
+import { Recipe } from "../models/recipe.interface";
+import { RecipeModel } from "../models/recipe.model";
 
 export const CATEGORIES = [
   new DropdownOption('', 0),
@@ -45,6 +47,8 @@ export const HOOPER_FAMILY: string[] = [
   'Sara Hooper',
   'Zachary Estes',
 ];
+
+export const EMPTY_RECIPE: Recipe = new RecipeModel()
 
 const THREE_RX = '[1-9]\\d{2,}';
 const TWO_RX = '[1-9]\\d';

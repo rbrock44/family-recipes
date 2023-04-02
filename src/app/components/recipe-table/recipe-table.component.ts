@@ -1,15 +1,10 @@
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
-import { FormControl } from '@angular/forms';
-import { DropdownOption } from '../../models/dropdown-option.model';
-import { Recipe } from '../../models/recipe.interface';
-import { RecipeService } from '../../services/recipe.service';
-import { debounceTime, distinctUntilChanged } from 'rxjs';
-import { RecipeModel } from '../../models/recipe.model';
-import { Router } from '@angular/router';
+import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { getCategory } from 'src/app/models/category.enum';
-import { MatSort } from '@angular/material/sort';
-import { CATEGORIES } from 'src/app/constants/constants';
+import { Recipe } from '../../models/recipe.interface';
+import { RecipeModel } from '../../models/recipe.model';
+import { RecipeService } from '../../services/recipe.service';
 
 @Component({
   selector: 'app-recipe-table',
@@ -25,7 +20,6 @@ export class RecipeTableComponent implements OnInit {
   @ViewChild(MatSort) sort: MatSort;
 
   constructor(
-    private router: Router,
     private service: RecipeService
   ) { }
 
@@ -38,7 +32,9 @@ export class RecipeTableComponent implements OnInit {
   }
 
   click(recipe: Recipe): void {
-    this.router.navigateByUrl(`/${recipe.filename}`).then();
+    this.service.useFavoritesList = this.removeColumns;
+    var filename = recipe.filename != null ? recipe.filename.toString() : '001';
+    this.service.readRecipe(filename);
   }
 
   getCategory(categoryNumber: number): string {

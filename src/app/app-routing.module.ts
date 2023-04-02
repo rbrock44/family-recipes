@@ -1,16 +1,11 @@
-import {NgModule} from '@angular/core';
-import {RouterModule, Routes} from '@angular/router';
-import {HomeComponent} from './page/home/home.component';
-import {RecipeComponent} from './page/recipe/recipe.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { MainComponent } from './page/main/main.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
-  },
-  {
-    path: ':filename',
-    component: RecipeComponent,
+    component: MainComponent,
   }
 ];
 
