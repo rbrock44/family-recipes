@@ -1,0 +1,36 @@
+{
+   "name": "Chocolate Frosting",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. Crisco shortening (or butter or margarine)"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cocoa"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3.5,
+         "name": "c. confectioners sugar (sift if lumpy)"
+      }
+   ],
+   "instructions": "Beat together until smooth.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

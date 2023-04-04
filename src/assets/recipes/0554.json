@@ -1,0 +1,28 @@
+{
+   "name": "Frosted Banana Bars (Frosting)",
+   "author": "Jennifer Kenkel",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. butter or margarine, softened"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (8 oz.) cream cheese, softened"
+      },
+      {
+         "amount": 4,
+         "name": "c. confectioners' sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla extract"
+      }
+   ],
+   "instructions": "Cream butter and cream cheese in a mixing bowl. Gradually add confectioners sugar and vanilla; beat well. Spread over bars, when cool.",
+   "yield": {
+      "amount": 3,
+      "name": "dozen"
+   }
+}

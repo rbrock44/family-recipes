@@ -1,0 +1,32 @@
+{
+   "name": "Swirl Brownies",
+   "author": "Donna Stamp",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.33,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (20 to 23 oz.) brownie mix"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (8 oz.) cream cheese, softened"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Prepare brownie mix as directed on package. Combine cream cheese and sugar, mixing until well blended. Blend in egg and vanilla. Reserve 1⁄2 cup of batter; spread remaining batter onto bottom of greased 13 x 9 inch baking pan. Cover with cream cheese mixture, spoon on reserved batter. Cut through batter with knife several times for marbled effect. Bake at 350°, 35 to 40 minutes or until cream cheese mixture is lightly browned. Cool; cut into squares.",
+   "yield": {
+      "amount": 1.5,
+      "name": "dozen squares"
+   }
+}

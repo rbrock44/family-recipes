@@ -1,0 +1,60 @@
+{
+   "name": "Double Chocolate Crumble Bars",
+   "author": "D.S.G.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. cocoa"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 2,
+         "name": "c. miniature marshmallows"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. (6 oz.) chocolate chips"
+      },
+      {
+         "amount": 1,
+         "name": "c. peanut butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. crispy rice cereal"
+      },
+      {
+         "amount": 2,
+         "name": "whole eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Cream together margarine and sugar. Add eggs and vanilla, mixing well. Add flour, cocoa, baking powder and nuts. Spread on greased 9 x 13 inch pan and bake 350° for 15 minutes. Remove from oven and sprinkle marshmallows over top. Return to oven for three minutes. In large sauce pan melt chocolate chips with peanut butter. Add crisp rice cereal and spread over top of baked mixture. Refrigerate or put in a very cool place. Then cut in bars.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

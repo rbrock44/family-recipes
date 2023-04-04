@@ -1,0 +1,32 @@
+{
+   "name": "No Cook Marshmallow Frosting",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "egg whites"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. Karo syrup"
+      },
+      {
+         "amount": 1.25,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sugar"
+      }
+   ],
+   "instructions": "Beat egg whites and salt with beater until soft peaks form. Add sugar, about 1 tablespoon at a time, beating until smooth and glossy. Continue beating and add Karo syrup, a little at a time, beating after each addition, until frosting peaks. Fold in vanilla. Makes enough to frost two 9 inch layers.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

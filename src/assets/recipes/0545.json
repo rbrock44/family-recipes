@@ -1,0 +1,32 @@
+{
+   "name": "Chocolate Frosting",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "Tbsp. butter or margarine melted"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. cocoa"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. confectioners sugar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Add milk if necessary to make a soft spreading.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

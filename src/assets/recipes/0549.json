@@ -1,0 +1,28 @@
+{
+   "name": "Fast Creamy Peanut Butter Frosting",
+   "author": "Donna Stamp",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. Crisco shortening"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. creamy peanut butter"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 3,
+         "name": "c. sifted powdered sugar"
+      }
+   ],
+   "instructions": "Blend Crisco and peanut butter thoroughly. Alternately add milk and sugar. Frosts two 9 inch layer cakes or one 13 x 9 inch cake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

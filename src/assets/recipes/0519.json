@@ -1,0 +1,48 @@
+{
+   "name": "Eggless Raisin Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. raisins, cooked"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. raisin juice (add water if needed)"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "Tbsp. lard"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. cloves"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Boil raisins until tender. Cream sugar and lard. Add spices. Dis- solve soda in juice of raisins. Stir in the flour, then add raisins last. Bake in a loaf or layer and put together with caramel or coconut icing.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

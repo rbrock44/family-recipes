@@ -1,0 +1,36 @@
+{
+   "name": "Quick Fudge Frosting",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. powdered sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. dry cocoa"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. boiling water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 13,
+         "name": "c. (3 sticks) soft butter or margarine"
+      }
+   ],
+   "instructions": "In mixing bowl mix thoroughly powdered sugar, cocoa, and salt. Add boiling water, vanilla, and butter to first mixture. Blend, then beat with mixer or spoon until smooth and thickened. If you wish to speed up thickening, set bowl in ice water while beating. If frosting stiffens too quickly while spreading, just stir in a few drops of hot water. Makes about 2 cups--enough to frost tops and sides of two 8 or 9 inch layers.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

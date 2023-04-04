@@ -1,0 +1,48 @@
+{
+   "name": "Fudge Brownies",
+   "author": "M.E.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. margarine, softened"
+      },
+      {
+         "amount": 1,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. fudge ice cream topping"
+      },
+      {
+         "amount": 2,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 1,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. sifted unsweetened cocoa powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      }
+   ],
+   "instructions": "In mixing bowl combine sugar, margarine, eggs, and vanilla; beat on medium speed until thoroughly combined. Stir in fudge topping, stir in nuts, flour, cocoa and baking powder until combined. Pour into a greased 13 x 9 inch pan. Bake at 350° for 50 minutes or until toothpick comes out clean. Cool on wire rack, cut.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

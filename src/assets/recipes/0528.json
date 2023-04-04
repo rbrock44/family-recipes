@@ -1,0 +1,44 @@
+{
+   "name": "Snicker Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "Snickers"
+      },
+      {
+         "amount": 0,
+         "name": "Vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 2,
+         "name": "sticks butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      }
+   ],
+   "instructions": "Melt 8 bars with 1 stick butter. Cream 1 stick butter with sugar. Add eggs, flour, baking soda, milk, and vanilla. Fold in Snicker mixture. Set oven on 300° and bake for 1 hour.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "name": "Jean-Ann's Cake--Sock-It-To-Me",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box Duncan Hines golden butter mix"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. Wesson oil"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      }
+   ],
+   "instructions": "Mix together cake mix, oil, sugar, eggs, and sour cream. Then mix brown sugar, cinnamon, and nuts. Starting with sugar mixture, alternate these two mixtures until all is gone into a tube pan. Bake at 350° for 1 hour.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

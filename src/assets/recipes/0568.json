@@ -1,0 +1,36 @@
+{
+   "name": "Hello Dolly Cookies",
+   "author": "Charlotte Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "stick butter, melted"
+      },
+      {
+         "amount": 2,
+         "name": "c. graham cracker crumbs"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 1,
+         "name": "1 c. coconut"
+      },
+      {
+         "amount": 2,
+         "name": "cans sweetened condensed milk"
+      },
+      {
+         "amount": 2,
+         "name": "c. chocolate chips"
+      }
+   ],
+   "instructions": "Mix butter and crumbs until well coated. Pat into large cookie sheet. Top with coconut, chocolate chips and nuts. Then pour milk evenly over layers. Bake at 350° for 15 minutes or until mixture is bubbly.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

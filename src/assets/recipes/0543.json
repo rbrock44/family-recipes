@@ -1,0 +1,32 @@
+{
+   "name": "Butter Cream Icing",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box powdered sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Crisco"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0,
+         "name": "Pinch of salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. water or milk"
+      }
+   ],
+   "instructions": "Beat together until smooth.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

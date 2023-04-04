@@ -1,0 +1,44 @@
+{
+   "name": "Lemon Bars",
+   "author": "Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sifted powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. butter or oleo"
+      },
+      {
+         "amount": 4,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. lemon juice"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      }
+   ],
+   "instructions": "Sift together 2 cups of flour and powdered sugar. Cut in butter or oleo until mixture clings. Press into a 13 x 9 inch pan and bake at 350° for 20 to 25 minutes or until brown. Cool. Beat together eggs, sugar and lemon juice. Sift together the 1/4 cup of flour and baking powdered, stir into egg mixture. Pour over oven baked crust. Bake at 350° for 25 minutes. Sprinkle with additional powdered sugar, cool and cut into bars.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

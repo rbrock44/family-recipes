@@ -1,0 +1,28 @@
+{
+   "name": "Snicker Cake (Icing)",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "Snickers"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 0,
+         "name": "Powdered sugar"
+      }
+   ],
+   "instructions": "Melt Snickers and butter together. Add milk and enough powdered sugar to make the consistency you desire.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

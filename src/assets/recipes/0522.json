@@ -1,0 +1,32 @@
+{
+   "name": "Red Velvet Cake (Icing)",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 2,
+         "name": "sticks oleo"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. vanilla"
+      }
+   ],
+   "instructions": "Mix together and pour on cake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

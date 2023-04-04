@@ -1,0 +1,56 @@
+{
+   "name": "Red Velvet Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "oz. red food coloring"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cocoa"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. vinegar"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      }
+   ],
+   "instructions": "Mix together above ingredients.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

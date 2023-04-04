@@ -1,0 +1,44 @@
+{
+   "name": "Orange Raisin Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.66,
+         "name": "c. sour milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. raisins"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "whole orange"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. butter or oleo"
+      },
+      {
+         "amount": 2,
+         "name": "well beaten eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. soda"
+      }
+   ],
+   "instructions": "Cream sugar, butter, and eggs. Dissolve soda in sour milk and add to egg mixture. Grind orange (rinds and juice) and raisins. Add to mixture. Glaze with powdered sugar and orange juice.",
+   "yield": {
+      "amount": 2,
+      "name": "layers"
+   }
+}

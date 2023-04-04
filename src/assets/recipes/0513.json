@@ -1,0 +1,52 @@
+{
+   "name": "Pumpkin Pie Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "tsp. pumpkin pie spice"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "large can Milnot"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) can pumpkin"
+      },
+      {
+         "amount": 4,
+         "name": "eggs, well beaten"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.5,
+         "name": "sticks oleo, melted"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "box yellow cake mix"
+      }
+   ],
+   "instructions": "Mix together pumpkin, eggs, spice, vanilla, Milnot, salt and sugar. Pour mixture into a 9 x 13 inch baking pan. Sprinkle yellow cake mix over top. Drizzle over top, the melted oleo. Sprinkle chopped pecans. Bake at 350° oven for 60 minutes or until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

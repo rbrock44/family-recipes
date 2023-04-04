@@ -1,0 +1,32 @@
+{
+   "name": "Texas Brownies (Frosting)",
+   "author": "Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. oleo"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. dark cocoa"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. milk"
+      },
+      {
+         "amount": 3.5,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "While brownies bake, prepare the frosting. In a saucepan combine the oleo, cocoa and milk. Heat to boiling, stirring constantly. Mix in the powdered sugar and vanilla until frosting is smooth. Pour warm frosting over brownies as soon as you take them out of the oven. Cool and cut into bars.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

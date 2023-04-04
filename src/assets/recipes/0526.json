@@ -1,0 +1,40 @@
+{
+   "name": "Shoofly Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. hot water"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. all-purpose flour"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. light molasses"
+      },
+      {
+         "amount": 0,
+         "name": "Whipped cream or vanilla ice cream (optional)"
+      }
+   ],
+   "instructions": "Stir together flour, sugar, soda, and salt. Cut in shortening until mixture resembles fine crumbs. Stir together hot water and molasses. Add to crumb mixture in bowl. Stir just until blended. Turn batter into a greased 9 x 1 1/2 inch round cake pan. Sprinkle reserved crumbs over top. Bake in 350° oven for 25 to 35 minutes or until cake proves done when tested with a wooden toothpick. Serve warm or cool with whipped cream or ice cream if desired.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

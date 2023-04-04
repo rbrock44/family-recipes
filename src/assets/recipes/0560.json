@@ -1,0 +1,44 @@
+{
+   "name": "Easy Brownies",
+   "author": "Donna Stamp",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cocoa"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts (optional)"
+      }
+   ],
+   "instructions": "Put all ingredients, except nuts, in large mixing bowl. Mix well with large spoon. Add nuts and stir. Spread in 9 x 13 inch pan. Bake at 350° for 30 to 35 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

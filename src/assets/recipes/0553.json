@@ -1,0 +1,44 @@
+{
+   "name": "Frosted Banana Bars",
+   "author": "Jennifer Kenkel",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. butter or margarine, softened"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. mashed ripe bananas (about 3 medium)"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla extract"
+      },
+      {
+         "amount": 2,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0,
+         "name": "Pinch of salt"
+      }
+   ],
+   "instructions": "In a mixing bowl, cream butter and sugar. Beat in eggs, bananas and vanilla. Combine the flour, baking soda and salt; add to creamed mixture and mix well. Pour into a greased 15 x 10 x 1 inch baking pan. Bake at 350° for 25 minutes or until bars test done. Cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

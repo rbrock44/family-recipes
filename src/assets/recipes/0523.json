@@ -1,0 +1,52 @@
+{
+   "name": "Rhubarb Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. rhubarb (diced)"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "c. sour milk"
+      },
+      {
+         "amount": 0,
+         "name": "Pinch of salt"
+      }
+   ],
+   "instructions": "Mix 1/2 of sugar with rhubarb, let stand until shortening is creamed. Mix all ingredients together well then add rhubarb, stir well. Pour into greased and floured pan. Bake at 350° for 30 to 35 minutes. Prepare topping and pour on cooled cake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "name": "Chocolate Peanut Butter Treats",
+   "author": "Vernita Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. butter or margarine"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (10 oz.) marshmallows"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. creamy peanut butter"
+      },
+      {
+         "amount": 5,
+         "name": "c. crisp rice cereal"
+      },
+      {
+         "amount": 1,
+         "name": "c. (6 oz.) butterscotch chips"
+      },
+      {
+         "amount": 1,
+         "name": "c. (6 oz.) semisweet chocolate chips"
+      }
+   ],
+   "instructions": "In a large saucepan or microwave safe bowl, melt butter and marshmallows. Remove from the heat, stir in peanut butter. Gradually add cereal. mix until well-coated. Spread and press into a greased 9 x 13 inch pan, set aside. In a microwave safe bowl or the top of a double boiler over simmering water, melt the chips. Spread over cereal mixture. Cover and freeze for 15 to 20 minutes or until chocolate is set.",
+   "yield": {
+      "amount": 12,
+      "name": "12 to 16 servings"
+   }
+}
