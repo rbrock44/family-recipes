@@ -1,0 +1,56 @@
+{
+   "name": "Molasses Drop Cookies",
+   "author": "In Memory of Anna Diebold",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. lard"
+      },
+      {
+         "amount": 1,
+         "name": "c. molasses"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. cloves"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. lemon extract"
+      }
+   ],
+   "instructions": "Melt lard. Add molasses and eggs. Stir well. Sift flour with bak- ing powder, salt, soda, and spices. Add half the sifted dry ingredients and milk alternately beating well after each addition. Add flavoring. Drop by spoonful and bake at 375° for 8 to 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

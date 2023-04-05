@@ -1,0 +1,52 @@
+{
+   "name": "Dishpan Cookies",
+   "author": "Donna Stamp",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "c. brown sugar, packed"
+      },
+      {
+         "amount": 2,
+         "name": "c. granulated sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. Crisco oil"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 4,
+         "name": "c. cornflakes"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. quick oatmeal"
+      }
+   ],
+   "instructions": "Sift together flour, baking soda and salt. Combine sugars, vegetable oil and eggs, one at a time and vanilla in a very large bowl. (Dish- pan) Mix well. Add remaining ingredients and mix until thoroughly blended. Drop by teaspoonful onto a greased cookie sheet. Bake at 325° for 8 to 10 minutes, or until light brown.",
+   "yield": {
+      "amount": 9,
+      "name": "9 to 10 dozen"
+   }
+}

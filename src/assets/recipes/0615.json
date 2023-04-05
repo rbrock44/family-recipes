@@ -1,0 +1,28 @@
+{
+   "name": "Coconut Cookies",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.66,
+         "name": "c. Eagle Brand Milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Mix all ingredients together. Drop by teaspoonful on to well greased cookie sheet. Bake at 350° for 10 to 12 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

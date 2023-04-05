@@ -1,0 +1,40 @@
+{
+   "name": "Orange Slice Bars",
+   "author": "Ginny Robert",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. orange slices, cut in small pieces"
+      },
+      {
+         "amount": 1,
+         "name": "lb. brown sugar"
+      },
+      {
+         "amount": 4,
+         "name": "eggs, slightly beaten"
+      },
+      {
+         "amount": 2,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Mix orange slices, flour and salt. Add remaining ingredients and mix well. Pour in greased cookie sheet pan and bake in 350° oven about 35 minutes or until brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

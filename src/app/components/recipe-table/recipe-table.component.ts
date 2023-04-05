@@ -3,7 +3,6 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { getCategory } from 'src/app/models/category.enum';
 import { Recipe } from '../../models/recipe.interface';
-import { RecipeModel } from '../../models/recipe.model';
 import { RecipeService } from '../../services/recipe.service';
 
 @Component({
@@ -43,19 +42,7 @@ export class RecipeTableComponent implements OnInit {
   }
 
   sortData(): void {
-    switch (this.sort.direction) {
-      case 'asc':
-        this.sortTable(this.sort.active)
-        this.sort.direction = 'asc';
-        break;
-      case 'desc':
-        this.sortTable(this.sort.active, false)
-        this.sort.direction = 'desc';
-        break;
-      default:
-        this.sortTable("filename")
-        this.sort.direction = '';
-    }
+    this.service.sortTable(this.dataSource, this.sort, !this.removeColumns);
   }
 
   getResultClass(): string {
@@ -68,19 +55,5 @@ export class RecipeTableComponent implements OnInit {
 
   private getClass(cssClass: string): string {
     return this.removeColumns ? '' : cssClass;
-  }
-
-  private sortTable(column: string, asc: boolean = true) {
-    this.dataSource.data = this.dataSource.data.sort((a: Recipe, b: Recipe) => {
-      let value1 = RecipeModel.getValue(column, a);
-      let value2 = RecipeModel.getValue(column, b);
-      if (value1 > value2) {
-        return asc ? 1 : -1
-      } else if (value1 < value2) {
-        return asc ? -1 : 1
-      } else {
-        return 0
-      }
-    });
   }
 }

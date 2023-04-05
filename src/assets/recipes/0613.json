@@ -1,0 +1,36 @@
+{
+   "name": "Coconut Balls",
+   "author": "Annita Layton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "boxes powdered sugar"
+      },
+      {
+         "amount": 2,
+         "name": "sticks butter"
+      },
+      {
+         "amount": 0,
+         "name": "pinch of salt"
+      },
+      {
+         "amount": 1,
+         "name": "can Eagle Brand Milk"
+      },
+      {
+         "amount": 1,
+         "name": "bag (14 oz.) coconut"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. mashed potatoes"
+      }
+   ],
+   "instructions": "Mix together and chill. Roll in small balls and chill again. Melt 12 ounce bag chocolate chips and 1/4 pound paraffin wax. Dip balls and put on waxed paper to harden.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

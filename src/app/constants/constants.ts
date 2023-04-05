@@ -44,6 +44,7 @@ export const HOOPER_FAMILY: string[] = [
   'Joan Drury',
   'Rebecca Hooper',
   'Ryan Brock',
+  'Ryan Hooper Brock',
   'Sara Hooper',
   'Zachary Estes',
 ];

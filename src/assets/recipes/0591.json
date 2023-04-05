@@ -1,0 +1,52 @@
+{
+   "name": "Angel Crisps",
+   "author": "In Memory of Aunt Mary Welter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cream of tartar"
+      }
+   ],
+   "instructions": "Cream sugar, shortening and vanilla. Add sifted dry ingredients. Form into balls size of walnut. Dip top half in water, then in white sugar. Press dough in center with finger. Place on ungreased baking sheet. Bake at 425° for 8 to 10 minutes.",
+   "yield": {
+      "amount": 4,
+      "name": "dozen cookies"
+   }
+}

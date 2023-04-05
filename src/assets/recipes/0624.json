@@ -1,0 +1,48 @@
+{
+   "name": "Melt In Your Mouth Cookies",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. salad oil"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 4.25,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cream of tartar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. almond extract"
+      }
+   ],
+   "instructions": "Mix all ingredients together and drop by teaspoon on cookie sheet, flatten with glass dipped in a little oil, then put a little sugar and a pecan on top. Bake 350° for 8 to 10 minutes. These are very light and makes a large batch.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

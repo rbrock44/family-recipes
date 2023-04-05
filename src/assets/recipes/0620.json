@@ -1,0 +1,52 @@
+{
+   "name": "Hawaiian Drop Cookies",
+   "author": "Emma Nichols and Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. almond extract, optional"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. well-drained crushed pineapple"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. finely chopped shredded coconut"
+      }
+   ],
+   "instructions": "Sift flour, baking powder and salt together. Cream shortening, sugar and extracts thoroughly. Beat in egg until mixture is fluffy. Blend in pineapple and dry ingredients. Drop by teaspoonfuls on ungreased cookie sheet 3 inches apart. Sprinkle with coconut. Bake in a 325° oven for about 20 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

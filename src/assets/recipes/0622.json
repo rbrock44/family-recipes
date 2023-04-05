@@ -1,0 +1,56 @@
+{
+   "name": "Jelly Bean Jollies",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. butter or shortening"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. firmly packed light brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla extract"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. rolled oats"
+      },
+      {
+         "amount": 1,
+         "name": "c. jelly beans, cut up (gumdrops can be used)"
+      }
+   ],
+   "instructions": "Cream together shortening and sugars. Beat in egg, baking soda, baking powder, salt and vanilla. Stir in flour and oats until blended. Add jelly beans. Heat oven to 375°. Drop by rounded spoonfuls of bat- ter about 2 inches apart on lightly greased cookie sheet. Bake 10 to 12 minutes or until lightly browned.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

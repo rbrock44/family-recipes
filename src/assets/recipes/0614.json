@@ -1,0 +1,32 @@
+{
+   "name": "Coconut Macaroons",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. egg whites"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. moist shredded coconut"
+      }
+   ],
+   "instructions": " Beat the egg whites until fluffy. Stir in sugar, salt and vanilla. Blend in the coconut. Drop by teaspoonfuls 2 inches apart on ungreased wrapping paper on baking sheet. Bake until set and deli- cately browned. They spread during baking, so when they come from oven, shape into mounds by gathering in edges with fingers. Bake at 325° for 15 to 18 minutes.",
+   "yield": {
+      "amount": 2.5,
+      "name": "dozen"
+   }
+}

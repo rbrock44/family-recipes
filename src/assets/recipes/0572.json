@@ -1,0 +1,48 @@
+{
+   "name": "Payday Cake Bars",
+   "author": "Shari Landewe",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. yellow cake mix"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. melted butter"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 3,
+         "name": "c. miniature marshmallows"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. corn syrup"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (12 oz.) peanut butter chips"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. salted peanuts"
+      },
+      {
+         "amount": 2,
+         "name": "c. Rice Krispies"
+      }
+   ],
+   "instructions": "Step one, mix cake mix, melted butter and egg in mixing bowl. Spread in 9 x 13 inch ungreased cake pan. Bake at 300° for 15 minutes. Step two, spread marshmallows over baked cake and bake for 3 more minutes. Step three, melt corn syrup, chips, and vanilla. Add peanuts and Rice Krispies. Spread over marshmallow layer. Let cool and cut into bars.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

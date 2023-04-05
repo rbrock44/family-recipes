@@ -1,0 +1,56 @@
+{
+   "name": "Chocolate Drop Cookies",
+   "author": "In Memory of Ella T. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. melted butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 2,
+         "name": "sq. melted chocolate"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1.75,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts or raisins"
+      }
+   ],
+   "instructions": "Place butter, sugar and egg in bowl and beat until creamy. Add melted chocolate. Add dry ingredients, alternately with milk. Chill for a few minutes. Drop from a spoon on a greased cookie sheet. Bake 400° for 10 minutes or less.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

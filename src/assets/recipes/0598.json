@@ -1,0 +1,64 @@
+{
+   "name": "Cherry Winks",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2.25,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. Crisco"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. pecans, chopped"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. chopped cherries or maraschino cherries, quartered"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. cornflake crumbs"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped dates"
+      }
+   ],
+   "instructions": "Sift dry ingredients together. Set aside. Blend Crisco and sugar, creaming well. Add eggs. milk and vanilla, beating well. Blend in the dry ingredients gradually. Mix thoroughly. Add pecans, dates, and cup of cherries. Mix well. Drop by teaspoonful into crushed cornflakes. Roll into balls. Place on greased baking sheet. Top each cookie with 1/4 cherry. Bake in 375° oven for 12 to 15 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

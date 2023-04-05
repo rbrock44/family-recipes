@@ -1,0 +1,36 @@
+{
+   "name": "Polka Dot Macaroons",
+   "author": "Annita Layton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "egg whites"
+      },
+      {
+         "amount": 3,
+         "name": "c. cornflakes"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. chocolate chips (6 oz.)"
+      }
+   ],
+   "instructions": "Beat salt and egg whites until foamy. Gradually beat in sugar till stiff peaks form. Fold in vanilla, cornflakes and chocolate chips. Drop by teaspoonfuls onto greased cookie sheets. Bake at 350° 18 to 20 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

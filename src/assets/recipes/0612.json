@@ -1,0 +1,60 @@
+{
+   "name": "Coconut Oatmeal Cookies",
+   "author": "Irene Blattel",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. butter or shortening"
+      },
+      {
+         "amount": 1,
+         "name": "c. firmly packed brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. granulated sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. quick rolled oats"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. shredded coconut"
+      },
+      {
+         "amount": 1,
+         "name": "c. butterscotch chips, optional"
+      }
+   ],
+   "instructions": "Sift flour, baking powder, salt and soda. Cream butter, add sug- ars gradually, cream until fluffy. Add vanilla and eggs; beat well. Add flour mixture gradually, beating until smooth after each addition. Mix in oats and coconut; add butterscotch chips, if desired. Drop from tea- spoon onto ungreased cookie sheets. Bake at 375° for 9 to 12 minutes.",
+   "yield": {
+      "amount": 5,
+      "name": "dozen"
+   }
+}

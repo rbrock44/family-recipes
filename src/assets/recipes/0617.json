@@ -1,0 +1,64 @@
+{
+   "name": "Crunch Cookies",
+   "author": "Donna Scherer",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. oleo"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "c. oatmeal"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 1,
+         "name": "c. cornflakes"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      }
+   ],
+   "instructions": "Cream oleo and sugars. Add eggs and vanilla and mix. Add flour, salt, soda, powder and mix. Add oatmeal, pecans, cornflakes. Drop on ungreased cookie sheet. Bake at 350° for 10 to 12 minutes.",
+   "yield": {
+      "amount": 5,
+      "name": "5 to 6 dozen"
+   }
+}

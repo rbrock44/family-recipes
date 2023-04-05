@@ -1,0 +1,64 @@
+{
+   "name": "Applesauce Cookies",
+   "author": "In Memory of Ella I. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. lard"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1.75,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cloves"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. raisins"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 1,
+         "name": "c. applesauce"
+      },
+      {
+         "amount": 1,
+         "name": "c. quick cooking rolled oats"
+      }
+   ],
+   "instructions": "Cream together lard and sugar. Stir in egg. Sift together flour, baking powder, salt, soda, cinnamon, cloves and nutmeg. Mix in raisins and oats. Add to creamed mixture in 3 portions alternating with applesauce in 2 portions. Beat well. Drop from teaspoon. Bake at 375° for 10 to 15 minutes.",
+   "yield": {
+      "amount": 3,
+      "name": "dozen"
+   }
+}

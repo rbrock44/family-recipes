@@ -1,0 +1,40 @@
+{
+   "name": "Pecan Pie Bars",
+   "author": "Shirley Eftink",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. yellow cake mix"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. syrup"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. melted oleo"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. packed brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. Reserve 2/3 cup cake mix. Combine remaining mix with oleo and 1 egg. Mix well. Pour in greased 9 x 13 inch pan. Bake 15 to 20 minutes until golden brown. Combine 2/3 cup cake mix with brown sugar, syrup, vanilla and 3 eggs. Mix well. Pour over baked crust. Sprinkle with pecans. Bake 40 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

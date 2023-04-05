@@ -1,0 +1,56 @@
+{
+   "name": "Cowboy Cookies",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. margarine or butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. coconut, optional"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "c. oats"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. chocolate chips or butterscotch chips"
+      }
+   ],
+   "instructions": "Cream margarine and sugars. Add eggs, vanilla. Add dry ingre- dients to mixture. Mix in oats, then chips and coconut. Bake at 325° for 10 to 12 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

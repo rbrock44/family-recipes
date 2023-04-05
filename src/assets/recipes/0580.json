@@ -1,0 +1,36 @@
+{
+   "name": "Strawberry Pizza Pie (Topping)",
+   "author": "Louise Alderman",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. water"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. strawberry Jell-O"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cornstarch"
+      },
+      {
+         "amount": 5,
+         "name": "c. sliced strawberries"
+      },
+      {
+         "amount": 0,
+         "name": "Cool Whip"
+      }
+   ],
+   "instructions": "Cook until thick. Cool. Add strawberries. Spread on top of cream cheese and top with Cool Whip.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

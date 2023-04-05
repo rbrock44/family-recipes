@@ -1,0 +1,64 @@
+{
+   "name": "Caramel Apple Cookies",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 1.33,
+         "name": "c. brown sugar, firmly packed"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 2.25,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cloves"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 1,
+         "name": "c. grated peeled apples"
+      },
+      {
+         "amount": 1,
+         "name": "c. light raisins"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. apple juice or orange juice"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped walnuts"
+      }
+   ],
+   "instructions": "Cream shortening, sugar and egg until light and fluffy. Sift together dry ingredients and add to creamed mixture. When well blended, stir in remaining ingredients. Drop by level tablespoons 3 inches apart onto greased baking sheet. Bake in moderate oven at 350° about 12 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

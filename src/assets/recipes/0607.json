@@ -1,0 +1,40 @@
+{
+   "name": "Chocolate Chip Cookies Made With Betty Crocker Cake Mix",
+   "author": "Martha J. Hamm",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. Betty Crocker cake mix"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (6 oz.) semi-sweet chocolate chips"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 0,
+         "name": "Cake mix"
+      }
+   ],
+   "instructions": "Heat oven to 375°. Beat eggs, vanilla, shortening and about 1⁄2 of the cake mix (dry) until light and fluffy. Stir in remaining cake mix, the chocolate chips and nuts. Drop dough by teaspoonfuls about 2 inches apart onto ungreased baking sheet. Bake 10 to 12 minutes at 375°. (Cookies will be soft in centers when done.) Cool slightly before removing from baking sheet. Makes about 5 dozen cookies. Our fami- ly favorite is to substitute peanut butter chips for the chocolate chips and use German Chocolate Cake Mix to make very good cookies. Suggested cake mixes: Yellow, Devil's Food, White, Butter Rec- ipe, Sour Cream, Chocolate Fudge, Chocolate Fudge Supreme.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

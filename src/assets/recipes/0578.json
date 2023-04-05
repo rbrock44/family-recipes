@@ -1,0 +1,24 @@
+{
+   "name": "Strawberry Pizza Pie (Crust)",
+   "author": "Louise Alderman",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "sticks melted butter"
+      },
+      {
+         "amount": 3,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. powdered sugar"
+      }
+   ],
+   "instructions": "Mix and press in two pizza pans. Bake at 325° for 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
