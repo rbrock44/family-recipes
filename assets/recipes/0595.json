@@ -1,0 +1,32 @@
+{
+   "name": "Louise's Cake Mix Cookies",
+   "author": "Louise Maria Blankenship",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. of your favorite cake mix"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. vegetable oil"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (6 oz.) chocolate chips"
+      }
+   ],
+   "instructions": "Mix all ingredients together. Drop by teaspoonfuls of dough about 2 inches apart on ungreased cookie sheets. Place in an oven that has been preheated to 350°. Bake for 10 minutes, then cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

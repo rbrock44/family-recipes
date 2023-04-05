@@ -1,0 +1,36 @@
+{
+   "name": "Sunshine Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 11,
+         "name": "egg whites"
+      },
+      {
+         "amount": 6,
+         "name": "egg yolks"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cream of tartar"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. orange extract"
+      }
+   ],
+   "instructions": "Beat whites until stiff and flaky. Then sift in 1/2 the sugar. Combine yolks and white mixture, then sift in flour and cream of tartar that have been sifted together. Bake 50 to 60 minutes in a slow oven using an angel food cake pan.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

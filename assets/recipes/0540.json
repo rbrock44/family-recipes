@@ -1,0 +1,36 @@
+{
+   "name": "Sharen's Yum Yum Cake (Icing)",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(6 oz.) can evaporated milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Put ingredients in saucepan. Bring to a boil and boil for 2 minutes. Remove from heat and add nuts, coconut, and vanilla. Pour immediately over cake while hot.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

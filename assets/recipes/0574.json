@@ -1,0 +1,28 @@
+{
+   "name": "Peanut Butter Cornflake Bars",
+   "author": "Gale Ledure",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. Dark Karo Syrup"
+      },
+      {
+         "amount": 3,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "c. peanut butter"
+      },
+      {
+         "amount": 1,
+         "name": "box (18 oz.) cornflakes"
+      }
+   ],
+   "instructions": "Over low heat mix syrup and sugar until sugar dissolves. Add peanut butter until syrupy texture. If dry add a little butter. Pour over cornflakes and mix well. Press firmly into buttered pan. Cut before they harden.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

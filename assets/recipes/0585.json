@@ -1,0 +1,32 @@
+{
+   "name": "Vanilla Chip Fruit Tart (Fruit Topping)",
+   "author": "Annita Layton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. pineapple juice"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. lemon juice"
+      },
+      {
+         "amount": 0,
+         "name": "Assorted fresh fruit, sliced"
+      }
+   ],
+   "instructions": "In small sauce pan, stir together sugar and cornstarch; stir in juices. Cook over medium heat, stirring constantly until thickened; cool. Meanwhile, arrange fruit on top of filling; carefully pour or brush juice mixture over fruit. Cover, refrigerate assembled tart until just before serving.",
+   "yield": {
+      "amount": 10,
+      "name": "10 to 12 servings"
+   }
+}

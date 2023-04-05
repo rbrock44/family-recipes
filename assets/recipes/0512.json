@@ -1,0 +1,40 @@
+{
+   "name": "Lemon Pudding-Pound Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. (2 layer size) yellow cake mix"
+      },
+      {
+         "amount": 1,
+         "name": "(3 3/4 or 3 5/8 oz.) pkg. instant lemon pudding"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. water"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. cooking oil"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. lemon juice"
+      },
+      {
+         "amount": 2,
+         "name": "c. sifted confectioners sugar"
+      }
+   ],
+   "instructions": "Beat eggs until thick and lemon-colored. Add cake mix, pudding (dry), water, and oil: beat at medium speed, 10 minutes. Pour into ungreased 10-inch tube pan with removable bottom. Bake at 350° about 50 minutes. Remove hot cake, on pan bottom, from pan. Using a 2-tined fork, prick holes in top of cake: drizzle glaze over top and spread on sides of cake. For Glaze: Combine lemon juice and confectioners sugar; heat to boiling.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

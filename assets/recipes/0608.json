@@ -1,0 +1,64 @@
+{
+   "name": "Chocolate Chip Cookies",
+   "author": "S.M.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. butter"
+      },
+	  {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. oatmeal"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 12,
+         "name": "oz. mini chocolate chips"
+      },
+      {
+         "amount": 4,
+         "name": "oz. grated Hershey bar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Cream butter, sugars, eggs and vanilla. Add dry ingredients and mix well. Then add chocolate chips, Hershey bar and nuts. Drop by teaspoonfuls onto ungreased cookie sheet. Bake 5 to 6 minutes at 375°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

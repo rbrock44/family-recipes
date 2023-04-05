@@ -1,0 +1,36 @@
+{
+   "name": "Strawberry Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "white cake mix"
+      },
+      {
+         "amount": 1,
+         "name": "small box strawberry Jell-O"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. Wesson oil"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. frozen strawberries"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      }
+   ],
+   "instructions": "Mix all ingredients thoroughly except eggs. Add eggs beating well after each addition. Bake in a greased and floured 13x9x2 inch pan. Bake at 350° for 30 to 35 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

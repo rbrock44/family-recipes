@@ -1,0 +1,28 @@
+{
+   "name": "Coconut Macaroons",
+   "author": "Dorothy Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. (16 oz.) Angel Food Cake Mix"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. almond extract"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (7 oz.) coconut"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. Mix cake mix, almond extract and water together for 3 minutes on medium speed. Stir in coconut. May need to add small about of flour. Drop by scant teaspoon onto foil lined cookie sheets, which are sprayed with non stick cooking spray. Bake 7-9 minute or until edges are light brown. Cool completely before removing from foil. Best made with the one-step cake mix.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

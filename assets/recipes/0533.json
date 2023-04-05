@@ -1,0 +1,36 @@
+{
+   "name": "Sally's Strawberry Upside Down Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "qt. strawberries (sliced)"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0,
+         "name": "Mini marshmallows"
+      },
+      {
+         "amount": 0,
+         "name": "White cake mix"
+      },
+      {
+         "amount": 2,
+         "name": "(3-oz.) boxes strawberry Jell-O"
+      },
+      {
+         "amount": 0,
+         "name": "Cool Whip"
+      }
+   ],
+   "instructions": "Mix strawberries and sugar and let stand 1 to 1 1/2 hours. Put mini marshmallows in bottom of 9 x 13 inch pan. Make white cake mix following directions on box. Pour over marshmallows. Pour strawberries over cake mix. Sprinkle Jell-O on top. Bake at 350° for 35 to 45 minutes. Serve upside down with Cool Whip.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

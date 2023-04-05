@@ -1,0 +1,36 @@
+{
+   "name": "Marshmallow Creamy Icing",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "sticks margarine"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. marshmallow cream"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Cook the milk and flour in a double boiler. Set aside to cool. Beat the margarine and sugar about 8 minutes. Add the vanilla and beat about 4 minutes more. Add the marshmallow cream, sugar, milk mixture and beat 4 more minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

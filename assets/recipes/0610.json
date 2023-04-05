@@ -1,0 +1,48 @@
+{
+   "name": "Cinnamon Disks",
+   "author": "Anna Rose Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. finely chopped nuts"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Cream margarine, sugar and vanilla. Add egg. Cream. Add dry ingredients. Mix well Roll in balls. Roll in cinnamon and nut mixture. Bake at 375° until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

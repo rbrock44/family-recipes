@@ -1,0 +1,20 @@
+{
+   "name": "Black Forest Cherry Cobbler",
+   "author": "Linda Shelton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can cherry pie filling"
+      },
+      {
+         "amount": 1,
+         "name": "box brownie mix"
+      }
+   ],
+   "instructions": "Spread cherry pie filling in 9 x 13 inch pan. Prepare brownie mix as directed on package. Pour over pie filling and bake at 350° for 30 minutes. Serve warm with ice cream.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

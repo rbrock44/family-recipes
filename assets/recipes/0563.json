@@ -1,0 +1,56 @@
+{
+   "name": "Texas Brownies",
+   "author": "Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. oleo"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. dark unsweetened cocoa"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "In a large bowl combine the flour and sugar. In a saucepan com- bine oleo, shortening, water and cocoa. Stir and heat to boiling. Pour boiling mixture over the flour and sugar. Add the buttermilk, eggs, baking soda and vanilla. Mix well using a high speed mixer. Pour in a well buttered 17 1⁄2 x 11 inch jelly roll pan. Bake at 400° for 20 minutes or until brownies test done in the center.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

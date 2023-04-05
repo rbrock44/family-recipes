@@ -1,0 +1,60 @@
+{
+   "name": "Chocolate Kiss Cookies",
+   "author": "Rachael Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. packed light brown sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. peanut butter"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 1.75,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Granulated sugar"
+      },
+      {
+         "amount": 1,
+         "name": "bag (9 oz.) Hershey's Kisses Chocolate"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Heat oven to 375°. In a large bowl, combine 1/2 cup sugar, brown sugar, shortening and peanut butter until creamy. Add egg, milk and vanilla, blend well. Mix flour, soda and salt. Roll small spoonfuls of dough into 1 inch balls, then roll balls in sugar. Place on ungreased cookie sheet and bake for 10 to 12 minutes or until golden brown. As soon as they come out of the oven, press a chocolate kiss into the center. Cool and eat.",
+   "yield": {
+      "amount": 4,
+      "name": "dozen"
+   }
+}

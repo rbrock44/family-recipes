@@ -1,0 +1,56 @@
+{
+   "name": "Mud Hen Bars",
+   "author": "Helen Menz and Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. oleo"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "whole egg"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, separated"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chocolate chips"
+      },
+      {
+         "amount": 1,
+         "name": "c. miniature marshmallows"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 1,
+         "name": "c. light brown sugar"
+      }
+   ],
+   "instructions": "Preheat oven to 350°. Cream oleo and sugar. Beat in the whole egg and 2 egg yolks. Sift flour, baking powder and salt together. Com- bine the 2 mixtures, blend thoroughly. Spread into a 9 x 13 inch pan. Sprinkle nuts, chocolate chips and marshmallows over batter. Beat 2 egg whites stiff, fold in brown sugar. Spread over top of cake. Bake 30 to 40 minutes. Cut into bars.",
+   "yield": {
+      "amount": 32,
+      "name": "bars"
+   }
+}

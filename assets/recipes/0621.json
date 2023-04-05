@@ -1,0 +1,44 @@
+{
+   "name": "Hermits",
+   "author": "In Memory of Helen T. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. lard"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped raisins"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cloves"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0,
+         "name": "Flour"
+      }
+   ],
+   "instructions": "Mix eggs, lard, sugar, raisins, cloves and cinnamon. Add just enough flour to make soft. dough. Roll out dough on floured board as thin as possible. Cut and place on greased baking pan. Bake at 350° until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

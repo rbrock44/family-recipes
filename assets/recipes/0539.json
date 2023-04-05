@@ -1,0 +1,40 @@
+{
+   "name": "Sharen's Yum Yum Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 2,
+         "name": "c. crushed pineapple (use juice)"
+      },
+      {
+         "amount": 0,
+         "name": "Pinch of salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Mix together. Pour in oblong cake pan. Bake at 350° for 40 to 50 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

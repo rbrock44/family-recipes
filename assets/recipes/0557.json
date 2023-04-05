@@ -1,0 +1,56 @@
+{
+   "name": "Ramona's Apricot Brownies",
+   "author": "Ramona Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "bars (2 oz.) white baking chocolate"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. butter or oleo"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. packed brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt, optional"
+      },
+      {
+         "amount": 1,
+         "name": "c. finely chopped dried apricots"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sliced almonds"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. flaked coconut"
+      }
+   ],
+   "instructions": "Melt chocolate and butter over low heat, stirring constantly until all of chocolate is melted. Remove from heat; stir in brown sugar, eggs and vanilla until blended. Set aside. In another bowl, mix flour, baking powder and salt. Stir in chocolate mixture. Combine apricots, almonds, and coconut; stir half into the batter. Pour into a greased 9-inch square baking pan. Sprinkle remaining apricot mixture on top. Bake at 350° for 25 minutes or until golden brown. Cool.",
+   "yield": {
+      "amount": 2,
+      "name": "dozen"
+   }
+}

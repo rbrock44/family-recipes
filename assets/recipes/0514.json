@@ -1,0 +1,52 @@
+{
+   "name": "Pumpkin Roll",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. pumpkin"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. lemon juice"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. ginger"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Beat eggs for 5 minutes. Add sugar and other ingredients. Mix thoroughly. Spread batter in a large greased cookie sheet with sides. Sprinkle with one cup nuts. Bake at 375° for 15 minutes. Dust dish towel with powdered sugar. Turn cake out onto powdered sugar and roll up. Let cool rolled up.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

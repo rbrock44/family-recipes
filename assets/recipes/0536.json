@@ -1,0 +1,24 @@
+{
+   "name": "Strawberry Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. white or yellow cake mix"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. (3-oz.) strawberry Jell-O"
+      },
+      {
+         "amount": 1,
+         "name": "c. boiling water"
+      }
+   ],
+   "instructions": "Bake cake mix as directed on box. Dissolve Jell-O in water. After cake is cooled, poke holes and pour Jell-O mixture over cake. Refrigerate for 1 hour. Then add the topping. Variations: Use lemon cake and lime Jell-O with lemon pudding.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

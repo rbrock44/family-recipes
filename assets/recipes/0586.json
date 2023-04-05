@@ -1,0 +1,44 @@
+{
+   "name": "Skillet Cookies",
+   "author": "Anna Rose Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "stick oleo"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. dates, chopped"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 3,
+         "name": "c. Rice Krispies"
+      },
+      {
+         "amount": 0,
+         "name": "Coconut"
+      }
+   ],
+   "instructions": "Melt oleo in skillet; add brown sugar, chopped dates, egg and vanilla. Boil for 2 minutes. Take off stove; add chopped nuts and Rice Krispies. Mix well. Let cool enough to handle. Drop by teaspoonfuls into coconut; turn to coat. Place on wax paper to cool.",
+   "yield": {
+      "amount": 60,
+      "name": "cookies"
+   }
+}

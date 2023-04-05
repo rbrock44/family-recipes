@@ -1,0 +1,56 @@
+{
+   "name": "Bits 'O Brickle Cookies",
+   "author": "Ellen R.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. (6 oz.) Bits 'O Brickle"
+      },
+      {
+         "amount": 1.5,
+         "name": "Tbsp. oil"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. brown sugar, packed"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1.25,
+         "name": "cup plus 2 Tbsp. flour"
+      }
+   ],
+   "instructions": "Preheat oven to 325°. In a small bowl mix Bits 'O Brickle with liquid shortening until evenly coated, then stir in 6 tablespoons of flour until well coated; set aside. In a large bowl, combine butter, sugar and brown sugar and vanilla; beat until creamy. Beat in egg. Gradually add salt, baking soda and flour, mix well. Stir in coated Bits. Drop to 12 minutes. Makes 50 cookies. by rounded teaspoons onto greased cookie sheets. Bake at 325° for 10 to 12 minutes.",
+   "yield": {
+      "amount": 50,
+      "name": "cookies"
+   }
+}

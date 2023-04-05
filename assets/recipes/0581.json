@@ -1,0 +1,32 @@
+{
+   "name": "Fruit Pizza",
+   "author": "Rebecca Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "doz. sugar cookies (home made or store bought)"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (8 oz.) Philadelphia Cream Cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. Strawberry Glaze Whipped cream, optional"
+      }
+   ],
+   "instructions": "Roll cookies out on a cookie sheet. Bake, then let cool. Top with a mixture of cheese, sugar and vanilla. Top with strawberry glaze and any kind of fresh fruit. Then add nuts and whipped cream if desired.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

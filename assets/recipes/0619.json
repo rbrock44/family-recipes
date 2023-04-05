@@ -1,0 +1,24 @@
+{
+   "name": "Funfetti Cookies",
+   "author": "Linda Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.33,
+         "name": "C. oil"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "box Funfetti cake mix"
+      }
+   ],
+   "instructions": "Mix well with fork and roll into balls. Place on greased cookie sheet. Flatten with glass cup dipped in flour. Bake at 375° for 6 minutes. Roll in sugar when cooled, slightly.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

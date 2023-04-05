@@ -1,0 +1,48 @@
+{
+   "name": "Oh So Good Oatmeal Cookies",
+   "author": "Michelle Kenkel Mohney",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 2,
+         "name": "c. brown sugar, firmly packed"
+      },
+      {
+         "amount": 1,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3,
+         "name": "c. quick cooking oats"
+      }
+   ],
+   "instructions": "Sift flour, salt, baking powder and soda together. Cream shortening and brown sugar. Add beaten eggs and vanilla and beat well. Stir in sifted dry ingredients and oats. Chill dough. Form into little balls the size of a walnut. Roll in powdered sugar until heavily coated. Place 2 inches apart on greased cookie sheet. Put pecan in center of each. Bake at 350° for 10 to 12 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

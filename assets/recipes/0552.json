@@ -1,0 +1,40 @@
+{
+   "name": "Mock Whip Cream Icing",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. oleo"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 2,
+         "name": "c. Crisco shortening"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0,
+         "name": "Dash of salt"
+      }
+   ],
+   "instructions": "Mix flour and milk and stir. Cook until thick. Set aside to cool. In mixer beat oleo, shortening, and sugar until creamy. Add paste, vanilla, and salt. Mix all together and beat until creamy.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

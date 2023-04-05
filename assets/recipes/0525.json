@@ -1,0 +1,36 @@
+{
+   "name": "Shortcake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.33,
+         "name": "c. butter"
+      },
+      {
+         "amount": 0,
+         "name": "Milk to moisten"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. melted butter"
+      }
+   ],
+   "instructions": "Put dry ingredients into bowl. Cut in butter with pastry blender or fork. Add milk to moisten so dough is consistency of biscuits. Spread into greased 8 inch square pan. Drizzle with melted butter. Bake at 425° for 20 minutes. Serve with strawberries and whipped cream.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

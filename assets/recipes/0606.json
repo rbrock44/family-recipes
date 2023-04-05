@@ -1,0 +1,40 @@
+{
+   "name": "Chocolate Chip Treasure Cookies",
+   "author": "Mary Ann Lumsden",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. graham cracker crumbs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "can (14 oz.) Eagle Brand Milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. softened margarine"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (12 oz.) semi-sweet chocolate chips (2 cups)"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Heat oven to 375°. In small bowl, mix graham cracker crumbs, flour and baking powder. In large bowl, beat sweetened condensed milk and margarine until smooth. Add graham crumb mixture. Mix well, Add coconut, chocolate chips and nuts. Drop by rounded table- spoons onto ungreased cookie sheets. Bake 9 to 10 minutes or until lightly browned. Store loosely covered at room temperature.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

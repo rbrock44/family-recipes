@@ -1,0 +1,32 @@
+{
+   "name": "Icing for Sweet Rolls, Cakes or Cookies",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. crisco"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. dry white cake mix"
+      },
+      {
+         "amount": 2.25,
+         "name": "lb. powdered sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. cold water"
+      },
+      {
+         "amount": 0,
+         "name": "Butter or vanilla flavoring"
+      }
+   ],
+   "instructions": "Mix Crisco and cake mix. Add powdered sugar, water and flavoring. Mix well until smooth. Use on rolls, cakes or cookies.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

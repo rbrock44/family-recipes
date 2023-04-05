@@ -1,0 +1,36 @@
+{
+   "name": "Sponge Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 12,
+         "name": "egg yolks"
+      },
+      {
+         "amount": 12,
+         "name": "Tbsp. water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Beat egg yolks and water until foamy. Add sugar 1 tablespoonat a time. Then add flour and baking powder. Add vanilla. Bake in moderate 375° oven for 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

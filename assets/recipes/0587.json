@@ -1,0 +1,36 @@
+{
+   "name": "Layered Fruit Bars",
+   "author": "Karla Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. firmly packed brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. unsifted flour"
+      },
+      {
+         "amount": 1,
+         "name": "Dash of salt"
+      },
+      {
+         "amount": 2,
+         "name": "c. quick rolled oats"
+      }
+   ],
+   "instructions": "Cream margarine, brown sugar, and vanilla in large bowl at medium speed of electric mixer until light and fluffy. Mix in flour and salt. Reserve 1⁄2 cup of mixture and 1 cup of quick rolled oats. Press remaining mixture evenly in ungreased 13 x 9 inch pan. Bake at 375° for 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

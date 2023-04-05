@@ -1,0 +1,56 @@
+{
+   "name": "Chocolate Chip Cookies",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.66,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. butter or margarine"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar, packed"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts, optional"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (12 oz.) chocolate chips"
+      }
+   ],
+   "instructions": "Heat oven to 375°. Mix thoroughly shortening, butter, sugars, eggs and vanilla. Blend in remaining ingredients. Drop dough by rounded teaspoonfuls 2 inches apart onto ungreased baking sheet. Bake 8 to 10 minutes or until light brown. Cool slightly before removing from baking sheet.",
+   "yield": {
+      "amount": 7,
+      "name": "dozen"
+   }
+}

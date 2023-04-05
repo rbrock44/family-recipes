@@ -1,0 +1,32 @@
+{
+   "name": "Butter-Cream Vanilla Frosting",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.25,
+         "name": "c. butter or margarine"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3,
+         "name": "c. confectioners sugar (sift if lumpy)"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. milk"
+      }
+   ],
+   "instructions": "Combine butter, salt, vanilla and 1 cup sugar. Add milk and remaining sugar. Mix until smooth. Add sugar to thicken, milk to thin.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

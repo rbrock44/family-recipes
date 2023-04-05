@@ -1,0 +1,32 @@
+{
+   "name": "Rhubarb Cake (Topping)",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Mix all together and bring to a boil. Cook for three minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

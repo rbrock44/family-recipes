@@ -1,0 +1,24 @@
+{
+   "name": "Strawberry Pizza Pie (Filling)",
+   "author": "Louise Alderman",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "pkg. (8 oz.) cream cheese"
+      },
+      {
+         "amount": 2,
+         "name": "cans Eagle Brand Condensed Milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. lemon juice"
+      }
+   ],
+   "instructions": "Mix together and spread on cool crust.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

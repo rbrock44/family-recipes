@@ -1,0 +1,44 @@
+{
+   "name": "Molasses Cookies",
+   "author": "Donna Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. molasses"
+      },
+      {
+         "amount": 1,
+         "name": "c. lard"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. cloves"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. boiling water or sour milk"
+      },
+      {
+         "amount": 0,
+         "name": "Flour enough to roll thin"
+      }
+   ],
+   "instructions": "Dissolve baking soda in boiling water or sour milk. Then add other ingredients. Mix and bake at 350°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

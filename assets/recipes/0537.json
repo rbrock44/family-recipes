@@ -1,0 +1,24 @@
+{
+   "name": "Strawberry Cake (Topping)",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "large Cool Whip"
+      },
+      {
+         "amount": 1,
+         "name": "c. cold milk"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (3 oz.) instant vanilla pudding"
+      }
+   ],
+   "instructions": "Mix pudding and milk together until smooth. Add Cool Whip and mix well. Spread on cooled cake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

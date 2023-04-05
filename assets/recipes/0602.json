@@ -1,0 +1,28 @@
+{
+   "name": "Chocolate Covered Cherry Cookies (Frosting)",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. (6 oz.) semi-sweet pieces"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sweetened condensed milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "to 1 1/2 tsp. maraschino cherry juice"
+      }
+   ],
+   "instructions": "In a small heavy sauce pan, over low heat, melt chocolate pieces with condensed milk, stirring constantly. Remove from heat, add remaining ingredients, stir until smooth.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

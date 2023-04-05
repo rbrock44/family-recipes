@@ -1,0 +1,36 @@
+{
+   "name": "Sandies",
+   "author": "Anna Rose Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. butter"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. water"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Cream together first 4 ingredients, then add flour and nuts. Chill 4 hours. Shape into balls and bake at 325° about 20 minutes. Cool slightly and roll in powdered sugar.",
+   "yield": {
+      "amount": 3,
+      "name": "dozen"
+   }
+}

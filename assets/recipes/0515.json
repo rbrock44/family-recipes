@@ -1,0 +1,28 @@
+{
+   "name": "Pumpkin Roll (Filling)",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "(3 oz.) pkg. cream cheese"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. butter"
+      }
+   ],
+   "instructions": "Mix above ingredients together. Chill, then unroll cake and spread on filling. Reroll cake and keep refrigerated.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

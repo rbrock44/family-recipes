@@ -1,0 +1,28 @@
+{
+   "name": "Peanut Butter Cornflake Bars",
+   "author": "Charlotte Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. white corn syrup"
+      },
+      {
+         "amount": 1,
+         "name": "jar (16 oz.) peanut butter"
+      },
+      {
+         "amount": 12,
+         "name": "c. cornflakes (16 oz. box)"
+      }
+   ],
+   "instructions": "Mix sugar and corn syrup in microwave safe bowl. Microwave on high for 4 minutes. Stir well. Then cook another 4 minutes on high. Softened peanut butter. Add peanut butter to syrup mixture. Stir well. Pour over cornflakes and mix well. Pour in buttered cookie sheet. Let cool and cut in squares.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

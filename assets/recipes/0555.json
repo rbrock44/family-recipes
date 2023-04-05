@@ -1,0 +1,40 @@
+{
+   "name": "Streusel Bars",
+   "author": "Lorena Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. packed brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. butter or margarine"
+      },
+      {
+         "amount": 2,
+         "name": "c. rolled oats, uncooked"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. jelly, jam, or preserves"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Combine flour, brown sugar, and salt. Cut in butter or margarine with pastry blender until mixture is crumbly. Stir in oats. Save 1 1⁄2 cups of crumbly mixture for topping. Press remaining mixture evenly over bottom of oblong baking pan (13 x 9 x 2). Spread jelly, jam, or preserves over crumbs and top with remaining crumb mixture. Press down lightly. Bake in moderate oven at 375° until lightly browned about 25 minutes. Cool. Cut into bars 3 inches long and 1 inch wide.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

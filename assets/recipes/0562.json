@@ -1,0 +1,44 @@
+{
+   "name": "Brownies",
+   "author": "Ruth Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "lb. margarine"
+      },
+      {
+         "amount": 4,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "can Hershey's chocolate syrup"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts, optional"
+      }
+   ],
+   "instructions": "Cream sugar and margarine, beat in eggs each seperately. Add syrup, flour, salt, vanilla and nuts mixing thoroughly. Bake in 13 x 9 inch pan at 350° for 25 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

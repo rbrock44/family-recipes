@@ -1,0 +1,40 @@
+{
+   "name": "No Bake Cookies",
+   "author": "Donna Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. cocoa"
+      },
+      {
+         "amount": 3,
+         "name": "c. quick oats"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. peanut butter"
+      }
+   ],
+   "instructions": "Combine sugar, milk, margarine and cocoa in sauce pan and bring to a boil. Boil one minute. Remove from heat, beat in quickly oats, peanut butter and vanilla. Spread in a cookie sheet pan and let cool. Cut into bars.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

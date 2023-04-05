@@ -1,0 +1,40 @@
+{
+   "name": "Seven Layer Cookies (Hello Dollies)",
+   "author": "K.S.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 1,
+         "name": "c. graham cracker crumbs"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (6 oz.) chocolate chips"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (6 oz.) butterscotch chips"
+      },
+      {
+         "amount": 1,
+         "name": "can Eagle Brand Milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Melt butter in bottom of pan. Add as listed above in order on top of butter. Bake 30 minutes at 350°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

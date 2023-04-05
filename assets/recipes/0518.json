@@ -1,0 +1,40 @@
+{
+   "name": "Punch Bowl Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "boxes instant vanilla pudding"
+      },
+      {
+         "amount": 3,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "large Sara Lee pound cake"
+      },
+      {
+         "amount": 2,
+         "name": "large cans crushed pineapple"
+      },
+      {
+         "amount": 2,
+         "name": "cans cherry pie filling"
+      },
+      {
+         "amount": 6,
+         "name": "bananas"
+      },
+      {
+         "amount": 1,
+         "name": "large Cool Whip"
+      }
+   ],
+   "instructions": "In large punch bowl, cube 2 of the pound cake. Mix 1 package pudding with 1 1/2 cup milk. Then pour over cake cubes. Slice 3 bananas and add to top. Then add 1 can crushed pineapple and top with 1 can of cherry pie filling. Repeat layers and top with 1 large Cool Whip. Can be decorated with maraschino cherries and nuts. Refrigerate well before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
