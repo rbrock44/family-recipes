@@ -1,0 +1,32 @@
+{
+   "name": "Diet Strawberry Pie",
+   "author": "Ruth Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(16 oz.) can diet red soda"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. diet strawberry Jell-o"
+      },
+      {
+         "amount": 3,
+         "name": "to 4 c. sliced strawberries"
+      },
+      {
+         "amount": 1,
+         "name": "cookie crust, I use vanilla"
+      }
+   ],
+   "instructions": "Bring to a boil the soda and cornstarch, add Jell-O and mix. Pour over the strawberries, mix and pour into cookie pie crust. Refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

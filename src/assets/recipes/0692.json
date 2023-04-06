@@ -1,0 +1,36 @@
+{
+   "name": "Rice Crispy Candy",
+   "author": "Joan Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 35,
+         "name": "caramels"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 1,
+         "name": "c. corn flakes"
+      },
+      {
+         "amount": 1,
+         "name": "c. rice crispy"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      }
+   ],
+   "instructions": "Melt caramels together with milk in double boiler. Mix nuts, cereal, and coconut together. Add melted caramels and mix well. Roll into small balls. Cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

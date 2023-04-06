@@ -1,0 +1,32 @@
+{
+   "name": "Custard Pie",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0,
+         "name": "Sugar, enough to make it sweet"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 9,
+         "name": "inch pie crust"
+      }
+   ],
+   "instructions": "Mix all ingredients together and pour in pie crust. Bake at 375° until a tip of a knife come out clean.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

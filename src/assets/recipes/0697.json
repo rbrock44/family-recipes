@@ -1,0 +1,44 @@
+{
+   "name": "Oatmeal Pie",
+   "author": "Marilyn Friend",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "eggs, well beaten"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. quick cooking oats"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "unbaked pie crust"
+      }
+   ],
+   "instructions": "Blend all ingredients. Pour into unbaked pie crust. Bake at 350° for 30 to 35 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

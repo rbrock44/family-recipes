@@ -1,0 +1,44 @@
+{
+   "name": "Apple Crumb Pie",
+   "author": "Janet Welter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 5,
+         "name": "to 7 tart apples"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. apple pie spice"
+      },
+      {
+         "amount": 0,
+         "name": "Pie Crust"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. oleo, softened"
+      }
+   ],
+   "instructions": "Peel and slice apples; put in a large bowl. Add flour, sugar and spice; mix with apples. Let sit until apples get a moist look. Put in a 9 inch pie crust. Mix together 1⁄2 cup of sugar, 3/4 cup of flour and the oleo. Sprinkle on top of the apple mixture. Topping will be crumbly. Bake at 400° for 30 to 40 minutes or until golden brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

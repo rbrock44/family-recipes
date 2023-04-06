@@ -1,0 +1,32 @@
+{
+   "name": "Cream Cheese Pie",
+   "author": "Shawn Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "extra large Cool Whip"
+      },
+      {
+         "amount": 2,
+         "name": "prepared pie crusts, baked and cooled"
+      },
+      {
+         "amount": 1,
+         "name": "can cherry or favorite pie filling"
+      }
+   ],
+   "instructions": "Cream sugar and cheese together. Fold in Cool Whip and stir well. Pour into cooled pie shells and top with pie filling. Chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

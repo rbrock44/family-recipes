@@ -1,0 +1,40 @@
+{
+   "name": "Fruity Cookie Recipe Jello That Crumbles",
+   "author": "Anna Rose Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. sifted all purpose flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. butter or oleo"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(3 oz.) pkg. Jell-O, any flavor"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Cream butter. Gradually add sugar and Jell-O and cream well after each addition. Add egg and vanilla and beat well. Gradually add flour mixture, mixing after each addition, until smooth. Use cookie press or drop by teaspoonful on ungreased cookie sheet. Sprinkle with Jell-O. Bake at 400° for 12 to 14 minutes or until the edges are golden brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

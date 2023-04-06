@@ -1,0 +1,28 @@
+{
+   "name": "Pie Crust",
+   "author": "Shirley Drury, Sara Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. water"
+      }
+   ],
+   "instructions": "Mix together the flour and salt. Cut in shortening until crumbly. Sprinkle on water. Gather dough together and press into a ball. Roll to desired thickness.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

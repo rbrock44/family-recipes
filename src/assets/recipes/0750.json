@@ -1,0 +1,48 @@
+{
+   "name": "Fresh Fruit Ambrosia",
+   "author": "Rebecca Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(14 oz.) can Eagle Brand Milk"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) container Borden Lite-line Orange Yogurt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. ReaLime Lime Juice from concentrate"
+      },
+      {
+         "amount": 3,
+         "name": "oranges, peeled and sectioned"
+      },
+      {
+         "amount": 2,
+         "name": "c. fresh pineapple chunks"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. grape halves (about 1/2 pound)"
+      },
+      {
+         "amount": 1,
+         "name": "(3 1⁄2 oz.) can flaked coconut"
+      },
+      {
+         "amount": 1,
+         "name": "c. miniature marshmallows"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "In bowl, combine all ingredients, mix well. Chill at least 3 hours. Refrigerate leftovers.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

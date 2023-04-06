@@ -1,0 +1,44 @@
+{
+   "name": "Date Tart",
+   "author": "Annita Layton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. cake flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. chopped dates"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "egg yolks"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "egg whites, stiffly beaten"
+      }
+   ],
+   "instructions": "Sift the flour, baking powder and salt. Pour over chopped dates. Beat sugar in egg yolks and add vanilla. Fold in egg whites. Gently add date mixture. Bake at 350° approximately 35 minutes. Serve warm with whipped cream",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

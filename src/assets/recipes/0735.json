@@ -1,0 +1,40 @@
+{
+   "name": "Strawberry Pie",
+   "author": "Donna Stamp",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 1,
+         "name": "quart strawberries"
+      },
+      {
+         "amount": 1,
+         "name": "small box of strawberry Jell-O"
+      },
+      {
+         "amount": 0,
+         "name": "Whipped cream, if desired"
+      },
+      {
+         "amount": 0,
+         "name": "Baked pie shell"
+      }
+   ],
+   "instructions": "Cook first three ingredients until slightly thick. Remove from heat and add Jell-O. Mix and pour over strawberries. Pour into baked pie shell. Top with whipped cream, if desired.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

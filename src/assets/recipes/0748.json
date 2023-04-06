@@ -1,0 +1,28 @@
+{
+   "name": "Pie Crust Mix",
+   "author": "Hazel Luebbers, Grandmother of Joan Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. lard"
+      },
+      {
+         "amount": 6,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      }
+   ],
+   "instructions": "Mix altogether and store in refrigerator. One level cup of mix equals one pie crust. Add two tablespoons of ice water to one cup full of mix for one crust.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

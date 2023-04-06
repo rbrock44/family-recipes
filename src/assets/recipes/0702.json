@@ -1,0 +1,36 @@
+{
+   "name": "Apple Pie",
+   "author": "Charlotte Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "pie shells"
+      },
+      {
+         "amount": 3,
+         "name": "to 4 Jonathan apples"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Peel and slice the apples. Mix remaining ingredients in bowl and pour into pie shell. Top with remaining crust. Sprinkle with sugar, bake at 400° for about 35 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

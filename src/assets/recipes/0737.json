@@ -1,0 +1,32 @@
+{
+   "name": "Ella's Strawberry Pie (Crust)",
+   "author": "In Memory of Ella T. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 12,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. vegetable oil"
+      }
+   ],
+   "instructions": "Mix all ingredients in bowl. Pat dough in pan and bake at 350° until brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,52 @@
+{
+   "name": "Sour Cream Apple Pie",
+   "author": "Linda Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "c. sour cream (8 oz.)"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. flour, divided"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "c. chopped and peeled apples"
+      },
+      {
+         "amount": 1,
+         "name": "unbaked 9 inch pie shall"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. butter, softened"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. packed brown sugar"
+      }
+   ],
+   "instructions": "In a large bowl beat eggs. Add sour cream. Stir in sugar, 2 tablespoons of flour, vanilla and salt. Mix well. Stir in apples. Pour into pie shell. Bake at 375° for 15 minutes. Meanwhile combine butter, brown sugar and remaining flour. Sprinkle over top of pie. Return to oven for 20 to 25 minutes or until filling is set. Cool completely.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

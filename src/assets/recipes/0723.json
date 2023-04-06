@@ -1,0 +1,36 @@
+{
+   "name": "Frozen Peanut Butter Pie",
+   "author": "Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "of an 8 oz. cream cheese, softened"
+      },
+      {
+         "amount": 1,
+         "name": "c. sifted powdered sugar"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. creamy peanut butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "(9 oz.) Cool Whip, thawed"
+      },
+      {
+         "amount": 1,
+         "name": "(9 inch) graham cracker crust"
+      }
+   ],
+   "instructions": "Whip softened cream cheese until fluffy. Beat in powdered sugar and peanut butter. Gradually add milk, blending well. Fold in Cool Whip and freeze until firm. Garnish with additional Cool Whip or peanut butter cups.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

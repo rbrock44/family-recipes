@@ -1,0 +1,40 @@
+{
+   "name": "Million Dollar Pie",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can Eagle Brand Milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. lemon juice"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 1,
+         "name": "can crushed pineapple, drained"
+      },
+      {
+         "amount": 1,
+         "name": "large carton Cool Whip"
+      },
+      {
+         "amount": 2,
+         "name": "baked graham cracker pie shells"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Mix well milk, lemon juice, coconut and pineapple. Pour into pie shells. Top with nuts. Refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

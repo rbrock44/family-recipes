@@ -1,0 +1,36 @@
+{
+   "name": "Ella's Strawberry Pie (Filling)",
+   "author": "In Memory of Ella T. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. white syrup"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. dry strawberry Jell-O"
+      },
+      {
+         "amount": 1,
+         "name": "qt. strawberries"
+      }
+   ],
+   "instructions": "Cook until thick, sugar, cornstarch, white syrup and water. Add Jell-O and strawberries. Pour into baked pie shell.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

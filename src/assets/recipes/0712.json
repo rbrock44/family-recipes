@@ -1,0 +1,32 @@
+{
+   "name": "Chocolate Dream Pie",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "pkg. Dream Whip (whipped topping mix)"
+      },
+      {
+         "amount": 2.75,
+         "name": "c. cold milk"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. Jell-O brand chocolate or other flavor instant pudding"
+      },
+      {
+         "amount": 1,
+         "name": "(9-inch) prepared pie crust"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Prepare whipped topping mix as directed on package, using 1 cup milk and 1 teaspoon vanilla, in large mixing bowl. Add remaining 1 3/4 cup milk and pudding mix. Whip, then beat at high speed for 2 minutes, scraping bowl occasionally. Spoon into pie shell. Chill at least 4 hours.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

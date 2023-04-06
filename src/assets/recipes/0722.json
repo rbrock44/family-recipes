@@ -1,0 +1,48 @@
+{
+   "name": "Fresh Peach Pie",
+   "author": "Zeta Welter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "Prepared pie crust or graham cracker crust"
+      },
+      {
+         "amount": 1,
+         "name": "Fresh peaches, sliced, about 8 peaches"
+      },
+      {
+         "amount": 2,
+         "name": "c. water"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cornstarch"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. Dream Whip"
+      },
+      {
+         "amount": 1,
+         "name": "(3 oz.) cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. Jell-O peach or mixed fruit (3 oz.)"
+      }
+   ],
+   "instructions": "Place sliced peaches in pie shell. Mix water, sugar and corn- starch together and cook until clear. Remove from heat and add 1 package peach Jell-O or mixed fruit. Let cool, pour over peaches. Then whip 1 package Dream Whip according to directions on box. Add cream cheese and powdered sugar. Spread over pie.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

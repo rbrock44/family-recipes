@@ -1,0 +1,20 @@
+{
+   "name": "CANDY COATED PRETZELS",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. white almond bark"
+      },
+      {
+         "amount": 1,
+         "name": "medium size bag of pretzels"
+      }
+   ],
+   "instructions": "Microwave almond bark until melted. Drop in pretzels and coat well. Place on wax paper until coating is firm.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

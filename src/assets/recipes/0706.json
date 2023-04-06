@@ -1,0 +1,44 @@
+{
+   "name": "Blueberry Banana Pie",
+   "author": "Doris Moore",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2.25,
+         "name": "sticks butter"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. Dream Whip, prepared"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "(8 oz.) cream cheese, softened"
+      },
+      {
+         "amount": 1,
+         "name": "can blueberry pie filling"
+      },
+      {
+         "amount": 4,
+         "name": "large bananas"
+      }
+   ],
+   "instructions": "Cut butter and sugar into flour. Form 2 pie shells by pressing mixture into well buttered pie pans. Bake 425° for 10 minutes or until light brown. Cool. Beat cream cheese until creamy, add sugar and beat well. Mix in prepared Dream Whip. Slice bananas in bottom of cooled pie shells, cover with cream cheese mixture. Top center of each pie with pie filling.",
+   "yield": {
+      "amount": 2,
+      "name": "pies"
+   }
+}

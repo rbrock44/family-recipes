@@ -1,0 +1,36 @@
+{
+   "name": "Hawaiian Pie",
+   "author": "Laurie Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can Eagle Brand milk"
+      },
+      {
+         "amount": 1,
+         "name": "Cool Whip"
+      },
+      {
+         "amount": 1,
+         "name": "large can crushed pineapple, drained"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. lemon juice"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped nuts"
+      },
+      {
+         "amount": 2,
+         "name": "graham cracker crusts"
+      }
+   ],
+   "instructions": "Mix all preceding ingredients and pour into the graham cracker crusts. Chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

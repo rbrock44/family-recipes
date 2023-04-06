@@ -1,0 +1,36 @@
+{
+   "name": "Creamy Lemon Pie",
+   "author": "Vernita Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.75,
+         "name": "c. cold milk"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. (4 serving) Jell-O instant vanilla pudding"
+      },
+      {
+         "amount": 1,
+         "name": "can (6 oz.) frozen lemonade concentrate thawed"
+      },
+      {
+         "amount": 1,
+         "name": "tub (8 oz.) Cool Whip, thawed"
+      },
+      {
+         "amount": 1,
+         "name": "prepared graham cracker crumb crust"
+      },
+      {
+         "amount": 0,
+         "name": "lemon slices, optional"
+      }
+   ],
+   "instructions": "Pour milk into a large bowl, add pudding mixes. Beat with wisk 30 seconds. Add lemonade concentrate and beat 30 more seconds. Mixture will be thick. Immediately stir in whipped topping. Spoon into crust. Refrigerate four hours or until set. Garnish with lemon slices, if desired.",
+   "yield": {
+      "amount": 8,
+      "name": "servings"
+   }
+}

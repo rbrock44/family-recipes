@@ -1,0 +1,28 @@
+{
+   "name": "Meringue",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "egg whites"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. cream of tartar"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. desired flavoring"
+      }
+   ],
+   "instructions": "Beat whites with cream of tartar until frothy. Gradually beat in sugar, a little at a time. Continue beating until stiff and glossy. Add flavoring. Pile meringue onto pie filling, being careful to seal the edges. Bake at 400° in oven for 8 to 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
