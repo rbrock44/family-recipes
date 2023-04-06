@@ -1,0 +1,28 @@
+{
+   "name": "Pumpkin Cookies (Glaze)",
+   "author": "Christine Estes",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 4,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 2,
+         "name": "to 4 tsp. milk"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Mix all ingredients together",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

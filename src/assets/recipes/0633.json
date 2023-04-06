@@ -1,0 +1,52 @@
+{
+   "name": "Oatmeal Cookies",
+   "author": "In Memory of Aunt Mary Welter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. white sugar "
+      },
+      {
+         "amount": 2,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. flour, sifted"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. soda"
+      },
+      {
+         "amount": 3,
+         "name": "c. quick oats"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Cream shortening, sugars, eggs and vanilla. Beat well. Add flour, salt and soda. Mix well. Add oats and nuts. Mix, then form into long rolls. Chill, slice and bake. Bake in 350° oven for 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

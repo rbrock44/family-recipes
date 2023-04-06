@@ -1,0 +1,40 @@
+{
+   "name": "McKeevers' Famous Refrigerator Cookies",
+   "author": "Sister Pat McKeever",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 3,
+         "name": "c. oatmeal"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. peanut butter"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. chocolate"
+      }
+   ],
+   "instructions": "Put in sauce pan the sugar, milk and margarine. Boil for one minute, Dump mixture into bowl with the following ingredients: oat- meal, peanut butter, vanilla and chocolate. Mix together well, make spoon size drops on wax paper and refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "name": "Chocolate Turtles",
+   "author": "K.M.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "c. pecan halves"
+      },
+      {
+         "amount": 50,
+         "name": "caramels"
+      },
+      {
+         "amount": 8,
+         "name": "oz. semisweet chocolate"
+      }
+   ],
+   "instructions": "Preheat oven to 300°. On greased baking sheets arrange the pecan halves in groups of 3, flat side down in Y shapes. Place a caramel on top of each cluster, place in the oven until the caramels soften, about 5 to 8 minutes. Remove from oven and flatten the caramels over the pecans with a butter spoon. Cool slightly. Melt the chocolate in the top of a double boiler over simmering water. Dip the turtles into the chocolate and cool on the wax paper. Store in tightly covered containers in a cool place.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

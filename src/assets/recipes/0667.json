@@ -1,0 +1,32 @@
+{
+   "name": "Caramel Candy",
+   "author": "Lorena Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0,
+         "name": "Butter"
+      }
+   ],
+   "instructions": "Melt 1 cup sugar, then add milk. Let cook until all is dissolved. Add remaining sugar and cook until it forms a soft ball in water. Add butter and vanilla and take off stove. Add nuts and beat until creamy, but not too long.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

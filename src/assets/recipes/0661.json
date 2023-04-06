@@ -1,0 +1,52 @@
+{
+   "name": "Carrot Cookies",
+   "author": "Marian M. Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. butter or oleo"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. cooked mashed carrots"
+      },
+      {
+         "amount": 2,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0,
+         "name": "Orange"
+      },
+      {
+         "amount": 0,
+         "name": "Orange rind"
+      },
+      {
+         "amount": 0,
+         "name": "Powdered sugar"
+      }
+   ],
+   "instructions": "Cream oleo. Gradually beat in sugar, salt and vanilla. Beat until fluffy. Add carrots. Sift flour; measure and sift with baking powder. Add to carrot mixture. Drop by teaspoon on lightly buttered cookie sheet. Flatten the cookie dough a little. Bake in preheated 350° oven for 12 to 15 minutes. Frost immediately with orange, orange rind and enough powdered sugar to thicken. Should be thin. These are a healthy cookie.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

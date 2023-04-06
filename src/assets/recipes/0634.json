@@ -1,0 +1,64 @@
+{
+   "name": "Oatmeal Ranger Cookies",
+   "author": "Anna Rose Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. shortening"
+      },
+	  {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "c. cornflakes"
+      },
+      {
+         "amount": 2,
+         "name": "c. rolled oats"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Cream shortening with brown and white sugar. Continue creaming until light and fluffy. Add eggs and vanilla, beat well. Add cornflakes and oats. Sift flour, baking powder, salt, and soda. Add to mixture. Add coconut and nuts. Drop by teaspoon onto lightly greased baking sheets, placing cookies 2 inches apart. Bake in 375° oven about 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,72 @@
+{
+   "name": "Raisin Nut Cookies",
+   "author": "In Memory of Ella I. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. raisins"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. allspice"
+      },
+      {
+         "amount": 1,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. dark brown sugar"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 4,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped walnuts or pecans"
+      }
+   ],
+   "instructions": "Boil raisins and water together for five minutes. This should boil down to 1⁄2 cup liquid. Cool, add soda to raisins and liquid. Cream butter, then add salt, cinnamon, nutmeg, allspice, white sugar and brown sugar, cream together well. Then add beaten eggs, vanilla and cooled raisin-soda mixture. Mix well. Sift flour with baking powder and add to first mixture. Mix well. Stir in nuts. Chill dough. To bake, drop by teaspoonful on greased cookie sheets. Bake 10 to 12 minutes at 400°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

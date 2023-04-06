@@ -1,0 +1,32 @@
+{
+   "name": "Turtles",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "stick butter"
+      },
+      {
+         "amount": 30,
+         "name": "caramels"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. chopped pecans or leave whole"
+      },
+      {
+         "amount": 4,
+         "name": "sq. chocolate bark"
+      },
+      {
+         "amount": 4,
+         "name": "sq. white almond bark"
+      }
+   ],
+   "instructions": "Melt caramel and butter together in microwave, add chopped pecans. Spoon onto buttered cookie sheet or wax paper. Melt chocolate and white bark together. Take hardened caramel pieces and dip in chocolate mixture, set back on cookie sheet until firm.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "Sugar Cookies",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. butter"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1.25,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Beat sugar, butter and eggs until creamy then add rest of ingredients. Chill one hour. Roll out dough and cut with cookie cutters. Bake until done in 375° oven.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

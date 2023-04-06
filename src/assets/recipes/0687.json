@@ -1,0 +1,28 @@
+{
+   "name": "Peanut Butter Candy",
+   "author": "Dustin P. Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. peanut butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. light corn syrup"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. powdered milk"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. powdered sugar"
+      }
+   ],
+   "instructions": "Mix together and roll into balls. Place on wax paper. No bake.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,44 @@
+{
+   "name": "Low Fat Fudge Surprises",
+   "author": "Rita Koeppel",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. evaporated skim milk"
+      },
+      {
+         "amount": 12,
+         "name": "oz. semisweet chocolate chips"
+      },
+      {
+         "amount": 1,
+         "name": "(2 1⁄2 oz.) jar baby food prunes (can't taste them)"
+      },
+      {
+         "amount": 1,
+         "name": "(7 oz.) jar marshmallow cream"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped walnuts"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Line a 13 x 9 inch pan with wax paper, extending paper over the edges. Melt butter, stir in sugar and evaporated milk. Bring to a boil over medium heat, stirring constantly. Boil, stirring for five minutes. Remove from heat and slowly stir in chocolate chips until they melt. Stir in remaining ingredients. Spread mixture into prepared pan. Refrigerate until firm. Use the wax paper to lift fudge from pan. Then cut into small pieces.",
+   "yield": {
+      "amount": 48,
+      "name": ""
+   }
+}

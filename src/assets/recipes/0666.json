@@ -1,0 +1,32 @@
+{
+   "name": "Buckeyes",
+   "author": "Anna Rose Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "lb. powdered sugar"
+      },
+      {
+         "amount": 12,
+         "name": "oz. chocolate chips"
+      },
+      {
+         "amount": 18,
+         "name": "lb. paraffin"
+      },
+      {
+         "amount": 1,
+         "name": "lb. peanut butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. margarine, softened"
+      }
+   ],
+   "instructions": "Mix well first three ingredients. Roll into balls the size of buck- eyes, abut 1 inch. Lay on cookie sheet. Chill. Melt chocolate chips and paraffin in double boiler. Coat buckeyes with chocolate. Lay on cook sheet. Chill again.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

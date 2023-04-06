@@ -1,0 +1,28 @@
+{
+   "name": "Orange Balls",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "small can orange juice, frozen"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter, softened"
+      },
+      {
+         "amount": 1,
+         "name": "box powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "box vanilla wafers, crushed"
+      }
+   ],
+   "instructions": "Mix all ingredients together. Chill dough for a little while. Then shape into balls and roll in coconut.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,52 @@
+{
+   "name": "Peanut Butter Cookies",
+   "author": "Donna Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. firmly packed brown sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening or margarine, softened"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. peanut butter"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1.75,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "In a large bowl, combine first seven ingredients, blend well. Stir in remaining ingredients, blend well. Shape into 1 inch balls. Place 2 inches apart on ungreased cookie sheet. Flatten in crisscross pattern with fork dipped in sugar. Bake at 350° for 7 to 8 minutes or until golden brown. Immediately remove from cookie sheet.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

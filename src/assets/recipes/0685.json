@@ -1,0 +1,40 @@
+{
+   "name": "Peanut Brittle",
+   "author": "Annita Layton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. corn syrup, light or dark"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 2,
+         "name": "raw peanuts, skin on"
+      }
+   ],
+   "instructions": "Combine sugar, syrup, water and salt. Cook and stir until sugar dissolves. When syrup boils, add butter. Stir frequently till thread stage (230°). Add nuts at soft crack stage (280°) Stir until hard crack stage (300°). Remove from heat. Stir in baking soda. Pour into 2 greased cookie sheets.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,64 @@
+{
+   "name": "Good Neighbor Cookies",
+   "author": "Ginny Robert",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 1,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0,
+         "name": "Cream sugars and shortening."
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "c. quick oats"
+      },
+      {
+         "amount": 2,
+         "name": "c. corn flakes"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      }
+   ],
+   "instructions": "Beat in eggs and mix well. Gradu- ally add soda, powder and vanilla. Then add salt, oats, cornflakes, coconut and flour. Mix well. Chill dough. Drop by spoonful on greased cookie sheet. Bake 12 minutes at 325°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

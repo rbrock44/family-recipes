@@ -1,0 +1,36 @@
+{
+   "name": "Peanut Brittle",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. corn syrup"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. peanuts"
+      },
+      {
+         "amount": 0.625,
+         "name": "c. water"
+      },
+      {
+         "amount": 3.75,
+         "name": "Tbsp. butter"
+      }
+   ],
+   "instructions": "Boil sugar, water and syrup for 2 or 3 minutes. Add peanuts and cook to hard crack stage (300°). Remove and add butter and soda. Pour out on buttered board and pull thin.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "name": "Sugar Cookie",
+   "author": "Charlotte Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cream of tartar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      }
+   ],
+   "instructions": "Cream butter and add white sugar and brown sugar. Mix well. Add eggs and vanilla and beat well. Then add cream of tarter, baking soda, and salt. Mix well. Add flour one cup at a time until well blended. Scoop dough into balls with ice cream scoop. Roll in sugar and bake at 375° for 10 to 12 minutes or until golden brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

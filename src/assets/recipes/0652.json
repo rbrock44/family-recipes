@@ -1,0 +1,28 @@
+{
+   "name": "Sugar Cookie (Icing)",
+   "author": "Laurie Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. powdered sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Crisco shortening"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 8,
+         "name": "Tbsp. milk (more for thinner icing)"
+      }
+   ],
+   "instructions": "Blend and beat well until light and creamy.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

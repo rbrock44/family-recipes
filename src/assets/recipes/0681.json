@@ -1,0 +1,36 @@
+{
+   "name": "Non-Cook Divinity",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. Betty Crocker Fluffy White Frosting mix (dry)"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. Karo white syrup"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. boiling water"
+      },
+      {
+         "amount": 1,
+         "name": "lb. powdered sugar, sifted"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "In large bowl combine dry frosting mix, white syrup, vanilla and boiling water. Beat at high speed for five minutes. Add powdered sug- ar, gradually. Beat at low speed. Add pecans. Dip with teaspoon onto waxed paper.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

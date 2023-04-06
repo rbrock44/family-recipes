@@ -1,0 +1,24 @@
+{
+   "name": "Peanut Clusters",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "regular size jar of slightly salted peanuts"
+      },
+      {
+         "amount": 5,
+         "name": "sq. chocolate almond bark"
+      },
+      {
+         "amount": 2,
+         "name": "sq. white almond bark"
+      }
+   ],
+   "instructions": "Melt almond bark in microwave until smooth. Stir in peanuts and spoon onto wax paper. Let set until firm.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

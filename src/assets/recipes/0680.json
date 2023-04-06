@@ -1,0 +1,40 @@
+{
+   "name": "Divinity",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. granulated sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. light corn syrup"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "egg whites"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. powdered sugar"
+      }
+   ],
+   "instructions": "In saucepan mix first 4 ingredients. Slowly bring to a boil, stirring until sugar dissolves. Cook to 260° (hardball stage). Meanwhile, beat egg whites until stiff. Gradually pour hot syrup into whites, beating constantly. Beat until candy begins to hold its shape. Beat in vanilla and powdered sugar. (This amount of powdered sugar makes a real improvement in texture.) Drop from teaspoon onto waxed paper or pour into buttered pan. Let stand several hours until firm. Store in airtight container.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "Butterscotch Refrigerator Cookies",
+   "author": "Vernita Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cream of tartar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "or 4 c. sifted flour"
+      }
+   ],
+   "instructions": "Stir together sugar, shortening and eggs until light. Butter makes fine cookies 1/2 butter, 1⁄2 lard does very well. Sift flour and add with other ingredients. Turn onto large platter and knead into loaf. Set in cool place to chill. Slice off very thin and bake in moderate oven.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

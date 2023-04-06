@@ -1,0 +1,32 @@
+{
+   "name": "Strawberry Divinity",
+   "author": "Lorena Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. light corn syrup"
+      },
+      {
+         "amount": 3,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. water"
+      },
+      {
+         "amount": 2,
+         "name": "egg whites"
+      },
+      {
+         "amount": 1,
+         "name": "(3 oz.) pkg. strawberry Jell-O or any other flavor"
+      }
+   ],
+   "instructions": "Combine sugar, syrup and water in saucepan. Bring to a boil over medium heat stirring constantly. Reduce heat. Continue to cook without stirring until mixture reaches hard ball stage (252°) or until a small amount forms a hard ball in cold water. Beat egg whites in large bowl until fluffy. Gradually add Jell-O and beat until stiff peaks form. Slowly pour hot syrup into beaten egg whites, beating constant- ly. Beat just until candy loses its gloss and holds its shape. Drop by teaspoon onto wax paper or pour into pan. Cool and allow to set until firm.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

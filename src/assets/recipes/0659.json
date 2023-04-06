@@ -1,0 +1,36 @@
+{
+   "name": "Anise Cookies",
+   "author": "In Memory of Rosa Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 12,
+         "name": "eggs"
+      },
+      {
+         "amount": 6,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. melted butter"
+      },
+      {
+         "amount": 3,
+         "name": "tsp. hartshorn"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. anise oil"
+      },
+      {
+         "amount": 0,
+         "name": "Flour, enough to make dough stiff enough to roll out"
+      }
+   ],
+   "instructions": "Combine eggs and sugar and beat for half an hour. Add butter and continue beating for fifteen minutes. Now add anise oil and beat for another fifteen minutes. Sift hartshorn with 2 cups flour and add to other ingredients. Add sufficient flour to make dough stiff enough to roll and cut cookies. Cut cookies into squares. Place cookies on bread board and let stand in cool room overnight. Bake in slow oven. ",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

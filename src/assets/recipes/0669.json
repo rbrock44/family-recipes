@@ -1,0 +1,20 @@
+{
+   "name": "Coconut Bon Bons",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. light corn syrup"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. dry macaroon coconut"
+      }
+   ],
+   "instructions": "In a small pan, heat the corn syrup to quite hot, but do not boil. Then pour into bowl containing the coconut and thoroughly mix the two with a spoon or spatula, then set aside for one hour so the coconut will become well saturated with the corn syrup. Saturated coconut can now be hand rolled into ball, centers for bon bons. It is easier to roll if hands are kept wet while rolling. These centers are not ready for hand dipping in coating. They will however, be easier to dip if set aside for one or two hours after hand rolling. This will let the surface of the ball center dry out and become firm for easy handling. Then dip coco- nut centers in regular chocolate coating.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
