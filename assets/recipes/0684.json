@@ -1,0 +1,32 @@
+{
+   "name": "Mounds Balls",
+   "author": "Anna Rose Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 14,
+         "name": "oz. coconut"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "can Eagle Brand milk"
+      },
+      {
+         "amount": 12,
+         "name": "oz. chocolate chips"
+      },
+      {
+         "amount": 0.33,
+         "name": "block paraffin"
+      }
+   ],
+   "instructions": "Mix first 3 ingredients together. Refrigerate 2 hours or longer. Take out and make into walnut size balls. Put back in refrigerator. Melt chocolate chips and paraffin on low heat or in double boiler. Dip coconut balls using 2 forks into chocolate mixture. Place on waxed paper to cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

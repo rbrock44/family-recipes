@@ -1,0 +1,32 @@
+{
+   "name": "Splendid Cookies",
+   "author": "In Memory of Anna Diebold",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. lard"
+      },
+      {
+         "amount": 1,
+         "name": "c. sour milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0,
+         "name": "Flour, enough to roll"
+      }
+   ],
+   "instructions": "Mix ingredients together. Roll out and cut with favorite cookie cutters.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

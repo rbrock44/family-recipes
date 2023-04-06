@@ -1,0 +1,60 @@
+{
+   "name": "Zucchini Cookies",
+   "author": "Helen Raines",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. softened butter"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. shredded zucchini"
+      },
+      {
+         "amount": 1,
+         "name": "c. chocolate chips"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Cream butter and sugar; add egg and vanilla. Add zucchini. Stir in flour, baking powder, cinnamon and salt. Add nuts and chips. Drop dough, using a teaspoon, onto a greased cookie sheet. Bake 15 minutes at 350° until golden brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

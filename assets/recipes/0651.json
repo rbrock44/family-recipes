@@ -1,0 +1,44 @@
+{
+   "name": "Sugar Cookie",
+   "author": "Laurie Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 3,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 8,
+         "name": "Tbsp. sour milk"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 8,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      }
+   ],
+   "instructions": "Mix all together. Roll dough on floured board 1/4 inch thick. Bake at 350° for about 8 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

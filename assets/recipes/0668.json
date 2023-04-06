@@ -1,0 +1,36 @@
+{
+   "name": "Marshmallow Caramel Candy",
+   "author": "Lorena Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sweet cream"
+      },
+      {
+         "amount": 2,
+         "name": "c. white syrup"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. sweet milk"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. marshmallows"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. coconut, cereal, or nuts"
+      }
+   ],
+   "instructions": "Cook together cream, syrup, sugar, and sweet milk. Cook until it forms a soft ball in water. Cut marshmallows in fourths and roll in cooked filling. Then roll in nuts, coconut or cereal as desired. Place on waxed paper to cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,56 @@
+{
+   "name": "It's So Easy Oatmeal Cookies",
+   "author": "Irene Blattel",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "sticks margarine"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.75,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "oatmeal"
+      },
+      {
+         "amount": 12,
+         "name": "oz. chocolate chips"
+      }
+   ],
+   "instructions": "Mix until fluffy margarine, sugars, eggs, water, vanilla, baking soda and salt. Add all at once flour, oatmeal and chocolate chips. Drop by teaspoonfuls onto lightly greased cookie sheet. Bake at 350° for 10 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

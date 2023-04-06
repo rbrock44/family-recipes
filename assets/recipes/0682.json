@@ -1,0 +1,44 @@
+{
+   "name": "Divinity in a Basket",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. nuts"
+      },
+      {
+         "amount": 1,
+         "name": "c. cherries"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. white syrup"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "egg whites"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Chop nuts coarsely, cut up cherries fine. Combine sugar, syrup, water and salt in a pan. Cook without stirring until hard boil stage. Beat egg whites until stiff enough to hold peaks but not stiff enough to cling to bowl. Pour the syrup in a very thin stream, slowly, onto the beaten egg whites, beating constantly. Continue beating until it is so thick you can pick up the mixture on the beater. Then mix in vanilla, nuts, and cherries. Drop from a teaspoon onto waxed paper.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

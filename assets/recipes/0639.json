@@ -1,0 +1,48 @@
+{
+   "name": "Pumpkin Cookies",
+   "author": "Christine Estes",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "c. nuts, chopped"
+      },
+      {
+         "amount": 2,
+         "name": "c. pumpkin"
+      },
+      {
+         "amount": 4,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Mix sugar, pumpkin and shortening in separate bowl. Mix dry ingredients. Stir in nuts. Mix in shortening mixture. Drop dough by teaspoon onto cookie sheets (ungreased) Bake 8 to 10 minutes. Immediately remove from cookie sheet. Cool and glaze with powdered sugar icing.",
+   "yield": {
+      "amount": 8,
+      "name": "dozen"
+   }
+}

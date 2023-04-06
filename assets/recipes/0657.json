@@ -1,0 +1,52 @@
+{
+   "name": "Rock Cookies",
+   "author": "In Memory of Anna Diebold",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. lard or butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking soda dissolved in 1/2 C. warm water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cloves"
+      },
+      {
+         "amount": 0,
+         "name": "A little salt"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. walnuts"
+      },
+      {
+         "amount": 2,
+         "name": "c. raisins"
+      },
+      {
+         "amount": 0,
+         "name": "Flour"
+      }
+   ],
+   "instructions": "Mix ingredients together. Add enough flour so cookies fall off spoon. Do not chop nuts. Bake in moderate oven.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

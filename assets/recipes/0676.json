@@ -1,0 +1,32 @@
+{
+   "name": "Almond Bark Candy",
+   "author": "Lorena Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb. almond bark"
+      },
+      {
+         "amount": 1,
+         "name": "c. crunchy peanut butter"
+      },
+      {
+         "amount": 2,
+         "name": "c. salted peanuts"
+      },
+      {
+         "amount": 2,
+         "name": "c. miniature marshmallows"
+      },
+      {
+         "amount": 3,
+         "name": "c. rice crispies"
+      }
+   ],
+   "instructions": "Melt the almond bark. Add rest of ingredients. Drop by teaspoons on foil to cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

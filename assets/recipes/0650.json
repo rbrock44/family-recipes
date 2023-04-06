@@ -1,0 +1,24 @@
+{
+   "name": "Sugar Cookies (Icing)",
+   "author": "Laurie Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. confectioners sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. cream or milk"
+      }
+   ],
+   "instructions": "Add vanilla to confections sugar. Add milk gradually and beat until frosting is of right consistency for decorating or spreading.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "name": "Hard Candy",
+   "author": "Anna Rose Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. light corn syrup"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. flavor oils"
+      },
+      {
+         "amount": 0,
+         "name": "Food coloring"
+      },
+      {
+         "amount": 0,
+         "name": "Powdered sugar"
+      }
+   ],
+   "instructions": "Mix the first three ingredients in a saucepan over medium heat until all sugar dissolves. Boil without stirring until temperature reach- es 310°, or until drops of mixture form hard brittle threads in cold water. (This takes quite awhile.) Remove from heat. After boiling has stopped, stir in flavoring and coloring and mix well. Pour onto lightly greased cookie sheet (one with high sides). Cool. Break into pieces. Shake with powdered sugar so the pieces won't stick together. Store in airtight containers.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

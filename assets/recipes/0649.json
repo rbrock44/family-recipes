@@ -1,0 +1,44 @@
+{
+   "name": "Sugar Cookies",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2.75,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. baking soda"
+      }
+   ],
+   "instructions": "Cream shortening and sugar well. Beat in eggs and vanilla. Gradually blend in dry ingredients which have been sifted together. Chill the dough at least three hours. Roll to 8 or 1/4 inch thickness on a lightly floured pastry canvas. Cut cookies with floured cookie cut- ters. Bake on ungreased cookie sheets at 375° for 8 to 10 minutes.",
+   "yield": {
+      "amount": 2.5,
+      "name": "dozen"
+   }
+}

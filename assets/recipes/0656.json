@@ -1,0 +1,52 @@
+{
+   "name": "Ellen's Vanilla Nut Cookies",
+   "author": "E.R.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "Tbsp. melted butter"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "egg, beaten"
+      },
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. packed brown sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Mix flour, baking powder and salt. Cream butter thoroughly, add sugars gradually, and cream together until light. Then add eggs, nuts, milk and vanilla. Add flour gradually, mixing well. Shape into rolls, 1 1⁄2 inch in diameter and roll in waxed paper. Chill. Cut into 1/8 inch slices. Bake on ungreased cookie sheet for 10 minutes at 325°.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

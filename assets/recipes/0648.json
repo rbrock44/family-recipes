@@ -1,0 +1,76 @@
+{
+   "name": "Grandma's Soft Sugar Cookies",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. lemon extract"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. ground nutmeg"
+      },
+      {
+         "amount": 3.5,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cream of tartar"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 1,
+         "name": "c. buttermilk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar, for top"
+      },
+      {
+         "amount": 0,
+         "name": "Seedless raisins"
+      }
+   ],
+   "instructions": "Beat together white and brown sugars, butter and shortening until light and fluffy. Beat in eggs, vanilla and lemon extract to mix well. Sift together nutmeg, flour, baking powder, cream of tarter, salt and soda. Add alternately with buttermilk to creamed mixture. Drop for 10 minutes. by tablespoons on greased baking sheet, 2 1⁄2 inches apart. Bake at 400°",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

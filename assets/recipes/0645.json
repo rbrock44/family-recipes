@@ -1,0 +1,28 @@
+{
+   "name": "Amy's Shortbread Cookies",
+   "author": "Rebecca Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. butter, softened"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sifted powdered sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 0,
+         "name": "Sugar"
+      }
+   ],
+   "instructions": "Cream butter, gradually add powdered sugar, beating until light and fluffy. Stir in flour. (Mixture will be stiff.) Press into 15 x 10 x 1 inch jelly roll pan, prick all over with fork. Chill 30 minutes. Bake at 375° for 5 minutes, reduce heat to 300° and bake 20 minutes more. Sprinkle with sugar.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

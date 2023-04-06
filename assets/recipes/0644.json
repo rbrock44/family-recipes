@@ -1,0 +1,36 @@
+{
+   "name": "Russian Teacakes",
+   "author": "K.H.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. soft butter"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 2.25,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Mix together butter, vanilla and powdered sugar. Sift together flour and salt. Mix in chopped nuts. Chill dough. Roll into one inch balls. Place on ungreased baking sheet (cookies do not spread). Bake until set, but not brown. While still warm, roll in confectioners sugar. Cool. Roll in sugar again. Bake at 400° for 10 to 12 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

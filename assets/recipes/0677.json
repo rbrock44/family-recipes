@@ -1,0 +1,28 @@
+{
+   "name": "Heavenly Hash Candy",
+   "author": "Annita Layton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "(8 oz.) pkg. marshmallows"
+      },
+      {
+         "amount": 2,
+         "name": "(6 oz.) pkg. chocolate chips"
+      },
+      {
+         "amount": 1,
+         "name": "can Eagle Brand Milk"
+      },
+      {
+         "amount": 0,
+         "name": "Nuts"
+      }
+   ],
+   "instructions": "Cut marshmallows in half, melt chips with 2 tablespoons milk. When melted add rest of milk. Pour over marshmallows, add nuts. Press in buttered pan. Cut when cool.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

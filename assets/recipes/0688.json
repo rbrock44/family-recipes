@@ -1,0 +1,40 @@
+{
+   "name": "Peanut Butter Fudge",
+   "author": "Patty Schaefer",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 16,
+         "name": "oz. peanut butter"
+      },
+      {
+         "amount": 1,
+         "name": "can evaporated milk"
+      },
+      {
+         "amount": 12,
+         "name": "oz. chocolate chips"
+      },
+      {
+         "amount": 14,
+         "name": "oz. sweetened condensed milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla extract"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      }
+   ],
+   "instructions": "Cook evaporated milk and sugar over medium heat until they form a soft ball, stirring constantly, about 15 to 20 minutes. Remove milk and sugar mixture from stove and stir in peanut butter until mixed well. Pour and spread evenly into buttered cookie sheet. (Should be firm in about 5 to 10 minutes.) Combine chocolate chips, sweetened condensed milk, vanilla extract and butter. Heat in microwave for three minutes until melted; stir after each 1 minute interval. Spread chocolate mixture over fudge mixture. Refrigerate. Enjoy your homemade Reeses' Peanut butter bar!",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

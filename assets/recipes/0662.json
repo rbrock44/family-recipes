@@ -1,0 +1,60 @@
+{
+   "name": "Halloween Cookie Pizza",
+   "author": "Lorena Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. packed brown sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter flavor Crisco shortening"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla extract"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. baking soda"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. Reeses peanut butter chips"
+      },
+      {
+         "amount": 1,
+         "name": "c. miniature marshmallows"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. Hershey's semi sweet chocolate chips"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Heat oven to 350°. Lightly grease 12 inch round pizza pan. In large mixer bowl, beat sugar and shortening until creamy. Add egg, water, and vanilla; beat well. In separate bowl stir together flour, baking soda and salt. Add to sugar mixture, beating on low speed until well blended. Stir in peanut butter chips. Spread batter in prepared pan to within 1/2 inch of edge. Bake 11 to 13 minutes or until set. Remove from oven. Sprinkle marshmallows, chocolate chips and pecans over top. Bake another 5 to 7 minutes until marshmallows are lightly browned. Can drizzle on top, chocolate and or orange drizzle. Chocolate drizzle: 1/4 cup chocolate chips and 1⁄2 teaspoon Crisco butter flavored, melted. Orange drizzle: 1⁄2 cup powdered sugar and 1 tablespoon water and orange coloring.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
