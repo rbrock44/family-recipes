@@ -1,0 +1,36 @@
+{
+   "name": "Pecan Pie",
+   "author": "Cheryl Stone",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. dark Karo syrup"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. pecans"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3,
+         "name": "eggs, beaten well"
+      },
+      {
+         "amount": 1,
+         "name": "(9 inch) pie crust"
+      }
+   ],
+   "instructions": "Mix all ingredients and pour into pie shell. Bake at 325° for 40 to 50 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

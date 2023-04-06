@@ -1,0 +1,28 @@
+{
+   "name": "Pie Crust",
+   "author": "Irene Blattel",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. cooking oil"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. milk"
+      }
+   ],
+   "instructions": "Mix all ingredients. Roll out between two pieces of wax paper or plastic wrap. This is enough for a double crust pie.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

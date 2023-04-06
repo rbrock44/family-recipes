@@ -1,0 +1,48 @@
+{
+   "name": "Big Slice Pecan Pie",
+   "author": "S.P.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "stick margarine"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. dark brown sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. dark corn syrup"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 0,
+         "name": "Pecans halves for garnish"
+      },
+      {
+         "amount": 1,
+         "name": "(9 inch) pie shell, unbaked"
+      }
+   ],
+   "instructions": "Cream margarine with sugar. Add syrup, vanilla and salt. In a separate bowl, beat eggs until very light, add to first mixture. Fold in pecans reserving enough pecans for garnish. Pour into pastry shell, bake at 425° for 10 minutes. Reduce heat to 350° and bake until firm for 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

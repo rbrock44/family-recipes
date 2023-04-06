@@ -1,0 +1,32 @@
+{
+   "name": "Cinnamon Candy Apples",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 6,
+         "name": "medium apples"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. lemon juice"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. red cinnamon candies"
+      }
+   ],
+   "instructions": "Pare, quarter and core apples. Mix sugar, lemon juice, water and candies in saucepan. Cook for 5 minutes to form a syrup. Add apples to syrup; cook until transparent and tender.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

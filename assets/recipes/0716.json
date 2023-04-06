@@ -1,0 +1,40 @@
+{
+   "name": "Custard Pie",
+   "author": "Shirley Drury, Annita Layton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pastry shell for 9 inch pie"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 2.66,
+         "name": "c. scalding hot milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla, if desired"
+      }
+   ],
+   "instructions": "Beat eggs slightly with rotary beater. Then beat in sugar, salt, nutmeg, milk and vanilla. Pour into pastry lined pie pan. Bake just until a silver knife inserted into side of filling comes out clean. The center may still look a bit soft, but will set later. Bake at 450° for 15 minutes, then 350° for 25 to 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

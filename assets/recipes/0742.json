@@ -1,0 +1,44 @@
+{
+   "name": "Strawberry Jello Pie",
+   "author": "Revella Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. cornstarch"
+      },
+      {
+         "amount": 0,
+         "name": "Dash of salt"
+      },
+      {
+         "amount": 0,
+         "name": "Red food coloring"
+      },
+      {
+         "amount": 1,
+         "name": "small box strawberry Jell-O (3 oz.)"
+      },
+      {
+         "amount": 2,
+         "name": "c. strawberries, slice and unsweetened"
+      },
+      {
+         "amount": 1,
+         "name": "pie shell, baked"
+      }
+   ],
+   "instructions": "Combine sugar, water, cornstarch and salt. Cook until clear. Remove from heat and add red food coloring. Add Jell-O and stir well, let cool. Put sliced berries in baked pie shell. Pour sauce over berries. Chill. Top with Cool Whip or whipped cream.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

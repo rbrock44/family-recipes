@@ -1,0 +1,32 @@
+{
+   "name": "Cherry Crumb Pie",
+   "author": "Kurt Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can cherry pie filling"
+      },
+      {
+         "amount": 1,
+         "name": "unbaked pie shell"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. butter"
+      }
+   ],
+   "instructions": "Pour cherry pie filling into unbaked pie shell. Combine flour and sugar. Cut in butter until crumbly. Sprinkle over filling. Bake at 400° until crust is golden brown, approximately 40 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "name": "Vanilla Cream Pie",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.66,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2.5,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 3,
+         "name": "egg yolks, slightly beaten"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0,
+         "name": "Cooled, baked pie shell"
+      }
+   ],
+   "instructions": "Mix in saucepan the sugar, salt, cornstarch and flour. Stir in milk gradually. Cook over moderate heat, stirring constantly, until mixture thickens and boils. Boil 1 minute. Remove from heat. Slowly stir half the mixture into egg yolks and mix well. Slowly stir into the hot mixture, continue cooking for 2 more minutes. Then stir in butter and vanilla. For banana cream pie, add 3 large bananas. For coconut cream pie, add 3/4 cup shredded coconut. Can top with meringue.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

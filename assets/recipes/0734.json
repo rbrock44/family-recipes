@@ -1,0 +1,36 @@
+{
+   "name": "Mom's Raisin Pie",
+   "author": "In Memory of Ella I. Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. raisins"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. water"
+      },
+      {
+         "amount": 0,
+         "name": "Pie shells, for top and bottom"
+      }
+   ],
+   "instructions": "Cover raisins with water and sugar. Bring to boil until raisins plump. Mix cornstarch with water to make a paste. Add to boiling mixture and boil until thick. Pour in pie shell and bake until done, 400° for 20 to 30 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

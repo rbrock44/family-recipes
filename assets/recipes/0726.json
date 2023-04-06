@@ -1,0 +1,40 @@
+{
+   "name": "Pecan Pie",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. dark or light syrup"
+      },
+      {
+         "amount": 1,
+         "name": "c. pecans"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. butter, optional"
+      },
+      {
+         "amount": 1,
+         "name": "Unbaked pie shell"
+      }
+   ],
+   "instructions": "Beat until thick the eggs and sugar. Add syrup, pecans, vanilla and butter. Mix well. Pour into unbaked pie shell. Bake at 325° for about 1 hour.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "name": "Chow Mein Noodle Candy",
+   "author": "Helen Welter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "pkg. butterscotch morsels"
+      },
+      {
+         "amount": 0.5,
+         "name": "can chow mein dry noodles"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. nuts"
+      }
+   ],
+   "instructions": "Melt morsels in double boiler. Remove from stove. Add nuts and chow mein noodles and mix well. Dip out with teaspoon and out on waxed paper. (Use Nestles Butterscotch Tollhouse morsels.)",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

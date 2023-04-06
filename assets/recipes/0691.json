@@ -1,0 +1,36 @@
+{
+   "name": "New Orleans Pralines",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. light brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. light corn syrup"
+      },
+      {
+         "amount": 1,
+         "name": "c. pecan halves"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. maple flavoring"
+      }
+   ],
+   "instructions": "In a 2 quart saucepan, combine the sugar, water, corn syrup and pecan halves. Mix well and bring to a boil over a medium heat, stirring often to make sure the sugar is dissolved before mixture reaches the boiling point. Continue to cook over a medium to high heat, stirring occasionally, until temperature reaches 236°. Remove saucepan containing mixture from heat and let stand until temperature of mixture cools to 180°. Add maple flavoring and begin to stir with a spoon and continue stirring until mixture becomes thicker and appears just a little lighter in color. Do not stir until mixture become too thick to pour. Using a tablespoon, dip mixture onto wax paper.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,44 @@
+{
+   "name": "Strawberry Pie",
+   "author": "Rebecca Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "pints fresh strawberries, washed and hulled"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2.5,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. lemon juice"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter or margarine"
+      },
+      {
+         "amount": 1,
+         "name": "baked pie shell"
+      },
+      {
+         "amount": 0,
+         "name": "Whipped cream"
+      }
+   ],
+   "instructions": "Crush strawberries. In a saucepan, blend together sugar, corn- starch and water. Add crushed berries and lemon juice. Bring to a boil; cook until mixture is clear, about 2 minutes. Then strain juice and stir in butter. Arrange remaining whole berries in baked 9 inch pie shell. Spoon glaze over berries carefully, coating each berry. Cool. Serve with whipped cream.",
+   "yield": {
+      "amount": 6,
+      "name": "6 to 8 servings"
+   }
+}

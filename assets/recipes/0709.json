@@ -1,0 +1,32 @@
+{
+   "name": "Cherry Cream Cheese Pie",
+   "author": "Juanita Dannenmueller",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "can cherry pie filling"
+      },
+      {
+         "amount": 2,
+         "name": "(9-inch) pie crusts, baked"
+      },
+      {
+         "amount": 2,
+         "name": "(8 oz.) Cool Whip"
+      }
+   ],
+   "instructions": "Mix cream cheese, Cool Whip and powdered sugar together. Add a little milk. Pour into pie crust. Top with cherry filling. Put in refrigerator until chilled.",
+   "yield": {
+      "amount": 2,
+      "name": "pies"
+   }
+}

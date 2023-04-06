@@ -1,0 +1,24 @@
+{
+   "name": "Lemonade Pie",
+   "author": "Ramona Bess",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "small can frozen lemonade"
+      },
+      {
+         "amount": 1,
+         "name": "can Eagle Brand Milk"
+      },
+      {
+         "amount": 1,
+         "name": "small container Cool Whip"
+      }
+   ],
+   "instructions": "Put milk and lemonade in bowl, beat well. Add Cool Whip and beat again. Put in graham cracker crust and chill for 2 1⁄2 hours. Sprinkle top with graham cracker crumbs.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

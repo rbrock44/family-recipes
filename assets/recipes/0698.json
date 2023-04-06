@@ -1,0 +1,36 @@
+{
+   "name": "Angel Pie",
+   "author": "Jennifer Menz, Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "egg whites, beaten until stiff"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. graham cracker crumbs"
+      },
+      {
+         "amount": 2,
+         "name": "c. chopped pecans"
+      }
+   ],
+   "instructions": "Add sugar, vanilla and baking powder to beaten egg whites. Add graham cracker crumbs and pecans. Bake for 30 minutes at 350° in a greased pie pan, do not overbake. Can serve with Cool Whip.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

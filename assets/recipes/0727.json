@@ -1,0 +1,44 @@
+{
+   "name": "Pecan Pie",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. white syrup"
+      },
+      {
+         "amount": 6,
+         "name": "eggs, beaten"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. pecans"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0,
+         "name": "Unbaked pie shell"
+      }
+   ],
+   "instructions": "Mix all ingredients together and pour in unbaked pie shell. Bake at 325° for one hour.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

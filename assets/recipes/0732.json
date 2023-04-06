@@ -1,0 +1,48 @@
+{
+   "name": "Pumpkin Pie with Molasses",
+   "author": "Lorena Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "c. pumpkin (dry)"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. molasses"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. melted butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "unbaked pie crusts"
+      }
+   ],
+   "instructions": "Mix ingredients in order given. Beat egg yolks and whites sepa- rately. Bake in two unbaked crusts about 40 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

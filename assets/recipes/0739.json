@@ -1,0 +1,40 @@
+{
+   "name": "Strawberries Glaze Pie",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "qt. strawberries"
+      },
+      {
+         "amount": 1,
+         "name": "baked pie shell"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "small pkg. cream cheese"
+      },
+      {
+         "amount": 0,
+         "name": "Whipped cream or ice cream"
+      }
+   ],
+   "instructions": "Take 1 cup of smallest berries and 1 cup water and cook slowly until berries are soft. Strain, mix together sugar and cornstarch. Add to juice and cook until clear and thick. Cool. Add powdered sugar to 3 cups large berries. Let stand for one hour. Spread 1 small package cream cheese in bottom of pie shell. Next arrange large berries in shell, topping with the cooled liquid. Chill in refrigerator. Serve with whipped cream or ice cream.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

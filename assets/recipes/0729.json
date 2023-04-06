@@ -1,0 +1,52 @@
+{
+   "name": "Pumpkin Chiffon Pie",
+   "author": "Donna Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. (3 oz.) cream cheese, softened"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Cool Whip (4 oz.)"
+      },
+      {
+         "amount": 1,
+         "name": "graham cracker crust"
+      },
+      {
+         "amount": 1,
+         "name": "c. cold milk"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. (3.4 oz.) instant vanilla pudding"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) pumpkin"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. ground ginger"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. ground cloves"
+      }
+   ],
+   "instructions": "In a mixing bowl, beat cream cheese and sugar until smooth. Add Cool Whip and mix well. Spread into crust. In another bowl beat milk and pudding mixes on low speed until combined; beat on high for 2 minutes. Let stand 3 minutes. Stir in pumpkin and spices. Mix well. Spread over cream cheese layer. Chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

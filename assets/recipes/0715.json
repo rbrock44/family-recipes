@@ -1,0 +1,40 @@
+{
+   "name": "Impossible Coconut Pie",
+   "author": "R.G.",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. flaked coconut"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. biscuit baking mix"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      }
+   ],
+   "instructions": "Heat oven to 350°. Grease deep 9 inch pie plate. Place all ingredients in blender container. Cover and blend on high speed 15 seconds. Pour into plate. Bake until knife inserted in center comes out clean, 50 to 55 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

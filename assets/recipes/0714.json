@@ -1,0 +1,52 @@
+{
+   "name": "Chocolate-Filled Meringue Shells with Strawberry Sauce",
+   "author": "Annita Layton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "egg whites"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. cream of tartar"
+      },
+      {
+         "amount": 0,
+         "name": "Dash salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. vanilla extract"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. softened cream cheese"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. HERSHEY'S cocoa"
+      },
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. frozen non-dairy whipped topping, thawed"
+      },
+      {
+         "amount": 1,
+         "name": "(10 oz.) pkg. frozen strawberries in syrup, thawed"
+      }
+   ],
+   "instructions": "Heat oven to 275°. Paper-line 12 muffin cups. In small mixer bowl, beat egg whites with cream of tartar and salt until soft peaks form. Beat in sugar, 1 tablespoon at a time, until stiff, glossy peaks form. Stir in vanilla. Spoon 2 to 3 tablespoons meringue in each prepared cup. Using back of spoon or small spatula, push meringue up sides of paper cups forming well in center. Bake for 1 hour or until meringue turns delicate cream color and feels dry to the touch. Cool in pan on wire rack. In small mixer bowl, beat cream cheese and cocoa. Gradually add powdered sugar, beating until well blended. Fold in whipped topping. This makes the chocolate filling. Spoon the filling into shells. Before serving, carefully remove paper from shells. Puree strawberries; spoon over meringues. Refrigerate leftovers.",
+   "yield": {
+      "amount": 12,
+      "name": "servings"
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "Fruit and Cream Pies",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pastry for 9 inch pie"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 4,
+         "name": "c. fresh berries"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "c. cream"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. flour"
+      }
+   ],
+   "instructions": "Place berries in pie crust. Mix together and pour over berries the sugar, flour, salt, cinnamon and cream. Bake until crust is nicely browned and filling is set. Serve slightly warm Bake in 400° oven for 35 to 45 minutes. This recipe can be used for blackberries, blueberries, raspberries, peaches and rhubarb.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

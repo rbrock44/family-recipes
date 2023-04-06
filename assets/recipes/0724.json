@@ -1,0 +1,44 @@
+{
+   "name": "Peanut Butter Pie",
+   "author": "Charlotte Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "c. milk"
+      },
+      {
+         "amount": 3,
+         "name": "slightly beaten egg yolks"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. peanut butter"
+      },
+      {
+         "amount": 1,
+         "name": "pie crust, baked"
+      }
+   ],
+   "instructions": "In saucepan combine sugar, cornstarch and salt. Gradually stir in milk. Cook and stir over medium heat until bubbly. Cook and stir 2 minutes more. Remove from heat. Stir small amount of hot mixture into beaten egg yolks. Immediately return to hot mixture. Cook for 2 minutes, stirring constantly. Remove from heat and add peanut but- ter and vanilla. Pour into baked pie shell. Can top with Cool Whipwhen cooled.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

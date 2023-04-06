@@ -1,0 +1,44 @@
+{
+   "name": "Pumpkin Chiffon Pie",
+   "author": "Annita Layton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "to 2 c. cooked pumpkin"
+      },
+      {
+         "amount": 2,
+         "name": "large eggs"
+      },
+      {
+         "amount": 1.25,
+         "name": "to 1 1⁄2 c. milk"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.66,
+         "name": "C. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. flour"
+      }
+   ],
+   "instructions": "Beat egg whites until stiff. Set aside. Beat egg yolks and sugars until fluffy. Add remaining ingredients. Fold in egg whites. Pour into pie shell and bake at 400° for 45 to 55 minutes. Use 9 inch pie shell. I use a bright orange flesh field pumpkin. Scoot our seeds, peel with knife and cut into chunks. Cook with small amount of water in large pot about 30 minutes. Cool, mash and drain off excess water, liquid.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

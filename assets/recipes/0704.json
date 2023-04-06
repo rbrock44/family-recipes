@@ -1,0 +1,36 @@
+{
+   "name": "Million Dollar Pie",
+   "author": "Sara Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. pecans"
+      },
+      {
+         "amount": 1,
+         "name": "c. coconut"
+      },
+      {
+         "amount": 1,
+         "name": "can sweetened condensed milk"
+      },
+      {
+         "amount": 1,
+         "name": "large Cool Whip"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. lemon juice"
+      },
+      {
+         "amount": 0,
+         "name": "Baked pie shell"
+      }
+   ],
+   "instructions": "Mix together and pour in pie shell. Refrigerate.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

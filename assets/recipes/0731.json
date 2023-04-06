@@ -1,0 +1,44 @@
+{
+   "name": "Pumpkin Pie",
+   "author": "Denise Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "eggs, slightly beaten"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) can pumpkin"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "tsp. pumpkin pie spice"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) evaporated milk"
+      },
+      {
+         "amount": 1,
+         "name": "(9 inch) pie shell, unbaked"
+      }
+   ],
+   "instructions": "Preheat oven to 425°. Combine filling ingredients and pour into pie shell. Bake 15 minutes. Reduce to 350° and bake an additional 45 minutes or until knife inserted in center comes out clean.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

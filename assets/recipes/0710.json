@@ -1,0 +1,40 @@
+{
+   "name": "Cherry Delight",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. graham cracker crumbs"
+      },
+      {
+         "amount": 0.5,
+         "name": "stick butter"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) Cool Whip"
+      },
+      {
+         "amount": 1,
+         "name": "can cherry pie filling"
+      }
+   ],
+   "instructions": "Mix crumbs, butter and sugar together. Press into 9 inch square dish and bake until brown at 350°. Let cool. Mix remaining ingredients together and spread on the cooled crust. Top with 1 can of cherry pie filling. Refrigerate to chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
