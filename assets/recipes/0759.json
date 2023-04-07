@@ -1,0 +1,56 @@
+{
+   "name": "Caramel Dumplings",
+   "author": "Lorena Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.25,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. shortening"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. shortening"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. boiling water"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Combine flour, baking powder and salt. Cut in shortening. Add milk, vanilla and 1 1⁄2 cup brown sugar. This makes the dumplings. Drop by teaspoon into hot syrup. For hot syrup in 1 1⁄2 quart sauce pan, add 2 tablespoons shortening, 1 1⁄2 cup brown sugar, boiling water and 1/8 teaspoon salt. It is best to cook in a pan which has a fitted lid cover. A transparent cover is excellent for dumpling cooking. Boil syrup gently for five minutes. Add dumplings. Cook for 20 minutes without removing cover.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

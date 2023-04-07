@@ -1,0 +1,44 @@
+{
+   "name": "Bread Pudding",
+   "author": "In Memory of Mrs. Lorraine Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "tsp. nutmeg"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "qt. milk"
+      },
+      {
+         "amount": 5,
+         "name": "or 6 slices of bread"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. raisins"
+      }
+   ],
+   "instructions": "Mix all ingredients together. Bake in baking dish that has been well greased. Bake at 325° for one hour.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

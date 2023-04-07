@@ -1,0 +1,36 @@
+{
+   "name": "Glazed Fresh Apples",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0,
+         "name": "Whole cloves"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 3,
+         "name": "slices lemon"
+      },
+      {
+         "amount": 0,
+         "name": "Whole apples with stems attached"
+      },
+      {
+         "amount": 2,
+         "name": "sticks whole cinnamon"
+      }
+   ],
+   "instructions": "Place sugar, water, lemon and cinnamon in a 2 quart saucepan. Bring to boiling point and boil 3 minutes. Stick whole cloves into peeled whole apples with stems attached. Drop fruit in boiling syrup. Cook 20 to 25 minutes or until tender spooning syrup over the fruit at intervals. Chill and serve.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

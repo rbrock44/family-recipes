@@ -1,0 +1,44 @@
+{
+   "name": "Peach Cobbler",
+   "author": "Sister Rebecca Peters",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "stick butter"
+      },
+	  {
+         "amount": 0,
+         "name": "Fresh peaches, about 2 cups, sliced and sugared"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0,
+         "name": "Dash of salt"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Melt butter in large pan. Add sliced peaches. Mix together remaining ingredients and drop this mixture on peaches. Top with 1⁄2 cup of sugar. Bake 325° until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

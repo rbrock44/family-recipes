@@ -1,0 +1,36 @@
+{
+   "name": "Mom's Tempting Apple Crisp",
+   "author": "Ramona Glastetter",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. apples, peeled and sliced"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. oats"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. packed brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. oleo, melted"
+      }
+   ],
+   "instructions": "Preheat oven to 375°. Spray a 9 x 13 inch pan with nonstick cooking spray. Peel and slice apples and spread in prepared pan. In a medium bowl, combine flour, brown sugar, oats and margarine. Mix with fork until crumbly; spoon over apples. Bake for 35 minutes or until apples are tender and bubbly.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
