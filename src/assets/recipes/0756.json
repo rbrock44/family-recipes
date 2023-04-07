@@ -1,0 +1,40 @@
+{
+   "name": "Strawberry Vanilla Pudding",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 4.5,
+         "name": "to 5 c. angel food cake cubes"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. instant vanilla or lemon pudding"
+      },
+      {
+         "amount": 1,
+         "name": "c. cold milk"
+      },
+      {
+         "amount": 1,
+         "name": "pt. vanilla ice cream"
+      },
+      {
+         "amount": 1,
+         "name": "(3 oz.) pkg. strawberry Jell-O"
+      },
+      {
+         "amount": 1,
+         "name": "c. boiling water"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. frozen strawberries"
+      }
+   ],
+   "instructions": "Put cake in 9 x 9 inch pan. Mix pudding, softened ice cream and milk until well blended. Pour over cake cubes and set. Dissolve Jell-O with water and put in frozen strawberries. Stir until it starts to jell. Pour over cake and pudding and put in refrigerator.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

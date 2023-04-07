@@ -1,0 +1,32 @@
+{
+   "name": "Fluffy 2-Step Cheesecake",
+   "author": "Rebecca Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz.) pkg. cream cheese, softened"
+      },
+      {
+         "amount": 0.33,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) Cool Whip"
+      },
+      {
+         "amount": 1,
+         "name": "prepared graham cracker crumb crust (6 oz.)"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cherry pie filling"
+      }
+   ],
+   "instructions": "Beat cream cheese and sugar in large bowl with wire whisk or electric mixer on high speed until smooth. Gently stir in whipped top- ping. Spoon into crust. Refrigerate 3 hours or until set. Spread pie filling evenly over top of pie. Store leftover cheesecake in refrigerator.",
+   "yield": {
+      "amount": 8,
+      "name": "servings"
+   }
+}

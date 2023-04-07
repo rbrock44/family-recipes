@@ -1,0 +1,40 @@
+{
+   "name": "Rice Pudding",
+   "author": "Shirley Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. rice, cooked"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Mix all ingredients together. Put in oven and bake. Stirring sev- eral times until it thickens. If it is real thick when you mix altogether, add a little more milk. It will thicken while baking. You can add raisins, too.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

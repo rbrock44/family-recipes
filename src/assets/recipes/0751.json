@@ -1,0 +1,40 @@
+{
+   "name": "Banana Pudding",
+   "author": "Mrs. William (Pat) Schlosser",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Vanilla wafers"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. instant vanilla pudding"
+      },
+      {
+         "amount": 1,
+         "name": "can Eagle Brand Milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "large Cool Whip"
+      },
+      {
+         "amount": 0,
+         "name": "Bananas"
+      },
+      {
+         "amount": 0,
+         "name": "Nuts"
+      },
+      {
+         "amount": 0,
+         "name": "Cherries"
+      }
+   ],
+   "instructions": "Line pan with vanilla wafers. Slice bananas on top. Mix pudding as directed. Fold in can milk and Cool Whip. Pour on top of bananas. Add more Cool Whip to decorate. Then top with nuts and cherries. Refrigerate and serve cold.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

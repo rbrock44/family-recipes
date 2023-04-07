@@ -1,0 +1,44 @@
+{
+   "name": "Cottage Pudding",
+   "author": "Annita Layton",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.75,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. soft shortening"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "large egg"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Sift together into bowl the first three ingredients. Add remaining ingredients and beat well with rotary beater until smooth. Pour into greased and floured 9 inch square plan. Bake at 350° for 25 to 30 min- utes. Cut into squares, Serve warm with vanilla.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

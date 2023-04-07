@@ -1,0 +1,52 @@
+{
+   "name": "Cherry Coffee Cake",
+   "author": "St. Augustine School Cafeteria",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sifted flour"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1,
+         "name": "can cherry pie filling"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      }
+   ],
+   "instructions": "Sift 2 cups of flour and baking powder together. Cut in butter. Beat egg and milk together. Add to flour mixture, mix well. Pour into 15 x 10 inch pan that has been greased and floured. Cover with cherry filling. For topping, sift together 1 cup of flour and 1 cut of sugar. Cut in butter. Sprinkle over pie filling. Bake at 350° for 30 to 35 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
