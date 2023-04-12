@@ -1,0 +1,44 @@
+{
+   "name": "Dirt Cake",
+   "author": "Anna Rose Bles",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "large pkg. chocolate sandwich cookies"
+      },
+      {
+         "amount": 8,
+         "name": "oz. cream cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter or margarine"
+      },
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "large container of whipped topping"
+      },
+      {
+         "amount": 2,
+         "name": "(3.5 oz.) instant vanilla or French vanilla pudding"
+      },
+      {
+         "amount": 3,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "Crush cookies and put half of crumbs in 9 x 13 inch pan. Mix cream cheese and butter until smooth. Mix in powdered sugar. Fold in whipped topping. In separate bowl, mix pudding, milk and vanilla. Fold cream cheese mixture and pudding mixture together. Pour into pan on cookie crumbs. Sprinkle remaining crumbs on top.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "Chocolate Chip Cheesecake",
+   "author": "Shari Landewe",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 24,
+         "name": "Oreo cookies, crushed"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter, melted"
+      },
+      {
+         "amount": 3,
+         "name": "(8 oz.) cream cheese, softened"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "(14 oz.) sweetened condensed milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 6,
+         "name": "oz. mini chocolate chips"
+      }
+   ],
+   "instructions": "Mix cookie crumbs and butter. Press evenly on bottom of ungreased springform pan. In a large bowl, beat remaining ingredients, except chocolate chips, until smooth. Mix in chocolate chips. Pour cheese mixture over crumb mixture. Bake at 300° for 1 hour. Cover and refrigerate for at least 3 hours.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

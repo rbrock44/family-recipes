@@ -1,0 +1,52 @@
+{
+   "name": "Chocolate Eclair Cake",
+   "author": "Pat Schlosser Jenkins",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(16 oz.) honey graham crackers"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp. cocoa"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. (34 oz.) instant French vanilla pudding mix"
+      },
+      {
+         "amount": 3,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) Cool Whip, thawed"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. powdered sugar, sifted"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter or margarine"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. light corn syrup"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. milk"
+      }
+   ],
+   "instructions": "Place a single layer of whole graham crackers on the bottom of a 9 x 13 inch pan. Combine pudding mix with 3 cups of the milk, sit- ting until thickened. Fold in whipped topping. Spread half the pud- ding on graham cracker layer. Add another layer of crackers. Cover with remaining pudding. Top with third layer of crackers. In a small saucepan, combine remaining ingredients. Stir over low heat just until liquified. Pour over top layer of crackers. Refrigerate at least 28 hours. May prepare two days before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

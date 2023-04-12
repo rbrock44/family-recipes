@@ -1,0 +1,36 @@
+{
+   "name": "Twinkies Cake",
+   "author": "Shirley Eftink",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "small box vanilla pudding"
+      },
+      {
+         "amount": 0,
+         "name": "Bananas"
+      },
+      {
+         "amount": 1,
+         "name": "small can crushed pineapple"
+      },
+      {
+         "amount": 1,
+         "name": "c. Cool Whip"
+      },
+      {
+         "amount": 0,
+         "name": "Coconut or chopped nuts"
+      },
+      {
+         "amount": 0,
+         "name": "Twinkies"
+      }
+   ],
+   "instructions": "Line 9 x 13 inch pan with Twinkies, cut in half the long length, icing on top. Cook pudding according to directions; cool completely. Spread cooled pudding evenly over Twinkies. Spread sliced bananas on top. Take pineapple and Cool Whip and spread over top of cake. May sprinkle with coconut or chopped nuts.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

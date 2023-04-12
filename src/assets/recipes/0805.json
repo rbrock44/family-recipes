@@ -1,0 +1,52 @@
+{
+   "name": "Four Layer Dessert",
+   "author": "Shelly Dohogne",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. melted oleo"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. chopped pecans"
+      },
+      {
+         "amount": 8,
+         "name": "oz. cream cheese, softened"
+      },
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 2,
+         "name": "c. Cool Whip"
+      },
+      {
+         "amount": 2,
+         "name": "small pkg. chocolate instant pudding"
+      },
+      {
+         "amount": 3,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0,
+         "name": "Nuts"
+      }
+   ],
+   "instructions": "Combine flour, oleo and pecans; mix well. Pat into 9 x 13 inch pan and bake at 350° for 15 minutes. Cool. Mix together, cream cheese, powdered sugar, and 1 cup Cool Whip. Spread this over the first layer. Chill. Mix together and beat until thick, the pudding, milk and vanilla. Spread over the second layer. Top with remaining Cool Whip and sprinkle with nuts.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

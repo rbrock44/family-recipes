@@ -1,0 +1,48 @@
+{
+   "name": "Four Layer Cake",
+   "author": "Eva Glueck",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter"
+      },
+	  {
+         "amount": 1,
+         "name": "c. pecans, chopped fine"
+      },
+      {
+         "amount": 8,
+         "name": "oz. cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. Cool Whip"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. instant chocolate pudding"
+      },
+      {
+         "amount": 3,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      }
+   ],
+   "instructions": "To make the crust, combine flour, butter and pecans. Press into the bottom of a 9 x 12 inch oblong pan. Bake for 15 minutes in a 350° oven. Cool. Top with a mixture of cream cheese, powdered sugar and Cool Whip. Next, stir milk, vanilla and pudding until thickened. Pour over the cream cheese layer. Let set until firm. Spread with remaining Cool Whip and top with pecans.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -11,7 +11,8 @@ export const CATEGORIES = [
   new DropdownOption('Meats & Main Dishes', 3,),
   new DropdownOption('Vegetables', 4,),
   new DropdownOption('Breads, Rolls & Pastries', 5,),
-  new DropdownOption('Cakes, Cookies & Desserts', 6)
+  new DropdownOption('Cakes, Cookies & Desserts', 6),
+  new DropdownOption('Beverages, Microwave & Miscellaneous', 7)
 ];
 
 export const DRY_CONVERSIONS = [

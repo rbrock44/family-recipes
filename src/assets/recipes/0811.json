@@ -1,0 +1,40 @@
+{
+   "name": "Pickled Okra (Addition To Each Jar)",
+   "author": "Helen Kluesner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "tsp. mustard seed"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. celery seed"
+      },
+      {
+         "amount": 1,
+         "name": "garlic button"
+      },
+      {
+         "amount": 2,
+         "name": "pods hot pepper"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 3,
+         "name": "to 4 inch long okra"
+      },
+      {
+         "amount": 4,
+         "name": "pint canning jars"
+      }
+   ],
+   "instructions": "Pack clean okra in clean jars. Add other ingredients.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

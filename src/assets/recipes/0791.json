@@ -1,0 +1,44 @@
+{
+   "name": "Cheesecake",
+   "author": "Tim Drury",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 28,
+         "name": "graham crackers, crushed"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. lemon Jell-O (small)"
+      },
+      {
+         "amount": 1,
+         "name": "c. hot water"
+      },
+      {
+         "amount": 1,
+         "name": "tall can Milnot, cooled"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 8,
+         "name": "oz. cream cheese"
+      }
+   ],
+   "instructions": "Mix graham crackers, sugar and oleo and pat 3/4 of mixture in 9 x 13 inch pan. Dissolve jello in hot water. Cool. Whip Milnot. Add sugar. Whip cream cheese with the jello. Fold into the Milnot mixture. Pour on graham crackers. Top with remaining crumb mixture. Chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

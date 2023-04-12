@@ -1,0 +1,36 @@
+{
+   "name": "Mini Cherry Cheese Cakes",
+   "author": "Doris Moore",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "large pkg. cream cheese"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 18,
+         "name": "vanilla wafers"
+      },
+      {
+         "amount": 0,
+         "name": "Favorite pie filling"
+      }
+   ],
+   "instructions": "Soften cream cheese to room temperature. Blend cheese, sugar, eggs and vanilla until smooth and creamy. Line muffin tins with cup- cake wrappers. Place vanilla wafer in each bottom. Fill each cup with cheesecake mixture, about 3/4 full. Bake at 325° for 20 minutes. Cool and top with your favorite pie filling.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

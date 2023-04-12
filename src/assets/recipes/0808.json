@@ -1,0 +1,32 @@
+{
+   "name": "Ice Cream Cake",
+   "author": "Helen Menz",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 60,
+         "name": "Ritz crackers"
+      },
+      {
+         "amount": 0,
+         "name": "Butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "gal. vanilla ice cream"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. coconut instant pudding mix"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. milk"
+      }
+   ],
+   "instructions": "Crush crackers and mix with butter. Save 1⁄2 cup. Press into 9x13 inch pan. Mix ice cream, pudding and milk together and pour into pan. Top with remaining crumbs. Chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

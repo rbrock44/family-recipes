@@ -1,0 +1,24 @@
+{
+   "name": "Maraschino Cherry Dessert",
+   "author": "Karla Essner",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. cherry Jell-O"
+      },
+      {
+         "amount": 8,
+         "name": "oz. Cool Whip"
+      },
+      {
+         "amount": 1,
+         "name": "c. chopped nuts"
+      }
+   ],
+   "instructions": "Mix together and serve.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
