@@ -7,7 +7,7 @@ if [ -z "$1" ]
 fi
 
 loc="C:\\workspace\\family-recipes\\scripts\\"
-x=423
+x=790
 
 while [ $x -le $1 ]
 do 
@@ -18,7 +18,7 @@ do
 		echo '{';
 		echo '   "name": "",';
 		echo '   "author": "",';
-		echo '   "category": 6,';
+		echo '   "category": 7,';
 		echo '   "ingredients": [';
 		echo '      {';
 		echo '         "amount": 1',;
