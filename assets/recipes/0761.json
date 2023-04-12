@@ -1,78 +1,30 @@
 {
-   "name": "",
-   "author": "",
+   "name": "Watermelon Ice Cream Cake",
+   "author": "Michelle Hulshof",
    "category": 6,
    "ingredients": [
       {
-         "amount": 1,
-         "name": ""
+         "amount": 0,
+         "name": "Vanilla ice cream"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0.5,
+         "name": "gal. raspberry sherbet, softened"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "c. chocolate chips"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 8,
+         "name": "oz. Cool Whip"
       },
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "amount": 24,
+         "name": "drops green food coloring"
       }
    ],
-   "instructions": "",
+   "instructions": "Line medium size bowl with aluminum foil. Cover foil with a thin layer of ice cream. Freeze for 1 hour. Mix chocolate chips with sherbet. Pour on ice cream. Freeze at least 24 hours. Mix food color- ing with Cool Whip. Empty contents of bowl on plate. Coat with Cool Whip. Freeze until ready to serve.",
    "yield": {
       "amount": 0,
       "name": ""

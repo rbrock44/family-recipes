@@ -1,56 +1,48 @@
 {
-   "name": "Apple Dumplings",
-   "author": "Anna Rose Bles",
+   "name": "Coconut Crunch Delight",
+   "author": "Theresa King",
    "category": 6,
    "ingredients": [
       {
-         "amount": 2,
-         "name": "c. sugar"
-      },
-      {
-         "amount": 2,
-         "name": "c. water"
-      },
-      {
-         "amount": 0.25,
-         "name": "tsp. cinnamon"
-      },
-      {
-         "amount": 0.25,
-         "name": "tsp. nutmeg"
-      },
-      {
-         "amount": 0.25,
-         "name": "c. butter"
-      },
-      {
-         "amount": 6,
-         "name": "apples"
-      },
-      {
-         "amount": 2,
-         "name": "c. flour"
+         "amount": 0.5,
+         "name": "c. butter or margarine"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "name": "c. all purpose flour"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. flaked coconut"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. packed brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. slivered almonds"
+      },
+      {
+         "amount": 1,
+         "name": "(3.4 oz.) pkg. instant coconut pudding mix"
+      },
+      {
+         "amount": 2.66,
+         "name": "c. cold milk"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "name": "c. whipped topping"
       },
       {
-         "amount": 0.75,
-         "name": "c. shortening"
-      },
-      {
-         "amount": 0.5,
-         "name": "c. milk"
+         "amount": 0,
+         "name": "Fresh strawberries, optional"
       }
    ],
-   "instructions": "Make a syrup of sugar, water, cinnamon and nutmeg. Add but- ter. Pare, core and slice apples. Sift flour, salt, and baking powder. Cut in shortening. Add milk all at once, and stir until moistened. Roll 1/4 inch thick. Cut into 5 inch squares. Arrange apple slices on each square. Sprinkle generously with additional sugar, cinnamon and nutmeg. Dot with butter. Fold corners to center and pinch edges together. Place 1 inch apart in greased baking pan. Pour syrup over dumplings. Bake at 375° for 35 minutes.",
+   "instructions": "In a bowl, combine the first five ingredients; press lightly into a greased 13 x 9 x 2 inch baking pan. Bake at 350° for 25 to 30 minutes or until golden brown, stirring every 10 minutes to form coarse crumbs. Cool. Divide crumb mixture in half; press half into the same baking pan. In a mixing bowl, beat pudding mixes and milk. Fold in whipped topping; spoon over the crust. Top with remaining crumb mixture. Cover and refrigerate overnight. Garnish with strawberries if desired.",
    "yield": {
-      "amount": 0,
-      "name": ""
+      "amount": 12,
+      "name": "12 to 16 servings"
    }
 }

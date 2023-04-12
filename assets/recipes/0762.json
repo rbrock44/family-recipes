@@ -1,78 +1,38 @@
 {
-   "name": "",
-   "author": "",
+   "name": "Blackberry Dumplings",
+   "author": "Charlotte Hooper",
    "category": 6,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
+         "name": "qt. blackberries, fresh or frozen"
       },
       {
          "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "qt. water"
       },
       {
          "amount": 3,
-         "name": ""
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. Crisco"
+      },
+      {
+         "amount": 3,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 2,
+         "name": "to 4 Tbsp. cold water"
       }
    ],
-   "instructions": "",
+   "instructions": "In saucepan, cook blackberries, water, sugar and cinnamon. Bring to a boil. In the meantime, mix flour and Crisco together. Add enough water to make a soft dough. Roll dough out and cut with pizza cutter or knife like dumplings. Drop in boiling mixture. Cook until tender. Approximately five minutes. Serve hot.",
    "yield": {
       "amount": 0,
       "name": ""

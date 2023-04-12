@@ -1,32 +1,32 @@
 {
-   "name": "Fluffy 2-Step Cheesecake",
-   "author": "Rebecca Hooper",
+   "name": "Bread and Butter Pickles (Pickling Solution)",
+   "author": "In memory of Mary Welter",
    "category": 6,
    "ingredients": [
       {
-         "amount": 1,
-         "name": "(8 oz.) pkg. cream cheese, softened"
+         "amount": 3,
+         "name": "c. cider vinegar"
       },
       {
-         "amount": 0.33,
+         "amount": 1,
+         "name": "tsp. turmeric"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. mustard seed"
+      },
+      {
+         "amount": 4,
          "name": "c. sugar"
       },
       {
-         "amount": 1,
-         "name": "(8 oz.) Cool Whip"
-      },
-      {
-         "amount": 1,
-         "name": "prepared graham cracker crumb crust (6 oz.)"
-      },
-      {
-         "amount": 0.5,
-         "name": "c. cherry pie filling"
+         "amount": 2,
+         "name": "tsp. celery seed"
       }
    ],
-   "instructions": "Beat cream cheese and sugar in large bowl with wire whisk or electric mixer on high speed until smooth. Gently stir in whipped top- ping. Spoon into crust. Refrigerate 3 hours or until set. Spread pie filling evenly over top of pie. Store leftover cheesecake in refrigerator.",
+   "instructions": "Add the well drained cucumber and onions to the hot pickling solution. Heat to the scalding point, stirring to insure even cooking. Avoid over cooking pickles. Pack in clean, hot jars. Cover with the syrup and seal promptly. The turmeric gives the pickles the characteristic yellow color.",
    "yield": {
-      "amount": 8,
-      "name": "servings"
+      "amount": 0,
+      "name": ""
    }
 }

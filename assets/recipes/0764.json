@@ -1,78 +1,46 @@
 {
-   "name": "",
-   "author": "",
+   "name": "Fruit Cobbler",
+   "author": "St. Augustine School Cafeteria",
    "category": 6,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
+         "name": "c. butter"
       },
       {
          "amount": 2,
-         "name": ""
+         "name": "c. sugar"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "c. flour"
       },
       {
          "amount": 2,
-         "name": ""
+         "name": "tsp. baking powder"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "tsp. salt"
       },
       {
          "amount": 2,
-         "name": ""
+         "name": "c. milk"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "No. 2 can cherries, peaches or berries"
       },
       {
          "amount": 2,
-         "name": ""
+         "name": "to 1/2 c. sugar"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "name": "c. fruit juice"
       }
    ],
-   "instructions": "",
+   "instructions": "Cream together butter and sugar. Stir in sifted dry ingredients alternately with milk. Beat until smooth. Pour in 8 x 8 inch pan. Spoon fruit over batter. Sprinkle with sugar. Pour fruit juice over top. Bake 45 to 50 minutes at 375°. In baking the batter will come to the top.",
    "yield": {
       "amount": 0,
       "name": ""

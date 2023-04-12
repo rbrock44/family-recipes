@@ -1,66 +1,30 @@
 {
-   "name": "Sharen's Sour Cream Coffee Cake",
-   "author": "S.M.",
+   "name": "Ice Cream Cake",
+   "author": "Helen Menz",
    "category": 6,
    "ingredients": [
       {
-         "amount": 1,
-         "name": "stick margarine"
-      },
-      {
-         "amount": 1,
-         "name": "c. sugar"
-      },
-      {
-         "amount": 2,
-         "name": "eggs"
-      },
-      {
-         "amount": 1,
-         "name": "c. sour cream"
-      },
-      {
-         "amount": 1.75,
-         "name": "c. flour"
-      },
-      {
-         "amount": 1,
-         "name": "tsp. baking soda"
-      },
-      {
-         "amount": 1,
-         "name": "tsp. baking powder"
+         "amount": 60,
+         "name": "Ritz crackers"
       },
       {
          "amount": 0,
-         "name": "Pinch of salt"
+         "name": "Butter"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
-      },
-      {
-         "amount": 1,
-         "name": "tsp. cinnamon"
-      },
-      {
-         "amount": 1,
-         "name": "c. chopped nuts"
+         "name": "gal. vanilla ice cream"
       },
       {
          "amount": 2,
-         "name": "c. sifted powdered sugar"
+         "name": "pkg. coconut instant pudding mix"
       },
       {
-         "amount": 0,
-         "name": "Enough milk to dissolve sugar"
-      },
-      {
-         "amount": 2,
-         "name": "tsp. vanilla"
+         "amount": 1.5,
+         "name": "c. milk"
       }
    ],
-   "instructions": "Cream together margarine, 1 cup sugar; add eggs and sour cream. Cream thoroughly. Sift together flour, baking soda, baking powder and salt. Add 1⁄2 of flour mixture to sour cream mixture, stir until smooth. Add remaining flour and 1 teaspoon vanilla, stir until smooth. Pour 1⁄2 batter into greased and floured pan, sprinkle with mixture of 1⁄2 cup sugar, 1 tsp. cinnamon, 1 c. chopped nuts. Pour remaining batter over cinnamon mixture. Bake 30 minutes at 325°. Glaze: Mix together powdered sugar, milk, and 1 teaspoon vanilla. Heat to dissolve and pour over hot cake.",
+   "instructions": "Crush crackers and mix with butter. Save 1⁄2 cup. Press into 9x13 inch pan. Mix ice cream, pudding and milk together and pour into pan. Top with remaining crumbs. Chill.",
    "yield": {
       "amount": 0,
       "name": ""

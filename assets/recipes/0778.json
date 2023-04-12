@@ -1,78 +1,42 @@
 {
-   "name": "",
-   "author": "",
+   "name": "Chocolate Eclair",
+   "author": "Beverly Essner, Denise Menz",
    "category": 6,
    "ingredients": [
       {
-         "amount": 1,
-         "name": ""
+         "amount": 0,
+         "name": "Graham crackers"
       },
       {
          "amount": 2,
-         "name": ""
+         "name": "small pkg. instant French vanilla pudding"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "(8 oz.) Cool Whip"
       },
       {
          "amount": 3,
-         "name": ""
+         "name": "c. milk"
+      },
+      {
+         "amount": 2,
+         "name": "sq. semi sweet baking chocolate"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. powdered sugar"
       }
    ],
-   "instructions": "",
+   "instructions": "Place one layer of whole graham crackers on the bottom of a 9 x 13 inch pan. Mix pudding, Cool Whip and milk together until smooth. Pour half of the pudding mixture over the crackers. Place another layer of graham crackers over the pudding mixture. Pour the rest of the pudding mixture over the crackers. Place a third layer of graham crackers on top of the pudding mixture. Chill in the refrigerator while making the topping. Mix and melt over low heat the baking chocolate, 4 tablespoons of milk and butter. Remove from heat and quickly add powdered sugar. Stir until smooth and pour over layer of graham crackers. Store in refrigerator. Best when made a day ahead so that the graham crackers can soften.",
    "yield": {
       "amount": 0,
       "name": ""

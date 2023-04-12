@@ -1,46 +1,38 @@
 {
-   "name": "Fruit Cobbler",
-   "author": "St. Augustine School Cafeteria",
+   "name": "Four Layer Dessert",
+   "author": "Juanita Dannenmueller",
    "category": 6,
    "ingredients": [
       {
-         "amount": 1,
-         "name": "c. butter"
+         "amount": 2,
+         "name": "(8 oz.) Cool Whip"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "name": "pkg. instant chocolate pudding"
+      },
+      {
+         "amount": 3,
+         "name": "c. milk"
       },
       {
          "amount": 1,
          "name": "c. flour"
       },
       {
-         "amount": 2,
-         "name": "tsp. baking powder"
+         "amount": 1,
+         "name": "stick melted butter"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
-      },
-      {
-         "amount": 2,
-         "name": "c. milk"
+         "name": "(8 oz.) cream cheese"
       },
       {
          "amount": 1,
-         "name": "No. 2 can cherries, peaches or berries"
-      },
-      {
-         "amount": 2,
-         "name": "to 1/2 c. sugar"
-      },
-      {
-         "amount": 1,
-         "name": "c. fruit juice"
+         "name": "c. powdered sugar"
       }
    ],
-   "instructions": "Cream together butter and sugar. Stir in sifted dry ingredients alternately with milk. Beat until smooth. Pour in 8 x 8 inch pan. Spoon fruit over batter. Sprinkle with sugar. Pour fruit juice over top. Bake 45 to 50 minutes at 375°. In baking the batter will come to the top.",
+   "instructions": "Mix together flour and butter. Bake at 350° for 10 to 15 minutes to make the first layer. Beat together cream cheese, powdered sugar and 1 container of Cool Whip. Add this to the first layer, after it has cooled. For the third layer, beat together pudding and milk. Finally, for the fourth layer, spread Cool Whip on top and nuts if desired.",
    "yield": {
       "amount": 0,
       "name": ""

@@ -1,52 +1,28 @@
 {
-   "name": "Banana Split Cake",
-   "author": "Zeta Welter",
+   "name": "Bread and Butter Pickles",
+   "author": "In memory of Mary Welter",
    "category": 6,
    "ingredients": [
       {
-         "amount": 2,
-         "name": "c. graham crackers"
+         "amount": 4,
+         "name": "qt. sliced cucumbers"
       },
       {
          "amount": 0.5,
-         "name": "c. white sugar"
-      },
-      {
-         "amount": 1,
-         "name": "stick butter, melted"
-      },
-      {
-         "amount": 1,
-         "name": "(8 oz.) Philadelphia cream cheese"
-      },
-      {
-         "amount": 2,
-         "name": "c. powdered sugar"
-      },
-      {
-         "amount": 0.5,
-         "name": "c. butter"
+         "name": "c. salt"
       },
       {
          "amount": 6,
-         "name": "bananas, sliced long ways"
+         "name": "medium onions, sliced"
       },
       {
          "amount": 1,
-         "name": "large can crushed pineapple, drained"
-      },
-      {
-         "amount": 1,
-         "name": "large bowl Cool Whip"
-      },
-      {
-         "amount": 1,
-         "name": "Maraschino cherries"
+         "name": "qt. cracked ice"
       }
    ],
-   "instructions": "Mix together graham crackers, sugar, and butter and press into an oblong Pyrex pan. Beat together cream cheese, powdered sugar and butter. Spread evenly over first layer. Arrange bananas and pine- apple on second layer. Spread Cool Whip over this layer. Top with pecans and maraschino cherries.",
+   "instructions": "Wash cucumbers thoroughly and slice thinly, without peeling. Medium sized cucumbers about five inches long and about an inch in diameter are best. Peel onions and slice thinly. Mix cucumbers, onions, and salt. Use pure granulated salt (medium coarse). Add cracked ice and let stand 3 hours, then drain thoroughly. The ice and salt mixture helps make pickles especially crisp. Make the pickling solution and heat them to the boiling point.",
    "yield": {
-      "amount": 0,
-      "name": ""
+      "amount": 7,
+      "name": "pints"
    }
 }

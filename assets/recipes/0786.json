@@ -1,50 +1,46 @@
 {
-   "name": "Cherry Coffee Cake",
-   "author": "St. Augustine School Cafeteria",
+   "name": "Four Layer Cake",
+   "author": "Eva Glueck",
    "category": 6,
    "ingredients": [
       {
-         "amount": 2,
-         "name": "c. sifted flour"
-      },
-      {
-         "amount": 1,
-         "name": "egg"
-      },
-      {
-         "amount": 1,
-         "name": "c. sugar"
-      },
-      {
-         "amount": 0.5,
-         "name": "c. butter"
-      },
-      {
-         "amount": 1,
-         "name": "can cherry pie filling"
-      },
-      {
-         "amount": 2,
-         "name": "tsp. baking powder"
-      },
-      {
-         "amount": 0.75,
-         "name": "c. milk"
-      },
-      {
-         "amount": 1,
+         "amount": 1.5,
          "name": "c. flour"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "name": "stick butter"
+      },
+	  {
+         "amount": 1,
+         "name": "c. pecans, chopped fine"
       },
       {
-         "amount": 0.5,
-         "name": "c. butter"
+         "amount": 8,
+         "name": "oz. cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. Cool Whip"
+      },
+      {
+         "amount": 2,
+         "name": "pkg. instant chocolate pudding"
+      },
+      {
+         "amount": 3,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
       }
    ],
-   "instructions": "Sift 2 cups of flour and baking powder together. Cut in butter. Beat egg and milk together. Add to flour mixture, mix well. Pour into 15 x 10 inch pan that has been greased and floured. Cover with cherry filling. For topping, sift together 1 cup of flour and 1 cut of sugar. Cut in butter. Sprinkle over pie filling. Bake at 350° for 30 to 35 minutes.",
+   "instructions": "To make the crust, combine flour, butter and pecans. Press into the bottom of a 9 x 12 inch oblong pan. Bake for 15 minutes in a 350° oven. Cool. Top with a mixture of cream cheese, powdered sugar and Cool Whip. Next, stir milk, vanilla and pudding until thickened. Pour over the cream cheese layer. Let set until firm. Spread with remaining Cool Whip and top with pecans.",
    "yield": {
       "amount": 0,
       "name": ""
