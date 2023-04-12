@@ -1,0 +1,44 @@
+{
+   "name": "Jerky (Beef Or Deer)",
+   "author": "Juanita Dannenmueller",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. soy sauce"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. hot pepper sauce"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. liquid smoke"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. garlic powder"
+      },
+      {
+         "amount": 1.5,
+         "name": "tsp. black pepper"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. vegetable oil"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. salt"
+      }
+   ],
+   "instructions": "Can substitute several cloves of crushed garlic for the powder. Blender works great. Soak strips of meat at least 24 hours. Stir occasionally. Dry in oven on the racks with heat at the lowest setting. If you use an oven, keep the door cracked. Otherwise, an electric dehy- drator works great. Dry 10 to 15 hours depending on the thickness of the meat. This recipe is moderately spicy.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

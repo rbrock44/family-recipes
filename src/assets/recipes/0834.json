@@ -1,0 +1,24 @@
+{
+   "name": "Sylvester's Favorite Pancakes",
+   "author": "S.B.G.",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box Jiffy Banana Nut Muffin Mix"
+      },
+      {
+         "amount": 2,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk or water"
+      }
+   ],
+   "instructions": "Blend ingredients. If batter thickens, add additional tablespoon liquid. Bake on hot griddle or waffle iron. Turn pancakes when bubbles appear and edges begin to dry.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

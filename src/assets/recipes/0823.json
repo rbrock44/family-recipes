@@ -1,0 +1,24 @@
+{
+   "name": "Oreo Ice Cream",
+   "author": "Suzanne Eftink",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. Oreo cookies"
+      },
+      {
+         "amount": 0.5,
+         "name": "gal. vanilla ice cream"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter (melted)"
+      }
+   ],
+   "instructions": "Crush package of Oreo cookies. Mix with melted butter and pat into a 9 x 13 pan. Place in freezer for 15-20 minutes to harden. Slice softened ice cream and place on top of Oreos and smooth out. Keep in freezer. Can spread caramel and pecans over the top.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

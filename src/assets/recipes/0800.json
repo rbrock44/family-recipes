@@ -1,0 +1,28 @@
+{
+   "name": "Lime-Aid",
+   "author": "Shirley Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "can lime-aid"
+      },
+      {
+         "amount": 1,
+         "name": "can 7-Up"
+      },
+      {
+         "amount": 1,
+         "name": "can rum, light"
+      },
+      {
+         "amount": 1,
+         "name": "can water"
+      }
+   ],
+   "instructions": "Mix all ingredients. Serve over ice.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

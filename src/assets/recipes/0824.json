@@ -1,0 +1,32 @@
+{
+   "name": "Oreo Ice Cream",
+   "author": "Kristie Slinkard",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "egg yolks"
+      },
+      {
+         "amount": 1,
+         "name": "(14 oz.) can Eagle Brand condensed milk"
+      },
+      {
+         "amount": 4,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. coarsely crushed Oreo"
+      },
+      {
+         "amount": 2,
+         "name": "c. (1 pint) whipped cream, not topping"
+      }
+   ],
+   "instructions": "In a large bowl, beat egg yolks. Stir in milk and vanilla. Fold cookies and whipped cream. Line a 2 quart container with aluminum foil and pour the mixture in it. Freeze for about six hours or until frozen. Remove from foil and cut.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

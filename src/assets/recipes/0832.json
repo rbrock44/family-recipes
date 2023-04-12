@@ -1,0 +1,36 @@
+{
+   "name": "Ham and Cheese Omelet",
+   "author": "Charlotte Hooper",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 3,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 0,
+         "name": "salt and pepper to taste"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cubed ham, heated in microwave"
+      },
+      {
+         "amount": 3,
+         "name": "slices American cheese"
+      }
+   ],
+   "instructions": "Beat eggs with milk and salt and pepper. Melt butter in large skillet. Pour in eggs and cook until lightly brown on edges. Flip over, add ham and cheese. Fold in half and serve when cheese has melted.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

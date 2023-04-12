@@ -1,0 +1,24 @@
+{
+   "name": "Apple-Cinnamon Pancakes or Waffles",
+   "author": "Ramona Glastetter",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. Apple-Cinnamon Muffin Mix"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk or water"
+      }
+   ],
+   "instructions": "Preheat griddle or waffle iron. Grease lightly. Blend ingredients. If batter thickens, add additional tablespoon liquid. Batter will be slightly lumpy. Bake on hot griddle or waffle iron. For pancakes, turn when bubbles appear and edges begin to dry.",
+   "yield": {
+      "amount": 10,
+      "name": "10 to 12 pancakes or three 7 inch waffles."
+   }
+}

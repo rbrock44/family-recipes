@@ -1,0 +1,44 @@
+{
+   "name": "Red Punch",
+   "author": "Kelso Ladies Sodality",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "pkg. Cherry Kool-Aid"
+      },
+      {
+         "amount": 1,
+         "name": "(16 oz.) frozen orange juice"
+      },
+      {
+         "amount": 3,
+         "name": "pkg. Strawberry Kool-Aid"
+      },
+      {
+         "amount": 3,
+         "name": "gallons water"
+      },
+      {
+         "amount": 6,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) frozen lemonade"
+      },
+      {
+         "amount": 1,
+         "name": "(48 oz.) unsweetened pineapple juice"
+      },
+      {
+         "amount": 1,
+         "name": "(2 liter) bottle Sprite"
+      }
+   ],
+   "instructions": "Mix all ingredients together and chill before serving.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "name": "Wedding Punch",
+   "author": "Rebecca Hooper",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 2.5,
+         "name": "c. pineapple juice, chilled"
+      },
+      {
+         "amount": 1,
+         "name": "pt. lime, lemon or raspberry sherbet"
+      },
+      {
+         "amount": 1,
+         "name": "pt. vanilla ice cream"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) bottle ginger ale or Seven-Up"
+      }
+   ],
+   "instructions": "Combine pineapple juice, sherbet and 1⁄2 of ice cream. Beat until smooth. Add Seven-Up or ginger ale. Spoon remaining ice cream into punch. Serve immediately.",
+   "yield": {
+      "amount": 14,
+      "name": "(1⁄2 cup) servings."
+   }
+}

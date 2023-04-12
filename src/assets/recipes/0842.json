@@ -1,0 +1,32 @@
+{
+   "name": "Grape Freezer Jelly",
+   "author": "Joan Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 0.75,
+         "name": "c. grape juice"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. lemon juice"
+      },
+      {
+         "amount": 4.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. Sure-Jell"
+      },
+      {
+         "amount": 1,
+         "name": "c. light corn syrup"
+      }
+   ],
+   "instructions": "Measure grape and lemon juice in 4 quart saucepan and stir well. Then, add sure-jell. Stir vigorously. Let set 30 minutes, stirring occasionally. Add corn syrup and mix well. Add sugar all at once. Stir thoroughly. Pour into containers. Let set for 24 hours and then freeze.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

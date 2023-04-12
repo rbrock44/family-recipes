@@ -5,7 +5,8 @@ export enum Category {
   'Meats & Main Dishes' = 3,
   'Vegetables' = 4,
   'Breads, Rolls & Pastries' = 5,
-  'Cakes, Cookies & Desserts' = 6
+  'Cakes, Cookies & Desserts' = 6,
+  'Beverages, Microwave & Miscellaneous' = 7
 }
 
 export function getCategory(num: number): string {

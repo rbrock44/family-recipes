@@ -1,0 +1,24 @@
+{
+   "name": "Grape Wine",
+   "author": "Jennifer Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Small sand sack"
+      },
+      {
+         "amount": 0,
+         "name": "Grapes, enough for 5 qt. of juice"
+      },
+      {
+         "amount": 10,
+         "name": "lb. sugar, dissolved in hot water"
+      }
+   ],
+   "instructions": "Mash grapes and let ferment for 3 to 5 days. Draw off juice. Pour juice and sugar into a 5 gallon jug container and add water to fill jug to top. Cover jug opening with sand sack for 3 to 4 months. Draw off and rejug and seal jug with tight-fitting cork or other kind of stopper.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

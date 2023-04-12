@@ -1,0 +1,32 @@
+{
+   "name": "Breakfast Pizza",
+   "author": "Mary Ann Lumsden",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. crescent roll dough"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "lb. sausage, browned and drained"
+      },
+      {
+         "amount": 2,
+         "name": "c. Mozzarella cheese"
+      }
+   ],
+   "instructions": "Press rolls (dough) in bottom of greased 9 x 13 pan. Beat eggs and milk with fork. Add sausage. Pour over crescent rolls. Sprinkle grated cheese on top. Bake at 350° for 20 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

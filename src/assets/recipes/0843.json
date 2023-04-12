@@ -1,0 +1,24 @@
+{
+   "name": "Strawberry Rhubarb Jam",
+   "author": "Annita Layton",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. rhubarb"
+      },
+      {
+         "amount": 4,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(3 oz.) box strawberry Jello"
+      }
+   ],
+   "instructions": "Cook rhubarb and sugar until tender. Add Jello. Bring to a boil. Use right away or put in freezer",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

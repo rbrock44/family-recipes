@@ -1,0 +1,32 @@
+{
+   "name": "Bullfrogs",
+   "author": "Charlotte Hooper",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(6 oz.) can limeade"
+      },
+      {
+         "amount": 24,
+         "name": "oz. Sprite"
+      },
+      {
+         "amount": 2,
+         "name": "(6 oz.) cans water"
+      },
+      {
+         "amount": 1.5,
+         "name": "to 2 cans vodka"
+      },
+      {
+         "amount": 0,
+         "name": "Green food coloring"
+      }
+   ],
+   "instructions": "Mix all ingredients together and serve.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

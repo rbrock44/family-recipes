@@ -1,0 +1,40 @@
+{
+   "name": "Seasoned Salt",
+   "author": "C. Allen Collier",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. salt"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. celery salt"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. garlic salt"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. paprika"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. dry mustard"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. onion powder"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. pepper"
+      }
+   ],
+   "instructions": "Place all ingredients in blender container. Cover and blend on high speed for 20 seconds. Store in tightly covered container.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

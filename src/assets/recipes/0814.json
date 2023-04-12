@@ -1,0 +1,36 @@
+{
+   "name": "White Christmas Punch",
+   "author": "Germaine Robert",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) can evaporated milk"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. almond extract"
+      },
+      {
+         "amount": 3.5,
+         "name": "gal. vanilla ice cream (softened)"
+      },
+      {
+         "amount": 6,
+         "name": "(2 liter) bottles of lemon lime soda"
+      }
+   ],
+   "instructions": "Combine sugar and water. Cook over medium heat until sugar is dissolved, stirring constantly. Remove from heat. Add milk and almond extract. Let cool. Chill until ready to serve. Combine milk mixture and remaining ingredients. Put in punch bowl, break ice cream in small pieces.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

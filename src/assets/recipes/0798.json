@@ -1,0 +1,28 @@
+{
+   "name": "Strawberry Daiquiri",
+   "author": "Joan Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 8,
+         "name": "oz. frozen strawberries, sweetened"
+      },
+      {
+         "amount": 1,
+         "name": "c. ice"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. grenadine"
+      }
+   ],
+   "instructions": "Blend strawberries, ice and grenadine together. When all is crushed, add powdered sugar and mix. If you want rum, add enough for your taste.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

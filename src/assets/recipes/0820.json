@@ -1,0 +1,28 @@
+{
+   "name": "Diebold's Hot Spiced Cider",
+   "author": "Paula Diebold",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "gal. Diebold's Cider"
+      },
+      {
+         "amount": 2,
+         "name": "cinnamon sticks"
+      },
+      {
+         "amount": 5,
+         "name": "whole cloves"
+      },
+      {
+         "amount": 1,
+         "name": "orange"
+      }
+   ],
+   "instructions": "Pour cider into large pan. Cut orange in half and squeeze some of the juice into the cider. Drop the two orange halves into the cider. Place spices in a cheese cloth and tie with a string--a tea ball also works--and drop into the cider. Simmer for 20 minutes. Do not bring to a full boil. Serve hot. Note: Once made, you can pour it into a sanitary container and refrigerate. Then you can pour a cup at a time and heat it in your microwave.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
