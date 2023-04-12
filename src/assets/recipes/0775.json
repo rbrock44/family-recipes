@@ -1,78 +1,30 @@
 {
-   "name": "",
-   "author": "",
+   "name": "Refrigerator Dessert",
+   "author": "Louise Alderman",
    "category": 6,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "box yellow Jiffy cake mix"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "small can of pineapple, crushed"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "container of Cool Whip"
       },
       {
          "amount": 2,
-         "name": ""
+         "name": "boxes instant vanilla pudding"
       },
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "amount": 0,
+         "name": "Nuts, optional"
       }
    ],
-   "instructions": "",
+   "instructions": "Bake cake in 9 x 13 inch pan. Let cool. Make instant pudding. Put in refrigerator to set. Add pineapple to pudding right before you spread on cake. Spread pudding over cake. Spread Cool Whip over cake. Sprinkle with nuts.",
    "yield": {
       "amount": 0,
       "name": ""

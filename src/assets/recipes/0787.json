@@ -1,54 +1,30 @@
 {
-   "name": "Country Apple Coffee Cake",
-   "author": "S.P.",
+   "name": "Ice Cream Dessert",
+   "author": "Juanita Dannenmueller",
    "category": 6,
    "ingredients": [
       {
-         "amount": 2,
-         "name": "Tbsp. margarine, softened"
+         "amount": 0,
+         "name": "Oreo cookies"
       },
       {
-         "amount": 1.5,
-         "name": "c. chopped, peeled apples"
+         "amount": 0,
+         "name": "Vanilla ice cream"
       },
       {
-         "amount": 10,
-         "name": "oz. can Hungry Jack Refrigerated Flaky Biscuits"
+         "amount": 0,
+         "name": "Cool Whip"
       },
       {
-         "amount": 0.33,
-         "name": "c. firmly packed brown sugar"
+         "amount": 0,
+         "name": "Nuts"
       },
       {
-         "amount": 0.33,
-         "name": "c. light corn syrup"
-      },
-      {
-         "amount": 1,
-         "name": "egg"
-      },
-      {
-         "amount": 0.25,
-         "name": "tsp. cinnamon"
-      },
-      {
-         "amount": 0.5,
-         "name": "c. pecan pieces or halves"
-      },
-      {
-         "amount": 0.33,
-         "name": "c. powdered sugar"
-      },
-      {
-         "amount": 0.25,
-         "name": "tsp. vanilla"
-      },
-      {
-         "amount": 1,
-         "name": "to 2 Tbsp. milk"
+         "amount": 0,
+         "name": "Butterscotch or caramel topping"
       }
    ],
-   "instructions": "Heat oven to 350°. Using 1 tablespoon margarine, generously grease bottom and sides of 9 inch round cake pan. Spread 1 cup of the apples in prepared pan. Separate dough into 10 biscuits, cut into four pieces. Arrange biscuit pieces point side up over apples. Top with remaining apples. In small bowl combine remaining 1 tablespoon margarine, brown sugar, cinnamon, corn syrup and egg. Beat 2 or 3 minutes until sugar is partially dissolved. Stir in pecans, spoon over biscuit pieces. Bake at 350° for 45 minutes. Cool five minutes. Add glaze: 3 c. powdered sugar, 1/4 tsp. vanilla and 1 to 2 teaspoons of milk. Mix until smooth; drizzle over warm coffee cake. Store in refrigerator.",
+   "instructions": "Crush Oreo cookies and spread into 9 x 13 inch pan. Soften ice cream and spread over Oreos. For the third layer, add topping. Next, add Cool Whip, followed by a layer of nuts. Sprinkle Oreo cookies on top. Freeze before serving.",
    "yield": {
       "amount": 0,
       "name": ""

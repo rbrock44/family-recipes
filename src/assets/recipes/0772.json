@@ -1,78 +1,42 @@
 {
-   "name": "",
-   "author": "",
+   "name": "Cheese Cake",
+   "author": "In Memory of Celena Blattel, Helen Menz",
    "category": 6,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "pkg. lemon Jell-O"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "Tbsp. lemon juice"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "(8 oz.) cream cheese"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "c. sugar"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "tsp. vanilla"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "large can Milnot, chilled"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "lb. graham crackers"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "amount": 0.5,
+         "name": "c. oleo"
       }
    ],
-   "instructions": "",
+   "instructions": "Dissolve 1 package lemon flavored Jell-O in 1 cup boiling water. Add 3 tablespoons lemon juice. Cool to room temperature. Cream together the cream cheese, sugar and vanilla. Add cooled Jell-O and mix well. Whip the chilled Milnot and fold into Jell-O mixture. Crush the graham cracker and add 1⁄2 cup melted oleo. Pack 2/3 of the mixture in the bottom and sides of a 9 x 13 inch pan, add filling and sprinkle the remaining crumbs on top. Chill several hours.",
    "yield": {
       "amount": 0,
       "name": ""

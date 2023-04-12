@@ -1,36 +1,44 @@
 {
-   "name": "Mini Cherry Cheese Cakes",
-   "author": "Doris Moore",
+   "name": "Bananas Foster",
+   "author": "Shirley Drury",
    "category": 6,
    "ingredients": [
       {
-         "amount": 2,
-         "name": "large pkg. cream cheese"
-      },
-      {
-         "amount": 2,
-         "name": "eggs"
-      },
-      {
-         "amount": 0.75,
-         "name": "c. sugar"
+         "amount": 1.5,
+         "name": "ripe bananas, peeled"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "name": "Tbsp. lemon juice"
       },
       {
-         "amount": 18,
-         "name": "vanilla wafers"
+         "amount": 0.25,
+         "name": "c. brown sugar"
       },
       {
-         "amount": 0,
-         "name": "Favorite pie filling"
+         "amount": 2,
+         "name": "Tbsp. butter"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. banana liqueur"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. white rum"
+      },
+      {
+         "amount": 1,
+         "name": "pint vanilla ice cream"
       }
    ],
-   "instructions": "Soften cream cheese to room temperature. Blend cheese, sugar, eggs and vanilla until smooth and creamy. Line muffin tins with cup- cake wrappers. Place vanilla wafer in each bottom. Fill each cup with cheesecake mixture, about 3/4 full. Bake at 325° for 20 minutes. Cool and top with your favorite pie filling.",
+   "instructions": "Slice bananas in half lengthwise. Brush with lemon juice. Melt sugar and butter in flat chafing dish or 10 inch skillet. Add bananas, saute until just tender. Sprinkle with cinnamon. Remove from heat; add liqueur and rum. Immediately ignite and baste bananas with warm liquid until flame burns out. Divide sauce and bananas over 4 servings of ice cream.",
    "yield": {
-      "amount": 0,
-      "name": ""
+      "amount": 2,
+      "name": "servings"
    }
 }

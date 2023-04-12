@@ -1,78 +1,46 @@
 {
-   "name": "",
-   "author": "",
+   "name": "Cheesecake Cups",
+   "author": "Rebecca Hooper",
    "category": 6,
    "ingredients": [
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
          "amount": 3,
-         "name": ""
+         "name": "(8 oz.) cream cheese, softened"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. lemon juice"
+      },
+      {
+         "amount": 0,
+         "name": "Sprinkle lemon peel"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. vanilla wafers"
+      },
+      {
+         "amount": 0,
+         "name": "Cup cake holders"
+      },
+      {
+         "amount": 0,
+         "name": "Cherry or blueberry pie filling"
       }
    ],
-   "instructions": "",
+   "instructions": "Mix all ingredients together, except vanilla wafers. Place one vanilla wafer in each cupcake holder. Top with cheese mixture. Bake at 325° for 10 to 15 minutes. Cool completely and top with pie filling, cherry or blueberry.",
    "yield": {
       "amount": 0,
       "name": ""

@@ -1,78 +1,50 @@
 {
-   "name": "",
-   "author": "",
+   "name": "Banana Split Cake",
+   "author": "Zeta Welter",
    "category": 6,
    "ingredients": [
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
          "amount": 2,
-         "name": ""
+         "name": "c. graham crackers"
       },
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0.5,
+         "name": "c. white sugar"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "stick butter, melted"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "(8 oz.) Philadelphia cream cheese"
       },
       {
          "amount": 2,
-         "name": ""
+         "name": "c. powdered sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter"
+      },
+      {
+         "amount": 6,
+         "name": "bananas, sliced long ways"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "large can crushed pineapple, drained"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "name": "large bowl Cool Whip"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "name": "Maraschino cherries"
       }
    ],
-   "instructions": "",
+   "instructions": "Mix together graham crackers, sugar, and butter and press into an oblong Pyrex pan. Beat together cream cheese, powdered sugar and butter. Spread evenly over first layer. Arrange bananas and pine- apple on second layer. Spread Cool Whip over this layer. Top with pecans and maraschino cherries.",
    "yield": {
       "amount": 0,
       "name": ""

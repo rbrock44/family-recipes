@@ -1,78 +1,42 @@
 {
-   "name": "",
-   "author": "",
+   "name": "Peach Cobbler",
+   "author": "Sister Rebecca Peters",
    "category": 6,
    "ingredients": [
       {
          "amount": 1,
-         "name": ""
+         "name": "stick butter"
       },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+	  {
+         "amount": 0,
+         "name": "Fresh peaches, about 2 cups, sliced and sugared"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "c. flour"
       },
       {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 1.5,
+         "name": "tsp. baking powder"
       },
       {
          "amount": 1,
-         "name": ""
+         "name": "c. sugar"
       },
       {
-         "amount": 2,
-         "name": ""
+         "amount": 0,
+         "name": "Dash of salt"
       },
       {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
+         "amount": 0.66,
+         "name": "c. milk"
       },
       {
          "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
+         "name": "tsp. vanilla"
       }
    ],
-   "instructions": "",
+   "instructions": "Melt butter in large pan. Add sliced peaches. Mix together remaining ingredients and drop this mixture on peaches. Top with 1⁄2 cup of sugar. Bake 325° until done.",
    "yield": {
       "amount": 0,
       "name": ""
