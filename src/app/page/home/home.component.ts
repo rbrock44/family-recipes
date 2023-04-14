@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { MatTableDataSource } from '@angular/material/table';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
-import { CATEGORIES } from 'src/app/constants/constants';
-import { getCategory } from 'src/app/models/category.enum';
+import { CATEGORIES, getCategory } from 'src/app/models/category.enum';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
 

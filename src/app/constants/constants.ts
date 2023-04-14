@@ -4,17 +4,6 @@ import { LiquidConversion } from "../models/liquid-conversion.model";
 import { Recipe } from "../models/recipe.interface";
 import { RecipeModel } from "../models/recipe.model";
 
-export const CATEGORIES = [
-  new DropdownOption('', 0),
-  new DropdownOption('Appetizers, Relishes & Pickles', 1,),
-  new DropdownOption('Soups, Salads & Sauces', 2,),
-  new DropdownOption('Meats & Main Dishes', 3,),
-  new DropdownOption('Vegetables', 4,),
-  new DropdownOption('Breads, Rolls & Pastries', 5,),
-  new DropdownOption('Cakes, Cookies & Desserts', 6),
-  new DropdownOption('Beverages, Microwave & Miscellaneous', 7)
-];
-
 export const DRY_CONVERSIONS = [
   new DryConversion(1, 16, 48, 128),
   new DryConversion(.75, 12, 36, 96),
