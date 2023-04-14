@@ -1,0 +1,36 @@
+{
+   "name": "Fish Beer Batter",
+   "author": "Linda Menz",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "egg beaten until fluffy"
+      },
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. beer at room temperature"
+      }
+   ],
+   "instructions": "Mix until smooth with wire wisk. If too thick, add more beer. Coat fish and fry in hot grease.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "name": "Irish Coffee",
+   "author": "Fr. Oliver Clavin",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Cream, rich as an Irish brogue"
+      },
+      {
+         "amount": 0,
+         "name": "Coffee, strong as a friendly hand"
+      },
+      {
+         "amount": 0,
+         "name": "Sugar, sweet as the tongue of a rogue"
+      },
+      {
+         "amount": 0,
+         "name": "Whiskey, smooth as the wit of the land"
+      }
+   ],
+   "instructions": "In a glass, pour 1 jigger of Irish whiskey. Add strong black coffee steaming hot to within one inch of top of the glass. Add 3 cubes of sugar, or 1 teaspoon, and stir well. Over the back of a large spoon, carefully pour the whipped rich cream. It should float on top of the coffee. (It should not be stirred into the coffee.) The hot coffee should be sipped through the cool cream. Another name for this is Whiskey-laced Coffee.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

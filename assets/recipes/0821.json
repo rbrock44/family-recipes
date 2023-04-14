@@ -1,0 +1,32 @@
+{
+   "name": "Hot Apple Juice",
+   "author": "Shirley Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "c. firmly packed brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(3 inch) stick cinnamon"
+      },
+      {
+         "amount": 6,
+         "name": "whole cloves"
+      },
+      {
+         "amount": 4,
+         "name": "(3 x 1 1⁄2 inch) strips orange rind"
+      },
+      {
+         "amount": 0,
+         "name": "Ground nutmeg"
+      }
+   ],
+   "instructions": "Mix all ingredients except nutmeg in a Dutch oven; simmer 20 minutes. Remove and discard spices. To serve, pour into individual mugs, and sprinkle each serving with nutmeg.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

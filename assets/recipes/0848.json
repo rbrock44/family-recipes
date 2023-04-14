@@ -1,0 +1,24 @@
+{
+   "name": "Halloween Makeup",
+   "author": "Dominic Hooper",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "Tbsp. vegetable shortening"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. cornstarch"
+      },
+      {
+         "amount": 0,
+         "name": "A few drops of food coloring"
+      }
+   ],
+   "instructions": "Mix 3 ingredients. (Washes off with soap and water.)",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

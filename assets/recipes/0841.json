@@ -1,0 +1,28 @@
+{
+   "name": "Strawberry Freezer Jam",
+   "author": "Charlotte Hooper",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. crushed strawberries"
+      },
+      {
+         "amount": 4,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "box Sure-Jell"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. water"
+      }
+   ],
+   "instructions": "Prepare fruit. Measure sugar into bowl (exact measure). Stir sug- ar into fruit. Set aside for 10 minutes; stirring occasionally. Stir box sure-jell and water in small saucepan. Bring mixture to full boil on high heat, stirring occasionally. Boil and stir 1 minute. Remove from heat. Stir Sure-Jell mixture into fruit. Stir until sugar is completely dissolved and no longer grainy, about 3 minutes. Pour quickly into clean freezer jars or plastic containers. Let stand 24 hours, then freeze.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

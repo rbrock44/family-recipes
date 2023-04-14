@@ -1,0 +1,32 @@
+{
+   "name": "Spiced Tea",
+   "author": "Shirley Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. Tang"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. instant tea"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. cloves"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      }
+   ],
+   "instructions": "Mix all ingredients together. Keep in covered jar. Use 2 to 3 rounded teaspoons per cup of boiling water.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

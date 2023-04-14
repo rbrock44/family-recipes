@@ -1,0 +1,32 @@
+{
+   "name": "Our Breakfast Nog",
+   "author": "L.M.",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "of a 6 oz. can frozen orange juice concentrate, thawed"
+      },
+      {
+         "amount": 1,
+         "name": "c. vanilla ice cream"
+      },
+      {
+         "amount": 1,
+         "name": "c. milk"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. sugar"
+      }
+   ],
+   "instructions": "Place all ingredients in a blender. Cover and blend at low speed until combined. Then blend at high speed until foamy for 30 seconds.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

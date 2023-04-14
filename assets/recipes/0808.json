@@ -1,0 +1,36 @@
+{
+   "name": "Russian Tea",
+   "author": "Sister Dorothy Reinhold",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. regular instant tea"
+      },
+      {
+         "amount": 1,
+         "name": "c. Tang"
+      },
+      {
+         "amount": 1,
+         "name": "(3 oz.) pkg. Wyler's instant lemonade"
+      },
+      {
+         "amount": 2.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. cloves"
+      }
+   ],
+   "instructions": "Mix well. Keep in a covered jar. Use 2 to 3 rounded teaspoons per cup of boiling water.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

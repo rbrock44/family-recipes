@@ -1,0 +1,28 @@
+{
+   "name": "Grape Wine",
+   "author": "In Memory of Anton Diebold",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "qt. (40 oz.) grape juice"
+      },
+      {
+         "amount": 5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp. yeast"
+      },
+      {
+         "amount": 0,
+         "name": "Water to fill jug"
+      }
+   ],
+   "instructions": "Mix sugar, juice and yeast. Put in jug. Fill with water. Attach 10 to 15 cent balloon. Keep airtight. Set aside for six weeks.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

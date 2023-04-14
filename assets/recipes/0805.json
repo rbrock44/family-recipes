@@ -1,0 +1,28 @@
+{
+   "name": "Cherry Wine",
+   "author": "Jennifer Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "or 5 qt. wild cherries, mashed or unmashed"
+      },
+      {
+         "amount": 12,
+         "name": "lb. sugar, dissolved in warm water"
+      },
+      {
+         "amount": 3,
+         "name": "or 4 big grape vine leaves"
+      },
+      {
+         "amount": 4,
+         "name": "lb. sand, tied in cloth"
+      }
+   ],
+   "instructions": "Pour cherries into 5 gallon jug and add sugar. Fill remainder of jug to overflowing with water. Cover the opening of the jug with leaves, weighing them down with sand. Place in basement for fermentation. More or less cherries than above amount will produce a darker or lighter wine, respectively.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

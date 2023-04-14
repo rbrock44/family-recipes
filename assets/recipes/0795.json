@@ -1,0 +1,40 @@
+{
+   "name": "Rum Slush",
+   "author": "Shirley Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. rum"
+      },
+      {
+         "amount": 9,
+         "name": "c. hot water"
+      },
+      {
+         "amount": 2,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) can lemonade"
+      },
+      {
+         "amount": 1,
+         "name": "(12 oz.) can orange juice"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. instant tea"
+      },
+      {
+         "amount": 3,
+         "name": "or 4 drops green food color"
+      }
+   ],
+   "instructions": "Mix well and freeze. I use Cool Whip cartons. When ready to serve, pour into glass and pour 7-up or Sprite over it.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

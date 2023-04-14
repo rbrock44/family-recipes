@@ -1,0 +1,40 @@
+{
+   "name": "Homemade Egg Nog",
+   "author": "Ann Glueck",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 0.33,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 6,
+         "name": "c. milk"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. instant vanilla pudding"
+      },
+      {
+         "amount": 1,
+         "name": "c. bourbon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp. nutmeg"
+      }
+   ],
+   "instructions": "Mix with blender.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

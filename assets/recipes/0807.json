@@ -1,0 +1,32 @@
+{
+   "name": "Mock Champagne",
+   "author": "Cheryl Stone",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4,
+         "name": "c. water"
+      },
+      {
+         "amount": 4,
+         "name": "c. grape juice or pineapple juice"
+      },
+      {
+         "amount": 2,
+         "name": "c. orange juice"
+      },
+      {
+         "amount": 8,
+         "name": "pt. chilled ginger ale"
+      }
+   ],
+   "instructions": "Boil sugar and water for 3 minutes and cool. Add the juices and chill. Just before serving, add chilled ginger ale.",
+   "yield": {
+      "amount": 50,
+      "name": "servings"
+   }
+}

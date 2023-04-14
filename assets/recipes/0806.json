@@ -1,0 +1,40 @@
+{
+   "name": "Dandelion Wine",
+   "author": "Jennifer Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "gal. boiling water"
+      },
+      {
+         "amount": 3,
+         "name": "qt. dandelion flowers"
+      },
+      {
+         "amount": 5,
+         "name": "lb. light brown sugar"
+      },
+      {
+         "amount": 0,
+         "name": "Juice and rind of 2 lemons"
+      },
+      {
+         "amount": 0,
+         "name": "Juice and rind of 2 oranges"
+      },
+      {
+         "amount": 0.5,
+         "name": "cake yeast"
+      },
+      {
+         "amount": 1,
+         "name": "raisin for each bottle"
+      }
+   ],
+   "instructions": "Pour water over flowers. Let stand for 24 hours. Strain and add brown sugar, yeast, juices and rinds. Put in crock and let stand until it commences to ferment. Then bottle and put corks in loosely to let it ferment. After it stops fermenting, put one raisin in each bottle and cork tight. Red clover wine and Elderberry wine can be prepared in the same way using the blossoms of those plants.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

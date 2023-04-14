@@ -1,0 +1,36 @@
+{
+   "name": "Microwave Fudge",
+   "author": "Clint Estes",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. cocoa"
+      },
+      {
+         "amount": 2,
+         "name": "lb. 10x sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. homogenized milk"
+      },
+      {
+         "amount": 2,
+         "name": "sticks margarine"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 0.5,
+         "name": "to 1 c. chopped nuts (optional)"
+      }
+   ],
+   "instructions": "Sift cocoa and sugar in a large mixing bowl. Add milk and lay margarine sticks on top. Do not stir. Cook on High for 6 minutes. Remove from microwave and stir thoroughly. Add vanilla flavoring and nuts. Stir until well mixed. Pour onto buttered platter. Cool in refrigerator for 1 hour. Cut and serve. Do not double this recipe.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

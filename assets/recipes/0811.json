@@ -1,0 +1,28 @@
+{
+   "name": "Banana Whip (Sugar-Free)",
+   "author": "Charlotte Hooper",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "pkg. (4 serving size) Sugar Free JELL-O, any flavor"
+      },
+      {
+         "amount": 2,
+         "name": "c. boiling water"
+      },
+      {
+         "amount": 1,
+         "name": "c. cold whole milk Ice cubes"
+      },
+      {
+         "amount": 2,
+         "name": "medium banana, sliced"
+      }
+   ],
+   "instructions": "Combine gelatin and boiling water in a blender. Blend until dissolved, about 30 seconds. Add milk and ice cubes to make 1 1/4 cups. Stir in blender until partially melted. Add banana slices; blend until smooth. Only 45 calories per serving.",
+   "yield": {
+      "amount": 5,
+      "name": "servings"
+   }
+}

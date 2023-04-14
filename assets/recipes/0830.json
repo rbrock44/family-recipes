@@ -1,0 +1,24 @@
+{
+   "name": "Microwave Egg Sandwich",
+   "author": "C. Allen Collier",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0,
+         "name": "Milk or water"
+      },
+      {
+         "amount": 2,
+         "name": "slices of bread"
+      }
+   ],
+   "instructions": "Place egg in microwave safe bowl and scramble it with a fork. Add milk or water as needed. Microwave on high for 1 minute. The egg can then be placed on bread to make a sandwich.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "name": "Amaretto Slush",
+   "author": "Christine Estes",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "(6 oz.) can frozen lemonade concentrate, thawed and undiluted"
+      },
+      {
+         "amount": 1,
+         "name": "c. Amaretto"
+      },
+      {
+         "amount": 0,
+         "name": "Lemon-lime carbonated beverage, chilled"
+      },
+      {
+         "amount": 0,
+         "name": "Maraschino cherries (optional)"
+      }
+   ],
+   "instructions": "Combine sugar and water in a saucepan, stirring well. Bring to a boil, stirring until sugar dissolves. Reduce heat and simmer 15 minutes. Combine sugar mixture, lemonade and Amaretto; stir well and freeze mixture overnight. Break frozen mixture into chunks. Scoop into glasses, filling to 1⁄2 full. Add carbonated beverage; stir until slushy. Top each serving with a cherry, if desired.",
+   "yield": {
+      "amount": 7.5,
+      "name": "cups"
+   }
+}

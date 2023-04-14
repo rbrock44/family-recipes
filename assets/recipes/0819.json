@@ -1,0 +1,28 @@
+{
+   "name": "Hot Chocolate",
+   "author": "Mrs. Theon L. Schlosser, Jr.",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. instant cocoa"
+      },
+      {
+         "amount": 8,
+         "name": "c. powdered milk"
+      },
+      {
+         "amount": 0.5,
+         "name": "lb. powdered sugar"
+      },
+      {
+         "amount": 3.5,
+         "name": "oz. powdered creamer"
+      }
+   ],
+   "instructions": "Mix together and store in tight container, To make cocoa, add of above mixture to 1 cup of hot water.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

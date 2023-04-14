@@ -1,0 +1,24 @@
+{
+   "name": "Apple Butter",
+   "author": "Joan M. Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "gal. applesauce"
+      },
+      {
+         "amount": 4,
+         "name": "Tbsp. cider vinegar"
+      },
+      {
+         "amount": 8,
+         "name": "c. sugar"
+      }
+   ],
+   "instructions": "Cook in 325° or 350° oven until thick, then put into jars and seal. This takes several hours.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

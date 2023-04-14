@@ -1,0 +1,36 @@
+{
+   "name": "Elderberry Wine",
+   "author": "Jennifer Drury",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "gal. elderberries"
+      },
+      {
+         "amount": 0,
+         "name": "Juice of 12 lemons"
+      },
+      {
+         "amount": 1,
+         "name": "lb. chopped raisins"
+      },
+      {
+         "amount": 10,
+         "name": "lb. sugar, dissolved in warm water"
+      },
+      {
+         "amount": 3,
+         "name": "or 4 big grape vine leaves"
+      },
+      {
+         "amount": 4,
+         "name": "lb. sand, tied in cloth"
+      }
+   ],
+   "instructions": "Wash and mash elderberries. Let ferment for 5 or 6 days. Remove solids by passing it through a thin cloth. Add the lemon juice, raisins and sugar to the berry juice in a 5 gallon jug and fill with water. Cover the opening of the jug with grape vine leaves, weighing them down with sand.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

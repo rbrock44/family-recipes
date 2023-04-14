@@ -1,0 +1,36 @@
+{
+   "name": "Ice Cream Sandwiches",
+   "author": "Catrina Stone",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tsp. vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. shortening"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. butter, softened"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. devil's food cake mix"
+      },
+      {
+         "amount": 0,
+         "name": "Ice cream (any flavor)"
+      }
+   ],
+   "instructions": "Preheat oven to 375°. Beat egg, shortening, butter, vanilla and 1⁄2 of the cake mix until smooth. Then stir in remaining cake mix until smooth. Roll dough out and cut into any desired shape or square. Bake 8 to 10 minutes. Poke fork holes in when fresh out of oven. Put ice cream between two cookies and freeze.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

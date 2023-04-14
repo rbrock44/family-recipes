@@ -1,0 +1,40 @@
+{
+   "name": "Finger Paint",
+   "author": "Cory Schlosser",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. cornstarch"
+      },
+      {
+         "amount": 0.5,
+         "name": "to 3/4 c. cold water"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. soap flakes"
+      },
+      {
+         "amount": 4,
+         "name": "c. hot water"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. glycerin"
+      },
+      {
+         "amount": 0,
+         "name": "Vegetable coloring"
+      }
+   ],
+   "instructions": "Mix the cornstarch and cold water to a thin paste. Add salt and soap flakes, stirring constantly over medium heat; cook until thick and smooth (can be done in microwave, stirring frequently). Remove from heat. If lumps are present, use an eggbeater. When cool, add glycerin and coloring.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
