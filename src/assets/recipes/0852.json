@@ -1,0 +1,36 @@
+{
+  "name": "Brisket Rub HeyGrillHey",
+  "author": "HeyGrillHey",
+  "category": 8,
+  "ingredients": [
+    {
+      "name": "tbsp coarse kosher salt",
+      "amount": 2
+    },
+    {
+      "name": "tbsp coarse black pepper",
+      "amount": 2
+    },
+    {
+      "name": "tbsp onion powder",
+      "amount": 1
+    },
+    {
+      "name": "tbsp garlic powder",
+      "amount": 1
+    },
+    {
+      "name": "tbsp smoked paprika",
+      "amount": 1
+    },
+    {
+      "name": "2 tsp ground coriander",
+      "amount": 2
+    }
+  ],
+  "instructions": "Mix all ingredients in a bowl. Use a fork to crush any clumps of seasonings. This rub can be stored in an airtight container for up to a month.",
+  "yield": {
+    "name": "",
+    "amount": 0
+  }
+}

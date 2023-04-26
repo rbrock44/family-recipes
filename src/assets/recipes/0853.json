@@ -1,0 +1,44 @@
+{
+  "name": "Sweet Rub (Pork and Chicken) HeyGrillHey",
+  "author": "HeyGrillHey",
+  "category": 8,
+  "ingredients": [
+    {
+      "name": "cup dark brown sugar",
+      "amount": 0.25
+    },
+    {
+      "name": "tbsp coarse sea salt",
+      "amount": 1
+    },
+    {
+      "name": "tsp cracked black pepper",
+      "amount": 2
+    },
+    {
+      "name": "tsp smoked paprika",
+      "amount": 2
+    },
+    {
+      "name": "tsp garlic powder",
+      "amount": 2
+    },
+    {
+      "name": "tsp onion powder",
+      "amount": 2
+    },
+    {
+      "name": "tsp ground mustard",
+      "amount": 1
+    },
+    {
+      "name": "tsp cayenne pepper",
+      "amount": 0.5
+    }
+  ],
+  "instructions": "Mix all ingredients in a bowl. Use a fork to crush any clumps of seasonings. This rub can be stored in an airtight container for up to a month.",
+  "yield": {
+    "name": "",
+    "amount": 0
+  }
+}
