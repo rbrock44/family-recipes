@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]
 	then 
-		echo "Hey pal, you need the number of files to create"
+		echo "Hey pal, you need to provide the number of files to create"
 		exit
 fi
 
