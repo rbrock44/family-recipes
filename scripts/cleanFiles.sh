@@ -1,22 +1,17 @@
 #!/bin/bash
 
-if [ -z "$1" ]
-	then 
-		echo "Hey pal, you need to provide the number of files to clean"
-		exit
-fi
-
 loc="C:\\workspace\\family-recipes\\src\\assets\\recipes\\"
 x=853
+y=1
 
-while [ $x -le $1 ]
+while [ $y -le $x ]
 do 
-	name=$(printf "%04d" $x)
+	name=$(printf "%04d" $y)
 	file="${loc}${name}.json"
 	replace="1/2"
 
-	($sed -i "s#1?2#$replace#" $file)
+	$(sed -i "s#1?2#$replace#" $file)
 	
-	x=$(( $x + 1 ))
+	y=$(( $y + 1 ))
 done
 
