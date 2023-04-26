@@ -8,9 +8,10 @@ while [ $y -le $x ]
 do 
 	name=$(printf "%04d" $y)
 	file="${loc}${name}.json"
-	replace="1/2"
+	replace="1/4"
+	search="1?4"
 
-	$(sed -i "s#1?2#$replace#" $file)
+	$(sed -i "s#$search#$replace#" $file)
 	
 	y=$(( $y + 1 ))
 done
