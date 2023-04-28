@@ -1,30 +1,50 @@
-# FamilyRecipes
+# Family Recipes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+[Live Website](https://rbrock44.github.io/family-recipes/)<br>
 
-## Development server
+![Main](/pics/main.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This wesbite was created for my grandma (and family) to hold our family recipes. The benefit the website provides over a cookbook is quicker search access and the ability to easily change the number of batches.
 
-## Code scaffolding
+## Seach
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Search](/pics/basic-search.png)
 
-## Build
+A search fires off for every typed character. Every word seperated by a space in the search bar has to be found in either the title, author or number. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Advanced Search
 
-## Running unit tests
+![Advanced Search](/pics/advanced-search.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Advanced search allows the option to only show the hooper family or select a specific category
 
-## Further help
+## Results
 
-To get more help on the Angular CLI use `ng help` or go check out
-the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Results](/pics/results.png)
 
-IDEAS
+The results are shown below in a table. The table can be sorted by any column. Click on a recipe to see more details
 
-on startup, read each file in a folder for recipes
+## Recipe Page 
 
-home page - list every recipe or search recipe page - list recipe with ability to multiply
+![Recipe page](/pics/recipe.png)
+
+The recipe page shows the title, author, ingredients and instructions for the recipe. The batch control allows the ability to alter the number of batches. The heart favorites the recipe. The top left navigation bar can be used to quickly go forward or backward through results.
+
+## Favorites 
+
+![Favorites](/pics/favorites.png)
+
+The favorites table contain all recipes that have been hearted. Can be sorted by any column
+
+## Local Development server
+
+One of the following:<br>
+1. `npm run start` - Navigate to `http://localhost:4200/`
+2. `ng serve` - Navigate to `http://localhost:4200/`
+3. `ng serve -o` - opens browser to url
+
+## Deploy to Live Website
+
+Step 1: `npm run deploy`<br>
+Step 2: `npm run gh-pages`<br>
+
