@@ -1,0 +1,32 @@
+{
+   "name": "Pound Cake",
+   "author": "Charlotte Hooper",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "cake mix"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. softened butter"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "pkg instant vanilla pudding"
+      }
+   ],
+   "instructions": "Bake according to pkg directions",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

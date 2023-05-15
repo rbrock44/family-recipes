@@ -7,7 +7,7 @@ if [ -z "$1" ]
 fi
 
 loc="C:\\workspace\\family-recipes\\scripts\\"
-x=790
+x=854
 
 while [ $x -le $1 ]
 do 

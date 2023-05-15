@@ -1,0 +1,64 @@
+{
+   "name": "",
+   "author": "Kelly Rizvi",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "15oz cans black beans, rinsed and drained"
+      },
+      {
+         "amount": 3,
+         "name": "ears fresh cooked corn, kernels cut off the cob (I cheat and use frozen corn)"
+      },
+      {
+         "amount": 2,
+         "name": "red bell peppers, diced"
+      },
+      {
+         "amount": 2,
+         "name": "cloves garlic, minced"
+      },
+      {
+         "amount": 2,
+         "name": "tbsp minced shallots"
+      },
+      {
+         "amount": 2,
+         "name": "tsp salt"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp cayenne pepper"
+      },
+      {
+         "amount": 2,
+         "name": "tbsp sugar"
+      },
+      {
+         "amount": 9,
+         "name": "tbsp olive oil"
+      },
+      {
+         "amount": 1,
+         "name": "tsp lime zest"
+      },
+      {
+         "amount": 6,
+         "name": "Tbsp fresh lime juice"
+      },
+      {
+         "amount": 0.5,
+         "name": "cup chopped fresh cilantro, plus more for garnish"
+      },
+      {
+         "amount": 2,
+         "name": "avocados, chopped"
+      }
+   ],
+   "instructions": "Combine all ingredients except for avocados in a large bowl and mix well. Cover and chill for a few hours or overnight. Right before serving, add avocados and mix gently being careful not to mash avocados. Garnish with more choppedcilantro if desired. Serve at room temperature.",
+   "yield": {
+      "amount": 6,
+      "name": "(6-8) people"
+   }
+}

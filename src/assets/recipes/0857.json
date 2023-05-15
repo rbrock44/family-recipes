@@ -1,0 +1,20 @@
+{
+   "name": "Hash",
+   "author": "Becky Collier",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "Stew meat - cover with water, Lawry salt & pepper, let cook all day on low"
+      },
+      {
+         "amount": 0,
+         "name": "Peel potatoes - cut up small"
+      }
+   ],
+   "instructions": "Put everything in a pot - let cook on Stove until potatoes are done",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

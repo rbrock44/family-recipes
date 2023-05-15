@@ -1,0 +1,40 @@
+{
+   "name": "Banana Pudding - Aunt Sis",
+   "author": "Becky Collier",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz) pkg cream cheese"
+      },
+      {
+         "amount": 1,
+         "name": "(14 oz) can sweetened condensed milk"
+      },
+      {
+         "amount": 1,
+         "name": "5.1 oz box instant vanilla pudding"
+      },
+      {
+         "amount": 3,
+         "name": "cups milk"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz) carton cool whip"
+      },
+      {
+         "amount": 0,
+         "name": "bananas"
+      },
+      {
+         "amount": 0,
+         "name": "vanilla wafers"
+      }
+   ],
+   "instructions": "Mix together cream cheese & condensed milk. In separate bowl, mix vanilla pudding with 3 cups milk until it starts setting. Add 8 oz, whipped topping & blend. Add this mixture to the cream cheese mixture & mix. Layer in 9x13pan, pudding sliced banane, crushed vanilla wafers, pudding, and crushed vanilla wafer on top. Chill.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

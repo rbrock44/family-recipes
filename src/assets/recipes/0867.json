@@ -1,0 +1,40 @@
+{
+   "name": "﻿Chicken and Dressing",
+   "author": "Becky Collier",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "half-loaf bread - toasted"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0,
+         "name": "salt"
+      },
+      {
+         "amount": 0,
+         "name": "pepper"
+      },
+      {
+         "amount": 0,
+         "name": "celery"
+      },
+      {
+         "amount": 0,
+         "name": "onoin"
+      },
+      {
+         "amount": 0,
+         "name": "broth (enough to moisten bread) - cool with wayer or ice"
+      }
+   ],
+   "instructions": "Bake at 325-350 degrees until done",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

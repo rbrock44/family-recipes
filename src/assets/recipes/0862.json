@@ -1,0 +1,32 @@
+{
+   "name": "Chicken Pot Pie",
+   "author": "Becky Collier",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "chicken"
+      },
+      {
+         "amount": 0,
+         "name": "potatoes"
+      },
+      {
+         "amount": 0,
+         "name": "carrots"
+      },
+      {
+         "amount": 0,
+         "name": "corn starch"
+      },
+      {
+         "amount": 0,
+         "name": "pie crust"
+      }
+   ],
+   "instructions": "Pressure or cook chicken until done (to make broth). Cook potatoes & carrots in broth until done. Add 1 can each of corn & green beans & chicken. Thicken with corn starch. Add pie crust to line a casserole dish. Add mixture to top of crust. Cover with a second crust. Bake",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

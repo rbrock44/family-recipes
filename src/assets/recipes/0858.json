@@ -1,0 +1,32 @@
+{
+   "name": "Stuffed Been Peppers",
+   "author": "Becky Collier",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. thawed ground beef"
+      },
+      {
+         "amount": 1,
+         "name": "can tomato sauce"
+      },
+      {
+         "amount": 1,
+         "name": "cup instant rice"
+      },
+      {
+         "amount": 0,
+         "name": "Lawrey's to taste"
+      },
+      {
+         "amount": 0,
+         "name": "green peppers"
+      }
+   ],
+   "instructions": "Mix beef, rice a some sauce and stuff into peppers. place in baking dish & cover with remaining sauce & bake until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

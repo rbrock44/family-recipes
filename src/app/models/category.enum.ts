@@ -10,6 +10,7 @@ export enum Category {
   'Cakes, Cookies & Desserts' = 6,
   'Beverages, Microwave & Miscellaneous' = 7,
   'Rubs, Blends and Seasonings' = 8,
+  'Pasta' = 9,
 }
 
 export const CATEGORIES = [
@@ -22,6 +23,7 @@ export const CATEGORIES = [
   new DropdownOption('Cakes, Cookies & Desserts', 6),
   new DropdownOption('Beverages, Microwave & Miscellaneous', 7),
   new DropdownOption('Rubs, Blends and Seasonings', 8),
+  new DropdownOption('Pasta', 9),
 ];
 
 export function getCategory(num: number): string {

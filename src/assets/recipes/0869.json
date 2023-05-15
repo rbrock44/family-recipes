@@ -1,0 +1,24 @@
+{
+   "name": "Apple Crisp Topping (Part 2)",
+   "author": "Charlotte Hooper (Submitted by: Alivia Collier)",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. flour"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "stick butter, softened"
+      }
+   ],
+   "instructions": "Mix together until crumbly. Sprinkle crumbs on top of apple mixture. Bake at 350° for 45 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
