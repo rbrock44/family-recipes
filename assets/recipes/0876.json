@@ -1,0 +1,48 @@
+{
+   "name": "Baked Potato Soup",
+   "author": "Sara Snider",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "large baking potatos"
+      },
+      {
+         "amount": 0.66,
+         "name": "cup butter (1.5 sticks)"
+      },
+      {
+         "amount": 0.66,
+         "name": "c. flour"
+      },
+      {
+         "amount": 6,
+         "name": "c. milk"
+      },
+      {
+         "amount": 12,
+         "name": "slices cooked bacon crumbled"
+      },
+      {
+         "amount": 1.25,
+         "name": "c. shredded cheese"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz) sour cream"
+      },
+      {
+         "amount": 4,
+         "name": "green onions chopped"
+      },
+      {
+         "amount": 0,
+         "name": "salt and pepper (to taste)"
+      }
+   ],
+   "instructions": "Bake potatoes until done. Cool, cut in half - lengthwise, scoop out pulp + set aside, melt butter in heavy saucepan over low heat. Add flour, stirring until smooth. Cook 5 mins, stirring constantly, gradually add milk, stirring over medium heat until thick and bubbly. Add potato pulp, salt & pepper. 2 tbsp green onions, 1/2 cup bacon + 1 cup chase. Cook until heated thoroughly, and stir in sour cream. Add more milk if necessary but it should be served thick. Serve with remaining green onions, bacon, & cheese on top. Do net freeze but good for several days (add milk to cup to warm up)",
+   "yield": {
+      "amount": 10,
+      "name": "cups"
+   }
+}

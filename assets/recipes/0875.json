@@ -1,0 +1,32 @@
+{
+   "name": "Potato Soup",
+   "author": "Charlotte Hooper",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "diced peeled potatos"
+      },
+      {
+         "amount": 0,
+         "name": "milk"
+      },
+      {
+         "amount": 0,
+         "name": "salt and pepper"
+      },
+      {
+         "amount": 0,
+         "name": "chicken"
+      },
+      {
+         "amount": 0,
+         "name": "corn starch mixture"
+      }
+   ],
+   "instructions": "Dice peeled potatos & cook in water until done. Drain water and add milk until it just covers the potatos. Cook slowly & milk won't burn. Add salt & pepper & chicken with corn starch mixture",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

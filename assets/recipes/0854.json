@@ -1,0 +1,44 @@
+{
+   "name": "Holiday Apple Salad",
+   "author": "Charlotte Hooper",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(8 oz) can crushed pineapple, juice included"
+      },
+      {
+         "amount": 0.75,
+         "name": "cup sugar"
+      },
+      {
+         "amount": 2,
+         "name": "tbsp apple cider vinegar"
+      },
+      {
+         "amount": 2,
+         "name": "tbsp flour"
+      },
+      {
+         "amount": 1,
+         "name": "egg, well beaten"
+      },
+      {
+         "amount": 4,
+         "name": "(4 to 5) granny smith apples"
+      },
+      {
+         "amount": 0.75,
+         "name": "cup dry roasted peanuts (light salted) finely crushed"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz) cartoon cool whip"
+      }
+   ],
+   "instructions": "Combine the first 5 ingredients in a saucepan. Cook slowly, stirring frequently until thick. Cool completely. While sauce is cooling, core and slice apples. Combine all ingredients, add cool whip, toss and refrigerate. This is a wonderful side dish to any holiday meal and can also be used as a dessert. It tastes just like candy apples.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

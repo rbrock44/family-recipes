@@ -1,0 +1,28 @@
+{
+   "name": "Apple Crisp (Part 1)",
+   "author": "Charlotte Hooper (Submitted by: Alivia Collier)",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "c. peeled, cored & sliced apples (ie. Jonathon)"
+      },
+      {
+         "amount": 1,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. cinnamon"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. flour"
+      }
+   ],
+   "instructions": "Mix the above ingredients together and pour into a 9 X 13 pan. Set aside. Go to recipe 'Apple Crisp Topping'",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

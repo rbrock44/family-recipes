@@ -1,0 +1,28 @@
+{
+   "name": "Pepper Jelly",
+   "author": "Becky Collier",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 12,
+         "name": "oz peppers, cleaned and seeds removed"
+      },
+      {
+         "amount": 2,
+         "name": "cups Cider Vinegar"
+      },
+      {
+         "amount": 6,
+         "name": "cups sugar"
+      },
+      {
+         "amount": 2,
+         "name": "(3oz) envelopes lig. pectin"
+      }
+   ],
+   "instructions": "puree peppers = l cup vinegar, then add remaining vinegar to pot, bring to boil & boil 90 min stirring constantly add pectin, boil 1 min; place in jars a process in h0t water beth 10 min.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

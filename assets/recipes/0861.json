@@ -1,0 +1,40 @@
+{
+   "name": "Dressing",
+   "author": "Charlotte Hooper",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0.5,
+         "name": "loaf bread - toasted"
+      },
+      {
+         "amount": 2,
+         "name": "eggs"
+      },
+      {
+         "amount": 0,
+         "name": "salt"
+      },
+      {
+         "amount": 0,
+         "name": "pepper"
+      },
+      {
+         "amount": 0,
+         "name": "celery"
+      },
+      {
+         "amount": 0,
+         "name": "onion"
+      },
+      {
+         "amount": 0,
+         "name": "enough broth to moisten bread"
+      }
+   ],
+   "instructions": "Bake 325-350 degress until done",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

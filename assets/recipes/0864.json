@@ -1,0 +1,44 @@
+{
+   "name": "Chocolate Chip Cheeseball",
+   "author": "Becky Collier",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box graham crackers"
+      },
+      {
+         "amount": 1,
+         "name": "pkg cream cheese, softened"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. butter, softened"
+      },
+      {
+         "amount": 2,
+         "name": "tbsp brown sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp vanilla"
+      },
+      {
+         "amount": 0.75,
+         "name": "cup chocolate chips"
+      },
+      {
+         "amount": 0.75,
+         "name": "cup powdered sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "cup chopped pecans"
+      }
+   ],
+   "instructions": "Combine cream cheese, butter & vanilla. Add in sugars & choc chips. Form into a ball & refrigerate overnight. Roll in chopped pecans just before serving. Serve with graham crackers or gingersnaps.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "name": "Taco Soup",
+   "author": "Becky Collier",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "ground beef with taco seasoning"
+      },
+      {
+         "amount": 2,
+         "name": "cans corn"
+      },
+      {
+         "amount": 2,
+         "name": "chili beans"
+      },
+      {
+         "amount": 1,
+         "name": "1 large or 2 small tomato sauce"
+      }
+   ],
+   "instructions": "",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

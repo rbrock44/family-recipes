@@ -1,0 +1,28 @@
+{
+   "name": "Strawberry Dessert - Aunt Sis",
+   "author": "Becky Collier",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "qrt frozen strawberries"
+      },
+      {
+         "amount": 2,
+         "name": "small package strawberry banana/strawberry jello - sugarfree"
+      },
+      {
+         "amount": 1,
+         "name": "large cool whip"
+      },
+      {
+         "amount": 4,
+         "name": "bananas - mashed"
+      }
+   ],
+   "instructions": "Slice istrawberries and mix with mashed bananas. Prepare Jello as directed on package - pour over strawberry / banana mixture - place in refugerator until gelled. Layer in cake pan - the jello with cool-whip antil oul is gone",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

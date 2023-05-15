@@ -1,0 +1,48 @@
+{
+   "name": "Pasta Con Broccoli",
+   "author": "Pasta House",
+   "category": 9,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "ounces uncooked large shell pasta"
+      },
+      {
+         "amount": 1,
+         "name": "cup cream"
+      },
+      {
+         "amount": 2,
+         "name": "tablespoons butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "teaspoon minced garlic"
+      },
+      {
+         "amount": 2,
+         "name": "tablespoons tomato sauce"
+      },
+      {
+         "amount": 0.5,
+         "name": "cup chopped broccoli"
+      },
+      {
+         "amount": 0.33,
+         "name": "cup thinly sliced fresh button mushroom"
+      },
+      {
+         "amount": 0.25,
+         "name": "cup grated parmesan cheese"
+      },
+      {
+         "amount": 0,
+         "name": "salt and pepper"
+      }
+   ],
+   "instructions": "1 - Cook pasta until half done (about 4 minutes); drain. Return pasta to the pot. 2 - Add cream, butter, garlic, tomato sauce, broccoli, salt and pepper. Bring to a hard boil. 3 - When noodles are fully cooked and sauce is starting to thicken, add mushrooms and stir to combine. 4 - Remove from the heat; add cheese. 5 - Toss and serve",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
