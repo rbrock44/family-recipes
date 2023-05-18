@@ -1,0 +1,52 @@
+{
+   "name": "Butter Cake",
+   "author": "Sara Snider",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "c. cake flour"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp bakig soda"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1,
+         "name": "c. softened butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 2,
+         "name": "tbl vanilla"
+      },
+      {
+         "amount": 1,
+         "name": "c. sour cream"
+      }
+   ],
+   "instructions": "Preheat oven 325°. Grease & flour 10 inch tube pan. Sift flour, baking powder, baking soda & salt. Set aside In lange bowl mix l c. butter & 1 1/2c. white sugar & 1/2 c. brown sugar until light & fluffy. Beat in eggs one at a time. Stir in the vanilla. Beat in the flour mixture alternately with the Sour Cream, mixing just until incorpraty. Pour batter into prepared pan - Bake for 75 min or until toothpick inserted in center is clean. Remove from oven & prick cake all over w/ a wooden pick 20-30 times. Pour butter sauce on cake once allowed to completely cool as cake is very fragile when warm. Run knife around edges & invert onto serving dish - dust w/ powdered sugar. FOR BUTTER SAUCE - go to Recipe 885 'Butter Cake Butter Sauce'",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

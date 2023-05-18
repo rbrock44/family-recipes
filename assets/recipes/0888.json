@@ -1,0 +1,60 @@
+{
+   "name": "Bella Chicken",
+   "author": "Sara Snider",
+   "category": 7,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "boneless skinless chicken breast"
+      },
+      {
+         "amount": 0,
+         "name": "Salt & pepper"
+      },
+      {
+         "amount": 0,
+         "name": "garlic powder"
+      },
+      {
+         "amount": 0,
+         "name": "olive oil"
+      },
+      {
+         "amount": 0,
+         "name": "butter"
+      },
+      {
+         "amount": 0,
+         "name": "*Parmesan Cream Sauce: Recipe Below (*)"
+      },
+      {
+         "amount": 2,
+         "name": "tbl butter *"
+      },
+      {
+         "amount": 2,
+         "name": "tsp flour *"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. whipping cream *"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. parmesan cheese *"
+      },
+      {
+         "amount": 0,
+         "name": "artichoke hearts - cut small *"
+      },
+      {
+         "amount": 0,
+         "name": "bella mushrooms *"
+      }
+   ],
+   "instructions": "Oven 350°",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

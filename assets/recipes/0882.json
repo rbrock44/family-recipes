@@ -1,0 +1,24 @@
+{
+   "name": "Coconut Shrimp Dipping Sauce",
+   "author": "Sara Snider",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "cup vanilla yogurt"
+      },
+      {
+         "amount": 0.25,
+         "name": "cup creme of coconut"
+      },
+      {
+         "amount": 0.25,
+         "name": "cup crushed pineapple"
+      }
+   ],
+   "instructions": "Mix, chill and serve",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

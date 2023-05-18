@@ -1,0 +1,40 @@
+{
+   "name": "Applebee's Spinach Artichoke Dip",
+   "author": "Sara Snider",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(10 oz) frozen chopped spinach, thawed"
+      },
+      {
+         "amount": 1,
+         "name": "(14 oz) artichoke hearts, drained & roughly chopped"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. shredded parmesan romano cheese mix"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. mozz. Cheese"
+      },
+      {
+         "amount": 10,
+         "name": "oz alfredo sauce"
+      },
+      {
+         "amount": 1,
+         "name": "tsp garlic powder"
+      },
+      {
+         "amount": 4,
+         "name": "oz Soften cream cheese"
+      }
+   ],
+   "instructions": "350° oven. Combine ingredients thoroughly in bowl & spread mixture into 8x8 baking dish. Bake 25-30 mins. OR until melted & bubbly",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "name": "Butter Cake Butter Sauce",
+   "author": "Sara Snider",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "c. white sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. water"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. butter"
+      },
+      {
+         "amount": 1,
+         "name": "tbl vanilla"
+      }
+   ],
+   "instructions": "Heat all ingredients until sugar desolves - DO NOT BOIL",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
