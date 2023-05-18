@@ -1,0 +1,56 @@
+{
+   "name": "Bean Casserole",
+   "author": "Sara Snider",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "(l6 oz) can pork & beans"
+      },
+      {
+         "amount": 1,
+         "name": "(l6 oz) can pinto beans"
+      },
+      {
+         "amount": 1,
+         "name": "(l6 oz) can red kidney beans"
+      },
+	  {
+         "amount": 1,
+         "name": "pkg. frozen baby lima beans"
+      },
+      {
+         "amount": 1.5,
+         "name": " c. chopped green pepper"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. chopped onoin"
+      },
+	  {
+         "amount": 1.5,
+         "name": "c. chopped celery"
+      },
+	  {
+         "amount": 1.5,
+         "name": "c. brown sugar"
+      },
+      {
+         "amount": 0,
+         "name": "salt to taste"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp garlic salt"
+      },
+      {
+         "amount": 0,
+         "name": "bacon strips, fried & drained"
+      }
+   ],
+   "instructions": "Drain canned beans. Cook limas according to package. directions and drain. Mix all ingredients except bacon and place in a large baking dish. Cover with bacon, Bake at 350° for 45 minutes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

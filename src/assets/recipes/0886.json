@@ -1,0 +1,44 @@
+{
+   "name": "Bourban Glazed Pork Chops",
+   "author": "Sara Snider",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "Tbs butter"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. soy sauce"
+      },
+      {
+         "amount": 1,
+         "name": "lemon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp onoin salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp freshly ground pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp Tabasco"
+      },
+      {
+         "amount": 2,
+         "name": "Tbs Bourbon"
+      },
+      {
+         "amount": 4,
+         "name": "pork chops; 1 inch thick"
+      }
+   ],
+   "instructions": "In small saucepan, mix butter, soy sauce, lemon (cut in half, squeeze juice in, and drop shells in), onion, salt, pepper, Tabasco and bourban. Boil 5 min. - Put pork chops in casserole dish, pour sauce over, bake at 325° for 1 hour (on 1 1/2hr) until done.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

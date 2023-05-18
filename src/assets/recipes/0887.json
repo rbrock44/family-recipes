@@ -1,0 +1,36 @@
+{
+   "name": "Pork Tenderloin with Apple Cider Reduction",
+   "author": "Sara Snider",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "lb pork tenderloin, cut in 1/2 crosswise"
+      },
+      {
+         "amount": 0,
+         "name": "vegetable oil"
+      },
+      {
+         "amount": 0,
+         "name": "salt & pepper"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. apple cider"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. apple cider vinegar"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. maple syrup"
+      }
+   ],
+   "instructions": "Heat oven 500°, arrange rack in upper third oven. Pat tenderloin dry w/ paper towels, brush with oil, and season well with salt & pepper. Heat large frying pan over medium-high heat. Add 2 pieces of tenderloin and cook until brown in all sides, turning occasionally about four minutes. Set pork aside on baking sheet & repeat with remaining pieces. Place pork in oven & cook until thermometer reads 145°-150° (about 15 mins). Meanwhile, place pan in oven, high heat, add cider & vinegar & stir, scrapping browned bits. Cook until mixture is reduced by 2/3rds (about 8mins). Reduce heat to medium, stir in maple syrup and remove from heat until pork is cooked. When pork is ready, remove to a cutting board to rest  for 5 mins. Slice pork & add to sauce. Heat & Serve",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

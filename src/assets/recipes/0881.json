@@ -1,0 +1,44 @@
+{
+   "name": "Coconut Shrimp",
+   "author": "Sara Snider",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 0,
+         "name": "shrimp"
+      },
+      {
+         "amount": 1.5,
+         "name": "cups all purpose flour"
+      },
+      {
+         "amount": 2,
+         "name": "tbl sugar"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp salt"
+      },
+      {
+         "amount": 1,
+         "name": "cup milk"
+      },
+      {
+         "amount": 2,
+         "name": "tbl Captain Morgan Parrot Bay Coconut rum"
+      },
+      {
+         "amount": 1,
+         "name": "cup Japenese Style bread crumbs"
+      },
+      {
+         "amount": 0.5,
+         "name": "cup flaked coconut"
+      }
+   ],
+   "instructions": "Mix flour, sugar, salt, milk, & rum to make batter. Dip Shrimp in batter, breed crumbs, then coconut. Deep fry until golden brown. FOR DIPPING SAUCE - go to Recipe 882 'Coconut Shrimp Dipping Sauce'",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

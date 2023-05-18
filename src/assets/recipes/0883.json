@@ -1,0 +1,32 @@
+{
+   "name": "Creme Brulee",
+   "author": "Sara Snider",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "qt heavy cream"
+      },
+      {
+         "amount": 1,
+         "name": "vanilla bean, split and scrapped"
+      },
+      {
+         "amount": 1,
+         "name": "cup vanilla sugar, divided"
+      },
+      {
+         "amount": 6,
+         "name": "large egg yolks"
+      },
+      {
+         "amount": 2,
+         "name": "qt hot water"
+      }
+   ],
+   "instructions": "Preheat oven to 325°. Place cream, Vanilla bean, & pulp into med. sauce pan over med-high heat & bring to boil. Remove from heat, cover for 15 min. Whisk 1/2 cup sugar, & egg yolks until well blended & light in color. Slowly add cream while stirring. Pour into 6 romekins. Place in large roasting pan. Pour enough water to come half way up on the romekins. Bake 40 to 45 min or until set. Refrigerate at least 2 hrs. Remove from refrigerater. Pour sugar on top, melt with torch for crispy top. Cool 5 min. before serving",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "Garlic Masked Potatoes",
+   "author": "Sara Snider",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 3,
+         "name": "med. baking potatoes - peeled & coarsely chopped"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 4,
+         "name": "TBL butter @ room temperature"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. Sour Cream @ room temperature"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. finely minced garlic"
+      },
+      {
+         "amount": 1,
+         "name": "TBL. (OR none) whole milk @ room temp or warm"
+      },
+      {
+         "amount": 0,
+         "name": "Salt & pepper"
+      }
+   ],
+   "instructions": "In med. sauce pan, cook potatoes in salted water, until tender (about 15 mins.). Drain potatoes & return to the saucepan. Add butter, sour cream, & garlic. Mash potatoes w/ fork or masher until blanded. Add milk - 1 TBL at a time until the potatoes are the desired consistency. Salt & pepper to taste",
+   "yield": {
+      "amount": 2,
+      "name": "(2-3) servings"
+   }
+}
