@@ -8,6 +8,7 @@ import { firstValueFrom } from 'rxjs';
 })
 export class RecipeReaderService {
   recipeTotal = 900;
+  fullyLoaded = false;
   FAVORITE_NAME = "family-recipe-favorites"
 
   constructor(private http: HttpClient) {
@@ -27,11 +28,11 @@ export class RecipeReaderService {
 
   createFilename(num: number): string {
     let name = num + '';
-    if ((num + '').length == 1) {
+    if (name.length == 1) {
       name = '000' + num;
-    } else if ((num + '').length == 2) {
+    } else if (name.length == 2) {
       name = '00' + num;
-    } else if ((num + '').length == 3) {
+    } else if (name.length == 3) {
       name = '0' + num;
     }
 
@@ -46,6 +47,10 @@ export class RecipeReaderService {
       recipe.filename = it;
 
       array.push(recipe);
+
+      if (it === this.createFilename(this.recipeTotal)) {
+        this.fullyLoaded = true;
+      }
     })
 
     return array

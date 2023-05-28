@@ -1,6 +1,11 @@
 <div class="purple">
   <h1 class="center">Family Recipes</h1>
 
+  <div class="center">
+    <p *ngIf="service.isFullyLoaded()">Recipes loaded, search away</p>
+    <p *ngIf="!service.isFullyLoaded()">Loading recipes...</p>
+  </div>
+
   <div>
     <div class="center">
       <mat-form-field class="form-field">

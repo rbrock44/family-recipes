@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
   categories = CATEGORIES;
 
   constructor(
-    private service: RecipeService
+    public service: RecipeService
   ) { }
 
   ngOnInit(): void {
