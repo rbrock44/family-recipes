@@ -1,0 +1,84 @@
+{
+   "name": "Ding Dong Cake",
+   "author": "Amanda Rettke",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.75,
+         "name": "cup (210g) all-purpose flour (cake)"
+      },
+      {
+         "amount": 2,
+         "name": "cup (400g) granulated sugar (cake)"
+      },
+      {
+         "amount": 0.75,
+         "name": "cup (90g) good unsweetened cocoa powder (cake)"
+      },
+      {
+         "amount": 2,
+         "name": "tsp baking soda (cake)"
+      },
+      {
+         "amount": 1,
+         "name": "tsp baking powder (cake)"
+      },
+      {
+         "amount": 1,
+         "name": "tsp kosker salt (cake)"
+      },
+      {
+         "amount": 1,
+         "name": "cup (240g) buttermilk, room temperature (cake)"
+      },
+      {
+         "amount": 0.5,
+         "name": "cup (112g) vegetable oil (cake)"
+      },
+      {
+         "amount": 2,
+         "name": "extra-large eggs room temperature (cake)"
+      },
+      {
+         "amount": 2,
+         "name": "tsp McCormick pure vanilla extract (cake)"
+      },
+      {
+         "amount": 1,
+         "name": "cup (237g) freshly brewed hot coffee (cake)"
+      },
+      {
+         "amount": 5,
+         "name": "tbsp all-purpose flour (filling)"
+      },
+      {
+         "amount": 1,
+         "name": "cup whole milk (filling)"
+      },
+      {
+         "amount": 1,
+         "name": "tsp vanilla (filling)"
+      },
+      {
+         "amount": 1,
+         "name": "cup (2 sticks or 226g) butter (filling)"
+      },
+      {
+         "amount": 1,
+         "name": "cup (200g) granulated sugar (filling)"
+      },
+      {
+         "amount": 16,
+         "name": "oz semi sweet chocolate chopped fine- can use milk chocolate (ganache)"
+      },
+      {
+         "amount": 16,
+         "name": "oz (2 cups) heavy cream, room temperature (ganache)"
+      }
+   ],
+   "instructions": "Making this Dong Dong Cake was a recreation of my favorite childhood treat! Rich chocolate cake, creamy filling and a heavenly chocolate coating on the outside.\nPrep Time 20 minutes\nCook Time 40 minutes\nTotal Time 1 hour\n\nInstructions\n\nCHOCOLATE CAKE\n1. Sift the flour, sugar, cocoa, baking sada, baking powder, and salt into the bow! and mix until combined.\n2. In another bowl, combine the buttermilk, oil, eggs, and vanilla.\n3. In the bow! of a stand mixer on low speed, slowly add the wet ingredients to the dry. With mixer still on low, add the coffee and stir just to combine, scraping the bottom of the bowl with a rubber spatula.\n4. Pour the batter into two 8-inch x 3-inch round prepared pans and bake for 30-40 minutes at 350°F, until a cake tester or toothpick comes out mostly clean (not wet).\n5. Cool in the pans for 30 minutes, then turn them out onto a cooling rack and cool completely.\n\nFILLING - make after Ganache, cool in refridgerator\n1. Pour cold milk into a small saucepan. Before turning on the heat, whisk in flour so no lumps remain.\n2. Turn heat on to medium-low and heat until mixture is thick, like a roux, stirring the whole time.\n3. Remove from heat, stir in vanilla and let cool completely.\n4. Cream together butter and sugar on medium-high speed, until fluffy, about 8 minutes.\n5. Add in the milk mixture and beat again until mixture resembles a whipped cream.\n\nGANACHE - make after cake comes out of oven then cool in refridgerator\n1. Heat the heavy cream in a quart-sized, microwavable container and microwave for 3 to 4 minutes on high, or until it just begins to simmer. Be careful not to allow the cream to boil over. Pour the cream over the chopped chocolate and let stand for at least 2 minutes so that it can thicken.\n2. (Ganache should be cool when pouring over cake)\n3. When ready to pour over chilled cake, whisk the ganache until smooth and then pour. You may have some ganache left over.",
+   "yield": {
+      "amount": 12,
+      "name": "servings"
+   }
+}

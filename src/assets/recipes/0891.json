@@ -1,0 +1,56 @@
+{
+   "name": "",
+   "author": "",
+   "category": 1,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "tbl minced basil"
+      },
+      {
+         "amount": 1,
+         "name": "tbl chopped parsley (Italian is best)"
+      },
+      {
+         "amount": 1,
+         "name": "tbl minced garlic"
+      },
+      {
+         "amount": 1,
+         "name": "tsp dried thyme"
+      },
+      {
+         "amount": 1,
+         "name": "tsp dried oregano"
+      },
+      {
+         "amount": 1,
+         "name": "tsp ground black pepper"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp kosher salt or ground sea salt"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp chopped rosemary"
+      },
+      {
+         "amount": 0.25,
+         "name": "tsp crushed red pepper flakes"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp olive oil"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp lemon juice"
+      }
+   ],
+   "instructions": "Directions\n1.Combine all of the ingredients, EXCEPT oil and lemon.\n2. Put in a small food processor (I used my little food chopper). Chop briefly until all ingredients are about the same.\n3. Stir in oil and lemon juice.\n4. TO SERVE: Combine about 1 1/2 teaspoons spice blend to 3 to 4 tablespoons olive oil on a small Dish. Dip sliced bread in mixture.\n6. French bread is good.\n7. ENJOY.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

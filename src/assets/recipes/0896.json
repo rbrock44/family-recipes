@@ -1,0 +1,48 @@
+{
+   "name": "Pumpkin Crisp w/ Walnut Topping",
+   "author": "Paula Dean",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "(15-ounce) cans pumpkin"
+      },
+      {
+         "amount": 1,
+         "name": "cup sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "cup evaporated milk"
+      },
+      {
+         "amount": 3,
+         "name": "large eggs"
+      },
+      {
+         "amount": 1,
+         "name": "tsp ground cinnamon"
+      },
+      {
+         "amount": 1,
+         "name": "tsp pumpkin pie spice"
+      },
+      {
+         "amount": 1,
+         "name": "vanilla extract"
+      },
+      {
+         "amount": 0,
+         "name": "Walnut Crisp Topping (Recipe #897)"
+      },
+      {
+         "amount": 0,
+         "name": "garnish: sweetened whipped cream, ground cinnamon"
+      }
+   ],
+   "instructions": "1. Preheat oven to 350°. Lightly grease an 8-inch square baking dish\n2. Ina large bowl, whisk together pumpkin, sugar, evaporated milk, eggs, cinnamon, pumpkin pie spice, and vanilla until smooth. Pour into prepared baking dish; sprinkle evenly with Walnut Crisp Topping (Recipe #897). Bake for 45 to 50 minutes, or until center is set and topping is golden brown. Serve warm with whipped cream and cinnaman, if desired",
+   "yield": {
+      "amount": 8,
+      "name": "servings"
+   }
+}
