@@ -1,0 +1,48 @@
+{
+   "name": "Pumpkin Crunch Cake",
+   "author": "",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "box yellow cake mix"
+      },
+      {
+         "amount": 1,
+         "name": "(15 ounce) can pumpkin"
+      },
+      {
+         "amount": 1,
+         "name": "(12 once) can evaporated milk"
+      },
+      {
+         "amount": 3,
+         "name": "eggs"
+      },
+      {
+         "amount": 1.5,
+         "name": "cup sugar"
+      },
+      {
+         "amount": 1,
+         "name": "tsp cinnamon"
+      },
+      {
+         "amount": 0.5,
+         "name": "tsp salt"
+      },
+      {
+         "amount": 1,
+         "name": "cup chopped pecans"
+      },
+      {
+         "amount": 1,
+         "name": "cup melted butter"
+      }
+   ],
+   "instructions": "Preheat oven to 350. Grease 13x9 baking dish.\nCombine pumpkin, evaporated milk, eggs, sugar, cinnamon and salt. Mix well and pour into your prepared dish. Sprinkle yeliow cake mix evenly over Pumpkin mixture. Top with chopped pecans. Drizzle butter over pecans. Bake 50-55 minutes",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
