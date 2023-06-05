@@ -1,0 +1,28 @@
+{
+   "name": "7-Up Biscuits",
+   "author": "Sara Snider",
+   "category": 5,
+   "ingredients": [
+      {
+         "amount": 4,
+         "name": "cups Bisquick"
+      },
+      {
+         "amount": 1,
+         "name": "cup sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "cup 7-Up"
+      },
+      {
+         "amount": 0.5,
+         "name": "cup melted butter"
+      }
+   ],
+   "instructions": "Mix Bisquick, sour cream and 7 up. Dough will be very soft - don't worry. Knead and fold dough until coated with your baking mix. Pat dough out and cut biscuits using a round biscuit / cookie cutter. Melt butter in bottom of cookie sheet pan or 9x13 casserole dish. Place biscuits on top of melted butter and bake @ 425 degrees for 12-15 minutes or until brown.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
