@@ -1,0 +1,80 @@
+{
+   "name": "Greek Pasta Salad",
+   "author": "Rachel May - cookbooksmasher.com",
+   "category": 2,
+   "ingredients": [
+      {
+         "amount": 0.66,
+         "name": "c. olive oil (dressing)"
+      },
+      {
+         "amount": 6,
+         "name": "TBSP fresh lemon juice (dressing)"
+      },
+      {
+         "amount": 0.25,
+         "name": "c. red wine vinegar (dressing)"
+      },
+      {
+         "amount": 4,
+         "name": "garlic cloves, minced (dressing)"
+      },
+      {
+         "amount": 3,
+         "name": "TBSP fresh oregano, minced (dressing)"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt (dressing)"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. pepper (dressing)"
+      },
+	  {
+         "amount": 12,
+         "name": "oz. pasta (salad)"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. grape tomatoes, halved (salad)"
+      },
+      {
+         "amount": 3,
+         "name": "ribs celery, chopped (salad)"
+      },
+      {
+         "amount": 1,
+         "name": "cucumber, peeled and chopped (salad)"
+      },
+      {
+         "amount": 5,
+         "name": "green onions, chopped (salad)"
+      },
+      {
+         "amount": 2,
+         "name": "green bell peppers, seeded and chopped (salad)"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. chopped fresh parsley (salad)"
+      },
+      {
+         "amount": 12,
+         "name": "oz. feta cheese, crumbled (salad)"
+      },
+      {
+         "amount": 20,
+         "name": "Greek olives, pitted (optional) (salad)"
+      },
+      {
+         "amount": 12,
+         "name": "pepperoncini, chopped (optional) (salad)"
+      }
+   ],
+   "instructions": "Directions:\n1. Whisk oil, lemon juice, vinegar, garlic, oregano, salt, and pepper until combined. Set aside.\n2. Cook pasta according to directions on box. Combine pasta, tomatoes, celery, cucumber, green onions, bell peppers, parsley, and feta (if using olives and/or pepperoncini add now) in a large serving bowl. Pour dressing over salad and toss to coat. Cover and refrigerate 2 to 3 hours to allow flavors to blend. Serve with grilled chicken if desired.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

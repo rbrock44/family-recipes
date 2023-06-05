@@ -1,0 +1,52 @@
+{
+   "name": "Ricotta Pound Cake",
+   "author": "Sara Snider",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "c. flour"
+      },
+      {
+         "amount": 2,
+         "name": "tsp baking powder"
+      },
+      {
+         "amount": 1,
+         "name": "tsp salt"
+      },
+      {
+         "amount": 0.75,
+         "name": "c. room temp butter"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. whole milk ricotta"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 3,
+         "name": "lg eggs (one at a time)"
+      },
+      {
+         "amount": 0,
+         "name": "vanilla"
+      },
+      {
+         "amount": 0,
+         "name": "vanilla pudding"
+      },
+      {
+         "amount": 0,
+         "name": "sour cream"
+      }
+   ],
+   "instructions": "350° for 1 hr or 1:15\n\nCombine dry ingredients. In seperate bowl add sour cream, butter, ricotta and sugar, about 2 mins add eggs, one at a time. Add dry mixture",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

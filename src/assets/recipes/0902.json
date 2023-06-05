@@ -1,0 +1,32 @@
+{
+   "name": "Mashed Potato Bites",
+   "author": "CraftCreateCook.com",
+   "category": 4,
+   "ingredients": [
+      {
+         "amount": 2,
+         "name": "c. leftover mashed potatoes"
+      },
+      {
+         "amount": 1,
+         "name": "egg"
+      },
+      {
+         "amount": 1,
+         "name": "c. shreded chedder cheese"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. green onoins, chooped"
+      },
+      {
+         "amount": 0,
+         "name": "sour cream (optional)"
+      }
+   ],
+   "instructions": "Prep Time: 5 min\nCook Time: 30 min\n\n* Preheat the oven to 375 degrees and spray a 12 count mini muffin tin with non-stick cooking spray.\n*Combine the leftover mashed potatoes with the egg, shredded cheese and green onions.\n*Fill each mini muffin tin with the mashed potato mixture.\n*Bake for 25-30 minutes.\n*Remove from oven and let cool a few minutes.\n*Serve with sour cream",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}

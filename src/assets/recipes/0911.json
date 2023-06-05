@@ -1,0 +1,48 @@
+{
+   "name": "Molten Lava Cakes Recipe",
+   "author": "Savory Sweet Life - savorysweetlife.com",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 10,
+         "name": "tablespoons (1 1/4 stick) butter"
+      },
+      {
+         "amount": 1,
+         "name": "cup chocolate chips (any type of chocolate chips will work but | recommend semi-sweet or a combination of bitter and semi-sweet)"
+      },
+      {
+         "amount": 0.5,
+         "name": "cup all-purpose flour"
+      },
+      {
+         "amount": 1.5,
+         "name": "cups confectioners’ (powdered) sugar"
+      },
+      {
+         "amount": 3,
+         "name": "large eggs"
+      },
+      {
+         "amount": 3,
+         "name": "egg yolks"
+      },
+      {
+         "amount": 1,
+         "name": "teaspoon vanilla extract"
+      },
+      {
+         "amount": 2,
+         "name": "tbsp (OPTIONAL) coffee liqueur (Kahlua) OR instant coffee powder - next ingredient"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. (OPTIONAL) instant coffee powder OR coffee liqueur (Kahlua) - prev ingredient"
+      }
+   ],
+   "instructions": "Instructions\n\n1. Preheat oven to 425 degrees F. Spray 6 -6 ounce custard (ramekin) cups or cupcake tin. In a medium microwavable bowl, melt chocelate ghips and butter in the microwave for 80 seconds and then in 30 second increments until smooth (about 1.5-2 minutes total). Add flour and sugar to chocolate/butter sauce. Stir in the eggs and yolks until smooth. Add vanilla and coffee liqueur/ instant coffee and mix everything until combined. Divide the batter evenly among the each cups. Place cups on top of a cookie sheet and bake for 10 minutes. The edges should be firm but the center will be runny. Run a knife around the edges to loosen and invert onto dessert plates or you can serve each molten lava cake still in the cup.\n\nNotes\nSome optional 'finishing' ideas are: sprinkle powdered sugar on top, add a dollop of whipped cream of ice cream, add raspberries or strawberries, or-any combination of the above. Enjoy!",
+   "yield": {
+      "amount": 6,
+      "name": ""
+   }
+}

@@ -1,0 +1,52 @@
+{
+   "name": "Sara's New York Cheesecake",
+   "author": "Sara Snider",
+   "category": 6,
+   "ingredients": [
+      {
+         "amount": 1.5,
+         "name": "cup crushed graham crackers"
+      },
+      {
+         "amount": 0.25,
+         "name": "cup melted butter"
+      },
+      {
+         "amount": 0.25,
+         "name": "cup sugar"
+      },
+      {
+         "amount": 4,
+         "name": "(8oz) packages cream cheese"
+      },
+      {
+         "amount": 1.5,
+         "name": "cup white sugar"
+      },
+      {
+         "amount": 0.75,
+         "name": "cup milk"
+      },
+      {
+         "amount": 4,
+         "name": "eggs"
+      },
+      {
+         "amount": 1,
+         "name": "cup sour cream"
+      },
+      {
+         "amount": 1,
+         "name": "TBL vanilla extract"
+      },
+      {
+         "amount": 3,
+         "name": "TBL flour"
+      }
+   ],
+   "instructions": "**Note, ingredients need to be at room temperature for best results**\n\nDirections:\nPreheat oven 325 degrees. Grease a 9” spring-form pan (bottom & sides) with Pam spray. Boil water (for water bath).\n\n1. In medium bowl, mix graham crackers, sugar, and melted butter. Press into the bottom of spring-form pan and bake for 5-10 minutes\n2. In large mixing bowl, beat cream cheese with sugar until smooth. Use wooden spoon to mix in the eggs 1 at a time and % cup milk until just incorporated (Do not over mix). Mix in sour cream, vanilla, and flour until smooth. Pour filling onto prepared crust.\n3. Wrap the bottom of the spring-form pan with 2 sheets of tin foil to prevent water from penetrating crust/cake. Place spring-form pan into a water bath of boiling water about 17” deep. (I use a roaster pan and sit the cheese cake in it with the hot water)\n4. Bake at 325 degrees for 1-1/2 hours then turn the oven off (do not open oven). Let the cheesecake stand in the oven for 3 hours then remove and refrigerate overnight.\n5. Cheesecake should have pulled away from the edges during baking. Remove spring-form sides. Run knife between crust and bottom of the pan and move cake to serving platter.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
