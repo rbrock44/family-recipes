@@ -1,11 +1,38 @@
 {
-"name": "Layered Fruit Bars (Fillings}",
-   "author": "Karla Essner",
+   "name": "Almond Butter Cookies",
+   "author": "In memory of Hazel Monsignor Ray Orf's housekeeper",
    "category": 6,
    "ingredients": [
-      
+      {
+         "amount": 1,
+         "name": "c. margarine"
+      },
+      {
+         "amount": 1,
+         "name": "(8 oz.) cream cheese"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. baking powder"
+      },
+      {
+         "amount": 0.125,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 1.5,
+         "name": "c. sugar"
+      },
+      {
+         "amount": 4.5,
+         "name": "tsp. almond extract"
+      },
+      {
+         "amount": 2.25,
+         "name": "c. flour"
+      }
    ],
-   "instructions": "Lime-Cream Cheese: Beat 8 ounces of cream cheese, 2 table- spoons of lime juice, 1 egg and 1⁄2 cup granulated sugar until smooth. Spread over baked crust. Cherry or Blueberry: Spread 1 can (21 ounces) desired flavor pie filling over baked crust. Pineapple-Coconut: Combine two 8 ounces ounces cans crushed pineapple, 1⁄2 cup granulated sugar and 1 tablespoon cornstarch in medium saucepan. Cook on medium heat until thickened, stirring constantly. Stir in 1/4 cup chopped pecans, 1⁄2 cup flake coconut and 1 teaspoon lemon juice. Spread over baked crust. Combine reserved mixture and rolled oats, mixing until crumbly. After filling is spread over baked base, sprinkle topping over filling. Bake at 375° for 15 minutes. Cool. Cut into bars, about 2 1⁄2 x 1 inches. Refrigerate.",
+   "instructions": "Beat well, margarine, cream cheese, baking powder, salt and 1/2 cup sugar. Add 1 teaspoon almond extract and flour. Then mix well. Mix remaining sugar and almost extract together, set aside. Roll the dough rectangle shape about 1/4 thick. Sprinkle with sugar and fold in half again. Continue until you are left with a small rectangle. Slice and bake 350 degrees for 10 to 12 minutes.",
    "yield": {
       "amount": 0,
       "name": ""

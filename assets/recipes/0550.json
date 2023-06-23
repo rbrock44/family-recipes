@@ -8,7 +8,7 @@
          "name": "pkg. (4 serving size) instant pudding, any flavor"
       },
       {
-         "amount": 2,
+         "amount": 0.25,
          "name": "c. confectioners sugar"
       },
       {
@@ -16,63 +16,11 @@
          "name": "c. cold milk"
       },
       {
-         "amount": 2,
+         "amount": 1,
          "name": "container (8 oz.) Cool Whip non-dairy whipped topping, thawed"
-      },
-      {
-         "amount": 1,
-         "name": "Combine pudding mix, sugar, and milk in small bowl. Beat slow- ly with rotary beater or at lowest speed of an electric mixer until well blended, about 1 minute. Fold in whipped topping. Spread on cake at once. Makes about 4 cups or enough for two 9-inch layers. Note: Store frosted cake in refrigerator."
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 1,
-         "name": ""
-      },
-      {
-         "amount": 2,
-         "name": ""
-      },
-      {
-         "amount": 3,
-         "name": ""
       }
    ],
-   "instructions": "",
+   "instructions": "Combine pudding mix, sugar, and milk in small bowl. Beat slow- ly with rotary beater or at lowest speed of an electric mixer until well blended, about 1 minute. Fold in whipped topping. Spread on cake at once. Makes about 4 cups or enough for two 9-inch layers.\nNote: Store frosted cake in refrigerator.",
    "yield": {
       "amount": 0,
       "name": ""
