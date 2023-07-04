@@ -25,15 +25,19 @@
       },
       {
          "amount": 1.5,
-         "name": "c. chopped onoin"
+         "name": "c. chopped onion"
       },
 	  {
          "amount": 1.5,
          "name": "c. chopped celery"
       },
-	  {
+      {
          "amount": 1.5,
          "name": "c. brown sugar"
+      },
+      {
+         "amount": 1,
+         "name": "c. ketchup"
       },
       {
          "amount": 0,

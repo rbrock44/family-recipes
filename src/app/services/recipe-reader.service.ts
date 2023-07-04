@@ -6,6 +6,8 @@ import { firstValueFrom } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
+
+
 export class RecipeReaderService {
   recipeTotal = 916;
   fullyLoaded = false;
