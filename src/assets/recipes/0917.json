@@ -1,0 +1,32 @@
+{
+  "name": "Snickers Candy Bar-Apple Salad",
+  "author": "Denise Pepin Chicago, IL",
+  "category": 2,
+  "ingredients": [
+    {
+      "name": "(8 oz. pkg) cream cheese, softened",
+      "amount": 1
+    },
+    {
+      "name": "c. brown sugar, packed",
+      "amount": 0.5
+    },
+    {
+      "name": "(4 to 6) Granny Smith apples, cored, peeled and chopped",
+      "amount": 4
+    },
+    {
+      "name": "full size Snickers candy bars, chopped",
+      "amount": 6
+    },
+    {
+      "name": "oz. container frozen whipped topping, thawed",
+      "amount": 8
+    }
+  ],
+  "instructions": "Blend cream cheese and brown sugar together; fold in apples and candy bars. Gently stir in whipped topping.\n\nTastes just like a caramel apple!",
+  "yield": {
+    "name": "servings",
+    "amount": 8
+  }
+}
