@@ -6,10 +6,8 @@ import { firstValueFrom } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-
-
 export class RecipeReaderService {
-  recipeTotal = 916;
+  recipeTotal = 917;
   fullyLoaded = false;
   FAVORITE_NAME = "family-recipe-favorites"
 
