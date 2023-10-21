@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { REGEX_TO_HIGHLIGHT } from 'src/app/constants/constants';
+import { getDecimal } from 'src/app/models/decimal.enum';
 import { Ingredient } from 'src/app/models/ingredient.interface';
 import { RecipeService } from 'src/app/services/recipe.service';
 import { Recipe } from '../../models/recipe.interface';
@@ -16,6 +17,7 @@ export class RecipeComponent {
   showLiquid: boolean = false;
   showDry: boolean = false;
   batchControl: FormControl = new FormControl(1, [Validators.min(1), Validators.pattern("^[1-9][0-9]*$")]);
+  decimalControl: FormControl = new FormControl(false);
 
   constructor(
     private service: RecipeService
@@ -72,19 +74,44 @@ export class RecipeComponent {
   }
 
   getIngredientDisplay(ingredient: Ingredient): string {
+    let display = '';
+    const newAmount = this.timesBatch(ingredient.amount)
+    if (newAmount.length > 0) {
+      const decimalValue = +newAmount % 1;
+
+      if (decimalValue > 0) {
+        const fraction = getDecimal(decimalValue);
+        display = `${newAmount.substring(0, newAmount.indexOf('.'))} ${fraction}`
+      } else {
+        display = newAmount
+      }
+    } else {
+      display = newAmount;
+    }
+    
+    return display;
+  }
+
+  getIngredientDisplayOld(ingredient: Ingredient): string {
     return `${this.timesBatch(ingredient.amount)} ${ingredient.name}`
   }
 
+  hasFraction(value: string): boolean {
+    const index = value.indexOf('/');
+    return index > 0;
+  }
+
   getTitle(ingredient: Ingredient): string {
-      return this.regexMatch(ingredient, 'Possible conversion detected');
+    return this.regexMatch(ingredient, 'Possible conversion detected');
   }
 
   private regexMatch(ingredient: Ingredient, matchValue: string): string {
     let value = '';
-    let display: string = this.getIngredientDisplay(ingredient);
+    // this uses the old decimal display of ingredient because that's what the regex was made to handle.... don't feel like updating
+    let display: string = this.getIngredientDisplayOld(ingredient);
     REGEX_TO_HIGHLIGHT.forEach(regex => {
       if (display.search(regex) > -1) {
-        value = matchValue;  
+        value = matchValue;
       }
     });
 

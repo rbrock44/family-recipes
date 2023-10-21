@@ -21,12 +21,22 @@
 <div class="ingredients-cont">
     <div class="ingredients-column">
         <span *ngFor="let ing of halfIngredients()">
-            <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">{{getIngredientDisplay(ing)}}</p>
+            <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">
+                <span *ngIf="!hasFraction(getIngredientDisplay(ing))">{{getIngredientDisplay(ing)}} {{ing.name}}</span>
+                <app-fraction *ngIf="hasFraction(getIngredientDisplay(ing))"
+                    before="{{getIngredientDisplay(ing).split(' ')[0]}}" after="{{ing.name}}"
+                    fraction="{{getIngredientDisplay(ing).split(' ')[1]}}"></app-fraction>
+            </p>
         </span>
     </div>
     <div class="ingredients-column">
         <span *ngFor="let ing of halfIngredients(false)">
-            <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">{{getIngredientDisplay(ing)}}</p>
+            <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">
+                <span *ngIf="!hasFraction(getIngredientDisplay(ing))">{{getIngredientDisplay(ing)}} {{ing.name}}</span>
+                <app-fraction *ngIf="hasFraction(getIngredientDisplay(ing))"
+                    before="{{getIngredientDisplay(ing).split(' ')[0]}}" after="{{ing.name}}"
+                    fraction="{{getIngredientDisplay(ing).split(' ')[1]}}"></app-fraction>
+            </p>
         </span>
     </div>
 </div>
@@ -55,7 +65,7 @@
     <div class="liquid-button">
         <span *ngIf="!showLiquid" (click)="open()" class="button style">Liquid</span>
     </div>
-    <div  class="dry-button">
+    <div class="dry-button">
         <span *ngIf="!showDry" (click)="open(false)" class="button style">Dry</span>
     </div>
 </div>
