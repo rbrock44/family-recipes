@@ -1,0 +1,28 @@
+{
+  "name": "Hard Boiled Eggs",
+  "author": "Lynn Terri (Rebecca Hooper)",
+  "category": 1,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "amount": 0
+    },
+    {
+      "name": "water (cold and hot)",
+      "amount": 0
+    },
+    {
+      "name": "pot",
+      "amount": 1
+    },
+    {
+      "name": "glass bowl",
+      "amount": 1
+    }
+  ],
+  "instructions": "1. Get pot of water boiling\n2. Carefully (so they don't break) add eggs to boiling water\n3. Boil for 9 min\n4. Get a glass bowl (large enough to fit all the eggs) and put in sink\n5. Start running cold water in the bowl. While water is running, carefully put each egg individually in glass bowl\n6. Let cold water cool them off for about 3 minutes. Then put generous amounts of ice cubes in the bowl (you want the ice to melt but not too fast. If it melts too fast, the water isn't cold enough so add more ice.)\n7. Let them sit in the ice batch until they are cold\n8. Pull them out of the water and peel. Perfectly peeled eggs every single time when done right",
+  "yield": {
+    "name": "servings",
+    "amount": 8
+  }
+}
