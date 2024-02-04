@@ -1,15 +1,15 @@
 {
-   "name": "Chocolate Chip Cookies",
-   "author": "Juanita Dannenmueller",
+   "name": "Ga-Ga and Nae-Nae Chocolate Chip Cookies",
+   "author": "Charlotte Hooper",
    "category": 6,
    "ingredients": [
       {
          "amount": 0.66,
-         "name": "c. shortening"
+         "name": "c. shortening (crisco bars)"
       },
       {
          "amount": 0.66,
-         "name": "c. butter or margarine"
+         "name": "c. butter"
       },
       {
          "amount": 1,
@@ -25,7 +25,7 @@
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "name": "tsp. vanilla (homemade)"
       },
       {
          "amount": 3.25,
@@ -48,7 +48,7 @@
          "name": "pkg. (12 oz.) chocolate chips"
       }
    ],
-   "instructions": "Heat oven to 375°. Mix thoroughly shortening, butter, sugars, eggs and vanilla. Blend in remaining ingredients. Drop dough by rounded teaspoonfuls 2 inches apart onto ungreased baking sheet. Bake 8 to 10 minutes or until light brown. Cool slightly before removing from baking sheet.",
+   "instructions": "Heat oven to 350°. Mix thoroughly shortening, butter, sugars, eggs and vanilla. Blend in salt, baking soda and 3 cups flour. Touch dough with finger tip (if it sticks) add remaining 1/4 cup, a little at a time. Place 2 ounce balls (red ball scoop tool) 2 inches apart onto ungreased baking sheet. Bake 8 to 10 minutes or until light brown. Cool slightly before removing from baking sheet.",
    "yield": {
       "amount": 7,
       "name": "dozen"
