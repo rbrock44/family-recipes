@@ -176,6 +176,7 @@ export class RecipeService {
       }
     });
   }
+  
   private matchesAllCriteria(criteria: string[], recipe: Recipe): boolean {
     let value = true;
     

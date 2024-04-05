@@ -2,7 +2,8 @@ h1 {
     display: flex;
     margin-top: 5vh;
     margin-bottom: 2vh;
-    font-size: 60px;
+    font-size: 45px;
+    line-height: 1.1;
 }
 
 .conversion-title {
@@ -106,7 +107,7 @@ mat-icon {
 
 @media screen and (max-width: 900px) {
     h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .instructions {
@@ -116,7 +117,7 @@ mat-icon {
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 }
 
