@@ -1,0 +1,56 @@
+{
+   "name": "Skillet Lasagna",
+   "author": "Kay Gilpin",
+   "category": 3,
+   "ingredients": [
+      {
+         "amount": 1,
+         "name": "lb. hamburger"
+      },
+      {
+         "amount": 2,
+         "name": "Tbsp. margarine"
+      },
+      {
+         "amount": 1,
+         "name": "envelope spaghetti sauce mix"
+      },
+      {
+         "amount": 1,
+         "name": "lb. cottage cheese"
+      },
+      {
+         "amount": 3,
+         "name": "c. extra wide noodles"
+      },
+      {
+         "amount": 2,
+         "name": "tsp. basil leaves"
+      },
+      {
+         "amount": 1,
+         "name": "Tbsp. parsley flakes"
+      },
+      {
+         "amount": 1,
+         "name": "tsp. salt"
+      },
+      {
+         "amount": 8,
+         "name": "oz. tomato sauce"
+      },
+      {
+         "amount": 0.5,
+         "name": "c. water"
+      },
+      {
+         "amount": 1,
+         "name": "pkg. (8 oz.) Mozzeralla cheese"
+      }
+   ],
+   "instructions": "Brown meat in margarine. Sprinkle with half the sauce mix. Spoon cottage cheese over meat. Top with layer of uncooked noodles and sprinkle remaining sauce mix, basil, parsley and salt. Pour juice over mixture making sure all is moistened. Bring to a boil, cover and simmer 35 minutes or until noodles are tender. Sprinkle heese over top. Let stand for 5 minuntes.",
+   "yield": {
+      "amount": 0,
+      "name": ""
+   }
+}
