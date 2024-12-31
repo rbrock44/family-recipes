@@ -20,7 +20,7 @@ jobs:
         cache: 'npm'
 
     - name: Install dependencies
-      run: npm ci
+      run: npm ci --force
 
     - name: Configure npm Authentication
       run: echo "//registry.npmjs.org/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
