@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { cloneDeep } from 'lodash';
 import { EMPTY_RECIPE, HOOPER_FAMILY } from '../constants/constants';
 import { Category } from '../models/category.enum';
 import { Recipe } from '../models/recipe.interface';
@@ -15,7 +14,7 @@ import { RecipeReaderService } from './recipe-reader.service';
 export class RecipeService {
   private recipes: Recipe[] = [];
   private sort: MatSort = new MatSort();
-  selectedRecipe: Recipe = cloneDeep(EMPTY_RECIPE);
+  selectedRecipe: Recipe = {...EMPTY_RECIPE};
   useFavoritesList: boolean = false;
   searchList: string[] = [];
 
@@ -41,7 +40,7 @@ export class RecipeService {
     if (crits[0].trim() != '') {
       list = this.recipes.filter(it => this.matchesAllCriteria(crits, it));
     } else {
-      list = cloneDeep(this.recipes);
+      list = [...this.recipes]
     }
 
     if (category != 0) {
@@ -85,7 +84,7 @@ export class RecipeService {
   }
   
   setEmptyRecipe(): void {
-    this.selectedRecipe = cloneDeep(EMPTY_RECIPE);
+    this.selectedRecipe = {...EMPTY_RECIPE};
   }
   
   nextRecipe(): void {
@@ -132,7 +131,7 @@ export class RecipeService {
   
   readRecipe(filename: string): void {
     this.firstValueFrom(filename).then(it => {
-      let recipe = cloneDeep(this.convertRecipe(it));
+      let recipe = this.convertRecipe(it);
       recipe.filename = filename;
       this.selectedRecipe = recipe;
     });
