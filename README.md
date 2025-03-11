@@ -1,6 +1,6 @@
 # Family Recipes
 
-[Live Website](https://rbrock44.github.io/family-recipes/)<br>
+[Live Website](https://family-recipes.ryan-brock.com/)<br/>
 
 ![Main](/pics/main.png)
 
@@ -16,7 +16,7 @@ A search fires off for every typed character. Every word seperated by a space in
 
 ![Advanced Search](/pics/advanced-search.png)
 
-Advanced search allows the option to only show the hooper family or select a specific category
+Advanced search allows the option to only show the Hooper family or select a specific category
 
 ## Results
 
