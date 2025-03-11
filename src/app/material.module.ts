@@ -9,10 +9,12 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatSortModule} from '@angular/material/sort';
 import {MatTableModule} from '@angular/material/table';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [],
   imports: [
+    MatButtonModule,
     MatCheckboxModule,
     MatExpansionModule,
     MatFormFieldModule,
@@ -25,6 +27,7 @@ import {MatTableModule} from '@angular/material/table';
     MatSortModule,
   ],
   exports: [
+    MatButtonModule,
     MatCheckboxModule,
     MatExpansionModule,
     MatFormFieldModule,
