@@ -1,0 +1,40 @@
+{
+  "name": "Egg Custard Pie",
+  "author": "Anne Brock",
+  "category": 6,
+  "instructions": "1. Stir eggs, sugar, vanilla extract and salt together\n2. Scald the milk (almost boil, little bubbles on the side\n3. Combine mixture (from Step 1) and milk\n4. Pour into pie crust (which is in the pie pan)\n4.5. (Optional) Sprinkle some nutmeg on top\n5. Bake at 350 for 40-50 min\n6. Let cool, best served cold",
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "9 inch pie pan"
+    },
+    {
+      "amount": 1,
+      "name": "crust"
+    },
+    {
+      "amount": 2,
+      "name": "c. whole milk"
+    },
+    {
+      "amount": 3,
+      "name": "eggs"
+    },
+    {
+      "amount": 0.66,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla extract"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. salt"
+    }
+  ],
+  "yield": {
+    "amount": 0,
+    "name": ""
+  }
+}
