@@ -59,10 +59,10 @@ export class RecipeService {
   sortTable(dataSource: MatTableDataSource<Recipe>, sort: MatSort, isMainTable: boolean = true): void {
     dataSource.data = this.sortData(dataSource.data, sort, isMainTable)
   }
-  
+
   readFile(fileNumber: string): void {
     const text = this.reader.firstValueFrom(fileNumber);
-    
+
     text.then(value => {
       let recipe = this.reader.convertRecipe(value);
       recipe.filename = fileNumber;
@@ -74,61 +74,65 @@ export class RecipeService {
   firstValueFrom(fileNumber: string): Promise<string> {
     return this.reader.firstValueFrom(fileNumber);
   }
-  
+
   convertRecipe(text: string): Recipe {
     return this.reader.convertRecipe(text);
   }
-  
+
   addToFavorites(fileNumber: string): void {
     this.reader.addToFavorites(fileNumber);
   }
-  
+
   setEmptyRecipe(): void {
     this.selectedRecipe = {...EMPTY_RECIPE};
   }
-  
-  nextRecipe(): void {
+
+  nextRecipe(): filename {
     let filename: string = '';
-    
+
     if (this.useFavoritesList) {
       const favorites = this.readFavorites();
       let index = this.getNextIndex(favorites);
-      
+
       filename = favorites[index];
     } else {
       let index = this.getNextIndex(this.searchList);
-      
+
       filename = this.searchList[index];
     }
 
     this.readRecipe(filename);
+
+    return filename;
   }
-  
-  previousRecipe(): void {
+
+  previousRecipe(): string {
     let filename: string = '';
-    
+
     if (this.useFavoritesList) {
       const favorites = this.readFavorites();
       const index = this.getPreviousIndex(favorites);
-      
+
       filename = favorites[index];
     } else {
       const index = this.getPreviousIndex(this.searchList);
-      
+
       filename = this.searchList[index];
     }
-    
+
     this.readRecipe(filename);
+
+    return filename;
   }
-  
+
   removeFromFavorites(fileNumber: string): void {
     this.reader.removeFromFavorites(fileNumber);
   }
-  
+
   readFavorites(): string[] {
     return this.reader.readFavorites();
   }
-  
+
   readRecipe(filename: string): void {
     this.firstValueFrom(filename).then(it => {
       let recipe = this.convertRecipe(it);
@@ -136,13 +140,13 @@ export class RecipeService {
       this.selectedRecipe = recipe;
     });
   }
-  
+
   getSelectedRecipeIndex(): number {
     return this.searchList.indexOf(this.selectedRecipe.filename) + 1;
   }
-  
+
   private sortData(data: Recipe[], sort: MatSort, isMainTable: boolean = true): Recipe[] {
-    if (isMainTable) 
+    if (isMainTable)
       this.sort = sort;
 
     switch (sort.direction) {
@@ -175,10 +179,10 @@ export class RecipeService {
       }
     });
   }
-  
+
   private matchesAllCriteria(criteria: string[], recipe: Recipe): boolean {
     let value = true;
-    
+
     criteria.forEach(it => {
       value = value && (recipe.name.toUpperCase().indexOf(it) > -1 ||
         recipe.author.toUpperCase().indexOf(it) > -1 ||

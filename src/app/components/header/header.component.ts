@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RecipeService } from 'src/app/services/recipe.service';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-header',
@@ -40,6 +41,32 @@ import { RecipeService } from 'src/app/services/recipe.service';
 })
 export class HeaderComponent {
   constructor(
-    public service: RecipeService
+    public service: RecipeService,
+    private location: Location
   ) { }
+
+  homeClick(): void {
+    this.service.setEmptyRecipe();
+    this.location.replaceState(this.buildUrl(null));
+  }
+
+  forwardClick(): void {
+    this.location.replaceState(this.buildUrl(this.service.nextRecipe()));
+  }
+
+  prevClick(): void {
+    this.location.replaceState(this.buildUrl(this.service.previousRecipe()));
+  }
+
+  private buildUrl(recipe: string | null): string {
+    const queryParams = new URLSearchParams(window.location.search);
+
+    if (recipe === null) {
+      queryParams.delete('recipe');
+    } else {
+      queryParams.set('recipe', recipe);
+    }
+
+    return `${location.pathname}?${queryParams.toString()}`;
+  }
 }

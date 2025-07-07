@@ -35,6 +35,8 @@ export class RecipeTableComponent implements OnInit {
     var filename = recipe.filename != null ? recipe.filename.toString() : '001';
     this.service.searchList = this.dataSource.data.map(item => item.filename);
     this.service.readRecipe(filename);
+
+    this.location.replaceState(this.buildUrl(filename));
   }
 
   getCategory(categoryNumber: number): string {
@@ -55,5 +57,17 @@ export class RecipeTableComponent implements OnInit {
 
   private getClass(cssClass: string): string {
     return this.removeColumns ? '' : cssClass;
+  }
+
+  private buildUrl(recipe: string | null): string {
+    const queryParams = new URLSearchParams(window.location.search);
+
+    if (recipe === null) {
+      queryParams.delete('recipe');
+    } else {
+      queryParams.set('recipe', recipe);
+    }
+
+    return `${location.pathname}?${queryParams.toString()}`;
   }
 }

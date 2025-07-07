@@ -5,6 +5,8 @@ import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { CATEGORIES, getCategory } from 'src/app/models/category.enum';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -24,7 +26,9 @@ export class HomeComponent implements OnInit {
   categories = CATEGORIES;
 
   constructor(
-    public service: RecipeService
+    public service: RecipeService,
+    private route: ActivatedRoute,
+    private location: Location,
   ) { }
 
   ngOnInit(): void {
@@ -45,6 +49,39 @@ export class HomeComponent implements OnInit {
     });
 
     this.loadFavorites();
+
+    const interval = setInterval(() => {
+      const result = this.service.isFullyLoaded();
+      if (result === true) {
+        clearInterval(interval);
+        console.log('Function finally returned true!');
+
+        const searchParam = this.route.snapshot.queryParamMap.get('search');
+        const categoryParam = this.route.snapshot.queryParamMap.get('category');
+        const familyParam = this.route.snapshot.queryParamMap.get('hooperFamily');
+        const recipeParam = this.route.snapshot.queryParamMap.get('recipe');
+
+        if (searchParam) {
+          this.searchControl.setValue(searchParam);
+        }
+
+        if (categoryParam) {
+          this.categoryControl.setValue(categoryParam);
+        }
+
+        if (familyParam) {
+          this.familyControl.setValue(familyParam);
+        }
+
+        if (searchParam || categoryParam || familyParam) {
+          this.search(this.searchControl)
+        }
+
+        if (recipeParam) {
+          this.service.readRecipe(filename);
+        }
+      }
+    }, 250); // check every 0.25 seconds
   }
 
   blurKeyboard(element: any) {
@@ -61,6 +98,10 @@ export class HomeComponent implements OnInit {
       this.categoryControl.value,
       this.familyControl.value
     );
+
+    // upload search url params
+      // if categoryValue !== 0
+      // if familyControl !== 0
   }
 
   getCategory(categoryNumber: number): string {
@@ -75,5 +116,25 @@ export class HomeComponent implements OnInit {
         this.favoritesDataSource.data = this.favoritesDataSource.data.concat(recipe)
       });
     });
+  }
+
+  private buildUrl(search: string, category: number, hooperFamily: boolean): string {
+    const queryParams = new URLSearchParams();
+    queryParams.set('search', search);
+
+    if (category !== 0) {
+      queryParams.set('category', category);
+    }
+
+    if (hooperFamily) {
+      queryParams.set('hooperFamily', hooperFamily);
+    }
+
+    const end = queryParams.toString();
+    if (end !== '') {
+      return `${location.pathname}?${queryParams.toString()}`;
+    } else {
+      return location.pathname;
+    }
   }
 }
