@@ -47,7 +47,7 @@ export class HeaderComponent {
 
   homeClick(): void {
     this.service.setEmptyRecipe();
-    this.location.replaceState(location.pathname);
+    this.location.replaceState(this.location.pathname);
   }
 
   forwardClick(): void {
