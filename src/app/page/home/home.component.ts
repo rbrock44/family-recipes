@@ -99,7 +99,7 @@ export class HomeComponent implements OnInit {
       this.familyControl.value
     );
 
-    this.location.replaceState(this.buildUrl(value, this.categoryControl.value, this.familyControl.value);
+    this.location.replaceState(this.buildUrl(value, this.categoryControl.value, this.familyControl.value));
   }
 
   getCategory(categoryNumber: number): string {
