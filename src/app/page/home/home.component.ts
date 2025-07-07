@@ -99,9 +99,7 @@ export class HomeComponent implements OnInit {
       this.familyControl.value
     );
 
-    // upload search url params
-      // if categoryValue !== 0
-      // if familyControl !== 0
+    this.location.replaceState(this.buildUrl(value, this.categoryControl.value, this.familyControl.value);
   }
 
   getCategory(categoryNumber: number): string {

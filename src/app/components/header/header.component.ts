@@ -17,13 +17,13 @@ import { Location } from '@angular/common';
             </a>
             <a mat-tab-link
               mat-theme="accent"
-              (click)="service.previousRecipe()"
+              (click)="this.prevClick()"
               class="nav-bar-link cursor"
               data-previous-nav><<
             </a>
             <a mat-tab-link
               mat-theme="accent"
-              (click)="service.nextRecipe()"
+              (click)="this.forwardClick()"
               class="nav-bar-link cursor"
               data-next-nav>>>
             </a>
