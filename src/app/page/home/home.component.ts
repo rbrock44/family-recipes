@@ -74,11 +74,11 @@ export class HomeComponent implements OnInit {
         }
 
         if (searchParam || categoryParam || familyParam) {
-          this.search(this.searchControl)
+          this.search(this.searchControl.value)
         }
 
         if (recipeParam) {
-          this.service.readRecipe(filename);
+          this.service.readRecipe(recipeParam);
         }
       }
     }, 250); // check every 0.25 seconds
@@ -123,11 +123,11 @@ export class HomeComponent implements OnInit {
     queryParams.set('search', search);
 
     if (category !== 0) {
-      queryParams.set('category', category);
+      queryParams.set('category', category.toString();
     }
 
     if (hooperFamily) {
-      queryParams.set('hooperFamily', hooperFamily);
+      queryParams.set('hooperFamily', hooperFamily ? 'true' : 'false');
     }
 
     const end = queryParams.toString();

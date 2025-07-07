@@ -4,6 +4,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { getCategory } from 'src/app/models/category.enum';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-recipe-table',
@@ -19,6 +20,7 @@ export class RecipeTableComponent implements OnInit {
   @ViewChild(MatSort) sort: MatSort;
 
   constructor(
+    private location: Location,
     private service: RecipeService
   ) { }
 

@@ -87,7 +87,7 @@ export class RecipeService {
     this.selectedRecipe = {...EMPTY_RECIPE};
   }
 
-  nextRecipe(): filename {
+  nextRecipe(): string {
     let filename: string = '';
 
     if (this.useFavoritesList) {
