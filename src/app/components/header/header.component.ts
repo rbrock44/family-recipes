@@ -11,7 +11,7 @@ import { Location } from '@angular/common';
           <div class="nav-bar-div">
             <a mat-tab-link
                mat-theme="accent"
-               (click)="service.setEmptyRecipe()"
+               (click)="this.homeClick()"
                class="nav-bar-link cursor"
                data-home-nav>Home
             </a>
@@ -47,7 +47,7 @@ export class HeaderComponent {
 
   homeClick(): void {
     this.service.setEmptyRecipe();
-    this.location.replaceState(this.buildUrl(null));
+    this.location.replaceState(location.pathname);
   }
 
   forwardClick(): void {
