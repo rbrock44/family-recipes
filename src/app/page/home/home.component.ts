@@ -123,7 +123,7 @@ export class HomeComponent implements OnInit {
     queryParams.set('search', search);
 
     if (category !== 0) {
-      queryParams.set('category', category.toString();
+      queryParams.set('category', category.toString());
     }
 
     if (hooperFamily) {
