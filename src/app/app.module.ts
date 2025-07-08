@@ -15,7 +15,6 @@ import { DryConversionComponent } from './components/dry-conversion/dry-conversi
 import { RecipeTableComponent } from './components/recipe-table/recipe-table.component';
 import { FractionComponent } from './components/fraction/fraction.component';
 import { MainComponent } from './page/main/main.component';
-import { RouterModule  } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -35,7 +34,6 @@ import { RouterModule  } from '@angular/router';
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
-    RouterModule,
     MaterialModule
   ],
   providers: [],

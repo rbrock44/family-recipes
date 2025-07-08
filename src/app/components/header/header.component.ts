@@ -44,8 +44,6 @@ export class HeaderComponent {
   constructor(
     public service: RecipeService,
     private location: Location,
-    private router: Router,
-    private route: ActivatedRoute
   ) { }
 
   homeClick(): void {
