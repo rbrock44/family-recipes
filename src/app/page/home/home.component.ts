@@ -57,7 +57,7 @@ export class HomeComponent implements OnInit {
 
         const queryParams = new URLSearchParams(window.location.search);
         const searchParam = queryParams.get('search');
-        const hasSearch = `${window.location.search}`.contains('search=')
+        const hasSearch = `${window.location.search}`.indexOf('search=') >= 0
         const categoryParam = queryParams.get('category');
         const familyParam = queryParams.get('hooperFamily');
         const recipeParam = queryParams.get('recipe');
