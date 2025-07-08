@@ -54,7 +54,6 @@ export class HomeComponent implements OnInit {
       const result = this.service.isFullyLoaded();
       if (result === true) {
         clearInterval(interval);
-        console.log('Function finally returned true!');
 
         const searchParam = this.route.snapshot.queryParamMap.get('search');
         const categoryParam = this.route.snapshot.queryParamMap.get('category');
@@ -126,6 +125,11 @@ export class HomeComponent implements OnInit {
 
     if (hooperFamily) {
       queryParams.set('hooperFamily', hooperFamily ? 'true' : 'false');
+    }
+
+    const recipeParam = this.route.snapshot.queryParamMap.get('recipe');
+    if (recipeParam) {
+      queryParams.set('recipe', recipeParam);
     }
 
     const end = queryParams.toString();
