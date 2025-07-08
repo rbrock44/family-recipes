@@ -59,27 +59,32 @@ export class HomeComponent implements OnInit {
         const categoryParam = this.route.snapshot.queryParamMap.get('category');
         const familyParam = this.route.snapshot.queryParamMap.get('hooperFamily');
         const recipeParam = this.route.snapshot.queryParamMap.get('recipe');
+        const homeParam = this.route.snapshot.queryParamMap.get('homeParam');
 
-        if (searchParam) {
-          this.searchControl.setValue(searchParam);
+        if (homeParam !== 'true') {
+          if (searchParam) {
+            this.searchControl.setValue(searchParam);
+          }
+
+          if (categoryParam) {
+            this.categoryControl.setValue(categoryParam);
+          }
+
+          if (familyParam) {
+            this.familyControl.setValue(familyParam);
+          }
+
+          if (searchParam || categoryParam || familyParam) {
+            this.search(this.searchControl.value);
+          }
+
+          if (recipeParam) {
+            this.service.searchList = this.dataSource.data.map(item => item.filename);
+            this.service.readRecipe(recipeParam);
+          }
         }
 
-        if (categoryParam) {
-          this.categoryControl.setValue(categoryParam);
-        }
 
-        if (familyParam) {
-          this.familyControl.setValue(familyParam);
-        }
-
-        if (searchParam || categoryParam || familyParam) {
-          this.search(this.searchControl.value);
-          this.service.searchList = this.dataSource.data.map(item => item.filename);
-        }
-
-        if (recipeParam) {
-          this.service.readRecipe(recipeParam);
-        }
       }
     }, 250); // check every 0.25 seconds
   }

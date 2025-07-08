@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RecipeService } from 'src/app/services/recipe.service';
 import { Location } from '@angular/common';
+import { RouterOutlet, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -42,12 +43,14 @@ import { Location } from '@angular/common';
 export class HeaderComponent {
   constructor(
     public service: RecipeService,
-    private location: Location
+    private location: Location,
+    private router: Router,
+    private route: ActivatedRoute
   ) { }
 
   homeClick(): void {
     this.service.setEmptyRecipe();
-    this.location.replaceState(location.pathname);
+    this.location.replaceState(`${location.pathname}?home=true`);
   }
 
   forwardClick(): void {
