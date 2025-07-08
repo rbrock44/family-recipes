@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RecipeService } from 'src/app/services/recipe.service';
 import { Location } from '@angular/common';
-import { RouterOutlet, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-header',
