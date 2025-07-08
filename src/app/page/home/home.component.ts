@@ -55,11 +55,12 @@ export class HomeComponent implements OnInit {
       if (result === true) {
         clearInterval(interval);
 
-        const searchParam = this.route.snapshot.queryParamMap.get('search');
-        const categoryParam = this.route.snapshot.queryParamMap.get('category');
-        const familyParam = this.route.snapshot.queryParamMap.get('hooperFamily');
-        const recipeParam = this.route.snapshot.queryParamMap.get('recipe');
-        const homeParam = this.route.snapshot.queryParamMap.get('homeParam');
+        const queryParams = new URLSearchParams(window.location.search);
+        const searchParam = queryParams.get('search');
+        const categoryParam = queryParams.get('category');
+        const familyParam = queryParams.get('hooperFamily');
+        const recipeParam = queryParams.get('recipe');
+        const homeParam = queryParams.get('homeParam');
 
         if (homeParam !== 'true') {
           if (searchParam) {
