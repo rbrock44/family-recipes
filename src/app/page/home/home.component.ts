@@ -74,7 +74,7 @@ export class HomeComponent implements OnInit {
 
         if (searchParam || categoryParam || familyParam) {
           this.search(this.searchControl.value);
-          this.service.searchList = this.dataSource.data;
+          this.service.searchList = this.dataSource.data.map(item => item.filename);
         }
 
         if (recipeParam) {
