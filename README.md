@@ -1,7 +1,7 @@
 # Family Recipes
 
 > This project holds all the family recipes (and more) <br/>
-> [Live - Family Recipe Website](https://family-recipe.ryan-brock.com/) <br/>
+> [Live - Family Recipes Website](https://family-recipe.ryan-brock.com/) <br/>
  
 ![Main](/pics/main.png)
 
@@ -32,6 +32,7 @@ This wesbite was created for my grandma (and family) to hold our family recipes.
 
 <br/><br/>
 To add a recipe use [Add Recipe](https://github.com/rbrock44/add-recipe)
+
 ---
 
 ## 🚦 How to Use
@@ -42,11 +43,15 @@ To add a recipe use [Add Recipe](https://github.com/rbrock44/add-recipe)
 
 A search fires off for every typed character. Every word seperated by a space in the search bar has to be found in either the title, author or number. 
 
+---
+
 ### Advanced Search
 
 ![Advanced Search](/pics/advanced-search.png)
 
 Advanced search allows the option to only show the Hooper family or select a specific category
+
+---
 
 ### Results
 
@@ -54,11 +59,15 @@ Advanced search allows the option to only show the Hooper family or select a spe
 
 The results are shown below in a table. The table can be sorted by any column. Click on a recipe to see more details
 
+---
+
 ### Recipe Page 
 
 ![Recipe page](/pics/recipe.png)
 
 The recipe page shows the title, author, ingredients and instructions for the recipe. The batch control allows the ability to alter the number of batches. The heart favorites the recipe. The top left navigation bar can be used to quickly go forward or backward through results.
+
+---
 
 ### Favorites 
 
