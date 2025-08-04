@@ -90,6 +90,8 @@ The favorites table contain all recipes that have been hearted. Can be sorted by
 * Install [node](https://nodejs.org/en) - v19 is needed (v22 also works)
 * Clone [repo](https://github.com/rbrock44/family-recipes)
 
+---
+
 ### Run Locally
 
 ```
