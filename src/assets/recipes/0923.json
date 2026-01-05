@@ -1,0 +1,56 @@
+{
+  "name": "Ranch Snack Mix",
+  "author": "Sara Snider",
+  "category": 1,
+  "instructions": "Mix everything together in a huge bowl, sprinkle combined seasoning over mixture and then drizzle oil over all and let set overnight in an airtight container",
+  "ingredients": [
+    {
+      "amount": 5,
+      "name": "c. mini pretzels"
+    },
+    {
+      "amount": 8,
+      "name": "c. bugles"
+    },
+    {
+      "amount": 2,
+      "name": "c. salted cashews"
+    },
+    {
+      "amount": 2,
+      "name": "c. goldfish"
+    },
+    {
+      "amount": 2,
+      "name": "c. cheetos"
+    },
+    {
+      "amount": 2,
+      "name": "c. fritos"
+    },
+    {
+      "amount": 1,
+      "name": "dry ranch seasoning packet"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. dill weed"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. lemon pepper"
+    },
+    {
+      "amount": 0.75,
+      "name": "tsp. garlic salt"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. canola oil"
+    }
+  ],
+  "yield": {
+    "amount": 0,
+    "name": ""
+  }
+}
