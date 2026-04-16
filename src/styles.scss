@@ -1,16 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@500;600&display=swap');
 
 :root {
-  --brand-50: #f2ebff;
-  --brand-100: #e2d6ff;
-  --brand-300: #6f42c1; // fix
-  --brand-400: #6f42c1; // fix
   --brand-500: #6f42c1;
   --brand-600: #5d35aa;
   --brand-900: #2f1d59;
-  --surface: #dbc7ff;
-  --surface-strong: #efe4ff;
-  --surface-gradient-light: linear-gradient(145deg, #d9c2ff 0%, #ccb0ff 52%, #be9bff 100%);
   --surface-gradient-soft: linear-gradient(155deg, rgba(223, 202, 255, 0.96) 0%, rgba(203, 174, 255, 0.93) 100%);
   --ink: #261a40;
   --ink-muted: #5f4b86;
@@ -60,10 +53,13 @@ h4 {
   backdrop-filter: blur(2px);
 }
 
+.mat-header-cell {
+  background: rgba(77, 35, 148, 0.32);
+}
+
 .mat-expansion-panel {
   border-radius: var(--radius-md) !important;
   overflow: hidden;
-  // background: linear-gradient(155deg, rgba(218, 194, 255, 0.96) 0%, rgba(194, 162, 255, 0.94) 100%);
 }
 
 .mat-mdc-table {
