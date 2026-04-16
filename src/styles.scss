@@ -21,10 +21,7 @@ body {
   margin: 0;
   color: var(--ink);
   font-family: Roboto, "Segoe UI", sans-serif;
-  background:
-    radial-gradient(circle at 12% 10%, rgba(116, 79, 196, 0.42) 0%, rgba(116, 79, 196, 0) 40%),
-    radial-gradient(circle at 90% 16%, rgba(92, 47, 171, 0.4) 0%, rgba(92, 47, 171, 0) 38%),
-    linear-gradient(150deg, #28163f 0%, #3a2160 50%, #221336 100%);
+  background: #3a2160;
 }
 
 h1,
