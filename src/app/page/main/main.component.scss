@@ -1,0 +1,48 @@
+.main-shell {
+	min-height: 100vh;
+	padding: 2.5rem 0 3rem;
+	position: relative;
+	overflow: hidden;
+}
+
+.ambient-shape {
+	position: absolute;
+	filter: blur(6px);
+	border-radius: 999px;
+	z-index: 0;
+	animation: float-shape 12s ease-in-out infinite;
+}
+
+.ambient-shape-one {
+	width: 420px;
+	height: 420px;
+	top: -180px;
+	left: -140px;
+	background: radial-gradient(circle, rgba(137, 92, 230, 0.34) 0%, rgba(137, 92, 230, 0) 72%);
+}
+
+.ambient-shape-two {
+	width: 320px;
+	height: 320px;
+	right: -140px;
+	top: 25%;
+	background: radial-gradient(circle, rgba(111, 59, 196, 0.3) 0%, rgba(111, 59, 196, 0) 72%);
+	animation-delay: -4s;
+}
+
+app-home,
+app-recipe {
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+@keyframes float-shape {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(20px);
+	}
+}

@@ -1,9 +1,9 @@
 <div [ngClass]="getResultClass()" *ngIf="dataSource.data.length > 0">
-  <div class="center">
+  <div class="center count-row">
     <p class="bold">{{dataSource.data.length}} Result(s)</p>
   </div>
   <div class="center">
-    <div  [ngClass]="getResultBoxClass()">
+    <div [ngClass]="getResultBoxClass()" class="table-shell" [class.compact]="removeColumns">
       <mat-table [dataSource]="this.dataSource" matSort class="mat-elevation-z8" (matSortChange)="sortData()">
         <!-- name Column -->
         <ng-container matColumnDef="name">

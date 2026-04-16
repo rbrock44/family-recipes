@@ -1,23 +1,27 @@
-nav {
-  float: left;
-  width: 100%;
-}
-
-.nav-bar-bar {
-  height: 50px;
-}
-
-.nav-bar-link {
-  margin: 15px;
-  border: black;
-  font-size: large;
-}
-
-.nav-bar-div {
+.header-bar {
+  margin: 0 0 1rem;
+  min-height: 62px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.45rem 0.8rem;
 }
 
-.cursor {
-  cursor: pointer;
-  text-decoration: underline;
+.home-button {
+  color: var(--brand-900);
+  font-weight: 400;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.position {
+  min-width: 82px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--ink-muted);
 }

@@ -1,15 +1,72 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@500;600&display=swap');
 
-html, body {
+:root {
+  --brand-50: #f2ebff;
+  --brand-100: #e2d6ff;
+  --brand-300: #6f42c1; // fix
+  --brand-400: #6f42c1; // fix
+  --brand-500: #6f42c1;
+  --brand-600: #5d35aa;
+  --brand-900: #2f1d59;
+  --surface: #dbc7ff;
+  --surface-strong: #efe4ff;
+  --surface-gradient-light: linear-gradient(145deg, #d9c2ff 0%, #ccb0ff 52%, #be9bff 100%);
+  --surface-gradient-soft: linear-gradient(155deg, rgba(223, 202, 255, 0.96) 0%, rgba(203, 174, 255, 0.93) 100%);
+  --ink: #261a40;
+  --ink-muted: #5f4b86;
+  --radius-lg: 22px;
+  --radius-md: 14px;
+  --shadow-soft: 0 18px 38px -26px rgba(12, 27, 77, 0.45);
+}
+
+html,
+body {
   height: 100%;
-    background-color: #9575CD;
 }
 
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: var(--ink);
+  font-family: Roboto, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(116, 79, 196, 0.42) 0%, rgba(116, 79, 196, 0) 40%),
+    radial-gradient(circle at 90% 16%, rgba(92, 47, 171, 0.4) 0%, rgba(92, 47, 171, 0) 38%),
+    linear-gradient(150deg, #28163f 0%, #3a2160 50%, #221336 100%);
 }
 
-.purple {
-  background-color: #9575CD;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto Slab", Georgia, serif;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-shell {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.surface-card {
+  border-radius: var(--radius-lg);
+  background: var(--surface-gradient-soft);
+  border: 1px solid rgba(77, 35, 148, 0.32);
+  box-shadow: 0 14px 24px -20px rgba(13, 8, 35, 0.66);
+  backdrop-filter: blur(2px);
+}
+
+.mat-expansion-panel {
+  border-radius: var(--radius-md) !important;
+  overflow: hidden;
+  // background: linear-gradient(155deg, rgba(218, 194, 255, 0.96) 0%, rgba(194, 162, 255, 0.94) 100%);
+}
+
+.mat-mdc-table {
+  border-radius: 16px;
+  overflow: hidden;
 }

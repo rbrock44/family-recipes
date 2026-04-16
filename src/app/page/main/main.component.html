@@ -1,4 +1,6 @@
-<div class="purple">
+<div class="main-shell">
+  <div class="ambient-shape ambient-shape-one"></div>
+  <div class="ambient-shape ambient-shape-two"></div>
   <app-home *ngIf="service.selectedRecipe.filename == ''"></app-home>
   <app-recipe *ngIf="service.selectedRecipe.filename != ''" [recipe]="service.selectedRecipe"></app-recipe>
 </div>

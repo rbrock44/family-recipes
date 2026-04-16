@@ -1,73 +1,78 @@
 <app-header></app-header>
-<h1 class="center">{{recipe?.name}}</h1>
-<h2 class="center">{{recipe?.author}}</h2>
-<h2 class="center">
-    <mat-icon *ngIf="isFavorite()" (click)="unfavorite()">favorite</mat-icon>
-    <mat-icon *ngIf="!isFavorite()" (click)="favorite()">favorite_border</mat-icon>
-</h2>
-
-<div class="center">
-    <mat-form-field class="form-field batch">
-        <mat-label class="mat-label">Batches</mat-label>
-        <div class="center">
-            <input [formControl]="batchControl" data-search-input matInput type="number">
+<section class="page-shell recipe-page">
+    <header class="surface-card recipe-hero">
+        <div>
+            <h1>{{recipe.name}}</h1>
+            <h2>{{recipe.author}}</h2>
         </div>
-    </mat-form-field>
-</div>
+        <button mat-icon-button color="warn" *ngIf="isFavorite()" (click)="unfavorite()" aria-label="Remove favorite">
+            <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-icon-button *ngIf="!isFavorite()" (click)="favorite()" aria-label="Add favorite">
+            <mat-icon>favorite_border</mat-icon>
+        </button>
+    </header>
 
+    <section class="surface-card meta-card">
+        <mat-form-field appearance="outline" class="batch">
+            <mat-label>Batches</mat-label>
+            <input [formControl]="batchControl" data-search-input matInput type="number">
+        </mat-form-field>
 
-<h3 class="center" *ngIf="recipe.yield.amount > 0">Serves: {{timesBatch(recipe?.yield?.amount)}} {{recipe?.yield?.name}}
-</h3>
-<div class="ingredients-cont">
-    <div class="ingredients-column">
-        <span *ngFor="let ing of halfIngredients()">
-            <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">
-                <span *ngIf="!hasFraction(getIngredientDisplay(ing))">{{getIngredientDisplay(ing)}} {{ing.name}}</span>
-                <app-fraction *ngIf="hasFraction(getIngredientDisplay(ing))"
-                    before="{{getIngredientDisplay(ing).split(' ')[0]}}" after="{{ing.name}}"
-                    fraction="{{getIngredientDisplay(ing).split(' ')[1]}}"></app-fraction>
-            </p>
-        </span>
+        <p class="serves" *ngIf="recipe.yield.amount > 0">
+            Serves: {{timesBatch(recipe.yield.amount)}} {{recipe.yield.name}}
+        </p>
+    </section>
+
+    <section class="surface-card ingredients-card">
+        <h3>Ingredients</h3>
+        <div class="ingredients-cont">
+            <div class="ingredients-column">
+                <span *ngFor="let ing of halfIngredients()">
+                    <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">
+                        <span *ngIf="!hasFraction(getIngredientDisplay(ing))">{{getIngredientDisplay(ing)}} {{ing.name}}</span>
+                        <app-fraction *ngIf="hasFraction(getIngredientDisplay(ing))"
+                            before="{{getIngredientDisplay(ing).split(' ')[0]}}" after="{{ing.name}}"
+                            fraction="{{getIngredientDisplay(ing).split(' ')[1]}}"></app-fraction>
+                    </p>
+                </span>
+            </div>
+            <div class="ingredients-column">
+                <span *ngFor="let ing of halfIngredients(false)">
+                    <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">
+                        <span *ngIf="!hasFraction(getIngredientDisplay(ing))">{{getIngredientDisplay(ing)}} {{ing.name}}</span>
+                        <app-fraction *ngIf="hasFraction(getIngredientDisplay(ing))"
+                            before="{{getIngredientDisplay(ing).split(' ')[0]}}" after="{{ing.name}}"
+                            fraction="{{getIngredientDisplay(ing).split(' ')[1]}}"></app-fraction>
+                    </p>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="surface-card instructions-card">
+        <h3>Instructions</h3>
+        <p class="instructions">{{recipe.instructions}}</p>
+    </section>
+
+    <section class="conversion-block" *ngIf="showLiquid">
+        <div class="conversion-title-row">
+            <h3>Liquid Conversions</h3>
+            <button mat-stroked-button color="primary" (click)="close()">Close</button>
+        </div>
+        <app-liquid-conversion></app-liquid-conversion>
+    </section>
+
+    <section class="conversion-block" *ngIf="showDry">
+        <div class="conversion-title-row">
+            <h3>Dry Conversions</h3>
+            <button mat-stroked-button color="primary" (click)="close(false)">Close</button>
+        </div>
+        <app-dry-conversion></app-dry-conversion>
+    </section>
+
+    <div class="conversion-actions">
+        <button mat-flat-button color="primary" *ngIf="!showLiquid" (click)="open()">Liquid</button>
+        <button mat-flat-button color="accent" *ngIf="!showDry" (click)="open(false)">Dry</button>
     </div>
-    <div class="ingredients-column">
-        <span *ngFor="let ing of halfIngredients(false)">
-            <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">
-                <span *ngIf="!hasFraction(getIngredientDisplay(ing))">{{getIngredientDisplay(ing)}} {{ing.name}}</span>
-                <app-fraction *ngIf="hasFraction(getIngredientDisplay(ing))"
-                    before="{{getIngredientDisplay(ing).split(' ')[0]}}" after="{{ing.name}}"
-                    fraction="{{getIngredientDisplay(ing).split(' ')[1]}}"></app-fraction>
-            </p>
-        </span>
-    </div>
-</div>
-
-<div class="center">
-    <p class="instructions center">{{recipe?.instructions}}</p>
-</div>
-
-<div class="spacer" *ngIf="!showDry && !showLiquid"></div>
-
-<div class="center column" *ngIf="showLiquid">
-    <span>
-        <h3 class="conversion-title button style" (click)="close()">Liquid Conversions</h3>
-    </span>
-    <app-liquid-conversion></app-liquid-conversion>
-</div>
-
-<div class="center column" *ngIf="showDry">
-    <span>
-        <h3 class="conversion-title button style" (click)="close(false)">Dry Conversions</h3>
-    </span>
-    <app-dry-conversion></app-dry-conversion>
-</div>
-
-<div class="bottom">
-    <div class="liquid-button">
-        <span *ngIf="!showLiquid" (click)="open()" class="button style">Liquid</span>
-    </div>
-    <div class="dry-button">
-        <span *ngIf="!showDry" (click)="open(false)" class="button style">Dry</span>
-    </div>
-</div>
-
-<div class="bottom-bar"></div>
+</section>

@@ -1,153 +1,114 @@
-h1 {
+.recipe-page {
+    display: grid;
+    gap: 1rem;
+}
+
+.recipe-hero {
     display: flex;
-    margin-top: 5vh;
-    margin-bottom: 2vh;
-    font-size: 45px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.recipe-hero h1 {
+    margin: 0;
+    font-size: clamp(1.3rem, 5vw, 2.8rem);
     line-height: 1.1;
 }
 
-.conversion-title {
-    font-size: 20px;
+.recipe-hero h2 {
+    margin: 0.35rem 0 0;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    color: var(--ink-muted);
+    font-family: Roboto, "Segoe UI", sans-serif;
+    font-weight: 500;
 }
 
-.center {
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.meta-card {
+    padding: 1rem 1.25rem;
 }
 
 .batch {
-    width: 60px;
+    width: 120px;
+    // background: white;
+}
+
+.serves {
+    margin: 0;
+    color: var(--ink-muted);
+    font-weight: 500;
+}
+
+.ingredients-card,
+.instructions-card {
+    padding: 1.25rem;
+}
+
+.ingredients-card h3,
+.instructions-card h3,
+.conversion-title-row h3 {
+    margin: 0 0 0.75rem;
+    font-size: 1.35rem;
 }
 
 .instructions {
-    width: 50%;
-    font-size: 14px;
-    margin-bottom: 25px;
+    margin: 0;
+    color: var(--ink);
+    line-height: 1.65;
     white-space: pre-line;
 }
 
 .ingredients-cont {
-    justify-content: center;
     display: flex;
-    align-items: center;
-    margin-left: 10vw;
+    gap: 2rem;
 }
 
 .ingredients-column {
-    width: 20vw;
-    align-self: baseline;
+    flex: 1;
+    min-width: 220px;
 }
 
 .ingredient {
-    font-weight: bold;
-    font-size: 14px;
+    margin: 0.45rem 0;
+    color: var(--ink);
+    font-weight: 500;
 }
 
-.column {
-    flex-direction: column;
-    margin-bottom: 25px;
+.conversion-block {
+    padding: 1rem 1.25rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(47, 91, 211, 0.12);
+    background: linear-gradient(150deg, #f8f2ff 0%, #ece1ff 100%);
+    box-shadow: var(--shadow-soft);
 }
 
-.button {
-    font-size: 24px;
-    cursor: pointer;
-    height: 45px;
+.conversion-title-row {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
 }
 
-.liquid-button {
-    width: 75px;
+.conversion-actions {
     display: flex;
     justify-content: center;
-}
-
-.dry-button {
-    width: 75px;
-    display: flex;
-    justify-content: center;
-}
-
-.style {
-    background-color: #7E57C2;
-    border-radius: 40%;
-    padding: 0px 10px;
-}
-
-.bottom {
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 10%;
-    width: 80%;
-}
-
-.bottom-bar {
-    height: 25px
-}
-
-.spacer {
-    height: 100px
+    gap: 0.75rem;
+    padding-bottom: 1rem;
 }
 
 .underline {
-    border-bottom: solid #7E57C2;
+    border-bottom: 2px solid rgba(47, 91, 211, 0.4);
 }
 
-mat-icon {
-    cursor: pointer;
-}
-
-@media screen and (max-width: 1200px) {
-    .ingredients-column {
-        width: 250px;
-        min-width: 200px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    h1 {
-        font-size: 40px;
-    }
-
-    .instructions {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 35px;
-    }
-}
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
     .ingredients-cont {
         flex-direction: column;
+        gap: 0;
     }
 
-    .ingredient,
-    .instructions {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 30px;
-    }
-
-    .instructions {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    h1 {
-        font-size: 28px;
-    }
-
-    .instructions {
-        width: 90%;
+    .ingredients-column {
+        min-width: 100%;
     }
 }

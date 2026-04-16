@@ -5,35 +5,21 @@ import { Location } from '@angular/common';
 @Component({
   selector: 'app-header',
   template: `
-    <div>
-      <div class="nav-bar-bar">
-        <nav mat-tab-nav-bar>
-          <div class="nav-bar-div">
-            <a mat-tab-link
-               mat-theme="accent"
-               (click)="this.homeClick()"
-               class="nav-bar-link cursor"
-               data-home-nav>Home
-            </a>
-            <a mat-tab-link
-              mat-theme="accent"
-              (click)="this.prevClick()"
-              class="nav-bar-link cursor"
-              data-previous-nav><<
-            </a>
-            <a mat-tab-link
-              mat-theme="accent"
-              (click)="this.forwardClick()"
-              class="nav-bar-link cursor"
-              data-next-nav>>>
-            </a>
-            <a mat-tab-link
-               mat-theme="accent"
-               class="nav-bar-link"
-               data-total-nav>{{service.getSelectedRecipeIndex()}}/{{service.searchList.length}}
-            </a>
-          </div>
-        </nav>
+    <div class="page-shell">
+      <div class="header-bar surface-card">
+        <button mat-button class="home-button" (click)="this.homeClick()" data-home-nav>Home</button>
+
+        <div class="header-actions">
+          <button mat-icon-button color="primary" (click)="this.prevClick()" data-previous-nav aria-label="Previous recipe">
+            <mat-icon>chevron_left</mat-icon>
+          </button>
+          <button mat-icon-button color="primary" (click)="this.forwardClick()" data-next-nav aria-label="Next recipe">
+            <mat-icon>chevron_right</mat-icon>
+          </button>
+          <span class="position" data-total-nav>
+            {{service.getSelectedRecipeIndex()}}/{{service.searchList.length}}
+          </span>
+        </div>
       </div>
     </div>
   `,
