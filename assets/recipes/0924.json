@@ -1,0 +1,32 @@
+{
+  "name": "Ranch Pretzels",
+  "author": "Becky Collier",
+  "category": 1,
+  "instructions": "Mix all ingredients in a 2 gallon zip lock bag and shake well\n\nLeave of counter for 3 days and shake well\n\nCan be frozen",
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "1 lb. bag of pretzels"
+    },
+    {
+      "amount": 1,
+      "name": "bottle Orville Redenbacher popping corn oil"
+    },
+    {
+      "amount": 1,
+      "name": "pkg. Hidden Valley Ranch dressing"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. onion salt or powder"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. garlic salt or powder"
+    }
+  ],
+  "yield": {
+    "amount": 0,
+    "name": ""
+  }
+}
