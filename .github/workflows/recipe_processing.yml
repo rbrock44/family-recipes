@@ -99,7 +99,7 @@ jobs:
                 const deleteResponse = await fetch(deleteUrl, {
                   method: 'DELETE',
                   headers: {
-                    Authorization: `Bearer ${token}`,
+                    'X-API-Key': token,
                     'Content-Type': 'application/json'
                   }
                 });
