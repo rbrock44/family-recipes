@@ -1,0 +1,120 @@
+name: Recipe Processing
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recipe-processing
+  cancel-in-progress: false
+
+env:
+  RECIPE_API_BASE_URL: https://home-page-api.ryan-brock.com
+
+jobs:
+  process-recipes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run recipe processing script
+        run: node scripts/processRecipes.js
+
+      - name: Detect changes
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet -- src/assets/recipes src/app/services/recipe-reader.service.ts; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No recipe changes detected."
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Recipe changes detected."
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "automated: process pending recipes"
+          git pull --rebase origin
+          git push
+
+      - name: Delete processed recipes from API
+        if: success()
+        shell: bash
+        env:
+          RECIPE_API_TOKEN: ${{ secrets.RECIPE_API_TOKEN }}
+        run: |
+          if [ -z "$RECIPE_API_TOKEN" ]; then
+            echo "RECIPE_API_TOKEN is not set. Skipping secure delete step."
+            exit 0
+          fi
+
+          node -e "
+            const base = process.env.RECIPE_API_BASE_URL;
+            const token = process.env.RECIPE_API_TOKEN;
+
+            const run = async () => {
+              const pendingResponse = await fetch(`${base}/recipes/pending`, { method: 'GET' });
+
+              if (!pendingResponse.ok) {
+                const text = await pendingResponse.text();
+                throw new Error(`Failed to fetch pending recipes: ${pendingResponse.status} ${text}`);
+              }
+
+              const pending = await pendingResponse.json();
+              if (!Array.isArray(pending)) {
+                throw new Error('Expected pending recipes response to be an array');
+              }
+
+              for (const recipe of pending) {
+                if (!recipe || typeof recipe.id === 'undefined') {
+                  throw new Error('Pending recipe is missing id');
+                }
+
+                const id = recipe.id;
+                const deleteUrl = `${base}/recipes/pending/${encodeURIComponent(id)}`;
+                const deleteResponse = await fetch(deleteUrl, {
+                  method: 'DELETE',
+                  headers: {
+                    Authorization: `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                  }
+                });
+
+                if (!deleteResponse.ok) {
+                  const text = await deleteResponse.text();
+                  throw new Error(`Delete failed for ${id}: ${deleteResponse.status} ${text}`);
+                }
+
+                console.log(`Deleted recipe ${id}`);
+              }
+            };
+
+            run().catch((error) => {
+              console.error(error);
+              process.exit(1);
+            });
+          "
