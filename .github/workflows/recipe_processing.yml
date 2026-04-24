@@ -62,7 +62,7 @@ jobs:
           git push
 
       - name: Delete processed recipes from API
-        if: success()
+        if: steps.changes.outputs.has_changes == 'true'
         shell: bash
         env:
           RECIPE_API_TOKEN: ${{ secrets.RECIPE_API_TOKEN }}
@@ -72,12 +72,12 @@ jobs:
             exit 0
           fi
 
-          node -e "
+          node -e '
             const base = process.env.RECIPE_API_BASE_URL;
             const token = process.env.RECIPE_API_TOKEN;
 
             const run = async () => {
-              const pendingResponse = await fetch(`${base}/recipes/pending`, { method: 'GET' });
+              const pendingResponse = await fetch(`${base}/recipes/pending`, { method: "GET" });
 
               if (!pendingResponse.ok) {
                 const text = await pendingResponse.text();
@@ -86,21 +86,21 @@ jobs:
 
               const pending = await pendingResponse.json();
               if (!Array.isArray(pending)) {
-                throw new Error('Expected pending recipes response to be an array');
+                throw new Error("Expected pending recipes response to be an array");
               }
 
               for (const recipe of pending) {
-                if (!recipe || typeof recipe.id === 'undefined') {
-                  throw new Error('Pending recipe is missing id');
+                if (!recipe || typeof recipe.id === "undefined") {
+                  throw new Error("Pending recipe is missing id");
                 }
 
                 const id = recipe.id;
                 const deleteUrl = `${base}/recipes/pending/${encodeURIComponent(id)}`;
                 const deleteResponse = await fetch(deleteUrl, {
-                  method: 'DELETE',
+                  method: "DELETE",
                   headers: {
-                    'X-API-Key': token,
-                    'Content-Type': 'application/json'
+                    "X-API-Key": token,
+                    "Content-Type": "application/json"
                   }
                 });
 
@@ -117,4 +117,4 @@ jobs:
               console.error(error);
               process.exit(1);
             });
-          "
+          '
