@@ -2,7 +2,23 @@ const fs = require('fs');
 const path = require('path');
 const prettier = require('prettier');
 
-const projectRoot = path.resolve(__dirname, '..');
+function resolveProjectRoot() {
+	const candidateRoots = [
+		path.resolve(__dirname, '..'),
+		process.cwd(),
+	];
+
+	for (const root of candidateRoots) {
+		const serviceFile = path.join(root, 'src', 'app', 'services', 'recipe-reader.service.ts');
+		if (fs.existsSync(serviceFile)) {
+			return root;
+		}
+	}
+
+	throw new Error('Unable to resolve project root. Expected to find src/app/services/recipe-reader.service.ts');
+}
+
+const projectRoot = resolveProjectRoot();
 const recipeServicePath = path.join(projectRoot, 'src', 'app', 'services', 'recipe-reader.service.ts');
 const assetDirectory = path.join(projectRoot, 'src', 'assets', 'recipes');
 const jsonExtension = '.json';
@@ -71,9 +87,12 @@ async function processRecipes() {
 			console.log(`Created file: ${filename}`);
 		}
 
-		const newTotal = startId + data.length;
-		updateRecipeTotal(newTotal);
-		console.log(`Updated recipeTotal to ${newTotal}`);
+		if (data.length !== 0) {
+			const newTotal = startId + data.length;
+			updateRecipeTotal(newTotal);
+			console.log(`Updated recipeTotal to ${newTotal}`);
+		}
+
 
 	} catch (error) {
 		console.error('Error processing recipe:', error);
