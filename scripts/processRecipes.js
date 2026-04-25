@@ -41,13 +41,22 @@ function readStartId() {
 
 function updateRecipeTotal(newTotal) {
 	const serviceText = fs.readFileSync(recipeServicePath, 'utf8');
-	const updatedText = serviceText.replace(/recipeTotal\s*=\s*\d+\s*;/, `recipeTotal = ${newTotal};`);
+	const recipeTotalRegex = /recipeTotal\s*=\s*(\d+)\s*;/;
+	const match = serviceText.match(recipeTotalRegex);
 
-	if (serviceText === updatedText) {
+	if (!match) {
 		throw new Error(`Unable to update recipeTotal in ${recipeServicePath}`);
 	}
 
+	const currentTotal = Number.parseInt(match[1], 10);
+	if (currentTotal === newTotal) {
+		return false;
+	}
+
+	const updatedText = serviceText.replace(recipeTotalRegex, `recipeTotal = ${newTotal};`);
+
 	fs.writeFileSync(recipeServicePath, updatedText);
+	return true;
 }
 
 
@@ -89,8 +98,12 @@ async function processRecipes() {
 
 		// if (data.length !== 0) {
 			const newTotal = startId + data.length;
-			updateRecipeTotal(newTotal);
-			console.log(`Updated recipeTotal to ${newTotal}`);
+			const updatedRecipeTotal = updateRecipeTotal(newTotal);
+			if (!updatedRecipeTotal) {
+				console.log(`recipeTotal already at ${newTotal}; no update needed`);
+			} else {
+				console.log(`Updated recipeTotal to ${newTotal}`);
+			}
 		// }
 
 
