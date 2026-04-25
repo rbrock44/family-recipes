@@ -87,11 +87,11 @@ async function processRecipes() {
 			console.log(`Created file: ${filename}`);
 		}
 
-		if (data.length !== 0) {
+		// if (data.length !== 0) {
 			const newTotal = startId + data.length;
 			updateRecipeTotal(newTotal);
 			console.log(`Updated recipeTotal to ${newTotal}`);
-		}
+		// }
 
 
 	} catch (error) {
