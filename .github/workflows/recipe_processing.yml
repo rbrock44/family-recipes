@@ -77,7 +77,7 @@ jobs:
             const token = process.env.RECIPE_API_TOKEN;
 
             const run = async () => {
-              const pendingResponse = await fetch(`${base}/recipes/pending`, { method: "GET" });
+              const pendingResponse = await fetch(`${base}/recipe/pending`, { method: "GET" });
 
               if (!pendingResponse.ok) {
                 const text = await pendingResponse.text();
@@ -95,7 +95,7 @@ jobs:
                 }
 
                 const id = recipe.id;
-                const deleteUrl = `${base}/recipes/pending/${encodeURIComponent(id)}`;
+                const deleteUrl = `${base}/recipe/pending/${encodeURIComponent(id)}`;
                 const deleteResponse = await fetch(deleteUrl, {
                   method: "DELETE",
                   headers: {
