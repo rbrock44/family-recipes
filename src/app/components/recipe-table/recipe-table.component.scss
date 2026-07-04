@@ -50,6 +50,16 @@
   color: var(--ink);
 }
 
+.mat-header-cell,
+.mat-cell {
+  /* Flex items default to a content-based min-width, which stops columns from
+     shrinking below the width of their longest word (e.g. long category names).
+     Without this, narrow phone screens force the whole table to overflow its
+     card and get clipped instead of shrinking. */
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
 .mat-column-name,
 .mat-column-author {
   flex: 1.4;
@@ -71,6 +81,20 @@
   }
 
   .mat-column-name {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  /* On very small phones, drop the two least essential columns so Name and
+     Author have room to breathe; tapping a row still opens the full recipe. */
+  .mat-column-category,
+  .mat-column-filename {
+    display: none;
+  }
+
+  .mat-column-name,
+  .mat-column-author {
     flex: 1;
   }
 }

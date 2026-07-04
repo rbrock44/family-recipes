@@ -1,0 +1,19 @@
+// Custom purple Material theme for Family Recipes, replacing the default indigo-pink theme
+// so Material components (buttons, form fields, checkboxes, etc.) match the site's brand colors.
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$family-recipes-primary: mat-palette($mat-deep-purple);
+$family-recipes-accent: mat-palette($mat-purple, 400, 200, 700);
+$family-recipes-warn: mat-palette($mat-red);
+
+$family-recipes-theme: mat-light-theme((
+  color: (
+    primary: $family-recipes-primary,
+    accent: $family-recipes-accent,
+    warn: $family-recipes-warn,
+  )
+));
+
+@include angular-material-theme($family-recipes-theme);
