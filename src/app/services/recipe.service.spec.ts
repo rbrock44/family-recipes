@@ -1,8 +1,13 @@
-import {RecipeReaderService} from './recipe-reader.service';
-import {TestBed} from '@angular/core/testing';
-import {RecipeService} from './recipe.service';
-import {HttpClientTestingModule} from '@angular/common/http/testing';
-import {RecipeModel} from '../models/recipe.model';
+import { RecipeReaderService } from './recipe-reader.service';
+import { TestBed } from '@angular/core/testing';
+import { RecipeService } from './recipe.service';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
+import { RecipeModel } from '../models/recipe.model';
+import {
+  provideHttpClient,
+  withInterceptorsFromDi,
+  withXhr,
+} from '@angular/common/http';
 import Spy = jasmine.Spy;
 
 describe('RecipeService', () => {
@@ -15,23 +20,25 @@ describe('RecipeService', () => {
     author: 'Ryan',
     category: 1,
     ingredients: [
-      {name: 'a', amount: 1},
-      {name: 'b', amount: 2},
-      {name: 'c', amount: 3}
+      { name: 'a', amount: 1 },
+      { name: 'b', amount: 2 },
+      { name: 'c', amount: 3 },
     ],
     instructions: 'how to',
-    yield: {name: 'b', amount: 12}
+    yield: { name: 'b', amount: 12 },
   });
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [
-        HttpClientTestingModule
+      imports: [],
+      providers: [
+        provideHttpClient(withXhr(), withInterceptorsFromDi()),
+        provideHttpClientTesting(),
       ],
     });
 
     reader = TestBed.inject(RecipeReaderService);
-    spy = spyOn(reader, 'readRecipes').and.returnValue([sampleRecipe])
+    spy = spyOn(reader, 'readRecipes').and.returnValue([sampleRecipe]);
     service = TestBed.inject(RecipeService);
   });
 

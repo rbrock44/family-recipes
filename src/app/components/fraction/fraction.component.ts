@@ -1,14 +1,16 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'app-fraction',
   templateUrl: './fraction.component.html',
-  styleUrls: ['./fraction.component.scss']
+  styleUrls: ['./fraction.component.scss'],
+  changeDetection: ChangeDetectionStrategy.Eager,
+  standalone: false,
 })
 export class FractionComponent {
-  @Input() fraction: string = ''
-  @Input() before: string = ''
-  @Input() after: string = ''
+  @Input() fraction: string = '';
+  @Input() before: string = '';
+  @Input() after: string = '';
 
   numerator(value: string): string {
     const index = value.indexOf('/');
@@ -17,7 +19,7 @@ export class FractionComponent {
     }
     return value;
   }
-  
+
   denominator(value: string): string {
     const index = value.indexOf('/');
     if (index > -1) {
@@ -27,6 +29,6 @@ export class FractionComponent {
   }
 
   removeZero(value: string): string {
-    return value == '0' ? '' : value
+    return value == '0' ? '' : value;
   }
 }

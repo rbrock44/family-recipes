@@ -1,9 +1,14 @@
-import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MaterialModule } from '../../material.module';
 import { RecipeTableComponent } from './recipe-table.component';
+import {
+  provideHttpClient,
+  withInterceptorsFromDi,
+  withXhr,
+} from '@angular/common/http';
 
 describe('RecipeTableComponent', () => {
   let fixture: ComponentFixture<RecipeTableComponent>;
@@ -11,14 +16,11 @@ describe('RecipeTableComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [
-        BrowserAnimationsModule,
-        HttpClientTestingModule,
-        MaterialModule,
-        RouterTestingModule
-      ],
-      declarations: [
-        RecipeTableComponent
+      declarations: [RecipeTableComponent],
+      imports: [BrowserAnimationsModule, MaterialModule, RouterTestingModule],
+      providers: [
+        provideHttpClient(withXhr(), withInterceptorsFromDi()),
+        provideHttpClientTesting(),
       ],
     }).compileComponents();
 

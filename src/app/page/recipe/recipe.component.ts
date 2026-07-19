@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { REGEX_TO_HIGHLIGHT } from 'src/app/constants/constants';
 import { getDecimal } from 'src/app/models/decimal.enum';
@@ -10,34 +10,36 @@ import { RecipeModel } from '../../models/recipe.model';
 @Component({
   selector: 'app-recipe',
   templateUrl: './recipe.component.html',
-  styleUrls: ['./recipe.component.scss']
+  styleUrls: ['./recipe.component.scss'],
+  changeDetection: ChangeDetectionStrategy.Eager,
+  standalone: false,
 })
 export class RecipeComponent {
   @Input() recipe: Recipe = new RecipeModel();
   showLiquid: boolean = false;
   showDry: boolean = false;
-  batchControl: FormControl = new FormControl(1, [Validators.min(1), Validators.pattern("^[1-9][0-9]*$")]);
+  batchControl: FormControl = new FormControl(1, [
+    Validators.min(1),
+    Validators.pattern('^[1-9][0-9]*$'),
+  ]);
   decimalControl: FormControl = new FormControl(false);
 
-  constructor(
-    private service: RecipeService
-  ) {
-  }
+  constructor(private service: RecipeService) {}
 
   timesBatch(value: any): string {
     const newValue: string = value == undefined ? '0' : value.toString();
-    const total = this.batchControl.value * +newValue
+    const total = this.batchControl.value * +newValue;
 
-    return total == 0 ? '' : total.toString()
+    return total == 0 ? '' : total.toString();
   }
 
   halfIngredients(firstHalf: boolean = true): Ingredient[] {
     const half = Math.ceil(this.recipe.ingredients.length / 2);
 
     if (firstHalf) {
-      return this.recipe.ingredients.slice(0, half)
+      return this.recipe.ingredients.slice(0, half);
     } else {
-      return this.recipe.ingredients.slice(half)
+      return this.recipe.ingredients.slice(half);
     }
   }
 
@@ -75,25 +77,25 @@ export class RecipeComponent {
 
   getIngredientDisplay(ingredient: Ingredient): string {
     let display = '';
-    const newAmount = this.timesBatch(ingredient.amount)
+    const newAmount = this.timesBatch(ingredient.amount);
     if (newAmount.length > 0) {
       const decimalValue = +newAmount % 1;
 
       if (decimalValue > 0) {
         const fraction = getDecimal(decimalValue);
-        display = `${newAmount.substring(0, newAmount.indexOf('.'))} ${fraction}`
+        display = `${newAmount.substring(0, newAmount.indexOf('.'))} ${fraction}`;
       } else {
-        display = newAmount
+        display = newAmount;
       }
     } else {
       display = newAmount;
     }
-    
+
     return display;
   }
 
   getIngredientDisplayOld(ingredient: Ingredient): string {
-    return `${this.timesBatch(ingredient.amount)} ${ingredient.name}`
+    return `${this.timesBatch(ingredient.amount)} ${ingredient.name}`;
   }
 
   hasFraction(value: string): boolean {
@@ -109,7 +111,7 @@ export class RecipeComponent {
     let value = '';
     // this uses the old decimal display of ingredient because that's what the regex was made to handle.... don't feel like updating
     let display: string = this.getIngredientDisplayOld(ingredient);
-    REGEX_TO_HIGHLIGHT.forEach(regex => {
+    REGEX_TO_HIGHLIGHT.forEach((regex) => {
       if (display.search(regex) > -1) {
         value = matchValue;
       }

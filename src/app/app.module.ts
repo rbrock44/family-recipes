@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { HttpClientModule } from '@angular/common/http';
+import {
+  provideHttpClient,
+  withInterceptorsFromDi,
+  withXhr,
+} from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
@@ -26,17 +30,16 @@ import { MainComponent } from './page/main/main.component';
     LiquidConversionComponent,
     MainComponent,
     RecipeComponent,
-    RecipeTableComponent
+    RecipeTableComponent,
   ],
+  bootstrap: [AppComponent],
   imports: [
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
-    HttpClientModule,
     ReactiveFormsModule,
-    MaterialModule
+    MaterialModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [provideHttpClient(withXhr(), withInterceptorsFromDi())],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,10 +1,18 @@
-import {ComponentFixture, TestBed} from '@angular/core/testing';
-import {RouterTestingModule} from '@angular/router/testing';
-import {HomeComponent} from './home.component';
-import {expectElementPresent, expectElementToContainContent} from '../../constants/expectations.spec';
-import {MaterialModule} from '../../material.module';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { RouterTestingModule } from '@angular/router/testing';
+import { HomeComponent } from './home.component';
+import {
+  expectElementPresent,
+  expectElementToContainContent,
+} from '../../constants/expectations.spec';
+import { MaterialModule } from '../../material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
+import {
+  provideHttpClient,
+  withInterceptorsFromDi,
+  withXhr,
+} from '@angular/common/http';
 
 describe('HomeComponent', () => {
   let fixture: ComponentFixture<HomeComponent>;
@@ -12,14 +20,11 @@ describe('HomeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [
-        BrowserAnimationsModule,
-        HttpClientTestingModule,
-        MaterialModule,
-        RouterTestingModule
-      ],
-      declarations: [
-        HomeComponent
+      declarations: [HomeComponent],
+      imports: [BrowserAnimationsModule, MaterialModule, RouterTestingModule],
+      providers: [
+        provideHttpClient(withXhr(), withInterceptorsFromDi()),
+        provideHttpClientTesting(),
       ],
     }).compileComponents();
 

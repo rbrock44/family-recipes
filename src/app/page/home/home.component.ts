@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { MatTableDataSource } from '@angular/material/table';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
@@ -11,7 +11,9 @@ import { Location } from '@angular/common';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
+  changeDetection: ChangeDetectionStrategy.Eager,
+  standalone: false,
 })
 export class HomeComponent implements OnInit {
   title = 'family-recipes';
@@ -29,24 +31,23 @@ export class HomeComponent implements OnInit {
     public service: RecipeService,
     private route: ActivatedRoute,
     private location: Location,
-  ) { }
+  ) {}
 
   ngOnInit(): void {
     // document.querySelectorAll('[type=search]').forEach((element) => {
     //   this.blurKeyboard(element);
     // });
-    this.searchControl.valueChanges.pipe(
-      debounceTime(300)
-    ).subscribe(value => {
-      this.search(value);
-    });
+    this.searchControl.valueChanges
+      .pipe(debounceTime(300))
+      .subscribe((value) => {
+        this.search(value);
+      });
 
-    this.familyControl.valueChanges.pipe(
-      debounceTime(100),
-      distinctUntilChanged()
-    ).subscribe(() => {
-      this.search();
-    });
+    this.familyControl.valueChanges
+      .pipe(debounceTime(100), distinctUntilChanged())
+      .subscribe(() => {
+        this.search();
+      });
 
     this.loadFavorites();
 
@@ -57,7 +58,7 @@ export class HomeComponent implements OnInit {
 
         const queryParams = new URLSearchParams(window.location.search);
         const searchParam = queryParams.get('search');
-        const hasSearch = `${window.location.search}`.indexOf('search=') >= 0
+        const hasSearch = `${window.location.search}`.indexOf('search=') >= 0;
         const categoryParam = queryParams.get('category');
         const familyParam = queryParams.get('hooperFamily');
         const recipeParam = queryParams.get('recipe');
@@ -76,13 +77,14 @@ export class HomeComponent implements OnInit {
 
         if (hasSearch || categoryParam || familyParam) {
           this.search(this.searchControl.value);
-          this.service.searchList = this.dataSource.data.map(item => item.filename);
+          this.service.searchList = this.dataSource.data.map(
+            (item) => item.filename,
+          );
         }
 
         if (recipeParam) {
           this.service.readRecipe(recipeParam);
         }
-
       }
     }, 250); // check every 0.25 seconds
   }
@@ -93,16 +95,22 @@ export class HomeComponent implements OnInit {
         element.blur();
       }
     });
-  };
+  }
 
   search(value: string = this.searchControl.value): void {
     this.dataSource.data = this.service.search(
       value,
       this.categoryControl.value,
-      this.familyControl.value
+      this.familyControl.value,
     );
 
-    this.location.replaceState(this.buildUrl(value, this.categoryControl.value, this.familyControl.value));
+    this.location.replaceState(
+      this.buildUrl(
+        value,
+        this.categoryControl.value,
+        this.familyControl.value,
+      ),
+    );
   }
 
   getCategory(categoryNumber: number): string {
@@ -110,16 +118,21 @@ export class HomeComponent implements OnInit {
   }
 
   loadFavorites(): void {
-    this.service.readFavorites().forEach(filename => {
-      this.service.firstValueFrom(filename).then(contents => {
-        let recipe = this.service.convertRecipe(contents)
+    this.service.readFavorites().forEach((filename) => {
+      this.service.firstValueFrom(filename).then((contents) => {
+        let recipe = this.service.convertRecipe(contents);
         recipe.filename = filename;
-        this.favoritesDataSource.data = this.favoritesDataSource.data.concat(recipe)
+        this.favoritesDataSource.data =
+          this.favoritesDataSource.data.concat(recipe);
       });
     });
   }
 
-  private buildUrl(search: string, category: number, hooperFamily: boolean): string {
+  private buildUrl(
+    search: string,
+    category: number,
+    hooperFamily: boolean,
+  ): string {
     const queryParams = new URLSearchParams();
     queryParams.set('search', search);
 

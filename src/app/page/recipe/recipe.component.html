@@ -1,78 +1,130 @@
 <app-header></app-header>
 <section class="page-shell recipe-page">
-    <header class="surface-card recipe-hero">
-        <div>
-            <h1>{{recipe.name}}</h1>
-            <h2>{{recipe.author}}</h2>
-        </div>
-        <button mat-icon-button color="warn" *ngIf="isFavorite()" (click)="unfavorite()" aria-label="Remove favorite">
-            <mat-icon>favorite</mat-icon>
-        </button>
-        <button mat-icon-button *ngIf="!isFavorite()" (click)="favorite()" aria-label="Add favorite">
-            <mat-icon>favorite_border</mat-icon>
-        </button>
-    </header>
-
-    <section class="surface-card meta-card">
-        <mat-form-field appearance="outline" class="batch">
-            <mat-label>Batches</mat-label>
-            <input [formControl]="batchControl" data-search-input matInput type="number">
-        </mat-form-field>
-
-        <p class="serves" *ngIf="recipe.yield.amount > 0">
-            Serves: {{timesBatch(recipe.yield.amount)}} {{recipe.yield.name}}
-        </p>
-    </section>
-
-    <section class="surface-card ingredients-card">
-        <h3>Ingredients</h3>
-        <div class="ingredients-cont">
-            <div class="ingredients-column">
-                <span *ngFor="let ing of halfIngredients()">
-                    <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">
-                        <span *ngIf="!hasFraction(getIngredientDisplay(ing))">{{getIngredientDisplay(ing)}} {{ing.name}}</span>
-                        <app-fraction *ngIf="hasFraction(getIngredientDisplay(ing))"
-                            before="{{getIngredientDisplay(ing).split(' ')[0]}}" after="{{ing.name}}"
-                            fraction="{{getIngredientDisplay(ing).split(' ')[1]}}"></app-fraction>
-                    </p>
-                </span>
-            </div>
-            <div class="ingredients-column">
-                <span *ngFor="let ing of halfIngredients(false)">
-                    <p class="ingredient" title="{{getTitle(ing)}}" [ngClass]="shouldUnderline(ing)">
-                        <span *ngIf="!hasFraction(getIngredientDisplay(ing))">{{getIngredientDisplay(ing)}} {{ing.name}}</span>
-                        <app-fraction *ngIf="hasFraction(getIngredientDisplay(ing))"
-                            before="{{getIngredientDisplay(ing).split(' ')[0]}}" after="{{ing.name}}"
-                            fraction="{{getIngredientDisplay(ing).split(' ')[1]}}"></app-fraction>
-                    </p>
-                </span>
-            </div>
-        </div>
-    </section>
-
-    <section class="surface-card instructions-card">
-        <h3>Instructions</h3>
-        <p class="instructions">{{recipe.instructions}}</p>
-    </section>
-
-    <section class="conversion-block" *ngIf="showLiquid">
-        <div class="conversion-title-row">
-            <h3>Liquid Conversions</h3>
-            <button mat-stroked-button color="primary" (click)="close()">Close</button>
-        </div>
-        <app-liquid-conversion></app-liquid-conversion>
-    </section>
-
-    <section class="conversion-block" *ngIf="showDry">
-        <div class="conversion-title-row">
-            <h3>Dry Conversions</h3>
-            <button mat-stroked-button color="primary" (click)="close(false)">Close</button>
-        </div>
-        <app-dry-conversion></app-dry-conversion>
-    </section>
-
-    <div class="conversion-actions">
-        <button mat-flat-button color="primary" *ngIf="!showLiquid" (click)="open()">Liquid</button>
-        <button mat-flat-button color="accent" *ngIf="!showDry" (click)="open(false)">Dry</button>
+  <header class="surface-card recipe-hero">
+    <div>
+      <h1>{{ recipe.name }}</h1>
+      <h2>{{ recipe.author }}</h2>
     </div>
+    @if (isFavorite()) {
+      <button
+        mat-icon-button
+        color="warn"
+        (click)="unfavorite()"
+        aria-label="Remove favorite"
+      >
+        <mat-icon>favorite</mat-icon>
+      </button>
+    }
+    @if (!isFavorite()) {
+      <button mat-icon-button (click)="favorite()" aria-label="Add favorite">
+        <mat-icon>favorite_border</mat-icon>
+      </button>
+    }
+  </header>
+
+  <section class="surface-card meta-card">
+    <mat-form-field appearance="outline" class="batch">
+      <mat-label>Batches</mat-label>
+      <input
+        [formControl]="batchControl"
+        data-search-input
+        matInput
+        type="number"
+      />
+    </mat-form-field>
+
+    @if (recipe.yield.amount > 0) {
+      <p class="serves">
+        Serves: {{ timesBatch(recipe.yield.amount) }} {{ recipe.yield.name }}
+      </p>
+    }
+  </section>
+
+  <section class="surface-card ingredients-card">
+    <h3>Ingredients</h3>
+    <div class="ingredients-cont">
+      <div class="ingredients-column">
+        @for (ing of halfIngredients(); track ing) {
+          <span>
+            <p
+              class="ingredient"
+              title="{{ getTitle(ing) }}"
+              [ngClass]="shouldUnderline(ing)"
+            >
+              @if (!hasFraction(getIngredientDisplay(ing))) {
+                <span>{{ getIngredientDisplay(ing) }} {{ ing.name }}</span>
+              }
+              @if (hasFraction(getIngredientDisplay(ing))) {
+                <app-fraction
+                  before="{{ getIngredientDisplay(ing).split(' ')[0] }}"
+                  after="{{ ing.name }}"
+                  fraction="{{ getIngredientDisplay(ing).split(' ')[1] }}"
+                ></app-fraction>
+              }
+            </p>
+          </span>
+        }
+      </div>
+      <div class="ingredients-column">
+        @for (ing of halfIngredients(false); track ing) {
+          <span>
+            <p
+              class="ingredient"
+              title="{{ getTitle(ing) }}"
+              [ngClass]="shouldUnderline(ing)"
+            >
+              @if (!hasFraction(getIngredientDisplay(ing))) {
+                <span>{{ getIngredientDisplay(ing) }} {{ ing.name }}</span>
+              }
+              @if (hasFraction(getIngredientDisplay(ing))) {
+                <app-fraction
+                  before="{{ getIngredientDisplay(ing).split(' ')[0] }}"
+                  after="{{ ing.name }}"
+                  fraction="{{ getIngredientDisplay(ing).split(' ')[1] }}"
+                ></app-fraction>
+              }
+            </p>
+          </span>
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-card instructions-card">
+    <h3>Instructions</h3>
+    <p class="instructions">{{ recipe.instructions }}</p>
+  </section>
+
+  @if (showLiquid) {
+    <section class="conversion-block">
+      <div class="conversion-title-row">
+        <h3>Liquid Conversions</h3>
+        <button mat-stroked-button color="primary" (click)="close()">
+          Close
+        </button>
+      </div>
+      <app-liquid-conversion></app-liquid-conversion>
+    </section>
+  }
+
+  @if (showDry) {
+    <section class="conversion-block">
+      <div class="conversion-title-row">
+        <h3>Dry Conversions</h3>
+        <button mat-stroked-button color="primary" (click)="close(false)">
+          Close
+        </button>
+      </div>
+      <app-dry-conversion></app-dry-conversion>
+    </section>
+  }
+
+  <div class="conversion-actions">
+    @if (!showLiquid) {
+      <button mat-flat-button color="primary" (click)="open()">Liquid</button>
+    }
+    @if (!showDry) {
+      <button mat-flat-button color="accent" (click)="open(false)">Dry</button>
+    }
+  </div>
 </section>

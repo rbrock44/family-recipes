@@ -1,14 +1,23 @@
 // Custom purple Material theme for Family Recipes, replacing the default indigo-pink theme
 // so Material components (buttons, form fields, checkboxes, etc.) match the site's brand colors.
-@import '~@angular/material/theming';
+//
+// NOTE: Angular Material's legacy (M2) Sass theming API used here (`m2-define-palette`,
+// `m2-define-light-theme`, etc.) was carried over mechanically from the pre-v15 API
+// (`mat-palette`, `mat-light-theme`) during the Angular 14->22 upgrade, to keep the same
+// purple color scheme building without a redesign. Angular Material now defaults new apps
+// to the M3 theming system (`mat.theme(...)`), which looks visually different (different
+// color algorithm, typography, shape tokens). This file was NOT migrated to M3 - that would
+// be a visual/design change beyond a mechanical upgrade fix. Recommend a design review before
+// deciding whether to move to M3.
+@use '@angular/material' as mat;
 
-@include mat-core();
+@include mat.core();
 
-$family-recipes-primary: mat-palette($mat-deep-purple);
-$family-recipes-accent: mat-palette($mat-purple, 400, 200, 700);
-$family-recipes-warn: mat-palette($mat-red);
+$family-recipes-primary: mat.m2-define-palette(mat.$m2-deep-purple-palette);
+$family-recipes-accent: mat.m2-define-palette(mat.$m2-purple-palette, 400, 200, 700);
+$family-recipes-warn: mat.m2-define-palette(mat.$m2-red-palette);
 
-$family-recipes-theme: mat-light-theme((
+$family-recipes-theme: mat.m2-define-light-theme((
   color: (
     primary: $family-recipes-primary,
     accent: $family-recipes-accent,
@@ -16,4 +25,4 @@ $family-recipes-theme: mat-light-theme((
   )
 ));
 
-@include angular-material-theme($family-recipes-theme);
+@include mat.all-component-themes($family-recipes-theme);

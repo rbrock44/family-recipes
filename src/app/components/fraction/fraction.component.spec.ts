@@ -1,8 +1,13 @@
-import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FractionComponent } from './fraction.component';
+import {
+  provideHttpClient,
+  withInterceptorsFromDi,
+  withXhr,
+} from '@angular/common/http';
 
 describe('FractionComponent', () => {
   let fixture: ComponentFixture<FractionComponent>;
@@ -10,13 +15,11 @@ describe('FractionComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [
-        BrowserAnimationsModule,
-        HttpClientTestingModule,
-        RouterTestingModule
-      ],
-      declarations: [
-        FractionComponent
+      declarations: [FractionComponent],
+      imports: [BrowserAnimationsModule, RouterTestingModule],
+      providers: [
+        provideHttpClient(withXhr(), withInterceptorsFromDi()),
+        provideHttpClientTesting(),
       ],
     }).compileComponents();
 

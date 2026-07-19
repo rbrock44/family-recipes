@@ -1,4 +1,10 @@
-import { Component, Input, OnInit, ViewChild } from '@angular/core';
+import {
+  Component,
+  Input,
+  OnInit,
+  ViewChild,
+  ChangeDetectionStrategy,
+} from '@angular/core';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { getCategory } from 'src/app/models/category.enum';
@@ -9,7 +15,9 @@ import { Location } from '@angular/common';
 @Component({
   selector: 'app-recipe-table',
   templateUrl: './recipe-table.component.html',
-  styleUrls: ['./recipe-table.component.scss']
+  styleUrls: ['./recipe-table.component.scss'],
+  changeDetection: ChangeDetectionStrategy.Eager,
+  standalone: false,
 })
 export class RecipeTableComponent implements OnInit {
   @Input() dataSource = new MatTableDataSource<Recipe>();
@@ -21,12 +29,12 @@ export class RecipeTableComponent implements OnInit {
 
   constructor(
     private location: Location,
-    private service: RecipeService
-  ) { }
+    private service: RecipeService,
+  ) {}
 
   ngOnInit(): void {
     if (this.removeColumns) {
-      this.displayColumns = ['name', 'author']
+      this.displayColumns = ['name', 'author'];
     }
 
     this.dataSource.sort = this.sort;
@@ -35,7 +43,7 @@ export class RecipeTableComponent implements OnInit {
   click(recipe: Recipe): void {
     this.service.useFavoritesList = this.removeColumns;
     var filename = recipe.filename != null ? recipe.filename.toString() : '001';
-    this.service.searchList = this.dataSource.data.map(item => item.filename);
+    this.service.searchList = this.dataSource.data.map((item) => item.filename);
     this.service.readRecipe(filename);
 
     this.location.replaceState(this.buildUrl(filename));
