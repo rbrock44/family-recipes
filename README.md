@@ -16,6 +16,10 @@
   - [Results](#results)
   - [Recipe Page](#recipe-page)
   - [Favorites](#favorites)
+- [Import Recipes From Images](#-import-recipes-from-images)
+  - [Setup](#setup)
+  - [Run](#run)
+  - [Images Repo and Link Field](#images-repo-and-link-field)
 - [Technologies](#-technologies)
 - [Getting Started (Local Setup)](#-getting-started-local-setup)
   - [Run Locally](#run-locally)
@@ -33,11 +37,13 @@ This wesbite was created for my grandma (and family) to hold our family recipes.
 <br/><br/>
 To add a recipe use [Add Recipe](https://github.com/rbrock44/add-recipe)
 
+To bulk-import recipes from photos, see [Import Recipes From Images](#-import-recipes-from-images) below.
+
 ---
 
 ## 🚦 How to Use
 
-### Seach
+### Search
 
 ![Search](/pics/basic-search.png)
 
@@ -74,6 +80,57 @@ The recipe page shows the title, author, ingredients and instructions for the re
 ![Favorites](/pics/favorites.png)
 
 The favorites table contain all recipes that have been hearted. Can be sorted by any column
+
+---
+
+## 📸 Import Recipes From Images
+
+`scripts/recipesFromImages.js` scans a folder of recipe photos, cleans up each
+image (auto-rotates via EXIF, trims borders, boosts contrast, downscales), reads
+the recipe out of it with Claude vision, writes each result as a new numbered
+file in `src/assets/recipes/`, and bumps `recipeTotal` in
+`recipe-reader.service.ts` so the new recipes load.
+
+### Setup
+
+```
+npm install                      # installs @anthropic-ai/sdk and sharp
+export ANTHROPIC_API_KEY=sk-...  # PowerShell: $env:ANTHROPIC_API_KEY="sk-..."
+```
+
+### Run
+
+```
+npm run recipes:from-images -- --folder ./photos --author "Ryan Brock"
+```
+
+Every recipe is credited to the `--author`. If a photo has its own attribution
+printed on it (a website, cookbook, or original author), that source is kept and
+the author is appended, e.g. `www.recipe.com - Ryan Brock`. When no source is on
+the page, the author is just `Ryan Brock`.
+
+### Images Repo and Link Field
+
+Each recipe gets a `link` field pointing at its photo in the
+[`family-recipes-images`](https://github.com/rbrock44/family-recipes-images) repo
+via raw GitHub, keyed by recipe number so `0925.json` lines up with `0925.jpg`:
+
+```
+https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/0925.jpg
+```
+
+The trimmed photos are staged in a `processed/` folder next to the source
+images, already renamed to their recipe number (`0925.jpg`, `0926.jpg`, …).
+Drop those into the images repo and the links resolve. Override the target with
+`--image-owner`, `--image-repo`, `--image-branch`, and `--image-subpath`.
+
+Optional fields are written only when they have a value. `link` (the staged
+photo) is always set. `url` is added only when the photo is a printout from
+another website and that original web address is on the page. Instruction line
+breaks are preserved as written (`\n` between steps, `\n\n` between sections).
+
+Useful flags: `--dry-run` (parse and print, write nothing), `--effort` (`low`…`max`),
+`--no-preprocess` (send raw images), `--help`.
 
 ---
 
