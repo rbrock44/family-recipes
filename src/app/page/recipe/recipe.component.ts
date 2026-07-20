@@ -93,8 +93,8 @@ export class RecipeComponent {
   }
 
   private batches(): number {
-    // the input is free text, so an empty or half-typed value falls back to 1
-    return +this.batchControl.value || 1;
+    // the input is free text, so an empty, half-typed, or below-1 value falls back to 1
+    return Math.max(+this.batchControl.value || 1, 1);
   }
 
   private regexMatch(ingredient: Ingredient, matchValue: string): string {
