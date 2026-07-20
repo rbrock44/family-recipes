@@ -1,7 +1,7 @@
 import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { REGEX_TO_HIGHLIGHT } from 'src/app/constants/constants';
-import { getDecimal } from 'src/app/models/decimal.enum';
+import { formatAmount, trimFloat } from 'src/app/models/decimal.enum';
 import { Ingredient } from 'src/app/models/ingredient.interface';
 import { RecipeService } from 'src/app/services/recipe.service';
 import { Recipe } from '../../models/recipe.interface';
@@ -28,9 +28,9 @@ export class RecipeComponent {
 
   timesBatch(value: any): string {
     const newValue: string = value == undefined ? '0' : value.toString();
-    const total = this.batchControl.value * +newValue;
+    const total = this.batches() * +newValue;
 
-    return total == 0 ? '' : total.toString();
+    return total == 0 ? '' : trimFloat(total);
   }
 
   halfIngredients(firstHalf: boolean = true): Ingredient[] {
@@ -76,22 +76,7 @@ export class RecipeComponent {
   }
 
   getIngredientDisplay(ingredient: Ingredient): string {
-    let display = '';
-    const newAmount = this.timesBatch(ingredient.amount);
-    if (newAmount.length > 0) {
-      const decimalValue = +newAmount % 1;
-
-      if (decimalValue > 0) {
-        const fraction = getDecimal(decimalValue);
-        display = `${newAmount.substring(0, newAmount.indexOf('.'))} ${fraction}`;
-      } else {
-        display = newAmount;
-      }
-    } else {
-      display = newAmount;
-    }
-
-    return display;
+    return formatAmount(ingredient.amount, this.batches());
   }
 
   getIngredientDisplayOld(ingredient: Ingredient): string {
@@ -105,6 +90,11 @@ export class RecipeComponent {
 
   getTitle(ingredient: Ingredient): string {
     return this.regexMatch(ingredient, 'Possible conversion detected');
+  }
+
+  private batches(): number {
+    // the input is free text, so an empty or half-typed value falls back to 1
+    return +this.batchControl.value || 1;
   }
 
   private regexMatch(ingredient: Ingredient, matchValue: string): string {
