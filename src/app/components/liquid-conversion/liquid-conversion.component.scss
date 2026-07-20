@@ -1,38 +1,91 @@
-.conversion-card {
-  border-radius: var(--radius-md);
-  background: linear-gradient(150deg, #faf6ff 0%, #eee3ff 100%);
-  border: 1px solid rgba(47, 91, 211, 0.12);
-  box-shadow: var(--shadow-soft);
-  padding: 0.5rem;
-}
-
-.results-box {
-  width: min(520px, 100%);
+/* No card or wrapper here: the parent .conversion-block already supplies the
+   purple panel, border and shadow. This component draws only the table, so the
+   two don't nest into a box-inside-a-box. */
+:host {
+  display: block;
 }
 
 mat-table {
+  /* Hug the columns instead of stretching to the panel width. */
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+  background: transparent;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.mat-mdc-header-row,
+.mat-mdc-row {
   width: 100%;
-  min-width: 260px;
-  background: linear-gradient(145deg, #f8f2ff 0%, #ede0ff 100%);
+  min-height: 0;
 }
 
-.mat-header-row {
-  min-height: 48px;
-  background: #f3f7ff;
+.mat-mdc-header-row {
+  height: 32px;
+  background: var(--table-header-strong);
 }
 
-.mat-row {
-  min-height: 46px;
+/* Opaque, clearly lighter than the panel behind it. These were transparent so
+   the panel gradient could read through, but against the darker panel that
+   left the table with no edge of its own. */
+.mat-mdc-row {
+  height: 28px;
+  background: #fff;
 }
 
-.mat-header-cell {
+.mat-mdc-row:nth-of-type(even) {
+  background: var(--table-stripe);
+}
+
+.mat-mdc-header-cell,
+.mat-mdc-cell {
+  /* flex: 0 0 auto instead of Material's flex: 1 — cells size to their content
+     so the table can hug it rather than spreading across the panel. */
+  flex: 0 0 auto;
+  justify-content: center;
+  min-width: 4.5rem;
+  padding: 0 0.5rem;
+  font-size: 0.85rem;
+  /* Equal-width digits so amounts line up as vertical columns and the table
+     can be scanned down a unit rather than read cell by cell. */
+  font-variant-numeric: tabular-nums;
+}
+
+.mat-mdc-header-cell {
   color: var(--brand-900);
   font-weight: 700;
 }
 
+.mat-mdc-cell {
+  color: var(--ink);
+}
+
+/* Desktop gets room to breathe. The base values are the compact phone layout,
+   so this is min-width and small screens keep what they have. */
+@media screen and (min-width: 900px) {
+  .mat-mdc-header-row {
+    height: 48px;
+  }
+
+  .mat-mdc-row {
+    height: 44px;
+  }
+
+  .mat-mdc-header-cell,
+  .mat-mdc-cell {
+    min-width: 7rem;
+    padding: 0 1.1rem;
+    font-size: 1rem;
+  }
+}
+
 /* Responsive Styles */
-@media screen and (max-width: 767px) {
-  .results-box {
-    width: 100%;
+@media screen and (max-width: 550px) {
+  .mat-mdc-header-cell,
+  .mat-mdc-cell {
+    min-width: 3.6rem;
+    padding: 0 0.3rem;
+    font-size: 0.78rem;
   }
 }

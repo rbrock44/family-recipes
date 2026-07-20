@@ -1,29 +1,44 @@
-<div class="conversion-card">
-  <div class="results-box">
-    <mat-table [dataSource]="this.dataSource" class="mat-elevation-z2">
-      <ng-container matColumnDef="gallons">
-        <mat-header-cell *matHeaderCellDef>gallons</mat-header-cell>
-        <mat-cell *matCellDef="let element"> {{element.gallons}} </mat-cell>
-      </ng-container>
+<mat-table [dataSource]="this.dataSource">
+  <ng-container matColumnDef="gallons">
+    <mat-header-cell *matHeaderCellDef>gallons</mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <app-fraction
+        [before]="this.whole(element.gallons)"
+        [fraction]="this.fraction(element.gallons)"
+      ></app-fraction>
+    </mat-cell>
+  </ng-container>
 
-      <ng-container matColumnDef="quarts">
-        <mat-header-cell *matHeaderCellDef>quarts</mat-header-cell>
-        <mat-cell *matCellDef="let element"> {{element.quarts}} </mat-cell>
-      </ng-container>
+  <ng-container matColumnDef="quarts">
+    <mat-header-cell *matHeaderCellDef>quarts</mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <app-fraction
+        [before]="this.whole(element.quarts)"
+        [fraction]="this.fraction(element.quarts)"
+      ></app-fraction>
+    </mat-cell>
+  </ng-container>
 
-      <ng-container matColumnDef="pints">
-        <mat-header-cell *matHeaderCellDef>pints</mat-header-cell>
-        <mat-cell *matCellDef="let element"> {{element.pints}} </mat-cell>
-      </ng-container>
+  <ng-container matColumnDef="pints">
+    <mat-header-cell *matHeaderCellDef>pints</mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <app-fraction
+        [before]="this.whole(element.pints)"
+        [fraction]="this.fraction(element.pints)"
+      ></app-fraction>
+    </mat-cell>
+  </ng-container>
 
-      <ng-container matColumnDef="cups">
-        <mat-header-cell *matHeaderCellDef>cups</mat-header-cell>
-        <mat-cell *matCellDef="let element"> {{element.cups}} </mat-cell>
-      </ng-container>
+  <ng-container matColumnDef="cups">
+    <mat-header-cell *matHeaderCellDef>cups</mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <app-fraction
+        [before]="this.whole(element.cups)"
+        [fraction]="this.fraction(element.cups)"
+      ></app-fraction>
+    </mat-cell>
+  </ng-container>
 
-
-      <mat-header-row *matHeaderRowDef="this.displayColumns"></mat-header-row>
-      <mat-row *matRowDef="let row; columns: this.displayColumns;"></mat-row>
-    </mat-table>
-  </div>
-</div>
+  <mat-header-row *matHeaderRowDef="this.displayColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: this.displayColumns;"></mat-row>
+</mat-table>

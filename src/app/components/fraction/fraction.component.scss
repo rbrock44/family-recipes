@@ -1,4 +1,26 @@
 .fraction {
   display: inline-block;
   vertical-align: middle;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* sup/sub default to line-height: normal and stretch the line box from both
+   ends, which makes any row containing a fraction noticeably taller than its
+   neighbours. Zeroing their line-height and offsetting them manually keeps
+   the fraction inside the surrounding text's line box. */
+.fraction sup,
+.fraction sub {
+  font-size: 0.68em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.fraction sup {
+  top: -0.32em;
+}
+
+.fraction sub {
+  bottom: -0.18em;
 }

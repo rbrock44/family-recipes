@@ -5,8 +5,17 @@
   --brand-600: #5d35aa;
   --brand-900: #2f1d59;
   --surface-gradient-soft: linear-gradient(155deg, rgba(223, 202, 255, 0.96) 0%, rgba(203, 174, 255, 0.93) 100%);
+  /* Sits between the page background and --surface-gradient-soft: darker than a
+     plain tint, but still reads as secondary to the main surface cards. */
+  --surface-gradient-mid: linear-gradient(150deg, #e5d4ff 0%, #d3bbff 100%);
   --ink: #261a40;
   --ink-muted: #5f4b86;
+  --table-header: #e9dffa;
+  /* For tables sitting on --surface-gradient-mid, where --table-header is too
+     close to the panel to separate from it. */
+  --table-header-strong: #c9b1f0;
+  --table-stripe: #f6f1fd;
+  --table-hover: #ded0f6;
   --radius-lg: 22px;
   --radius-md: 14px;
   --shadow-soft: 0 18px 38px -26px rgba(12, 27, 77, 0.45);

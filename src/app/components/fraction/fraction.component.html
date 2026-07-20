@@ -1,7 +1,9 @@
 {{removeZero(before)}}
-<span class="fraction">
-  <sup>{{numerator(fraction)}}</sup>
-  <span>/</span>
-  <sub>{{denominator(fraction)}}</sub>
-</span>
+@if (denominator(fraction)) {
+  <span class="fraction">
+    <sup>{{numerator(fraction)}}</sup>
+    <span>/</span>
+    <sub>{{denominator(fraction)}}</sub>
+  </span>
+}
 {{after}}

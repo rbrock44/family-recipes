@@ -2,6 +2,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { LIQUID_CONVERSIONS } from 'src/app/constants/constants';
 import { LiquidConversion } from 'src/app/models/liquid-conversion.model';
+import { fractionPart, wholePart } from 'src/app/utils/measure.util';
 
 @Component({
   selector: 'app-liquid-conversion',
@@ -12,5 +13,8 @@ import { LiquidConversion } from 'src/app/models/liquid-conversion.model';
 })
 export class LiquidConversionComponent {
   dataSource = new MatTableDataSource<LiquidConversion>(LIQUID_CONVERSIONS);
-  displayColumns: string[] = ['gallons', 'cups', 'quarts', 'pints'];
+  displayColumns: string[] = ['gallons', 'quarts', 'pints', 'cups'];
+
+  whole = wholePart;
+  fraction = fractionPart;
 }

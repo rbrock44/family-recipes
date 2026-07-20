@@ -4,23 +4,26 @@ import { LiquidConversion } from "../models/liquid-conversion.model";
 import { Recipe } from "../models/recipe.interface";
 import { RecipeModel } from "../models/recipe.model";
 
+// Values are exact ratios, not rounded decimals: the tables render them as
+// mixed fractions, so 2/3 cup has to stay 2/3 (10 2/3 tbsp) rather than .66.
 export const DRY_CONVERSIONS = [
   new DryConversion(1, 16, 48, 128),
-  new DryConversion(.75, 12, 36, 96),
-  new DryConversion(.66, 10, 32, 85),
-  new DryConversion(.5, 8, 24, 64),
-  new DryConversion(.33, 5, 16, 43),
-  new DryConversion(.25, 4, 12, 32),
-  new DryConversion(.125, 2, 6, 16),
-  new DryConversion(.0625, 1, 3, 8),
+  new DryConversion(3 / 4, 12, 36, 96),
+  new DryConversion(2 / 3, 32 / 3, 32, 85),
+  new DryConversion(1 / 2, 8, 24, 64),
+  new DryConversion(1 / 3, 16 / 3, 16, 43),
+  new DryConversion(1 / 4, 4, 12, 32),
+  new DryConversion(1 / 8, 2, 6, 16),
+  new DryConversion(1 / 16, 1, 3, 8),
 ];
 
+// Argument order matches the column order: gallons, quarts, pints, cups.
 export const LIQUID_CONVERSIONS = [
   new LiquidConversion(1, 4, 8, 16),
-  new LiquidConversion(.5, 2, 4, 8),
-  new LiquidConversion(.25, 1, 2, 4),
-  new LiquidConversion(.125, .5, 1, 2),
-  new LiquidConversion(.0625, .25, .5, 1),
+  new LiquidConversion(1 / 2, 2, 4, 8),
+  new LiquidConversion(1 / 4, 1, 2, 4),
+  new LiquidConversion(1 / 8, 1 / 2, 1, 2),
+  new LiquidConversion(1 / 16, 1 / 4, 1 / 2, 1),
 ];
 
 export const HOOPER_FAMILY: string[] = [

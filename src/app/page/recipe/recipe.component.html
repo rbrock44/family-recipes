@@ -99,8 +99,13 @@
     <section class="conversion-block">
       <div class="conversion-title-row">
         <h3>Liquid Conversions</h3>
-        <button mat-stroked-button color="primary" (click)="close()">
-          Close
+        <button
+          mat-icon-button
+          color="primary"
+          (click)="close()"
+          aria-label="Close liquid conversions"
+        >
+          <mat-icon>close</mat-icon>
         </button>
       </div>
       <app-liquid-conversion></app-liquid-conversion>
@@ -111,8 +116,13 @@
     <section class="conversion-block">
       <div class="conversion-title-row">
         <h3>Dry Conversions</h3>
-        <button mat-stroked-button color="primary" (click)="close(false)">
-          Close
+        <button
+          mat-icon-button
+          color="primary"
+          (click)="close(false)"
+          aria-label="Close dry conversions"
+        >
+          <mat-icon>close</mat-icon>
         </button>
       </div>
       <app-dry-conversion></app-dry-conversion>
