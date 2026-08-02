@@ -1,0 +1,57 @@
+{
+  "name": "Strawberry Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "box white cake mix"
+    },
+    {
+      "amount": 4,
+      "name": "eggs"
+    },
+    {
+      "amount": 5,
+      "name": "tbsp. flour"
+    },
+    {
+      "amount": 1,
+      "name": "pkg. strawberry jello"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. water"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. oil"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. strawberries (1/2 - 3/4 c.)"
+    },
+    {
+      "amount": 1,
+      "name": "stick oleo (icing)"
+    },
+    {
+      "amount": 1,
+      "name": "lb. powdered sugar (icing)"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. strawberries (icing)"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla (icing)"
+    }
+  ],
+  "instructions": "Bake in tube pan at 350 for 30-40 min.\n\nICING",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0948.jpg"
+}

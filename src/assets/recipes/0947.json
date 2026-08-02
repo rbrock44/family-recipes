@@ -1,0 +1,41 @@
+{
+  "name": "Pumpkin Pie",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1.5,
+      "name": "cup pumpkin"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 3,
+      "name": "tsp. pumpkin pie spice"
+    },
+    {
+      "amount": 3,
+      "name": "eggs"
+    },
+    {
+      "amount": 1.25,
+      "name": "c. milk"
+    },
+    {
+      "amount": 1,
+      "name": "6 oz. can evaporated milk"
+    }
+  ],
+  "instructions": "Bake 400 degrees for 50 minutes.",
+  "yield": {
+    "amount": 1,
+    "name": "9\" pie"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0947.jpg"
+}

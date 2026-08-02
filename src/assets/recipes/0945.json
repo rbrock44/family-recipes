@@ -1,0 +1,37 @@
+{
+  "name": "Chess Pie",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "stick oleo"
+    },
+    {
+      "amount": 1,
+      "name": "T. flour"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    },
+    {
+      "amount": 2,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 3,
+      "name": "eggs"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. buttermilk"
+    }
+  ],
+  "instructions": "Pour in unbaked pie shell.\n400° for 10 min\nreduce to 350° for 30 min",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0945.jpg"
+}

@@ -7,7 +7,7 @@ import { firstValueFrom } from 'rxjs';
   providedIn: 'root'
 })
 export class RecipeReaderService {
-  recipeTotal = 943;
+  recipeTotal = 951;
   fullyLoaded = false;
   FAVORITE_NAME = "family-recipe-favorites"
 

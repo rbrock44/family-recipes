@@ -1,0 +1,37 @@
+{
+  "name": "Fresh Strawberry Pie",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 3,
+      "name": "pints strawberries"
+    },
+    {
+      "amount": 1,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 3,
+      "name": "Tbsp. corn starch"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. lemon juice"
+    },
+    {
+      "amount": 0,
+      "name": "baked pie shell"
+    },
+    {
+      "amount": 0,
+      "name": "whipped cream"
+    }
+  ],
+  "instructions": "3 pints strawberries, mash half and reserve remaining.\nAdd 1 c. sugar and 3 Tbsp. corn starch.\nCook 5 min until thickened and clear, add 2 Tbsp. lemon juice.\nAdd whole berries, saving some to garnish, and pour into baked pie shell.\nChill.\nTop with whipped cream and whole berries.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0946.jpg"
+}
