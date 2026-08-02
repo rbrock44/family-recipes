@@ -1,0 +1,29 @@
+{
+  "name": "Bubbling Pineapple Punch",
+  "author": "Dole - Anne Brock",
+  "category": 7,
+  "ingredients": [
+    {
+      "amount": 46,
+      "name": "oz. can Dole Pineapple Juice, chilled"
+    },
+    {
+      "amount": 3,
+      "name": "cups apricot nectar"
+    },
+    {
+      "amount": 1,
+      "name": "quart club soda"
+    },
+    {
+      "amount": 1,
+      "name": "quart pineapple sherbet"
+    }
+  ],
+  "instructions": "Combine chilled pineapple juice and apricot nectar in a large punch bowl. Add soda and sherbet just before serving.",
+  "yield": {
+    "amount": 0,
+    "name": "25 to 30 servings"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1031.jpg"
+}
