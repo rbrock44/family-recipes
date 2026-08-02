@@ -1,0 +1,45 @@
+{
+  "name": "Coconut-Pineapple Squares",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 0.5,
+      "name": "cup melted butter"
+    },
+    {
+      "amount": 0.25,
+      "name": "cup sugar"
+    },
+    {
+      "amount": 1.25,
+      "name": "cup sifted flour"
+    },
+    {
+      "amount": 1,
+      "name": "cup well-drained crushed pineapple"
+    },
+    {
+      "amount": 1,
+      "name": "beaten egg (topping)"
+    },
+    {
+      "amount": 1,
+      "name": "tablespoon melted butter (topping)"
+    },
+    {
+      "amount": 1.5,
+      "name": "cup coconut (topping)"
+    },
+    {
+      "amount": 1,
+      "name": "cup sugar (topping)"
+    }
+  ],
+  "instructions": "Mix and press into 8 or 9-inch square pan. Bake at 350°F. for 15 minutes. Cool slightly. Spread evenly with one cup well-drained crushed pineapple.\n\nTopping:\nMix topping ingredients together and spread over top of pineapple. Bake another 20-30 minutes at 350°F. or until browned.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0987.jpg"
+}
