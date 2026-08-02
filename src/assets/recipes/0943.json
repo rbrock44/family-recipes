@@ -1,0 +1,33 @@
+{
+  "name": "Pineapple, Cream Cheese and Gelatin Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 0,
+      "name": "graham cracker crust"
+    },
+    {
+      "amount": 1,
+      "name": "lb. 4 1/2 oz. can pineapple chunks, drained (syrup reserved)"
+    },
+    {
+      "amount": 1,
+      "name": "c. water (added to reserved pineapple syrup)"
+    },
+    {
+      "amount": 1,
+      "name": "pkg. lemon gelatin"
+    },
+    {
+      "amount": 8,
+      "name": "oz. pkg. cream cheese"
+    }
+  ],
+  "instructions": "Make and chill a graham cracker crust.\nDrain 1 lb. 4 1/2 oz. can of pineapple chunks.\nAdd water to syrup to make one cup, bring to boil and stir into 1 pkg. of lemon gelatin.\nBlend half of hot gelatin into 8 oz. pkg. cream cheese, pour into chilled crust, chill.\nAdd pineapple chunks and spoon remainder of gelatin on top, chill until served.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0943.jpg"
+}

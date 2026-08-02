@@ -1,0 +1,57 @@
+{
+  "name": "Heavenly Hash Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 4,
+      "name": "eggs"
+    },
+    {
+      "amount": 1.5,
+      "name": "c. flour"
+    },
+    {
+      "amount": 2,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 4,
+      "name": "Tbsp. cocoa"
+    },
+    {
+      "amount": 2,
+      "name": "sticks melted oleo"
+    },
+    {
+      "amount": 1,
+      "name": "c. nuts"
+    },
+    {
+      "amount": 1,
+      "name": "stick oleo (icing)"
+    },
+    {
+      "amount": 6,
+      "name": "Tbsp. milk (icing)"
+    },
+    {
+      "amount": 4,
+      "name": "Tbsp. cocoa (icing)"
+    },
+    {
+      "amount": 1,
+      "name": "box powdered sugar (icing)"
+    },
+    {
+      "amount": 1,
+      "name": "c. nuts (icing)"
+    }
+  ],
+  "instructions": "Mix well: 4 eggs, 1 1/2 c flour, 2 c sugar, 4 Tbsp cocoa, 2 sticks melted oleo, 1 c nuts.\nBake 375 for 30 min. While hot sprinkle with miniature marshmallows, melt, remove and cool.\n\nICING:\n1 stick oleo, 6 Tbsp milk, 4 Tbsp cocoa, 1 box powdered sugar, 1 c nuts.\nSpread on cooled cake over marshmallows.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0942.jpg"
+}

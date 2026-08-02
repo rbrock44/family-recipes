@@ -1,0 +1,37 @@
+{
+  "name": "Punch Bowl Cake",
+  "author": "Helen - Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "box yellow cake mix (without pudding), baked as directed on package in 2 layers"
+    },
+    {
+      "amount": 1,
+      "name": "large box instant vanilla pudding (prepared per box instructions)"
+    },
+    {
+      "amount": 2,
+      "name": "large cans crushed pineapple, drained"
+    },
+    {
+      "amount": 8,
+      "name": "bananas"
+    },
+    {
+      "amount": 2,
+      "name": "cans pie filling (your choice of fruit)"
+    },
+    {
+      "amount": 1,
+      "name": "large Cool Whip"
+    }
+  ],
+  "instructions": "Crumble cake - will make 2-3-4 layers.\n\nLayer order: 1. Cake, 2. Pudding, 3. Pineapple, 4. Bananas, 5. Pie Filling, 6. Cool Whip. Top with chopped nuts.\n\nSpread each layer to edge, so it will look pretty on outside of bowl.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0931.jpg"
+}

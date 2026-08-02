@@ -1,0 +1,49 @@
+{
+  "name": "Roll Cookies",
+  "author": "Mrs. Coats - Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "c. brown sugar"
+    },
+    {
+      "amount": 1,
+      "name": "c. white sugar"
+    },
+    {
+      "amount": 1.33,
+      "name": "c. crisco"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 3,
+      "name": "eggs"
+    },
+    {
+      "amount": 4.5,
+      "name": "c. flour"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    },
+    {
+      "amount": 1,
+      "name": "c. chopped nuts"
+    }
+  ],
+  "instructions": "Mix and roll in waxed paper, let stand overnight, then slice and bake",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0932.jpg"
+}

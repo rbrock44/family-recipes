@@ -1,0 +1,53 @@
+{
+  "name": "Oatmeal Cookies",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "c. shortening"
+    },
+    {
+      "amount": 1,
+      "name": "c. brown sugar"
+    },
+    {
+      "amount": 1,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 2,
+      "name": "eggs"
+    },
+    {
+      "amount": 1,
+      "name": "c. flour"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    },
+    {
+      "amount": 3.5,
+      "name": "c. oats"
+    },
+    {
+      "amount": 1,
+      "name": "c. nuts"
+    }
+  ],
+  "instructions": "Bake 350 onto greased pans by spoonfuls.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0925.jpg"
+}

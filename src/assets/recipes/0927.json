@@ -1,0 +1,41 @@
+{
+  "name": "Apple Crunch Cake",
+  "author": "Mrs. Coats - Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 4,
+      "name": "med. apples, chopped"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. shortening"
+    },
+    {
+      "amount": 1,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 1,
+      "name": "c. flour"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. soda, dissolved in 1 Tbsp. water"
+    },
+    {
+      "amount": 1,
+      "name": "egg"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. cinnamon"
+    }
+  ],
+  "instructions": "Cream shortening and sugar, add apples, egg.\nAdd flour in 2 parts, add baking soda and cinn.\nBake 350 for 30 min.\n\nI double for a 9x13 pan (grease and flour)",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0927.jpg"
+}

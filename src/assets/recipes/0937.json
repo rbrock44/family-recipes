@@ -1,0 +1,33 @@
+{
+  "name": "Coconut Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "pkg. yellow cake mix"
+    },
+    {
+      "amount": 15,
+      "name": "oz. can Coco Lopez cream of coconut"
+    },
+    {
+      "amount": 14,
+      "name": "oz. can Eagle Brand milk"
+    },
+    {
+      "amount": 8,
+      "name": "oz. container Cool-Whip"
+    },
+    {
+      "amount": 3.5,
+      "name": "oz. can Bakers Coconut"
+    }
+  ],
+  "instructions": "Prepare yellow cake mix according to pkg. directions.\n\nWhile cake is still warm, pour over top of cake a mixture of 1 can Coco Lopez cream of coconut (15 oz.) and 1 can Eagle Brand milk (14 oz.).\n\nLet cake cool completely, top with 8 oz. container of Cool-Whip. Sprinkle with 3 1/2 oz. can Bakers Coconut. Refrigerate until served.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0937.jpg"
+}

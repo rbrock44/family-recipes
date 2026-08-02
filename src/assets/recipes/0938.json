@@ -1,0 +1,53 @@
+{
+  "name": "Cranberry Nut Bread",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 3,
+      "name": "c. flour"
+    },
+    {
+      "amount": 3,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 0.75,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. shortening"
+    },
+    {
+      "amount": 2,
+      "name": "eggs"
+    },
+    {
+      "amount": 1.25,
+      "name": "c. milk"
+    },
+    {
+      "amount": 1,
+      "name": "Tblsp. orange rind"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. chopped nuts"
+    },
+    {
+      "amount": 1,
+      "name": "c. fresh cranberries"
+    }
+  ],
+  "instructions": "350, greased and floured loaf pan, 1 hr.\nSift: 3 c. flour, 3 tsp. baking powder, 3/4 tsp. soda, 1 tsp. salt.\nCut in: 1/2 c. shortening\nCombine: 2 eggs, 1 1/4 c. milk, 1 Tblsp. orange rind.\nMix together: 1/2 c. chopped nuts, 1 c. fresh cranberries.\n\nSpread slices with whipped cream cheese when served.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0938.jpg"
+}

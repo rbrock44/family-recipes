@@ -1,0 +1,53 @@
+{
+  "name": "Hawaiian Fruit Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 3,
+      "name": "c. flour"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. baking soda"
+    },
+    {
+      "amount": 2,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1.5,
+      "name": "c. oil"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. cinnamon"
+    },
+    {
+      "amount": 8,
+      "name": "oz. can crushed pineapple"
+    },
+    {
+      "amount": 3,
+      "name": "eggs"
+    },
+    {
+      "amount": 1.5,
+      "name": "tsp. vanilla"
+    },
+    {
+      "amount": 2,
+      "name": "c. diced bananas"
+    }
+  ],
+  "instructions": "Mix and add one 8 oz can crushed pineapple, 3 eggs, 1 1/2 tsp vanilla, and 2 c diced bananas.\nStir, but not blend. Pour into tube pan\nBake 350 for 1 hr. 20 min.\nCool on rack without removing from pan.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0941.jpg"
+}

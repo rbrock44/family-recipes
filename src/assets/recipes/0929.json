@@ -1,0 +1,57 @@
+{
+  "name": "Italian Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "stick oleo"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "c. oil"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    },
+    {
+      "amount": 2,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 1,
+      "name": "c. buttermilk"
+    },
+    {
+      "amount": 5,
+      "name": "egg yolks"
+    },
+    {
+      "amount": 1,
+      "name": "small can coconut"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. baking soda"
+    },
+    {
+      "amount": 1,
+      "name": "c. nuts"
+    },
+    {
+      "amount": 2,
+      "name": "c. flour"
+    }
+  ],
+  "instructions": "Cream sugar and oleo, add everything else.\nFold in the stiffly beaten egg whites from the 5 egg yolks. Bake 350 for 20 min in layered pans greased and floured. (3 pans)\n\nICING: 1 8 oz. pkg. cream cheese, 1/2 stick oleo, 1 box powdered sugar (about 4 1/2 c. = 1 lb.), 1 tsp vanilla and 1/2 c nuts. Spread between each layer and on top.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0929.jpg"
+}

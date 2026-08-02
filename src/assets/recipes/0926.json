@@ -1,0 +1,57 @@
+{
+  "name": "Banana Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1.5,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. shortening"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. buttermilk"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. lemon juice"
+    },
+    {
+      "amount": 0,
+      "name": "pecans"
+    },
+    {
+      "amount": 2,
+      "name": "eggs"
+    },
+    {
+      "amount": 0.67,
+      "name": "c. mashed bananas"
+    },
+    {
+      "amount": 1.75,
+      "name": "c. flour"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    }
+  ],
+  "instructions": "Bake 350 for 30 min\n\nICING: 1 c. brown sugar, 1/4 lb. butter, 1/4 c. milk, 1/2 tsp. vanilla and 2 c. powdered sugar.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0926.jpg"
+}

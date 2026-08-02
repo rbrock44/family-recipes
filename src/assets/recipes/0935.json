@@ -1,0 +1,57 @@
+{
+  "name": "Zucchini Bread",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 3,
+      "name": "beaten eggs"
+    },
+    {
+      "amount": 1,
+      "name": "c. oil"
+    },
+    {
+      "amount": 2,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. vanilla"
+    },
+    {
+      "amount": 2,
+      "name": "c. grated zucchini"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. cinnamon"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 3,
+      "name": "c. flour"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. chopped nuts"
+    }
+  ],
+  "instructions": "Cream together and add:\n\nBlend together, add 1/2 c chopped nuts\nPour into 2 greased and floured loaf pans\nBake 325 for 1 hr.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0935.jpg"
+}
