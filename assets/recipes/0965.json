@@ -1,0 +1,57 @@
+{
+  "name": "Egg Plant Casserole",
+  "author": "Anne Brock",
+  "category": 4,
+  "ingredients": [
+    {
+      "amount": 0,
+      "name": "egg plant"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. flour"
+    },
+    {
+      "amount": 0,
+      "name": "salt"
+    },
+    {
+      "amount": 0,
+      "name": "pepper"
+    },
+    {
+      "amount": 0,
+      "name": "sugar"
+    },
+    {
+      "amount": 1,
+      "name": "c. cooked noodles"
+    },
+    {
+      "amount": 0,
+      "name": "butter"
+    },
+    {
+      "amount": 1,
+      "name": "c. tomato juice"
+    },
+    {
+      "amount": 0,
+      "name": "bread crumbs"
+    },
+    {
+      "amount": 0,
+      "name": "cheese stripes"
+    },
+    {
+      "amount": 0,
+      "name": "ground beef (optional)"
+    }
+  ],
+  "instructions": "Egg plant steamed\nSprinkle with 1 Tbsp flour, salt, pepper and sugar\n1 c cooked noodles\nDot with butter\nPour on 1 c. tomato juice\nTop with bread crumbs and cheese stripes\n\nCan add meat. Browned ground beef",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0965.jpg"
+}

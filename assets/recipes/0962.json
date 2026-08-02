@@ -1,0 +1,73 @@
+{
+  "name": "Banana Cake or Bread",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1.5,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 2,
+      "name": "eggs"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. shortening"
+    },
+    {
+      "amount": 1.75,
+      "name": "c. flour"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. buttermilk"
+    },
+    {
+      "amount": 0.67,
+      "name": "c. mashed bananas"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 0,
+      "name": "nuts"
+    },
+    {
+      "amount": 1,
+      "name": "c. brown sugar (icing)"
+    },
+    {
+      "amount": 0.5,
+      "name": "lb. butter (icing)"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. milk (icing)"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. vanilla (icing)"
+    },
+    {
+      "amount": 2,
+      "name": "c. powdered sugar (icing)"
+    }
+  ],
+  "instructions": "Bake at 350°, 30 min.\n\nIcing: brown sugar, butter, milk, vanilla, powdered sugar (no mixing/cooking method given on card).\n\nNote: 1 1/2 recipe makes 2 nice loaves.",
+  "yield": {
+    "amount": 2,
+    "name": "loaves (at 1.5x recipe)"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0962.jpg"
+}

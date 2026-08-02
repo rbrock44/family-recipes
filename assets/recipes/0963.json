@@ -1,0 +1,57 @@
+{
+  "name": "Banana Bread",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "c. sifted flour"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. butter"
+    },
+    {
+      "amount": 1,
+      "name": "egg"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. grated orange rind"
+    },
+    {
+      "amount": 3,
+      "name": "Tbsp. orange juice"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. mashed banana"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. walnuts"
+    }
+  ],
+  "instructions": "Sift together the dry ingredients. Cream butter and sugar, add egg, stir in banana, orange and rind. Add all ingredients only until mixture is moist. Turn into greased loaf pan.\nBake 350 for 1 hr.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0963.jpg"
+}

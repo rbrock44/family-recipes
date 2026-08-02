@@ -1,0 +1,37 @@
+{
+  "name": "Sunburst Macaroni Salad",
+  "author": "Kraft - Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "pkg. Velveeta Shells & Cheese"
+    },
+    {
+      "amount": 1,
+      "name": "cup celery slices"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup Kraft Real Mayonnaise"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup chopped red pepper"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup chopped sweet pickle"
+    },
+    {
+      "amount": 0.25,
+      "name": "cup finely chopped onion"
+    }
+  ],
+  "instructions": "Prepare Velveeta Shells & Cheese as directed on package.\nAdd remaining ingredients; mix lightly.\nChill. Add additional mayonnaise before serving, if desired. 6 to 8 servings.\n\nPrep time: 15 minutes plus chilling.\n\nVariation: Substitute Miracle Whip Salad Dressing for mayonnaise.",
+  "yield": {
+    "amount": 8,
+    "name": "servings"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0960.jpg"
+}

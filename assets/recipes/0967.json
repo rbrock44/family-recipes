@@ -1,0 +1,25 @@
+{
+  "name": "Cheese-Sausage Biscuits",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "lb. coon cheese or any aged cheese"
+    },
+    {
+      "amount": 1,
+      "name": "lb. raw hot sausage"
+    },
+    {
+      "amount": 3,
+      "name": "c. Bisquick"
+    }
+  ],
+  "instructions": "Melt a lb. of coon cheese or any aged cheese, add a lb of raw hot sausage. Blend well.\nAdd this mixture to 3 cups Bisquick. Stir well.\nShape in small balls, cook 350 for 15-20 min\nServe hot. Makes 60 balls",
+  "yield": {
+    "amount": 60,
+    "name": "balls"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0967.jpg"
+}
