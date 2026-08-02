@@ -1,0 +1,81 @@
+{
+  "name": "Apple and Cheese Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "yellow apples, cored and sliced"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. lemon juice"
+    },
+    {
+      "amount": 3,
+      "name": "cups spinach"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. blue cheese"
+    },
+    {
+      "amount": 2,
+      "name": "slices bacon, crumbled"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. very thin sliced onions"
+    },
+    {
+      "amount": 3,
+      "name": "c. torn lettuce"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. chopped pecans"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. sliced mushrooms"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. red wine (dressing)"
+    },
+    {
+      "amount": 0.33,
+      "name": "c. oil (dressing)"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. Worcestershire sauce (dressing)"
+    },
+    {
+      "amount": 1,
+      "name": "garlic clove, crushed (dressing)"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. oregano (dressing)"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt (dressing)"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. sugar (dressing)"
+    },
+    {
+      "amount": 0,
+      "name": "dash of pepper (dressing)"
+    }
+  ],
+  "instructions": "Serve with red wine dressing.\n\nRed Wine Dressing: Mix well, refrigerate for 1 hr. Remove garlic.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0949.jpg"
+}

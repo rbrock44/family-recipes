@@ -1,0 +1,53 @@
+{
+  "name": "Bean Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "can green beans"
+    },
+    {
+      "amount": 1,
+      "name": "can wax beans"
+    },
+    {
+      "amount": 1,
+      "name": "can kidney beans"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup oil"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup vinegar"
+    },
+    {
+      "amount": 0.75,
+      "name": "cup sugar"
+    },
+    {
+      "amount": 1,
+      "name": "teaspoon salt"
+    },
+    {
+      "amount": 1,
+      "name": "teaspoon pepper"
+    },
+    {
+      "amount": 1,
+      "name": "small onion, chopped"
+    },
+    {
+      "amount": 1,
+      "name": "small green pepper, chopped"
+    }
+  ],
+  "instructions": "Drain beans well. Combine oil, vinegar, sugar, salt and pepper in the blender. Pour over beans and chill overnight. Just before serving add the chopped pepper and onion.\nServes 8.",
+  "yield": {
+    "amount": 8,
+    "name": "servings"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0951.jpg"
+}

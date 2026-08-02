@@ -1,0 +1,65 @@
+{
+  "name": "Pumpkin Bread",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 2.67,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 4,
+      "name": "eggs beaten"
+    },
+    {
+      "amount": 0.67,
+      "name": "c. shortening"
+    },
+    {
+      "amount": 2,
+      "name": "c. pumpkin"
+    },
+    {
+      "amount": 2.33,
+      "name": "c. flour"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. baking soda"
+    },
+    {
+      "amount": 1.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1.5,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. cinnamon"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. allspice or cloves"
+    },
+    {
+      "amount": 0.67,
+      "name": "c. water"
+    },
+    {
+      "amount": 0.67,
+      "name": "c. chopped nuts"
+    },
+    {
+      "amount": 0.67,
+      "name": "c. raisins"
+    }
+  ],
+  "instructions": "Cream shortening, sugar and add eggs, pumpkin and water and mix well. Sift dry ingredients into pumpkin mixture, stir in nuts and raisins.\n\nTurn into 2 greased and floured loaf pans\n350 for 1 hr.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0944.jpg"
+}

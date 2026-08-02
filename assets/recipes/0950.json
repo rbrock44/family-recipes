@@ -1,0 +1,33 @@
+{
+  "name": "Three Bean Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 16,
+      "name": "oz. can cut wax beans, drained"
+    },
+    {
+      "amount": 16,
+      "name": "oz. can French style green beans, drained"
+    },
+    {
+      "amount": 16,
+      "name": "oz. can red kidney beans, drained"
+    },
+    {
+      "amount": 1,
+      "name": "small onion, thinly sliced"
+    },
+    {
+      "amount": 0.75,
+      "name": "cup Wish-Bone Italian Dressing"
+    }
+  ],
+  "instructions": "In medium bowl, toss together wax beans, green beans, kidney beans, onion and Wish-Bone Italian Dressing. Cover and refrigerate; marinate several hours, tossing occasionally.\nMakes 10 servings.",
+  "yield": {
+    "amount": 10,
+    "name": "servings"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0950.jpg"
+}
