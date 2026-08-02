@@ -1,0 +1,37 @@
+{
+  "name": "Pecan Pie",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "cup syrup, dark Karo"
+    },
+    {
+      "amount": 1,
+      "name": "cup pecans"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 3,
+      "name": "eggs"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. salt"
+    }
+  ],
+  "instructions": "Beat eggs lightly, add sugar, syrup and nuts, salt and vanilla.\nBake 350-325 for 40-50 min.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0930.jpg"
+}

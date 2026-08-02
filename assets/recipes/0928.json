@@ -1,0 +1,29 @@
+{
+  "name": "Orange Mandarin Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "box yellow cake mix"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. oil"
+    },
+    {
+      "amount": 3,
+      "name": "egg yolks"
+    },
+    {
+      "amount": 1,
+      "name": "can oranges (11 oz)"
+    }
+  ],
+  "instructions": "Mix together, add beaten egg whites. Pour into 3 greased and floured layer pans. Bake 350 for 35-40 min.\n\nICING: 1 can crushed pineapple, 1 box instant vanilla pudding, 1 large container of Cool-Whip. Blend and spread between layers. Store in refrigerator.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0928.jpg"
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Carrot Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "c. flour"
+    },
+    {
+      "amount": 2,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 4,
+      "name": "eggs"
+    },
+    {
+      "amount": 3,
+      "name": "c. grated carrots"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    },
+    {
+      "amount": 1.5,
+      "name": "c. corn oil"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. cinnamon"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. baking soda"
+    },
+    {
+      "amount": 1,
+      "name": "c. chopped pecans"
+    },
+    {
+      "amount": 1,
+      "name": "box powdered sugar"
+    },
+    {
+      "amount": 1,
+      "name": "8 oz. cream cheese"
+    },
+    {
+      "amount": 1,
+      "name": "stick margarine"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    }
+  ],
+  "instructions": "Mix all dry ingredients. Add oil, eggs and vanilla and blend well. Bake in three nine inch pans at 350 for 30 min.\n\nFrosting: Blend well, add milk if necessary.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0936.jpg"
+}

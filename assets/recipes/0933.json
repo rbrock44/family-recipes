@@ -1,0 +1,49 @@
+{
+  "name": "Southern Grits",
+  "author": "Anne Brock",
+  "category": 4,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "c. grits"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 4,
+      "name": "c. water, to cook grits in"
+    },
+    {
+      "amount": 0.5,
+      "name": "stick butter"
+    },
+    {
+      "amount": 1,
+      "name": "pkg. garlic cheese"
+    },
+    {
+      "amount": 1,
+      "name": "egg"
+    },
+    {
+      "amount": 0,
+      "name": "milk, enough with egg to equal 1 cup"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. red pepper"
+    },
+    {
+      "amount": 0,
+      "name": "sharp cheese, grated (for topping)"
+    }
+  ],
+  "instructions": "1 c grits, 1 tsp. salt\n4 c water to cook grits in. Mix:\n1/2 stick butter, 1 pkg garlic cheese.\nMix with cooked grits.\n1 egg in cup with enough milk to equal 1 cup, beat, add 1/2 tsp red pepper.\nMix all in grits. Put in casserole, bake 300 for 40 min. Cover top with grated sharp cheese and leave in oven until melted.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0933.jpg"
+}

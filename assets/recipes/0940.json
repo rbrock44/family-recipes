@@ -1,0 +1,41 @@
+{
+  "name": "Fruit Cocktail Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1.5,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. shortening"
+    },
+    {
+      "amount": 2,
+      "name": "beaten eggs"
+    },
+    {
+      "amount": 2,
+      "name": "c. flour"
+    },
+    {
+      "amount": 1.5,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "can fruit cocktail"
+    }
+  ],
+  "instructions": "Mix well, bake 350 until done. Sprinkle 1/2 c. brown sugar on top of cake before baking.\n\nTop with:\n1 stick butter\n1 cup Pet milk\n1 cup sugar\nvanilla\nCook 3 min. and top cake",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0940.jpg"
+}

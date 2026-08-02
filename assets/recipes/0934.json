@@ -1,0 +1,37 @@
+{
+  "name": "Apple Crisp",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "can apple pie filling"
+    },
+    {
+      "amount": 1,
+      "name": "cup quick oats"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. butter"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. brown sugar"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. cinnamon"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. nutmeg"
+    }
+  ],
+  "instructions": "Preheat oven 325. Spread filling in 8 in. square pan. In bowl combine remaining ingredients well and spread over apples. Bake 25 minutes. Serve plain or with ice cream topping.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0934.jpg"
+}
