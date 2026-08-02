@@ -1,0 +1,69 @@
+{
+  "name": "Vegetables Marinated",
+  "author": "Anne Brock",
+  "category": 4,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "can red kidney beans, drained"
+    },
+    {
+      "amount": 1,
+      "name": "can whole beets, drained and quartered"
+    },
+    {
+      "amount": 1,
+      "name": "lb. summer squash, sliced and blanched"
+    },
+    {
+      "amount": 2,
+      "name": "cups cherry tomatoes"
+    },
+    {
+      "amount": 0.5,
+      "name": "lb carrots, cut in 3 inch strips"
+    },
+    {
+      "amount": 1,
+      "name": "pkg 9oz frozen green beans"
+    },
+    {
+      "amount": 1.5,
+      "name": "c corn oil"
+    },
+    {
+      "amount": 0.33,
+      "name": "c lemon juice"
+    },
+    {
+      "amount": 2.5,
+      "name": "tsp salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp dry mustard"
+    },
+    {
+      "amount": 0.33,
+      "name": "c vinegar"
+    },
+    {
+      "amount": 0.25,
+      "name": "c grated onion"
+    },
+    {
+      "amount": 1,
+      "name": "tsp sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp pepper"
+    }
+  ],
+  "instructions": "Marinate beets and beans separately.\n\nMarinate: Mix corn oil, lemon juice, salt, dry mustard, vinegar, grated onion, sugar and pepper in jar and cover tightly and shake well.\nUse as marinate or salad dressing.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1027.jpg"
+}

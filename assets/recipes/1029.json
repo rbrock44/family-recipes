@@ -1,0 +1,33 @@
+{
+  "name": "Punch",
+  "author": "Anne Brock",
+  "category": 7,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "pkg strawberry Kool-Aid"
+    },
+    {
+      "amount": 1,
+      "name": "can 46 oz. pineapple juice"
+    },
+    {
+      "amount": 2,
+      "name": "can frozen orange juice (small cans)"
+    },
+    {
+      "amount": 2,
+      "name": "can frozen lemon juice"
+    },
+    {
+      "amount": 3,
+      "name": "bottles of gingerale"
+    }
+  ],
+  "instructions": "Add water with juices",
+  "yield": {
+    "amount": 75,
+    "name": "servings"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1029.jpg"
+}

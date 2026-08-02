@@ -1,0 +1,49 @@
+{
+  "name": "Red Punch",
+  "author": "Anne Brock",
+  "category": 7,
+  "ingredients": [
+    {
+      "amount": 12,
+      "name": "lemons, juice of"
+    },
+    {
+      "amount": 2,
+      "name": "46 oz cans pineapple juice"
+    },
+    {
+      "amount": 3,
+      "name": "pkg black cherry Kool-Aid"
+    },
+    {
+      "amount": 3,
+      "name": "pkg raspberry Kool-Aid"
+    },
+    {
+      "amount": 3,
+      "name": "pkg strawberry Kool-Aid"
+    },
+    {
+      "amount": 3,
+      "name": "pkg orange Kool-Aid"
+    },
+    {
+      "amount": 4.5,
+      "name": "lbs sugar"
+    },
+    {
+      "amount": 4,
+      "name": "gal water"
+    },
+    {
+      "amount": 4,
+      "name": "qts gingerale"
+    }
+  ],
+  "instructions": "Mix well, put in 1 gal milk containers, leaving enough room for 1/2 bottle gingerale. Add gingerale just before serving.",
+  "yield": {
+    "amount": 4.5,
+    "name": "gal"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1028.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Willa Mints",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "sticks butter (1/2 lb), melted"
+    },
+    {
+      "amount": 1,
+      "name": "c. Eagle Brand milk"
+    },
+    {
+      "amount": 2,
+      "name": "lbs powdered sugar"
+    },
+    {
+      "amount": 0,
+      "name": "flavoring"
+    }
+  ],
+  "instructions": "",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1030.jpg"
+}
