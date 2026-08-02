@@ -1,0 +1,29 @@
+{
+  "name": "Menta",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 3,
+      "name": "oz. cream cheese"
+    },
+    {
+      "amount": 1,
+      "name": "box powdered sugar"
+    },
+    {
+      "amount": 0,
+      "name": "flavoring"
+    },
+    {
+      "amount": 3.5,
+      "name": "T. milk, to work (3-4 T)"
+    }
+  ],
+  "instructions": "(No preparation steps were written on this card - only the ingredient list and yield.)",
+  "yield": {
+    "amount": 160,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1007.jpg"
+}

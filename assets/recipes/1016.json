@@ -1,0 +1,33 @@
+{
+  "name": "Tortilla Roll-ups",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 8,
+      "name": "oz. cream cheese"
+    },
+    {
+      "amount": 1,
+      "name": "sm. can chilis, not drained"
+    },
+    {
+      "amount": 8,
+      "name": "oz. sour cream"
+    },
+    {
+      "amount": 1,
+      "name": "pkg. Ranch dressing"
+    },
+    {
+      "amount": 0,
+      "name": "dash of hot sauce"
+    }
+  ],
+  "instructions": "Spread, ref until use & cut in 1\" slices",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1016.jpg"
+}
