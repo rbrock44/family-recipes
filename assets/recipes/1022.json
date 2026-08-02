@@ -1,0 +1,33 @@
+{
+  "name": "Broccoli - Cheese Dip",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "tray broccoli"
+    },
+    {
+      "amount": 1,
+      "name": "onion"
+    },
+    {
+      "amount": 1,
+      "name": "pkg garlic cheese"
+    },
+    {
+      "amount": 1,
+      "name": "can mushroom soup"
+    },
+    {
+      "amount": 1,
+      "name": "stick butter"
+    }
+  ],
+  "instructions": "Cook broccoli and onion; drain. Add garlic cheese, mushroom soup, and butter.\n\nServe warm.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1022.jpg"
+}

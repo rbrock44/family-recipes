@@ -1,0 +1,37 @@
+{
+  "name": "Broccoli Dip",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "box broccoli"
+    },
+    {
+      "amount": 1,
+      "name": "onion"
+    },
+    {
+      "amount": 1,
+      "name": "c. mushroom soup"
+    },
+    {
+      "amount": 1,
+      "name": "c. mushroom soup"
+    },
+    {
+      "amount": 1,
+      "name": "stick oleo"
+    },
+    {
+      "amount": 2,
+      "name": "pkg. garlic cheese"
+    }
+  ],
+  "instructions": "Cook broccoli with onion.\nDrain well - mix.\n\nMix in mushroom soup, oleo, and garlic cheese.\nMix.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1018.jpg"
+}

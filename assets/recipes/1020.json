@@ -1,0 +1,53 @@
+{
+  "name": "Dill Dip",
+  "author": "Cindy Williams - Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "c. sour cream"
+    },
+    {
+      "amount": 1,
+      "name": "c. mayonnaise"
+    },
+    {
+      "amount": 3,
+      "name": "tbsp. finely chopped onion"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. celery seed"
+    },
+    {
+      "amount": 0.75,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. sugar"
+    },
+    {
+      "amount": 2,
+      "name": "tbsp. dill"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. parsley"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. vinegar"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. horseradish"
+    }
+  ],
+  "instructions": "Mix together and serve after chilling one hour.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1020.jpg"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Guacamole Spread",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "avocado, mashed"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. peanut oil"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. diced celery"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. lemon juice"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. chili powder"
+    },
+    {
+      "amount": 0.67,
+      "name": "c. diced tomatoes"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. dry onion"
+    }
+  ],
+  "instructions": "Serve on lettuce leaves\nor stuff tomatoes",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1019.jpg"
+}

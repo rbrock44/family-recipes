@@ -1,0 +1,41 @@
+{
+  "name": "Mexican Dip",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "lb. ground beef"
+    },
+    {
+      "amount": 1,
+      "name": "lb. stick chili"
+    },
+    {
+      "amount": 2,
+      "name": "lb. Velveeta"
+    },
+    {
+      "amount": 2,
+      "name": "can Chili Hot Beans"
+    },
+    {
+      "amount": 1,
+      "name": "can Rotel"
+    },
+    {
+      "amount": 0.5,
+      "name": "pt. sour cream"
+    },
+    {
+      "amount": 1,
+      "name": "jar hot taco sauce"
+    }
+  ],
+  "instructions": "Brown 2 lb ground beef, add 1 lb. stick chili, 2 lb. Velveeta, 2 can Chili Hot Beans, 1 can Rotel, 1/2 pt. sour cream, 1 jar hot taco sauce.\n\nServe over bite size Fritos. Top with lettuce, tomatoes, onions and taco sauce.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1017.jpg"
+}

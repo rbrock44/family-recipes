@@ -1,0 +1,29 @@
+{
+  "name": "Onion Batter",
+  "author": "Anne Brock",
+  "category": 4,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "cup flour"
+    },
+    {
+      "amount": 1,
+      "name": "tsp baking powder"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp salt"
+    },
+    {
+      "amount": 1,
+      "name": "egg"
+    }
+  ],
+  "instructions": "Combine 1 cup flour, 1 tsp baking powder and 1/4 tsp salt.\nBeat 1 egg until thick and lemon colored.\nStir in dry ingredients, beat until smooth.\nCover and set aside while preparing onions.\n\nDeep fry",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1023.jpg"
+}
