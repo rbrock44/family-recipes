@@ -1,0 +1,49 @@
+{
+  "name": "Frozen Cole Slaw",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "head cabbage, shredded"
+    },
+    {
+      "amount": 1,
+      "name": "carrot, grated"
+    },
+    {
+      "amount": 1,
+      "name": "mango pepper, chopped"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "cup vinegar, red or white (syrup)"
+    },
+    {
+      "amount": 2,
+      "name": "cups sugar (syrup)"
+    },
+    {
+      "amount": 0.25,
+      "name": "cup water (syrup)"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. celery seed (syrup)"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. mustard seed (syrup)"
+    }
+  ],
+  "instructions": "Bring syrup to boil - boil 1 minute -\nLet cool to lukewarm - pour over cabbage mixture - mix well. Pack in freezer bags. When ready to use - drain + add your favorite dressing.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0955.jpg"
+}

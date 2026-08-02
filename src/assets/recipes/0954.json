@@ -1,0 +1,61 @@
+{
+  "name": "Macaroni Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "cups elbow macaroni"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. salt"
+    },
+    {
+      "amount": 3,
+      "name": "qts. boiling water"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup celery"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup green pepper"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup shredded cheese"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. onion"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. lemon juice"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. pepper"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. dry mustard"
+    },
+    {
+      "amount": 0.67,
+      "name": "c. mayonnaise"
+    }
+  ],
+  "instructions": "2 cups elbow macaroni, 1 Tbsp salt cooked in 3 qts boiling water. Drain. Combine with 1/2 cup each of: celery, green pepper and shredded cheese. 1/4 c onion, 1/2 tsp salt, 1 Tbs lemon juice, 1/4 tsp each of pepper and dry mustard. 2/3 c mayonnaise. Chill, serve on lettuce leaves.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0954.jpg"
+}

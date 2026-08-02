@@ -1,0 +1,65 @@
+{
+  "name": "Layered Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "head lettuce"
+    },
+    {
+      "amount": 2,
+      "name": "cups celery"
+    },
+    {
+      "amount": 0.5,
+      "name": "head raw cauliflower"
+    },
+    {
+      "amount": 1,
+      "name": "sweet onion"
+    },
+    {
+      "amount": 1,
+      "name": "sweet pepper"
+    },
+    {
+      "amount": 1,
+      "name": "pkg. frozen peas"
+    },
+    {
+      "amount": 1,
+      "name": "bunch broccoli"
+    },
+    {
+      "amount": 1,
+      "name": "cup sour cream"
+    },
+    {
+      "amount": 1,
+      "name": "c. mayonnaise"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. grated colby cheese (top layer)"
+    },
+    {
+      "amount": 12,
+      "name": "slices crisp bacon, crumbled"
+    },
+    {
+      "amount": 4,
+      "name": "hard cooked eggs"
+    }
+  ],
+  "instructions": "Prepare in order, spread dressing over top and let set overnight.\n\nAdd 4 hard cooked eggs after the diced celery.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0952.jpg"
+}
