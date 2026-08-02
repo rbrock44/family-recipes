@@ -1,0 +1,41 @@
+{
+  "name": "School Rolls",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 2.5,
+      "name": "lb. flour"
+    },
+    {
+      "amount": 6.67,
+      "name": "T. sugar"
+    },
+    {
+      "amount": 6.67,
+      "name": "T. dry milk"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 6.67,
+      "name": "T. butter"
+    },
+    {
+      "amount": 4.5,
+      "name": "c. water"
+    },
+    {
+      "amount": 5,
+      "name": "pkg. yeast (about 2-3 T)"
+    }
+  ],
+  "instructions": "Let rise in bowl - punch down and make biscuits - let rise.\n425°",
+  "yield": {
+    "amount": 60,
+    "name": "rolls"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0972.jpg"
+}

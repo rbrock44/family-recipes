@@ -1,0 +1,41 @@
+{
+  "name": "Ham and Cheese Roll-ups",
+  "author": "General Mills - Anne Brock",
+  "category": 3,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "c. Bisquick baking mix"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. water"
+    },
+    {
+      "amount": 1,
+      "name": "to 2 Tbsp. prepared mustard"
+    },
+    {
+      "amount": 6,
+      "name": "oz. thinly sliced cooked smoked ham"
+    },
+    {
+      "amount": 1,
+      "name": "c. shredded Swiss or Cheddar cheese"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. sliced green onions (with tops)"
+    },
+    {
+      "amount": 4,
+      "name": "oz. can mushroom stems and pieces, drained"
+    }
+  ],
+  "instructions": "Mix baking mix and water until dough forms. Smooth into ball on cloth-covered surface dusted with baking mix. Knead 15 times. Roll into rectangle, 15x9 inches; spread with mustard. Top with remaining ingredients. Roll up tightly, beginning at 15-inch side. Pinch edge into roll (moisten if necessary). Wrap and refrigerate at least 30 minutes but no longer than 24 hours. Heat oven to 400°. Cut into 12 slices. Place on greased and floured cookie sheet (replace filling if necessary). Bake until golden, 20 to 25 minutes. 6 servings.\n\nHigh Altitude: Heat oven to 425°.",
+  "yield": {
+    "amount": 6,
+    "name": "servings"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0977.jpg"
+}

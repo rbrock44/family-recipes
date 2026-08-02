@@ -1,0 +1,49 @@
+{
+  "name": "Sausage Rolls",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "cans biscuits"
+    },
+    {
+      "amount": 0.33,
+      "name": "c. parmesan cheese"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. water"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. butter"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. onion"
+    },
+    {
+      "amount": 1,
+      "name": "can pizza sauce"
+    },
+    {
+      "amount": 6,
+      "name": "Tbsp. butter"
+    },
+    {
+      "amount": 1,
+      "name": "lb. mild Italian sausage in casing (cut in 4 equal parts)"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. chopped green pepper"
+    }
+  ],
+  "instructions": "Roll biscuits in butter and cheese, bake edgewise to form a loaf.\nFry sausage 4-5 min, slice rolls in half, spread with butter and 1 piece of sausage.\nSaute onion and pepper, add pizza sauce, spoon on rolls.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0969.jpg"
+}

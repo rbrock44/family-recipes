@@ -1,0 +1,69 @@
+{
+  "name": "Tamale Pie",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "lb. ground beef"
+    },
+    {
+      "amount": 0.75,
+      "name": "Tbsp. chili powder"
+    },
+    {
+      "amount": 1,
+      "name": "chopped onion"
+    },
+    {
+      "amount": 1,
+      "name": "can whole kernel corn"
+    },
+    {
+      "amount": 1,
+      "name": "can tomatoes"
+    },
+    {
+      "amount": 0,
+      "name": "salt"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. sifted flour"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. yellow corn meal"
+    },
+    {
+      "amount": 1,
+      "name": "egg"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. milk"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. lard"
+    }
+  ],
+  "instructions": "1 lb ground beef browned with 1/2-1 Tbsp chili powder and 1 chopped onion.\nAdd 1 can whole kernel corn, 1 can tomatoes, and salt. Simmer 45 min.\n\nCover with 1/2 c sifted flour, 2 Tbsp sugar, 1/2 tsp salt, 2 tsp b. powder, 1/2 c yellow corn meal, 1 egg, 1/2 c milk, 2 Tbsp lard.\n\nPour batter over meat mixture. Bake 425 for 20-25 min. Invert to serve.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0976.jpg"
+}

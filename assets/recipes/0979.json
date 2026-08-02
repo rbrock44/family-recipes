@@ -1,0 +1,45 @@
+{
+  "name": "Ground Beef John Bon Getty",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    {
+      "amount": 1.5,
+      "name": "lb. ground beef"
+    },
+    {
+      "amount": 2,
+      "name": "chopped onions"
+    },
+    {
+      "amount": 0,
+      "name": "spaghetti"
+    },
+    {
+      "amount": 1,
+      "name": "chopped green pepper"
+    },
+    {
+      "amount": 1,
+      "name": "can tomato soup"
+    },
+    {
+      "amount": 1,
+      "name": "can mushroom soup"
+    },
+    {
+      "amount": 1,
+      "name": "can green peas"
+    },
+    {
+      "amount": 0,
+      "name": "cheese"
+    }
+  ],
+  "instructions": "1 1/2 lb ground beef browned with 2 chopped onions.\nCook spaghetti and drain, add 1 chopped green pepper, 1 can tomato soup, 1 can mushroom soup, 1 can green peas and spaghetti to meat.\nPour into greased casserole dish and top with cheese. Cook in slow oven 20 min. or in electric skillet.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0979.jpg"
+}

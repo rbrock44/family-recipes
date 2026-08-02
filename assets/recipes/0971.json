@@ -1,0 +1,33 @@
+{
+  "name": "Pepper Steak",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    {
+      "amount": 0,
+      "name": "meat, cubed"
+    },
+    {
+      "amount": 0,
+      "name": "shortening"
+    },
+    {
+      "amount": 0,
+      "name": "envelope onion soup mix"
+    },
+    {
+      "amount": 2,
+      "name": "c. water"
+    },
+    {
+      "amount": 0,
+      "name": "green pepper"
+    }
+  ],
+  "instructions": "Brown meat cubes in shortening, sprinkle onion soup mix on top, add 2 c water.\nSimmer 30 min. Add green pepper and cook 10 min more. Thicken. Serve over rice.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0971.jpg"
+}

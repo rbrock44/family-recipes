@@ -1,0 +1,57 @@
+{
+  "name": "Green Pepper Steak",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "lb. beef chuck or round, fat trimmed"
+    },
+    {
+      "amount": 0.25,
+      "name": "cup soy sauce"
+    },
+    {
+      "amount": 1,
+      "name": "clove garlic"
+    },
+    {
+      "amount": 1.5,
+      "name": "tsp. grated fresh ginger, or 1/2 tsp. ground ginger"
+    },
+    {
+      "amount": 0.25,
+      "name": "cup salad oil"
+    },
+    {
+      "amount": 1,
+      "name": "cup green onion, thinly sliced"
+    },
+    {
+      "amount": 1,
+      "name": "cup red or green peppers, cut into 1-inch squares"
+    },
+    {
+      "amount": 2,
+      "name": "stalks celery, thinly sliced"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. cornstarch"
+    },
+    {
+      "amount": 1,
+      "name": "cup water"
+    },
+    {
+      "amount": 2,
+      "name": "tomatoes, cut into wedges"
+    }
+  ],
+  "instructions": "A good family dish, you cut economy beef, either chuck or round into thin strips and cook it until tender; then add vegetables.\n\n1. With a very sharp knife cut beef across grain into thin strips, 1/8-inch thick.\n2. Combine soy sauce, garlic, ginger. Add beef. Toss and set aside while preparing vegetables.\n3. Heat oil in large frying pan or wok. Add beef and toss over high heat until browned. Taste meat. If it is not tender, cover and simmer for 30 to 40 min. over low heat.\n4. Turn heat up and add vegetables. Toss until vegetables are tender crisp, about 10 min.\n5. Mix cornstarch with water. Add to pan; stir and cook until thickened.\n6. Add tomatoes and heat through.",
+  "yield": {
+    "amount": 4,
+    "name": "servings"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0978.jpg"
+}

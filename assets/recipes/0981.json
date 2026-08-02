@@ -1,0 +1,45 @@
+{
+  "name": "Grilled Potato Packets",
+  "author": "Happy Times - Anne Brock",
+  "category": 4,
+  "ingredients": [
+    {
+      "amount": 4,
+      "name": "or 5 medium potatoes, peeled and thinly sliced"
+    },
+    {
+      "amount": 1,
+      "name": "large onion, sliced"
+    },
+    {
+      "amount": 4,
+      "name": "Tbsp. butter"
+    },
+    {
+      "amount": 1,
+      "name": "cup shredded cheddar cheese"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. dried parsley"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. Worcestershire sauce"
+    },
+    {
+      "amount": 0,
+      "name": "salt to taste"
+    },
+    {
+      "amount": 0,
+      "name": "chicken broth"
+    }
+  ],
+  "instructions": "(Note: the original title for this recipe wasn't captured in the photo - it's clipped from a \"Happy Times\" newsletter column and likely had a title on a preceding page.)\n\nThese can be baked in the oven or grilled outdoors. However you choose to cook them they are a wonderful compliment to any meal.\n\nUsing heavy aluminum foil pull off four one-foot sheets. Fold in half and seal edges of two sides. Divide potatoes and onions among these four pockets. Dot with butter. Mix cheese, parsley, Worcestershire sauce together and divide and sprinkle into the four pockets. Add salt to taste. Now add 1 to 2 tablespoons of chicken broth to each pocket. Seal opening tightly. Place in 375° oven for 30 to 45 minutes or until potatoes are tender. If grilling, grill covered over medium coals for 35-40 minutes or until tender.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0981.jpg"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Pork Chops Stuffed",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    {
+      "amount": 6,
+      "name": "1 1/2 inch pork chops (6-8)"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. rice, cooked"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. chopped pecans"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. chopped green pepper"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. celery"
+    },
+    {
+      "amount": 1,
+      "name": "c. (4 oz.) cheddar cheese"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. thyme"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp. pepper"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. lard"
+    }
+  ],
+  "instructions": "Lightly brown chops in drippings filled with the stuffing. Sprinkle with salt and pepper. Place on rack in roasting pan, bake 350 for 30 min. Uncover and continue to cook for 30 more min.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0973.jpg"
+}

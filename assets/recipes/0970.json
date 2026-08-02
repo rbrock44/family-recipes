@@ -1,0 +1,45 @@
+{
+  "name": "Cranberry Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "cup crushed pineapple"
+    },
+    {
+      "amount": 0.25,
+      "name": "cup sugar"
+    },
+    {
+      "amount": 1,
+      "name": "pkg. cherry jello"
+    },
+    {
+      "amount": 1,
+      "name": "tbsp. lemon juice"
+    },
+    {
+      "amount": 1,
+      "name": "cup ground fresh cranberries (uncooked)"
+    },
+    {
+      "amount": 1,
+      "name": "orange - unpared - finely ground"
+    },
+    {
+      "amount": 2,
+      "name": "apples - unpared - finely ground"
+    },
+    {
+      "amount": 0.5,
+      "name": "cups chopped pecans"
+    }
+  ],
+  "instructions": "Drain pineapple but retain syrup. In saucepan combine jello, sugar & enough water added to pineapple juice to make 2 cups. Heat & stir until all ingredients are dissolved. Add lemon juice to jello mixture. Chill until almost set - then stir in fruit & nuts. Mix well & return to refrigerator until firm - overnight if possible.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0970.jpg"
+}
