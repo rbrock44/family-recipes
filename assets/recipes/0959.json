@@ -1,0 +1,37 @@
+{
+  "name": "Jello Mold",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "small boxes grape jello"
+    },
+    {
+      "amount": 2,
+      "name": "c. hot water, to dissolve jello"
+    },
+    {
+      "amount": 1,
+      "name": "large can crushed pineapple"
+    },
+    {
+      "amount": 1,
+      "name": "can blueberry pie filling"
+    },
+    {
+      "amount": 8,
+      "name": "oz. cream cheese"
+    },
+    {
+      "amount": 1,
+      "name": "pt. sour cream, approximately"
+    }
+  ],
+  "instructions": "2 small boxes grape Jello\n2 cups hot water to dissolve Jello. Add entire contents of 1 large can crushed pineapple, 1 can blueberry pie filling.\nWhen gelatin mixture sets, top with 8 oz cream cheese, 1 pt. sour cream, approximately... (remainder of note is illegible - faint pencil bleed-through on the back of the card)",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0959.jpg"
+}

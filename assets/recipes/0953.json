@@ -1,0 +1,53 @@
+{
+  "name": "Cranberry Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 3,
+      "name": "cups sugar"
+    },
+    {
+      "amount": 1,
+      "name": "bag fresh cranberries"
+    },
+    {
+      "amount": 2,
+      "name": "cups water"
+    },
+    {
+      "amount": 2,
+      "name": "3-ounce boxes cherry jello"
+    },
+    {
+      "amount": 1,
+      "name": "No. 2 ounce can crushed pineapple"
+    },
+    {
+      "amount": 1,
+      "name": "cup finely chopped pecans"
+    },
+    {
+      "amount": 8,
+      "name": "ounces Philadelphia cream cheese (topping)"
+    },
+    {
+      "amount": 3,
+      "name": "tablespoons sugar (topping)"
+    },
+    {
+      "amount": 10.5,
+      "name": "ounces marshmallows (topping)"
+    },
+    {
+      "amount": 12,
+      "name": "ounces Cool Whip (topping)"
+    }
+  ],
+  "instructions": "Cook until berries pop open. Set off heat and add sugar, jello, pineapple, pecans. Pour into 9 x 13 inch pan and refrigerate until firm.\n\nSalad topping: (no combining directions given on card for the topping ingredients above)",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0953.jpg"
+}

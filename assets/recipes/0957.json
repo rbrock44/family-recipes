@@ -1,0 +1,49 @@
+{
+  "name": "Vegetable Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "head cauliflower, cut up"
+    },
+    {
+      "amount": 3,
+      "name": "stalks broccoli, cut up"
+    },
+    {
+      "amount": 1,
+      "name": "large red onion, chopped"
+    },
+    {
+      "amount": 1,
+      "name": "large cucumber, chopped"
+    },
+    {
+      "amount": 1,
+      "name": "large bell pepper, chopped"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. vinegar"
+    },
+    {
+      "amount": 1,
+      "name": "c. oil"
+    },
+    {
+      "amount": 1,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 1,
+      "name": "bottle green goddess dressing"
+    }
+  ],
+  "instructions": "Mix together and chill overnight.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0957.jpg"
+}

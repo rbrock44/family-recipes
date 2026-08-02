@@ -1,0 +1,57 @@
+{
+  "name": "Vegetable Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "can French style green beans"
+    },
+    {
+      "amount": 1,
+      "name": "can whole kernel white corn"
+    },
+    {
+      "amount": 1,
+      "name": "can peas (small can)"
+    },
+    {
+      "amount": 1,
+      "name": "small jar pimentos, diced small"
+    },
+    {
+      "amount": 1,
+      "name": "green pepper, diced small"
+    },
+    {
+      "amount": 1,
+      "name": "c. celery, diced small"
+    },
+    {
+      "amount": 1,
+      "name": "onion, chopped small"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt, and pepper to taste"
+    },
+    {
+      "amount": 1,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. oil"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. vinegar"
+    }
+  ],
+  "instructions": "Drain all liquid from above items and mix together.\nAdd: 1 green pepper - diced small, 1 cup celery, diced small, 1 onion, chopped small, 1 teaspoon salt and then pepper to taste.\n\nMix 1 cup sugar, 1/2 cup oil, 3/4 cup vinegar. Add together in sauce pan and bring to a boil and boil 5 minutes.\n\nLet cool and then pour over the above mixed vegetables. Chill at least 2 hours before serving.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0956.jpg"
+}

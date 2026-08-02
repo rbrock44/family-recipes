@@ -1,0 +1,37 @@
+{
+  "name": "Watergate Salad",
+  "author": "Myrtle Young - Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 15.25,
+      "name": "oz. can crushed pineapple, juice and all"
+    },
+    {
+      "amount": 2,
+      "name": "boxes pistachio instant pudding mix"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. chopped nuts"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. chopped cherries"
+    },
+    {
+      "amount": 1,
+      "name": "c. mini marshmallows"
+    },
+    {
+      "amount": 1,
+      "name": "large container Cool Whip"
+    }
+  ],
+  "instructions": "Mix crushed pineapple with dry pudding mix. Add nuts, cherries and marshmallows. Fold in Cool Whip. Mix well and chill. You may use a 9 inch pie dish with a graham cracker crust and you'll have Watergate Pie.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0958.jpg"
+}
