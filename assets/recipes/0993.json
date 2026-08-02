@@ -1,0 +1,37 @@
+{
+  "name": "Fudge",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 4,
+      "name": "cups sugar"
+    },
+    {
+      "amount": 1,
+      "name": "can evaporated milk"
+    },
+    {
+      "amount": 1,
+      "name": "stick butter"
+    },
+    {
+      "amount": 2,
+      "name": "6 oz. pkg. chocolate chips"
+    },
+    {
+      "amount": 1,
+      "name": "pt. marshmallow cream"
+    },
+    {
+      "amount": 0,
+      "name": "nuts"
+    }
+  ],
+  "instructions": "Cook to 236 degrees on candy thermometer.\nAdd: 2 6 oz. pkg. choc chips, 1 pt. marshmallow cream, nuts\nMix together and pour into buttered pan.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0993.jpg"
+}

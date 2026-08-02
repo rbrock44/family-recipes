@@ -1,0 +1,33 @@
+{
+  "name": "Katydids",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 0,
+      "name": "graham cracker crumbs (crushed, to line pan)"
+    },
+    {
+      "amount": 1,
+      "name": "can Eagle Brand milk"
+    },
+    {
+      "amount": 0,
+      "name": "coconut"
+    },
+    {
+      "amount": 0,
+      "name": "pecans"
+    },
+    {
+      "amount": 0,
+      "name": "chocolate chips"
+    }
+  ],
+  "instructions": "Into oblong pan spread with crushed graham cracker crumbs.\nPour 1 can Eagle Brand milk\nSprinkle with coconut, pecans and chocolate chips.\n\nBake 25 min in a 375 oven or until coconut is browned.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0992.jpg"
+}

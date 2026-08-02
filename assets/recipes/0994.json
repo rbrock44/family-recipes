@@ -1,0 +1,45 @@
+{
+  "name": "Mamie's Million Dollar Fudge",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "cups (12-oz. package) semisweet chocolate pieces"
+    },
+    {
+      "amount": 3,
+      "name": "packages (4 oz. each) sweet cooking chocolate"
+    },
+    {
+      "amount": 1,
+      "name": "jar (8 oz.) marshmallow cream"
+    },
+    {
+      "amount": 2,
+      "name": "cups broken walnuts"
+    },
+    {
+      "amount": 4.5,
+      "name": "cups sugar"
+    },
+    {
+      "amount": 0,
+      "name": "pinch of salt"
+    },
+    {
+      "amount": 2,
+      "name": "tablespoons butter or margarine"
+    },
+    {
+      "amount": 1,
+      "name": "large can evaporated milk"
+    }
+  ],
+  "instructions": "Combine semisweet chocolate pieces, sweet cooking chocolate, marshmallow cream and walnuts in large bowl.\nCombine sugar, salt, butter or margarine and evaporated milk in large heavy saucepan. Heat to boiling, stirring constantly. Boil 5 minutes.\nPour at once over chocolate mixture in bowl, stir vigorously with a wooden spoon until chocolate is melted and mixture is creamy.\nPour into buttered shallow pan, 13x9x2.\nLet stand few hours to set and cool.\nCut into squares.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0994.jpg"
+}

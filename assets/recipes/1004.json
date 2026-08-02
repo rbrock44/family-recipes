@@ -1,0 +1,37 @@
+{
+  "name": "Granny Rolls",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 4,
+      "name": "c. self-rising flour"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 1,
+      "name": "egg"
+    },
+    {
+      "amount": 1,
+      "name": "pkg. yeast, dissolved in 2 c. warm water"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. melted butter"
+    }
+  ],
+  "instructions": "Mix with electric mixer until smooth. Spoon into muffin tins. Ungreased.\n\n(Note: no baking temperature or time is given on the card.)",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1004.jpg"
+}

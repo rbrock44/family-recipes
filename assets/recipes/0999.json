@@ -1,0 +1,45 @@
+{
+  "name": "Biscuits",
+  "author": "Mrs. Coats - Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 5,
+      "name": "c. flour"
+    },
+    {
+      "amount": 6,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 2,
+      "name": "cakes yeast"
+    },
+    {
+      "amount": 4,
+      "name": "Tbsp. sugar"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 2,
+      "name": "c. buttermilk"
+    },
+    {
+      "amount": 6,
+      "name": "Tbsp. melted shortening"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. soda"
+    }
+  ],
+  "instructions": "(No instructions were written on this card - only the ingredient list was captured. The preparation/baking steps may be missing.)",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0999.jpg"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Aloha Loaf",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "cup oleo"
+    },
+    {
+      "amount": 4,
+      "name": "eggs"
+    },
+    {
+      "amount": 4,
+      "name": "c. flour"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. baking soda"
+    },
+    {
+      "amount": 0.75,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 2,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 1,
+      "name": "c. mashed banana"
+    },
+    {
+      "amount": 15.25,
+      "name": "oz. crushed pineapple and juice"
+    },
+    {
+      "amount": 1,
+      "name": "cup coconut"
+    }
+  ],
+  "instructions": "Cream oleo and sugar, add eggs, mix well, stir in bananas. Sift and add dry ingredients, fold in pineapple and coconut. Pour into 2 greased and floured loaf pans.\nBake 350° for 1 hr. 10 min. Remove to cool.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1000.jpg"
+}
