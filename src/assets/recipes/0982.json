@@ -1,0 +1,45 @@
+{
+  "name": "Egg - Sausage Casserole",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    {
+      "amount": 6,
+      "name": "slices bread, cubed"
+    },
+    {
+      "amount": 6,
+      "name": "eggs"
+    },
+    {
+      "amount": 1,
+      "name": "lb. sausage, browned"
+    },
+    {
+      "amount": 2,
+      "name": "c. milk"
+    },
+    {
+      "amount": 1,
+      "name": "c. shredded cheddar (mild)"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. dry mustard"
+    },
+    {
+      "amount": 0,
+      "name": "pepper, to taste"
+    }
+  ],
+  "instructions": "Stir together.\n\n(Note: this recipe was written on a folded notepad sheet - text is visible peeking out from under the fold, meaning bake temperature/time instructions likely exist but weren't captured in this photo. The original note may need to be unfolded and rephotographed to complete this recipe.)",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0982.jpg"
+}

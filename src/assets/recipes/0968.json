@@ -1,0 +1,61 @@
+{
+  "name": "Cole Slaw",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "med. head cabbage"
+    },
+    {
+      "amount": 1,
+      "name": "green pepper"
+    },
+    {
+      "amount": 1,
+      "name": "onion"
+    },
+    {
+      "amount": 1,
+      "name": "carrot"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. sugar (sprinkled over layers)"
+    },
+    {
+      "amount": 1,
+      "name": "c. white vinegar"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. garlic salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. celery seed"
+    },
+    {
+      "amount": 0.75,
+      "name": "c. oil"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. dry mustard"
+    }
+  ],
+  "instructions": "Layer in a bowl, over each layer sprinkle sugar until you have used 1/2 cup.\n\nBoil: 1 c white vinegar, 2 Tbsp sugar, 1/2 tsp garlic salt, 1 tsp celery seed, 3/4 c. oil, 1 tsp salt, 1 tsp dry mustard.\n\nPour over vegetables, wait 1 hr. mix lightly. Set aside for 2-3 hrs. Mix again and serve.\nStays fresh for 3-4 days.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0968.jpg"
+}

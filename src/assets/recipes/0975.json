@@ -1,0 +1,41 @@
+{
+  "name": "Beans & Wieners Basket",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "can (1 lb.) Pork & Beans"
+    },
+    {
+      "amount": 0.5,
+      "name": "can dry onion soup mix"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. brown sugar"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. prepared mustard"
+    },
+    {
+      "amount": 3,
+      "name": "Tbsp. catsup"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. vinegar"
+    },
+    {
+      "amount": 1,
+      "name": "lb. wieners"
+    }
+  ],
+  "instructions": "Place Pork & Beans in 1-qt. casserole; add next 5 ingredients; mix well. Bake uncovered 15 minutes at 375°. Cut wieners in half and stand around edge of casserole. Return to oven; bake 15 minutes longer. Makes 4 servings.",
+  "yield": {
+    "amount": 4,
+    "name": "servings"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0975.jpg"
+}

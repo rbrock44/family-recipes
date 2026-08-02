@@ -1,0 +1,49 @@
+{
+  "name": "Texas Hash",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "lb. ground beef"
+    },
+    {
+      "amount": 3.5,
+      "name": "c. tomato juice"
+    },
+    {
+      "amount": 1,
+      "name": "c. chopped green pepper"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. onion"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. raw rice"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. basil"
+    },
+    {
+      "amount": 0,
+      "name": "pepper"
+    },
+    {
+      "amount": 0,
+      "name": "cheese, for topping"
+    }
+  ],
+  "instructions": "1 lb. ground beef browned. Add: 3 1/2 c tomato juice, 1 c chopped g. pepper, 1/2 c onion, 1/2 c raw rice, 1/2 tsp. salt, 1/2 tsp basil, pepper.\n\nCover and simmer for 25 min. Cover top with cheese and melt before serving.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0974.jpg"
+}
