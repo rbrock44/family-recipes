@@ -1,0 +1,25 @@
+{
+  "name": "Coconut Macaroons",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "can Eagle Brand milk"
+    },
+    {
+      "amount": 6,
+      "name": "c. coconut"
+    },
+    {
+      "amount": 3,
+      "name": "tbsp. vanilla"
+    }
+  ],
+  "instructions": "Blend well, drop by teaspoon onto well greased baking sheet about one inch apart.\nBake at 350 until delicate brown or about 8 min. Remove at once. A cherry may be placed in center of macaroon before baking.",
+  "yield": {
+    "amount": 5,
+    "name": "doz."
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0983.jpg"
+}

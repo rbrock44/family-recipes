@@ -1,0 +1,37 @@
+{
+  "name": "Hello Dolly Cookies",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "cup graham cracker crumbs"
+    },
+    {
+      "amount": 0.5,
+      "name": "stick melted butter"
+    },
+    {
+      "amount": 1,
+      "name": "cup chocolate chips"
+    },
+    {
+      "amount": 1,
+      "name": "cup pecans, chopped"
+    },
+    {
+      "amount": 1.5,
+      "name": "cups coconut"
+    },
+    {
+      "amount": 1,
+      "name": "can Eagle Brand condensed milk"
+    }
+  ],
+  "instructions": "Mix crumbs and butter, press into 7 x 11 pan. Spread remaining ingredients and pour condensed milk over all. Bake at 350° for 30 minutes. Cool over night. Cut into squares and serve.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0986.jpg"
+}

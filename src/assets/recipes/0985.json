@@ -1,0 +1,41 @@
+{
+  "name": "Lemon Cheese Bars",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "Duncan Hines Pudding Recipe Yellow Cake Mix"
+    },
+    {
+      "amount": 1,
+      "name": "egg (crust)"
+    },
+    {
+      "amount": 0.33,
+      "name": "cup oil (crust)"
+    },
+    {
+      "amount": 1,
+      "name": "8 oz. pkg. cream cheese, softened"
+    },
+    {
+      "amount": 0.33,
+      "name": "cup sugar"
+    },
+    {
+      "amount": 1,
+      "name": "teaspoon lemon juice"
+    },
+    {
+      "amount": 1,
+      "name": "egg (filling)"
+    }
+  ],
+  "instructions": "Mix dry cake mix, 1 egg and 1/3 cup oil until crumbly; reserve 1 cup. Pat remaining mixture lightly in an ungreased 13 x 9 x 2-inch pan. Bake 15 minutes at 350°. Beat cheese, sugar, lemon juice and 1 egg until light and smooth. Spread over baked layer. Sprinkle with reserved crumb mixture. Bake 15 minutes longer. Cool. Cut into bars.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0985.jpg"
+}

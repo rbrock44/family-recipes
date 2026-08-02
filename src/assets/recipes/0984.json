@@ -1,0 +1,57 @@
+{
+  "name": "Sugar Cookies",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "c. butter"
+    },
+    {
+      "amount": 1.25,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 2,
+      "name": "eggs"
+    },
+    {
+      "amount": 3,
+      "name": "c. flour (unsifted)"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 3,
+      "name": "T. milk"
+    },
+    {
+      "amount": 2,
+      "name": "c. powdered sugar (frosting)"
+    },
+    {
+      "amount": 3,
+      "name": "T. butter, melted (frosting)"
+    },
+    {
+      "amount": 0,
+      "name": "milk, to desired thickness (frosting)"
+    }
+  ],
+  "instructions": "Cream butter, sugar. Add eggs. Beat 2 minutes. Sift flour and soda, salt and baking powder. Add to creamed mixture alternating with milk. Chill. Greased cookie sheet. 375° - 12 minutes - 4 dozen.\nDecorate or adapt as desired.\n\nFrosting: 2 c. powdered sugar and 3 T. butter (melted) together. Add milk to desired thickness.",
+  "yield": {
+    "amount": 4,
+    "name": "dozen"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0984.jpg"
+}
