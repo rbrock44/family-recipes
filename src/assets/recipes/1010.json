@@ -1,0 +1,33 @@
+{
+  "name": "Play Dough",
+  "author": "Anne Brock",
+  "category": 7,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "c. flour"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. salt"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. cream of tartar"
+    },
+    {
+      "amount": 1,
+      "name": "c. water"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. oil"
+    }
+  ],
+  "instructions": "Mix powders, add oil and water. Stir into ball and add food coloring before cooking.\n\nCook until ball forms (few minutes)",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1010.jpg"
+}

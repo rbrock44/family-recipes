@@ -1,0 +1,33 @@
+{
+  "name": "Festive Cheese Ball with Grapes",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "package (8 ounces) cream cheese, softened"
+    },
+    {
+      "amount": 1,
+      "name": "c. shredded Cheddar cheese"
+    },
+    {
+      "amount": 0.125,
+      "name": "tsp. hot pepper sauce"
+    },
+    {
+      "amount": 2,
+      "name": "tbsp. chopped walnuts"
+    },
+    {
+      "amount": 2,
+      "name": "lbs. blue/black, green and red table grapes, cut into small clusters"
+    }
+  ],
+  "instructions": "Combine cream cheese, Cheddar cheese and hot pepper sauce in small mixer bowl; blend well. Place cheese mixture into 1-quart round bowl lined with plastic wrap. Cover and refrigerate until firm. Unmold and place in center of serving tray. Remove plastic wrap. Smooth cheese with spatula. Sprinkle with walnuts. Surround with grape clusters. Yield: 1-1/2 cups.",
+  "yield": {
+    "amount": 1.5,
+    "name": "cups"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1015.jpg"
+}

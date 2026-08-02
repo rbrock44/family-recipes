@@ -1,0 +1,25 @@
+{
+  "name": "Dough For Bread Baskets",
+  "author": "Anne Brock",
+  "category": 7,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "c. salt"
+    },
+    {
+      "amount": 1,
+      "name": "c. warm water"
+    },
+    {
+      "amount": 2.5,
+      "name": "c. flour"
+    }
+  ],
+  "instructions": "1 c salt dissolved in 1 c warm water.\nAdd 2 1/2 c flour",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1012.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Turtlettes",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 4,
+      "name": "doz. pecan halves"
+    },
+    {
+      "amount": 2,
+      "name": "doz. caramel candies"
+    },
+    {
+      "amount": 1,
+      "name": "c. chocolate chips (coating)"
+    },
+    {
+      "amount": 2,
+      "name": "Tbsp. vegetable oil (coating)"
+    }
+  ],
+  "instructions": "Arrange pecans into turtles, four legs and a head, on a well buttered plate.\nArrange 6 caramels around the pecans. Microwave on high 15 to 30 sec.\nPress down with waxed paper.\nCoat with choc chip coating.\n\nChocolate Chip Coating: Put chocolate chips and vegetable oil in bowl. Cover with waxed paper and microwave 2 1/2 to 4 min. Careful not to burn.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1008.jpg"
+}

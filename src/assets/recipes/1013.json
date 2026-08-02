@@ -1,0 +1,25 @@
+{
+  "name": "Ornaments",
+  "author": "Anne Brock",
+  "category": 7,
+  "ingredients": [
+    {
+      "amount": 4,
+      "name": "c. unsifted flour (plain)"
+    },
+    {
+      "amount": 1,
+      "name": "c. salt"
+    },
+    {
+      "amount": 1.5,
+      "name": "c. water"
+    }
+  ],
+  "instructions": "Mix, roll, cut. Bake 350 1 Hr.\nDon't forget hole for hanger",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1013.jpg"
+}

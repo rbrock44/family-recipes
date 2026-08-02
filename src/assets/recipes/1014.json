@@ -1,0 +1,45 @@
+{
+  "name": "Party Mix",
+  "author": "Anne Brock",
+  "category": 7,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "cups rice chex"
+    },
+    {
+      "amount": 2,
+      "name": "cups corn chex"
+    },
+    {
+      "amount": 2,
+      "name": "cups wheat chex"
+    },
+    {
+      "amount": 2,
+      "name": "cups pretzels"
+    },
+    {
+      "amount": 1,
+      "name": "cup salted nuts"
+    },
+    {
+      "amount": 1,
+      "name": "stick butter"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. garlic salt"
+    },
+    {
+      "amount": 4,
+      "name": "tsp. Worcestershire sauce"
+    }
+  ],
+  "instructions": "Melt 1 stick butter, 2 tsp garlic salt, and 4 tsp. Worcestershire sauce. Spoon over mixture and cook stirring often until done.\n250 for 45 min, stirring every 15 min.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1014.jpg"
+}

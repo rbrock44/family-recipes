@@ -1,0 +1,29 @@
+{
+  "name": "Taco Dip",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 8,
+      "name": "oz. cream cheese"
+    },
+    {
+      "amount": 1,
+      "name": "jar taco sauce"
+    },
+    {
+      "amount": 0,
+      "name": "olives"
+    },
+    {
+      "amount": 0,
+      "name": "mozzarella cheese"
+    }
+  ],
+  "instructions": "Spread 8 oz. cream cheese on pizza pan. Top with 1 jar taco sauce.\nolives\nMonz. cheese\n\n(Note: card says \"(over)\" indicating more content on the back, which was not captured in this photo set - quantities for olives/cheese and any further steps may be missing.)",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1011.jpg"
+}
