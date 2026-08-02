@@ -1,0 +1,25 @@
+{
+  "name": "Cream Filling",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "cup heavy cream, chilled"
+    },
+    {
+      "amount": 0.25,
+      "name": "cup unsifted confectioners sugar"
+    },
+    {
+      "amount": 1,
+      "name": "t. vanilla"
+    }
+  ],
+  "instructions": "",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1025.jpg"
+}

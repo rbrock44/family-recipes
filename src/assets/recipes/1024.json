@@ -1,0 +1,41 @@
+{
+  "name": "Russian Tea",
+  "author": "Anne Brock",
+  "category": 7,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "small jars Tang"
+    },
+    {
+      "amount": 1,
+      "name": "pkg lemonade mix"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp cinnamon"
+    },
+    {
+      "amount": 1.5,
+      "name": "c sugar"
+    },
+    {
+      "amount": 0.75,
+      "name": "c instant tea"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. cloves"
+    },
+    {
+      "amount": 0,
+      "name": "dash nutmeg"
+    }
+  ],
+  "instructions": "Mix in bowl and store in jar.\nDissolve 2 tsp. in one cup of boiling water.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1024.jpg"
+}
