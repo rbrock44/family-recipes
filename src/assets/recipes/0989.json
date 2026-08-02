@@ -1,0 +1,21 @@
+{
+  "name": "Peanut Butter Tea Cookies",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "roll Pillsbury peanut butter cookie dough"
+    },
+    {
+      "amount": 2,
+      "name": "boxes miniature peanut butter cups"
+    }
+  ],
+  "instructions": "Cut into 12 slices, cut each into 4 pieces.\nPlace 1 in each teabiscuit cupcake pan\nBake 350 for 8-10 min. Remove from oven and immediately press into center of each a bite size miniature peanut butter cup\nTakes 2 boxes of peanut butter cups, makes 48.",
+  "yield": {
+    "amount": 48,
+    "name": "cookies"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0989.jpg"
+}

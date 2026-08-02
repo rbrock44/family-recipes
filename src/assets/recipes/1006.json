@@ -1,0 +1,45 @@
+{
+  "name": "Taco Dip",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "can taco dip"
+    },
+    {
+      "amount": 16,
+      "name": "oz. sour cream"
+    },
+    {
+      "amount": 1,
+      "name": "pkg. taco seasoning"
+    },
+    {
+      "amount": 0,
+      "name": "lettuce"
+    },
+    {
+      "amount": 0,
+      "name": "onion"
+    },
+    {
+      "amount": 0,
+      "name": "tomatoes"
+    },
+    {
+      "amount": 0,
+      "name": "olives"
+    },
+    {
+      "amount": 0,
+      "name": "cheese"
+    }
+  ],
+  "instructions": "1 can taco dip spread on pizza pan.\n\n16 oz. sour cream mixed with 1 pkg. taco seasoning.\n\nLayer: lettuce, onion, tomatoes, olives + cheese",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1006.jpg"
+}

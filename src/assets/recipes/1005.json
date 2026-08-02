@@ -1,0 +1,53 @@
+{
+  "name": "Cranberry Ring",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "package strawberry gelatin"
+    },
+    {
+      "amount": 1,
+      "name": "c. hot water"
+    },
+    {
+      "amount": 1,
+      "name": "(10 1/2 to 11 oz.) can frozen cranberry relish"
+    },
+    {
+      "amount": 1,
+      "name": "(13 1/2 to 14 oz.) can crushed pineapple"
+    },
+    {
+      "amount": 1,
+      "name": "package lemon gelatin"
+    },
+    {
+      "amount": 1.25,
+      "name": "c. boiling water"
+    },
+    {
+      "amount": 2,
+      "name": "c. tiny marshmallows"
+    },
+    {
+      "amount": 1,
+      "name": "(3 oz.) package cream cheese, softened"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. mayonnaise"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. heavy cream"
+    }
+  ],
+  "instructions": "First layer: Dissolve strawberry gelatin in hot water. Add cranberry relish, dash salt. Pour into 6 1/2 cup ring mold. Chill until firm.\n\nSecond layer: Drain pineapple, reserving juice. Dissolve lemon gelatin in boiling water, add marshmallows and stir till melted; add reserved pineapple juice (or syrup). Chill till partially set. Blend cream cheese, mayonnaise. Stir in pineapple. If mixture is thin, chill till it mounds slightly when spooned. Fold in whipped cream. Pour over first layer. Chill until firm. Unmold. Surround with parsley. Serves 10-12.",
+  "yield": {
+    "amount": 10,
+    "name": "servings"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1005.jpg"
+}

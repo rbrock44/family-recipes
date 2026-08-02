@@ -1,0 +1,41 @@
+{
+  "name": "Corn Sticks",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "cups cornmeal"
+    },
+    {
+      "amount": 1,
+      "name": "cup milk"
+    },
+    {
+      "amount": 1,
+      "name": "egg"
+    },
+    {
+      "amount": 1,
+      "name": "Tbsp. shortening"
+    },
+    {
+      "amount": 2.5,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. sugar"
+    }
+  ],
+  "instructions": "Beat all ingredients together and bake in greased tins the shape of ears of corn in a 500 degree oven for 12 minutes.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1001.jpg"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Peanut Butter Fudge",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 3,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 0.67,
+      "name": "c. cream"
+    },
+    {
+      "amount": 1,
+      "name": "pt. marshmallow cream"
+    },
+    {
+      "amount": 1,
+      "name": "c. crunchy peanut butter"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    }
+  ],
+  "instructions": "Combine sugar & milk - cook to soft ball stage, remove from heat & stir in marshmallow cream, peanut butter & vanilla.\n\nPour into buttered pan.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0995.jpg"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Peanut Butter Bon-Bons",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "c. peanut butter"
+    },
+    {
+      "amount": 1,
+      "name": "stick soft oleo"
+    },
+    {
+      "amount": 1,
+      "name": "box powdered sugar"
+    },
+    {
+      "amount": 4.5,
+      "name": "cups Rice Krispies"
+    },
+    {
+      "amount": 0.5,
+      "name": "lb. (8 oz.) chocolate squares, for dipping"
+    },
+    {
+      "amount": 6,
+      "name": "oz. pkg. chocolate chips, for dipping"
+    },
+    {
+      "amount": 0.125,
+      "name": "lb. paraffin (2 oz.), for dipping"
+    }
+  ],
+  "instructions": "Mix, add 4-5 cups Rice Krispies.\nMix well, shape into balls.\nDip in choc. Lay on wax paper.\nCool.\n\nChoc Mixture (for dipping): Melt chocolate squares, chocolate chips, and paraffin together.",
+  "yield": {
+    "amount": 7,
+    "name": "dozen"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0991.jpg"
+}

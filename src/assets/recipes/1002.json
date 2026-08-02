@@ -1,0 +1,65 @@
+{
+  "name": "Banana Blueberry Bread",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 0.5,
+      "name": "cup blueberries, drained"
+    },
+    {
+      "amount": 1.5,
+      "name": "cups flour"
+    },
+    {
+      "amount": 0.67,
+      "name": "cup sugar"
+    },
+    {
+      "amount": 2,
+      "name": "teaspoon baking powder"
+    },
+    {
+      "amount": 0.5,
+      "name": "teaspoon salt"
+    },
+    {
+      "amount": 0.5,
+      "name": "teaspoon soda"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup oats, quick or regular"
+    },
+    {
+      "amount": 2,
+      "name": "eggs, beaten"
+    },
+    {
+      "amount": 0.33,
+      "name": "cup shortening, melted"
+    },
+    {
+      "amount": 1,
+      "name": "cup mashed ripe banana"
+    },
+    {
+      "amount": 2,
+      "name": "tablespoons flour (topping)"
+    },
+    {
+      "amount": 2,
+      "name": "tablespoons sugar (topping)"
+    },
+    {
+      "amount": 1,
+      "name": "tablespoon butter (topping)"
+    }
+  ],
+  "instructions": "Sprinkle blueberries with 2 teaspoons of the flour and put aside. Sift together remaining flour, sugar, baking powder, soda and salt. Stir in the oats. Blend together eggs, shortening and bananas. Add to dry ingredients, stirring until just combined.\n\nAdd blueberries stirring just enough to distribute evenly throughout batter. Pour batter into greased and lightly floured loaf pan. Combine topping mixture and sprinkle over loaf. Bake in 350 degree oven for 60 minutes, or until tested done. Let cool 10 minutes, remove from pan and cool completely. Wrap cooled bread and store one day before slicing.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1002.jpg"
+}

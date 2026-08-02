@@ -1,0 +1,49 @@
+{
+  "name": "Angel Crisp (Sugar) Cookies",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 0.5,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. brown sugar"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. shortening"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. butter"
+    },
+    {
+      "amount": 1,
+      "name": "egg"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. vanilla"
+    },
+    {
+      "amount": 2,
+      "name": "c. flour"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. baking soda"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. cream of tartar"
+    }
+  ],
+  "instructions": "Cream: 1/2 c sugar, 1/2 c brown sugar, 1/2 c shortening, 1/2 c butter.\nAdd: 1 egg, 1 t vanilla, 2 c flour, 1/2 t baking soda, 1 t cream of tartar.\n\nForm into ball size of walnut. Roll in sugar. Flatten with fork.\nBrown 350°.",
+  "yield": {
+    "amount": 50,
+    "name": "cookies"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0996.jpg"
+}

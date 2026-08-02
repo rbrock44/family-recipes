@@ -1,0 +1,57 @@
+{
+  "name": "Apricot Nut Bread",
+  "author": "Robin Hood Pre-sifted Flour - Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "cup cut-up dried apricots"
+    },
+    {
+      "amount": 0.25,
+      "name": "cup hot water"
+    },
+    {
+      "amount": 1.75,
+      "name": "cups + 2 tbsp. Robin Hood All-Purpose Flour"
+    },
+    {
+      "amount": 1,
+      "name": "cup sugar"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. baking powder"
+    },
+    {
+      "amount": 1,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. soda"
+    },
+    {
+      "amount": 2,
+      "name": "eggs, well-beaten"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup orange juice"
+    },
+    {
+      "amount": 2,
+      "name": "tbsp. melted butter"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup chopped nuts"
+    }
+  ],
+  "instructions": "Soak apricots in hot water for 30 minutes before preparing batter.\nSpoon flour (not sifted) into dry measuring cup. Level off and pour measured flour into mixing bowl.\nAdd sugar, baking powder, salt and soda to flour (not sifted) and stir well to blend.\nCombine well-beaten eggs, orange juice and melted butter. Add liquid ingredients to blended dry ingredients. Stir until blended.\nFold in apricots and nuts.\nSpread in greased 9x5x3-inch loaf pan.\nBake at 325° for 60-65 minutes. Remove from pan immediately.\nCool on rack.",
+  "yield": {
+    "amount": 1,
+    "name": "loaf"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0998.jpg"
+}

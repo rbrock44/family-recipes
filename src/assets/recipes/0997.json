@@ -1,0 +1,33 @@
+{
+  "name": "Apple Dumplings",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 0,
+      "name": "baking apples, 3\" in diameter, pared and cored"
+    },
+    {
+      "amount": 3,
+      "name": "Tbsp. raisins"
+    },
+    {
+      "amount": 3,
+      "name": "Tbsp. chopped nuts"
+    },
+    {
+      "amount": 2,
+      "name": "c. brown sugar"
+    },
+    {
+      "amount": 1,
+      "name": "c. water"
+    }
+  ],
+  "instructions": "Prepare pastry, cut into 7x7\" squares.\nBaking apples 3\" in diameter, pared and cored.\n\nInto each apple place equal parts of:\n3 Tabsp. raisins\n3 Tblsp. chopped nuts\nMoisten corners of pastry squares and fold over apple. Place in ungreased baking pan.\nHeat 2 c. brown sugar and 1 c. water.\nPour around dumplings, spooning over during baking. Bake 425 degrees, 40 minutes or until golden brown. May be topped with whipped cream.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0997.jpg"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Creamy Lemon Cheese Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "pkg. Duncan Hines Pudding Recipe Lemon Cake Mix"
+    },
+    {
+      "amount": 1,
+      "name": "egg (crust)"
+    },
+    {
+      "amount": 0.33,
+      "name": "cup oil (crust)"
+    },
+    {
+      "amount": 2,
+      "name": "pkgs. (8 oz. each) cream cheese, softened"
+    },
+    {
+      "amount": 1,
+      "name": "cup (8 oz.) dairy sour cream"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup sugar"
+    },
+    {
+      "amount": 2,
+      "name": "eggs (filling)"
+    }
+  ],
+  "instructions": "Measure 1 cup dry cake mix; set aside. Combine remaining mix with 1 egg and 1/3 cup oil. Press in the bottom of a greased 13 x 9 x 2-inch pan. Bake at 350° F. for 10 minutes. Meanwhile, combine reserved mix, 2 eggs and remaining ingredients; beat at low speed for 2 minutes. Spread over crust. Bake at 350° F. about 35 minutes longer. Cool.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0988.jpg"
+}

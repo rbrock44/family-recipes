@@ -1,0 +1,33 @@
+{
+  "name": "Peanut Butter Cups",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1.5,
+      "name": "c. graham cracker crumbs"
+    },
+    {
+      "amount": 0.5,
+      "name": "lb. oleo"
+    },
+    {
+      "amount": 1,
+      "name": "c. peanut butter"
+    },
+    {
+      "amount": 1,
+      "name": "lb. powdered sugar"
+    },
+    {
+      "amount": 2,
+      "name": "c. chocolate chips"
+    }
+  ],
+  "instructions": "Mix well until smooth, press into buttered 9x9\" pan.\n\nMelt over hot water:\n2 c. chocolate chips\nSpread over cracker mixture, refrigerate until firm, cut into squares.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0990.jpg"
+}
