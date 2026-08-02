@@ -1,0 +1,49 @@
+{
+  "name": "Squash Casserole",
+  "author": "Anne Brock",
+  "category": 4,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "c. cooked and drained squash"
+    },
+    {
+      "amount": 2,
+      "name": "c. bread crumbs"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. grated onion"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. chopped green pepper"
+    },
+    {
+      "amount": 1,
+      "name": "c. grated cheese"
+    },
+    {
+      "amount": 1,
+      "name": "egg"
+    },
+    {
+      "amount": 1,
+      "name": "c. milk"
+    },
+    {
+      "amount": 0,
+      "name": "salt and pepper"
+    },
+    {
+      "amount": 0.5,
+      "name": "stick oleo, for sauteing"
+    }
+  ],
+  "instructions": "Saute onion and pepper in 1/2 stick oleo.\nCombine all ingredients, mix well.\nBake 350 for 20 min.\nTop with stripes of cheese and melt.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0966.jpg"
+}

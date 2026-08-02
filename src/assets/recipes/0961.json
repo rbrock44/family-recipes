@@ -1,0 +1,61 @@
+{
+  "name": "Cinnamon Rolls",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    {
+      "amount": 0.33,
+      "name": "c. warm water"
+    },
+    {
+      "amount": 1.5,
+      "name": "pkg. yeast"
+    },
+    {
+      "amount": 1,
+      "name": "c. warm milk"
+    },
+    {
+      "amount": 0.25,
+      "name": "c. melted shortening"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 1,
+      "name": "beaten egg"
+    },
+    {
+      "amount": 3.5,
+      "name": "c. flour"
+    },
+    {
+      "amount": 0,
+      "name": "salt"
+    },
+    {
+      "amount": 0,
+      "name": "melted butter"
+    },
+    {
+      "amount": 0.33,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 2,
+      "name": "tsp. cinnamon"
+    },
+    {
+      "amount": 0,
+      "name": "powdered sugar icing"
+    }
+  ],
+  "instructions": "Mix: 1/3 c warm water and 1 1/2 pkg. yeast.\n1 c. warm milk, 1/4 c. melted shortening, 1/2 c sugar, 1 beaten egg.\nAdd enough flour to have stickiness (3 1/2 c.)\nAdd salt to stop growth.\nLet rise covered.\nRoll out 1/2\" thick, spread with melted butter and 1/3 c sugar to 2 tsp. cinn. Roll and cut, let rise again.\nBake 425 until browned. Frost with powdered sugar icing.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0961.jpg"
+}

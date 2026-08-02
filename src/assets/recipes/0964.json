@@ -1,0 +1,45 @@
+{
+  "name": "Stroganoff",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    {
+      "amount": 1.5,
+      "name": "lb. ground beef"
+    },
+    {
+      "amount": 1,
+      "name": "pkg. onion soup"
+    },
+    {
+      "amount": 3,
+      "name": "Tbsp. tomato or catsup"
+    },
+    {
+      "amount": 3,
+      "name": "Tbsp. flour"
+    },
+    {
+      "amount": 2,
+      "name": "c. water"
+    },
+    {
+      "amount": 0,
+      "name": "sour cream"
+    },
+    {
+      "amount": 0,
+      "name": "mushrooms"
+    },
+    {
+      "amount": 0,
+      "name": "shell macaroni"
+    }
+  ],
+  "instructions": "Cook 10 min. Add sour cream and mushrooms.\nServe over shell macaroni.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/0964.jpg"
+}
