@@ -1,0 +1,29 @@
+{
+  "name": "Mints",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 3,
+      "name": "lb powdered sugar, approximately"
+    },
+    {
+      "amount": 0.5,
+      "name": "lb butter (2 sticks)"
+    },
+    {
+      "amount": 1,
+      "name": "can Eagle Brand milk"
+    },
+    {
+      "amount": 0,
+      "name": "flavoring"
+    }
+  ],
+  "instructions": "In rounded center pour 1/2 (2 sticks) butter and 1 can Eagle Brand milk.\nAdd flavoring and mix until mixture is not sticky or to correct consistency (may take more sugar)\nFlatten and cut into shape.",
+  "yield": {
+    "amount": 200,
+    "name": "mints (makes over 200)"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1034.jpg"
+}

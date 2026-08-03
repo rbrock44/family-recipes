@@ -1,0 +1,61 @@
+{
+  "name": "Apple Nut Bundt Cake",
+  "author": "Alice Hopper - Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 3,
+      "name": "cups flour"
+    },
+    {
+      "amount": 3,
+      "name": "cups sugar"
+    },
+    {
+      "amount": 1,
+      "name": "tsp baking soda"
+    },
+    {
+      "amount": 1,
+      "name": "tsp cinnamon"
+    },
+    {
+      "amount": 0.75,
+      "name": "tsp salt"
+    },
+    {
+      "amount": 0.25,
+      "name": "tsp cloves"
+    },
+    {
+      "amount": 0.75,
+      "name": "cup oil"
+    },
+    {
+      "amount": 0.5,
+      "name": "cup apple juice"
+    },
+    {
+      "amount": 3,
+      "name": "eggs (written as \"2 3\", likely 2-3)"
+    },
+    {
+      "amount": 3,
+      "name": "cups coarse chopped apples (1/2 inch)"
+    },
+    {
+      "amount": 1.5,
+      "name": "cups chopped nuts"
+    },
+    {
+      "amount": 1,
+      "name": "cup raisins"
+    }
+  ],
+  "instructions": "Mix all of above & beat 2 min.\n\nStir in:\n3 c. coarse chopped apples (1/2 inch)\n1 1/2 c chopped nuts\n1 c. raisins\n\nSpoon into greased & floured bundt pan.\n350° for 1 hr 10 min.\nString with sugar glaze",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1036.jpg"
+}

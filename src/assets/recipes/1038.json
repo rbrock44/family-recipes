@@ -1,0 +1,29 @@
+{
+  "name": "Party Punch",
+  "author": "Anne Brock",
+  "category": 7,
+  "ingredients": [
+    {
+      "amount": 2,
+      "name": "cans pineapple juice"
+    },
+    {
+      "amount": 18,
+      "name": "cups water (4 qt. + 2 cups)"
+    },
+    {
+      "amount": 3,
+      "name": "pkgs. strawberry Kool-aid"
+    },
+    {
+      "amount": 0.33,
+      "name": "cups sugar"
+    }
+  ],
+  "instructions": "Mix - chill.\n\n(If you use pre-sweetened Kool-aid, cut down on sugar.)",
+  "yield": {
+    "amount": 2,
+    "name": "gal."
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1038.jpg"
+}

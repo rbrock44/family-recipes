@@ -1,0 +1,41 @@
+{
+  "name": "Butter Pecan Ice Cream",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "T unsalted butter"
+    },
+    {
+      "amount": 0.67,
+      "name": "c chopped pecans"
+    },
+    {
+      "amount": 1,
+      "name": "reg. size box Fr. vanilla instant pudding mix"
+    },
+    {
+      "amount": 1,
+      "name": "can Milnot (evaporated milk)"
+    },
+    {
+      "amount": 0.75,
+      "name": "c sugar"
+    },
+    {
+      "amount": 1,
+      "name": "t vanilla"
+    },
+    {
+      "amount": 3,
+      "name": "c whole milk"
+    }
+  ],
+  "instructions": "Stir unsalted butter and chopped pecans until brown (3 min).\n\nWhisk in French vanilla pudding mix and Milnot.\n\nBlend in sugar, vanilla, and whole milk.\n\nFreeze.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1033.jpg"
+}
