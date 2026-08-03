@@ -1,0 +1,41 @@
+{
+  "name": "German Chocolate Coconut Pecan Topping",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 0.67,
+      "name": "cup sugar"
+    },
+    {
+      "amount": 0.67,
+      "name": "cup evaporated milk"
+    },
+    {
+      "amount": 2,
+      "name": "egg yolks"
+    },
+    {
+      "amount": 0.33,
+      "name": "cup Crisco shortening"
+    },
+    {
+      "amount": 0.5,
+      "name": "teaspoon vanilla"
+    },
+    {
+      "amount": 1.33,
+      "name": "cups (3-1/2 ounce can) flaked coconut"
+    },
+    {
+      "amount": 1,
+      "name": "cup chopped pecans"
+    }
+  ],
+  "instructions": "Using 8- or 9-inch round layer cake pans, make and cool cake as directed on the label. In a medium saucepan combine sugar, evaporated milk, egg yolks and shortening. Cook over medium heat, stirring constantly, until thickened, about 12 minutes. Remove from heat; stir in vanilla, coconut and pecans. Cool until thick enough to spread, about 1 hour.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1039.jpg"
+}
