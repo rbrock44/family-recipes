@@ -1,0 +1,35 @@
+<h2 mat-dialog-title>
+  Add {{ data.recipes.length }}
+  {{ data.recipes.length === 1 ? "Recipe" : "Recipes" }} to List
+</h2>
+
+<mat-dialog-content>
+  <mat-radio-group
+    [formControl]="selectedListControl"
+    class="list-radio-group"
+  >
+    @for (list of lists; track list.id) {
+      <mat-radio-button [value]="list.id">{{ list.name }}</mat-radio-button>
+    }
+    <mat-radio-button value="new">Create new list</mat-radio-button>
+  </mat-radio-group>
+
+  @if (isCreatingNew) {
+    <mat-form-field appearance="outline" class="new-list-name">
+      <mat-label>List name</mat-label>
+      <input matInput [formControl]="newListNameControl" autofocus />
+    </mat-form-field>
+  }
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button (click)="cancel()">Cancel</button>
+  <button
+    mat-flat-button
+    color="primary"
+    [disabled]="!canConfirm"
+    (click)="confirm()"
+  >
+    Add
+  </button>
+</mat-dialog-actions>

@@ -1,0 +1,140 @@
+<app-header></app-header>
+<section class="page-shell lists-page">
+  <header class="surface-card lists-hero">
+    <h1>Your Lists</h1>
+  </header>
+
+  @if (views.length === 0) {
+    <section class="surface-card empty-card">
+      <p>
+        You haven't created any lists yet. Use the "Add to list" icon on a
+        recipe (search results, favorites, recently visited, or a recipe's
+        own page) to start one.
+      </p>
+    </section>
+  }
+
+  @for (view of views; track view.list.id) {
+    <section class="surface-card list-card">
+      <div class="list-header">
+        @if (!view.renaming) {
+          <button
+            type="button"
+            class="list-title-toggle"
+            (click)="toggleExpanded(view)"
+            [attr.aria-expanded]="view.expanded"
+          >
+            <h3>{{ view.list.name }}</h3>
+            <mat-icon>{{
+              view.expanded ? "expand_less" : "expand_more"
+            }}</mat-icon>
+          </button>
+          <button
+            mat-icon-button
+            (click)="startRename(view)"
+            aria-label="Rename list"
+          >
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button
+            mat-icon-button
+            color="warn"
+            (click)="deleteList(view)"
+            aria-label="Delete list"
+          >
+            <mat-icon>delete</mat-icon>
+          </button>
+        } @else {
+          <mat-form-field appearance="outline" class="rename-field">
+            <input
+              matInput
+              [formControl]="view.nameControl"
+              (keydown.enter)="confirmRename(view)"
+            />
+          </mat-form-field>
+          <button
+            mat-icon-button
+            color="primary"
+            (click)="confirmRename(view)"
+            aria-label="Save list name"
+          >
+            <mat-icon>check</mat-icon>
+          </button>
+          <button
+            mat-icon-button
+            (click)="cancelRename(view)"
+            aria-label="Cancel rename"
+          >
+            <mat-icon>close</mat-icon>
+          </button>
+        }
+      </div>
+
+      @if (view.expanded) {
+        <div class="list-body">
+          @if (view.rows.length === 0) {
+            <p class="empty-list">No recipes in this list yet.</p>
+          }
+
+          @for (row of view.rows; track row.recipe.filename) {
+            <div class="list-recipe-row">
+              <button
+                type="button"
+                class="recipe-link"
+                (click)="openRecipe(row.recipe)"
+              >
+                <span class="recipe-name">{{ row.recipe.name }}</span>
+                <span class="recipe-author">{{ row.recipe.author }}</span>
+              </button>
+              <mat-form-field appearance="outline" class="batch-field">
+                <mat-label>Batches</mat-label>
+                <input
+                  matInput
+                  type="number"
+                  min="1"
+                  [value]="row.batches"
+                  (change)="updateBatches(view, row, $any($event.target).value)"
+                />
+              </mat-form-field>
+              <button
+                mat-icon-button
+                (click)="removeRecipe(view, row)"
+                aria-label="Remove recipe from list"
+              >
+                <mat-icon>close</mat-icon>
+              </button>
+            </div>
+          }
+
+          @if (view.ingredients.length > 0) {
+            <h4>Ingredients</h4>
+            <div class="ingredient-totals">
+              @for (ingredient of view.ingredients; track ingredient.key) {
+                <mat-checkbox
+                  class="ingredient-line"
+                  [class.checked]="view.checkedIngredients.has(ingredient.key)"
+                  [checked]="view.checkedIngredients.has(ingredient.key)"
+                  (change)="toggleIngredientChecked(view, ingredient)"
+                >
+                  @if (!hasFraction(getIngredientDisplay(ingredient))) {
+                    <span
+                      >{{ getIngredientDisplay(ingredient) }}
+                      {{ ingredient.name }}</span
+                    >
+                  }
+                  @if (hasFraction(getIngredientDisplay(ingredient))) {
+                    <app-fraction
+                      before="{{ getIngredientDisplay(ingredient).split(' ')[0] }}"
+                      after="{{ ingredient.name }}"
+                      fraction="{{ getIngredientDisplay(ingredient).split(' ')[1] }}"
+                    ></app-fraction>
+                  }
+                </mat-checkbox>
+              }
+            </div>
+          }
+        </div>
+      }
+    </section>
+  }
+</section>

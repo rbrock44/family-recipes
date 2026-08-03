@@ -10,6 +10,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AddToListDialogComponent } from './components/add-to-list-dialog/add-to-list-dialog.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LiquidConversionComponent } from './components/liquid-conversion/liquid-conversion.component';
 import { MaterialModule } from './material.module';
@@ -19,15 +20,18 @@ import { DryConversionComponent } from './components/dry-conversion/dry-conversi
 import { RecipeTableComponent } from './components/recipe-table/recipe-table.component';
 import { FractionComponent } from './components/fraction/fraction.component';
 import { MainComponent } from './page/main/main.component';
+import { ListsComponent } from './page/lists/lists.component';
 
 @NgModule({
   declarations: [
+    AddToListDialogComponent,
     AppComponent,
     DryConversionComponent,
     FractionComponent,
     HeaderComponent,
     HomeComponent,
     LiquidConversionComponent,
+    ListsComponent,
     MainComponent,
     RecipeComponent,
     RecipeTableComponent,

@@ -1,12 +1,15 @@
 import {
   Component,
   Input,
+  OnChanges,
   OnInit,
   ViewChild,
   ChangeDetectionStrategy,
 } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
+import { AddToListDialogComponent } from '../add-to-list-dialog/add-to-list-dialog.component';
 import { getCategory } from 'src/app/models/category.enum';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
@@ -19,12 +22,14 @@ import { Location } from '@angular/common';
   changeDetection: ChangeDetectionStrategy.Eager,
   standalone: false,
 })
-export class RecipeTableComponent implements OnInit {
+export class RecipeTableComponent implements OnInit, OnChanges {
   @Input() dataSource = new MatTableDataSource<Recipe>();
   @Input() removeColumns: boolean = false;
   @Input() isFavoritesList: boolean = false;
   @Input() showUnfavorite: boolean = false;
   @Input() showRemoveRecent: boolean = false;
+  @Input() showAddToList: boolean = false;
+  @Input() showBulkActions: boolean = false;
   displayColumns: string[] = ['name', 'author', 'category', 'filename'];
 
   // @ts-ignore
@@ -32,19 +37,24 @@ export class RecipeTableComponent implements OnInit {
 
   constructor(
     private location: Location,
-    private service: RecipeService,
+    public service: RecipeService,
+    private dialog: MatDialog,
   ) {}
 
   ngOnInit(): void {
-    if (this.removeColumns) {
-      this.displayColumns = ['name', 'author'];
-    }
-
-    if (this.showUnfavorite || this.showRemoveRecent) {
-      this.displayColumns = [...this.displayColumns, 'actions'];
-    }
-
     this.dataSource.sort = this.sort;
+  }
+
+  ngOnChanges(): void {
+    let columns = this.removeColumns
+      ? ['name', 'author']
+      : ['name', 'author', 'category', 'filename'];
+
+    if (this.showUnfavorite || this.showRemoveRecent || this.showAddToList) {
+      columns = [...columns, 'actions'];
+    }
+
+    this.displayColumns = columns;
   }
 
   click(recipe: Recipe, event?: Event): void {
@@ -52,6 +62,11 @@ export class RecipeTableComponent implements OnInit {
       event &&
       (event.target as HTMLElement).closest('.mat-column-actions')
     ) {
+      return;
+    }
+
+    if (this.showAddToList && this.service.selectMode) {
+      this.service.toggleSelectedForList(recipe.filename);
       return;
     }
 
@@ -83,6 +98,46 @@ export class RecipeTableComponent implements OnInit {
     this.dataSource.data = this.dataSource.data.filter(
       (it) => it.filename !== recipe.filename,
     );
+  }
+
+  setSelectMode(checked: boolean): void {
+    this.service.selectMode = checked;
+
+    if (!checked) {
+      this.service.clearSelectedForList();
+    }
+  }
+
+  openAddToList(recipe: Recipe, event: Event): void {
+    event.stopPropagation();
+    this.dialog.open(AddToListDialogComponent, {
+      data: { recipes: [recipe], defaultBatches: 1 },
+    });
+  }
+
+  openBulkAddToList(): void {
+    // Selections can come from any table showing this component (search,
+    // favorites, recently visited), not just this one - resolve by filename
+    // from the shared in-memory recipe list rather than this table's own
+    // dataSource.
+    const recipes = Array.from(this.service.selectedForList)
+      .map((filename) => this.service.findRecipe(filename))
+      .filter((it): it is Recipe => !!it);
+
+    const dialogRef = this.dialog.open(AddToListDialogComponent, {
+      data: { recipes, defaultBatches: 1 },
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result) {
+        this.service.clearSelectedForList();
+        this.service.selectMode = false;
+      }
+    });
+  }
+
+  clearSelection(): void {
+    this.service.clearSelectedForList();
   }
 
   sortData(): void {

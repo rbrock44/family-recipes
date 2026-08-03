@@ -16,31 +16,33 @@ import { Location } from '@angular/common';
           Home
         </button>
 
-        <div class="header-actions">
-          <button
-            mat-icon-button
-            color="primary"
-            (click)="this.prevClick()"
-            data-previous-nav
-            aria-label="Previous recipe"
-          >
-            <mat-icon>chevron_left</mat-icon>
-          </button>
-          <button
-            mat-icon-button
-            color="primary"
-            (click)="this.forwardClick()"
-            data-next-nav
-            aria-label="Next recipe"
-          >
-            <mat-icon>chevron_right</mat-icon>
-          </button>
-          <span class="position" data-total-nav>
-            {{ service.getSelectedRecipeIndex() }}/{{
-              service.searchList.length
-            }}
-          </span>
-        </div>
+        @if (!service.showLists) {
+          <div class="header-actions">
+            <button
+              mat-icon-button
+              color="primary"
+              (click)="this.prevClick()"
+              data-previous-nav
+              aria-label="Previous recipe"
+            >
+              <mat-icon>chevron_left</mat-icon>
+            </button>
+            <button
+              mat-icon-button
+              color="primary"
+              (click)="this.forwardClick()"
+              data-next-nav
+              aria-label="Next recipe"
+            >
+              <mat-icon>chevron_right</mat-icon>
+            </button>
+            <span class="position" data-total-nav>
+              {{ service.getSelectedRecipeIndex() }}/{{
+                service.searchList.length
+              }}
+            </span>
+          </div>
+        }
       </div>
     </div>
   `,
@@ -56,6 +58,7 @@ export class HeaderComponent {
 
   homeClick(): void {
     this.service.setEmptyRecipe();
+    this.service.showLists = false;
 
     const queryParams = new URLSearchParams(window.location.search);
     queryParams.delete('recipe');

@@ -118,6 +118,10 @@ export class HomeComponent implements OnInit {
     return getCategory(categoryNumber);
   }
 
+  goToLists(): void {
+    this.service.showLists = true;
+  }
+
   toggleRecentFavorites(): void {
     this.service.recentFavoritesExpanded =
       !this.service.recentFavoritesExpanded;

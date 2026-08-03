@@ -26,6 +26,14 @@
       >
         Add Recipe
       </a>
+      <button
+        mat-stroked-button
+        color="primary"
+        class="lists-link"
+        (click)="goToLists()"
+      >
+        Lists
+      </button>
     </div>
   </section>
 
@@ -117,6 +125,7 @@
               [dataSource]="recentDataSource"
               [removeColumns]="true"
               [showRemoveRecent]="true"
+              [showAddToList]="true"
             ></app-recipe-table>
           }
         }
@@ -139,6 +148,7 @@
               [removeColumns]="true"
               [isFavoritesList]="true"
               [showUnfavorite]="true"
+              [showAddToList]="true"
             ></app-recipe-table>
           }
         }
@@ -146,5 +156,9 @@
     </section>
   }
 
-  <app-recipe-table [dataSource]="dataSource"></app-recipe-table>
+  <app-recipe-table
+    [dataSource]="dataSource"
+    [showAddToList]="true"
+    [showBulkActions]="true"
+  ></app-recipe-table>
 </div>

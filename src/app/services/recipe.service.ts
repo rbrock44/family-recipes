@@ -4,6 +4,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { EMPTY_RECIPE, HOOPER_FAMILY } from '../constants/constants';
 import { Category } from '../models/category.enum';
 import { Recipe } from '../models/recipe.interface';
+import { RecipeList } from '../models/recipe-list.interface';
 import { RecipeModel } from '../models/recipe.model';
 import { RecipeReaderService } from './recipe-reader.service';
 
@@ -24,6 +25,10 @@ export class RecipeService {
   recentFavoritesExpanded: boolean = false;
   recentExpanded: boolean = true;
   favoritesExpanded: boolean = true;
+  showLists: boolean = false;
+  selectMode: boolean = false;
+  selectedForList: Set<string> = new Set<string>();
+  expandedListIds: Set<string> = new Set<string>();
 
   constructor(
     private reader: RecipeReaderService
@@ -154,6 +159,54 @@ export class RecipeService {
 
   selectRecipe(recipe: Recipe): void {
     this.selectedRecipe = recipe;
+  }
+
+  toggleSelectedForList(filename: string): void {
+    if (this.selectedForList.has(filename)) {
+      this.selectedForList.delete(filename);
+    } else {
+      this.selectedForList.add(filename);
+    }
+  }
+
+  clearSelectedForList(): void {
+    this.selectedForList.clear();
+  }
+
+  readLists(): RecipeList[] {
+    return this.reader.readLists();
+  }
+
+  createList(name: string): RecipeList {
+    return this.reader.createList(name);
+  }
+
+  renameList(id: string, name: string): void {
+    this.reader.renameList(id, name);
+  }
+
+  deleteList(id: string): void {
+    this.reader.deleteList(id);
+  }
+
+  addToList(listId: string, filename: string, batches: number): void {
+    this.reader.addToList(listId, filename, batches);
+  }
+
+  removeFromList(listId: string, filename: string): void {
+    this.reader.removeFromList(listId, filename);
+  }
+
+  setListRecipeBatches(listId: string, filename: string, batches: number): void {
+    this.reader.setListRecipeBatches(listId, filename, batches);
+  }
+
+  readCheckedIngredients(listId: string): string[] {
+    return this.reader.readCheckedIngredients(listId);
+  }
+
+  setCheckedIngredients(listId: string, keys: string[]): void {
+    this.reader.setCheckedIngredients(listId, keys);
   }
 
   findRecipe(filename: string): Recipe | undefined {

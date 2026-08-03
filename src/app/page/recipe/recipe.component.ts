@@ -1,5 +1,7 @@
 import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
+import { AddToListDialogComponent } from 'src/app/components/add-to-list-dialog/add-to-list-dialog.component';
 import { REGEX_TO_HIGHLIGHT } from 'src/app/constants/constants';
 import { formatAmount, trimFloat } from 'src/app/models/decimal.enum';
 import { Ingredient } from 'src/app/models/ingredient.interface';
@@ -25,7 +27,10 @@ export class RecipeComponent {
   ]);
   decimalControl: FormControl = new FormControl(false);
 
-  constructor(private service: RecipeService) {}
+  constructor(
+    private service: RecipeService,
+    private dialog: MatDialog,
+  ) {}
 
   timesBatch(value: any): string {
     const newValue: string = value == undefined ? '0' : value.toString();
@@ -66,6 +71,12 @@ export class RecipeComponent {
 
   closeImage(): void {
     this.showImage = false;
+  }
+
+  openAddToList(): void {
+    this.dialog.open(AddToListDialogComponent, {
+      data: { recipes: [this.recipe], defaultBatches: this.batches() },
+    });
   }
 
   isFavorite(): boolean {

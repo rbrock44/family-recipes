@@ -1,10 +1,11 @@
 <div class="main-shell">
   <div class="ambient-shape ambient-shape-one"></div>
   <div class="ambient-shape ambient-shape-two"></div>
-  @if (service.selectedRecipe.filename == "") {
+  @if (service.showLists) {
+    <app-lists></app-lists>
+  } @else if (service.selectedRecipe.filename == "") {
     <app-home></app-home>
-  }
-  @if (service.selectedRecipe.filename != "") {
+  } @else {
     <app-recipe [recipe]="service.selectedRecipe"></app-recipe>
   }
 </div>

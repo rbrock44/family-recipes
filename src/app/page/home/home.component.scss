@@ -64,10 +64,12 @@
   }
 }
 
-.add-recipe-link {
+.add-recipe-link,
+.lists-link {
   border-radius: 999px;
   padding: 0 1.1rem;
 }
+
 
 .search-panel {
   padding: 1rem;
@@ -163,5 +165,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .lists-link {
+    order: 1;
+  }
+
+  .add-recipe-link {
+    order: 2;
+  }
+
+  .directory-link {
+    order: 3;
   }
 }

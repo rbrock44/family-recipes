@@ -2,6 +2,24 @@
   <div [ngClass]="getResultClass()">
     <div class="center count-row">
       <p class="bold">{{ dataSource.data.length }} Result(s)</p>
+      @if (showBulkActions && service.selectedForList.size > 0) {
+        <div class="bulk-actions">
+          <button
+            mat-flat-button
+            color="primary"
+            (click)="openBulkAddToList()"
+          >
+            Add {{ service.selectedForList.size }} to List
+          </button>
+          <button
+            mat-button
+            class="clear-selection"
+            (click)="clearSelection()"
+          >
+            Clear
+          </button>
+        </div>
+      }
     </div>
     <div class="center">
       <div
@@ -51,7 +69,16 @@
           </ng-container>
           <!-- actions Column -->
           <ng-container matColumnDef="actions">
-            <mat-header-cell *matHeaderCellDef></mat-header-cell>
+            <mat-header-cell *matHeaderCellDef>
+              @if (showAddToList) {
+                <mat-checkbox
+                  class="select-checkbox"
+                  [checked]="service.selectMode"
+                  (change)="setSelectMode($event.checked)"
+                  aria-label="Select multiple recipes to add to a list"
+                ></mat-checkbox>
+              }
+            </mat-header-cell>
             <mat-cell *matCellDef="let element">
               @if (showUnfavorite) {
                 <button
@@ -74,6 +101,16 @@
                   <mat-icon>close</mat-icon>
                 </button>
               }
+              @if (showAddToList) {
+                <button
+                  mat-icon-button
+                  class="actions-button"
+                  (click)="openAddToList(element, $event)"
+                  aria-label="Add to list"
+                >
+                  <mat-icon>playlist_add</mat-icon>
+                </button>
+              }
             </mat-cell>
           </ng-container>
           <mat-header-row
@@ -81,6 +118,11 @@
           ></mat-header-row>
           <mat-row
             *matRowDef="let row; columns: this.displayColumns"
+            [class.selected]="
+              showAddToList &&
+              service.selectMode &&
+              service.selectedForList.has(row.filename)
+            "
             (click)="click(row, $event)"
           ></mat-row>
         </mat-table>
