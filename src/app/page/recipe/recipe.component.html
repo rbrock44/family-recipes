@@ -5,22 +5,48 @@
       <h1>{{ recipe.name }}</h1>
       <h2>{{ recipe.author }}</h2>
     </div>
-    @if (isFavorite()) {
+    <div class="recipe-hero-actions">
+      @if (isFavorite()) {
+        <button
+          mat-icon-button
+          color="warn"
+          (click)="unfavorite()"
+          aria-label="Remove favorite"
+        >
+          <mat-icon>favorite</mat-icon>
+        </button>
+      }
+      @if (!isFavorite()) {
+        <button mat-icon-button (click)="favorite()" aria-label="Add favorite">
+          <mat-icon>favorite_border</mat-icon>
+        </button>
+      }
+      @if (recipe.link) {
+        <button mat-icon-button (click)="openImage()" aria-label="View photo">
+          <mat-icon>photo</mat-icon>
+        </button>
+      }
+    </div>
+  </header>
+
+  @if (showImage && recipe.link) {
+    <div class="image-overlay" (click)="closeImage()">
       <button
         mat-icon-button
-        color="warn"
-        (click)="unfavorite()"
-        aria-label="Remove favorite"
+        class="image-overlay-close"
+        (click)="closeImage()"
+        aria-label="Close photo"
       >
-        <mat-icon>favorite</mat-icon>
+        <mat-icon>close</mat-icon>
       </button>
-    }
-    @if (!isFavorite()) {
-      <button mat-icon-button (click)="favorite()" aria-label="Add favorite">
-        <mat-icon>favorite_border</mat-icon>
-      </button>
-    }
-  </header>
+      <img
+        class="image-overlay-photo"
+        [src]="recipe.link"
+        [alt]="recipe.name"
+        (click)="$event.stopPropagation()"
+      />
+    </div>
+  }
 
   <section class="surface-card meta-card">
     <mat-form-field appearance="outline" class="batch">

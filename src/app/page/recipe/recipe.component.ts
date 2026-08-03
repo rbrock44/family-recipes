@@ -18,6 +18,7 @@ export class RecipeComponent {
   @Input() recipe: Recipe = new RecipeModel();
   showLiquid: boolean = false;
   showDry: boolean = false;
+  showImage: boolean = false;
   batchControl: FormControl = new FormControl(1, [
     Validators.min(1),
     Validators.pattern('^[1-9][0-9]*$'),
@@ -57,6 +58,14 @@ export class RecipeComponent {
     } else {
       this.showDry = true;
     }
+  }
+
+  openImage(): void {
+    this.showImage = true;
+  }
+
+  closeImage(): void {
+    this.showImage = false;
   }
 
   isFavorite(): boolean {
