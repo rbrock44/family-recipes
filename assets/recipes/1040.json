@@ -1,0 +1,45 @@
+{
+  "name": "Cream Filling for Susie Q",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 5,
+      "name": "T flour"
+    },
+    {
+      "amount": 5,
+      "name": "T sugar"
+    },
+    {
+      "amount": 1,
+      "name": "c milk"
+    },
+    {
+      "amount": 0.5,
+      "name": "c butter"
+    },
+    {
+      "amount": 0.5,
+      "name": "c shortening"
+    },
+    {
+      "amount": 1,
+      "name": "c sugar"
+    },
+    {
+      "amount": 1,
+      "name": "t vanilla"
+    },
+    {
+      "amount": 0,
+      "name": "dash salt"
+    }
+  ],
+  "instructions": "5 T flour, 5 T sugar, 1 c milk - cook until thick.\n\n1/2 c butter, 1/2 c shortening, 1 c sugar, 1 t vanilla, dash salt - cream, mix & beat 5 min.",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1040.jpg"
+}
