@@ -67,6 +67,7 @@
    "instructions": "Prep Time: 10 mins\nCook Time: 45 mins\n\nInstructions\n\n* Preheat your oven to 350 degrees F. Lightly grease the bottom and sides of a 9 inch round cake pan with cooking spray. In a small bowl, combine the melted butter and brown sugar and pour the mixture into the bottom of the cake pan, spreading it out evenly. Arrange the pineapple rings around the pan and place maraschino cherries in between. Set aside briefly.\n * In the bowl of a stand mixer, cream together the oil and granulated sugar until moistened. Beat in the egg, salt, baking powder, and vanilla until combined. Beat in the sour cream. Gradually add some of the milk, alternating with the flour until a soft batter comes together. Gently beat in the pineapple juice last.\n* Carefully pour the batter over the pineapples in the pan, careful not to disturb their placement. Bake for approx. 40-45 minutes or until the cake appears set, is light golden brown, and a toothpick inserted near the center comes out clean or with moist, not wet, crumbs. Cool for 10-15 minutes, then very carefully invert the cake onto a platter or plate. Serve warm or room temperature.",
    "yield": {
       "amount": 8,
-      "name": "(8-10)"
+      "upperAmount": 10,
+      "name": ""
    }
 }

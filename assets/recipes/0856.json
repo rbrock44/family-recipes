@@ -59,6 +59,7 @@
    "instructions": "Combine all ingredients except for avocados in a large bowl and mix well. Cover and chill for a few hours or overnight. Right before serving, add avocados and mix gently being careful not to mash avocados. Garnish with more choppedcilantro if desired. Serve at room temperature.",
    "yield": {
       "amount": 6,
-      "name": "(6-8) people"
+      "upperAmount": 8,
+      "name": "people"
    }
 }
