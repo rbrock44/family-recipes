@@ -88,14 +88,65 @@
   align-items: center;
 }
 
-.favorites-wrap {
+.recent-favorites-card {
   margin-top: 0.3rem;
+  padding: 1.25rem;
+  background: var(--surface-gradient-mid);
 }
 
-.favorites-accordion {
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  box-shadow: var(--shadow-soft);
+.recent-favorites-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.recent-favorites-header.expanded {
+  margin-bottom: 1.5rem;
+}
+
+.recent-favorites-card h3 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  width: 100%;
+  padding: 0;
+  margin: 1.25rem 0 0.5rem;
+  border: none;
+  background: none;
+  color: var(--ink-muted);
+  font: inherit;
+  cursor: pointer;
+}
+
+.sub-header h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.sub-header mat-icon {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.recent-favorites-card app-recipe-table {
+  display: block;
+  margin-top: 0.75rem;
 }
 
 @media screen and (max-width: 860px) {

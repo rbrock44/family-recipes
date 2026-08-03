@@ -76,19 +76,73 @@
     </mat-accordion>
   </section>
 
-  @if (favoritesDataSource.data.length > 0) {
-    <section class="favorites-wrap">
-      <mat-accordion class="favorites-accordion">
-        <mat-expansion-panel>
-          <mat-expansion-panel-header>
-            <mat-panel-title> Favorites </mat-panel-title>
-          </mat-expansion-panel-header>
-          <app-recipe-table
-            [dataSource]="favoritesDataSource"
-            [removeColumns]="true"
-          ></app-recipe-table>
-        </mat-expansion-panel>
-      </mat-accordion>
+  @if (favoritesDataSource.data.length > 0 || recentDataSource.data.length > 0) {
+    <section class="surface-card recent-favorites-card">
+      <button
+        type="button"
+        class="recent-favorites-header"
+        [class.expanded]="service.recentFavoritesExpanded"
+        (click)="toggleRecentFavorites()"
+        [attr.aria-expanded]="service.recentFavoritesExpanded"
+      >
+        <h3>
+          {{
+            favoritesDataSource.data.length > 0
+              ? "Recently Visited and Favorites"
+              : "Recently Visited"
+          }}
+        </h3>
+        <mat-icon>{{
+          service.recentFavoritesExpanded ? "expand_less" : "expand_more"
+        }}</mat-icon>
+      </button>
+
+      @if (service.recentFavoritesExpanded) {
+        @if (recentDataSource.data.length > 0) {
+          @if (favoritesDataSource.data.length > 0) {
+            <button
+              type="button"
+              class="sub-header"
+              (click)="toggleRecent()"
+              [attr.aria-expanded]="service.recentExpanded"
+            >
+              <h4>Recently Visited</h4>
+              <mat-icon>{{
+                service.recentExpanded ? "expand_less" : "expand_more"
+              }}</mat-icon>
+            </button>
+          }
+          @if (service.recentExpanded) {
+            <app-recipe-table
+              [dataSource]="recentDataSource"
+              [removeColumns]="true"
+              [showRemoveRecent]="true"
+            ></app-recipe-table>
+          }
+        }
+
+        @if (favoritesDataSource.data.length > 0) {
+          <button
+            type="button"
+            class="sub-header"
+            (click)="toggleFavorites()"
+            [attr.aria-expanded]="service.favoritesExpanded"
+          >
+            <h4>Favorites</h4>
+            <mat-icon>{{
+              service.favoritesExpanded ? "expand_less" : "expand_more"
+            }}</mat-icon>
+          </button>
+          @if (service.favoritesExpanded) {
+            <app-recipe-table
+              [dataSource]="favoritesDataSource"
+              [removeColumns]="true"
+              [isFavoritesList]="true"
+              [showUnfavorite]="true"
+            ></app-recipe-table>
+          }
+        }
+      }
     </section>
   }
 

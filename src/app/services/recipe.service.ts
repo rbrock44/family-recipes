@@ -21,6 +21,9 @@ export class RecipeService {
   searchCategory: Category = 0;
   searchHooperFamily: boolean = false;
   hasSearched: boolean = false;
+  recentFavoritesExpanded: boolean = false;
+  recentExpanded: boolean = true;
+  favoritesExpanded: boolean = true;
 
   constructor(
     private reader: RecipeReaderService
@@ -137,8 +140,24 @@ export class RecipeService {
     return this.reader.readFavorites();
   }
 
+  addToRecent(fileNumber: string): void {
+    this.reader.addToRecent(fileNumber);
+  }
+
+  removeFromRecent(fileNumber: string): void {
+    this.reader.removeFromRecent(fileNumber);
+  }
+
+  readRecent(): string[] {
+    return this.reader.readRecent();
+  }
+
   selectRecipe(recipe: Recipe): void {
     this.selectedRecipe = recipe;
+  }
+
+  findRecipe(filename: string): Recipe | undefined {
+    return this.recipes.find(it => it.filename === filename);
   }
 
   readRecipe(filename: string): void {

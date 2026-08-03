@@ -24,6 +24,7 @@ export class HomeComponent implements OnInit {
 
   dataSource = new MatTableDataSource<Recipe>();
   favoritesDataSource = new MatTableDataSource<Recipe>();
+  recentDataSource = new MatTableDataSource<Recipe>();
 
   categories = CATEGORIES;
 
@@ -54,6 +55,7 @@ export class HomeComponent implements OnInit {
       });
 
     this.loadFavorites();
+    this.loadRecent();
 
     if (this.service.isFullyLoaded()) {
       this.restoreSearch();
@@ -116,15 +118,46 @@ export class HomeComponent implements OnInit {
     return getCategory(categoryNumber);
   }
 
+  toggleRecentFavorites(): void {
+    this.service.recentFavoritesExpanded =
+      !this.service.recentFavoritesExpanded;
+  }
+
+  toggleRecent(): void {
+    this.service.recentExpanded = !this.service.recentExpanded;
+  }
+
+  toggleFavorites(): void {
+    this.service.favoritesExpanded = !this.service.favoritesExpanded;
+  }
+
   loadFavorites(): void {
-    this.service.readFavorites().forEach((filename) => {
-      this.service.firstValueFrom(filename).then((contents) => {
-        let recipe = this.service.convertRecipe(contents);
-        recipe.filename = filename;
-        this.favoritesDataSource.data =
-          this.favoritesDataSource.data.concat(recipe);
-      });
+    this.resolveRecipes(this.service.readFavorites()).then((recipes) => {
+      this.favoritesDataSource.data = recipes;
     });
+  }
+
+  loadRecent(): void {
+    this.resolveRecipes(this.service.readRecent()).then((recipes) => {
+      this.recentDataSource.data = recipes;
+    });
+  }
+
+  private resolveRecipes(filenames: string[]): Promise<Recipe[]> {
+    return Promise.all(
+      filenames.map((filename) => {
+        const cached = this.service.findRecipe(filename);
+        if (cached) {
+          return Promise.resolve(cached);
+        }
+
+        return this.service.firstValueFrom(filename).then((contents) => {
+          let recipe = this.service.convertRecipe(contents);
+          recipe.filename = filename;
+          return recipe;
+        });
+      }),
+    );
   }
 
   private buildUrl(

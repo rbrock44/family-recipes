@@ -78,8 +78,26 @@
   flex: 1.4;
 }
 
-/* Desktop gets taller rows and larger type; the base values stay compact for
-   phones, which is why this is min-width rather than another override. */
+.mat-column-actions {
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  padding-left: 0 !important;
+  padding-right: 0.25rem !important;
+}
+
+.actions-button {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+}
+
+.actions-button .mat-icon {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+}
+
 @media screen and (min-width: 900px) {
   .mat-mdc-header-row {
     min-height: 60px;
@@ -118,8 +136,6 @@
 }
 
 @media screen and (max-width: 420px) {
-  /* On very small phones, drop the two least essential columns so Name and
-     Author have room to breathe; tapping a row still opens the full recipe. */
   .mat-column-category,
   .mat-column-filename {
     display: none;

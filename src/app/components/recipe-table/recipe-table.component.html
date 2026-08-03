@@ -49,12 +49,39 @@
               {{ element.filename }}
             </mat-cell>
           </ng-container>
+          <!-- actions Column -->
+          <ng-container matColumnDef="actions">
+            <mat-header-cell *matHeaderCellDef></mat-header-cell>
+            <mat-cell *matCellDef="let element">
+              @if (showUnfavorite) {
+                <button
+                  mat-icon-button
+                  color="warn"
+                  class="actions-button"
+                  (click)="unfavoriteRow(element, $event)"
+                  aria-label="Remove favorite"
+                >
+                  <mat-icon>favorite</mat-icon>
+                </button>
+              }
+              @if (showRemoveRecent) {
+                <button
+                  mat-icon-button
+                  class="actions-button"
+                  (click)="removeRecent(element, $event)"
+                  aria-label="Remove from recently visited"
+                >
+                  <mat-icon>close</mat-icon>
+                </button>
+              }
+            </mat-cell>
+          </ng-container>
           <mat-header-row
             *matHeaderRowDef="this.displayColumns"
           ></mat-header-row>
           <mat-row
             *matRowDef="let row; columns: this.displayColumns"
-            (click)="click(row)"
+            (click)="click(row, $event)"
           ></mat-row>
         </mat-table>
       </div>

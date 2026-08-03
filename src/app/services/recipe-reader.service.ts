@@ -10,6 +10,8 @@ export class RecipeReaderService {
   recipeTotal = 1040;
   fullyLoaded = false;
   FAVORITE_NAME = "family-recipe-favorites"
+  RECENT_NAME = "family-recipe-recent"
+  RECENT_MAX = 10
 
   constructor(private http: HttpClient) {
   }
@@ -86,5 +88,29 @@ export class RecipeReaderService {
 
   private setFavorites(favorites: string[]) {
     localStorage.setItem(this.FAVORITE_NAME, JSON.stringify(favorites));
+  }
+
+  addToRecent(fileNumber: string): void {
+    let recent: string[] = this.readRecent().filter(it => it != fileNumber);
+    recent.unshift(fileNumber);
+
+    this.setRecent(recent.slice(0, this.RECENT_MAX));
+  }
+
+  removeFromRecent(fileNumber: string): void {
+    let recent: string[] = this.readRecent();
+    recent = recent.filter(it => it != fileNumber);
+
+    this.setRecent(recent);
+  }
+
+  readRecent(): string[] {
+    let items = localStorage.getItem(this.RECENT_NAME);
+    let recent: string[] = !!items ? JSON.parse(items) : [];
+    return recent;
+  }
+
+  private setRecent(recent: string[]) {
+    localStorage.setItem(this.RECENT_NAME, JSON.stringify(recent));
   }
 }

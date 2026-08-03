@@ -22,6 +22,9 @@ import { Location } from '@angular/common';
 export class RecipeTableComponent implements OnInit {
   @Input() dataSource = new MatTableDataSource<Recipe>();
   @Input() removeColumns: boolean = false;
+  @Input() isFavoritesList: boolean = false;
+  @Input() showUnfavorite: boolean = false;
+  @Input() showRemoveRecent: boolean = false;
   displayColumns: string[] = ['name', 'author', 'category', 'filename'];
 
   // @ts-ignore
@@ -37,21 +40,49 @@ export class RecipeTableComponent implements OnInit {
       this.displayColumns = ['name', 'author'];
     }
 
+    if (this.showUnfavorite || this.showRemoveRecent) {
+      this.displayColumns = [...this.displayColumns, 'actions'];
+    }
+
     this.dataSource.sort = this.sort;
   }
 
-  click(recipe: Recipe): void {
-    this.service.useFavoritesList = this.removeColumns;
+  click(recipe: Recipe, event?: Event): void {
+    if (
+      event &&
+      (event.target as HTMLElement).closest('.mat-column-actions')
+    ) {
+      return;
+    }
+
+    this.service.useFavoritesList = this.isFavoritesList;
     var filename = recipe.filename != null ? recipe.filename.toString() : '001';
     recipe.filename = filename;
     this.service.searchList = this.dataSource.data.map((item) => item.filename);
     this.service.selectRecipe(recipe);
+    this.service.addToRecent(filename);
 
     this.location.replaceState(this.buildUrl(filename));
   }
 
   getCategory(categoryNumber: number): string {
     return getCategory(categoryNumber);
+  }
+
+  unfavoriteRow(recipe: Recipe, event: Event): void {
+    event.stopPropagation();
+    this.service.removeFromFavorites(recipe.filename);
+    this.dataSource.data = this.dataSource.data.filter(
+      (it) => it.filename !== recipe.filename,
+    );
+  }
+
+  removeRecent(recipe: Recipe, event: Event): void {
+    event.stopPropagation();
+    this.service.removeFromRecent(recipe.filename);
+    this.dataSource.data = this.dataSource.data.filter(
+      (it) => it.filename !== recipe.filename,
+    );
   }
 
   sortData(): void {
