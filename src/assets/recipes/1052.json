@@ -1,0 +1,20 @@
+{
+  "name": "Bread Pudding",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    { "amount": 1, "name": "loaf French bread" },
+    { "amount": 2.5, "name": "c. milk" },
+    { "amount": 1, "name": "c. whole milk (or 1/2 + 1/2 cream)" },
+    { "amount": 4, "name": "eggs" },
+    { "amount": 1, "name": "c. sugar" },
+    { "amount": 0, "name": "vanilla" },
+    { "amount": 0, "name": "salt" },
+    { "amount": 0.5, "name": "c. butter" },
+    { "amount": 1.5, "name": "c. brown sugar" },
+    { "amount": 1, "name": "c. pecans" }
+  ],
+  "instructions": "Bake 350° for 45-55 min.\nSoak 5-10 min, mix.\n\nPut 1/2 into 8x8 pan, top with 1/2 of butter/sugar/pecan mixture. Top with remainder.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1052.jpg"
+}

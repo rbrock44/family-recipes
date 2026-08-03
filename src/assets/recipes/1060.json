@@ -1,0 +1,15 @@
+{
+  "name": "Bundt Cake",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    { "amount": 1, "name": "box devil's food cake mix" },
+    { "amount": 1, "name": "box instant chocolate pudding" },
+    { "amount": 1.75, "name": "c milk" },
+    { "amount": 2, "name": "eggs" },
+    { "amount": 8, "name": "oz chocolate chips" }
+  ],
+  "instructions": "Mix all - in floured bundt pan\n350 50 min\nCool 10 min",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1060.jpg"
+}

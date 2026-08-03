@@ -1,0 +1,19 @@
+{
+  "name": "Garlic Soy Pan-Fried Chicken",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    { "amount": 0, "name": "chicken, seasoned and cut" },
+    { "amount": 0, "name": "flour, for dredging" },
+    { "amount": 2, "name": "tsp butter (for frying)" },
+    { "amount": 1, "name": "tsp butter (sauce)" },
+    { "amount": 3, "name": "tsp garlic" },
+    { "amount": 2, "name": "tsp soy sauce" },
+    { "amount": 1, "name": "tsp honey" },
+    { "amount": 1, "name": "tsp vinegar" },
+    { "amount": 0, "name": "parsley, for garnish" }
+  ],
+  "instructions": "Season and cut chicken.\nDredge in flour.\nFry in 2t butter; brown on both sides.\n\nSauce: 1t butter, 3t garlic, 2t soy, 1t honey, 1t vinegar.\n\nSprinkle with parsley.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1068.jpg"
+}

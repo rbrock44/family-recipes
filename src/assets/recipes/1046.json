@@ -1,0 +1,26 @@
+{
+  "name": "Chicken Tortellini Soup",
+  "author": "Woman's World - Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 2, "name": "Tbs. butter" },
+    { "amount": 0.5, "name": "cup chopped onion" },
+    { "amount": 2, "name": "cloves garlic, minced (1 tsp.)" },
+    { "amount": 2, "name": "Tbs. all-purpose flour" },
+    { "amount": 4, "name": "cups chicken stock or broth" },
+    {
+      "amount": 4,
+      "name": "small boneless, skinless chicken breast halves, cut into bite-size pieces"
+    },
+    { "amount": 4, "name": "large carrots, thinly sliced" },
+    { "amount": 3, "name": "ribs celery, thinly sliced" },
+    { "amount": 1, "name": "Tbs. lemon juice" },
+    { "amount": 2, "name": "Tbs. finely chopped fresh parsley" },
+    { "amount": 0.5, "name": "tsp. dried thyme" },
+    { "amount": 9, "name": "oz. cheese tortellini or egg noodles" },
+    { "amount": 0, "name": "Salt and pepper" }
+  ],
+  "instructions": "In medium pot, melt butter over medium heat. Add onion; cook 2 minutes. Stir in garlic; cook until onion becomes translucent. Gradually add flour, stirring, until mixture becomes a thick paste and turns light golden brown.\n\nGradually whisk in chicken stock; bring to gentle simmer. Add chicken, carrots, celery, lemon juice, parsley and thyme. Simmer 8-10 minutes or until vegetables are just tender.\n\nStir in tortellini; simmer 8-10 minutes or until tortellini and chicken are cooked. Remove from heat; season with salt and pepper.",
+  "yield": { "amount": 6, "name": "servings" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1044.jpg"
+}

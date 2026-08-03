@@ -1,0 +1,25 @@
+{
+  "name": "Spinach Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 0, "name": "fresh baby spinach" },
+    { "amount": 0, "name": "hard boiled eggs, coarse chopped or sliced" },
+    { "amount": 0, "name": "bacon, fried crisp and chopped" },
+    { "amount": 0, "name": "sunflower seeds" },
+    { "amount": 0, "name": "cashews" },
+    { "amount": 0, "name": "shards of Parmesan cheese" },
+    { "amount": 0.5, "name": "package Ranch style dressing mix" },
+    { "amount": 0.33, "name": "cup sugar" },
+    { "amount": 0.5, "name": "teaspoon salt" },
+    { "amount": 0.5, "name": "teaspoon pepper" },
+    { "amount": 1, "name": "tablespoon yellow mustard" },
+    { "amount": 0.5, "name": "teaspoon celery seed" },
+    { "amount": 0.33, "name": "cup vinegar" },
+    { "amount": 1, "name": "cup canola or vegetable oil" },
+    { "amount": 1, "name": "small onion or shallot, finely chopped" }
+  ],
+  "instructions": "For the salad dressing, combine those ingredients together in a small saucepan or skillet. Heat through until warm and sugar is dissolved. Don't boil or overheat too much.\n\nFor the salad, combine those ingredients together in a large bowl in the amounts you desire, by adding or taking away ingredients as you choose.\n\nWhen ready to serve, gently pour desired amount of warmed dressing over salad and serve immediately.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1054.jpg"
+}

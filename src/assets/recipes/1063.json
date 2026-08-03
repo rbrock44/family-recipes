@@ -1,0 +1,18 @@
+{
+  "name": "Apple Cider Pork Loin",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    { "amount": 2, "name": "lb meat (pork loin)" },
+    { "amount": 2, "name": "T oil" },
+    { "amount": 2, "name": "c cider" },
+    { "amount": 1, "name": "onion" },
+    { "amount": 2, "name": "apples, cored & sliced" },
+    { "amount": 1, "name": "t salt" },
+    { "amount": 1, "name": "T ground pepper" },
+    { "amount": 1, "name": "T dry mustard" }
+  ],
+  "instructions": "Season with salt, pepper & onions.\nPlace oil in inner pot. Press \"Chicken/meat\" button, sear the loin on all sides. remove.\nSaute onions. Add all ingredients.\nlock lid - press cancel.\nPress \"Chick-meat\" button - time 20 min.\n\"Keep Warm\" will appear when time is up. Press cancel, switch valve to open.\nremove.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1063.jpg"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Pizza Dip",
+  "author": "H.A. - Anne Brock",
+  "category": 1,
+  "ingredients": [
+    { "amount": 0, "name": "cream cheese" },
+    { "amount": 0, "name": "pizza marinara sauce" },
+    { "amount": 0, "name": "mushrooms" },
+    { "amount": 0, "name": "olives" },
+    { "amount": 0, "name": "anchovies" },
+    { "amount": 0, "name": "peppers" },
+    { "amount": 0, "name": "cheese" },
+    { "amount": 0, "name": "bacon" },
+    { "amount": 0, "name": "pepperoni" },
+    { "amount": 0, "name": "hamburger" },
+    { "amount": 0, "name": "lettuce" },
+    { "amount": 0, "name": "chicken, etc." },
+    { "amount": 0, "name": "chips, Doritos, etc., for dipping" }
+  ],
+  "instructions": "Use cake pan or cookie sheet, according to how much you make.\n\nLayer and pat bottom of pan with cream cheese.\n\nAdd: all kinds of pizza stuff - what you like: pizza marinara sauce, mushrooms, olives, anchovies, peppers, cheese, bacon, pepperoni, hamburger, lettuce, chicken, etc., etc.\n\nBake and eat. Don't know how long, etc.\nDip out of pan with chips, Doritos, etc.\n\nDoesn't last long, it's great.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1076.jpg"
+}

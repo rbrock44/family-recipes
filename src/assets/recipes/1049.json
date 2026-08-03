@@ -1,0 +1,14 @@
+{
+  "name": "Sausage Biscuits",
+  "author": "Anne Brock",
+  "category": 5,
+  "ingredients": [
+    { "amount": 2, "name": "c. cheddar cheese" },
+    { "amount": 0, "name": "raw sausage" },
+    { "amount": 0, "name": "biscuits" },
+    { "amount": 0, "name": "parmesan cheese (for topping)" }
+  ],
+  "instructions": "400° - 8-10 min.\nMuffin pan.\nMix 2 c. cheddar cheese with raw sausage.\nSeparate each biscuit & place in pan.\nTop with parmesan cheese.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1049.jpg"
+}

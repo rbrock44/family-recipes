@@ -1,0 +1,17 @@
+{
+  "name": "Pot Pie",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    { "amount": 1, "name": "stick butter, melted in casserole pan" },
+    { "amount": 0, "name": "chicken (rotisserie)" },
+    { "amount": 1, "name": "pkg. peas & carrots or mixed veg" },
+    { "amount": 2, "name": "c milk" },
+    { "amount": 0.5, "name": "pkg Bisquick herb mix" },
+    { "amount": 2, "name": "cups broth" },
+    { "amount": 1, "name": "c cream of chicken with herbs (soup)" }
+  ],
+  "instructions": "Pot Pie (1/2 this recipe)\n1 stick butter melted in casserole pan\nChicken (rotisserie)\n1 pkg. peas & carrots or mixed veg\n2 c. milk mix with 1/2 pkg Bisquick herb mix\nPour over ingredients, mix\n2 cups broth mix with 1 c cream of chicken with herbs\n350 - 50 min",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1064.jpg"
+}

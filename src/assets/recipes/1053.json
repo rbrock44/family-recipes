@@ -1,0 +1,22 @@
+{
+  "name": "America's Classic No-Fail Chocolate Chip Cookies",
+  "author": "Blue Bonnet - Anne Brock",
+  "category": 6,
+  "ingredients": [
+    { "amount": 2.25, "name": "cups all-purpose flour" },
+    { "amount": 1, "name": "teaspoon baking soda" },
+    { "amount": 1, "name": "teaspoon salt" },
+    {
+      "amount": 1,
+      "name": "cup Blue Bonnet stick, melted, cooled (1 cup = 2 sticks)"
+    },
+    { "amount": 1, "name": "cup granulated sugar" },
+    { "amount": 0.5, "name": "cup firmly packed brown sugar" },
+    { "amount": 2, "name": "eggs, slightly beaten" },
+    { "amount": 2, "name": "teaspoons vanilla extract" },
+    { "amount": 2, "name": "cups semisweet chocolate morsels" }
+  ],
+  "instructions": "1. Preheat oven to 375°F. Combine flour, baking soda and salt in medium bowl; set aside.\n2. Beat Blue Bonnet, granulated sugar and brown sugar by hand in large bowl until combined. Add eggs and vanilla; beat until well blended. Add flour mixture; mix until just combined. Stir in chocolate morsels.\n3. Drop cookie dough by rounded tablespoons onto ungreased cookie sheet about 1-1/2 inches apart.\n4. Bake 12 to 14 minutes or until edges are crisp but centers are still soft. Let stand 2 minutes on cookie sheet before removing and cooling completely on wire racks.",
+  "yield": { "amount": 26, "name": "servings (1 cookie each)" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1053.jpg"
+}

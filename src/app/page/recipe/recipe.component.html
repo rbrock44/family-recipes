@@ -21,11 +21,6 @@
           <mat-icon>favorite_border</mat-icon>
         </button>
       }
-      @if (recipe.link) {
-        <button mat-icon-button (click)="openImage()" aria-label="View photo">
-          <mat-icon>photo</mat-icon>
-        </button>
-      }
       <button
         mat-icon-button
         (click)="openAddToList()"
@@ -33,6 +28,11 @@
       >
         <mat-icon>playlist_add</mat-icon>
       </button>
+      @if (recipe.link) {
+        <button mat-icon-button (click)="openImage()" aria-label="View photo">
+          <mat-icon>photo</mat-icon>
+        </button>
+      }
     </div>
   </header>
 
@@ -46,12 +46,35 @@
       >
         <mat-icon>close</mat-icon>
       </button>
+
+      @if (allPhotos().length > 1) {
+        <button
+          mat-icon-button
+          class="image-overlay-nav image-overlay-prev"
+          (click)="previousPhoto($event)"
+          aria-label="Previous photo"
+        >
+          <mat-icon>chevron_left</mat-icon>
+        </button>
+      }
+
       <img
         class="image-overlay-photo"
-        [src]="recipe.link"
+        [src]="allPhotos()[currentPhotoIndex]"
         [alt]="recipe.name"
         (click)="$event.stopPropagation()"
       />
+
+      @if (allPhotos().length > 1) {
+        <button
+          mat-icon-button
+          class="image-overlay-nav image-overlay-next"
+          (click)="nextPhoto($event)"
+          aria-label="Next photo"
+        >
+          <mat-icon>chevron_right</mat-icon>
+        </button>
+      }
     </div>
   }
 
@@ -70,7 +93,7 @@
 
     @if (recipe.yield.amount > 0) {
       <p class="serves">
-        Serves: {{ timesBatch(recipe.yield.amount) }} {{ recipe.yield.name }}
+        Serves: {{ timesBatch(recipe.yield.amount) }}{{ recipe.yield.upperAmount ? '-' + timesBatch(recipe.yield.upperAmount) : '' }} {{ recipe.yield.name }}
       </p>
     }
   </section>

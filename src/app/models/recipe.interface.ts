@@ -8,6 +8,7 @@ export interface Recipe {
   instructions: string;
   filename: string;
   link?: string;
+  additionalLinks?: string[];
   ingredients: Ingredient[];
   url?: string;
   yield: Yield;

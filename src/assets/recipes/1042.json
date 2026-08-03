@@ -1,0 +1,18 @@
+{
+  "name": "Fudge",
+  "author": "Great Value - Anne Brock",
+  "category": 6,
+  "ingredients": [
+    { "amount": 1.5, "name": "cups Great Value Granulated Sugar" },
+    { "amount": 0.67, "name": "cup Great Value Evaporated Milk" },
+    { "amount": 2, "name": "Tbsp. Great Value Sweet Cream Butter" },
+    { "amount": 0.25, "name": "tsp. Great Value Salt" },
+    { "amount": 2, "name": "cups Great Value Mini Marshmallows" },
+    { "amount": 1.5, "name": "cups semi-sweet chocolate chips" },
+    { "amount": 0.5, "name": "cup chopped nuts (optional)" },
+    { "amount": 1, "name": "tsp. Great Value Pure Vanilla Extract" }
+  ],
+  "instructions": "Line an 8 inch square baking pan with aluminum foil. Combine sugar, evaporated milk, butter and salt in a heavy medium-sized saucepan. Bring to a boil over medium heat, stirring constantly. Continue to boil, stirring constantly, for 4 to 5 minutes. Remove from heat. Stir in marshmallows, chocolate chips, nuts and vanilla extract. Stir for 1 minute or until marshmallows are melted. Pour into the prepared baking pan; refrigerate for 2 hours or until firm. Lift the fudge from the pan and remove the foil. Cut into 48 pieces to serve.",
+  "yield": { "amount": 48, "name": "pieces" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1042.jpg"
+}

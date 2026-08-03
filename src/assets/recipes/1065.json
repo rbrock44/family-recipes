@@ -1,0 +1,18 @@
+{
+  "name": "Cheese/Broccoli Soup (with Bacon)",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 1, "name": "cup half & half, blended with 1/4 c flour" },
+    { "amount": 32, "name": "oz broth" },
+    { "amount": 0, "name": "carrots" },
+    { "amount": 0, "name": "broccoli" },
+    { "amount": 0, "name": "almonds" },
+    { "amount": 0, "name": "salt & pepper (add last)" },
+    { "amount": 2, "name": "c Velveeta cheese" },
+    { "amount": 0, "name": "bacon" }
+  ],
+  "instructions": "Blend 1 cup half & half + 1/4 c flour.\n32 oz broth.\nCarrots, broccoli, almonds.\nSalt & pepper (last).\n2 c cheese Velveeta.\nCook 10 min (simmer), chicken.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1065.jpg"
+}

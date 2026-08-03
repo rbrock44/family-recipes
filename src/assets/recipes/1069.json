@@ -1,0 +1,24 @@
+{
+  "name": "Sweet and Sour Chicken",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    { "amount": 0, "name": "chicken breasts, cut in cubes" },
+    { "amount": 2, "name": "tsp soy sauce" },
+    { "amount": 2, "name": "Tbsp vinegar" },
+    { "amount": 1, "name": "egg" },
+    { "amount": 0, "name": "corn starch" },
+    { "amount": 0.5, "name": "c water" },
+    { "amount": 3, "name": "tsp soy sauce" },
+    { "amount": 1, "name": "tsp corn starch" },
+    { "amount": 2, "name": "Tbsp vinegar" },
+    { "amount": 2, "name": "Tbsp dijon mustard" },
+    { "amount": 2, "name": "tsp brown sugar" },
+    { "amount": 0, "name": "onion, sauteed" },
+    { "amount": 0, "name": "pepper, sauteed" },
+    { "amount": 3, "name": "tsp corn starch, dissolved in water (to thicken)" }
+  ],
+  "instructions": "Cut chicken breasts in cubes.\nMix: 2t soy sauce, 2 Tbsp vinegar, 1 egg, + corn starch.\nSeason.\nBrown, then add 1/2 c. water, 3t soy sauce.\n\nAdd 1t corn starch.\nTransfer & brown.\n2 Tbsp vinegar, 2 Tbsp dijon mustard, 2t brown sugar.\nSauté onion + pepper.\nCorn starch, 3t in water, to thicken.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1068.jpg"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Pizza Dip",
+  "author": "Anne Brock",
+  "category": 1,
+  "ingredients": [
+    { "amount": 0, "name": "cream cheese" },
+    { "amount": 0, "name": "marinara sauce" },
+    { "amount": 0, "name": "shredded cheese" },
+    { "amount": 0, "name": "meats" },
+    { "amount": 0, "name": "whatever toppings" },
+    { "amount": 0, "name": "potato chips, tortilla chips, etc., for serving" }
+  ],
+  "instructions": "Layer everything on cookie sheet or oblong cake pan.\n\nCream cheese on bottom.\nMarinara sauce.\nShredded cheese.\nMeats.\nWhatever toppings.\n\nBake 10-15-20 minutes ???\nMelt cr. cheese & warm — good.\n\nServe with potato chips, tortilla chips, etc.\n\nReally good.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1074.jpg"
+}

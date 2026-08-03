@@ -1,0 +1,23 @@
+{
+  "name": "Macaroni Salad",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 0, "name": "cooked macaroni" },
+    { "amount": 0, "name": "onion" },
+    { "amount": 0, "name": "peppers, red, green & yellow" },
+    { "amount": 0, "name": "celery" },
+    { "amount": 0, "name": "pimentos" },
+    { "amount": 0, "name": "mayonnaise" },
+    { "amount": 2, "name": "tsp dijon mustard" },
+    { "amount": 0.25, "name": "cup vinegar" },
+    { "amount": 0, "name": "garlic" },
+    { "amount": 0, "name": "sour cream" },
+    { "amount": 0, "name": "pickles" },
+    { "amount": 0.33, "name": "cup sugar" },
+    { "amount": 0, "name": "eggs" }
+  ],
+  "instructions": "",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1066.jpg"
+}

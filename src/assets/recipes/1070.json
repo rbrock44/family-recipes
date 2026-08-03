@@ -1,0 +1,22 @@
+{
+  "name": "Tex-Mex Mix",
+  "author": "Mature Living, January 2014 - Anne Brock",
+  "category": 1,
+  "ingredients": [
+    { "amount": 3, "name": "medium ripe avocados" },
+    { "amount": 2, "name": "tablespoons lemon juice" },
+    { "amount": 0.5, "name": "teaspoon salt" },
+    { "amount": 0.25, "name": "teaspoon pepper" },
+    { "amount": 1, "name": "cup sour cream" },
+    { "amount": 0.5, "name": "cup mayonnaise" },
+    { "amount": 1, "name": "package taco seasoning" },
+    { "amount": 2, "name": "cans (10 1/2 ounces each) bean dip" },
+    { "amount": 1, "name": "large bunch green onions" },
+    { "amount": 0.33, "name": "cup chopped black olives" },
+    { "amount": 1, "name": "small package cherry tomatoes, chopped" },
+    { "amount": 8, "name": "ounces sharp Cheddar cheese, grated" }
+  ],
+  "instructions": "Peel, pit, and mash avocados. Mix lemon juice, salt, and pepper, and add to avocados. In another bowl, mix sour cream, mayonnaise, and taco seasoning. On a serving dish with a rim, spread bean dip. Top with avocado mixture. Layer with sour cream mixture, onion, olives, and tomatoes. Sprinkle cheese evenly on top. Serve chilled with tortilla chips.",
+  "yield": { "amount": 10, "name": "servings", "upperAmount": 12 },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1070.jpg"
+}

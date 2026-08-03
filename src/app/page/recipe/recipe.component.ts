@@ -21,6 +21,7 @@ export class RecipeComponent {
   showLiquid: boolean = false;
   showDry: boolean = false;
   showImage: boolean = false;
+  currentPhotoIndex: number = 0;
   batchControl: FormControl = new FormControl(1, [
     Validators.min(1),
     Validators.pattern('^[1-9][0-9]*$'),
@@ -65,12 +66,31 @@ export class RecipeComponent {
     }
   }
 
+  allPhotos(): string[] {
+    const links = [this.recipe.link, ...(this.recipe.additionalLinks || [])];
+    return links.filter((it): it is string => !!it);
+  }
+
   openImage(): void {
+    this.currentPhotoIndex = 0;
     this.showImage = true;
   }
 
   closeImage(): void {
     this.showImage = false;
+  }
+
+  nextPhoto(event: Event): void {
+    event.stopPropagation();
+    const photos = this.allPhotos();
+    this.currentPhotoIndex = (this.currentPhotoIndex + 1) % photos.length;
+  }
+
+  previousPhoto(event: Event): void {
+    event.stopPropagation();
+    const photos = this.allPhotos();
+    this.currentPhotoIndex =
+      (this.currentPhotoIndex - 1 + photos.length) % photos.length;
   }
 
   openAddToList(): void {

@@ -1,0 +1,15 @@
+{
+  "name": "Chicken and Rice Casserole",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    { "amount": 0, "name": "rice" },
+    { "amount": 0, "name": "broth" },
+    { "amount": 0, "name": "cream of mushroom soup" },
+    { "amount": 0, "name": "chicken, cubed" },
+    { "amount": 0, "name": "onion soup mix" }
+  ],
+  "instructions": "Rice, broth, and cream of mushroom soup with chicken, cubed.\n\nBrado, complete.\n\nAdd onion soup mix. Bake at 360°, 60-70 min.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1056.jpg"
+}
