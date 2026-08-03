@@ -3,6 +3,7 @@ import { FormControl } from '@angular/forms';
 import { MatTableDataSource } from '@angular/material/table';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { CATEGORIES, getCategory } from 'src/app/models/category.enum';
+import { decodeSharedList } from 'src/app/models/list-share';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
 import { ActivatedRoute } from '@angular/router';
@@ -42,6 +43,8 @@ export class HomeComponent implements OnInit {
     // document.querySelectorAll('[type=search]').forEach((element) => {
     //   this.blurKeyboard(element);
     // });
+    this.importSharedList();
+
     this.searchControl.valueChanges
       .pipe(debounceTime(300))
       .subscribe((value) => {
@@ -67,6 +70,38 @@ export class HomeComponent implements OnInit {
         }
       }, 250); // check every 0.25 seconds
     }
+  }
+
+  private importSharedList(): void {
+    const queryParams = new URLSearchParams(window.location.search);
+    const shared = queryParams.get('sharedList');
+
+    if (!shared) {
+      return;
+    }
+
+    try {
+      const payload = decodeSharedList(shared);
+      const existingNames = this.service.readLists().map((it) => it.name);
+      const name = existingNames.includes(payload.name)
+        ? `${payload.name} (Shared)`
+        : payload.name;
+
+      const list = this.service.createList(name);
+      payload.recipes.forEach((entry) => {
+        this.service.addToList(list.id, entry.filename, entry.batches);
+      });
+
+      this.service.showLists = true;
+    } catch {
+      // Malformed/tampered link - ignore rather than crash the app.
+    }
+
+    queryParams.delete('sharedList');
+    const query = queryParams.toString();
+    this.location.replaceState(
+      query ? `${location.pathname}?${query}` : location.pathname,
+    );
   }
 
   private restoreSearch(): void {

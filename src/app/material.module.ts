@@ -7,6 +7,7 @@ import {MatOptionModule} from '@angular/material/core';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSortModule} from '@angular/material/sort';
 import {MatTableModule} from '@angular/material/table';
@@ -23,6 +24,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatInputModule,
     MatDialogModule,
     MatOptionModule,
+    MatProgressSpinnerModule,
     MatRadioModule,
     MatTableModule,
     MatSelectModule,
@@ -37,6 +39,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatInputModule,
     MatDialogModule,
     MatOptionModule,
+    MatProgressSpinnerModule,
     MatRadioModule,
     MatTableModule,
     MatSelectModule,

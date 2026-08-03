@@ -5,6 +5,7 @@ import {
   AggregatedIngredient,
   aggregateIngredients,
 } from 'src/app/models/ingredient-aggregator';
+import { encodeSharedList } from 'src/app/models/list-share';
 import { Recipe } from 'src/app/models/recipe.interface';
 import { RecipeList } from 'src/app/models/recipe-list.interface';
 import { RecipeService } from 'src/app/services/recipe.service';
@@ -18,6 +19,7 @@ interface ListView {
   list: RecipeList;
   expanded: boolean;
   renaming: boolean;
+  justShared: boolean;
   nameControl: FormControl;
   rows: ListRecipeRow[];
   ingredients: AggregatedIngredient[];
@@ -33,14 +35,21 @@ interface ListView {
 })
 export class ListsComponent implements OnInit {
   views: ListView[] = [];
+  loading: boolean = true;
 
   constructor(public service: RecipeService) {}
 
   ngOnInit(): void {
-    Promise.all(
-      this.service.readLists().map((list) => this.buildView(list)),
-    ).then((views) => {
+    const lists = this.service.readLists();
+
+    if (lists.length === 0) {
+      this.loading = false;
+      return;
+    }
+
+    Promise.all(lists.map((list) => this.buildView(list))).then((views) => {
       this.views = views;
+      this.loading = false;
     });
   }
 
@@ -108,6 +117,33 @@ export class ListsComponent implements OnInit {
     this.refreshIngredients(view);
   }
 
+  shareList(view: ListView): void {
+    const encoded = encodeSharedList({
+      name: view.list.name,
+      recipes: view.rows.map((row) => ({
+        filename: row.recipe.filename,
+        batches: row.batches,
+      })),
+    });
+
+    const url = new URL(location.href);
+    url.search = '';
+    url.searchParams.set('sharedList', encoded);
+    const shareUrl = url.toString();
+
+    navigator.clipboard.writeText(shareUrl).then(
+      () => {
+        view.justShared = true;
+        setTimeout(() => {
+          view.justShared = false;
+        }, 2000);
+      },
+      () => {
+        window.alert(`Copy this link to share the list:\n\n${shareUrl}`);
+      },
+    );
+  }
+
   openRecipe(recipe: Recipe): void {
     this.service.selectRecipe(recipe);
     this.service.addToRecent(recipe.filename);
@@ -169,6 +205,7 @@ export class ListsComponent implements OnInit {
       list,
       expanded: this.service.expandedListIds.has(list.id),
       renaming: false,
+      justShared: false,
       nameControl: new FormControl(list.name),
       rows,
       ingredients: this.buildIngredients(rows),

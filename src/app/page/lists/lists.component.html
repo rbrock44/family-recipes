@@ -4,7 +4,12 @@
     <h1>Your Lists</h1>
   </header>
 
-  @if (views.length === 0) {
+  @if (loading) {
+    <section class="surface-card empty-card loading-card">
+      <mat-spinner diameter="32"></mat-spinner>
+      <p>Loading your lists...</p>
+    </section>
+  } @else if (views.length === 0) {
     <section class="surface-card empty-card">
       <p>
         You haven't created any lists yet. Use the "Add to list" icon on a
@@ -43,6 +48,15 @@
             aria-label="Delete list"
           >
             <mat-icon>delete</mat-icon>
+          </button>
+          <button
+            mat-icon-button
+            (click)="shareList(view)"
+            [attr.aria-label]="
+              view.justShared ? 'Link copied' : 'Copy share link'
+            "
+          >
+            <mat-icon>{{ view.justShared ? "check" : "share" }}</mat-icon>
           </button>
         } @else {
           <mat-form-field appearance="outline" class="rename-field">
