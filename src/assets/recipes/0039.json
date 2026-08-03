@@ -31,6 +31,7 @@
    "instructions": "Grease 9 x 13 pan. Tear tortillas into bite size pieces and saute in butter until soft. Layer (lasagna style), tortillas, eggs, sauce, onions, sour cream, and cheese. Repeat layer. Can easily be made ahead. Bake at 350' for 20 minutes. Good cold or reheated. Freezes well also.",
    "yield": {
       "amount": 6,
-      "name": "(6-8) servings"
+      "upperAmount": 8,
+      "name": "servings"
    }
 }

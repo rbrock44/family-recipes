@@ -35,6 +35,7 @@
    "instructions": "In med. sauce pan, cook potatoes in salted water, until tender (about 15 mins.). Drain potatoes & return to the saucepan. Add butter, sour cream, & garlic. Mash potatoes w/ fork or masher until blanded. Add milk - 1 TBL at a time until the potatoes are the desired consistency. Salt & pepper to taste",
    "yield": {
       "amount": 2,
-      "name": "(2-3) servings"
+      "upperAmount": 3,
+      "name": "servings"
    }
 }
