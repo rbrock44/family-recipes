@@ -1,0 +1,33 @@
+{
+  "name": "Icing",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 1.5,
+      "name": "c. Crisco"
+    },
+    {
+      "amount": 2,
+      "name": "lbs. powdered sugar"
+    },
+    {
+      "amount": 2,
+      "name": "egg whites"
+    },
+    {
+      "amount": 0.5,
+      "name": "tsp. salt"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. water"
+    }
+  ],
+  "instructions": "",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1032.jpg"
+}

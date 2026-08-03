@@ -1,0 +1,49 @@
+{
+  "name": "Creamy Easter Eggs",
+  "author": "Anne Brock",
+  "category": 6,
+  "ingredients": [
+    {
+      "amount": 3,
+      "name": "T. invert sugar"
+    },
+    {
+      "amount": 0.33,
+      "name": "c. chopped cherry & pineapple"
+    },
+    {
+      "amount": 0.33,
+      "name": "c. nuts"
+    },
+    {
+      "amount": 3,
+      "name": "c. sugar"
+    },
+    {
+      "amount": 2,
+      "name": "T. clear syrup"
+    },
+    {
+      "amount": 0,
+      "name": "dash salt"
+    },
+    {
+      "amount": 0.5,
+      "name": "c. water"
+    },
+    {
+      "amount": 0.5,
+      "name": "t. vanilla"
+    },
+    {
+      "amount": 1,
+      "name": "c. plus 2 T. marshmallow cream"
+    }
+  ],
+  "instructions": "Boil 1, 2, 3, 2 or 3 min, drain, reserve liq. Combine liq, sugar, clear syrup, salt & water. Cover, bring to boil.\n\nCook to 250°. Stir until lukewarm & opaque. Add marshmallow cream, vanilla. Stir until creamy, add nuts & fruit.\n\nKnead into candy, form eggs, [illegible word] stand 2 hrs. Dip",
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1037.jpg"
+}

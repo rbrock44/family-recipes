@@ -1,0 +1,29 @@
+{
+  "name": "Punch",
+  "author": "Anne Brock",
+  "category": 7,
+  "ingredients": [
+    {
+      "amount": 1,
+      "name": "6oz can frozen OJ concentrate"
+    },
+    {
+      "amount": 1,
+      "name": "6oz can frozen lemonade concentrate"
+    },
+    {
+      "amount": 1,
+      "name": "12oz can apricot nectar"
+    },
+    {
+      "amount": 1,
+      "name": "#2 can pineapple juice"
+    }
+  ],
+  "instructions": "Add water to fill container.\n\nGarnish with orange slices.",
+  "yield": {
+    "amount": 24,
+    "name": "servings"
+  },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1035.jpg"
+}
