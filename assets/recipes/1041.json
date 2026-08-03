@@ -1,0 +1,20 @@
+{
+  "name": "Bok Choy Salad",
+  "author": "Jean Cerva - Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 1, "name": "cup sliced almonds" },
+    { "amount": 0.25, "name": "cup sesame seeds" },
+    { "amount": 1, "name": "stick oleo" },
+    { "amount": 2, "name": "pkgs. ramen noodles (break in pkg.)" },
+    { "amount": 1, "name": "large head napa (Chinese) cabbage / or bok choy" },
+    { "amount": 1, "name": "bunch green onions" },
+    { "amount": 0.25, "name": "cup vinegar" },
+    { "amount": 0.5, "name": "cup sugar" },
+    { "amount": 0.75, "name": "cup oil" },
+    { "amount": 0, "name": "seasoning packet from noodles" }
+  ],
+  "instructions": "Dressing: 1/4 cup vinegar, 1/2 cup sugar, 3/4 cup oil, seasoning packet from noodles. Boil 1 min. then cool.\n\nMelt oleo in skillet over med. heat, add almonds, noodles, & sesame seeds. Stir until brown. Let cool and cover.\n\nChop cabbage and onions, cover and refrigerate.\n\nWhen ready to serve mix together.\n\nRecipe is party size (for family cut recipe in 1/2).\n\nSee also recipe #1051, Jeanne Goodman's version of this recipe.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1041.jpg"
+}

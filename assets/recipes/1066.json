@@ -1,0 +1,18 @@
+{
+  "name": "Ground Beef Tortellini Soup",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 0, "name": "ground beef" },
+    { "amount": 0, "name": "tomatoes" },
+    { "amount": 0, "name": "spinach" },
+    { "amount": 0, "name": "broth" },
+    { "amount": 0, "name": "cream cheese" },
+    { "amount": 0, "name": "garlic" },
+    { "amount": 0, "name": "salt & pepper" },
+    { "amount": 0, "name": "tortellini pasta" }
+  ],
+  "instructions": "",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1066.jpg"
+}

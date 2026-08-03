@@ -1,0 +1,16 @@
+{
+  "name": "Dill Dip",
+  "author": "Mature Living, January 2014 - Anne Brock",
+  "category": 1,
+  "ingredients": [
+    { "amount": 0.67, "name": "cup mayonnaise" },
+    { "amount": 0.67, "name": "cup sour cream" },
+    { "amount": 1, "name": "teaspoon seasoned salt" },
+    { "amount": 1, "name": "teaspoon dried dill" },
+    { "amount": 1, "name": "teaspoon minced onion" },
+    { "amount": 0, "name": "dash hot pepper sauce (optional)" }
+  ],
+  "instructions": "Mix all ingredients and refrigerate overnight or at least eight hours. Serve chilled with assorted raw vegetables.",
+  "yield": { "amount": 10, "name": "servings", "upperAmount": 12 },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1070.jpg"
+}

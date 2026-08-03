@@ -1,0 +1,26 @@
+{
+  "name": "Loaded Baked Potato Soup",
+  "author": "Woman's World - Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 4, "name": "large russet potatoes" },
+    { "amount": 8, "name": "slices bacon" },
+    { "amount": 4, "name": "Tbs. unsalted butter" },
+    { "amount": 2, "name": "cloves garlic, minced (1 tsp.)" },
+    { "amount": 0.25, "name": "cup chopped onion" },
+    { "amount": 0.33, "name": "cup all-purpose flour" },
+    { "amount": 2, "name": "cups (1%) low-fat milk" },
+    { "amount": 1, "name": "cup half-and-half" },
+    { "amount": 2, "name": "cups chicken stock" },
+    { "amount": 1, "name": "tsp. kosher salt" },
+    { "amount": 0.5, "name": "tsp. garlic salt, plus more to taste" },
+    { "amount": 0.5, "name": "tsp. pepper" },
+    { "amount": 1, "name": "cup shredded mild Cheddar cheese" },
+    { "amount": 1, "name": "cup shredded sharp Cheddar cheese" },
+    { "amount": 1, "name": "cup sour cream" },
+    { "amount": 0, "name": "Minced fresh chives, for garnish" }
+  ],
+  "instructions": "Pierce potatoes multiple times with fork, then microwave 12-15 minutes or until tender. Alternatively, preheat oven to 350°F and bake potatoes 45 minutes or until fork-tender. Carefully halve potatoes; cool. Once cool enough to handle, remove skins and cut into chunks.\n\nMeanwhile, cook bacon in skillet over medium-high heat until crisp. Transfer to paper towel-lined plate to drain and cool. Reserve up to 1 Tbs. bacon fat from pan, discarding the rest. Once bacon has cooled, crumble into small pieces.\n\nIn large pot, melt butter over medium-low heat. Add reserved bacon fat and garlic and onion; cook 2-3 minutes or until onion is tender. Gradually whisk flour into pot; stir 1-2 minutes. Gradually whisk in milk and half-and-half, whisking until smooth. Gradually whisk in chicken stock. Bring to gentle simmer; whisk in kosher salt, garlic salt and pepper. Keep at a gentle simmer until mixture has thickened slightly, 5-7 minutes.\n\nIf garnish is desired, reserve 1/4 cup each of cheeses and bacon. Stir in remaining cheeses and bacon and sour cream. Remove pot from heat. Scoop potato chunks into pan, breaking into small pieces or leaving chunky, as desired. Serve topped with desired garnishes.",
+  "yield": { "amount": 6, "name": "servings" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1044.jpg"
+}

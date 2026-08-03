@@ -1,0 +1,18 @@
+{
+  "name": "Cake Mix Oatmeal Cookies",
+  "author": "Roberta Wheeler - Anne Brock",
+  "category": 6,
+  "ingredients": [
+    { "amount": 1, "name": "box Butter Pecan cake mix" },
+    { "amount": 2, "name": "c. oatmeal" },
+    { "amount": 1, "name": "c. sugar" },
+    { "amount": 1, "name": "c. oil" },
+    { "amount": 2, "name": "eggs" },
+    { "amount": 2, "name": "tsp. vanilla" },
+    { "amount": 1, "name": "cup chopped pecans" },
+    { "amount": 0.5, "name": "cup dried cranberries" }
+  ],
+  "instructions": "Mix all and let set a few minutes so oatmeal absorbs oil.\nDrop by teaspoon onto cookie sheet. Bake 350°.\n\nSee also recipe #1048, another version of this recipe.",
+  "yield": { "amount": 5, "name": "dozen" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1050.jpg"
+}

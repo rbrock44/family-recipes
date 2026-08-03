@@ -1,0 +1,34 @@
+{
+  "name": "Comfort Lasagna Soup",
+  "author": "Woman's World - Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 1, "name": "Tbs. extra-virgin olive oil" },
+    { "amount": 1, "name": "cup chopped onion" },
+    { "amount": 3, "name": "cloves garlic, minced (1 1/2 tsp.)" },
+    { "amount": 1, "name": "lb. Italian sausage, casings removed" },
+    { "amount": 4, "name": "cups chicken stock or broth" },
+    { "amount": 1, "name": "can (15 oz.) petite diced tomatoes with juice" },
+    { "amount": 1, "name": "can (6 oz.) tomato paste" },
+    { "amount": 1, "name": "tsp. dried oregano" },
+    { "amount": 0.25, "name": "tsp. dried thyme" },
+    {
+      "amount": 0.25,
+      "name": "cup fresh basil, chopped, plus more for garnish"
+    },
+    {
+      "amount": 8,
+      "name": "uncooked lasagna noodles, broken into bite-size pieces"
+    },
+    { "amount": 1, "name": "cup finely shredded mozzarella cheese" },
+    {
+      "amount": 0.5,
+      "name": "cup finely grated Parmesan cheese, plus more for garnish"
+    },
+    { "amount": 0, "name": "Salt and pepper" },
+    { "amount": 0, "name": "Ricotta cheese, for serving, optional" }
+  ],
+  "instructions": "In large pot, heat olive oil over medium heat. Add onion; cook 3 minutes. Stir in garlic; cook 1 minute. Add sausage; cook, breaking up with wooden spoon as it browns, about 10 minutes. Pour off any excess fat from pot and gradually stir in chicken stock.\n\nAdd tomatoes with juice, tomato paste, oregano, thyme and basil. Bring to boil over medium-high heat. Add lasagna noodles; cook until noodles are tender, 10-15 minutes. Reduce heat to low; stir in mozzarella and Parmesan. Season with salt and pepper. Ladle soup into bowls; top with Parmesan, fresh basil and ricotta, if desired.",
+  "yield": { "amount": 6, "name": "servings" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1044.jpg"
+}

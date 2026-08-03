@@ -1,0 +1,31 @@
+{
+  "name": "One-Pot Taco Soup",
+  "author": "Woman's World - Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 1, "name": "lb. lean ground beef" },
+    { "amount": 1, "name": "cup diced onion" },
+    { "amount": 0.5, "name": "cup diced green pepper" },
+    { "amount": 0.5, "name": "cup diced red or yellow pepper" },
+    { "amount": 1, "name": "can (15 oz.) tomato sauce" },
+    { "amount": 0.25, "name": "cup salsa of your choice" },
+    { "amount": 2, "name": "cans (15 oz. each) diced tomatoes with juice" },
+    { "amount": 1, "name": "can (15 oz.) black beans, drained, rinsed" },
+    {
+      "amount": 1,
+      "name": "can (15 oz.) dark red kidney beans, drained, rinsed"
+    },
+    { "amount": 1, "name": "can (15 oz.) corn, drained" },
+    { "amount": 1, "name": "can (4.5 oz.) green chiles" },
+    { "amount": 0.25, "name": "cup chopped fresh cilantro, optional" },
+    { "amount": 1.5, "name": "Tbs. taco seasoning, plus more to taste" },
+    { "amount": 0, "name": "Salt and pepper" },
+    {
+      "amount": 0,
+      "name": "Optional toppings: chopped fresh cilantro, sour cream, shredded cheese, sliced avocado and tortilla strips"
+    }
+  ],
+  "instructions": "In large stockpot or Dutch oven, brown ground beef over medium heat. Drain any excess fat from pot. Stir in onion and peppers; cook 3 minutes or until onion is tender.\n\nAdd tomato sauce, salsa, diced tomatoes with juice, black beans, kidney beans, corn, green chiles, cilantro, taco seasoning, 1/4 cup water and salt and pepper to taste. Stir until combined. Cover pot; simmer, stirring occasionally, 20-30 minutes. (This only gets better with time, so if you can, let it simmer longer.) Add up to 1/4 cup more water if soup starts getting too thick. Taste and add more taco seasoning, salt or pepper as needed. Ladle soup into bowls and add favorite toppings.",
+  "yield": { "amount": 8, "name": "servings" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1044.jpg"
+}

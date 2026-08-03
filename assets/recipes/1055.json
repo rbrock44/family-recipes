@@ -1,0 +1,15 @@
+{
+  "name": "Wilted Spinach",
+  "author": "Anne Brock",
+  "category": 4,
+  "ingredients": [
+    { "amount": 0.5, "name": "c. oil" },
+    { "amount": 8, "name": "garlic cloves" },
+    { "amount": 0, "name": "spinach" },
+    { "amount": 0, "name": "salt" },
+    { "amount": 0, "name": "pepper" }
+  ],
+  "instructions": "In saucepan, cook garlic in oil until crisp, 5 min. Drain (reserve garlic chips and oil). Add spinach and cook 4 min. Salt and pepper. Mix with garlic chips.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1055.jpg"
+}

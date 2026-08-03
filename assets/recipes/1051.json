@@ -1,0 +1,20 @@
+{
+  "name": "Bok Choy Salad",
+  "author": "Jeanne Goodman - Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 1, "name": "cup almond slices" },
+    { "amount": 0.25, "name": "cup sesame seeds" },
+    { "amount": 1, "name": "stick oleo" },
+    { "amount": 2, "name": "pkgs ramen noodles (beef flavored)" },
+    { "amount": 1, "name": "large head napa cabbage (Chinese)" },
+    { "amount": 1, "name": "bunch green onions" },
+    { "amount": 0.25, "name": "cup vinegar" },
+    { "amount": 0.5, "name": "cup sugar" },
+    { "amount": 0.75, "name": "cup oil" },
+    { "amount": 0, "name": "seasoning from the noodle packet" }
+  ],
+  "instructions": "Boil 1 minute, then cool.\n\nMelt oleo in skillet over medium heat, add almonds, noodles and sesame seeds. Stir until brown. Let cool and cover.\n\nChop cabbage and onions, cover and refrigerate (can be done the day before)\n\nWhen ready to serve, mix and serve.\n\nThis recipe is party size, but dressing and stir fry can be kept for several days for further use.\n\nSee also recipe #1041, Jean Cerva's version of this recipe.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1051.jpg"
+}

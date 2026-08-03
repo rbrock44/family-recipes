@@ -1,0 +1,16 @@
+{
+  "name": "Hash Brown Ham & Egg Casserole",
+  "author": "Anne Brock",
+  "category": 3,
+  "ingredients": [
+    { "amount": 0, "name": "hash brown potatoes" },
+    { "amount": 0, "name": "Monterey jack cheese" },
+    { "amount": 0, "name": "green onions" },
+    { "amount": 0, "name": "canned ham" },
+    { "amount": 8, "name": "eggs, beaten" },
+    { "amount": 2, "name": "c. milk" }
+  ],
+  "instructions": "Hash brown potatoes, Monterey jack cheese, green onions, and canned ham. Add 8 eggs, beaten, and 2 c. milk. Bake at 350°, 45 min.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1058.jpg"
+}

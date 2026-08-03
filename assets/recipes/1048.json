@@ -1,0 +1,18 @@
+{
+  "name": "Cake Mix Oatmeal Cookies",
+  "author": "Roberta - Anne Brock",
+  "category": 6,
+  "ingredients": [
+    { "amount": 1, "name": "box butter pecan cake mix" },
+    { "amount": 2, "name": "cups oat meal" },
+    { "amount": 1, "name": "c. sugar" },
+    { "amount": 1, "name": "c. oil" },
+    { "amount": 2, "name": "eggs" },
+    { "amount": 2, "name": "t. vanilla" },
+    { "amount": 0, "name": "pecans" },
+    { "amount": 0, "name": "cranberries (optional)" }
+  ],
+  "instructions": "Mix and let set 5 min. for oats to soak.\nDrop by teaspoon balls onto slightly greased cookie sheet.\nBake 350° for 9 min.\nMakes 5 dozen.\n\nSee also recipe #1050, a version of this recipe from Roberta Wheeler.",
+  "yield": { "amount": 5, "name": "dozen" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1048.jpg"
+}

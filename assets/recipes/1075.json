@@ -1,0 +1,20 @@
+{
+  "name": "Fruit Platter with Cream Cheese-Marshmallow Dip",
+  "author": "H.A. - Anne Brock",
+  "category": 1,
+  "ingredients": [
+    {
+      "amount": 0,
+      "name": "assorted fruit, cut in bite-size pieces (cantaloupe, honeydew melon, bananas, apples, strawberries, kiwi, oranges, etc.)"
+    },
+    {
+      "amount": 1,
+      "name": "package Philadelphia cream cheese, room temperature"
+    },
+    { "amount": 1, "name": "large jar marshmallow cream (fluff)" },
+    { "amount": 0, "name": "lemon juice, if desired for lemon flavor" }
+  ],
+  "instructions": "Get you all kinds of fruits and cantaloupe, honey dew melon, and cut up in bite size pieces: bananas, apples, strawberry, kiwi, cantaloupe, oranges, etc. All of them are good with this. Use toothpicks to eat them or fork them.\n\nMake a fruit dip out of Philadelphia cream cheese - room temp - and large jar of marshmallow cream. Mix together till smooth - takes a few minutes. Add marshmallow cream to suit sweet taste - use most if not all.\nAdd lemon juice if like lemon flavor. Chill and eat.\n\nIt's great and refreshing and healthy, except the dip.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1075.jpg"
+}

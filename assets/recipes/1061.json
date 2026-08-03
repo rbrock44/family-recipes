@@ -1,0 +1,19 @@
+{
+  "name": "Broccoli/Cheese Soup",
+  "author": "Anne Brock",
+  "category": 2,
+  "ingredients": [
+    { "amount": 0.25, "name": "c onion" },
+    { "amount": 0.25, "name": "c butter" },
+    { "amount": 0.25, "name": "t salt" },
+    { "amount": 0, "name": "pepper, to taste" },
+    { "amount": 0.25, "name": "c flour" },
+    { "amount": 1.5, "name": "c 2% milk" },
+    { "amount": 0.75, "name": "c chicken broth" },
+    { "amount": 1, "name": "c cooked broccoli" },
+    { "amount": 0.5, "name": "c cheddar cheese" }
+  ],
+  "instructions": "Saute onion in butter.\nAdd salt & pepper.\nStir in flour.\nStir in milk & chicken broth; cook until thick.\nAdd cooked broccoli.\nAdd cheddar cheese.",
+  "yield": { "amount": 0, "name": "" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1061.jpg"
+}

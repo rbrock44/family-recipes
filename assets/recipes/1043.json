@@ -1,0 +1,16 @@
+{
+  "name": "Butter Swim Biscuits",
+  "author": "12 Tomatoes - Anne Brock",
+  "category": 5,
+  "ingredients": [
+    { "amount": 2.5, "name": "cups all-purpose flour" },
+    { "amount": 2, "name": "cups buttermilk" },
+    { "amount": 0.5, "name": "cup (1 stick) butter, melted" },
+    { "amount": 4, "name": "teaspoons baking powder" },
+    { "amount": 1.5, "name": "tablespoons granulated sugar" },
+    { "amount": 2, "name": "teaspoons salt" }
+  ],
+  "instructions": "Preheat oven to 450°F.\nIn a medium bowl, whisk together the flour, baking powder, sugar, and salt.\nAdd buttermilk and mix just until a moist dough is formed.\nPour melted butter into an 8x8-inch baking dish and place dough on top of melted butter. Using a spatula, spread dough evenly across pan until it touches the sides.\nCut dough into 9 equal squares and bake until golden brown, 20-25 minutes. Enjoy!",
+  "yield": { "amount": 9, "name": "servings" },
+  "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1043.jpg"
+}
