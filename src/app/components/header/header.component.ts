@@ -56,7 +56,14 @@ export class HeaderComponent {
 
   homeClick(): void {
     this.service.setEmptyRecipe();
-    this.location.replaceState(`${location.pathname}`);
+
+    const queryParams = new URLSearchParams(window.location.search);
+    queryParams.delete('recipe');
+    const query = queryParams.toString();
+
+    this.location.replaceState(
+      query ? `${location.pathname}?${query}` : location.pathname,
+    );
   }
 
   forwardClick(): void {

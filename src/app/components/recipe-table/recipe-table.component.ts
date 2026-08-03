@@ -43,8 +43,9 @@ export class RecipeTableComponent implements OnInit {
   click(recipe: Recipe): void {
     this.service.useFavoritesList = this.removeColumns;
     var filename = recipe.filename != null ? recipe.filename.toString() : '001';
+    recipe.filename = filename;
     this.service.searchList = this.dataSource.data.map((item) => item.filename);
-    this.service.readRecipe(filename);
+    this.service.selectRecipe(recipe);
 
     this.location.replaceState(this.buildUrl(filename));
   }

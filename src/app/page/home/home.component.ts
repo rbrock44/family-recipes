@@ -18,9 +18,9 @@ import { Location } from '@angular/common';
 export class HomeComponent implements OnInit {
   title = 'family-recipes';
   panelOpenState = false;
-  searchControl: FormControl = new FormControl('');
-  categoryControl: FormControl = new FormControl(0);
-  familyControl: FormControl = new FormControl(false);
+  searchControl: FormControl;
+  categoryControl: FormControl;
+  familyControl: FormControl;
 
   dataSource = new MatTableDataSource<Recipe>();
   favoritesDataSource = new MatTableDataSource<Recipe>();
@@ -31,7 +31,11 @@ export class HomeComponent implements OnInit {
     public service: RecipeService,
     private route: ActivatedRoute,
     private location: Location,
-  ) {}
+  ) {
+    this.searchControl = new FormControl(this.service.searchTerm);
+    this.categoryControl = new FormControl(this.service.searchCategory);
+    this.familyControl = new FormControl(this.service.searchHooperFamily);
+  }
 
   ngOnInit(): void {
     // document.querySelectorAll('[type=search]').forEach((element) => {
@@ -51,42 +55,32 @@ export class HomeComponent implements OnInit {
 
     this.loadFavorites();
 
-    const interval = setInterval(() => {
-      const result = this.service.isFullyLoaded();
-      if (result === true) {
-        clearInterval(interval);
-
-        const queryParams = new URLSearchParams(window.location.search);
-        const searchParam = queryParams.get('search');
-        const hasSearch = `${window.location.search}`.indexOf('search=') >= 0;
-        const categoryParam = queryParams.get('category');
-        const familyParam = queryParams.get('hooperFamily');
-        const recipeParam = queryParams.get('recipe');
-
-        if (searchParam) {
-          this.searchControl.setValue(searchParam);
+    if (this.service.isFullyLoaded()) {
+      this.restoreSearch();
+    } else {
+      const interval = setInterval(() => {
+        if (this.service.isFullyLoaded()) {
+          clearInterval(interval);
+          this.restoreSearch();
         }
+      }, 250); // check every 0.25 seconds
+    }
+  }
 
-        if (categoryParam) {
-          this.categoryControl.setValue(categoryParam);
-        }
+  private restoreSearch(): void {
+    if (this.service.hasSearched) {
+      this.search(this.searchControl.value);
+      this.service.searchList = this.dataSource.data.map(
+        (item) => item.filename,
+      );
+    }
 
-        if (familyParam) {
-          this.familyControl.setValue(familyParam);
-        }
+    const queryParams = new URLSearchParams(window.location.search);
+    const recipeParam = queryParams.get('recipe');
 
-        if (hasSearch || categoryParam || familyParam) {
-          this.search(this.searchControl.value);
-          this.service.searchList = this.dataSource.data.map(
-            (item) => item.filename,
-          );
-        }
-
-        if (recipeParam) {
-          this.service.readRecipe(recipeParam);
-        }
-      }
-    }, 250); // check every 0.25 seconds
+    if (recipeParam) {
+      this.service.readRecipe(recipeParam);
+    }
   }
 
   blurKeyboard(element: any) {
@@ -98,6 +92,11 @@ export class HomeComponent implements OnInit {
   }
 
   search(value: string = this.searchControl.value): void {
+    this.service.hasSearched = true;
+    this.service.searchTerm = value;
+    this.service.searchCategory = this.categoryControl.value;
+    this.service.searchHooperFamily = this.familyControl.value;
+
     this.dataSource.data = this.service.search(
       value,
       this.categoryControl.value,

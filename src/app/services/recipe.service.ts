@@ -17,6 +17,10 @@ export class RecipeService {
   selectedRecipe: Recipe = {...EMPTY_RECIPE};
   useFavoritesList: boolean = false;
   searchList: string[] = [];
+  searchTerm: string = '';
+  searchCategory: Category = 0;
+  searchHooperFamily: boolean = false;
+  hasSearched: boolean = false;
 
   constructor(
     private reader: RecipeReaderService
@@ -131,6 +135,10 @@ export class RecipeService {
 
   readFavorites(): string[] {
     return this.reader.readFavorites();
+  }
+
+  selectRecipe(recipe: Recipe): void {
+    this.selectedRecipe = recipe;
   }
 
   readRecipe(filename: string): void {
