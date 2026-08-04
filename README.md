@@ -1,7 +1,7 @@
 # Family Recipes
 
 > This project holds all the family recipes (and more) <br/>
-> [Live - Family Recipes Website](https://family-recipe.ryan-brock.com/) <br/>
+> [Live - Family Recipes Website](https://family-recipes.ryan-brock.com/) <br/>
  
 ![Main](/pics/main.png)
 
