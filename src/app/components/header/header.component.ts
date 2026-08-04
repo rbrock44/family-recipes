@@ -17,17 +17,15 @@ import { Location } from '@angular/common';
             Home
           </button>
 
-          @if (!service.showLists && service.selectedRecipe.filename !== '') {
-            <button
-              mat-button
-              class="back-button"
-              (click)="this.backClick()"
-              data-back-nav
-            >
-              <mat-icon>undo</mat-icon>
-              Back
-            </button>
-          }
+          <button
+            mat-button
+            class="back-button"
+            (click)="this.backClick()"
+            data-back-nav
+          >
+            <mat-icon>undo</mat-icon>
+            Back
+          </button>
         </div>
 
         @if (!service.showLists) {
@@ -85,7 +83,9 @@ export class HeaderComponent {
   }
 
   backClick(): void {
-    if (this.service.openedFromLists) {
+    if (this.service.showLists) {
+      this.service.showLists = false;
+    } else if (this.service.openedFromLists) {
       this.service.openedFromLists = false;
       this.service.showLists = true;
     } else {

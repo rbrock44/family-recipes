@@ -55,12 +55,7 @@ export class ListsComponent implements OnInit {
 
   toggleExpanded(view: ListView): void {
     view.expanded = !view.expanded;
-
-    if (view.expanded) {
-      this.service.expandedListIds.add(view.list.id);
-    } else {
-      this.service.expandedListIds.delete(view.list.id);
-    }
+    this.service.setListExpanded(view.list.id, view.expanded);
   }
 
   startRename(view: ListView): void {

@@ -15,6 +15,7 @@ export class RecipeReaderService {
   RECENT_MAX = 10
   LISTS_NAME = "family-recipe-lists"
   CHECKED_INGREDIENTS_NAME = "family-recipe-list-checked-ingredients"
+  EXPANDED_LISTS_NAME = "family-recipe-list-expanded"
 
   constructor(private http: HttpClient) {
   }
@@ -213,5 +214,14 @@ export class RecipeReaderService {
   private readAllCheckedIngredients(): Record<string, string[]> {
     const items = localStorage.getItem(this.CHECKED_INGREDIENTS_NAME);
     return items ? JSON.parse(items) : {};
+  }
+
+  readExpandedListIds(): string[] {
+    const items = localStorage.getItem(this.EXPANDED_LISTS_NAME);
+    return items ? JSON.parse(items) : [];
+  }
+
+  setExpandedListIds(ids: string[]): void {
+    localStorage.setItem(this.EXPANDED_LISTS_NAME, JSON.stringify(ids));
   }
 }

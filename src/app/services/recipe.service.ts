@@ -30,12 +30,13 @@ export class RecipeService {
   returnScrollY: number = 0;
   selectMode: boolean = false;
   selectedForList: Set<string> = new Set<string>();
-  expandedListIds: Set<string> = new Set<string>();
+  expandedListIds: Set<string>;
 
   constructor(
     private reader: RecipeReaderService
   ) {
     this.load();
+    this.expandedListIds = new Set(this.reader.readExpandedListIds());
   }
 
   load(): void {
@@ -173,6 +174,16 @@ export class RecipeService {
 
   clearSelectedForList(): void {
     this.selectedForList.clear();
+  }
+
+  setListExpanded(id: string, expanded: boolean): void {
+    if (expanded) {
+      this.expandedListIds.add(id);
+    } else {
+      this.expandedListIds.delete(id);
+    }
+
+    this.reader.setExpandedListIds(Array.from(this.expandedListIds));
   }
 
   readLists(): RecipeList[] {

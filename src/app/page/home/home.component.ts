@@ -155,6 +155,7 @@ export class HomeComponent implements OnInit {
   }
 
   goToLists(): void {
+    this.service.returnScrollY = window.scrollY;
     this.service.showLists = true;
   }
 
