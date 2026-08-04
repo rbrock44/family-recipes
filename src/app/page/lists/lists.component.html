@@ -121,7 +121,7 @@
           }
 
           @if (view.ingredients.length > 0) {
-            <h4>Ingredients</h4>
+            <h4>Recipe Ingredients</h4>
             <div class="ingredient-totals">
               @for (ingredient of view.ingredients; track ingredient.key) {
                 <mat-checkbox
@@ -146,6 +146,149 @@
                 </mat-checkbox>
               }
             </div>
+          }
+
+          <div class="other-ingredients-header">
+            <h4>Other Ingredients</h4>
+            <button
+              mat-icon-button
+              (click)="startAddCustomIngredient(view)"
+              aria-label="Add other ingredient"
+            >
+              <mat-icon>add</mat-icon>
+            </button>
+          </div>
+
+          @if (view.customIngredients.length > 0) {
+            <div class="ingredient-totals">
+              @for (ingredient of view.customIngredients; track ingredient.id) {
+                @if (view.editingCustomIngredientId === ingredient.id) {
+                  <div class="custom-ingredient-line custom-ingredient-editing">
+                    <div class="custom-ingredient-edit-fields">
+                      <input
+                        class="inline-edit-input inline-edit-amount"
+                        [formControl]="view.editCustomAmountControl"
+                        placeholder="Amount"
+                        (keydown.enter)="
+                          confirmEditCustomIngredient(view, ingredient)
+                        "
+                      />
+                      <input
+                        class="inline-edit-input inline-edit-name"
+                        [formControl]="view.editCustomNameControl"
+                        placeholder="Ingredient"
+                        (keydown.enter)="
+                          confirmEditCustomIngredient(view, ingredient)
+                        "
+                      />
+                    </div>
+                    <div class="custom-ingredient-actions">
+                      <button
+                        mat-icon-button
+                        color="primary"
+                        (click)="confirmEditCustomIngredient(view, ingredient)"
+                        aria-label="Save ingredient"
+                      >
+                        <mat-icon>check</mat-icon>
+                      </button>
+                      <button
+                        mat-icon-button
+                        (click)="cancelEditCustomIngredient(view)"
+                        aria-label="Cancel edit"
+                      >
+                        <mat-icon>close</mat-icon>
+                      </button>
+                    </div>
+                  </div>
+                } @else {
+                  <div class="custom-ingredient-line">
+                    <mat-checkbox
+                      class="ingredient-line"
+                      [class.checked]="
+                        view.checkedIngredients.has(customIngredientKey(ingredient))
+                      "
+                      [checked]="
+                        view.checkedIngredients.has(customIngredientKey(ingredient))
+                      "
+                      (change)="toggleCustomIngredientChecked(view, ingredient)"
+                    >
+                      <span
+                        >{{ ingredient.amount }}
+                        {{ ingredient.name }}</span
+                      >
+                    </mat-checkbox>
+                    <div class="custom-ingredient-actions">
+                      <button
+                        mat-icon-button
+                        (click)="startEditCustomIngredient(view, ingredient)"
+                        aria-label="Edit ingredient"
+                      >
+                        <mat-icon>edit</mat-icon>
+                      </button>
+                      <button
+                        mat-icon-button
+                        (click)="removeCustomIngredient(view, ingredient)"
+                        aria-label="Remove ingredient"
+                      >
+                        <mat-icon>close</mat-icon>
+                      </button>
+                    </div>
+                  </div>
+                }
+              }
+            </div>
+          }
+
+          @if (view.addingCustomIngredient) {
+            <div
+              class="custom-ingredient-line custom-ingredient-editing custom-ingredient-adding"
+            >
+              <div class="custom-ingredient-edit-fields">
+                <input
+                  class="inline-edit-input inline-edit-amount"
+                  [formControl]="view.customAmountControl"
+                  placeholder="Amount"
+                  (keydown.enter)="confirmAddCustomIngredient(view)"
+                />
+                <input
+                  class="inline-edit-input inline-edit-name"
+                  [formControl]="view.customNameControl"
+                  placeholder="Ingredient"
+                  (keydown.enter)="confirmAddCustomIngredient(view)"
+                />
+              </div>
+              <div class="custom-ingredient-actions">
+                <button
+                  mat-icon-button
+                  color="primary"
+                  (click)="confirmAddCustomIngredient(view)"
+                  aria-label="Save ingredient"
+                >
+                  <mat-icon>check</mat-icon>
+                </button>
+                <button
+                  mat-icon-button
+                  (click)="cancelAddCustomIngredient(view)"
+                  aria-label="Cancel"
+                >
+                  <mat-icon>close</mat-icon>
+                </button>
+              </div>
+            </div>
+          } @else {
+            <button
+              type="button"
+              mat-icon-button
+              class="add-ingredient-row"
+              (click)="startAddCustomIngredient(view)"
+              [attr.aria-label]="
+                view.customIngredients.length === 0
+                  ? 'Add other ingredient'
+                  : 'Add another ingredient'
+              "
+            >
+              <mat-icon>add</mat-icon>
+            </button>
           }
         </div>
       }

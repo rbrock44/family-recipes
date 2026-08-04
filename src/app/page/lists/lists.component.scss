@@ -143,3 +143,76 @@
   text-decoration: line-through;
   opacity: 0.7;
 }
+
+.other-ingredients-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-right: 0.5rem;
+}
+
+.other-ingredients-header h4 {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.custom-ingredient-edit-fields {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.inline-edit-input {
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(111, 66, 193, 0.35);
+  border-radius: 8px;
+  padding: 0.3rem 0.55rem;
+  line-height: 1.3;
+  min-width: 0;
+}
+
+.inline-edit-input:focus {
+  outline: none;
+  border-color: var(--brand-500);
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.inline-edit-amount {
+  width: 90px;
+  flex-shrink: 0;
+}
+
+.inline-edit-name {
+  flex: 1;
+  min-width: 0;
+}
+
+.custom-ingredient-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+  grid-column: 1 / -1;
+}
+
+.custom-ingredient-actions {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+}
+
+.add-ingredient-row {
+  display: flex;
+  margin: 0.25rem 0 0.75rem -8px;
+  color: var(--ink-muted);
+}
+
+.custom-ingredient-adding {
+  margin: 0 0 1.25rem;
+}

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { CustomIngredient } from '../models/custom-ingredient.interface';
 import { Recipe } from '../models/recipe.interface';
 import { RecipeList } from '../models/recipe-list.interface';
 import { firstValueFrom } from 'rxjs';
@@ -135,13 +136,9 @@ export class RecipeReaderService {
   }
 
   renameList(id: string, name: string): void {
-    const lists = this.readLists();
-    const list = lists.find(it => it.id === id);
-
-    if (list) {
+    this.updateList(id, list => {
       list.name = name;
-      this.setLists(lists);
-    }
+    });
   }
 
   deleteList(id: string): void {
@@ -151,55 +148,68 @@ export class RecipeReaderService {
   }
 
   addToList(listId: string, filename: string, batches: number): void {
-    const lists = this.readLists();
-    const list = lists.find(it => it.id === listId);
-
-    if (!list) {
-      return;
-    }
-
-    const existing = list.recipes.find(it => it.filename === filename);
-    if (existing) {
-      existing.batches = batches;
-    } else {
-      list.recipes.push({ filename, batches });
-    }
-
-    this.setLists(lists);
+    this.updateList(listId, list => {
+      const existing = list.recipes.find(it => it.filename === filename);
+      if (existing) {
+        existing.batches = batches;
+      } else {
+        list.recipes.push({ filename, batches });
+      }
+    });
   }
 
   removeFromList(listId: string, filename: string): void {
-    const lists = this.readLists();
-    const list = lists.find(it => it.id === listId);
-
-    if (!list) {
-      return;
-    }
-
-    list.recipes = list.recipes.filter(it => it.filename !== filename);
-
-    this.setLists(lists);
+    this.updateList(listId, list => {
+      list.recipes = list.recipes.filter(it => it.filename !== filename);
+    });
   }
 
   setListRecipeBatches(listId: string, filename: string, batches: number): void {
-    const lists = this.readLists();
-    const list = lists.find(it => it.id === listId);
-    const entry = list?.recipes.find(it => it.filename === filename);
-
-    if (entry) {
-      entry.batches = batches;
-      this.setLists(lists);
-    }
+    this.updateList(listId, list => {
+      const entry = list.recipes.find(it => it.filename === filename);
+      if (entry) {
+        entry.batches = batches;
+      }
+    });
   }
 
   private setLists(lists: RecipeList[]) {
     localStorage.setItem(this.LISTS_NAME, JSON.stringify(lists));
   }
 
-  // A grocery shopper's checked-off state for a list's aggregated ingredient
-  // lines, keyed by the aggregator's normalized unit+name key. Stored
-  // separately per list ID so checking things off in one list never touches
-  // another's.
+  private updateList(listId: string, mutate: (list: RecipeList) => void): void {
+    const lists = this.readLists();
+    const list = lists.find(it => it.id === listId);
+
+    if (!list) {
+      return;
+    }
+
+    mutate(list);
+
+    this.setLists(lists);
+  }
+
+  addCustomIngredient(listId: string, ingredient: CustomIngredient): void {
+    this.updateList(listId, list => {
+      list.customIngredients = [...(list.customIngredients ?? []), ingredient];
+    });
+  }
+
+  removeCustomIngredient(listId: string, ingredientId: string): void {
+    this.updateList(listId, list => {
+      list.customIngredients = (list.customIngredients ?? []).filter(it => it.id !== ingredientId);
+    });
+  }
+
+  updateCustomIngredient(listId: string, ingredient: CustomIngredient): void {
+    this.updateList(listId, list => {
+      list.customIngredients = (list.customIngredients ?? []).map(it =>
+        it.id === ingredient.id ? ingredient : it
+      );
+    });
+  }
+
   readCheckedIngredients(listId: string): string[] {
     return this.readAllCheckedIngredients()[listId] || [];
   }

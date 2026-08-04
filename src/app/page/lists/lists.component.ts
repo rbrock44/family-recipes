@@ -1,5 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { FormControl } from '@angular/forms';
+import { CustomIngredient } from 'src/app/models/custom-ingredient.interface';
 import { formatAmount } from 'src/app/models/decimal.enum';
 import {
   AggregatedIngredient,
@@ -24,6 +25,13 @@ interface ListView {
   rows: ListRecipeRow[];
   ingredients: AggregatedIngredient[];
   checkedIngredients: Set<string>;
+  customIngredients: CustomIngredient[];
+  addingCustomIngredient: boolean;
+  customAmountControl: FormControl;
+  customNameControl: FormControl;
+  editingCustomIngredientId: string | null;
+  editCustomAmountControl: FormControl;
+  editCustomNameControl: FormControl;
 }
 
 @Component({
@@ -163,6 +171,102 @@ export class ListsComponent implements OnInit {
     );
   }
 
+  startAddCustomIngredient(view: ListView): void {
+    view.editingCustomIngredientId = null;
+    view.customAmountControl.setValue('');
+    view.customNameControl.setValue('');
+    view.addingCustomIngredient = true;
+  }
+
+  cancelAddCustomIngredient(view: ListView): void {
+    view.addingCustomIngredient = false;
+  }
+
+  confirmAddCustomIngredient(view: ListView): void {
+    const name = (view.customNameControl.value || '').trim();
+    const amount = (view.customAmountControl.value || '').trim();
+
+    if (!name) {
+      return;
+    }
+
+    const ingredient: CustomIngredient = {
+      id: crypto.randomUUID(),
+      name,
+      amount,
+    };
+
+    view.customIngredients = [...view.customIngredients, ingredient];
+    this.service.addCustomIngredient(view.list.id, ingredient);
+    view.addingCustomIngredient = false;
+  }
+
+  removeCustomIngredient(view: ListView, ingredient: CustomIngredient): void {
+    view.customIngredients = view.customIngredients.filter(
+      (it) => it !== ingredient,
+    );
+    this.service.removeCustomIngredient(view.list.id, ingredient.id);
+
+    view.checkedIngredients.delete(this.customIngredientKey(ingredient));
+    this.service.setCheckedIngredients(
+      view.list.id,
+      Array.from(view.checkedIngredients),
+    );
+  }
+
+  startEditCustomIngredient(view: ListView, ingredient: CustomIngredient): void {
+    view.addingCustomIngredient = false;
+    view.editCustomAmountControl.setValue(ingredient.amount);
+    view.editCustomNameControl.setValue(ingredient.name);
+    view.editingCustomIngredientId = ingredient.id;
+  }
+
+  cancelEditCustomIngredient(view: ListView): void {
+    view.editingCustomIngredientId = null;
+  }
+
+  confirmEditCustomIngredient(
+    view: ListView,
+    ingredient: CustomIngredient,
+  ): void {
+    const name = (view.editCustomNameControl.value || '').trim();
+    const amount = (view.editCustomAmountControl.value || '').trim();
+
+    if (!name) {
+      return;
+    }
+
+    const updated: CustomIngredient = { ...ingredient, name, amount };
+
+    view.customIngredients = view.customIngredients.map((it) =>
+      it.id === ingredient.id ? updated : it,
+    );
+    this.service.updateCustomIngredient(view.list.id, updated);
+    view.editingCustomIngredientId = null;
+  }
+
+  toggleCustomIngredientChecked(
+    view: ListView,
+    ingredient: CustomIngredient,
+  ): void {
+    const key = this.customIngredientKey(ingredient);
+
+    if (view.checkedIngredients.has(key)) {
+      view.checkedIngredients.delete(key);
+    } else {
+      view.checkedIngredients.add(key);
+    }
+
+    this.service.setCheckedIngredients(
+      view.list.id,
+      Array.from(view.checkedIngredients),
+    );
+  }
+
+  customIngredientKey(ingredient: CustomIngredient): string {
+    return `custom:${ingredient.id}`;
+  }
+
   getIngredientDisplay(ingredient: AggregatedIngredient): string {
     return formatAmount(ingredient.amount);
   }
@@ -209,6 +313,13 @@ export class ListsComponent implements OnInit {
       checkedIngredients: new Set(
         this.service.readCheckedIngredients(list.id),
       ),
+      customIngredients: list.customIngredients ?? [],
+      addingCustomIngredient: false,
+      customAmountControl: new FormControl(''),
+      customNameControl: new FormControl(''),
+      editingCustomIngredientId: null,
+      editCustomAmountControl: new FormControl(''),
+      editCustomNameControl: new FormControl(''),
     };
   }
 

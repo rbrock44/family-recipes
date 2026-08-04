@@ -70,7 +70,12 @@ async function processRecipes() {
 		const startId = readStartId();
 
 		// Fetch pending recipes to convert into local JSON files.
-		const response = await fetch('https://home-page-api.ryan-brock.com/recipe/pending', { method: 'GET' });
+		const response = await fetch('https://home-page-api.ryan-brock.com/recipe/pending', {
+			method: 'GET',
+			headers: {
+				'X-API-Key': process.env.RECIPE_API_TOKEN ?? '',
+			},
+		});
 
 		if (!response.ok) {
 			throw new Error(`HTTP error! Status: ${response.status}`);

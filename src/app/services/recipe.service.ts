@@ -3,6 +3,7 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { EMPTY_RECIPE, HOOPER_FAMILY } from '../constants/constants';
 import { Category } from '../models/category.enum';
+import { CustomIngredient } from '../models/custom-ingredient.interface';
 import { Recipe } from '../models/recipe.interface';
 import { RecipeList } from '../models/recipe-list.interface';
 import { RecipeModel } from '../models/recipe.model';
@@ -174,6 +175,18 @@ export class RecipeService {
 
   clearSelectedForList(): void {
     this.selectedForList.clear();
+  }
+
+  addCustomIngredient(listId: string, ingredient: CustomIngredient): void {
+    this.reader.addCustomIngredient(listId, ingredient);
+  }
+
+  removeCustomIngredient(listId: string, ingredientId: string): void {
+    this.reader.removeCustomIngredient(listId, ingredientId);
+  }
+
+  updateCustomIngredient(listId: string, ingredient: CustomIngredient): void {
+    this.reader.updateCustomIngredient(listId, ingredient);
   }
 
   setListExpanded(id: string, expanded: boolean): void {
