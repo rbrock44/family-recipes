@@ -145,9 +145,11 @@ export class ListsComponent implements OnInit {
   }
 
   openRecipe(recipe: Recipe): void {
+    this.service.returnScrollY = window.scrollY;
     this.service.selectRecipe(recipe);
     this.service.addToRecent(recipe.filename);
     this.service.showLists = false;
+    this.service.openedFromLists = true;
   }
 
   toggleIngredientChecked(

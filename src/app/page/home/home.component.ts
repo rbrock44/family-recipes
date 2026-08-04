@@ -116,6 +116,7 @@ export class HomeComponent implements OnInit {
     const recipeParam = queryParams.get('recipe');
 
     if (recipeParam) {
+      this.service.openedFromLists = false;
       this.service.readRecipe(recipeParam);
     }
   }

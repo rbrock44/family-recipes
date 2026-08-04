@@ -74,8 +74,10 @@ export class RecipeTableComponent implements OnInit, OnChanges {
     var filename = recipe.filename != null ? recipe.filename.toString() : '001';
     recipe.filename = filename;
     this.service.searchList = this.dataSource.data.map((item) => item.filename);
+    this.service.returnScrollY = window.scrollY;
     this.service.selectRecipe(recipe);
     this.service.addToRecent(filename);
+    this.service.openedFromLists = false;
 
     this.location.replaceState(this.buildUrl(filename));
   }

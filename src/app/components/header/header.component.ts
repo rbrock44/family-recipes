@@ -7,14 +7,28 @@ import { Location } from '@angular/common';
   template: `
     <div class="page-shell">
       <div class="header-bar surface-card">
-        <button
-          mat-button
-          class="home-button"
-          (click)="this.homeClick()"
-          data-home-nav
-        >
-          Home
-        </button>
+        <div class="header-left">
+          <button
+            mat-button
+            class="home-button"
+            (click)="this.homeClick()"
+            data-home-nav
+          >
+            Home
+          </button>
+
+          @if (!service.showLists && service.selectedRecipe.filename !== '') {
+            <button
+              mat-button
+              class="back-button"
+              (click)="this.backClick()"
+              data-back-nav
+            >
+              <mat-icon>undo</mat-icon>
+              Back
+            </button>
+          }
+        </div>
 
         @if (!service.showLists) {
           <div class="header-actions">
@@ -59,6 +73,7 @@ export class HeaderComponent {
   homeClick(): void {
     this.service.setEmptyRecipe();
     this.service.showLists = false;
+    this.service.openedFromLists = false;
 
     const queryParams = new URLSearchParams(window.location.search);
     queryParams.delete('recipe');
@@ -67,6 +82,26 @@ export class HeaderComponent {
     this.location.replaceState(
       query ? `${location.pathname}?${query}` : location.pathname,
     );
+  }
+
+  backClick(): void {
+    if (this.service.openedFromLists) {
+      this.service.openedFromLists = false;
+      this.service.showLists = true;
+    } else {
+      this.service.setEmptyRecipe();
+    }
+
+    const queryParams = new URLSearchParams(window.location.search);
+    queryParams.delete('recipe');
+    const query = queryParams.toString();
+
+    this.location.replaceState(
+      query ? `${location.pathname}?${query}` : location.pathname,
+    );
+
+    const scrollY = this.service.returnScrollY;
+    setTimeout(() => window.scrollTo(0, scrollY));
   }
 
   forwardClick(): void {

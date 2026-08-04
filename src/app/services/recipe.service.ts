@@ -26,6 +26,8 @@ export class RecipeService {
   recentExpanded: boolean = true;
   favoritesExpanded: boolean = true;
   showLists: boolean = false;
+  openedFromLists: boolean = false;
+  returnScrollY: number = 0;
   selectMode: boolean = false;
   selectedForList: Set<string> = new Set<string>();
   expandedListIds: Set<string> = new Set<string>();
