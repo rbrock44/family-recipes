@@ -1,4 +1,10 @@
-import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
+import {
+  Component,
+  Input,
+  OnChanges,
+  SimpleChanges,
+  ChangeDetectionStrategy,
+} from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import { AddToListDialogComponent } from 'src/app/components/add-to-list-dialog/add-to-list-dialog.component';
@@ -16,7 +22,7 @@ import { RecipeModel } from '../../models/recipe.model';
   changeDetection: ChangeDetectionStrategy.Eager,
   standalone: false,
 })
-export class RecipeComponent {
+export class RecipeComponent implements OnChanges {
   @Input() recipe: Recipe = new RecipeModel();
   showLiquid: boolean = false;
   showDry: boolean = false;
@@ -32,6 +38,36 @@ export class RecipeComponent {
     private service: RecipeService,
     private dialog: MatDialog,
   ) {}
+
+  ngOnChanges(changes: SimpleChanges): void {
+    if (!changes['recipe']) {
+      return;
+    }
+
+    const listId = this.service.activeListId;
+    if (!listId) {
+      return;
+    }
+
+    const batches = this.service.findListRecipeBatches(
+      listId,
+      this.recipe.filename,
+    );
+    this.batchControl.setValue(batches ?? 1, { emitEvent: false });
+  }
+
+  onBatchChange(): void {
+    const listId = this.service.activeListId;
+    if (!listId) {
+      return;
+    }
+
+    this.service.setListRecipeBatches(
+      listId,
+      this.recipe.filename,
+      this.batches(),
+    );
+  }
 
   timesBatch(value: any): string {
     const newValue: string = value == undefined ? '0' : value.toString();

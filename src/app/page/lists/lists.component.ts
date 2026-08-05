@@ -147,8 +147,11 @@ export class ListsComponent implements OnInit {
     );
   }
 
-  openRecipe(recipe: Recipe): void {
+  openRecipe(view: ListView, recipe: Recipe): void {
     this.service.returnScrollY = window.scrollY;
+    this.service.useFavoritesList = false;
+    this.service.searchList = view.rows.map((row) => row.recipe.filename);
+    this.service.activeListId = view.list.id;
     this.service.selectRecipe(recipe);
     this.service.addToRecent(recipe.filename);
     this.service.showLists = false;

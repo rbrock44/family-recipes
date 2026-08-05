@@ -79,7 +79,11 @@
   }
 
   <section class="surface-card meta-card">
-    <mat-form-field appearance="outline" class="batch">
+    <mat-form-field
+      appearance="outline"
+      class="batch compact-batch-field"
+      subscriptSizing="dynamic"
+    >
       <mat-label>Batches</mat-label>
       <input
         [formControl]="batchControl"
@@ -88,6 +92,7 @@
         min="1"
         step="1"
         type="number"
+        (change)="onBatchChange()"
       />
     </mat-form-field>
 

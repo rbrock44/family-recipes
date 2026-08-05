@@ -34,11 +34,16 @@
 }
 
 .meta-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
     padding: 1rem 1.25rem;
 }
 
 .batch {
     width: 120px;
+    flex-shrink: 0;
 }
 
 .serves {

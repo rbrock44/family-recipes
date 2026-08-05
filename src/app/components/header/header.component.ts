@@ -7,26 +7,14 @@ import { Location } from '@angular/common';
   template: `
     <div class="page-shell">
       <div class="header-bar surface-card">
-        <div class="header-left">
-          <button
-            mat-button
-            class="home-button"
-            (click)="this.homeClick()"
-            data-home-nav
-          >
-            Home
-          </button>
-
-          <button
-            mat-button
-            class="back-button"
-            (click)="this.backClick()"
-            data-back-nav
-          >
-            <mat-icon>undo</mat-icon>
-            Back
-          </button>
-        </div>
+        <button
+          mat-button
+          class="home-button"
+          (click)="this.homeClick()"
+          data-home-nav
+        >
+          Home
+        </button>
 
         @if (!service.showLists) {
           <div class="header-actions">
@@ -39,6 +27,11 @@ import { Location } from '@angular/common';
             >
               <mat-icon>chevron_left</mat-icon>
             </button>
+            <span class="position" data-total-nav>
+              {{ service.getSelectedRecipeIndex() }}/{{
+                service.searchList.length
+              }}
+            </span>
             <button
               mat-icon-button
               color="primary"
@@ -48,13 +41,18 @@ import { Location } from '@angular/common';
             >
               <mat-icon>chevron_right</mat-icon>
             </button>
-            <span class="position" data-total-nav>
-              {{ service.getSelectedRecipeIndex() }}/{{
-                service.searchList.length
-              }}
-            </span>
           </div>
         }
+
+        <button
+          mat-button
+          class="back-button"
+          (click)="this.backClick()"
+          data-back-nav
+        >
+          <mat-icon>undo</mat-icon>
+          Back
+        </button>
       </div>
     </div>
   `,
@@ -72,6 +70,7 @@ export class HeaderComponent {
     this.service.setEmptyRecipe();
     this.service.showLists = false;
     this.service.openedFromLists = false;
+    this.service.activeListId = null;
 
     const queryParams = new URLSearchParams(window.location.search);
     queryParams.delete('recipe');

@@ -26,3 +26,7 @@ $family-recipes-theme: mat.m2-define-light-theme((
 ));
 
 @include mat.all-component-themes($family-recipes-theme);
+
+.compact-batch-field {
+  @include mat.form-field-density(-5);
+}

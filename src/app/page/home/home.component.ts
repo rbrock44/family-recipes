@@ -117,6 +117,7 @@ export class HomeComponent implements OnInit {
 
     if (recipeParam) {
       this.service.openedFromLists = false;
+      this.service.activeListId = null;
       this.service.readRecipe(recipeParam);
     }
   }

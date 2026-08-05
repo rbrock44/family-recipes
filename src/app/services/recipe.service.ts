@@ -28,6 +28,7 @@ export class RecipeService {
   favoritesExpanded: boolean = true;
   showLists: boolean = false;
   openedFromLists: boolean = false;
+  activeListId: string | null = null;
   returnScrollY: number = 0;
   selectMode: boolean = false;
   selectedForList: Set<string> = new Set<string>();
@@ -225,6 +226,11 @@ export class RecipeService {
 
   setListRecipeBatches(listId: string, filename: string, batches: number): void {
     this.reader.setListRecipeBatches(listId, filename, batches);
+  }
+
+  findListRecipeBatches(listId: string, filename: string): number | undefined {
+    const list = this.readLists().find(it => it.id === listId);
+    return list?.recipes.find(it => it.filename === filename)?.batches;
   }
 
   readCheckedIngredients(listId: string): string[] {

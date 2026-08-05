@@ -95,12 +95,16 @@
               <button
                 type="button"
                 class="recipe-link"
-                (click)="openRecipe(row.recipe)"
+                (click)="openRecipe(view, row.recipe)"
               >
                 <span class="recipe-name">{{ row.recipe.name }}</span>
                 <span class="recipe-author">{{ row.recipe.author }}</span>
               </button>
-              <mat-form-field appearance="outline" class="batch-field">
+              <mat-form-field
+                appearance="outline"
+                class="batch-field compact-batch-field"
+                subscriptSizing="dynamic"
+              >
                 <mat-label>Batches</mat-label>
                 <input
                   matInput

@@ -78,6 +78,7 @@ export class RecipeTableComponent implements OnInit, OnChanges {
     this.service.selectRecipe(recipe);
     this.service.addToRecent(filename);
     this.service.openedFromLists = false;
+    this.service.activeListId = null;
 
     this.location.replaceState(this.buildUrl(filename));
   }
