@@ -7,14 +7,27 @@ import { Location } from '@angular/common';
   template: `
     <div class="page-shell">
       <div class="header-bar surface-card">
-        <button
-          mat-button
-          class="home-button"
-          (click)="this.homeClick()"
-          data-home-nav
-        >
-          Home
-        </button>
+        <div class="header-start">
+          <button
+            mat-button
+            class="home-button"
+            (click)="this.homeClick()"
+            data-home-nav
+          >
+            Home
+          </button>
+
+          @if (!service.showLists) {
+            <button
+              mat-button
+              class="lists-button"
+              (click)="this.listsClick()"
+              data-lists-nav
+            >
+              Lists
+            </button>
+          }
+        </div>
 
         @if (!service.showLists) {
           <div class="header-actions">
@@ -79,6 +92,11 @@ export class HeaderComponent {
     this.location.replaceState(
       query ? `${location.pathname}?${query}` : location.pathname,
     );
+  }
+
+  listsClick(): void {
+    this.service.returnScrollY = window.scrollY;
+    this.service.showLists = true;
   }
 
   backClick(): void {
