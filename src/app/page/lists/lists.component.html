@@ -1,18 +1,18 @@
 <app-header></app-header>
 <section class="page-shell lists-page">
   <header class="surface-card lists-hero">
-    <h1>Your Lists</h1>
+    <h1>Lists</h1>
   </header>
 
   @if (loading) {
     <section class="surface-card empty-card loading-card">
       <mat-spinner diameter="32"></mat-spinner>
-      <p>Loading your lists...</p>
+      <p>Loading lists...</p>
     </section>
   } @else if (views.length === 0) {
     <section class="surface-card empty-card">
       <p>
-        You haven't created any lists yet. Use the "Add to list" icon on a
+        No lists created yet. Use the "Add to list" icon on a
         recipe (search results, favorites, recently visited, or a recipe's
         own page) to start one.
       </p>
