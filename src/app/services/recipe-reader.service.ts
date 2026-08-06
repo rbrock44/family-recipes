@@ -46,19 +46,13 @@ export class RecipeReaderService {
     return name
   }
 
-  readRecipes(filenames: string[] = this.createFilenames()): Recipe[] {
+  readRecipes(): Recipe[] {
     let array: Recipe[] = []
-    filenames.forEach(async it => {
-      const text: string = await this.firstValueFrom(it);
-      let recipe = this.convertRecipe(text);
-      recipe.filename = it;
 
-      array.push(recipe);
-
-      if (it === this.createFilename(this.recipeTotal)) {
-        this.fullyLoaded = true;
-      }
-    })
+    firstValueFrom(this.http.get<Recipe[]>('assets/recipes.json')).then(recipes => {
+      array.push(...recipes);
+      this.fullyLoaded = true;
+    });
 
     return array
   }

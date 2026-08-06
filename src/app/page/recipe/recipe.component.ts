@@ -1,8 +1,10 @@
 import {
   Component,
+  ElementRef,
   Input,
   OnChanges,
   SimpleChanges,
+  ViewChild,
   ChangeDetectionStrategy,
 } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
@@ -28,6 +30,8 @@ export class RecipeComponent implements OnChanges {
   showDry: boolean = false;
   showImage: boolean = false;
   currentPhotoIndex: number = 0;
+  @ViewChild('lightboxDialog') lightboxDialog?: ElementRef<HTMLElement>;
+  private previouslyFocusedElement: HTMLElement | null = null;
   batchControl: FormControl = new FormControl(1, [
     Validators.min(1),
     Validators.pattern('^[1-9][0-9]*$'),
@@ -108,12 +112,16 @@ export class RecipeComponent implements OnChanges {
   }
 
   openImage(): void {
+    this.previouslyFocusedElement = document.activeElement as HTMLElement;
     this.currentPhotoIndex = 0;
     this.showImage = true;
+    setTimeout(() => this.lightboxDialog?.nativeElement.focus());
   }
 
   closeImage(): void {
     this.showImage = false;
+    this.previouslyFocusedElement?.focus();
+    this.previouslyFocusedElement = null;
   }
 
   nextPhoto(event: Event): void {
@@ -127,6 +135,32 @@ export class RecipeComponent implements OnChanges {
     const photos = this.allPhotos();
     this.currentPhotoIndex =
       (this.currentPhotoIndex - 1 + photos.length) % photos.length;
+  }
+
+  onLightboxTab(event: Event, isShiftTab: boolean): void {
+    const dialog = this.lightboxDialog?.nativeElement;
+    if (!dialog) {
+      return;
+    }
+
+    const focusable = Array.from(
+      dialog.querySelectorAll<HTMLElement>('button:not([disabled])'),
+    );
+    if (focusable.length === 0) {
+      return;
+    }
+
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    const active = document.activeElement;
+
+    if (!isShiftTab && active === last) {
+      event.preventDefault();
+      first.focus();
+    } else if (isShiftTab && active === first) {
+      event.preventDefault();
+      last.focus();
+    }
   }
 
   openAddToList(): void {

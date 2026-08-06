@@ -25,6 +25,9 @@ jobs:
     - name: Configure npm Authentication
       run: echo "//registry.npmjs.org/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
 
+    - name: Combine recipes into single JSON file
+      run: npm run recipes:combine
+
     - name: Build Project
       run: npm run deploy
 

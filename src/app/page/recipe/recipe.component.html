@@ -37,7 +37,20 @@
   </header>
 
   @if (showImage && recipe.link) {
-    <div class="image-overlay" (click)="closeImage()">
+    <div
+      class="image-overlay"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Recipe photo"
+      tabindex="-1"
+      #lightboxDialog
+      (click)="closeImage()"
+      (keydown.escape)="closeImage()"
+      (keydown.arrowleft)="previousPhoto($event)"
+      (keydown.arrowright)="nextPhoto($event)"
+      (keydown.tab)="onLightboxTab($event, false)"
+      (keydown.shift.tab)="onLightboxTab($event, true)"
+    >
       <button
         mat-icon-button
         class="image-overlay-close"

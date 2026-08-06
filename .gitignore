@@ -4,6 +4,9 @@
 /dist
 /tmp
 /out-tsc
+
+# generated recipe bundle (built from src/assets/recipes/*.json)
+/src/assets/recipes.json
 # Only exists if Bazel was run
 /bazel-out
 
