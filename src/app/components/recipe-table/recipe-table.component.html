@@ -26,50 +26,49 @@
         [ngClass]="getResultBoxClass()"
         class="table-shell"
         [class.compact]="removeColumns"
+        matSort
+        (matSortChange)="sortData()"
       >
-        <mat-table
-          [dataSource]="this.dataSource"
-          matSort
-          class="mat-elevation-z8"
-          (matSortChange)="sortData()"
+        <div
+          class="mat-mdc-header-row"
+          role="row"
+          [style.padding-right.px]="scrollbarGutter"
         >
-          <!-- name Column -->
-          <ng-container matColumnDef="name">
-            <mat-header-cell *matHeaderCellDef mat-sort-header
-              >Name</mat-header-cell
+          <div
+            class="mat-mdc-header-cell mat-column-name"
+            role="columnheader"
+            mat-sort-header="name"
+          >
+            Name
+          </div>
+          <div
+            class="mat-mdc-header-cell mat-column-author"
+            role="columnheader"
+            mat-sort-header="author"
+          >
+            Author
+          </div>
+          @if (!removeColumns) {
+            <div
+              class="mat-mdc-header-cell mat-column-category"
+              role="columnheader"
+              mat-sort-header="category"
             >
-            <mat-cell *matCellDef="let element"> {{ element.name }} </mat-cell>
-          </ng-container>
-          <!-- author Column -->
-          <ng-container matColumnDef="author">
-            <mat-header-cell *matHeaderCellDef mat-sort-header
-              >Author</mat-header-cell
+              Category
+            </div>
+            <div
+              class="mat-mdc-header-cell mat-column-filename"
+              role="columnheader"
+              mat-sort-header="filename"
             >
-            <mat-cell *matCellDef="let element">
-              {{ element.author }}
-            </mat-cell>
-          </ng-container>
-          <!-- category Column -->
-          <ng-container matColumnDef="category">
-            <mat-header-cell *matHeaderCellDef mat-sort-header
-              >Category</mat-header-cell
+              Number
+            </div>
+          }
+          @if (showUnfavorite || showRemoveRecent || showAddToList) {
+            <div
+              class="mat-mdc-header-cell mat-column-actions"
+              role="columnheader"
             >
-            <mat-cell *matCellDef="let element">
-              {{ getCategory(element.category) }}
-            </mat-cell>
-          </ng-container>
-          <!-- filename Column -->
-          <ng-container matColumnDef="filename">
-            <mat-header-cell *matHeaderCellDef mat-sort-header
-              >Number</mat-header-cell
-            >
-            <mat-cell *matCellDef="let element">
-              {{ element.filename }}
-            </mat-cell>
-          </ng-container>
-          <!-- actions Column -->
-          <ng-container matColumnDef="actions">
-            <mat-header-cell *matHeaderCellDef>
               @if (showAddToList) {
                 <mat-checkbox
                   class="select-checkbox"
@@ -78,7 +77,43 @@
                   aria-label="Select multiple recipes to add to a list"
                 ></mat-checkbox>
               }
-            </mat-header-cell>
+            </div>
+          }
+        </div>
+
+        <cdk-virtual-scroll-viewport
+          #viewport
+          [itemSize]="rowHeight"
+          class="table-viewport"
+          [style.height.px]="dataSource.data.length * rowHeight"
+        >
+        <mat-table
+          [dataSource]="this.dataSource"
+        >
+          <!-- name Column -->
+          <ng-container matColumnDef="name">
+            <mat-cell *matCellDef="let element"> {{ element.name }} </mat-cell>
+          </ng-container>
+          <!-- author Column -->
+          <ng-container matColumnDef="author">
+            <mat-cell *matCellDef="let element">
+              {{ element.author }}
+            </mat-cell>
+          </ng-container>
+          <!-- category Column -->
+          <ng-container matColumnDef="category">
+            <mat-cell *matCellDef="let element">
+              {{ getCategory(element.category) }}
+            </mat-cell>
+          </ng-container>
+          <!-- filename Column -->
+          <ng-container matColumnDef="filename">
+            <mat-cell *matCellDef="let element">
+              {{ element.filename }}
+            </mat-cell>
+          </ng-container>
+          <!-- actions Column -->
+          <ng-container matColumnDef="actions">
             <mat-cell *matCellDef="let element">
               @if (showUnfavorite) {
                 <button
@@ -113,9 +148,6 @@
               }
             </mat-cell>
           </ng-container>
-          <mat-header-row
-            *matHeaderRowDef="this.displayColumns"
-          ></mat-header-row>
           <mat-row
             *matRowDef="let row; columns: this.displayColumns"
             [class.selected]="
@@ -126,6 +158,7 @@
             (click)="click(row, $event)"
           ></mat-row>
         </mat-table>
+        </cdk-virtual-scroll-viewport>
       </div>
     </div>
   </div>

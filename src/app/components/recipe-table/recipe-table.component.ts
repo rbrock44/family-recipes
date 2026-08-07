@@ -1,7 +1,10 @@
 import {
   Component,
+  ElementRef,
   Input,
+  NgZone,
   OnChanges,
+  OnDestroy,
   OnInit,
   ViewChild,
   ChangeDetectionStrategy,
@@ -22,7 +25,7 @@ import { Location } from '@angular/common';
   changeDetection: ChangeDetectionStrategy.Eager,
   standalone: false,
 })
-export class RecipeTableComponent implements OnInit, OnChanges {
+export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
   @Input() dataSource = new MatTableDataSource<Recipe>();
   @Input() removeColumns: boolean = false;
   @Input() isFavoritesList: boolean = false;
@@ -31,18 +34,49 @@ export class RecipeTableComponent implements OnInit, OnChanges {
   @Input() showAddToList: boolean = false;
   @Input() showBulkActions: boolean = false;
   displayColumns: string[] = ['name', 'author', 'category', 'filename'];
+  readonly rowHeight = 48;
+  scrollbarGutter = 0;
 
   // @ts-ignore
   @ViewChild(MatSort) sort: MatSort;
+
+  @ViewChild('viewport', { read: ElementRef })
+  set viewportElRef(ref: ElementRef<HTMLElement> | undefined) {
+    this.resizeObserver?.disconnect();
+    this.resizeObserver = undefined;
+
+    if (!ref) {
+      return;
+    }
+
+    const viewportEl = ref.nativeElement;
+
+    this.resizeObserver = new ResizeObserver(() => {
+      const gutter = viewportEl.offsetWidth - viewportEl.clientWidth;
+      if (gutter !== this.scrollbarGutter) {
+        this.ngZone.run(() => {
+          this.scrollbarGutter = gutter;
+        });
+      }
+    });
+    this.resizeObserver.observe(viewportEl);
+  }
+
+  private resizeObserver?: ResizeObserver;
 
   constructor(
     private location: Location,
     public service: RecipeService,
     private dialog: MatDialog,
+    private ngZone: NgZone,
   ) {}
 
   ngOnInit(): void {
     this.dataSource.sort = this.sort;
+  }
+
+  ngOnDestroy(): void {
+    this.resizeObserver?.disconnect();
   }
 
   ngOnChanges(): void {

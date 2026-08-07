@@ -1,4 +1,5 @@
 import {NgModule} from '@angular/core';
+import {ScrollingModule} from '@angular/cdk/scrolling';
 import {MatExpansionModule} from "@angular/material/expansion";
 import {MatIconModule} from "@angular/material/icon";
 import {MatFormFieldModule} from '@angular/material/form-field';
@@ -29,6 +30,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatTableModule,
     MatSelectModule,
     MatSortModule,
+    ScrollingModule,
   ],
   exports: [
     MatButtonModule,
@@ -44,6 +46,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatTableModule,
     MatSelectModule,
     MatSortModule,
+    ScrollingModule,
   ]
 })
 export class MaterialModule {

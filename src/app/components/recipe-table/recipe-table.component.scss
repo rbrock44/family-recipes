@@ -44,26 +44,48 @@
   border: 1px solid rgba(111, 66, 193, 0.16);
   overflow: hidden;
   box-shadow: var(--shadow-soft);
+  background: white;
 }
 
 .table-shell.compact {
   width: min(980px, 100%);
 }
 
-/* Material 22 is MDC-based: rows/cells carry .mat-mdc-* classes. The old
-   .mat-row / .mat-cell names silently match nothing. */
+.table-viewport {
+  max-height: min(65vh, 560px);
+  overflow-x: hidden;
+}
+
+::ng-deep .table-viewport .cdk-virtual-scroll-content-wrapper {
+  width: 100%;
+}
+
+::ng-deep .table-viewport .mat-mdc-table {
+  border-radius: 0 !important;
+}
+
 .mat-mdc-header-row {
-  min-height: 52px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0.7rem 0;
   background: var(--table-header);
 }
 
+.mat-sort-header-container {
+  border-bottom: none;
+}
+
+.mat-mdc-header-cell {
+  border-bottom: none;
+}
+
 .mat-mdc-row {
+  height: 48px;
   cursor: pointer;
   background: white;
 }
 
-/* nth-of-type, not nth-child: the header row is a sibling of the data rows
-   inside mat-table, so nth-child would count it and flip the stripes. */
 .mat-mdc-row:nth-of-type(even) {
   background: var(--table-stripe);
 }
@@ -82,6 +104,10 @@
 }
 
 .mat-mdc-header-cell {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  box-sizing: border-box;
   color: var(--brand-900);
   font-weight: 600;
 }
@@ -92,12 +118,16 @@
 
 .mat-mdc-header-cell,
 .mat-mdc-cell {
-  /* Flex items default to a content-based min-width, which stops columns from
-     shrinking below the width of their longest word (e.g. long category names).
-     Without this, narrow phone screens force the whole table to overflow its
-     card and get clipped instead of shrinking. */
   min-width: 0;
-  overflow-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mat-mdc-header-cell:not(.mat-column-actions),
+.mat-mdc-cell:not(.mat-column-actions) {
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
 }
 
 .mat-column-name,
@@ -127,24 +157,20 @@
 }
 
 .select-checkbox {
-  margin: -8px -6px -8px -8px;
+  margin: -10px -6px -6px -8px;
   transform: scale(0.85);
 }
 
 @media screen and (min-width: 900px) {
-  .mat-mdc-header-row {
-    min-height: 60px;
-  }
-
-  .mat-mdc-row {
-    min-height: 56px;
-  }
-
   .mat-mdc-header-cell,
   .mat-mdc-cell {
     font-size: 1rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+  }
+
+  .mat-mdc-header-cell:not(.mat-column-actions),
+  .mat-mdc-cell:not(.mat-column-actions) {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
   }
 }
 
@@ -159,8 +185,12 @@
   .mat-mdc-header-cell,
   .mat-mdc-cell {
     font-size: 0.8rem;
-    padding-left: 0.35rem;
-    padding-right: 0.35rem;
+  }
+
+  .mat-mdc-header-cell:not(.mat-column-actions),
+  .mat-mdc-cell:not(.mat-column-actions) {
+    padding-left: 0.35rem !important;
+    padding-right: 0.35rem !important;
   }
 
   .mat-column-name {
