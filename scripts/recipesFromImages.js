@@ -4,8 +4,8 @@
  * Scan a folder of recipe photos, preprocess each image (auto-rotate, trim
  * borders, normalize contrast, downscale), read the recipe out of it with
  * Claude vision, and write each result as a new numbered recipe JSON file in
- * src/assets/recipes/ — then bump `recipeTotal` in recipe-reader.service.ts so
- * the new recipes load in the app.
+ * src/assets/recipes/, numbered after whatever recipe is already highest on
+ * disk (determined by combining the existing files).
  *
  * Each trimmed photo is staged in <folder>/processed/ named by its recipe
  * number (0925.jpg for 0925.json), and each recipe gets a `link` field pointing
@@ -62,6 +62,7 @@ function requireOrExplain(moduleName) {
 const Anthropic = requireOrExplain('@anthropic-ai/sdk');
 const sharp = requireOrExplain('sharp');
 const prettier = requireOrExplain('prettier');
+const { combineRecipes, outputPath: combinedOutputPath } = require('./combineRecipes');
 
 // ---------------------------------------------------------------------------
 // Constants
@@ -276,39 +277,29 @@ function printHelp() {
 function resolveProjectRoot() {
 	const candidateRoots = [path.resolve(__dirname, '..'), process.cwd()];
 	for (const root of candidateRoots) {
-		const serviceFile = path.join(root, 'src', 'app', 'services', 'recipe-reader.service.ts');
-		if (fs.existsSync(serviceFile)) {
+		const recipesDir = path.join(root, 'src', 'assets', 'recipes');
+		if (fs.existsSync(recipesDir)) {
 			return root;
 		}
 	}
-	throw new Error('Unable to resolve project root. Expected to find src/app/services/recipe-reader.service.ts');
+	throw new Error('Unable to resolve project root. Expected to find src/assets/recipes');
 }
 
-function readStartId(recipeServicePath) {
-	const serviceText = fs.readFileSync(recipeServicePath, 'utf8');
-	const match = serviceText.match(/recipeTotal\s*=\s*(\d+)\s*;/);
-	if (!match) {
-		throw new Error(`Unable to find recipeTotal in ${recipeServicePath}`);
-	}
-	const parsedId = Number.parseInt(match[1], 10);
-	if (!Number.isInteger(parsedId) || parsedId <= 0) {
-		throw new Error(`Invalid recipeTotal value (${match[1]}) in ${recipeServicePath}`);
-	}
-	return parsedId;
-}
+async function getCurrentRecipeNumber() {
+	await combineRecipes();
 
-function updateRecipeTotal(recipeServicePath, newTotal) {
-	const serviceText = fs.readFileSync(recipeServicePath, 'utf8');
-	const recipeTotalRegex = /recipeTotal\s*=\s*(\d+)\s*;/;
-	const match = serviceText.match(recipeTotalRegex);
-	if (!match) {
-		throw new Error(`Unable to update recipeTotal in ${recipeServicePath}`);
+	const combined = JSON.parse(fs.readFileSync(combinedOutputPath, 'utf8'));
+	if (combined.length === 0) {
+		return 0;
 	}
-	if (Number.parseInt(match[1], 10) === newTotal) {
-		return false;
+
+	const lastFilename = combined[combined.length - 1].filename;
+	const lastNumber = Number.parseInt(lastFilename, 10);
+	if (!Number.isInteger(lastNumber)) {
+		throw new Error(`Unable to parse recipe number from filename "${lastFilename}"`);
 	}
-	fs.writeFileSync(recipeServicePath, serviceText.replace(recipeTotalRegex, `recipeTotal = ${newTotal};`));
-	return true;
+
+	return lastNumber;
 }
 
 // ---------------------------------------------------------------------------
@@ -491,7 +482,6 @@ async function main() {
 	}
 
 	const projectRoot = resolveProjectRoot();
-	const recipeServicePath = path.join(projectRoot, 'src', 'app', 'services', 'recipe-reader.service.ts');
 	const assetDirectory = path.join(projectRoot, 'src', 'assets', 'recipes');
 
 	const images = listImages(options.folder);
@@ -501,7 +491,7 @@ async function main() {
 	}
 
 	const client = new Anthropic();
-	const startId = readStartId(recipeServicePath);
+	const startId = await getCurrentRecipeNumber();
 
 	console.log(`Found ${images.length} image(s). Recipes will start at #${startId + 1}.`);
 	if (options.dryRun) console.log('(dry run — no files will be written)\n');
@@ -560,14 +550,10 @@ async function main() {
 	console.log('\n----------------------------------------');
 	if (options.dryRun) {
 		console.log(`Dry run complete: ${written} recipe(s) would be written, ${failures.length} failed.`);
+	} else if (written > 0) {
+		console.log(`Wrote ${written} recipe(s), ending at #${startId + written}.`);
 	} else {
-		const newTotal = startId + written;
-		if (written > 0) {
-			updateRecipeTotal(recipeServicePath, newTotal);
-			console.log(`Wrote ${written} recipe(s). recipeTotal is now ${newTotal}.`);
-		} else {
-			console.log('No recipes written; recipeTotal unchanged.');
-		}
+		console.log('No recipes written.');
 	}
 
 	if (failures.length > 0) {

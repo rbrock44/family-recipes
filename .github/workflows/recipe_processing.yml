@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "*/10 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [recipe-submitted]
 
 permissions:
   contents: write
@@ -44,7 +46,7 @@ jobs:
         id: changes
         shell: bash
         run: |
-          if git diff --quiet -- src/assets/recipes src/app/services/recipe-reader.service.ts; then
+          if git diff --quiet -- src/assets/recipes; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
             echo "No recipe changes detected."
           else

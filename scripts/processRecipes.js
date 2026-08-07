@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const prettier = require('prettier');
+const { combineRecipes, outputPath } = require('./combineRecipes');
 
 function resolveProjectRoot() {
 	const candidateRoots = [
@@ -9,56 +10,35 @@ function resolveProjectRoot() {
 	];
 
 	for (const root of candidateRoots) {
-		const serviceFile = path.join(root, 'src', 'app', 'services', 'recipe-reader.service.ts');
-		if (fs.existsSync(serviceFile)) {
+		const recipesDir = path.join(root, 'src', 'assets', 'recipes');
+		if (fs.existsSync(recipesDir)) {
 			return root;
 		}
 	}
 
-	throw new Error('Unable to resolve project root. Expected to find src/app/services/recipe-reader.service.ts');
+	throw new Error('Unable to resolve project root. Expected to find src/assets/recipes');
 }
 
 const projectRoot = resolveProjectRoot();
-const recipeServicePath = path.join(projectRoot, 'src', 'app', 'services', 'recipe-reader.service.ts');
 const assetDirectory = path.join(projectRoot, 'src', 'assets', 'recipes');
 const jsonExtension = '.json';
 
-function readStartId() {
-	const serviceText = fs.readFileSync(recipeServicePath, 'utf8');
-	const match = serviceText.match(/recipeTotal\s*=\s*(\d+)\s*;/);
+async function getCurrentRecipeNumber() {
+	await combineRecipes();
 
-	if (!match) {
-		throw new Error(`Unable to find recipeTotal in ${recipeServicePath}`);
+	const combined = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+	if (combined.length === 0) {
+		return 0;
 	}
 
-	const parsedId = Number.parseInt(match[1], 10);
-	if (!Number.isInteger(parsedId) || parsedId <= 0) {
-		throw new Error(`Invalid recipeTotal value (${match[1]}) in ${recipeServicePath}`);
+	const lastFilename = combined[combined.length - 1].filename;
+	const lastNumber = Number.parseInt(lastFilename, 10);
+	if (!Number.isInteger(lastNumber)) {
+		throw new Error(`Unable to parse recipe number from filename "${lastFilename}"`);
 	}
 
-	return parsedId;
+	return lastNumber;
 }
-
-function updateRecipeTotal(newTotal) {
-	const serviceText = fs.readFileSync(recipeServicePath, 'utf8');
-	const recipeTotalRegex = /recipeTotal\s*=\s*(\d+)\s*;/;
-	const match = serviceText.match(recipeTotalRegex);
-
-	if (!match) {
-		throw new Error(`Unable to update recipeTotal in ${recipeServicePath}`);
-	}
-
-	const currentTotal = Number.parseInt(match[1], 10);
-	if (currentTotal === newTotal) {
-		return false;
-	}
-
-	const updatedText = serviceText.replace(recipeTotalRegex, `recipeTotal = ${newTotal};`);
-
-	fs.writeFileSync(recipeServicePath, updatedText);
-	return true;
-}
-
 
 async function processRecipes() {
 	try {
@@ -66,8 +46,7 @@ async function processRecipes() {
 			throw new Error('Global fetch is not available. Use Node.js 18+ for this script.');
 		}
 
-		// Read the current recipe count from the Angular service.
-		const startId = readStartId();
+		const startId = await getCurrentRecipeNumber();
 
 		// Fetch pending recipes to convert into local JSON files.
 		const response = await fetch('https://home-page-api.ryan-brock.com/recipe/pending', {
@@ -86,7 +65,7 @@ async function processRecipes() {
 			throw new Error('Expected pending recipes response to be an array');
 		}
 
-		// Create new numbered files in assetDirectory, continuing after recipeTotal.
+		// Create new numbered files in assetDirectory, continuing after startId.
 		for (const [index, recipe] of data.entries()) {
 			const recipePayload = recipe.payload;
 			const newRecipeNumber = startId + (index + 1);
@@ -101,17 +80,11 @@ async function processRecipes() {
 			console.log(`Created file: ${filename}`);
 		}
 
-		// if (data.length !== 0) {
-			const newTotal = startId + data.length;
-			const updatedRecipeTotal = updateRecipeTotal(newTotal);
-			if (!updatedRecipeTotal) {
-				console.log(`recipeTotal already at ${newTotal}; no update needed`);
-			} else {
-				console.log(`Updated recipeTotal to ${newTotal}`);
-			}
-		// }
-
-
+		if (data.length === 0) {
+			console.log('No pending recipes to process.');
+		} else {
+			console.log(`Wrote ${data.length} recipe(s), starting at #${startId + 1}.`);
+		}
 	} catch (error) {
 		console.error('Error processing recipe:', error);
 	}
