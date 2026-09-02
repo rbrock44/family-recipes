@@ -10,20 +10,51 @@ import {
   ChangeDetectionStrategy,
 } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { MatSort } from '@angular/material/sort';
-import { MatTableDataSource } from '@angular/material/table';
+import { MatSort, MatSortHeader } from '@angular/material/sort';
+import {
+  MatTableDataSource,
+  MatTable,
+  MatColumnDef,
+  MatCellDef,
+  MatCell,
+  MatRowDef,
+  MatRow,
+} from '@angular/material/table';
 import { AddToListDialogComponent } from '../add-to-list-dialog/add-to-list-dialog.component';
 import { getCategory } from 'src/app/models/category.enum';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
-import { Location } from '@angular/common';
+import { Location, NgClass } from '@angular/common';
+import { MatButton, MatIconButton } from '@angular/material/button';
+import { MatCheckbox } from '@angular/material/checkbox';
+import {
+  CdkVirtualScrollViewport,
+  CdkFixedSizeVirtualScroll,
+} from '@angular/cdk/scrolling';
+import { MatIcon } from '@angular/material/icon';
 
 @Component({
   selector: 'app-recipe-table',
   templateUrl: './recipe-table.component.html',
   styleUrls: ['./recipe-table.component.scss'],
   changeDetection: ChangeDetectionStrategy.Eager,
-  standalone: false,
+  imports: [
+    NgClass,
+    MatButton,
+    MatSort,
+    MatSortHeader,
+    MatCheckbox,
+    CdkVirtualScrollViewport,
+    CdkFixedSizeVirtualScroll,
+    MatTable,
+    MatColumnDef,
+    MatCellDef,
+    MatCell,
+    MatIconButton,
+    MatIcon,
+    MatRowDef,
+    MatRow,
+  ],
 })
 export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
   @Input() dataSource = new MatTableDataSource<Recipe>();
@@ -92,10 +123,7 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
   }
 
   click(recipe: Recipe, event?: Event): void {
-    if (
-      event &&
-      (event.target as HTMLElement).closest('.mat-column-actions')
-    ) {
+    if (event && (event.target as HTMLElement).closest('.mat-column-actions')) {
       return;
     }
 

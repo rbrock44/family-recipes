@@ -7,7 +7,7 @@ import {
   ViewChild,
   ChangeDetectionStrategy,
 } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { FormControl, Validators, ReactiveFormsModule } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import { AddToListDialogComponent } from 'src/app/components/add-to-list-dialog/add-to-list-dialog.component';
 import { REGEX_TO_HIGHLIGHT } from 'src/app/constants/constants';
@@ -16,13 +16,35 @@ import { Ingredient } from 'src/app/models/ingredient.interface';
 import { RecipeService } from 'src/app/services/recipe.service';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeModel } from '../../models/recipe.model';
+import { HeaderComponent } from '../../components/header/header.component';
+import { MatIconButton, MatButton } from '@angular/material/button';
+import { MatIcon } from '@angular/material/icon';
+import { MatFormField, MatLabel } from '@angular/material/form-field';
+import { MatInput } from '@angular/material/input';
+import { NgClass } from '@angular/common';
+import { FractionComponent } from '../../components/fraction/fraction.component';
+import { LiquidConversionComponent } from '../../components/liquid-conversion/liquid-conversion.component';
+import { DryConversionComponent } from '../../components/dry-conversion/dry-conversion.component';
 
 @Component({
   selector: 'app-recipe',
   templateUrl: './recipe.component.html',
   styleUrls: ['./recipe.component.scss'],
   changeDetection: ChangeDetectionStrategy.Eager,
-  standalone: false,
+  imports: [
+    HeaderComponent,
+    MatIconButton,
+    MatIcon,
+    MatFormField,
+    MatLabel,
+    MatInput,
+    ReactiveFormsModule,
+    NgClass,
+    FractionComponent,
+    LiquidConversionComponent,
+    DryConversionComponent,
+    MatButton,
+  ],
 })
 export class RecipeComponent implements OnChanges {
   @Input() recipe: Recipe = new RecipeModel();

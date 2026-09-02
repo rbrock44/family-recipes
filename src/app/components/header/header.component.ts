@@ -1,6 +1,8 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RecipeService } from 'src/app/services/recipe.service';
 import { Location } from '@angular/common';
+import { MatButton, MatIconButton } from '@angular/material/button';
+import { MatIcon } from '@angular/material/icon';
 
 @Component({
   selector: 'app-header',
@@ -71,7 +73,7 @@ import { Location } from '@angular/common';
   `,
   styleUrls: ['./header.component.scss'],
   changeDetection: ChangeDetectionStrategy.Eager,
-  standalone: false,
+  imports: [MatButton, MatIconButton, MatIcon],
 })
 export class HeaderComponent {
   constructor(

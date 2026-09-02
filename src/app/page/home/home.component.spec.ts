@@ -5,7 +5,6 @@ import {
   expectElementPresent,
   expectElementToContainContent,
 } from '../../constants/expectations.spec';
-import { MaterialModule } from '../../material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { provideHttpClientTesting } from '@angular/common/http/testing';
 import {
@@ -20,8 +19,7 @@ describe('HomeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [HomeComponent],
-      imports: [BrowserAnimationsModule, MaterialModule, RouterTestingModule],
+      imports: [BrowserAnimationsModule, RouterTestingModule, HomeComponent],
       providers: [
         provideHttpClient(withXhr(), withInterceptorsFromDi()),
         provideHttpClientTesting(),

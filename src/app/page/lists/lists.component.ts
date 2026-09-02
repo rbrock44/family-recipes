@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { CustomIngredient } from 'src/app/models/custom-ingredient.interface';
 import { formatAmount } from 'src/app/models/decimal.enum';
 import {
@@ -10,6 +10,14 @@ import { encodeSharedList } from 'src/app/models/list-share';
 import { Recipe } from 'src/app/models/recipe.interface';
 import { RecipeList } from 'src/app/models/recipe-list.interface';
 import { RecipeService } from 'src/app/services/recipe.service';
+import { HeaderComponent } from '../../components/header/header.component';
+import { MatProgressSpinner } from '@angular/material/progress-spinner';
+import { MatIcon } from '@angular/material/icon';
+import { MatIconButton } from '@angular/material/button';
+import { MatFormField, MatLabel } from '@angular/material/form-field';
+import { MatInput } from '@angular/material/input';
+import { MatCheckbox } from '@angular/material/checkbox';
+import { FractionComponent } from '../../components/fraction/fraction.component';
 
 interface ListRecipeRow {
   recipe: Recipe;
@@ -39,7 +47,18 @@ interface ListView {
   templateUrl: './lists.component.html',
   styleUrls: ['./lists.component.scss'],
   changeDetection: ChangeDetectionStrategy.Eager,
-  standalone: false,
+  imports: [
+    HeaderComponent,
+    MatProgressSpinner,
+    MatIcon,
+    MatIconButton,
+    MatFormField,
+    MatInput,
+    ReactiveFormsModule,
+    MatLabel,
+    MatCheckbox,
+    FractionComponent,
+  ],
 })
 export class ListsComponent implements OnInit {
   views: ListView[] = [];
@@ -217,7 +236,10 @@ export class ListsComponent implements OnInit {
     );
   }
 
-  startEditCustomIngredient(view: ListView, ingredient: CustomIngredient): void {
+  startEditCustomIngredient(
+    view: ListView,
+    ingredient: CustomIngredient,
+  ): void {
     view.addingCustomIngredient = false;
     view.editCustomAmountControl.setValue(ingredient.amount);
     view.editCustomNameControl.setValue(ingredient.name);
@@ -289,9 +311,7 @@ export class ListsComponent implements OnInit {
 
         if (!recipe) {
           try {
-            const contents = await this.service.firstValueFrom(
-              entry.filename,
-            );
+            const contents = await this.service.firstValueFrom(entry.filename);
             recipe = this.service.convertRecipe(contents);
             recipe.filename = entry.filename;
           } catch {
@@ -313,9 +333,7 @@ export class ListsComponent implements OnInit {
       nameControl: new FormControl(list.name),
       rows,
       ingredients: this.buildIngredients(rows),
-      checkedIngredients: new Set(
-        this.service.readCheckedIngredients(list.id),
-      ),
+      checkedIngredients: new Set(this.service.readCheckedIngredients(list.id)),
       customIngredients: list.customIngredients ?? [],
       addingCustomIngredient: false,
       customAmountControl: new FormControl(''),

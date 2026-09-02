@@ -2,7 +2,6 @@ import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { HeaderComponent } from 'src/app/components/header/header.component';
-import { MaterialModule } from 'src/app/material.module';
 import { RecipeReaderService } from 'src/app/services/recipe-reader.service';
 import { RecipeComponent } from './recipe.component';
 import {
@@ -18,8 +17,7 @@ describe('RecipeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [RecipeComponent, HeaderComponent],
-      imports: [RouterTestingModule, MaterialModule],
+      imports: [RouterTestingModule, RecipeComponent, HeaderComponent],
       providers: [
         provideHttpClient(withXhr(), withInterceptorsFromDi()),
         provideHttpClientTesting(),

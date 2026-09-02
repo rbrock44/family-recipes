@@ -5,7 +5,6 @@ import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
   templateUrl: './fraction.component.html',
   styleUrls: ['./fraction.component.scss'],
   changeDetection: ChangeDetectionStrategy.Eager,
-  standalone: false,
 })
 export class FractionComponent {
   @Input() fraction: string = '';

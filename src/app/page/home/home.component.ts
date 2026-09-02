@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { MatTableDataSource } from '@angular/material/table';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { CATEGORIES, getCategory } from 'src/app/models/category.enum';
@@ -8,13 +8,50 @@ import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
+import { MatIcon } from '@angular/material/icon';
+import { MatButton, MatIconButton } from '@angular/material/button';
+import { MatProgressSpinner } from '@angular/material/progress-spinner';
+import {
+  MatFormField,
+  MatLabel,
+  MatSuffix,
+} from '@angular/material/form-field';
+import { MatInput } from '@angular/material/input';
+import {
+  MatAccordion,
+  MatExpansionPanel,
+  MatExpansionPanelHeader,
+  MatExpansionPanelTitle,
+} from '@angular/material/expansion';
+import { MatCheckbox } from '@angular/material/checkbox';
+import { MatSelect } from '@angular/material/select';
+import { MatOption } from '@angular/material/core';
+import { RecipeTableComponent } from '../../components/recipe-table/recipe-table.component';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   changeDetection: ChangeDetectionStrategy.Eager,
-  standalone: false,
+  imports: [
+    MatIcon,
+    MatButton,
+    MatProgressSpinner,
+    MatFormField,
+    MatLabel,
+    MatInput,
+    ReactiveFormsModule,
+    MatIconButton,
+    MatSuffix,
+    MatAccordion,
+    MatExpansionPanel,
+    MatExpansionPanelHeader,
+    MatExpansionPanelTitle,
+    MatCheckbox,
+    MatSelect,
+    MatOption,
+    RecipeTableComponent,
+  ],
 })
 export class HomeComponent implements OnInit {
   title = 'family-recipes';

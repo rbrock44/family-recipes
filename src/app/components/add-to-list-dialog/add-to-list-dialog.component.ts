@@ -1,9 +1,20 @@
 import { Component, ChangeDetectionStrategy, Inject } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
-import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { FormControl, Validators, ReactiveFormsModule } from '@angular/forms';
+import {
+  MAT_DIALOG_DATA,
+  MatDialogRef,
+  MatDialogTitle,
+  MatDialogContent,
+  MatDialogActions,
+} from '@angular/material/dialog';
 import { Recipe } from 'src/app/models/recipe.interface';
 import { RecipeList } from 'src/app/models/recipe-list.interface';
 import { RecipeService } from 'src/app/services/recipe.service';
+import { CdkScrollable } from '@angular/cdk/scrolling';
+import { MatRadioGroup, MatRadioButton } from '@angular/material/radio';
+import { MatFormField, MatLabel } from '@angular/material/form-field';
+import { MatInput } from '@angular/material/input';
+import { MatButton } from '@angular/material/button';
 
 export interface AddToListDialogData {
   recipes: Recipe[];
@@ -17,7 +28,19 @@ const NEW_LIST_VALUE = 'new';
   templateUrl: './add-to-list-dialog.component.html',
   styleUrls: ['./add-to-list-dialog.component.scss'],
   changeDetection: ChangeDetectionStrategy.Eager,
-  standalone: false,
+  imports: [
+    MatDialogTitle,
+    CdkScrollable,
+    MatDialogContent,
+    MatRadioGroup,
+    ReactiveFormsModule,
+    MatRadioButton,
+    MatFormField,
+    MatLabel,
+    MatInput,
+    MatDialogActions,
+    MatButton,
+  ],
 })
 export class AddToListDialogComponent {
   lists: RecipeList[] = this.service.readLists();

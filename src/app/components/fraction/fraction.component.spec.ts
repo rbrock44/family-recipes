@@ -15,8 +15,11 @@ describe('FractionComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [FractionComponent],
-      imports: [BrowserAnimationsModule, RouterTestingModule],
+      imports: [
+        BrowserAnimationsModule,
+        RouterTestingModule,
+        FractionComponent,
+      ],
       providers: [
         provideHttpClient(withXhr(), withInterceptorsFromDi()),
         provideHttpClientTesting(),
