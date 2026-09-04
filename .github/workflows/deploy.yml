@@ -28,6 +28,9 @@ jobs:
     - name: Combine recipes into single JSON file
       run: npm run recipes:combine
 
+    - name: Run Tests
+      run: npx ng test --watch=false --browsers=ChromeHeadless
+
     - name: Build Project
       run: npm run deploy
 
