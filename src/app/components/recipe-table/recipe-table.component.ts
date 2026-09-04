@@ -64,6 +64,7 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
   @Input() showRemoveRecent: boolean = false;
   @Input() showAddToList: boolean = false;
   @Input() showBulkActions: boolean = false;
+  @Input() showWhenEmpty: boolean = false;
   displayColumns: string[] = ['name', 'author', 'category', 'filename'];
   readonly rowHeight = 48;
   scrollbarGutter = 0;

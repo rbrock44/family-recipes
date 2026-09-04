@@ -142,12 +142,10 @@ export class HomeComponent implements OnInit {
   }
 
   private restoreSearch(): void {
-    if (this.service.hasSearched) {
-      this.search(this.searchControl.value);
-      this.service.searchList = this.dataSource.data.map(
-        (item) => item.filename,
-      );
-    }
+    // The table is always on screen, so a blank box is just an empty search
+    // that lists everything.
+    this.search(this.searchControl.value);
+    this.service.searchList = this.dataSource.data.map((item) => item.filename);
 
     const queryParams = new URLSearchParams(window.location.search);
     const recipeParam = queryParams.get('recipe');
@@ -245,7 +243,10 @@ export class HomeComponent implements OnInit {
     hooperFamily: boolean,
   ): string {
     const queryParams = new URLSearchParams();
-    queryParams.set('search', search);
+
+    if (search) {
+      queryParams.set('search', search);
+    }
 
     if (category !== 0) {
       queryParams.set('category', category.toString());

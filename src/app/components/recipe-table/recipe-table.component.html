@@ -1,4 +1,4 @@
-@if (dataSource.data.length > 0) {
+@if (dataSource.data.length > 0 || showWhenEmpty) {
   <div [ngClass]="getResultClass()">
     <div class="center count-row">
       <p class="bold">{{ dataSource.data.length }} Result(s)</p>
@@ -80,6 +80,10 @@
             </div>
           }
         </div>
+
+        @if (dataSource.data.length === 0) {
+          <p class="no-results">No recipes match this search</p>
+        }
 
         <cdk-virtual-scroll-viewport
           #viewport

@@ -64,6 +64,13 @@
   border-radius: 0 !important;
 }
 
+.no-results {
+  margin: 0;
+  padding: 1.25rem 0.75rem;
+  text-align: center;
+  color: var(--ink-muted);
+}
+
 .mat-mdc-header-row {
   display: flex;
   align-items: center;
