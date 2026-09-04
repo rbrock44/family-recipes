@@ -1,0 +1,5 @@
+#!/bin/sh
+# Runs lint before allowing a commit. Enable with:
+#   git config core.hooksPath .githooks
+
+npm run lint

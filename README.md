@@ -26,6 +26,7 @@
 - [Getting Started (Local Setup)](#-getting-started-local-setup)
   - [Run Locally](#run-locally)
   - [Test](#test)
+  - [Lint](#lint)
   - [GitHub Hooks](#github-hooks)
   - [Build](#build)
   - [Deploy](#deploy)
@@ -202,6 +203,18 @@ The first run generates `src/assets/recipes.json` automatically (see
 - Integration
   - ng e2e || npm run e2e
         
+---
+
+### Lint
+
+`npm run lint` isn't run in CI, but a local pre-commit hook can run it before every commit:
+
+```
+git config core.hooksPath .githooks
+```
+
+That points git at the `.githooks/pre-commit` script committed in this repo.
+
 ---
 
 ### Github Hooks
