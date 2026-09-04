@@ -67,7 +67,7 @@ export function isNullOrUndefined(str: string): boolean {
   return str == null || str === 'undefined' || str === 'null';
 }
 
-export function toBoolean(value: any): boolean {
+export function toBoolean(value: unknown): boolean {
   switch (value) {
     case true:
     case 'true':

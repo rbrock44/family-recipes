@@ -95,7 +95,7 @@ export class RecipeComponent implements OnChanges {
     );
   }
 
-  timesBatch(value: any): string {
+  timesBatch(value: number | undefined): string {
     const newValue: string = value == undefined ? '0' : value.toString();
     const total = this.batches() * +newValue;
 

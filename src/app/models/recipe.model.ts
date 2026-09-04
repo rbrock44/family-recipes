@@ -15,7 +15,7 @@ export class RecipeModel implements Recipe {
     Object.assign(this, init);
   }
 
-  static getValue(column: string, recipe: Recipe): any {
+  static getValue(column: string, recipe: Recipe): string | number {
     if (column == 'name') {
       return recipe.name;
     } else if (column == 'author') {

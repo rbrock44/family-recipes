@@ -157,8 +157,8 @@ export class HomeComponent implements OnInit {
     }
   }
 
-  blurKeyboard(element: any) {
-    element.addEventListener('keyup', (keyboardEvent: any) => {
+  blurKeyboard(element: HTMLElement) {
+    element.addEventListener('keyup', (keyboardEvent: KeyboardEvent) => {
       if (keyboardEvent.code === 'Enter') {
         element.blur();
       }

@@ -13,7 +13,7 @@ const DENOMINATORS = [2, 3, 4, 5, 6, 8, 16];
 // that were genuinely meant to be decimals.
 const TOLERANCE = 0.021;
 
-export function formatAmount(value: any, batch: number = 1): string {
+export function formatAmount(value: number | undefined, batch: number = 1): string {
   const amount = value == undefined ? 0 : +value;
 
   if (!isFinite(amount) || amount === 0) {

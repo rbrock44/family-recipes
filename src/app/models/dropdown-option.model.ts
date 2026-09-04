@@ -1,8 +1,8 @@
 export class DropdownOption {
   name: string = '';
-  value: any = '';
+  value: number = 0;
 
-  public constructor(name: string, value: any) {
+  public constructor(name: string, value: number) {
     this.name = name;
     this.value = value;
   }
