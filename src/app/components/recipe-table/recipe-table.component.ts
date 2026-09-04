@@ -127,22 +127,28 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
       return;
     }
 
-    if (this.showAddToList && this.service.selectMode) {
-      this.service.toggleSelectedForList(recipe.filename);
-      return;
-    }
+    // Rows inside cdk-virtual-scroll-viewport are rendered via ngZone.runOutsideAngular,
+    // so their (click) listeners fire outside Angular's zone. Without this, the service
+    // mutations below happen but no change detection runs, so the view doesn't update
+    // until some unrelated event elsewhere happens to trigger a CD tick.
+    this.ngZone.run(() => {
+      if (this.showAddToList && this.service.selectMode) {
+        this.service.toggleSelectedForList(recipe.filename);
+        return;
+      }
 
-    this.service.useFavoritesList = this.isFavoritesList;
-    var filename = recipe.filename != null ? recipe.filename.toString() : '001';
-    recipe.filename = filename;
-    this.service.searchList = this.dataSource.data.map((item) => item.filename);
-    this.service.returnScrollY = window.scrollY;
-    this.service.selectRecipe(recipe);
-    this.service.addToRecent(filename);
-    this.service.openedFromLists = false;
-    this.service.activeListId = null;
+      this.service.useFavoritesList = this.isFavoritesList;
+      var filename = recipe.filename != null ? recipe.filename.toString() : '001';
+      recipe.filename = filename;
+      this.service.searchList = this.dataSource.data.map((item) => item.filename);
+      this.service.returnScrollY = window.scrollY;
+      this.service.selectRecipe(recipe);
+      this.service.addToRecent(filename);
+      this.service.openedFromLists = false;
+      this.service.activeListId = null;
 
-    this.location.replaceState(this.buildUrl(filename));
+      this.location.replaceState(this.buildUrl(filename));
+    });
   }
 
   getCategory(categoryNumber: number): string {
@@ -151,18 +157,22 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
 
   unfavoriteRow(recipe: Recipe, event: Event): void {
     event.stopPropagation();
-    this.service.removeFromFavorites(recipe.filename);
-    this.dataSource.data = this.dataSource.data.filter(
-      (it) => it.filename !== recipe.filename,
-    );
+    this.ngZone.run(() => {
+      this.service.removeFromFavorites(recipe.filename);
+      this.dataSource.data = this.dataSource.data.filter(
+        (it) => it.filename !== recipe.filename,
+      );
+    });
   }
 
   removeRecent(recipe: Recipe, event: Event): void {
     event.stopPropagation();
-    this.service.removeFromRecent(recipe.filename);
-    this.dataSource.data = this.dataSource.data.filter(
-      (it) => it.filename !== recipe.filename,
-    );
+    this.ngZone.run(() => {
+      this.service.removeFromRecent(recipe.filename);
+      this.dataSource.data = this.dataSource.data.filter(
+        (it) => it.filename !== recipe.filename,
+      );
+    });
   }
 
   setSelectMode(checked: boolean): void {
