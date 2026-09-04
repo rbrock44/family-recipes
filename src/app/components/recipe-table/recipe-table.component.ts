@@ -1,8 +1,10 @@
 import {
   Component,
   ElementRef,
+  EventEmitter,
   Input,
   NgZone,
+  Output,
   OnChanges,
   OnDestroy,
   OnInit,
@@ -61,10 +63,12 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
   @Input() removeColumns: boolean = false;
   @Input() isFavoritesList: boolean = false;
   @Input() showUnfavorite: boolean = false;
+  @Input() showFavorite: boolean = false;
   @Input() showRemoveRecent: boolean = false;
   @Input() showAddToList: boolean = false;
   @Input() showBulkActions: boolean = false;
   @Input() showWhenEmpty: boolean = false;
+  @Output() favoritesChanged = new EventEmitter<void>();
   displayColumns: string[] = ['name', 'author', 'category', 'filename'];
   readonly rowHeight = 48;
   scrollbarGutter = 0;
@@ -116,7 +120,12 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
       ? ['name', 'author']
       : ['name', 'author', 'category', 'filename'];
 
-    if (this.showUnfavorite || this.showRemoveRecent || this.showAddToList) {
+    if (
+      this.showUnfavorite ||
+      this.showFavorite ||
+      this.showRemoveRecent ||
+      this.showAddToList
+    ) {
       columns = [...columns, 'actions'];
     }
 
@@ -163,6 +172,23 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
       this.dataSource.data = this.dataSource.data.filter(
         (it) => it.filename !== recipe.filename,
       );
+    });
+  }
+
+  isFavorite(recipe: Recipe): boolean {
+    return this.service.isFavorite(recipe.filename);
+  }
+
+  toggleFavorite(recipe: Recipe, event: Event): void {
+    event.stopPropagation();
+    this.ngZone.run(() => {
+      if (this.service.isFavorite(recipe.filename)) {
+        this.service.removeFromFavorites(recipe.filename);
+      } else {
+        this.service.addToFavorites(recipe.filename);
+      }
+
+      this.favoritesChanged.emit();
     });
   }
 

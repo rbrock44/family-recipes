@@ -33,12 +33,14 @@ export class RecipeService {
   selectMode: boolean = false;
   selectedForList: Set<string> = new Set<string>();
   expandedListIds: Set<string>;
+  favorites: Set<string>;
 
   constructor(
     private reader: RecipeReaderService
   ) {
     this.load();
     this.expandedListIds = new Set(this.reader.readExpandedListIds());
+    this.favorites = new Set(this.reader.readFavorites());
   }
 
   load(): void {
@@ -97,7 +99,16 @@ export class RecipeService {
   }
 
   addToFavorites(fileNumber: string): void {
+    if (this.favorites.has(fileNumber)) {
+      return;
+    }
+
     this.reader.addToFavorites(fileNumber);
+    this.favorites.add(fileNumber);
+  }
+
+  isFavorite(fileNumber: string): boolean {
+    return this.favorites.has(fileNumber);
   }
 
   setEmptyRecipe(): void {
@@ -144,6 +155,7 @@ export class RecipeService {
 
   removeFromFavorites(fileNumber: string): void {
     this.reader.removeFromFavorites(fileNumber);
+    this.favorites.delete(fileNumber);
   }
 
   readFavorites(): string[] {

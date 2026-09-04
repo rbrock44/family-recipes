@@ -160,6 +160,8 @@
       [showAddToList]="true"
       [showBulkActions]="true"
       [showWhenEmpty]="true"
+      [showFavorite]="true"
+      (favoritesChanged)="loadFavorites()"
     ></app-recipe-table>
   }
 </div>

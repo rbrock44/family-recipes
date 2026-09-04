@@ -64,7 +64,7 @@
               Number
             </div>
           }
-          @if (showUnfavorite || showRemoveRecent || showAddToList) {
+          @if (showUnfavorite || showFavorite || showRemoveRecent || showAddToList) {
             <div
               class="mat-mdc-header-cell mat-column-actions"
               role="columnheader"
@@ -128,6 +128,21 @@
                   aria-label="Remove favorite"
                 >
                   <mat-icon>favorite</mat-icon>
+                </button>
+              }
+              @if (showFavorite) {
+                <button
+                  mat-icon-button
+                  [color]="isFavorite(element) ? 'warn' : undefined"
+                  class="actions-button"
+                  (click)="toggleFavorite(element, $event)"
+                  [attr.aria-label]="
+                    isFavorite(element) ? 'Remove favorite' : 'Add favorite'
+                  "
+                >
+                  <mat-icon>{{
+                    isFavorite(element) ? "favorite" : "favorite_border"
+                  }}</mat-icon>
                 </button>
               }
               @if (showRemoveRecent) {
