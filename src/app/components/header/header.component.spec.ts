@@ -29,10 +29,12 @@ describe('HeaderComponent', () => {
   });
 
   it('should have correct links in header', () => {
+    fixture.detectChanges();
+
     links.forEach((item, index) => {
       expectElementToContainContentAtIndex(
         fixture,
-        '.nav-bar-link',
+        '[data-home-nav]',
         item,
         index,
       );

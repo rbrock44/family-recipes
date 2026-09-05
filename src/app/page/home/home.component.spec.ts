@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { HomeComponent } from './home.component';
+import { RecipeService } from '../../services/recipe.service';
 import {
   expectElementPresent,
   expectElementToContainContent,
@@ -39,8 +40,14 @@ describe('HomeComponent', () => {
   });
 
   it('should have search input', () => {
+    // the search panel sits behind a loading guard, so the recipes have to
+    // report as loaded before it renders
+    spyOn(TestBed.inject(RecipeService), 'isFullyLoaded').and.returnValue(true);
+    fixture.detectChanges();
+
     expectElementPresent(fixture, '[data-search-input]');
     expectElementPresent(fixture, 'input');
-    expectElementToContainContent(fixture, 'mat-icon', 'search');
+    // scoped to the search button, since the page renders other icons first
+    expectElementToContainContent(fixture, '[aria-label="Search"] mat-icon', 'search');
   });
 });
