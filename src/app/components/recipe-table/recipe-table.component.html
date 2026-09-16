@@ -26,6 +26,8 @@
         [ngClass]="getResultBoxClass()"
         class="table-shell"
         [class.compact]="removeColumns"
+        [style.--actions-width]="actionsWidth()"
+        [style.--row-height]="rowHeight + 'px'"
         matSort
         (matSortChange)="sortData()"
       >
@@ -56,6 +58,8 @@
             >
               Category
             </div>
+          }
+          @if (showNumber()) {
             <div
               class="mat-mdc-header-cell mat-column-filename"
               role="columnheader"

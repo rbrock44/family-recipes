@@ -88,7 +88,8 @@
 }
 
 .mat-mdc-row {
-  height: 48px;
+  height: var(--row-height, 48px);
+  min-height: var(--row-height, 48px);
   cursor: pointer;
   background: white;
 }
@@ -142,8 +143,17 @@
   flex: 1.4;
 }
 
+.mat-column-filename {
+  justify-content: center;
+  text-align: center;
+}
+
+::ng-deep .mat-mdc-header-cell.mat-column-filename .mat-sort-header-arrow {
+  margin-right: -18px;
+}
+
 .mat-column-actions {
-  flex: 0 0 auto;
+  flex: 0 0 var(--actions-width, 32px);
   justify-content: flex-end;
   align-items: center;
   padding-left: 0 !important;
@@ -192,6 +202,18 @@
   .mat-mdc-header-cell,
   .mat-mdc-cell {
     font-size: 0.8rem;
+  }
+
+  .mat-mdc-header-cell,
+  .mat-mdc-cell {
+    white-space: normal;
+    text-overflow: clip;
+    overflow-wrap: anywhere;
+    line-height: 1.25;
+  }
+
+  .mat-mdc-header-row {
+    align-items: stretch;
   }
 
   .mat-mdc-header-cell:not(.mat-column-actions),

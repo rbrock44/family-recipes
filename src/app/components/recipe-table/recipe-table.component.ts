@@ -1,6 +1,5 @@
 import {
   Component,
-  ElementRef,
   EventEmitter,
   Input,
   NgZone,
@@ -70,35 +69,65 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
   @Input() showWhenEmpty: boolean = false;
   @Output() favoritesChanged = new EventEmitter<void>();
   displayColumns: string[] = ['name', 'author', 'category', 'filename'];
-  readonly rowHeight = 48;
+  readonly actionButtonWidth = 32;
+  readonly actionsPadding = 4;
+  readonly defaultRowHeight = 48;
+  readonly wrappedRowHeight = 64;
+  readonly wrapQuery = '(max-width: 550px)';
+  readonly wideQuery = '(min-width: 1100px)';
+  rowHeight = this.defaultRowHeight;
+  isWide = false;
   scrollbarGutter = 0;
 
   // @ts-ignore
   @ViewChild(MatSort) sort: MatSort;
 
-  @ViewChild('viewport', { read: ElementRef })
-  set viewportElRef(ref: ElementRef<HTMLElement> | undefined) {
+  @ViewChild('viewport')
+  set viewportRef(viewport: CdkVirtualScrollViewport | undefined) {
     this.resizeObserver?.disconnect();
     this.resizeObserver = undefined;
 
-    if (!ref) {
+    if (!viewport) {
       return;
     }
 
-    const viewportEl = ref.nativeElement;
+    const viewportEl = viewport.elementRef.nativeElement;
 
     this.resizeObserver = new ResizeObserver(() => {
-      const gutter = viewportEl.offsetWidth - viewportEl.clientWidth;
-      if (gutter !== this.scrollbarGutter) {
-        this.ngZone.run(() => {
+      this.ngZone.run(() => {
+        // The viewport is sized off the row count, so it starts at 0px and only
+        // grows once recipes load. The cdk measures the viewport on init and
+        // then only again on window resize, so without re-measuring here it
+        // keeps rendering the few buffer rows that fit the height it first saw.
+        viewport.checkViewportSize();
+
+        const gutter = viewportEl.offsetWidth - viewportEl.clientWidth;
+        if (gutter !== this.scrollbarGutter) {
           this.scrollbarGutter = gutter;
-        });
-      }
+        }
+      });
     });
     this.resizeObserver.observe(viewportEl);
   }
 
   private resizeObserver?: ResizeObserver;
+  private wrapQueryList?: MediaQueryList;
+  private wideQueryList?: MediaQueryList;
+
+  private readonly onWideChange = (event: MediaQueryListEvent): void => {
+    this.ngZone.run(() => {
+      this.isWide = event.matches;
+      this.updateDisplayColumns();
+    });
+  };
+
+  private readonly onWrapChange = (event: MediaQueryListEvent): void => {
+    this.ngZone.run(() => {
+      this.rowHeight = event.matches
+        ? this.wrappedRowHeight
+        : this.defaultRowHeight;
+    });
+  };
 
   constructor(
     private location: Location,
@@ -109,16 +138,43 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
 
   ngOnInit(): void {
     this.dataSource.sort = this.sort;
+
+    this.wrapQueryList = window.matchMedia(this.wrapQuery);
+    this.rowHeight = this.wrapQueryList.matches
+      ? this.wrappedRowHeight
+      : this.defaultRowHeight;
+    this.wrapQueryList.addEventListener('change', this.onWrapChange);
+
+    this.wideQueryList = window.matchMedia(this.wideQuery);
+    this.isWide = this.wideQueryList.matches;
+    this.wideQueryList.addEventListener('change', this.onWideChange);
+    this.updateDisplayColumns();
   }
 
   ngOnDestroy(): void {
     this.resizeObserver?.disconnect();
+    this.wrapQueryList?.removeEventListener('change', this.onWrapChange);
+    this.wideQueryList?.removeEventListener('change', this.onWideChange);
   }
 
   ngOnChanges(): void {
-    let columns = this.removeColumns
-      ? ['name', 'author']
-      : ['name', 'author', 'category', 'filename'];
+    this.updateDisplayColumns();
+  }
+
+  showNumber(): boolean {
+    return !this.removeColumns || this.isWide;
+  }
+
+  private updateDisplayColumns(): void {
+    const columns = ['name', 'author'];
+
+    if (!this.removeColumns) {
+      columns.push('category');
+    }
+
+    if (this.showNumber()) {
+      columns.push('filename');
+    }
 
     if (
       this.showUnfavorite ||
@@ -126,7 +182,7 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
       this.showRemoveRecent ||
       this.showAddToList
     ) {
-      columns = [...columns, 'actions'];
+      columns.push('actions');
     }
 
     this.displayColumns = columns;
@@ -159,6 +215,18 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
 
       this.location.replaceState(this.buildUrl(filename));
     });
+  }
+
+  actionsWidth(): string {
+    const buttons = [
+      this.showUnfavorite,
+      this.showFavorite,
+      this.showRemoveRecent,
+      this.showAddToList,
+    ].filter(Boolean).length;
+
+    // + the cell's own right padding, which border-box counts inside the width.
+    return `${buttons * this.actionButtonWidth + this.actionsPadding}px`;
   }
 
   getCategory(categoryNumber: number): string {
