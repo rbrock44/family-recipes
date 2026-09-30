@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Location } from '@angular/common';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { EMPTY_RECIPE, HOOPER_FAMILY } from '../constants/constants';
@@ -9,6 +10,12 @@ import { RecipeList } from '../models/recipe-list.interface';
 import { RecipeModel } from '../models/recipe.model';
 import { RecipeReaderService } from './recipe-reader.service';
 
+/** Marks a history entry the app pushed, and which view it holds when the URL alone can't say. */
+export interface RecipeHistoryState {
+  app: true;
+  lists?: boolean;
+  fromLists?: boolean;
+}
 
 @Injectable({
   providedIn: 'root'
@@ -36,11 +43,65 @@ export class RecipeService {
   favorites: Set<string>;
 
   constructor(
-    private reader: RecipeReaderService
+    private reader: RecipeReaderService,
+    private location: Location,
   ) {
     this.load();
     this.expandedListIds = new Set(this.reader.readExpandedListIds());
     this.favorites = new Set(this.reader.readFavorites());
+
+    // Browser/mouse back and forward land here; show whichever view the entry names.
+    this.location.subscribe(() => this.restoreFromHistory());
+  }
+
+  /** Pushes a history entry so browser/mouse back returns to the view before it. */
+  pushView(url: string, state: Omit<RecipeHistoryState, 'app'> = {}): void {
+    this.location.go(url, '', { app: true, ...state });
+  }
+
+  /** True when the current entry was pushed by the app, so stepping back stays on the site. */
+  canGoBack(): boolean {
+    return (this.location.getState() as RecipeHistoryState | null)?.app === true;
+  }
+
+  back(): void {
+    this.location.back();
+  }
+
+  /** The current URL with its recipe param set, or removed when null. */
+  buildRecipeUrl(recipe: string | null): string {
+    const queryParams = new URLSearchParams(this.location.path().split('?')[1] ?? '');
+
+    if (recipe === null) {
+      queryParams.delete('recipe');
+    } else {
+      queryParams.set('recipe', recipe);
+    }
+
+    const query = queryParams.toString();
+    return query ? `${location.pathname}?${query}` : location.pathname;
+  }
+
+  private restoreFromHistory(): void {
+    const recipe = new URLSearchParams(this.location.path().split('?')[1] ?? '').get('recipe');
+    const state = this.location.getState() as RecipeHistoryState | null;
+
+    if (recipe) {
+      this.showLists = false;
+      this.openedFromLists = state?.fromLists === true;
+      this.readRecipe(recipe);
+      return;
+    }
+
+    this.setEmptyRecipe();
+    this.openedFromLists = false;
+    this.showLists = state?.lists === true;
+    if (!this.showLists) {
+      this.activeListId = null;
+    }
+
+    const scrollY = this.returnScrollY;
+    setTimeout(() => window.scrollTo(0, scrollY));
   }
 
   load(): void {

@@ -213,7 +213,7 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
       this.service.openedFromLists = false;
       this.service.activeListId = null;
 
-      this.location.replaceState(this.buildUrl(filename));
+      this.service.pushView(this.buildUrl(filename));
     });
   }
 

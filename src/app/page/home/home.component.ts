@@ -6,7 +6,6 @@ import { CATEGORIES, getCategory } from 'src/app/models/category.enum';
 import { decodeSharedList } from 'src/app/models/list-share';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
-import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { MatIcon } from '@angular/material/icon';
 import { MatButton, MatIconButton } from '@angular/material/button';
@@ -68,7 +67,6 @@ export class HomeComponent implements OnInit {
 
   constructor(
     public service: RecipeService,
-    private route: ActivatedRoute,
     private location: Location,
   ) {
     this.searchControl = new FormControl(this.service.searchTerm);
@@ -139,6 +137,11 @@ export class HomeComponent implements OnInit {
     this.location.replaceState(
       query ? `${location.pathname}?${query}` : location.pathname,
     );
+
+    // Slot the list view in above a home entry so browser/mouse back lands on home.
+    if (this.service.showLists) {
+      this.service.pushView(this.service.buildRecipeUrl(null), { lists: true });
+    }
   }
 
   private restoreSearch(): void {
@@ -154,6 +157,11 @@ export class HomeComponent implements OnInit {
       this.service.openedFromLists = false;
       this.service.activeListId = null;
       this.service.readRecipe(recipeParam);
+
+      // Slot a home entry in underneath a recipe deep link so browser/mouse back lands on home.
+      const deepLink = this.location.path();
+      this.location.replaceState(this.service.buildRecipeUrl(null));
+      this.service.pushView(deepLink);
     }
   }
 
@@ -193,6 +201,7 @@ export class HomeComponent implements OnInit {
   goToLists(): void {
     this.service.returnScrollY = window.scrollY;
     this.service.showLists = true;
+    this.service.pushView(this.service.buildRecipeUrl(null), { lists: true });
   }
 
   toggleRecentFavorites(): void {
@@ -256,7 +265,7 @@ export class HomeComponent implements OnInit {
       queryParams.set('hooperFamily', hooperFamily ? 'true' : 'false');
     }
 
-    const recipeParam = this.route.snapshot.queryParamMap.get('recipe');
+    const recipeParam = new URLSearchParams(this.location.path().split('?')[1] ?? '').get('recipe');
     if (recipeParam) {
       queryParams.set('recipe', recipeParam);
     }

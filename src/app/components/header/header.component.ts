@@ -87,21 +87,22 @@ export class HeaderComponent {
     this.service.openedFromLists = false;
     this.service.activeListId = null;
 
-    const queryParams = new URLSearchParams(window.location.search);
-    queryParams.delete('recipe');
-    const query = queryParams.toString();
-
-    this.location.replaceState(
-      query ? `${location.pathname}?${query}` : location.pathname,
-    );
+    this.service.pushView(this.service.buildRecipeUrl(null));
   }
 
   listsClick(): void {
     this.service.returnScrollY = window.scrollY;
     this.service.showLists = true;
+    this.service.pushView(this.service.buildRecipeUrl(null), { lists: true });
   }
 
   backClick(): void {
+    // Entries the app pushed hold the previous view, so Back matches browser/mouse back.
+    if (this.service.canGoBack()) {
+      this.service.back();
+      return;
+    }
+
     if (this.service.showLists) {
       this.service.showLists = false;
     } else if (this.service.openedFromLists) {
@@ -123,12 +124,13 @@ export class HeaderComponent {
     setTimeout(() => window.scrollTo(0, scrollY));
   }
 
+  // Stepping recipes replaces the entry (keeping its state) so back returns to the list.
   forwardClick(): void {
-    this.location.replaceState(this.buildUrl(this.service.nextRecipe()));
+    this.location.replaceState(this.buildUrl(this.service.nextRecipe()), '', this.location.getState());
   }
 
   prevClick(): void {
-    this.location.replaceState(this.buildUrl(this.service.previousRecipe()));
+    this.location.replaceState(this.buildUrl(this.service.previousRecipe()), '', this.location.getState());
   }
 
   private buildUrl(recipe: string | null): string {

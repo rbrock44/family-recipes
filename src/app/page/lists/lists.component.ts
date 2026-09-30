@@ -175,6 +175,7 @@ export class ListsComponent implements OnInit {
     this.service.addToRecent(recipe.filename);
     this.service.showLists = false;
     this.service.openedFromLists = true;
+    this.service.pushView(this.service.buildRecipeUrl(recipe.filename), { fromLists: true });
   }
 
   toggleIngredientChecked(
