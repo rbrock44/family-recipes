@@ -1,5 +1,6 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy, afterNextRender, signal } from '@angular/core';
 import { RecipeService } from 'src/app/services/recipe.service';
+import { CommandPaletteService } from 'src/app/services/command-palette.service';
 import { Location } from '@angular/common';
 import { MatButton, MatIconButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
@@ -29,6 +30,20 @@ import { MatIcon } from '@angular/material/icon';
               Lists
             </button>
           }
+
+          <button
+            mat-button
+            class="palette-trigger"
+            aria-label="Jump to a recipe"
+            aria-haspopup="dialog"
+            aria-keyshortcuts="Control+K Meta+K"
+            (click)="palette.open()"
+            data-palette-nav
+          >
+            <mat-icon>search</mat-icon>
+            <span class="trigger-label">Jump to</span>
+            <kbd>{{ shortcut() }}</kbd>
+          </button>
         </div>
 
         @if (!service.showLists) {
@@ -76,10 +91,20 @@ import { MatIcon } from '@angular/material/icon';
   imports: [MatButton, MatIconButton, MatIcon],
 })
 export class HeaderComponent {
+  /** The visitor's OS is only known in the browser, so Mac gets its label after the first render. */
+  readonly shortcut = signal('Ctrl K');
+
   constructor(
     public service: RecipeService,
+    public palette: CommandPaletteService,
     private location: Location,
-  ) {}
+  ) {
+    afterNextRender(() => {
+      if (/Mac|iPhone|iPad/.test(navigator.userAgent)) {
+        this.shortcut.set('⌘ K');
+      }
+    });
+  }
 
   homeClick(): void {
     this.service.setEmptyRecipe();

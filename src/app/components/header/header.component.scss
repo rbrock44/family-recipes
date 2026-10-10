@@ -19,6 +19,25 @@
   font-weight: 400;
 }
 
+.palette-trigger {
+  color: var(--brand-900);
+  font-weight: 400;
+
+  mat-icon {
+    margin-right: 0.15rem;
+  }
+
+  kbd {
+    margin-left: 0.4rem;
+    padding: 0.05rem 0.35rem;
+    border: 1px solid var(--table-header-strong);
+    border-radius: 4px;
+    color: var(--ink-muted);
+    font: inherit;
+    font-size: 0.75rem;
+  }
+}
+
 .back-button {
   flex-shrink: 0;
   color: var(--brand-900);
@@ -60,6 +79,15 @@
 
   .header-start {
     order: 1;
+  }
+
+  .trigger-label,
+  .palette-trigger kbd {
+    display: none;
+  }
+
+  .palette-trigger mat-icon {
+    margin-right: 0;
   }
 
   .back-button {

@@ -112,6 +112,10 @@ export class RecipeService {
     return this.reader.fullyLoaded
   }
 
+  allRecipes(): Recipe[] {
+    return this.recipes;
+  }
+
   search(criteria: string, category: Category = 0, onlyHooperFamily: boolean = false): Recipe[] {
     let list: Recipe[] = [];
 

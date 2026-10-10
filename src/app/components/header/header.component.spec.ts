@@ -7,6 +7,7 @@ import { HeaderComponent } from './header.component';
 import { expectElementToContainContentAtIndex } from '../../constants/expectations.spec';
 import { RouterTestingModule } from '@angular/router/testing';
 import { Router } from '@angular/router';
+import { CommandPaletteService } from '../../services/command-palette.service';
 
 describe('HeaderComponent', () => {
   let fixture: ComponentFixture<HeaderComponent>;
@@ -39,5 +40,14 @@ describe('HeaderComponent', () => {
         index,
       );
     });
+  });
+
+  it('should open the jump-to palette from the header', () => {
+    const palette = TestBed.inject(CommandPaletteService);
+    fixture.detectChanges();
+
+    fixture.nativeElement.querySelector('[data-palette-nav]').click();
+
+    expect(palette.isOpen()).toBe(true);
   });
 });

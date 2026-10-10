@@ -1,0 +1,80 @@
+<button
+  type="button"
+  class="jump-fab"
+  [class.hidden]="fabHidden() || palette.isOpen()"
+  aria-label="Jump to a recipe"
+  aria-haspopup="dialog"
+  (click)="palette.open()"
+  data-jump-fab
+>
+  <mat-icon aria-hidden="true">search</mat-icon>
+</button>
+
+@if (palette.isOpen()) {
+  <div class="backdrop" (click)="close()"></div>
+  <div class="palette" role="dialog" aria-modal="true" aria-label="Jump to a recipe">
+    <div class="query-row">
+      <mat-icon class="query-icon" aria-hidden="true">search</mat-icon>
+      <input
+        #input
+        class="query"
+        type="text"
+        role="combobox"
+        aria-label="Search recipes"
+        aria-autocomplete="list"
+        aria-expanded="true"
+        aria-controls="palette-list"
+        [attr.aria-activedescendant]="activeId()"
+        placeholder="Jump to a recipe…"
+        inputmode="search"
+        enterkeyhint="go"
+        autocomplete="off"
+        spellcheck="false"
+        [value]="query()"
+        (input)="onQuery($any($event.target).value)"
+        (keydown)="onKeydown($event)"
+      />
+      <button type="button" class="cancel" (click)="close()" data-palette-cancel>
+        Cancel
+      </button>
+    </div>
+
+    <div id="palette-list" class="list" role="listbox" aria-label="Recipes and pages">
+      @for (section of sections(); track section.label) {
+        <div role="group" [attr.aria-label]="section.label">
+          <div class="section" aria-hidden="true">{{ section.label }}</div>
+          @for (item of section.items; track item.entry.key) {
+            <div
+              class="item"
+              role="option"
+              [id]="'palette-option-' + item.index"
+              [class.active]="item.index === activeIndex()"
+              [attr.aria-selected]="item.index === activeIndex()"
+              (mousemove)="activeIndex.set(item.index)"
+              (click)="go(item.entry)"
+            >
+              <mat-icon class="icon" aria-hidden="true">{{ item.entry.icon }}</mat-icon>
+              <span class="text">
+                <span class="title">{{ item.entry.title }}</span>
+                <span class="detail">{{ item.entry.detail }}</span>
+              </span>
+            </div>
+          }
+        </div>
+      } @empty {
+        @if (!loading()) {
+          <p class="empty">No recipes match “{{ query() }}”</p>
+        }
+      }
+      @if (loading()) {
+        <p class="empty">Loading recipes…</p>
+      }
+    </div>
+
+    <div class="hints" aria-hidden="true">
+      <span><kbd>↑</kbd><kbd>↓</kbd> move</span>
+      <span><kbd>Enter</kbd> open</span>
+      <span><kbd>Esc</kbd> close</span>
+    </div>
+  </div>
+}
