@@ -227,7 +227,7 @@ export class CommandPaletteComponent {
     if (page === 'lists') {
       this.service.returnScrollY = window.scrollY;
       this.service.showLists = true;
-      this.service.pushView(this.service.buildRecipeUrl(null), { lists: true });
+      this.service.pushView(this.service.listsUrl(), { lists: true });
       return;
     }
 

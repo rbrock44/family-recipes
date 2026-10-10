@@ -25,7 +25,7 @@ import { AddToListDialogComponent } from '../add-to-list-dialog/add-to-list-dial
 import { getCategory } from 'src/app/models/category.enum';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
-import { Location, NgClass } from '@angular/common';
+import { NgClass } from '@angular/common';
 import { MatButton, MatIconButton } from '@angular/material/button';
 import { MatCheckbox } from '@angular/material/checkbox';
 import {
@@ -130,7 +130,6 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
   };
 
   constructor(
-    private location: Location,
     public service: RecipeService,
     private dialog: MatDialog,
     private ngZone: NgZone,
@@ -213,7 +212,7 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
       this.service.openedFromLists = false;
       this.service.activeListId = null;
 
-      this.service.pushView(this.buildUrl(filename));
+      this.service.pushView(this.service.buildRecipeUrl(filename));
     });
   }
 
@@ -324,17 +323,5 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
 
   private getClass(cssClass: string): string {
     return this.removeColumns ? '' : cssClass;
-  }
-
-  private buildUrl(recipe: string | null): string {
-    const queryParams = new URLSearchParams(window.location.search);
-
-    if (recipe === null) {
-      queryParams.delete('recipe');
-    } else {
-      queryParams.set('recipe', recipe);
-    }
-
-    return `${location.pathname}?${queryParams.toString()}`;
   }
 }

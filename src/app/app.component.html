@@ -1,2 +1,6 @@
-<router-outlet></router-outlet>
-<app-command-palette></app-command-palette>
+<!-- Prerendered pages carry only the shell and their meta tags; the app reads storage and
+     loads recipes in the browser, so it only renders there. -->
+@if (isBrowser) {
+  <router-outlet></router-outlet>
+  <app-command-palette></app-command-palette>
+}

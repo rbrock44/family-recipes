@@ -26,6 +26,7 @@ import { MatCheckbox } from '@angular/material/checkbox';
 import { MatSelect } from '@angular/material/select';
 import { MatOption } from '@angular/material/core';
 import { RecipeTableComponent } from '../../components/recipe-table/recipe-table.component';
+import { isListsPath, parseRecipeId } from '../../utils/recipe-url.util';
 
 @Component({
   selector: 'app-home',
@@ -79,6 +80,7 @@ export class HomeComponent implements OnInit {
     //   this.blurKeyboard(element);
     // });
     this.importSharedList();
+    this.restoreListsLink();
 
     this.searchControl.valueChanges
       .pipe(debounceTime(300))
@@ -134,14 +136,23 @@ export class HomeComponent implements OnInit {
 
     queryParams.delete('sharedList');
     const query = queryParams.toString();
-    this.location.replaceState(
-      query ? `${location.pathname}?${query}` : location.pathname,
-    );
+    this.location.replaceState(query ? `/?${query}` : '/');
 
     // Slot the list view in above a home entry so browser/mouse back lands on home.
     if (this.service.showLists) {
-      this.service.pushView(this.service.buildRecipeUrl(null), { lists: true });
+      this.service.pushView(this.service.listsUrl(), { lists: true });
     }
+  }
+
+  /** A `/lists` deep link opens the lists view, with a home entry under it like a recipe link. */
+  private restoreListsLink(): void {
+    if (this.service.showLists || !isListsPath(this.location.path())) {
+      return;
+    }
+
+    this.service.showLists = true;
+    this.location.replaceState('/');
+    this.service.pushView(this.service.listsUrl(), { lists: true });
   }
 
   private restoreSearch(): void {
@@ -150,8 +161,7 @@ export class HomeComponent implements OnInit {
     this.search(this.searchControl.value);
     this.service.searchList = this.dataSource.data.map((item) => item.filename);
 
-    const queryParams = new URLSearchParams(window.location.search);
-    const recipeParam = queryParams.get('recipe');
+    const recipeParam = parseRecipeId(this.location.path());
 
     if (recipeParam) {
       this.service.openedFromLists = false;
@@ -201,7 +211,7 @@ export class HomeComponent implements OnInit {
   goToLists(): void {
     this.service.returnScrollY = window.scrollY;
     this.service.showLists = true;
-    this.service.pushView(this.service.buildRecipeUrl(null), { lists: true });
+    this.service.pushView(this.service.listsUrl(), { lists: true });
   }
 
   toggleRecentFavorites(): void {
@@ -263,11 +273,6 @@ export class HomeComponent implements OnInit {
 
     if (hooperFamily) {
       queryParams.set('hooperFamily', hooperFamily ? 'true' : 'false');
-    }
-
-    const recipeParam = new URLSearchParams(this.location.path().split('?')[1] ?? '').get('recipe');
-    if (recipeParam) {
-      queryParams.set('recipe', recipeParam);
     }
 
     const end = queryParams.toString();

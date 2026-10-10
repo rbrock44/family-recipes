@@ -26,6 +26,8 @@
             },
             "index": "src/index.html",
             "polyfills": ["src/polyfills.ts"],
+            "server": "src/main.server.ts",
+            "outputMode": "static",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -33,11 +35,6 @@
               "src/assets",
               {
                 "glob": "robots.txt",
-                "input": "src/assets",
-                "output": "/"
-              },
-              {
-                "glob": "sitemap.xml",
                 "input": "src/assets",
                 "output": "/"
               }

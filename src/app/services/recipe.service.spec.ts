@@ -62,12 +62,12 @@ describe('RecipeService', () => {
     });
 
     it('should reopen the recipe, then the lists, as the browser goes back', () => {
-      service.pushView(service.buildRecipeUrl(null), { lists: true });
-      service.pushView(service.buildRecipeUrl('042'), { fromLists: true });
+      service.pushView(service.listsUrl(), { lists: true });
+      service.pushView(service.buildRecipeUrl('0042'), { fromLists: true });
       service.pushView(service.buildRecipeUrl(null));
 
       location.back();
-      expect(service.readRecipe).toHaveBeenCalledWith('042');
+      expect(service.readRecipe).toHaveBeenCalledWith('0042');
       expect(service.openedFromLists).toBe(true);
       expect(service.showLists).toBe(false);
 
@@ -81,15 +81,49 @@ describe('RecipeService', () => {
 
     it('should only step back through entries the app pushed', () => {
       expect(service.canGoBack()).toBe(false);
-      service.pushView(service.buildRecipeUrl('007'));
+      service.pushView(service.buildRecipeUrl('0007'));
       expect(service.canGoBack()).toBe(true);
     });
 
-    it('should set and clear the recipe param while keeping the search', () => {
-      location.replaceState('/?search=pie&recipe=001');
-      expect(service.buildRecipeUrl(null)).toContain('search=pie');
-      expect(service.buildRecipeUrl(null)).not.toContain('recipe=');
-      expect(service.buildRecipeUrl('002')).toContain('recipe=002');
+    it('should build recipe paths with the name once known, and home with its search', () => {
+      location.replaceState('/?search=pie');
+      expect(service.buildRecipeUrl(null)).toBe('/?search=pie');
+      expect(service.buildRecipeUrl('0002')).toBe('/0002');
+
+      service.selectRecipe({ ...sampleRecipe, filename: '0002', name: 'Apple Pie' });
+      expect(service.buildRecipeUrl('0002')).toBe('/0002/apple-pie');
+    });
+  });
+
+  describe('readRecipe', () => {
+    let location: Location;
+
+    beforeEach(() => {
+      location = TestBed.inject(Location);
+      spyOn(reader, 'firstValueFrom').and.returnValue(
+        Promise.resolve(JSON.stringify({ ...sampleRecipe, name: 'Puppy Chow' })),
+      );
+    });
+
+    it('should fill in the name on a bare or misnamed recipe path, keeping history state', async () => {
+      location.go('/0002/wrong-name', '', { app: true });
+
+      service.readRecipe('0002');
+      await Promise.resolve();
+      await Promise.resolve();
+
+      expect(location.path()).toBe('/0002/puppy-chow');
+      expect(service.canGoBack()).toBe(true);
+    });
+
+    it('should leave the URL alone once the user has moved on', async () => {
+      location.go('/0002');
+      service.readRecipe('0002');
+      location.go('/');
+      await Promise.resolve();
+      await Promise.resolve();
+
+      expect(location.path()).toBe('/');
     });
   });
 });

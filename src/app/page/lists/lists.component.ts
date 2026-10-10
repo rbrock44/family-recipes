@@ -148,8 +148,8 @@ export class ListsComponent implements OnInit {
       })),
     });
 
-    const url = new URL(location.href);
-    url.search = '';
+    // Home imports shared lists, so the link points there whichever page this is.
+    const url = new URL('/', location.href);
     url.searchParams.set('sharedList', encoded);
     const shareUrl = url.toString();
 

@@ -55,6 +55,7 @@ describe('CommandPaletteComponent', () => {
         'addToRecent',
         'pushView',
         'buildRecipeUrl',
+        'listsUrl',
         'setEmptyRecipe',
       ],
       { selectedRecipe: { ...EMPTY_RECIPE } },
@@ -62,7 +63,8 @@ describe('CommandPaletteComponent', () => {
     service.isFullyLoaded.and.returnValue(true);
     service.allRecipes.and.returnValue(RECIPES);
     service.readRecent.and.callFake(() => recent);
-    service.buildRecipeUrl.and.callFake(filename => (filename ? `/?recipe=${filename}` : '/'));
+    service.buildRecipeUrl.and.callFake(filename => (filename ? `/${filename}` : '/'));
+    service.listsUrl.and.returnValue('/lists');
 
     await TestBed.configureTestingModule({
       imports: [CommandPaletteComponent],
@@ -210,7 +212,7 @@ describe('CommandPaletteComponent', () => {
 
     expect(service.selectRecipe).toHaveBeenCalledWith(RECIPES[0]);
     expect(service.addToRecent).toHaveBeenCalledWith('0003');
-    expect(service.pushView).toHaveBeenCalledWith('/?recipe=0003');
+    expect(service.pushView).toHaveBeenCalledWith('/0003');
     expect(service.searchList).toEqual(['0003']);
     expect(palette.isOpen()).toBe(false);
   });
@@ -223,7 +225,7 @@ describe('CommandPaletteComponent', () => {
     (element().querySelector('.item') as HTMLElement).click();
 
     expect(service.showLists).toBe(true);
-    expect(service.pushView).toHaveBeenCalledWith('/', { lists: true });
+    expect(service.pushView).toHaveBeenCalledWith('/lists', { lists: true });
     expect(palette.isOpen()).toBe(false);
   });
 

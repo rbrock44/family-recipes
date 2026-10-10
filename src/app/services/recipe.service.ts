@@ -9,6 +9,8 @@ import { Recipe } from '../models/recipe.interface';
 import { RecipeList } from '../models/recipe-list.interface';
 import { RecipeModel } from '../models/recipe.model';
 import { RecipeReaderService } from './recipe-reader.service';
+import { SeoService } from './seo.service';
+import { isListsPath, parseRecipeId, recipePath } from '../utils/recipe-url.util';
 
 /** Marks a history entry the app pushed, and which view it holds when the URL alone can't say. */
 export interface RecipeHistoryState {
@@ -45,6 +47,7 @@ export class RecipeService {
   constructor(
     private reader: RecipeReaderService,
     private location: Location,
+    private seo: SeoService,
   ) {
     this.load();
     this.expandedListIds = new Set(this.reader.readExpandedListIds());
@@ -52,6 +55,7 @@ export class RecipeService {
 
     // Browser/mouse back and forward land here; show whichever view the entry names.
     this.location.subscribe(() => this.restoreFromHistory());
+    this.location.onUrlChange(url => this.updateHead(url));
   }
 
   /** Pushes a history entry so browser/mouse back returns to the view before it. */
@@ -68,22 +72,28 @@ export class RecipeService {
     this.location.back();
   }
 
-  /** The current URL with its recipe param set, or removed when null. */
+  /** A recipe's own page, or home (keeping its search params) when null. */
   buildRecipeUrl(recipe: string | null): string {
-    const queryParams = new URLSearchParams(this.location.path().split('?')[1] ?? '');
-
-    if (recipe === null) {
-      queryParams.delete('recipe');
-    } else {
-      queryParams.set('recipe', recipe);
+    if (recipe !== null) {
+      return recipePath(recipe, this.recipeName(recipe));
     }
 
-    const query = queryParams.toString();
-    return query ? `${location.pathname}?${query}` : location.pathname;
+    const query = this.location.path().split('?')[1] ?? '';
+    return query ? `/?${query}` : '/';
+  }
+
+  listsUrl(): string {
+    return '/lists';
+  }
+
+  private recipeName(filename: string): string | undefined {
+    return this.selectedRecipe.filename === filename
+      ? this.selectedRecipe.name
+      : this.findRecipe(filename)?.name;
   }
 
   private restoreFromHistory(): void {
-    const recipe = new URLSearchParams(this.location.path().split('?')[1] ?? '').get('recipe');
+    const recipe = parseRecipeId(this.location.path());
     const state = this.location.getState() as RecipeHistoryState | null;
 
     if (recipe) {
@@ -95,13 +105,25 @@ export class RecipeService {
 
     this.setEmptyRecipe();
     this.openedFromLists = false;
-    this.showLists = state?.lists === true;
+    this.showLists = isListsPath(this.location.path()) || state?.lists === true;
     if (!this.showLists) {
       this.activeListId = null;
     }
 
     const scrollY = this.returnScrollY;
     setTimeout(() => window.scrollTo(0, scrollY));
+  }
+
+  /** Keeps the title, description and canonical tags on whichever page the URL now names. */
+  private updateHead(url: string): void {
+    const filename = parseRecipeId(url);
+    const recipe = filename
+      ? this.selectedRecipe.filename === filename
+        ? this.selectedRecipe
+        : this.findRecipe(filename)
+      : undefined;
+
+    this.seo.update(url, recipe);
   }
 
   load(): void {
@@ -327,7 +349,30 @@ export class RecipeService {
       let recipe = this.convertRecipe(it);
       recipe.filename = filename;
       this.selectedRecipe = recipe;
+      this.canonicalizeUrl(recipe);
+    }, () => {
+      // No such recipe: a mistyped or stale link falls back to home instead of a blank page.
+      if (parseRecipeId(this.location.path()) === filename) {
+        this.setEmptyRecipe();
+        this.location.replaceState('/');
+      }
     });
+  }
+
+  /** Rewrites `/<id>` or `/<id>/<wrong-name>` to the recipe's real `/<id>/<name>`, keeping history state. */
+  private canonicalizeUrl(recipe: Recipe): void {
+    const [path, query] = this.location.path().split('?');
+    if (parseRecipeId(path) !== recipe.filename) {
+      return;
+    }
+
+    const canonical = recipePath(recipe.filename, recipe.name);
+    if (path !== canonical) {
+      this.location.replaceState(canonical, query ?? '', this.location.getState());
+    } else {
+      // Same URL, but the head tags can now name the recipe.
+      this.updateHead(path);
+    }
   }
 
   getSelectedRecipeIndex(): number {

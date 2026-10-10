@@ -1,4 +1,5 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy, PLATFORM_ID, inject } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { CommandPaletteComponent } from './components/command-palette/command-palette.component';
 
@@ -11,4 +12,5 @@ import { CommandPaletteComponent } from './components/command-palette/command-pa
 })
 export class AppComponent {
   title = 'family-recipes';
+  readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
 }
