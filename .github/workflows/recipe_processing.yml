@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: recipe-processing
@@ -64,6 +65,13 @@ jobs:
           git commit -m "automated: process pending recipes"
           git pull --rebase origin
           git push
+
+      # Pushes made with GITHUB_TOKEN don't trigger other workflows, so start the deploy here.
+      - name: Deploy new recipes
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref master
 
       - name: Delete processed recipes from API
         if: steps.changes.outputs.has_changes == 'true'

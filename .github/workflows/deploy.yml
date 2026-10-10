@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+  # Recipe Processing starts this after committing new recipes, since its bot push can't.
+  workflow_dispatch:
 
 jobs:
   build-deploy:
