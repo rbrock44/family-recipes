@@ -95,6 +95,24 @@ describe('RecipeService', () => {
     });
   });
 
+  describe('restoreSearchParams', () => {
+    it('should seed the search, category and family filter from a link', () => {
+      service.restoreSearchParams('/?search=pie&category=6&hooperFamily=true');
+
+      expect(service.searchTerm).toBe('pie');
+      expect(service.searchCategory).toBe(6);
+      expect(service.searchHooperFamily).toBe(true);
+    });
+
+    it('should fall back to defaults for missing or bad values', () => {
+      service.restoreSearchParams('/?category=99&hooperFamily=yes');
+
+      expect(service.searchTerm).toBe('');
+      expect(service.searchCategory).toBe(0);
+      expect(service.searchHooperFamily).toBe(false);
+    });
+  });
+
   describe('readRecipe', () => {
     let location: Location;
 

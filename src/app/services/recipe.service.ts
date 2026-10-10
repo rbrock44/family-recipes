@@ -82,6 +82,16 @@ export class RecipeService {
     return query ? `/?${query}` : '/';
   }
 
+  /** Seeds the search from a link's `?search=`, `?category=` and `?hooperFamily=`. */
+  restoreSearchParams(path: string): void {
+    const queryParams = new URLSearchParams(path.split('?')[1] ?? '');
+    const category = Number(queryParams.get('category'));
+
+    this.searchTerm = queryParams.get('search') ?? '';
+    this.searchCategory = Category[category] !== undefined ? category : 0;
+    this.searchHooperFamily = queryParams.get('hooperFamily') === 'true';
+  }
+
   listsUrl(): string {
     return '/lists';
   }

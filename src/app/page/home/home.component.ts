@@ -56,6 +56,7 @@ import { isListsPath, parseRecipeId } from '../../utils/recipe-url.util';
 export class HomeComponent implements OnInit {
   title = 'family-recipes';
   panelOpenState = false;
+  advancedExpanded = false;
   searchControl: FormControl;
   categoryControl: FormControl;
   familyControl: FormControl;
@@ -70,6 +71,13 @@ export class HomeComponent implements OnInit {
     public service: RecipeService,
     private location: Location,
   ) {
+    // Only a fresh page load reads the URL; coming back from a recipe keeps the live search.
+    if (!this.service.hasSearched) {
+      this.service.restoreSearchParams(this.location.path());
+    }
+
+    // A linked filter would otherwise sit hidden in the collapsed panel.
+    this.advancedExpanded = this.service.searchCategory !== 0 || this.service.searchHooperFamily;
     this.searchControl = new FormControl(this.service.searchTerm);
     this.categoryControl = new FormControl(this.service.searchCategory);
     this.familyControl = new FormControl(this.service.searchHooperFamily);
@@ -169,9 +177,8 @@ export class HomeComponent implements OnInit {
       this.service.readRecipe(recipeParam);
 
       // Slot a home entry in underneath a recipe deep link so browser/mouse back lands on home.
-      const deepLink = this.location.path();
       this.location.replaceState(this.service.buildRecipeUrl(null));
-      this.service.pushView(deepLink);
+      this.service.pushView(this.service.buildRecipeUrl(recipeParam));
     }
   }
 
