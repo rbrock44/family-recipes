@@ -1,0 +1,44 @@
+<h2 mat-dialog-title>About Family Recipes</h2>
+
+<mat-dialog-content class="about-content">
+  <section class="why">
+    <h3>Why This Exists</h3>
+    <p>
+      Grandma submitted all of her recipes to a school fundraiser, and they
+      were turned into a cookbook. She had so many that she didn't want her
+      name on almost every page, so she submitted them under her children's
+      and grandchildren's names. The family bought an entire case. That case
+      has run out, but the family keeps growing.
+    </p>
+    <p>
+      This recipe website was created to share all of her (Hooper Family) recipes,
+      along with the rest that have been found or used by the family.
+    </p>
+    <p>
+      Here you can search recipes in seconds and change the number of batches
+      without doing the math.
+    </p>
+    <p class="note">
+      Favorites, recently visited recipes, and lists are saved in this browser
+      on this device.
+    </p>
+  </section>
+
+  @for (section of sections; track section.title) {
+    <section>
+      <h3>{{ section.title }}</h3>
+      <ul class="tips">
+        @for (tip of section.tips; track tip.text) {
+          <li>
+            <mat-icon aria-hidden="true">{{ tip.icon }}</mat-icon>
+            <span>{{ tip.text }}</span>
+          </li>
+        }
+      </ul>
+    </section>
+  }
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-flat-button color="primary" mat-dialog-close>Got it</button>
+</mat-dialog-actions>

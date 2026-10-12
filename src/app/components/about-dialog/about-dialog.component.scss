@@ -1,0 +1,43 @@
+.about-content {
+  max-width: 560px;
+}
+
+h3 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1.05rem;
+  color: var(--brand-900);
+}
+
+.why h3 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 0.6rem;
+  line-height: 1.5;
+}
+
+.note {
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+}
+
+.tips {
+  display: grid;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    line-height: 1.4;
+  }
+
+  mat-icon {
+    flex-shrink: 0;
+    color: var(--brand-600);
+  }
+}

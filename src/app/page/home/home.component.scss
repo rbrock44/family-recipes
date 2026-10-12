@@ -4,11 +4,23 @@
 }
 
 .hero-panel {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 1.5rem;
   gap: 1rem;
+}
+
+.hero-copy {
+  padding-right: 2.5rem;
+}
+
+.about-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  color: var(--brand-600);
 }
 
 .hero-copy h1 {

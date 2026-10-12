@@ -2,7 +2,10 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { HomeComponent } from './home.component';
 import { RecipeService } from '../../services/recipe.service';
+import { MatDialog } from '@angular/material/dialog';
+import { AboutDialogComponent } from '../../components/about-dialog/about-dialog.component';
 import {
+  clickElement,
   expectElementPresent,
   expectElementToContainContent,
 } from '../../constants/expectations.spec';
@@ -49,5 +52,14 @@ describe('HomeComponent', () => {
     expectElementPresent(fixture, 'input');
     // scoped to the search button, since the page renders other icons first
     expectElementToContainContent(fixture, '[aria-label="Search"] mat-icon', 'search');
+  });
+
+  it('should open the about dialog from the info button', () => {
+    const open = spyOn(TestBed.inject(MatDialog), 'open');
+    fixture.detectChanges();
+
+    clickElement(fixture, '[data-about-button]');
+
+    expect(open).toHaveBeenCalledWith(AboutDialogComponent, jasmine.any(Object));
   });
 });

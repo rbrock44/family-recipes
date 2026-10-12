@@ -1,5 +1,14 @@
 <div class="page-shell home-page">
   <section class="surface-card hero-panel">
+    <button
+      mat-icon-button
+      class="about-button"
+      aria-label="About this site and how to use it"
+      (click)="openAbout()"
+      data-about-button
+    >
+      <mat-icon>info_outline</mat-icon>
+    </button>
     <div class="hero-copy">
       <h1>Family Recipes</h1>
       <p class="hero-subtitle">

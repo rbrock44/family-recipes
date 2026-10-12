@@ -25,6 +25,8 @@ import {
 import { MatCheckbox } from '@angular/material/checkbox';
 import { MatSelect } from '@angular/material/select';
 import { MatOption } from '@angular/material/core';
+import { MatDialog } from '@angular/material/dialog';
+import { AboutDialogComponent } from '../../components/about-dialog/about-dialog.component';
 import { RecipeTableComponent } from '../../components/recipe-table/recipe-table.component';
 import { isListsPath, parseRecipeId } from '../../utils/recipe-url.util';
 
@@ -70,6 +72,7 @@ export class HomeComponent implements OnInit {
   constructor(
     public service: RecipeService,
     private location: Location,
+    private dialog: MatDialog,
   ) {
     // Only a fresh page load reads the URL; coming back from a recipe keeps the live search.
     if (!this.service.hasSearched) {
@@ -213,6 +216,10 @@ export class HomeComponent implements OnInit {
 
   getCategory(categoryNumber: number): string {
     return getCategory(categoryNumber);
+  }
+
+  openAbout(): void {
+    this.dialog.open(AboutDialogComponent, { autoFocus: 'dialog' });
   }
 
   goToLists(): void {
