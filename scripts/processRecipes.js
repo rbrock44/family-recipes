@@ -80,6 +80,11 @@ async function processRecipes() {
 			console.log(`Created file: ${filename}`);
 		}
 
+		// Record exactly which ids were written so only those get deleted from the API.
+		if (process.env.PROCESSED_IDS_FILE) {
+			fs.writeFileSync(process.env.PROCESSED_IDS_FILE, JSON.stringify(data.map(recipe => recipe.id)));
+		}
+
 		if (data.length === 0) {
 			console.log('No pending recipes to process.');
 		} else {

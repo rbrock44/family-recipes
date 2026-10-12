@@ -41,6 +41,7 @@ jobs:
       - name: Run recipe processing script
         env:
           RECIPE_API_TOKEN: ${{ secrets.RECIPE_API_TOKEN }}
+          PROCESSED_IDS_FILE: ${{ runner.temp }}/processed-recipe-ids.json
         run: node scripts/processRecipes.js
 
       - name: Detect changes
@@ -78,38 +79,28 @@ jobs:
         shell: bash
         env:
           RECIPE_API_TOKEN: ${{ secrets.RECIPE_API_TOKEN }}
+          PROCESSED_IDS_FILE: ${{ runner.temp }}/processed-recipe-ids.json
         run: |
           if [ -z "$RECIPE_API_TOKEN" ]; then
             echo "RECIPE_API_TOKEN is not set. Skipping secure delete step."
             exit 0
           fi
 
+          # Delete only the ids processRecipes.js wrote, not whatever is pending now —
+          # a recipe submitted mid-run would otherwise be deleted unprocessed.
           node -e '
+            const fs = require("fs");
             const base = process.env.RECIPE_API_BASE_URL;
             const token = process.env.RECIPE_API_TOKEN;
 
             const run = async () => {
-              const pendingResponse = await fetch(`${base}/recipe/pending`, {
-                method: "GET",
-                headers: { "X-API-Key": token }
-              });
+              const ids = JSON.parse(fs.readFileSync(process.env.PROCESSED_IDS_FILE, "utf8"));
 
-              if (!pendingResponse.ok) {
-                const text = await pendingResponse.text();
-                throw new Error(`Failed to fetch pending recipes: ${pendingResponse.status} ${text}`);
-              }
-
-              const pending = await pendingResponse.json();
-              if (!Array.isArray(pending)) {
-                throw new Error("Expected pending recipes response to be an array");
-              }
-
-              for (const recipe of pending) {
-                if (!recipe || typeof recipe.id === "undefined") {
-                  throw new Error("Pending recipe is missing id");
+              for (const id of ids) {
+                if (id === null || typeof id === "undefined") {
+                  throw new Error("Processed recipe is missing id");
                 }
 
-                const id = recipe.id;
                 const deleteUrl = `${base}/recipe/pending/${encodeURIComponent(id)}`;
                 const deleteResponse = await fetch(deleteUrl, {
                   method: "DELETE",
