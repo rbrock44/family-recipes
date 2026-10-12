@@ -42,6 +42,8 @@ export class RecipeService {
   selectMode: boolean = false;
   selectedForList: Set<string> = new Set<string>();
   expandedListIds: Set<string>;
+  // Tracked as collapsed, not expanded, so new lists start with ingredients open.
+  collapsedListIngredientIds: Set<string>;
   favorites: Set<string>;
 
   constructor(
@@ -51,6 +53,7 @@ export class RecipeService {
   ) {
     this.load();
     this.expandedListIds = new Set(this.reader.readExpandedListIds());
+    this.collapsedListIngredientIds = new Set(this.reader.readCollapsedListIngredientIds());
     this.favorites = new Set(this.reader.readFavorites());
 
     // Browser/mouse back and forward land here; show whichever view the entry names.
@@ -307,6 +310,16 @@ export class RecipeService {
     }
 
     this.reader.setExpandedListIds(Array.from(this.expandedListIds));
+  }
+
+  setListIngredientsExpanded(id: string, expanded: boolean): void {
+    if (expanded) {
+      this.collapsedListIngredientIds.delete(id);
+    } else {
+      this.collapsedListIngredientIds.add(id);
+    }
+
+    this.reader.setCollapsedListIngredientIds(Array.from(this.collapsedListIngredientIds));
   }
 
   readLists(): RecipeList[] {

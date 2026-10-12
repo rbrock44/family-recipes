@@ -17,6 +17,7 @@ export class RecipeReaderService {
   LISTS_NAME = "family-recipe-lists"
   CHECKED_INGREDIENTS_NAME = "family-recipe-list-checked-ingredients"
   EXPANDED_LISTS_NAME = "family-recipe-list-expanded"
+  COLLAPSED_LIST_INGREDIENTS_NAME = "family-recipe-list-ingredients-collapsed"
 
   constructor(private http: HttpClient) {
   }
@@ -227,5 +228,14 @@ export class RecipeReaderService {
 
   setExpandedListIds(ids: string[]): void {
     localStorage.setItem(this.EXPANDED_LISTS_NAME, JSON.stringify(ids));
+  }
+
+  readCollapsedListIngredientIds(): string[] {
+    const items = localStorage.getItem(this.COLLAPSED_LIST_INGREDIENTS_NAME);
+    return items ? JSON.parse(items) : [];
+  }
+
+  setCollapsedListIngredientIds(ids: string[]): void {
+    localStorage.setItem(this.COLLAPSED_LIST_INGREDIENTS_NAME, JSON.stringify(ids));
   }
 }

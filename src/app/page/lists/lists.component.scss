@@ -144,6 +144,26 @@
   opacity: 0.7;
 }
 
+.ingredients-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ingredients-toggle h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
 .other-ingredients-header {
   display: flex;
   align-items: center;

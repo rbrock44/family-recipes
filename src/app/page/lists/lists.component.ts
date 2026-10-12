@@ -27,6 +27,7 @@ interface ListRecipeRow {
 interface ListView {
   list: RecipeList;
   expanded: boolean;
+  ingredientsExpanded: boolean;
   renaming: boolean;
   justShared: boolean;
   nameControl: FormControl;
@@ -83,6 +84,14 @@ export class ListsComponent implements OnInit {
   toggleExpanded(view: ListView): void {
     view.expanded = !view.expanded;
     this.service.setListExpanded(view.list.id, view.expanded);
+  }
+
+  toggleIngredientsExpanded(view: ListView): void {
+    view.ingredientsExpanded = !view.ingredientsExpanded;
+    this.service.setListIngredientsExpanded(
+      view.list.id,
+      view.ingredientsExpanded,
+    );
   }
 
   startRename(view: ListView): void {
@@ -329,6 +338,9 @@ export class ListsComponent implements OnInit {
     return {
       list,
       expanded: this.service.expandedListIds.has(list.id),
+      ingredientsExpanded: !this.service.collapsedListIngredientIds.has(
+        list.id,
+      ),
       renaming: false,
       justShared: false,
       nameControl: new FormControl(list.name),
