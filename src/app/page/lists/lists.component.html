@@ -36,9 +36,10 @@
           </button>
           <button
             mat-icon-button
-            (click)="pickRandom(view)"
+            (click)="toggleRandomPick(view)"
             [disabled]="view.rows.length === 0"
-            aria-label="Pick random recipe"
+            [attr.aria-pressed]="view.randomOpen"
+            aria-label="Toggle random recipe"
           >
             <mat-icon>shuffle</mat-icon>
           </button>
@@ -94,7 +95,7 @@
 
       @if (view.expanded) {
         <div class="list-body">
-          @if (view.randomPick) {
+          @if (view.randomOpen && view.randomPick) {
             <div class="random-pick-card">
               <div class="random-pick-info">
                 <mat-icon class="random-pick-icon">casino</mat-icon>

@@ -37,6 +37,7 @@ interface ListView {
   nameControl: FormControl;
   rows: ListRecipeRow[];
   randomPick: Recipe | null;
+  randomOpen: boolean;
   randomRemaining: number;
   ingredients: AggregatedIngredient[];
   checkedIngredients: Set<string>;
@@ -101,6 +102,24 @@ export class ListsComponent implements OnInit {
     );
   }
 
+  toggleRandomPick(view: ListView): void {
+    if (view.randomOpen) {
+      this.closeRandomPick(view);
+      return;
+    }
+
+    view.randomOpen = true;
+    this.service.randomPickOpenListIds.add(view.list.id);
+
+    if (!view.randomPick) {
+      this.pickRandom(view);
+    }
+
+    if (!view.expanded) {
+      this.toggleExpanded(view);
+    }
+  }
+
   pickRandom(view: ListView): void {
     const filenames = view.rows.map((row) => row.recipe.filename);
     const result = pickRandomRecipe(
@@ -114,15 +133,11 @@ export class ListsComponent implements OnInit {
     }
 
     this.service.setRandomPicks(view.list.id, result.picked);
-    this.service.randomPickByListId.set(view.list.id, result.filename);
+    this.service.setRandomCurrent(view.list.id, result.filename);
     view.randomPick =
       view.rows.find((row) => row.recipe.filename === result.filename)
         ?.recipe ?? null;
     view.randomRemaining = remainingRandomPicks(filenames, result.picked);
-
-    if (!view.expanded) {
-      this.toggleExpanded(view);
-    }
   }
 
   resetRandomPicks(view: ListView): void {
@@ -131,8 +146,8 @@ export class ListsComponent implements OnInit {
   }
 
   closeRandomPick(view: ListView): void {
-    view.randomPick = null;
-    this.service.randomPickByListId.delete(view.list.id);
+    view.randomOpen = false;
+    this.service.randomPickOpenListIds.delete(view.list.id);
   }
 
   startRename(view: ListView): void {
@@ -187,7 +202,14 @@ export class ListsComponent implements OnInit {
     view.rows = view.rows.filter((it) => it !== row);
 
     if (view.randomPick === row.recipe) {
-      this.closeRandomPick(view);
+      view.randomPick = null;
+      this.service.setRandomCurrent(view.list.id, null);
+
+      if (view.rows.length === 0) {
+        this.closeRandomPick(view);
+      } else if (view.randomOpen) {
+        this.pickRandom(view);
+      }
     }
 
     this.refreshRandomRemaining(view);
@@ -380,7 +402,7 @@ export class ListsComponent implements OnInit {
     );
 
     const rows = resolved.filter((it): it is ListRecipeRow => !!it);
-    const randomPickFilename = this.service.randomPickByListId.get(list.id);
+    const randomPickFilename = this.service.readRandomCurrent(list.id);
 
     return {
       list,
@@ -395,6 +417,8 @@ export class ListsComponent implements OnInit {
       randomPick:
         rows.find((row) => row.recipe.filename === randomPickFilename)
           ?.recipe ?? null,
+      randomOpen:
+        rows.length > 0 && this.service.randomPickOpenListIds.has(list.id),
       randomRemaining: remainingRandomPicks(
         rows.map((row) => row.recipe.filename),
         this.service.readRandomPicks(list.id),

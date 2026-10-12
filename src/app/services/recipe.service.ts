@@ -44,8 +44,8 @@ export class RecipeService {
   expandedListIds: Set<string>;
   // Tracked as collapsed, not expanded, so new lists start with ingredients open.
   collapsedListIngredientIds: Set<string>;
-  // Current random pick per list, kept so the card survives opening the recipe and coming back.
-  randomPickByListId: Map<string, string> = new Map<string, string>();
+  // Lists showing the random pick card, kept so it survives opening the recipe and coming back.
+  randomPickOpenListIds: Set<string> = new Set<string>();
   favorites: Set<string>;
 
   constructor(
@@ -330,6 +330,14 @@ export class RecipeService {
 
   setRandomPicks(listId: string, filenames: string[]): void {
     this.reader.setRandomPicks(listId, filenames);
+  }
+
+  readRandomCurrent(listId: string): string | undefined {
+    return this.reader.readRandomCurrent(listId);
+  }
+
+  setRandomCurrent(listId: string, filename: string | null): void {
+    this.reader.setRandomCurrent(listId, filename);
   }
 
   readLists(): RecipeList[] {
