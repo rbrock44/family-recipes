@@ -22,6 +22,7 @@ describe('CommandPaletteComponent', () => {
   let palette: CommandPaletteService;
   let service: jasmine.SpyObj<RecipeService>;
   let recent: string[];
+  let favorites: string[];
 
   const press = (key: string, init: KeyboardEventInit = {}) => {
     document.dispatchEvent(new KeyboardEvent('keydown', { key, bubbles: true, ...init }));
@@ -45,12 +46,14 @@ describe('CommandPaletteComponent', () => {
 
   beforeEach(async () => {
     recent = [];
+    favorites = [];
     service = jasmine.createSpyObj<RecipeService>(
       'RecipeService',
       [
         'isFullyLoaded',
         'allRecipes',
         'readRecent',
+        'readFavorites',
         'selectRecipe',
         'addToRecent',
         'pushView',
@@ -63,6 +66,7 @@ describe('CommandPaletteComponent', () => {
     service.isFullyLoaded.and.returnValue(true);
     service.allRecipes.and.returnValue(RECIPES);
     service.readRecent.and.callFake(() => recent);
+    service.readFavorites.and.callFake(() => favorites);
     service.buildRecipeUrl.and.callFake(filename => (filename ? `/${filename}` : '/'));
     service.listsUrl.and.returnValue('/lists');
 
@@ -130,6 +134,22 @@ describe('CommandPaletteComponent', () => {
       'Lists',
       'Apple Pie',
       'Chocolate Chip Cookies',
+      'Sugar Cookies',
+    ]);
+  });
+
+  it('should list favorites first and not repeat them under recent or all recipes', () => {
+    favorites = ['0002'];
+    recent = ['0002', '0004'];
+    open();
+
+    expect(sectionLabels()).toEqual(['Favorites', 'Recent', 'Pages', 'All recipes']);
+    expect(titles()).toEqual([
+      'Chocolate Chip Cookies',
+      'Beef Stew',
+      'Home',
+      'Lists',
+      'Apple Pie',
       'Sugar Cookies',
     ]);
   });

@@ -76,11 +76,12 @@ export class CommandPaletteComponent {
   readonly fabHidden = signal(false);
   readonly loading = signal(true);
   private readonly recipeEntries = signal<PaletteEntry[]>([]);
+  private readonly favorites = signal<string[]>([]);
   private readonly recent = signal<string[]>([]);
   private readonly input = viewChild<ElementRef<HTMLInputElement>>('input');
   private returnFocusTo: HTMLElement | null = null;
 
-  /** With no query: recent, pages, then every other recipe. With a query: ranked matches. */
+  /** With no query: favorites, recent, pages, then every other recipe. With a query: ranked matches. */
   readonly sections = computed<PaletteSection[]>(() => {
     const query = this.query().trim();
     const recipes = this.recipeEntries();
@@ -90,11 +91,16 @@ export class CommandPaletteComponent {
       groups.push({ label: 'Results', entries: searchEntries([...PAGES, ...recipes], query) });
     } else {
       const byFilename = new Map(recipes.map(entry => [entry.recipe!.filename, entry]));
-      const recent = this.recent()
-        .map(filename => byFilename.get(filename))
-        .filter((entry): entry is PaletteEntry => !!entry);
-      const shown = new Set(recent.map(entry => entry.key));
+      const lookup = (filenames: string[]) =>
+        filenames
+          .map(filename => byFilename.get(filename))
+          .filter((entry): entry is PaletteEntry => !!entry);
+      const favorites = lookup(this.favorites());
+      const favoriteKeys = new Set(favorites.map(entry => entry.key));
+      const recent = lookup(this.recent()).filter(entry => !favoriteKeys.has(entry.key));
+      const shown = new Set([...favoriteKeys, ...recent.map(entry => entry.key)]);
       groups.push(
+        { label: 'Favorites', entries: favorites },
         { label: 'Recent', entries: recent },
         { label: 'Pages', entries: PAGES },
         { label: 'All recipes', entries: recipes.filter(entry => !shown.has(entry.key)) },
@@ -123,6 +129,7 @@ export class CommandPaletteComponent {
       if (this.palette.isOpen()) {
         untracked(() => {
           this.returnFocusTo = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+          this.favorites.set(this.service.readFavorites());
           this.recent.set(this.service.readRecent());
           this.query.set('');
           this.activeIndex.set(0);
