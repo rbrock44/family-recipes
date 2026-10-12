@@ -9,11 +9,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "gh-pages": "gh-pages -d dist/family-recipes",
     "recipes:from-images": "node scripts/recipesFromImages.js",
     "recipes:combine": "node scripts/combineRecipes.js",
-    "deploy": "ng build --configuration production && node scripts/finish-static-build.mjs",
-    "prod": "npm run deploy && npm run gh-pages"
+    "deploy": "ng build --configuration production && node scripts/finish-static-build.mjs"
   },
   "private": true,
   "dependencies": {
@@ -29,8 +27,6 @@
     "@angular/platform-server": "^22.1.4",
     "@angular/router": "^22.1.4",
     "@angular/ssr": "^22.1.6",
-    "angular-cli-ghpages": "^3.1.0",
-    "material-design-icons": "^3.0.1",
     "rxjs": "~7.8.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.1"
