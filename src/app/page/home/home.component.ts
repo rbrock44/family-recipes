@@ -3,6 +3,10 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { MatTableDataSource } from '@angular/material/table';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { CATEGORIES, getCategory } from 'src/app/models/category.enum';
+import {
+  decodeSharedFavorites,
+  encodeSharedFavorites,
+} from 'src/app/models/favorites-share';
 import { decodeSharedList } from 'src/app/models/list-share';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
@@ -66,6 +70,9 @@ export class HomeComponent implements OnInit {
   dataSource = new MatTableDataSource<Recipe>();
   favoritesDataSource = new MatTableDataSource<Recipe>();
   recentDataSource = new MatTableDataSource<Recipe>();
+  sharedFavoritesDataSource = new MatTableDataSource<Recipe>();
+  justSharedFavorites = false;
+  sharedFavoritesAdded: number | null = null;
 
   categories = CATEGORIES;
 
@@ -91,6 +98,7 @@ export class HomeComponent implements OnInit {
     //   this.blurKeyboard(element);
     // });
     this.importSharedList();
+    this.importSharedFavorites();
     this.restoreListsLink();
 
     this.searchControl.valueChanges
@@ -107,6 +115,7 @@ export class HomeComponent implements OnInit {
 
     this.loadFavorites();
     this.loadRecent();
+    this.loadSharedFavorites();
 
     if (this.service.isFullyLoaded()) {
       this.restoreSearch();
@@ -153,6 +162,26 @@ export class HomeComponent implements OnInit {
     if (this.service.showLists) {
       this.service.pushView(this.service.listsUrl(), { lists: true });
     }
+  }
+
+  // Unlike shared lists, shared favorites are only shown - merging is the viewer's call.
+  private importSharedFavorites(): void {
+    const queryParams = new URLSearchParams(window.location.search);
+    const shared = queryParams.get('sharedFavorites');
+
+    if (!shared) {
+      return;
+    }
+
+    try {
+      this.service.sharedFavorites = decodeSharedFavorites(shared);
+    } catch {
+      // Malformed/tampered link - ignore rather than crash the app.
+    }
+
+    queryParams.delete('sharedFavorites');
+    const query = queryParams.toString();
+    this.location.replaceState(query ? `/?${query}` : '/');
   }
 
   /** A `/lists` deep link opens the lists view, with a home entry under it like a recipe link. */
@@ -245,6 +274,75 @@ export class HomeComponent implements OnInit {
     this.resolveRecipes(this.service.readFavorites()).then((recipes) => {
       this.favoritesDataSource.data = recipes;
     });
+  }
+
+  loadSharedFavorites(): void {
+    const shared = this.service.sharedFavorites;
+
+    if (!shared) {
+      this.sharedFavoritesDataSource.data = [];
+      return;
+    }
+
+    // A shared link can name recipes this copy of the site does not have; skip those.
+    Promise.allSettled(
+      shared.favorites.map((filename) => this.resolveRecipes([filename])),
+    ).then((results) => {
+      this.sharedFavoritesDataSource.data = results.flatMap((it) =>
+        it.status === 'fulfilled' ? it.value : [],
+      );
+    });
+  }
+
+  sharedFavoritesTitle(): string {
+    const name = this.service.sharedFavorites?.name;
+    return name ? `${name}'s Favorites` : 'Shared Favorites';
+  }
+
+  shareFavorites(): void {
+    const name = window.prompt(
+      'Add your name so they know whose favorites these are (optional):',
+    );
+
+    if (name === null) {
+      return;
+    }
+
+    const encoded = encodeSharedFavorites({
+      name: name.trim(),
+      favorites: this.favoritesDataSource.data.map((recipe) => recipe.filename),
+    });
+
+    const url = new URL('/', location.href);
+    url.searchParams.set('sharedFavorites', encoded);
+    const shareUrl = url.toString();
+
+    navigator.clipboard.writeText(shareUrl).then(
+      () => {
+        this.justSharedFavorites = true;
+        setTimeout(() => {
+          this.justSharedFavorites = false;
+        }, 2000);
+      },
+      () => {
+        window.alert(`Copy this link to share your favorites:\n\n${shareUrl}`);
+      },
+    );
+  }
+
+  mergeSharedFavorites(): void {
+    this.sharedFavoritesAdded = this.service.mergeSharedFavorites(
+      this.sharedFavoritesDataSource.data.map((recipe) => recipe.filename),
+    );
+    this.service.recentFavoritesExpanded = true;
+    this.service.favoritesExpanded = true;
+    this.loadFavorites();
+  }
+
+  dismissSharedFavorites(): void {
+    this.service.sharedFavorites = null;
+    this.sharedFavoritesAdded = null;
+    this.sharedFavoritesDataSource.data = [];
   }
 
   loadRecent(): void {

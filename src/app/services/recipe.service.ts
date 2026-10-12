@@ -5,6 +5,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { EMPTY_RECIPE, HOOPER_FAMILY } from '../constants/constants';
 import { Category } from '../models/category.enum';
 import { CustomIngredient } from '../models/custom-ingredient.interface';
+import { mergeFavorites, SharedFavoritesPayload } from '../models/favorites-share';
 import { Recipe } from '../models/recipe.interface';
 import { RecipeList } from '../models/recipe-list.interface';
 import { RecipeModel } from '../models/recipe.model';
@@ -47,6 +48,8 @@ export class RecipeService {
   // Lists showing the random pick card, kept so it survives opening the recipe and coming back.
   randomPickOpenListIds: Set<string> = new Set<string>();
   favorites: Set<string>;
+  // Someone else's favorites opened from a share link, held here so the card survives opening a recipe and coming back.
+  sharedFavorites: SharedFavoritesPayload | null = null;
 
   constructor(
     private reader: RecipeReaderService,
@@ -262,6 +265,16 @@ export class RecipeService {
 
   readFavorites(): string[] {
     return this.reader.readFavorites();
+  }
+
+  /** Adds shared favorites not already favorited; returns how many were new. */
+  mergeSharedFavorites(shared: string[]): number {
+    const mine = this.readFavorites();
+    const added = mergeFavorites(mine, shared).slice(mine.length);
+
+    added.forEach((filename) => this.addToFavorites(filename));
+
+    return added.length;
   }
 
   addToRecent(fileNumber: string): void {

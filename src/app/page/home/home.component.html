@@ -92,6 +92,55 @@
       </mat-accordion>
     </section>
 
+    @if (service.sharedFavorites) {
+      <section class="surface-card shared-favorites-card" data-shared-favorites>
+        <div class="shared-favorites-header">
+          <h3>{{ sharedFavoritesTitle() }}</h3>
+          <button
+            mat-icon-button
+            aria-label="Dismiss shared favorites"
+            (click)="dismissSharedFavorites()"
+          >
+            <mat-icon>close</mat-icon>
+          </button>
+        </div>
+
+        @if (sharedFavoritesDataSource.data.length > 0) {
+          <app-recipe-table
+            [dataSource]="sharedFavoritesDataSource"
+            [removeColumns]="true"
+            [showAddToList]="true"
+          ></app-recipe-table>
+
+          <div class="shared-favorites-actions">
+            @if (sharedFavoritesAdded === null) {
+              <button
+                mat-flat-button
+                color="primary"
+                (click)="mergeSharedFavorites()"
+                data-merge-favorites
+              >
+                Merge into my favorites
+              </button>
+            } @else {
+              <span class="merge-result" data-merge-result>
+                {{
+                  sharedFavoritesAdded === 0
+                    ? "You already had all of these"
+                    : "Added " +
+                      sharedFavoritesAdded +
+                      (sharedFavoritesAdded === 1 ? " recipe" : " recipes") +
+                      " to your favorites"
+                }}
+              </span>
+            }
+          </div>
+        } @else {
+          <p class="shared-favorites-empty">No recipes in this shared link.</p>
+        }
+      </section>
+    }
+
     @if (favoritesDataSource.data.length > 0 || recentDataSource.data.length > 0) {
       <section class="surface-card recent-favorites-card">
         <button
@@ -139,17 +188,30 @@
           }
 
           @if (favoritesDataSource.data.length > 0) {
-            <button
-              type="button"
-              class="sub-header"
-              (click)="toggleFavorites()"
-              [attr.aria-expanded]="service.favoritesExpanded"
-            >
-              <h4>Favorites</h4>
-              <mat-icon>{{
-                service.favoritesExpanded ? "expand_less" : "expand_more"
-              }}</mat-icon>
-            </button>
+            <div class="sub-header-row">
+              <button
+                type="button"
+                class="sub-header"
+                (click)="toggleFavorites()"
+                [attr.aria-expanded]="service.favoritesExpanded"
+              >
+                <h4>Favorites</h4>
+                <mat-icon>{{
+                  service.favoritesExpanded ? "expand_less" : "expand_more"
+                }}</mat-icon>
+              </button>
+              <button
+                mat-icon-button
+                class="share-favorites"
+                (click)="shareFavorites()"
+                [attr.aria-label]="
+                  justSharedFavorites ? 'Link copied' : 'Copy favorites share link'
+                "
+                data-share-favorites
+              >
+                <mat-icon>{{ justSharedFavorites ? "check" : "share" }}</mat-icon>
+              </button>
+            </div>
             @if (service.favoritesExpanded) {
               <app-recipe-table
                 [dataSource]="favoritesDataSource"

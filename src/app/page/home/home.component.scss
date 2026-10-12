@@ -185,3 +185,49 @@
   display: block;
   margin-top: 0.75rem;
 }
+.sub-header-row {
+  position: relative;
+}
+
+// Pinned right so the favorites heading stays centered like the recent one.
+.share-favorites {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  color: var(--ink-muted);
+}
+
+.shared-favorites-card {
+  margin-top: 0.3rem;
+  padding: 1.25rem;
+  background: var(--surface-gradient-mid);
+}
+
+.shared-favorites-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.shared-favorites-header h3 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.shared-favorites-card app-recipe-table {
+  display: block;
+  margin-top: 0.75rem;
+}
+
+.shared-favorites-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.merge-result,
+.shared-favorites-empty {
+  color: var(--ink-muted);
+}

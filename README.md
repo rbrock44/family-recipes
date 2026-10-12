@@ -85,6 +85,8 @@ The recipe page shows the title, author, ingredients and instructions for the re
 
 The favorites table contain all recipes that have been hearted. Can be sorted by any column
 
+Use the share button next to Favorites to copy a link to your favorites. Opening someone else's link shows their favorites on the home page, with an option to merge them into yours
+
 ---
 
 ### Lists

@@ -53,6 +53,18 @@ describe('RecipeService', () => {
     expect(spy).toHaveBeenCalledTimes(1);
   });
 
+  it('should merge only new shared favorites', () => {
+    spyOn(reader, 'readFavorites').and.returnValue(['0001']);
+    const add = spyOn(reader, 'addToFavorites');
+    service.favorites = new Set(['0001']);
+
+    const added = service.mergeSharedFavorites(['0001', '0002', '0003']);
+
+    expect(added).toBe(2);
+    expect(add.calls.allArgs()).toEqual([['0002'], ['0003']]);
+    expect(service.isFavorite('0003')).toBeTrue();
+  });
+
   describe('history', () => {
     let location: Location;
 

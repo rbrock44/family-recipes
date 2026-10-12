@@ -16,6 +16,9 @@ import {
   withInterceptorsFromDi,
   withXhr,
 } from '@angular/common/http';
+import { EMPTY_RECIPE } from '../../constants/constants';
+import { decodeSharedFavorites } from '../../models/favorites-share';
+import { Recipe } from '../../models/recipe.interface';
 
 describe('HomeComponent', () => {
   let fixture: ComponentFixture<HomeComponent>;
@@ -61,5 +64,83 @@ describe('HomeComponent', () => {
     clickElement(fixture, '[data-about-button]');
 
     expect(open).toHaveBeenCalledWith(AboutDialogComponent, jasmine.any(Object));
+  });
+
+  describe('shared favorites', () => {
+    let service: RecipeService;
+    const recipe = (filename: string) =>
+      ({ ...EMPTY_RECIPE, name: `Recipe ${filename}`, filename }) as Recipe;
+
+    beforeEach(() => {
+      service = TestBed.inject(RecipeService);
+      spyOn(service, 'isFullyLoaded').and.returnValue(true);
+      spyOn(service, 'findRecipe').and.callFake((filename: string) => recipe(filename));
+    });
+
+    afterEach(() => {
+      service.sharedFavorites = null;
+    });
+
+    // Recipes resolve through plain promises, so let them settle before rendering again.
+    async function render(): Promise<void> {
+      fixture.detectChanges();
+      await new Promise((resolve) => setTimeout(resolve));
+      fixture.detectChanges();
+    }
+
+    it('shows the shared card titled with the sender name', async () => {
+      service.sharedFavorites = { name: 'Grandma', favorites: ['0001', '0002'] };
+      await render();
+
+      expectElementToContainContent(fixture, '[data-shared-favorites] h3', "Grandma's Favorites");
+      expect(component.sharedFavoritesDataSource.data.length).toBe(2);
+    });
+
+    it('merges shared favorites and reports how many were new', async () => {
+      const merge = spyOn(service, 'mergeSharedFavorites').and.returnValue(1);
+      service.sharedFavorites = { name: '', favorites: ['0001', '0002'] };
+      await render();
+
+      clickElement(fixture, '[data-merge-favorites]');
+      fixture.detectChanges();
+
+      expect(merge).toHaveBeenCalledWith(['0001', '0002']);
+      expectElementToContainContent(fixture, '[data-merge-result]', 'Added 1 recipe to your favorites');
+    });
+
+    it('dismisses the shared card', async () => {
+      service.sharedFavorites = { name: '', favorites: ['0001'] };
+      await render();
+
+      component.dismissSharedFavorites();
+      fixture.detectChanges();
+
+      expect(service.sharedFavorites).toBeNull();
+      expect(fixture.nativeElement.querySelector('[data-shared-favorites]')).toBeNull();
+    });
+
+    it('copies a share link with the name and favorites', async () => {
+      spyOn(window, 'prompt').and.returnValue(' Ryan ');
+      const write = spyOn(navigator.clipboard, 'writeText').and.resolveTo();
+      component.favoritesDataSource.data = [recipe('0005'), recipe('0007')];
+
+      component.shareFavorites();
+
+      const url = new URL(write.calls.mostRecent().args[0] as string);
+      expect(url.pathname).toBe('/');
+      expect(decodeSharedFavorites(url.searchParams.get('sharedFavorites')!)).toEqual({
+        name: 'Ryan',
+        favorites: ['0005', '0007'],
+      });
+    });
+
+    it('does not share when the name prompt is cancelled', () => {
+      spyOn(window, 'prompt').and.returnValue(null);
+      const write = spyOn(navigator.clipboard, 'writeText');
+
+      component.shareFavorites();
+
+      expect(write).not.toHaveBeenCalled();
+    });
   });
 });
