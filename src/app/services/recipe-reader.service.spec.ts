@@ -31,6 +31,22 @@ describe('RecipeReaderService', () => {
     expect(reader).toBeTruthy();
   });
 
+  it('should fall back when stored values are corrupt', () => {
+    spyOn(localStorage, 'getItem').and.returnValue('{not json');
+
+    expect(reader.readFavorites()).toEqual([]);
+    expect(reader.readLists()).toEqual([]);
+    expect(reader.readCheckedIngredients('list')).toEqual([]);
+  });
+
+  it('should not throw when storage is unavailable', () => {
+    spyOn(localStorage, 'getItem').and.throwError('blocked');
+    spyOn(localStorage, 'setItem').and.throwError('blocked');
+
+    expect(() => reader.addToFavorites('0001')).not.toThrow();
+    expect(reader.readRecent()).toEqual([]);
+  });
+
   it('should create filenames by total number', () => {
     const expected = [
       '0001',

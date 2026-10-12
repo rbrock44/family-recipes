@@ -83,13 +83,11 @@ export class RecipeReaderService {
   }
 
   readFavorites(): string[] {
-    let favs = localStorage.getItem(this.FAVORITE_NAME);
-    let favorites: string[] = !!favs ? JSON.parse(favs) : [];
-    return favorites;
+    return this.readStorage<string[]>(this.FAVORITE_NAME, []);
   }
 
   private setFavorites(favorites: string[]) {
-    localStorage.setItem(this.FAVORITE_NAME, JSON.stringify(favorites));
+    this.writeStorage(this.FAVORITE_NAME, favorites);
   }
 
   addToRecent(fileNumber: string): void {
@@ -107,19 +105,15 @@ export class RecipeReaderService {
   }
 
   readRecent(): string[] {
-    let items = localStorage.getItem(this.RECENT_NAME);
-    let recent: string[] = !!items ? JSON.parse(items) : [];
-    return recent;
+    return this.readStorage<string[]>(this.RECENT_NAME, []);
   }
 
   private setRecent(recent: string[]) {
-    localStorage.setItem(this.RECENT_NAME, JSON.stringify(recent));
+    this.writeStorage(this.RECENT_NAME, recent);
   }
 
   readLists(): RecipeList[] {
-    let items = localStorage.getItem(this.LISTS_NAME);
-    let lists: RecipeList[] = !!items ? JSON.parse(items) : [];
-    return lists;
+    return this.readStorage<RecipeList[]>(this.LISTS_NAME, []);
   }
 
   createList(name: string): RecipeList {
@@ -171,7 +165,7 @@ export class RecipeReaderService {
   }
 
   private setLists(lists: RecipeList[]) {
-    localStorage.setItem(this.LISTS_NAME, JSON.stringify(lists));
+    this.writeStorage(this.LISTS_NAME, lists);
   }
 
   private updateList(listId: string, mutate: (list: RecipeList) => void): void {
@@ -215,30 +209,27 @@ export class RecipeReaderService {
     const all = this.readAllCheckedIngredients();
     all[listId] = keys;
 
-    localStorage.setItem(this.CHECKED_INGREDIENTS_NAME, JSON.stringify(all));
+    this.writeStorage(this.CHECKED_INGREDIENTS_NAME, all);
   }
 
   private readAllCheckedIngredients(): Record<string, string[]> {
-    const items = localStorage.getItem(this.CHECKED_INGREDIENTS_NAME);
-    return items ? JSON.parse(items) : {};
+    return this.readStorage(this.CHECKED_INGREDIENTS_NAME, {});
   }
 
   readExpandedListIds(): string[] {
-    const items = localStorage.getItem(this.EXPANDED_LISTS_NAME);
-    return items ? JSON.parse(items) : [];
+    return this.readStorage(this.EXPANDED_LISTS_NAME, []);
   }
 
   setExpandedListIds(ids: string[]): void {
-    localStorage.setItem(this.EXPANDED_LISTS_NAME, JSON.stringify(ids));
+    this.writeStorage(this.EXPANDED_LISTS_NAME, ids);
   }
 
   readCollapsedListIngredientIds(): string[] {
-    const items = localStorage.getItem(this.COLLAPSED_LIST_INGREDIENTS_NAME);
-    return items ? JSON.parse(items) : [];
+    return this.readStorage(this.COLLAPSED_LIST_INGREDIENTS_NAME, []);
   }
 
   setCollapsedListIngredientIds(ids: string[]): void {
-    localStorage.setItem(this.COLLAPSED_LIST_INGREDIENTS_NAME, JSON.stringify(ids));
+    this.writeStorage(this.COLLAPSED_LIST_INGREDIENTS_NAME, ids);
   }
 
   readRandomPicks(listId: string): string[] {
@@ -248,12 +239,11 @@ export class RecipeReaderService {
   setRandomPicks(listId: string, filenames: string[]): void {
     const all = this.readAllRandomPicks();
     all[listId] = filenames;
-    localStorage.setItem(this.RANDOM_PICKS_NAME, JSON.stringify(all));
+    this.writeStorage(this.RANDOM_PICKS_NAME, all);
   }
 
   private readAllRandomPicks(): Record<string, string[]> {
-    const items = localStorage.getItem(this.RANDOM_PICKS_NAME);
-    return items ? JSON.parse(items) : {};
+    return this.readStorage(this.RANDOM_PICKS_NAME, {});
   }
 
   readRandomCurrent(listId: string): string | undefined {
@@ -269,11 +259,28 @@ export class RecipeReaderService {
       delete all[listId];
     }
 
-    localStorage.setItem(this.RANDOM_CURRENT_NAME, JSON.stringify(all));
+    this.writeStorage(this.RANDOM_CURRENT_NAME, all);
   }
 
   private readAllRandomCurrent(): Record<string, string> {
-    const items = localStorage.getItem(this.RANDOM_CURRENT_NAME);
-    return items ? JSON.parse(items) : {};
+    return this.readStorage(this.RANDOM_CURRENT_NAME, {});
+  }
+
+  // Corrupt values or blocked storage (some private modes) should not break the page.
+  private readStorage<T>(key: string, fallback: T): T {
+    try {
+      const items = localStorage.getItem(key);
+      return items ? JSON.parse(items) : fallback;
+    } catch {
+      return fallback;
+    }
+  }
+
+  private writeStorage(key: string, value: unknown): void {
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+    } catch {
+      // Storage unavailable or full; changes just will not persist.
+    }
   }
 }
