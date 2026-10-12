@@ -18,6 +18,7 @@ export class RecipeReaderService {
   CHECKED_INGREDIENTS_NAME = "family-recipe-list-checked-ingredients"
   EXPANDED_LISTS_NAME = "family-recipe-list-expanded"
   COLLAPSED_LIST_INGREDIENTS_NAME = "family-recipe-list-ingredients-collapsed"
+  RANDOM_PICKS_NAME = "family-recipe-list-random-picks"
 
   constructor(private http: HttpClient) {
   }
@@ -237,5 +238,20 @@ export class RecipeReaderService {
 
   setCollapsedListIngredientIds(ids: string[]): void {
     localStorage.setItem(this.COLLAPSED_LIST_INGREDIENTS_NAME, JSON.stringify(ids));
+  }
+
+  readRandomPicks(listId: string): string[] {
+    return this.readAllRandomPicks()[listId] || [];
+  }
+
+  setRandomPicks(listId: string, filenames: string[]): void {
+    const all = this.readAllRandomPicks();
+    all[listId] = filenames;
+    localStorage.setItem(this.RANDOM_PICKS_NAME, JSON.stringify(all));
+  }
+
+  private readAllRandomPicks(): Record<string, string[]> {
+    const items = localStorage.getItem(this.RANDOM_PICKS_NAME);
+    return items ? JSON.parse(items) : {};
   }
 }

@@ -7,13 +7,17 @@ import {
   aggregateIngredients,
 } from 'src/app/models/ingredient-aggregator';
 import { encodeSharedList } from 'src/app/models/list-share';
+import {
+  pickRandomRecipe,
+  remainingRandomPicks,
+} from 'src/app/models/random-pick';
 import { Recipe } from 'src/app/models/recipe.interface';
 import { RecipeList } from 'src/app/models/recipe-list.interface';
 import { RecipeService } from 'src/app/services/recipe.service';
 import { HeaderComponent } from '../../components/header/header.component';
 import { MatProgressSpinner } from '@angular/material/progress-spinner';
 import { MatIcon } from '@angular/material/icon';
-import { MatIconButton } from '@angular/material/button';
+import { MatButton, MatIconButton } from '@angular/material/button';
 import { MatFormField, MatLabel } from '@angular/material/form-field';
 import { MatInput } from '@angular/material/input';
 import { MatCheckbox } from '@angular/material/checkbox';
@@ -32,6 +36,8 @@ interface ListView {
   justShared: boolean;
   nameControl: FormControl;
   rows: ListRecipeRow[];
+  randomPick: Recipe | null;
+  randomRemaining: number;
   ingredients: AggregatedIngredient[];
   checkedIngredients: Set<string>;
   customIngredients: CustomIngredient[];
@@ -53,6 +59,7 @@ interface ListView {
     MatProgressSpinner,
     MatIcon,
     MatIconButton,
+    MatButton,
     MatFormField,
     MatInput,
     ReactiveFormsModule,
@@ -92,6 +99,40 @@ export class ListsComponent implements OnInit {
       view.list.id,
       view.ingredientsExpanded,
     );
+  }
+
+  pickRandom(view: ListView): void {
+    const filenames = view.rows.map((row) => row.recipe.filename);
+    const result = pickRandomRecipe(
+      filenames,
+      this.service.readRandomPicks(view.list.id),
+      view.randomPick?.filename ?? null,
+    );
+
+    if (!result) {
+      return;
+    }
+
+    this.service.setRandomPicks(view.list.id, result.picked);
+    this.service.randomPickByListId.set(view.list.id, result.filename);
+    view.randomPick =
+      view.rows.find((row) => row.recipe.filename === result.filename)
+        ?.recipe ?? null;
+    view.randomRemaining = remainingRandomPicks(filenames, result.picked);
+
+    if (!view.expanded) {
+      this.toggleExpanded(view);
+    }
+  }
+
+  resetRandomPicks(view: ListView): void {
+    this.service.setRandomPicks(view.list.id, []);
+    view.randomRemaining = view.rows.length;
+  }
+
+  closeRandomPick(view: ListView): void {
+    view.randomPick = null;
+    this.service.randomPickByListId.delete(view.list.id);
   }
 
   startRename(view: ListView): void {
@@ -145,6 +186,11 @@ export class ListsComponent implements OnInit {
     this.service.removeFromList(view.list.id, row.recipe.filename);
     view.rows = view.rows.filter((it) => it !== row);
 
+    if (view.randomPick === row.recipe) {
+      this.closeRandomPick(view);
+    }
+
+    this.refreshRandomRemaining(view);
     this.refreshIngredients(view);
   }
 
@@ -334,6 +380,7 @@ export class ListsComponent implements OnInit {
     );
 
     const rows = resolved.filter((it): it is ListRecipeRow => !!it);
+    const randomPickFilename = this.service.randomPickByListId.get(list.id);
 
     return {
       list,
@@ -345,6 +392,13 @@ export class ListsComponent implements OnInit {
       justShared: false,
       nameControl: new FormControl(list.name),
       rows,
+      randomPick:
+        rows.find((row) => row.recipe.filename === randomPickFilename)
+          ?.recipe ?? null,
+      randomRemaining: remainingRandomPicks(
+        rows.map((row) => row.recipe.filename),
+        this.service.readRandomPicks(list.id),
+      ),
       ingredients: this.buildIngredients(rows),
       checkedIngredients: new Set(this.service.readCheckedIngredients(list.id)),
       customIngredients: list.customIngredients ?? [],
@@ -355,6 +409,13 @@ export class ListsComponent implements OnInit {
       editCustomAmountControl: new FormControl(''),
       editCustomNameControl: new FormControl(''),
     };
+  }
+
+  private refreshRandomRemaining(view: ListView): void {
+    view.randomRemaining = remainingRandomPicks(
+      view.rows.map((row) => row.recipe.filename),
+      this.service.readRandomPicks(view.list.id),
+    );
   }
 
   private refreshIngredients(view: ListView): void {

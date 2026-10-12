@@ -36,6 +36,14 @@
           </button>
           <button
             mat-icon-button
+            (click)="pickRandom(view)"
+            [disabled]="view.rows.length === 0"
+            aria-label="Pick random recipe"
+          >
+            <mat-icon>shuffle</mat-icon>
+          </button>
+          <button
+            mat-icon-button
             (click)="startRename(view)"
             aria-label="Rename list"
           >
@@ -86,6 +94,43 @@
 
       @if (view.expanded) {
         <div class="list-body">
+          @if (view.randomPick) {
+            <div class="random-pick-card">
+              <div class="random-pick-info">
+                <mat-icon class="random-pick-icon">casino</mat-icon>
+                <div class="random-pick-text">
+                  <span class="recipe-name">{{ view.randomPick.name }}</span>
+                  <span class="recipe-author"
+                    >{{ view.randomPick.author }} &middot;
+                    {{ view.randomRemaining }} of {{ view.rows.length }}
+                    left</span
+                  >
+                </div>
+                <button
+                  mat-icon-button
+                  (click)="closeRandomPick(view)"
+                  aria-label="Close random pick"
+                >
+                  <mat-icon>close</mat-icon>
+                </button>
+              </div>
+              <div class="random-pick-actions">
+                <button
+                  mat-stroked-button
+                  (click)="openRecipe(view, view.randomPick)"
+                >
+                  Open
+                </button>
+                <button mat-flat-button (click)="pickRandom(view)">
+                  Next
+                </button>
+                <button mat-button (click)="resetRandomPicks(view)">
+                  Reset
+                </button>
+              </div>
+            </div>
+          }
+
           @if (view.rows.length === 0) {
             <p class="empty-list">No recipes in this list yet.</p>
           }
