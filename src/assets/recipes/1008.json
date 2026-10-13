@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 4,
-      "name": "doz. pecan halves"
+      "unit": "doz",
+      "name": "pecan halves"
     },
     {
       "amount": 2,
-      "name": "doz. caramel candies"
+      "unit": "doz",
+      "name": "caramel candies"
     },
     {
       "amount": 1,

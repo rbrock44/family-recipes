@@ -53,7 +53,8 @@
       },
       {
          "amount": 3,
-         "name": "doz. saltine crackers"
+         "unit": "doz",
+         "name": "saltine crackers"
       },
       {
          "amount": 2,

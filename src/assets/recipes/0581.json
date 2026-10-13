@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "doz. sugar cookies (home made or store bought)"
+         "unit": "doz",
+         "name": "sugar cookies (home made or store bought)"
       },
       {
          "amount": 1,

@@ -9,6 +9,10 @@ describe('ingredient units', () => {
       expect(canonicalUnit('tbl')).toBe('tbsp');
       expect(canonicalUnit('lbs.')).toBe('lb');
       expect(canonicalUnit('sq.')).toBe('square');
+      expect(canonicalUnit('Tblsp.')).toBe('tbsp');
+      expect(canonicalUnit('qts.')).toBe('qt');
+      expect(canonicalUnit('doz.')).toBe('doz');
+      expect(canonicalUnit('dozen')).toBe('doz');
     });
 
     it('tells teaspoons from tablespoons by case', () => {

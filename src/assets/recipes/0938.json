@@ -39,7 +39,8 @@
     },
     {
       "amount": 1,
-      "name": "Tblsp. orange rind"
+      "unit": "tbsp",
+      "name": "orange rind"
     },
     {
       "amount": 0.5,

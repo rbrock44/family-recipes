@@ -31,6 +31,8 @@ const UNIT_ALIASES: Record<string, string> = {
   'tbs.': 'tbsp',
   tbl: 'tbsp',
   'tbl.': 'tbsp',
+  tblsp: 'tbsp',
+  'tblsp.': 'tbsp',
   tablespoon: 'tbsp',
   tablespoons: 'tbsp',
   lb: 'lb',
@@ -55,6 +57,8 @@ const UNIT_ALIASES: Record<string, string> = {
   sticks: 'stick',
   qt: 'qt',
   'qt.': 'qt',
+  qts: 'qt',
+  'qts.': 'qt',
   quart: 'qt',
   quarts: 'qt',
   gal: 'gal',
@@ -81,6 +85,9 @@ const UNIT_ALIASES: Record<string, string> = {
   'sq.': 'square',
   square: 'square',
   squares: 'square',
+  doz: 'doz',
+  'doz.': 'doz',
+  dozen: 'doz',
 };
 
 // How each canonical unit reads next to an amount: [one, more than one].
@@ -103,6 +110,7 @@ const UNIT_LABELS: Record<string, [string, string]> = {
   pinch: ['pinch', 'pinches'],
   dash: ['dash', 'dashes'],
   square: ['square', 'squares'],
+  doz: ['doz', 'doz'],
 };
 
 /** Resolves a written unit ("c.", "Tbsp.", "pounds") to its canonical form, or "" if it isn't one. */

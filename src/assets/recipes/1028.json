@@ -43,7 +43,8 @@
     },
     {
       "amount": 4,
-      "name": "qts gingerale"
+      "unit": "qt",
+      "name": "gingerale"
     }
   ],
   "instructions": "Mix well, put in 1 gal milk containers, leaving enough room for 1/2 bottle gingerale. Add gingerale just before serving.",

@@ -15,7 +15,8 @@
     },
     {
       "amount": 3,
-      "name": "qts. boiling water"
+      "unit": "qt",
+      "name": "boiling water"
     },
     {
       "amount": 0.5,
