@@ -42,6 +42,25 @@ export const HOOPER_FAMILY: string[] = [
   'Zachary Estes',
 ];
 
+// Brands, magazines and restaurants a recipe came from, keyed lowercase. Not people, so
+// Browse by Author leaves them out.
+export const AUTHOR_SOURCES: string[] = [
+  '12 tomatoes',
+  'blue bonnet',
+  'dole',
+  'general mills',
+  'great value',
+  'happy times',
+  'heygrillhey',
+  'kraft',
+  'mature living',
+  'pasta house',
+  'pf chang',
+  'robin hood pre-sifted flour',
+  'savory sweet life',
+  "woman's world",
+];
+
 // Other spellings of one person, keyed lowercase, so Browse by Author shows them once.
 export const AUTHOR_ALIASES: Record<string, string> = {
   'ryan hooper brock': 'Ryan Brock',

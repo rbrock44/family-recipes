@@ -1,4 +1,4 @@
-import { AUTHOR_ALIASES, HOOPER_FAMILY } from '../constants/constants';
+import { AUTHOR_ALIASES, AUTHOR_SOURCES, HOOPER_FAMILY } from '../constants/constants';
 import { Recipe } from '../models/recipe.interface';
 
 export interface AuthorEntry {
@@ -15,6 +15,7 @@ export function authorKey(person: string): string {
 
 const ALIAS_KEYS = new Map(Object.entries(AUTHOR_ALIASES).map(([alias, name]) => [authorKey(alias), name]));
 const FAMILY_KEYS = new Set(HOOPER_FAMILY.map((name) => authorKey(canonical(name))));
+const SOURCE_KEYS = new Set(AUTHOR_SOURCES.map(authorKey));
 const WEBSITE = /\.(com|net|org)\b/i;
 const peopleCache = new Map<string, string[]>();
 
@@ -22,10 +23,15 @@ function canonical(person: string): string {
   return ALIAS_KEYS.get(authorKey(person)) ?? person;
 }
 
+/** A website, brand, magazine or restaurant rather than a person. */
+function isSource(name: string): boolean {
+  return WEBSITE.test(name) || SOURCE_KEYS.has(authorKey(name));
+}
+
 /**
  * The people a recipe credits, one name each: "Mrs. Coats - Anne Brock" is Mrs. Coats and
  * Anne Brock, "Helen Menz and Donna Menz" is both Menzes, and "In Memory of" is dropped.
- * Websites only count when nobody else is named.
+ * Websites and brands only count when nobody else is named.
  */
 export function authorPeople(credit: string): string[] {
   const cached = peopleCache.get(credit);
@@ -59,9 +65,7 @@ export function authorPeople(credit: string): string[] {
         part !== '' && !/^grandmother of /i.test(part) && !/^[A-Z]{2}$/.test(part) && !/^([a-z]+ )?\d{4}$/i.test(part),
     );
 
-  const people = parts.some((part) => !WEBSITE.test(part))
-    ? parts.filter((part) => !WEBSITE.test(part))
-    : parts;
+  const people = parts.some((part) => !isSource(part)) ? parts.filter((part) => !isSource(part)) : parts;
 
   const seen = new Set<string>();
   const result = people.map(canonical).filter((person) => {
@@ -86,7 +90,8 @@ export function indexAuthors(recipes: Recipe[]): AuthorEntry[] {
   const spellings = new Map<string, Map<string, number>>();
 
   recipes.forEach((recipe) => {
-    authorPeople(recipe.author).forEach((person) => {
+    // A credit naming only a brand or website still searches from its byline, but gets no chip.
+    authorPeople(recipe.author).filter((person) => !isSource(person)).forEach((person) => {
       const key = authorKey(person);
       counts.set(key, (counts.get(key) ?? 0) + 1);
 

@@ -38,6 +38,12 @@ describe('indexAuthors', () => {
     ]);
   });
 
+  it('leaves brands and websites out', () => {
+    const result = indexAuthors(byAuthor('Kraft - Anne Brock', 'PF Chang', 'plainchicken.com'));
+
+    expect(result.map((it) => it.author)).toEqual(['Anne Brock']);
+  });
+
   it('marks Hooper family authors', () => {
     const result = indexAuthors(byAuthor('Charlotte Hooper', 'Anne Brock'));
 
@@ -66,9 +72,11 @@ describe('authorPeople', () => {
     ['Mrs. Theon L. Schlosser, Jr.', ['Mrs. Theon L. Schlosser Jr.']],
     ['Holly Nilsson - spendwithpennies.com', ['Holly Nilsson']],
     ['plainchicken.com', ['plainchicken.com']],
-    ['Mature Living, January 2014 - Anne Brock', ['Mature Living', 'Anne Brock']],
+    ['Mature Living, January 2014 - Anne Brock', ['Anne Brock']],
     ['Denise Pepin Chicago, IL', ['Denise Pepin']],
     ['Ryan Hooper Brock', ['Ryan Brock']],
+    ['Kraft - Anne Brock', ['Anne Brock']],
+    ['PF Chang', ['PF Chang']],
     ['  ', []],
   ])('splits %j', (credit, people) => {
     expect(authorPeople(credit)).toEqual(people);
