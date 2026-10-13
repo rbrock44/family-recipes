@@ -26,6 +26,7 @@ export const ABOUT_SECTIONS: Section[] = [
       { icon: 'search', text: 'Results update as you type. Every word has to match the recipe name, author, or number.' },
       { icon: 'tune', text: 'Advanced Search filters by category, or to Hooper Family Only: Grandma\'s recipes, even those under her descendants\' names.' },
       { icon: 'kitchen', text: 'Ingredients I have (in Advanced Search) finds recipes that use all of them, closest fit first. The +N on each shows how many more ingredients it needs.' },
+      { icon: 'sticky_note_2', text: 'The note icon next to a recipe name means you saved a note on it. Tick Has a note in Advanced Search to see only those.' },
       { icon: 'person', text: 'Browse by Author lists everyone with how many recipes they shared; the heart marks Hooper Family. Tap a name, or the author on any recipe, to see all of theirs.' },
       { icon: 'swap_vert', text: 'Click a column header to sort the results. Click a recipe to open it.' },
       { icon: 'link', text: 'Your search is saved in the address bar, so you can bookmark or send it.' },
