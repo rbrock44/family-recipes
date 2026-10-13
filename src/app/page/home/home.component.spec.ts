@@ -8,7 +8,7 @@ import {
   clickElement,
   expectElementPresent,
   expectElementToContainContent,
-} from '../../constants/expectations.spec';
+} from '../../constants/expectations';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { provideHttpClientTesting } from '@angular/common/http/testing';
 import {
@@ -48,7 +48,7 @@ describe('HomeComponent', () => {
   it('should have search input', () => {
     // the search panel sits behind a loading guard, so the recipes have to
     // report as loaded before it renders
-    spyOn(TestBed.inject(RecipeService), 'isFullyLoaded').and.returnValue(true);
+    vi.spyOn(TestBed.inject(RecipeService), 'isFullyLoaded').mockReturnValue(true);
     fixture.detectChanges();
 
     expectElementPresent(fixture, '[data-search-input]');
@@ -58,12 +58,12 @@ describe('HomeComponent', () => {
   });
 
   it('should open the about dialog from the info button', () => {
-    const open = spyOn(TestBed.inject(MatDialog), 'open');
+    const open = vi.spyOn(TestBed.inject(MatDialog), 'open').mockReturnValue(undefined!);
     fixture.detectChanges();
 
     clickElement(fixture, '[data-about-button]');
 
-    expect(open).toHaveBeenCalledWith(AboutDialogComponent, jasmine.any(Object));
+    expect(open).toHaveBeenCalledWith(AboutDialogComponent, expect.any(Object));
   });
 
   describe('shared favorites', () => {
@@ -73,8 +73,8 @@ describe('HomeComponent', () => {
 
     beforeEach(() => {
       service = TestBed.inject(RecipeService);
-      spyOn(service, 'isFullyLoaded').and.returnValue(true);
-      spyOn(service, 'findRecipe').and.callFake((filename: string) => recipe(filename));
+      vi.spyOn(service, 'isFullyLoaded').mockReturnValue(true);
+      vi.spyOn(service, 'findRecipe').mockImplementation((filename: string) => recipe(filename));
     });
 
     afterEach(() => {
@@ -97,7 +97,7 @@ describe('HomeComponent', () => {
     });
 
     it('merges shared favorites and reports how many were new', async () => {
-      const merge = spyOn(service, 'mergeSharedFavorites').and.returnValue(1);
+      const merge = vi.spyOn(service, 'mergeSharedFavorites').mockReturnValue(1);
       service.sharedFavorites = { name: '', favorites: ['0001', '0002'] };
       await render();
 
@@ -120,13 +120,13 @@ describe('HomeComponent', () => {
     });
 
     it('copies a share link with the name and favorites', async () => {
-      spyOn(window, 'prompt').and.returnValue(' Ryan ');
-      const write = spyOn(navigator.clipboard, 'writeText').and.resolveTo();
+      vi.spyOn(window, 'prompt').mockReturnValue(' Ryan ');
+      const write = vi.spyOn(navigator.clipboard, 'writeText').mockResolvedValue();
       component.favoritesDataSource.data = [recipe('0005'), recipe('0007')];
 
       component.shareFavorites();
 
-      const url = new URL(write.calls.mostRecent().args[0] as string);
+      const url = new URL(write.mock.lastCall![0] as string);
       expect(url.pathname).toBe('/');
       expect(decodeSharedFavorites(url.searchParams.get('sharedFavorites')!)).toEqual({
         name: 'Ryan',
@@ -135,8 +135,8 @@ describe('HomeComponent', () => {
     });
 
     it('does not share when the name prompt is cancelled', () => {
-      spyOn(window, 'prompt').and.returnValue(null);
-      const write = spyOn(navigator.clipboard, 'writeText');
+      vi.spyOn(window, 'prompt').mockReturnValue(null);
+      const write = vi.spyOn(navigator.clipboard, 'writeText').mockResolvedValue();
 
       component.shareFavorites();
 

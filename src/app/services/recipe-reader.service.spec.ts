@@ -32,7 +32,7 @@ describe('RecipeReaderService', () => {
   });
 
   it('should fall back when stored values are corrupt', () => {
-    spyOn(localStorage, 'getItem').and.returnValue('{not json');
+    vi.spyOn(localStorage, 'getItem').mockReturnValue('{not json');
 
     expect(reader.readFavorites()).toEqual([]);
     expect(reader.readLists()).toEqual([]);
@@ -40,8 +40,8 @@ describe('RecipeReaderService', () => {
   });
 
   it('should not throw when storage is unavailable', () => {
-    spyOn(localStorage, 'getItem').and.throwError('blocked');
-    spyOn(localStorage, 'setItem').and.throwError('blocked');
+    vi.spyOn(localStorage, 'getItem').mockImplementation(() => { throw new Error('blocked'); });
+    vi.spyOn(localStorage, 'setItem').mockImplementation(() => { throw new Error('blocked'); });
 
     expect(() => reader.addToFavorites('0001')).not.toThrow();
     expect(reader.readRecent()).toEqual([]);

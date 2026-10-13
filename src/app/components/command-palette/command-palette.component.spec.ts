@@ -4,6 +4,7 @@ import { CommandPaletteService } from '../../services/command-palette.service';
 import { RecipeService } from '../../services/recipe.service';
 import { EMPTY_RECIPE } from '../../constants/constants';
 import { Recipe } from '../../models/recipe.interface';
+import type { Mocked } from 'vitest';
 
 function recipe(filename: string, name: string, author: string, category = 6): Recipe {
   return { ...EMPTY_RECIPE, filename, name, author, category };
@@ -20,7 +21,7 @@ describe('CommandPaletteComponent', () => {
   let component: CommandPaletteComponent;
   let fixture: ComponentFixture<CommandPaletteComponent>;
   let palette: CommandPaletteService;
-  let service: jasmine.SpyObj<RecipeService>;
+  let service: Mocked<RecipeService>;
   let recent: string[];
   let favorites: string[];
 
@@ -47,28 +48,25 @@ describe('CommandPaletteComponent', () => {
   beforeEach(async () => {
     recent = [];
     favorites = [];
-    service = jasmine.createSpyObj<RecipeService>(
-      'RecipeService',
-      [
-        'isFullyLoaded',
-        'allRecipes',
-        'readRecent',
-        'readFavorites',
-        'selectRecipe',
-        'addToRecent',
-        'pushView',
-        'buildRecipeUrl',
-        'listsUrl',
-        'setEmptyRecipe',
-      ],
-      { selectedRecipe: { ...EMPTY_RECIPE } },
-    );
-    service.isFullyLoaded.and.returnValue(true);
-    service.allRecipes.and.returnValue(RECIPES);
-    service.readRecent.and.callFake(() => recent);
-    service.readFavorites.and.callFake(() => favorites);
-    service.buildRecipeUrl.and.callFake(filename => (filename ? `/${filename}` : '/'));
-    service.listsUrl.and.returnValue('/lists');
+    service = {
+      isFullyLoaded: vi.fn(),
+      allRecipes: vi.fn(),
+      readRecent: vi.fn(),
+      readFavorites: vi.fn(),
+      selectRecipe: vi.fn(),
+      addToRecent: vi.fn(),
+      pushView: vi.fn(),
+      buildRecipeUrl: vi.fn(),
+      listsUrl: vi.fn(),
+      setEmptyRecipe: vi.fn(),
+      selectedRecipe: { ...EMPTY_RECIPE },
+    } as unknown as Mocked<RecipeService>;
+    service.isFullyLoaded.mockReturnValue(true);
+    service.allRecipes.mockReturnValue(RECIPES);
+    service.readRecent.mockImplementation(() => recent);
+    service.readFavorites.mockImplementation(() => favorites);
+    service.buildRecipeUrl.mockImplementation(filename => (filename ? `/${filename}` : '/'));
+    service.listsUrl.mockReturnValue('/lists');
 
     await TestBed.configureTestingModule({
       imports: [CommandPaletteComponent],
@@ -223,7 +221,7 @@ describe('CommandPaletteComponent', () => {
   });
 
   it('should open the highlighted recipe on Enter and close', () => {
-    spyOn(window, 'scrollTo');
+    vi.spyOn(window, 'scrollTo').mockImplementation(() => {});
     open();
     component.onQuery('sugar');
     fixture.detectChanges();

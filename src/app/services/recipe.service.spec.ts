@@ -8,14 +8,14 @@ import {
   withInterceptorsFromDi,
   withXhr,
 } from '@angular/common/http';
-import Spy = jasmine.Spy;
+import type { MockInstance } from 'vitest';
 import { Location } from '@angular/common';
 import { provideLocationMocks } from '@angular/common/testing';
 
 describe('RecipeService', () => {
   let service: RecipeService;
   let reader: RecipeReaderService;
-  let spy: Spy;
+  let spy: MockInstance;
 
   const sampleRecipe = new RecipeModel({
     name: 'Example',
@@ -41,7 +41,7 @@ describe('RecipeService', () => {
     });
 
     reader = TestBed.inject(RecipeReaderService);
-    spy = spyOn(reader, 'readRecipes').and.returnValue([sampleRecipe]);
+    spy = vi.spyOn(reader, 'readRecipes').mockReturnValue([sampleRecipe]);
     service = TestBed.inject(RecipeService);
   });
 
@@ -54,15 +54,15 @@ describe('RecipeService', () => {
   });
 
   it('should merge only new shared favorites', () => {
-    spyOn(reader, 'readFavorites').and.returnValue(['0001']);
-    const add = spyOn(reader, 'addToFavorites');
+    vi.spyOn(reader, 'readFavorites').mockReturnValue(['0001']);
+    const add = vi.spyOn(reader, 'addToFavorites').mockImplementation(() => {});
     service.favorites = new Set(['0001']);
 
     const added = service.mergeSharedFavorites(['0001', '0002', '0003']);
 
     expect(added).toBe(2);
-    expect(add.calls.allArgs()).toEqual([['0002'], ['0003']]);
-    expect(service.isFavorite('0003')).toBeTrue();
+    expect(add.mock.calls).toEqual([['0002'], ['0003']]);
+    expect(service.isFavorite('0003')).toBe(true);
   });
 
   describe('history', () => {
@@ -70,7 +70,7 @@ describe('RecipeService', () => {
 
     beforeEach(() => {
       location = TestBed.inject(Location);
-      spyOn(service, 'readRecipe');
+      vi.spyOn(service, 'readRecipe').mockImplementation(() => {});
     });
 
     it('should reopen the recipe, then the lists, as the browser goes back', () => {
@@ -130,7 +130,7 @@ describe('RecipeService', () => {
 
     beforeEach(() => {
       location = TestBed.inject(Location);
-      spyOn(reader, 'firstValueFrom').and.returnValue(
+      vi.spyOn(reader, 'firstValueFrom').mockReturnValue(
         Promise.resolve(JSON.stringify({ ...sampleRecipe, name: 'Puppy Chow' })),
       );
     });

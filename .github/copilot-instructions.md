@@ -8,7 +8,7 @@ served from GitHub Pages at `family-recipes.ryan-brock.com`. No backend of its o
 
 - Install: `npm ci` (Node version in `.nvmrc`)
 - Dev server: `npm start` — `prestart` runs `recipes:combine` first
-- Test all: `npm test` (Karma + Jasmine), or `npx ng test --watch=false --browsers=ChromeHeadless` as CI runs it
+- Test all: `npm test` (Vitest in jsdom via `@angular/build:unit-test`), or `npx ng test --watch=false` as CI runs it
 - Combine recipes: `npm run recipes:combine` — rerun after adding or editing a file in `src/assets/recipes/`
 - Build: `npm run deploy` — `ng build` (prerenders every recipe) then `scripts/finish-static-build.mjs`, which
   writes `sitemap.xml` and copies `index.csr.html` to `404.html`. Output in `dist/family-recipes/`
@@ -56,5 +56,8 @@ served from GitHub Pages at `family-recipes.ryan-brock.com`. No backend of its o
   `command-palette`
 - Constants are `UPPER_SNAKE` exports in `constants/constants.ts`
 - Pure logic goes in `models/` or `utils/` with a spec beside it; that is where most unit tests are
-- Specs sit next to their source as `*.spec.ts`; DOM assertion helpers are in `constants/expectations.spec.ts`
+- Specs sit next to their source as `*.spec.ts`; DOM assertion helpers are in `constants/expectations.ts`
 - Never edit `src/assets/recipes.json` by hand — edit the numbered files and recombine
+- Tests run in jsdom, not a browser. `src/test-setup.ts` stubs `matchMedia`, `clipboard` and `ResizeObserver` and
+  restores spies after each test; `src/test-providers.ts` gives every spec a testing HTTP backend. `vi.spyOn`
+  calls through unless you add `.mockImplementation`

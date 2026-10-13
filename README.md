@@ -158,7 +158,7 @@ Useful flags: `--dry-run` (parse and print, write nothing), `--effort` (`low`…
 ## 🛠 Technologies
 
 - Framework: `Angular 22`
-- Testing: `Karma`
+- Testing: `Vitest`
 - Deployment: `GitHub Pages`
 
 ---

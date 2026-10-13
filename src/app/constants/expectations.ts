@@ -9,7 +9,7 @@ export function expectElementToContainContent(
   expectElementPresent(fixture, cssSelector);
   const element = fixture.debugElement.query(By.css(cssSelector));
   const value = element.nativeElement.textContent;
-  expect(value.indexOf(content) >= 0).toBeTruthy(`${cssSelector} did not contain ${content}`);
+  expect(value.indexOf(content) >= 0, `${cssSelector} did not contain ${content}`).toBeTruthy();
 }
 
 export function expectElementToContainContentAtIndex(
@@ -21,7 +21,7 @@ export function expectElementToContainContentAtIndex(
   expectElementPresent(fixture, cssSelector, `Element (${cssSelector}) cannot contain content if not present`);
   const element = fixture.debugElement.queryAll(By.css(cssSelector));
   const value = element[index].nativeElement.textContent;
-  expect(value.indexOf(content) >= 0).toBeTruthy(`${cssSelector} did not contain ${content} at ${index}`);
+  expect(value.indexOf(content) >= 0, `${cssSelector} did not contain ${content} at ${index}`).toBeTruthy();
 }
 
 export function expectElementPresent(
@@ -30,7 +30,7 @@ export function expectElementPresent(
   failMessage: string = `Element by this selector: ${cssSelector} does not exist`
 ) {
   const element = fixture.debugElement.query(By.css(cssSelector));
-  expect(element).toBeTruthy(failMessage);
+  expect(element, failMessage).toBeTruthy();
 }
 
 export function expectElementDisabled(
@@ -39,7 +39,7 @@ export function expectElementDisabled(
   failMessage: string = `Element by this selector: ${cssSelector} does not disabled`
 ) {
   const element = fixture.debugElement.query(By.css(cssSelector));
-  expect(element.properties['disabled']).toBeTruthy(failMessage);
+  expect(element.properties['disabled'], failMessage).toBeTruthy();
 }
 
 export function expectElementPresentAtIndex(
@@ -49,7 +49,7 @@ export function expectElementPresentAtIndex(
   failMessage: string = `Element by this selector: ${cssSelector} does not exist`
 ) {
   const element = fixture.debugElement.queryAll(By.css(cssSelector));
-  expect(element[index]).toBeTruthy(failMessage);
+  expect(element[index], failMessage).toBeTruthy();
 }
 
 export function expectElementAbsent(
@@ -58,7 +58,7 @@ export function expectElementAbsent(
   failMessage: string = `Element by this selector: ${cssSelector} does exist`
 ) {
   const element = fixture.debugElement.query(By.css(cssSelector));
-  expect(element).toBeFalsy(failMessage);
+  expect(element, failMessage).toBeFalsy();
 }
 
 export function clickElement(

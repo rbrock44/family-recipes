@@ -51,8 +51,8 @@ describe('ListsComponent', () => {
     };
 
     service = TestBed.inject(RecipeService);
-    spyOn(service, 'readLists').and.callFake(() => [list]);
-    spyOn(service, 'findRecipe').and.callFake((filename: string) =>
+    vi.spyOn(service, 'readLists').mockImplementation(() => [list]);
+    vi.spyOn(service, 'findRecipe').mockImplementation((filename: string) =>
       recipes.find((it) => it.filename === filename),
     );
 
@@ -62,7 +62,8 @@ describe('ListsComponent', () => {
 
   async function load(): Promise<void> {
     component.ngOnInit();
-    await fixture.whenStable();
+    // ngOnInit runs outside the zone, so whenStable alone would not wait for the views.
+    await new Promise(resolve => setTimeout(resolve));
   }
 
   it('should create', () => {
@@ -70,17 +71,17 @@ describe('ListsComponent', () => {
   });
 
   it('stops loading with no lists', () => {
-    (service.readLists as jasmine.Spy).and.returnValue([]);
+    vi.mocked(service.readLists).mockReturnValue([]);
     component.ngOnInit();
 
-    expect(component.loading).toBeFalse();
+    expect(component.loading).toBe(false);
     expect(component.views).toEqual([]);
   });
 
   it('builds a view per list with combined ingredients', async () => {
     await load();
 
-    expect(component.loading).toBeFalse();
+    expect(component.loading).toBe(false);
     expect(component.views.length).toBe(1);
     expect(component.views[0].rows.length).toBe(2);
     expect(component.views[0].ingredients.length).toBe(1);
@@ -88,7 +89,7 @@ describe('ListsComponent', () => {
   });
 
   it('updates batches and recombines ingredients', async () => {
-    const setBatches = spyOn(service, 'setListRecipeBatches');
+    const setBatches = vi.spyOn(service, 'setListRecipeBatches').mockImplementation(() => {});
     await load();
     const view = component.views[0];
 
@@ -99,7 +100,7 @@ describe('ListsComponent', () => {
   });
 
   it('clamps batches to at least 1', async () => {
-    spyOn(service, 'setListRecipeBatches');
+    vi.spyOn(service, 'setListRecipeBatches').mockImplementation(() => {});
     await load();
     const view = component.views[0];
 
@@ -109,7 +110,7 @@ describe('ListsComponent', () => {
   });
 
   it('removes a recipe from the list', async () => {
-    const remove = spyOn(service, 'removeFromList');
+    const remove = vi.spyOn(service, 'removeFromList').mockImplementation(() => {});
     await load();
     const view = component.views[0];
 
@@ -121,7 +122,7 @@ describe('ListsComponent', () => {
   });
 
   it('renames with a trimmed name and ignores blanks', async () => {
-    const rename = spyOn(service, 'renameList');
+    const rename = vi.spyOn(service, 'renameList').mockImplementation(() => {});
     await load();
     const view = component.views[0];
 
@@ -129,18 +130,18 @@ describe('ListsComponent', () => {
     view.nameControl.setValue('   ');
     component.confirmRename(view);
     expect(rename).not.toHaveBeenCalled();
-    expect(view.renaming).toBeTrue();
+    expect(view.renaming).toBe(true);
 
     view.nameControl.setValue('  Holiday  ');
     component.confirmRename(view);
     expect(rename).toHaveBeenCalledWith('list-1', 'Holiday');
     expect(view.list.name).toBe('Holiday');
-    expect(view.renaming).toBeFalse();
+    expect(view.renaming).toBe(false);
   });
 
   it('deletes only when confirmed', async () => {
-    const remove = spyOn(service, 'deleteList');
-    const confirm = spyOn(window, 'confirm').and.returnValue(false);
+    const remove = vi.spyOn(service, 'deleteList').mockImplementation(() => {});
+    const confirm = vi.spyOn(window, 'confirm').mockReturnValue(false);
     await load();
     const view = component.views[0];
 
@@ -148,14 +149,14 @@ describe('ListsComponent', () => {
     expect(remove).not.toHaveBeenCalled();
     expect(component.views.length).toBe(1);
 
-    confirm.and.returnValue(true);
+    confirm.mockReturnValue(true);
     component.deleteList(view);
     expect(remove).toHaveBeenCalledWith('list-1');
     expect(component.views.length).toBe(0);
   });
 
   it('toggles ingredient checks and persists them', async () => {
-    const setChecked = spyOn(service, 'setCheckedIngredients');
+    const setChecked = vi.spyOn(service, 'setCheckedIngredients').mockImplementation(() => {});
     await load();
     const view = component.views[0];
     const ingredient = view.ingredients[0];
@@ -168,7 +169,7 @@ describe('ListsComponent', () => {
   });
 
   it('adds a custom ingredient only with a name', async () => {
-    const add = spyOn(service, 'addCustomIngredient');
+    const add = vi.spyOn(service, 'addCustomIngredient').mockImplementation(() => {});
     await load();
     const view = component.views[0];
 
@@ -184,17 +185,17 @@ describe('ListsComponent', () => {
     expect(view.customIngredients.length).toBe(1);
     expect(view.customIngredients[0].name).toBe('paper towels');
     expect(view.customIngredients[0].amount).toBe('2');
-    expect(view.addingCustomIngredient).toBeFalse();
+    expect(view.addingCustomIngredient).toBe(false);
   });
 
   it('copies a share link pointing at home', async () => {
-    const write = spyOn(navigator.clipboard, 'writeText').and.resolveTo();
+    const write = vi.spyOn(navigator.clipboard, 'writeText').mockResolvedValue();
     await load();
     const view = component.views[0];
 
     component.shareList(view);
 
-    const url = new URL(write.calls.mostRecent().args[0] as string);
+    const url = new URL(write.mock.lastCall![0] as string);
     expect(url.pathname).toBe('/');
     expect(url.searchParams.get('sharedList')).toBeTruthy();
   });
