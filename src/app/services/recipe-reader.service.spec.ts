@@ -47,6 +47,20 @@ describe('RecipeReaderService', () => {
     expect(reader.readRecent()).toEqual([]);
   });
 
+  it('should save notes per recipe and drop blank ones', () => {
+    localStorage.removeItem(reader.NOTES_NAME);
+    reader.setNote('0001', 'Less salt');
+    reader.setNote('0002', 'Bake longer');
+
+    expect(reader.readNote('0001')).toBe('Less salt');
+    expect(reader.readNote('0003')).toBe('');
+
+    reader.setNote('0001', '   ');
+    expect(reader.readNote('0001')).toBe('');
+    expect(Object.keys(JSON.parse(localStorage.getItem(reader.NOTES_NAME)!))).toEqual(['0002']);
+    localStorage.removeItem(reader.NOTES_NAME);
+  });
+
   it('should save, read and clear cook progress per recipe', () => {
     localStorage.removeItem(reader.COOK_PROGRESS_NAME);
     reader.setCookProgress('0001', { ingredients: [1], steps: [0], current: 1 });

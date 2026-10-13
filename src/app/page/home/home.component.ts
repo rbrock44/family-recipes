@@ -8,6 +8,7 @@ import {
   encodeSharedFavorites,
 } from 'src/app/models/favorites-share';
 import { decodeSharedList } from 'src/app/models/list-share';
+import { decodeSharedNote } from 'src/app/models/note-share';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
 import { Location } from '@angular/common';
@@ -112,6 +113,7 @@ export class HomeComponent implements OnInit {
     // });
     this.importSharedList();
     this.importSharedFavorites();
+    this.importSharedNote();
     this.restoreListsLink();
 
     this.searchControl.valueChanges
@@ -201,6 +203,26 @@ export class HomeComponent implements OnInit {
     queryParams.delete('sharedFavorites');
     const query = queryParams.toString();
     this.location.replaceState(query ? `/?${query}` : '/');
+  }
+
+  // A shared note rides on the recipe's own link; the recipe page offers to add it.
+  private importSharedNote(): void {
+    const queryParams = new URLSearchParams(window.location.search);
+    const shared = queryParams.get('sharedNote');
+
+    if (!shared) {
+      return;
+    }
+
+    try {
+      this.service.sharedNote = decodeSharedNote(shared);
+    } catch {
+      // Malformed/tampered link - ignore rather than crash the app.
+    }
+
+    queryParams.delete('sharedNote');
+    const query = queryParams.toString();
+    this.location.replaceState(window.location.pathname + (query ? `?${query}` : ''));
   }
 
   /** A `/lists` deep link opens the lists view, with a home entry under it like a recipe link. */

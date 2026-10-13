@@ -6,6 +6,7 @@ import { RecipeReaderService } from 'src/app/services/recipe-reader.service';
 import { RecipeComponent } from './recipe.component';
 import { RecipeService } from 'src/app/services/recipe.service';
 import { RecipeModel } from 'src/app/models/recipe.model';
+import { decodeSharedNote } from 'src/app/models/note-share';
 import {
   provideHttpClient,
   withInterceptorsFromDi,
@@ -101,5 +102,80 @@ describe('RecipeComponent', () => {
     expect(recipeService.searchAuthor).toBe('Anne Brock');
     expect(recipeService.selectedRecipe.filename).toBe('');
     expect(push).toHaveBeenCalledWith('/?author=Anne+Brock');
+  });
+
+  describe('notes', () => {
+    let recipeService: RecipeService;
+
+    const show = (filename: string) => {
+      fixture.componentRef.setInput('recipe', { ...new RecipeModel(), filename, name: 'Pie' });
+      fixture.detectChanges();
+    };
+
+    beforeEach(() => {
+      recipeService = TestBed.inject(RecipeService);
+    });
+
+    afterEach(() => {
+      recipeService.sharedNote = null;
+    });
+
+    it('loads the note for the recipe shown and saves edits to it', () => {
+      vi.spyOn(recipeService, 'readNote').mockImplementation((filename) => (filename === '0001' ? 'Less salt' : ''));
+      const save = vi.spyOn(recipeService, 'setNote').mockImplementation(() => {});
+
+      show('0001');
+      const input = fixture.nativeElement.querySelector('[data-note-input]') as HTMLTextAreaElement;
+      expect(input.value).toBe('Less salt');
+
+      input.value = 'Less salt, more butter';
+      input.dispatchEvent(new Event('input'));
+      expect(save).toHaveBeenLastCalledWith('0001', 'Less salt, more butter');
+
+      show('0002');
+      expect(input.value).toBe('');
+      expect(save).toHaveBeenCalledTimes(1);
+    });
+
+    it('only offers sharing once there is a note, and copies a recipe link carrying it', async () => {
+      vi.spyOn(recipeService, 'readNote').mockReturnValue('');
+      vi.spyOn(recipeService, 'setNote').mockImplementation(() => {});
+      vi.spyOn(window, 'prompt').mockReturnValue(' Ryan ');
+      const copy = vi.spyOn(navigator.clipboard, 'writeText').mockResolvedValue();
+
+      show('0001');
+      expect(fixture.nativeElement.querySelector('[data-share-note]')).toBeNull();
+
+      fixture.componentInstance.noteControl.setValue('Less salt');
+      fixture.detectChanges();
+      fixture.nativeElement.querySelector('[data-share-note]').click();
+
+      const url = new URL(copy.mock.calls[0][0]);
+      expect(url.pathname).toBe('/0001/pie');
+      expect(decodeSharedNote(url.searchParams.get('sharedNote')!)).toEqual({
+        name: 'Ryan',
+        filename: '0001',
+        note: 'Less salt',
+      });
+    });
+
+    it('shows a shared note on its own recipe only, and adds it under mine', () => {
+      vi.spyOn(recipeService, 'readNote').mockReturnValue('Mine');
+      const save = vi.spyOn(recipeService, 'setNote').mockImplementation(() => {});
+      recipeService.sharedNote = { name: 'Grandma', filename: '0001', note: 'Less salt' };
+
+      show('0002');
+      expect(fixture.nativeElement.querySelector('[data-shared-note]')).toBeNull();
+
+      show('0001');
+      expect(fixture.nativeElement.querySelector('[data-shared-note]').textContent).toContain('Note from Grandma');
+
+      fixture.nativeElement.querySelector('[data-add-shared-note]').click();
+      fixture.detectChanges();
+
+      expect(save).toHaveBeenLastCalledWith('0001', 'Mine\n\nFrom Grandma: Less salt');
+      expect(recipeService.sharedNote).toBeNull();
+      expect(fixture.nativeElement.querySelector('[data-shared-note]')).toBeNull();
+    });
   });
 });

@@ -18,6 +18,7 @@ import {
 } from '@angular/common/http';
 import { EMPTY_RECIPE } from '../../constants/constants';
 import { decodeSharedFavorites } from '../../models/favorites-share';
+import { encodeSharedNote } from '../../models/note-share';
 import { Recipe } from '../../models/recipe.interface';
 import { Location } from '@angular/common';
 
@@ -138,6 +139,31 @@ describe('HomeComponent', () => {
       fixture.detectChanges();
       expect(service.searchAuthor).toBe('');
       expect(search).toHaveBeenLastCalledWith('', 0, false, [], '');
+    });
+  });
+
+  describe('shared note link', () => {
+    afterEach(() => {
+      window.history.replaceState(null, '', '/');
+      TestBed.inject(RecipeService).sharedNote = null;
+    });
+
+    it('holds the note for its recipe and drops the param, keeping the recipe path', () => {
+      const encoded = encodeSharedNote({ name: 'Grandma', filename: '0042', note: 'Less salt' });
+      window.history.replaceState(null, '', `/0042/pie?sharedNote=${encodeURIComponent(encoded)}`);
+
+      fixture.detectChanges();
+
+      expect(TestBed.inject(RecipeService).sharedNote).toEqual({ name: 'Grandma', filename: '0042', note: 'Less salt' });
+      expect(TestBed.inject(Location).path()).toBe('/0042/pie');
+    });
+
+    it('ignores a malformed note link', () => {
+      window.history.replaceState(null, '', '/?sharedNote=garbage');
+
+      fixture.detectChanges();
+
+      expect(TestBed.inject(RecipeService).sharedNote).toBeNull();
     });
   });
 

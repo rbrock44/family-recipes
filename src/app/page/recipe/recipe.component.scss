@@ -70,8 +70,38 @@
 }
 
 .ingredients-card,
-.instructions-card {
+.instructions-card,
+.notes-card,
+.shared-note-card {
     padding: 1.25rem;
+}
+
+.notes-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    min-height: 40px;
+    margin-bottom: 0.5rem;
+}
+
+.notes-title-row h3 {
+    margin: 0;
+    font-size: 1.35rem;
+}
+
+.notes-field {
+    width: 100%;
+}
+
+.shared-note-card {
+    background: var(--surface-gradient-mid);
+}
+
+.shared-note-text {
+    margin: 0 0 1rem;
+    line-height: 1.6;
+    white-space: pre-line;
 }
 
 .ingredients-card h3,
@@ -291,6 +321,9 @@
 
     .recipe-hero-actions,
     .batch,
+    .notes-field,
+    .notes-card.empty-notes,
+    .shared-note-card,
     .conversion-block,
     .conversion-actions,
     .image-overlay,
@@ -348,5 +381,24 @@
     .instructions {
         color: #000;
         line-height: 1.5;
+    }
+
+    .notes-card {
+        padding: 0;
+    }
+
+    .notes-title-row {
+        min-height: 0;
+        margin: 0 0 0.35rem;
+        border-bottom: 1px solid #999;
+    }
+
+    .notes-title-row h3 {
+        font-size: 13pt;
+    }
+
+    .note-print {
+        margin: 0;
+        white-space: pre-line;
     }
 }

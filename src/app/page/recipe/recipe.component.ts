@@ -1,6 +1,8 @@
 import {
   Component,
+  DestroyRef,
   ElementRef,
+  inject,
   Input,
   OnChanges,
   SimpleChanges,
@@ -20,7 +22,11 @@ import { RecipeModel } from '../../models/recipe.model';
 import { HeaderComponent } from '../../components/header/header.component';
 import { MatIconButton, MatButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
-import { MatFormField, MatLabel } from '@angular/material/form-field';
+import { MatFormField, MatHint, MatLabel } from '@angular/material/form-field';
+import { CdkTextareaAutosize } from '@angular/cdk/text-field';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { appendSharedNote, encodeSharedNote, MAX_NOTE_LENGTH, SharedNotePayload } from 'src/app/models/note-share';
+import { recipePath } from 'src/app/utils/recipe-url.util';
 import { MatInput } from '@angular/material/input';
 import { NgClass } from '@angular/common';
 import { FractionComponent } from '../../components/fraction/fraction.component';
@@ -39,7 +45,9 @@ import { CookModeComponent } from '../../components/cook-mode/cook-mode.componen
     MatIcon,
     MatFormField,
     MatLabel,
+    MatHint,
     MatInput,
+    CdkTextareaAutosize,
     ReactiveFormsModule,
     NgClass,
     FractionComponent,
@@ -62,16 +70,25 @@ export class RecipeComponent implements OnChanges {
     Validators.pattern('^[1-9][0-9]*$'),
   ]);
   decimalControl: FormControl = new FormControl(false);
+  noteControl = new FormControl('', { nonNullable: true });
+  justSharedNote = false;
 
   constructor(
     private service: RecipeService,
     private dialog: MatDialog,
-  ) {}
+  ) {
+    // Saved on every change, so a note can never land on the next recipe after a quick switch.
+    this.noteControl.valueChanges
+      .pipe(takeUntilDestroyed(inject(DestroyRef)))
+      .subscribe((note) => this.service.setNote(this.recipe.filename, note));
+  }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (!changes['recipe']) {
       return;
     }
+
+    this.noteControl.setValue(this.service.readNote(this.recipe.filename), { emitEvent: false });
 
     const listId = this.service.activeListId;
     if (!listId) {
@@ -207,6 +224,53 @@ export class RecipeComponent implements OnChanges {
     this.service.openedFromLists = false;
     this.service.activeListId = null;
     this.service.pushView(`/?${new URLSearchParams({ author })}`);
+  }
+
+  sharedNote(): SharedNotePayload | null {
+    const shared = this.service.sharedNote;
+    return shared?.filename === this.recipe.filename ? shared : null;
+  }
+
+  addSharedNote(): void {
+    const shared = this.sharedNote();
+    if (shared) {
+      this.noteControl.setValue(appendSharedNote(this.noteControl.value, shared));
+      this.service.sharedNote = null;
+    }
+  }
+
+  dismissSharedNote(): void {
+    this.service.sharedNote = null;
+  }
+
+  shareNote(): void {
+    const name = window.prompt('Add your name so they know whose note this is (optional):');
+
+    if (name === null) {
+      return;
+    }
+
+    const encoded = encodeSharedNote({
+      name: name.trim(),
+      filename: this.recipe.filename,
+      note: this.noteControl.value.trim().slice(0, MAX_NOTE_LENGTH),
+    });
+
+    const url = new URL(recipePath(this.recipe.filename, this.recipe.name), location.href);
+    url.searchParams.set('sharedNote', encoded);
+    const shareUrl = url.toString();
+
+    navigator.clipboard.writeText(shareUrl).then(
+      () => {
+        this.justSharedNote = true;
+        setTimeout(() => {
+          this.justSharedNote = false;
+        }, 2000);
+      },
+      () => {
+        window.alert(`Copy this link to share your note:\n\n${shareUrl}`);
+      },
+    );
   }
 
   isCooking(): boolean {

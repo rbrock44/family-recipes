@@ -7,6 +7,7 @@ import { Category } from '../models/category.enum';
 import { CookProgress } from '../models/cook-progress.interface';
 import { CustomIngredient } from '../models/custom-ingredient.interface';
 import { mergeFavorites, SharedFavoritesPayload } from '../models/favorites-share';
+import { SharedNotePayload } from '../models/note-share';
 import { Recipe } from '../models/recipe.interface';
 import { RecipeList } from '../models/recipe-list.interface';
 import { RecipeModel } from '../models/recipe.model';
@@ -62,6 +63,8 @@ export class RecipeService {
   favorites: Set<string>;
   // Someone else's favorites opened from a share link, held here so the card survives opening a recipe and coming back.
   sharedFavorites: SharedFavoritesPayload | null = null;
+  // Someone's note on a recipe, from a share link; shown on that recipe until added or dismissed.
+  sharedNote: SharedNotePayload | null = null;
 
   constructor(
     private reader: RecipeReaderService,
@@ -96,6 +99,14 @@ export class RecipeService {
     } else {
       this.cookMode = false;
     }
+  }
+
+  readNote(filename: string): string {
+    return this.reader.readNote(filename);
+  }
+
+  setNote(filename: string, note: string): void {
+    this.reader.setNote(filename, note);
   }
 
   readCookProgress(filename: string): CookProgress | undefined {

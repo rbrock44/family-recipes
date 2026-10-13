@@ -207,6 +207,50 @@
     <p class="instructions">{{ recipe.instructions }}</p>
   </section>
 
+  @if (sharedNote(); as shared) {
+    <section class="surface-card shared-note-card" data-shared-note>
+      <div class="notes-title-row">
+        <h3>{{ shared.name ? 'Note from ' + shared.name : 'Shared note' }}</h3>
+        <button mat-icon-button aria-label="Dismiss shared note" (click)="dismissSharedNote()">
+          <mat-icon>close</mat-icon>
+        </button>
+      </div>
+      <p class="shared-note-text">{{ shared.note }}</p>
+      <button mat-flat-button color="primary" (click)="addSharedNote()" data-add-shared-note>
+        Add to my notes
+      </button>
+    </section>
+  }
+
+  <section class="surface-card notes-card" [class.empty-notes]="!noteControl.value?.trim()">
+    <div class="notes-title-row">
+      <h3>My Notes</h3>
+      @if (noteControl.value?.trim()) {
+        <button
+          mat-icon-button
+          (click)="shareNote()"
+          [attr.aria-label]="justSharedNote ? 'Link copied' : 'Copy a link to share this note'"
+          data-share-note
+        >
+          <mat-icon>{{ justSharedNote ? 'check' : 'share' }}</mat-icon>
+        </button>
+      }
+    </div>
+    <mat-form-field appearance="outline" class="notes-field" subscriptSizing="dynamic">
+      <mat-label>Notes for next time</mat-label>
+      <textarea
+        matInput
+        cdkTextareaAutosize
+        cdkAutosizeMinRows="2"
+        [formControl]="noteControl"
+        placeholder="Use less salt, bake 5 minutes longer..."
+        data-note-input
+      ></textarea>
+      <mat-hint>Saved in this browser as you type</mat-hint>
+    </mat-form-field>
+    <p class="print-only note-print">{{ noteControl.value }}</p>
+  </section>
+
   @if (showLiquid) {
     <section class="conversion-block">
       <div class="conversion-title-row">

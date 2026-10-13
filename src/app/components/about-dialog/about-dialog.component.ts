@@ -47,6 +47,7 @@ export const ABOUT_SECTIONS: Section[] = [
       { icon: 'water_drop', text: 'Liquid and Dry open measurement conversion charts.' },
       { icon: 'print', text: 'Print gives a plain one-page copy for a recipe card or binder, scaled to your batches.' },
       { icon: 'photo', text: 'Shows the original recipe card, when there is one.' },
+      { icon: 'edit_note', text: 'My Notes keeps your own notes on a recipe, like "use less salt". Share sends a link to the recipe with your note; whoever opens it can add it to theirs.' },
       { icon: 'chevron_right', text: 'The arrows at the top step through your search results without going back.' },
     ],
   },

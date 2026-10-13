@@ -22,6 +22,7 @@ export class RecipeReaderService {
   RANDOM_PICKS_NAME = "family-recipe-list-random-picks"
   RANDOM_CURRENT_NAME = "family-recipe-list-random-current"
   COOK_PROGRESS_NAME = "family-recipe-cook-progress"
+  NOTES_NAME = "family-recipe-notes"
 
   constructor(private http: HttpClient) {
   }
@@ -286,6 +287,27 @@ export class RecipeReaderService {
 
   private readAllCookProgress(): Record<string, CookProgress> {
     return this.readStorage(this.COOK_PROGRESS_NAME, {});
+  }
+
+  readNote(filename: string): string {
+    return this.readAllNotes()[filename] ?? '';
+  }
+
+  /** A blank note is removed rather than stored. */
+  setNote(filename: string, note: string): void {
+    const all = this.readAllNotes();
+
+    if (note.trim()) {
+      all[filename] = note;
+    } else {
+      delete all[filename];
+    }
+
+    this.writeStorage(this.NOTES_NAME, all);
+  }
+
+  private readAllNotes(): Record<string, string> {
+    return this.readStorage(this.NOTES_NAME, {});
   }
 
   // Corrupt values or blocked storage (some private modes) should not break the page.
