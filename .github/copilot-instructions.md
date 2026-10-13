@@ -10,6 +10,9 @@ served from GitHub Pages at `family-recipes.ryan-brock.com`. No backend of its o
 - Dev server: `npm start` — `prestart` runs `recipes:combine` first
 - Test all: `npm test` (Vitest in jsdom via `@angular/build:unit-test`), or `npx ng test --watch=false` as CI runs it
 - Combine recipes: `npm run recipes:combine` — rerun after adding or editing a file in `src/assets/recipes/`
+- Check recipe data: `npm run recipes:check` — report of possible typos, missing yields, unknown units, duplicates
+  and numbering gaps (`--all` lists every line, `--json` for raw output). Exits 0 unless `--strict`; it is a to-do
+  list, not a CI gate. Checks live in `utils/recipe-check.util.ts` (import-free, also `require`d by the script)
 - Build: `npm run deploy` — `ng build` (prerenders every recipe) then `scripts/finish-static-build.mjs`, which
   writes `sitemap.xml` and copies `index.csr.html` to `404.html`. Output in `dist/family-recipes/`
 - Deploy: CI only, `.github/workflows/deploy.yml` on push to `master` (combine, tests, build, `peaceiris/actions-gh-pages`)

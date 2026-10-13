@@ -12,6 +12,7 @@
     "recipes:from-images": "node scripts/recipesFromImages.js",
     "recipes:combine": "node scripts/combineRecipes.js",
     "recipes:split-units": "node scripts/splitIngredientUnits.js",
+    "recipes:check": "node scripts/checkRecipes.js",
     "deploy": "ng build --configuration production && node scripts/finish-static-build.mjs"
   },
   "private": true,
