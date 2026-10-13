@@ -99,7 +99,7 @@ describe('RecipeComponent', () => {
 
     fixture.nativeElement.querySelector('[data-author-link]').click();
 
-    expect(recipeService.searchAuthor).toBe('Anne Brock');
+    expect(recipeService.searchAuthors).toEqual(['Anne Brock']);
     expect(recipeService.selectedRecipe.filename).toBe('');
     expect(push).toHaveBeenCalledWith('/?author=Anne+Brock');
   });

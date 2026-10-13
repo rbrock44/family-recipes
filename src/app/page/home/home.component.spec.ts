@@ -68,7 +68,7 @@ describe('HomeComponent', () => {
     component.haveControl.setValue('Chicken, rice,');
     component.search('');
 
-    expect(search).toHaveBeenLastCalledWith('', 0, false, ['chicken', 'rice'], '');
+    expect(search).toHaveBeenLastCalledWith('', 0, false, ['chicken', 'rice'], []);
     expect(service.searchHave).toBe('Chicken, rice,');
     expect(new URLSearchParams(TestBed.inject(Location).path().split('?')[1]).get('have')).toBe('chicken, rice');
   });
@@ -122,23 +122,44 @@ describe('HomeComponent', () => {
       expect(chips().length).toBe(1);
     });
 
-    it('filters results to the author picked, and clears back to everyone', () => {
+    it('adds each author picked, and clears back to everyone', () => {
       const search = vi.spyOn(service, 'search');
+      const urlAuthors = () =>
+        new URLSearchParams(TestBed.inject(Location).path().split('?')[1]).getAll('author');
       clickElement(fixture, '[data-authors-toggle]');
       fixture.detectChanges();
 
       chips()[0].click();
       fixture.detectChanges();
 
-      expect(search).toHaveBeenLastCalledWith('', 0, false, [], 'Anne Brock');
-      expect(service.authorsExpanded).toBe(false);
+      expect(search).toHaveBeenLastCalledWith('', 0, false, [], ['Anne Brock']);
       expectElementToContainContent(fixture, '[data-author-filter]', 'Anne Brock');
-      expect(new URLSearchParams(TestBed.inject(Location).path().split('?')[1]).get('author')).toBe('Anne Brock');
+      expect(urlAuthors()).toEqual(['Anne Brock']);
+
+      chips()[1].click();
+      fixture.detectChanges();
+
+      expect(search).toHaveBeenLastCalledWith('', 0, false, [], ['Anne Brock', 'Charlotte Hooper']);
+      expectElementToContainContent(fixture, '[data-author-filter]', 'Charlotte Hooper');
+      expect(urlAuthors()).toEqual(['Anne Brock', 'Charlotte Hooper']);
+      expect(chips().map(it => it.classList.contains('selected'))).toEqual([true, true]);
 
       clickElement(fixture, '[data-clear-author]');
       fixture.detectChanges();
-      expect(service.searchAuthor).toBe('');
-      expect(search).toHaveBeenLastCalledWith('', 0, false, [], '');
+      expect(service.searchAuthors).toEqual([]);
+      expect(search).toHaveBeenLastCalledWith('', 0, false, [], []);
+    });
+
+    it('takes an author back out when picked again', () => {
+      clickElement(fixture, '[data-authors-toggle]');
+      fixture.detectChanges();
+
+      chips()[0].click();
+      chips()[1].click();
+      chips()[0].click();
+      fixture.detectChanges();
+
+      expect(service.searchAuthors).toEqual(['Charlotte Hooper']);
     });
   });
 

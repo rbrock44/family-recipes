@@ -180,7 +180,13 @@ describe('RecipeService', () => {
     it('should seed the author', () => {
       service.restoreSearchParams('/?author=Anne%20Brock');
 
-      expect(service.searchAuthor).toBe('Anne Brock');
+      expect(service.searchAuthors).toEqual(['Anne Brock']);
+    });
+
+    it('should seed every author', () => {
+      service.restoreSearchParams('/?author=Anne%20Brock&author=Charlotte%20Hooper');
+
+      expect(service.searchAuthors).toEqual(['Anne Brock', 'Charlotte Hooper']);
     });
   });
 
@@ -195,7 +201,15 @@ describe('RecipeService', () => {
     });
 
     it('should only keep that exact author', () => {
-      expect(service.search('', 0, false, [], 'Anne Brock').map(it => it.filename)).toEqual(['0001', '0003']);
+      expect(service.search('', 0, false, [], ['Anne Brock']).map(it => it.filename)).toEqual(['0001', '0003']);
+    });
+
+    it('should keep every author picked', () => {
+      expect(service.search('', 0, false, [], ['Anne Brock', 'Anne Brockman']).map(it => it.filename)).toEqual([
+        '0001',
+        '0002',
+        '0003',
+      ]);
     });
 
     it('should start a fresh search for the author', () => {
@@ -210,7 +224,7 @@ describe('RecipeService', () => {
       expect(service.searchCategory).toBe(0);
       expect(service.searchHooperFamily).toBe(false);
       expect(service.searchHave).toBe('');
-      expect(service.searchAuthor).toBe('Anne Brock');
+      expect(service.searchAuthors).toEqual(['Anne Brock']);
       expect(service.hasSearched).toBe(true);
     });
   });

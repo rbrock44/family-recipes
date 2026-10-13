@@ -38,8 +38,8 @@ export class RecipeService {
   searchHooperFamily: boolean = false;
   // Comma-separated ingredients on hand, as typed.
   searchHave: string = '';
-  // One author's recipes only, picked from Browse by Author or a recipe's byline.
-  searchAuthor: string = '';
+  // Only these authors' recipes, picked from Browse by Author or a recipe's byline.
+  searchAuthors: string[] = [];
   authorsExpanded: boolean = false;
   // Extra ingredients each result needs when searching by what's on hand; ranks the unsorted table.
   private haveExtras: Map<string, number> | null = null;
@@ -145,7 +145,7 @@ export class RecipeService {
     this.searchCategory = Category[category] !== undefined ? category : 0;
     this.searchHooperFamily = queryParams.get('hooperFamily') === 'true';
     this.searchHave = queryParams.get('have') ?? '';
-    this.searchAuthor = queryParams.get('author') ?? '';
+    this.searchAuthors = queryParams.getAll('author').filter(Boolean);
   }
 
   /** Starts a fresh search for everything one author wrote. */
@@ -154,7 +154,7 @@ export class RecipeService {
     this.searchCategory = 0;
     this.searchHooperFamily = false;
     this.searchHave = '';
-    this.searchAuthor = author;
+    this.searchAuthors = [author];
     this.hasSearched = true;
   }
 
@@ -223,7 +223,7 @@ export class RecipeService {
     category: Category = 0,
     onlyHooperFamily: boolean = false,
     have: string[] = [],
-    author: string = '',
+    authors: string[] = [],
   ): Recipe[] {
     let list: Recipe[] = [];
 
@@ -243,8 +243,8 @@ export class RecipeService {
       list = list.filter(it => HOOPER_FAMILY.indexOf(it.author) > -1);
     }
 
-    if (author) {
-      list = list.filter(it => it.author.trim() === author);
+    if (authors.length > 0) {
+      list = list.filter(it => authors.includes(it.author.trim()));
     }
 
     if (have.length > 0) {

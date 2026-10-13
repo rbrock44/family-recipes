@@ -251,15 +251,21 @@ export class HomeComponent implements OnInit {
     this.service.authorsExpanded = !this.service.authorsExpanded;
   }
 
-  selectAuthor(author: string): void {
-    this.service.searchAuthor = author;
-    // Fold the card away so the results sit right under the search.
-    this.service.authorsExpanded = false;
+  isAuthorSelected(author: string): boolean {
+    return this.service.searchAuthors.includes(author);
+  }
+
+  /** Adds the author to the filter, or takes them back out if already in it. */
+  toggleAuthor(author: string): void {
+    const authors = this.service.searchAuthors;
+    this.service.searchAuthors = authors.includes(author)
+      ? authors.filter((it) => it !== author)
+      : [...authors, author];
     this.search();
   }
 
-  clearAuthor(): void {
-    this.service.searchAuthor = '';
+  clearAuthors(): void {
+    this.service.searchAuthors = [];
     this.search();
   }
 
@@ -304,7 +310,7 @@ export class HomeComponent implements OnInit {
       this.categoryControl.value,
       this.familyControl.value,
       parseHaveList(this.haveControl.value),
-      this.service.searchAuthor,
+      this.service.searchAuthors,
     );
 
     this.location.replaceState(
@@ -313,7 +319,7 @@ export class HomeComponent implements OnInit {
         this.categoryControl.value,
         this.familyControl.value,
         this.haveControl.value,
-        this.service.searchAuthor,
+        this.service.searchAuthors,
       ),
     );
   }
@@ -448,7 +454,7 @@ export class HomeComponent implements OnInit {
     category: number,
     hooperFamily: boolean,
     have: string = '',
-    author: string = '',
+    authors: string[] = [],
   ): string {
     const queryParams = new URLSearchParams();
 
@@ -469,9 +475,7 @@ export class HomeComponent implements OnInit {
       queryParams.set('have', haveList.join(', '));
     }
 
-    if (author) {
-      queryParams.set('author', author);
-    }
+    authors.forEach((author) => queryParams.append('author', author));
 
     const end = queryParams.toString();
     if (end !== '') {

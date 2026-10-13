@@ -63,13 +63,18 @@
         </button>
       </mat-form-field>
 
-      @if (service.searchAuthor) {
+      @if (service.searchAuthors.length > 0) {
         <div class="author-filter" data-author-filter>
-          <span>Recipes by <strong>{{ service.searchAuthor }}</strong></span>
+          <span
+            >Recipes by
+            @for (author of service.searchAuthors; track author; let last = $last) {
+              <strong>{{ author }}</strong>{{ last ? "" : ", " }}
+            }
+          </span>
           <button
             mat-icon-button
             aria-label="Show every author"
-            (click)="clearAuthor()"
+            (click)="clearAuthors()"
             data-clear-author
           >
             <mat-icon>close</mat-icon>
@@ -281,9 +286,9 @@
               type="button"
               class="author-chip"
               [class.family]="entry.family"
-              [class.selected]="entry.author === service.searchAuthor"
-              [attr.aria-pressed]="entry.author === service.searchAuthor"
-              (click)="selectAuthor(entry.author)"
+              [class.selected]="isAuthorSelected(entry.author)"
+              [attr.aria-pressed]="isAuthorSelected(entry.author)"
+              (click)="toggleAuthor(entry.author)"
               data-author-chip
             >
               @if (entry.family) {
