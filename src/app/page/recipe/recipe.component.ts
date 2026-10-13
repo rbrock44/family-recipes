@@ -198,6 +198,17 @@ export class RecipeComponent implements OnChanges {
     window.print();
   }
 
+  /** Home, showing everything this recipe's author wrote. */
+  browseAuthor(): void {
+    const author = this.recipe.author.trim();
+    this.service.browseAuthor(author);
+    this.service.setEmptyRecipe();
+    this.service.showLists = false;
+    this.service.openedFromLists = false;
+    this.service.activeListId = null;
+    this.service.pushView(`/?${new URLSearchParams({ author })}`);
+  }
+
   isCooking(): boolean {
     return this.service.cookMode;
   }

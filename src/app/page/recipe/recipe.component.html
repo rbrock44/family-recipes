@@ -3,7 +3,17 @@
   <header class="surface-card recipe-hero">
     <div>
       <h1>{{ recipe.name }}</h1>
-      <h2>{{ recipe.author }}</h2>
+      <h2>
+        <button
+          type="button"
+          class="author-link"
+          [title]="'More recipes by ' + recipe.author"
+          (click)="browseAuthor()"
+          data-author-link
+        >
+          {{ recipe.author }}
+        </button>
+      </h2>
     </div>
     <div class="recipe-hero-actions">
       <button

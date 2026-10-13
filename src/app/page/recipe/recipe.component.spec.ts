@@ -89,4 +89,17 @@ describe('RecipeComponent', () => {
     expect(lines[1].classList).toContain('underline');
     expect(lines[0].classList).not.toContain('underline');
   });
+
+  it('should open everything by the author from the byline', () => {
+    const recipeService = TestBed.inject(RecipeService);
+    const push = vi.spyOn(recipeService, 'pushView').mockImplementation(() => {});
+    fixture.componentRef.setInput('recipe', { ...new RecipeModel(), filename: '0001', author: 'Anne Brock ' });
+    fixture.detectChanges();
+
+    fixture.nativeElement.querySelector('[data-author-link]').click();
+
+    expect(recipeService.searchAuthor).toBe('Anne Brock');
+    expect(recipeService.selectedRecipe.filename).toBe('');
+    expect(push).toHaveBeenCalledWith('/?author=Anne+Brock');
+  });
 });

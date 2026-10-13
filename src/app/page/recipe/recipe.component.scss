@@ -33,6 +33,23 @@
     font-weight: 500;
 }
 
+.author-link {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: rgba(95, 75, 134, 0.35);
+    text-underline-offset: 0.2em;
+    cursor: pointer;
+}
+
+.author-link:hover {
+    text-decoration-color: currentColor;
+}
+
 .meta-card {
     display: flex;
     align-items: center;
@@ -266,6 +283,10 @@
     .recipe-hero h2 {
         font-size: 12pt;
         color: #333;
+    }
+
+    .author-link {
+        text-decoration: none;
     }
 
     .recipe-hero-actions,

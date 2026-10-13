@@ -37,6 +37,9 @@ export class RecipeService {
   searchHooperFamily: boolean = false;
   // Comma-separated ingredients on hand, as typed.
   searchHave: string = '';
+  // One author's recipes only, picked from Browse by Author or a recipe's byline.
+  searchAuthor: string = '';
+  authorsExpanded: boolean = false;
   // Extra ingredients each result needs when searching by what's on hand; ranks the unsorted table.
   private haveExtras: Map<string, number> | null = null;
   hasSearched: boolean = false;
@@ -122,7 +125,7 @@ export class RecipeService {
     return query ? `/?${query}` : '/';
   }
 
-  /** Seeds the search from a link's `?search=`, `?category=`, `?hooperFamily=` and `?have=`. */
+  /** Seeds the search from a link's `?search=`, `?category=`, `?hooperFamily=`, `?have=` and `?author=`. */
   restoreSearchParams(path: string): void {
     const queryParams = new URLSearchParams(path.split('?')[1] ?? '');
     const category = Number(queryParams.get('category'));
@@ -131,6 +134,17 @@ export class RecipeService {
     this.searchCategory = Category[category] !== undefined ? category : 0;
     this.searchHooperFamily = queryParams.get('hooperFamily') === 'true';
     this.searchHave = queryParams.get('have') ?? '';
+    this.searchAuthor = queryParams.get('author') ?? '';
+  }
+
+  /** Starts a fresh search for everything one author wrote. */
+  browseAuthor(author: string): void {
+    this.searchTerm = '';
+    this.searchCategory = 0;
+    this.searchHooperFamily = false;
+    this.searchHave = '';
+    this.searchAuthor = author;
+    this.hasSearched = true;
   }
 
   listsUrl(): string {
@@ -198,6 +212,7 @@ export class RecipeService {
     category: Category = 0,
     onlyHooperFamily: boolean = false,
     have: string[] = [],
+    author: string = '',
   ): Recipe[] {
     let list: Recipe[] = [];
 
@@ -215,6 +230,10 @@ export class RecipeService {
 
     if (onlyHooperFamily) {
       list = list.filter(it => HOOPER_FAMILY.indexOf(it.author) > -1);
+    }
+
+    if (author) {
+      list = list.filter(it => it.author.trim() === author);
     }
 
     if (have.length > 0) {

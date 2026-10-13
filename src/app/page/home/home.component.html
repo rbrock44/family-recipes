@@ -63,6 +63,20 @@
         </button>
       </mat-form-field>
 
+      @if (service.searchAuthor) {
+        <div class="author-filter" data-author-filter>
+          <span>Recipes by <strong>{{ service.searchAuthor }}</strong></span>
+          <button
+            mat-icon-button
+            aria-label="Show every author"
+            (click)="clearAuthor()"
+            data-clear-author
+          >
+            <mat-icon>close</mat-icon>
+          </button>
+        </div>
+      }
+
       <mat-accordion class="advanced-search">
         <mat-expansion-panel [expanded]="advancedExpanded">
           <mat-expansion-panel-header>
@@ -241,6 +255,55 @@
         }
       </section>
     }
+
+    <section class="surface-card authors-card" data-authors-card>
+      <button
+        type="button"
+        class="recent-favorites-header"
+        [class.expanded]="service.authorsExpanded"
+        (click)="toggleAuthors()"
+        [attr.aria-expanded]="service.authorsExpanded"
+        data-authors-toggle
+      >
+        <h3>Browse by Author</h3>
+        <mat-icon>{{ service.authorsExpanded ? "expand_less" : "expand_more" }}</mat-icon>
+      </button>
+
+      @if (service.authorsExpanded) {
+        <mat-form-field appearance="outline" class="author-search" subscriptSizing="dynamic">
+          <mat-label>Find an author</mat-label>
+          <input matInput type="text" [formControl]="authorQueryControl" data-author-query />
+        </mat-form-field>
+
+        <div class="author-chips">
+          @for (entry of visibleAuthors(); track entry.author) {
+            <button
+              type="button"
+              class="author-chip"
+              [class.family]="entry.family"
+              [class.selected]="entry.author === service.searchAuthor"
+              [attr.aria-pressed]="entry.author === service.searchAuthor"
+              (click)="selectAuthor(entry.author)"
+              data-author-chip
+            >
+              @if (entry.family) {
+                <mat-icon class="family-icon" aria-label="Hooper Family">favorite</mat-icon>
+              }
+              <span class="author-name">{{ entry.author }}</span>
+              <span class="author-count">{{ entry.count }}</span>
+            </button>
+          } @empty {
+            <p class="author-empty">No author matches that name.</p>
+          }
+        </div>
+
+        @if (hiddenAuthorCount() > 0) {
+          <button mat-button class="show-all-authors" (click)="showAllAuthors = true" data-show-all-authors>
+            Show all {{ authors.length }} authors
+          </button>
+        }
+      }
+    </section>
 
     <app-recipe-table
       [dataSource]="dataSource"

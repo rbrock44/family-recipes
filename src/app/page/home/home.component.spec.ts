@@ -67,7 +67,7 @@ describe('HomeComponent', () => {
     component.haveControl.setValue('Chicken, rice,');
     component.search('');
 
-    expect(search).toHaveBeenLastCalledWith('', 0, false, ['chicken', 'rice']);
+    expect(search).toHaveBeenLastCalledWith('', 0, false, ['chicken', 'rice'], '');
     expect(service.searchHave).toBe('Chicken, rice,');
     expect(new URLSearchParams(TestBed.inject(Location).path().split('?')[1]).get('have')).toBe('chicken, rice');
   });
@@ -79,6 +79,66 @@ describe('HomeComponent', () => {
 
     expect(opened.advancedExpanded).toBe(true);
     expect(opened.haveControl.value).toBe('rice');
+  });
+
+  describe('browse by author', () => {
+    let service: RecipeService;
+    const recipes = [
+      { ...EMPTY_RECIPE, filename: '0001', name: 'Pie', author: 'Anne Brock' },
+      { ...EMPTY_RECIPE, filename: '0002', name: 'Cake', author: 'Anne Brock' },
+      { ...EMPTY_RECIPE, filename: '0003', name: 'Stew', author: 'Charlotte Hooper' },
+    ];
+
+    beforeEach(() => {
+      service = TestBed.inject(RecipeService);
+      vi.spyOn(service, 'isFullyLoaded').mockReturnValue(true);
+      vi.spyOn(service, 'allRecipes').mockReturnValue(recipes);
+      fixture.detectChanges();
+    });
+
+    const chips = () => Array.from(fixture.nativeElement.querySelectorAll('[data-author-chip]')) as HTMLElement[];
+
+    it('lists authors with counts once opened', () => {
+      expect(chips().length).toBe(0);
+
+      clickElement(fixture, '[data-authors-toggle]');
+      fixture.detectChanges();
+
+      const text = (selector: string) => chips().map(it => it.querySelector(selector)?.textContent?.trim());
+      expect(text('.author-name')).toEqual(['Anne Brock', 'Charlotte Hooper']);
+      expect(text('.author-count')).toEqual(['2', '1']);
+      expect(chips().map(it => it.classList.contains('family'))).toEqual([false, true]);
+    });
+
+    it('narrows the list by name', () => {
+      clickElement(fixture, '[data-authors-toggle]');
+      fixture.detectChanges();
+      const input = fixture.nativeElement.querySelector('[data-author-query]') as HTMLInputElement;
+      input.value = 'hoop';
+      input.dispatchEvent(new Event('input'));
+      fixture.detectChanges();
+
+      expect(chips().length).toBe(1);
+    });
+
+    it('filters results to the author picked, and clears back to everyone', () => {
+      const search = vi.spyOn(service, 'search');
+      clickElement(fixture, '[data-authors-toggle]');
+      fixture.detectChanges();
+
+      chips()[0].click();
+      fixture.detectChanges();
+
+      expect(search).toHaveBeenLastCalledWith('', 0, false, [], 'Anne Brock');
+      expect(service.authorsExpanded).toBe(false);
+      expectElementToContainContent(fixture, '[data-author-filter]', 'Anne Brock');
+      expect(new URLSearchParams(TestBed.inject(Location).path().split('?')[1]).get('author')).toBe('Anne Brock');
+
+      clickElement(fixture, '[data-clear-author]');
+      fixture.detectChanges();
+      expect(service.searchAuthor).toBe('');
+      expect(search).toHaveBeenLastCalledWith('', 0, false, [], '');
+    });
   });
 
   it('should open the about dialog from the info button', () => {

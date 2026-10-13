@@ -35,6 +35,10 @@ import { AboutDialogComponent } from '../../components/about-dialog/about-dialog
 import { RecipeTableComponent } from '../../components/recipe-table/recipe-table.component';
 import { isListsPath, parseRecipeId } from '../../utils/recipe-url.util';
 import { parseHaveList } from '../../utils/ingredient-match.util';
+import { AuthorEntry, filterAuthors, indexAuthors } from '../../utils/author-index.util';
+
+/** Authors shown before "Show all", so the card stays short. */
+const AUTHOR_PREVIEW = 24;
 
 @Component({
   selector: 'app-home',
@@ -70,6 +74,9 @@ export class HomeComponent implements OnInit {
   categoryControl: FormControl;
   familyControl: FormControl;
   haveControl: FormControl;
+  authorQueryControl = new FormControl('');
+  authors: AuthorEntry[] = [];
+  showAllAuthors = false;
 
   dataSource = new MatTableDataSource<Recipe>();
   favoritesDataSource = new MatTableDataSource<Recipe>();
@@ -207,7 +214,36 @@ export class HomeComponent implements OnInit {
     this.service.pushView(this.service.listsUrl(), { lists: true });
   }
 
+  visibleAuthors(): AuthorEntry[] {
+    const query = this.authorQueryControl.value ?? '';
+    const matches = filterAuthors(this.authors, query);
+
+    return this.showAllAuthors || query.trim() !== '' ? matches : matches.slice(0, AUTHOR_PREVIEW);
+  }
+
+  hiddenAuthorCount(): number {
+    return this.authors.length - this.visibleAuthors().length;
+  }
+
+  toggleAuthors(): void {
+    this.service.authorsExpanded = !this.service.authorsExpanded;
+  }
+
+  selectAuthor(author: string): void {
+    this.service.searchAuthor = author;
+    // Fold the card away so the results sit right under the search.
+    this.service.authorsExpanded = false;
+    this.search();
+  }
+
+  clearAuthor(): void {
+    this.service.searchAuthor = '';
+    this.search();
+  }
+
   private restoreSearch(): void {
+    this.authors = indexAuthors(this.service.allRecipes());
+
     // The table is always on screen, so a blank box is just an empty search
     // that lists everything.
     this.search(this.searchControl.value);
@@ -246,6 +282,7 @@ export class HomeComponent implements OnInit {
       this.categoryControl.value,
       this.familyControl.value,
       parseHaveList(this.haveControl.value),
+      this.service.searchAuthor,
     );
 
     this.location.replaceState(
@@ -254,6 +291,7 @@ export class HomeComponent implements OnInit {
         this.categoryControl.value,
         this.familyControl.value,
         this.haveControl.value,
+        this.service.searchAuthor,
       ),
     );
   }
@@ -388,6 +426,7 @@ export class HomeComponent implements OnInit {
     category: number,
     hooperFamily: boolean,
     have: string = '',
+    author: string = '',
   ): string {
     const queryParams = new URLSearchParams();
 
@@ -406,6 +445,10 @@ export class HomeComponent implements OnInit {
     const haveList = parseHaveList(have);
     if (haveList.length > 0) {
       queryParams.set('have', haveList.join(', '));
+    }
+
+    if (author) {
+      queryParams.set('author', author);
     }
 
     const end = queryParams.toString();

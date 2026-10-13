@@ -176,6 +176,43 @@ describe('RecipeService', () => {
 
       expect(service.searchHave).toBe('chicken, rice');
     });
+
+    it('should seed the author', () => {
+      service.restoreSearchParams('/?author=Anne%20Brock');
+
+      expect(service.searchAuthor).toBe('Anne Brock');
+    });
+  });
+
+  describe('browse by author', () => {
+    beforeEach(() => {
+      spy.mockReturnValue([
+        new RecipeModel({ filename: '0001', name: 'Pie', author: 'Anne Brock' }),
+        new RecipeModel({ filename: '0002', name: 'Cake', author: 'Anne Brockman' }),
+        new RecipeModel({ filename: '0003', name: 'Stew', author: 'Anne Brock ' }),
+      ]);
+      service.load();
+    });
+
+    it('should only keep that exact author', () => {
+      expect(service.search('', 0, false, [], 'Anne Brock').map(it => it.filename)).toEqual(['0001', '0003']);
+    });
+
+    it('should start a fresh search for the author', () => {
+      service.searchTerm = 'pie';
+      service.searchCategory = 6;
+      service.searchHooperFamily = true;
+      service.searchHave = 'rice';
+
+      service.browseAuthor('Anne Brock');
+
+      expect(service.searchTerm).toBe('');
+      expect(service.searchCategory).toBe(0);
+      expect(service.searchHooperFamily).toBe(false);
+      expect(service.searchHave).toBe('');
+      expect(service.searchAuthor).toBe('Anne Brock');
+      expect(service.hasSearched).toBe(true);
+    });
   });
 
   describe('search by ingredients on hand', () => {
