@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tbsp olive oil"
+         "unit": "tbsp",
+         "name": "olive oil"
       },
       {
          "amount": 1,
-         "name": "lb. ground chicken"
+         "unit": "lb",
+         "name": "ground chicken"
       },
       {
          "amount": 2,
@@ -21,15 +23,18 @@
       },
       {
          "amount": 0.25,
-         "name": "cup hoisin sauce"
+         "unit": "cup",
+         "name": "hoisin sauce"
       },
       {
          "amount": 1,
-         "name": "tbsp rice wine vinegar"
+         "unit": "tbsp",
+         "name": "rice wine vinegar"
       },
       {
          "amount": 1,
-         "name": "tbsp Sriracha, optional"
+         "unit": "tbsp",
+         "name": "Sriracha, optional"
       },
       {
          "amount": 1,

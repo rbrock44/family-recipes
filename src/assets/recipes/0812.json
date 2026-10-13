@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 0.33,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
@@ -13,23 +14,28 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 6,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "pkg. instant vanilla pudding"
+         "unit": "pkg",
+         "name": "instant vanilla pudding"
       },
       {
          "amount": 1,
-         "name": "c. bourbon"
+         "unit": "cup",
+         "name": "bourbon"
       },
       {
          "amount": 0.5,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       }
    ],
    "instructions": "Mix with blender.",

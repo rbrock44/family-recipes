@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "Tbsp. paprika"
+         "unit": "tbsp",
+         "name": "paprika"
       },
       {
          "amount": 1,
-         "name": "c. ground pecans"
+         "unit": "cup",
+         "name": "ground pecans"
       },
       {
          "amount": 1,
-         "name": "stick butter"
+         "unit": "stick",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "c. buttermilk"
+         "unit": "cup",
+         "name": "buttermilk"
       },
       {
          "amount": 1,
@@ -25,15 +29,18 @@
       },
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       },
       {
          "amount": 0,
-         "name": "Dash of pepper"
+         "unit": "dash",
+         "name": "of pepper"
       },
       {
          "amount": 2,

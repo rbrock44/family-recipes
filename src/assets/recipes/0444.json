@@ -9,19 +9,23 @@
       },
       {
          "amount": 0.25,
-         "name": "lb. softened butter"
+         "unit": "lb",
+         "name": "softened butter"
       },
       {
          "amount": 1,
-         "name": "box confectioners' sugar"
+         "unit": "box",
+         "name": "confectioners' sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       }
    ],
    "instructions": "Cream together cream cheese and butter. Add confectioners' sugar, vanilla and chopped pecans.",

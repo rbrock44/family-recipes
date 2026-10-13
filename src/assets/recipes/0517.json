@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sifted confectioners sugar"
+         "unit": "cup",
+         "name": "sifted confectioners sugar"
       },
       {
          "amount": 6,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "pkg. (8 oz.) softened cream cheese"
+         "unit": "pkg",
+         "name": "(8 oz.) softened cream cheese"
       }
    ],
    "instructions": "Beat together until smooth.",

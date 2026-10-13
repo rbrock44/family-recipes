@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. original ranch dressing mix"
+         "unit": "pkg",
+         "name": "original ranch dressing mix"
       },
       {
          "amount": 0.25,
-         "name": "tsp. garlic salt"
+         "unit": "tsp",
+         "name": "garlic salt"
       },
       {
          "amount": 5,
-         "name": "c. oyster crackers"
+         "unit": "cup",
+         "name": "oyster crackers"
       },
-	  {
+      {
          "amount": 0.75,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 1.5,
-         "name": "tsp. dillweed"
+         "unit": "tsp",
+         "name": "dillweed"
       },
       {
          "amount": 0.25,
-         "name": "tsp. lemon pepper"
+         "unit": "tsp",
+         "name": "lemon pepper"
       }
    ],
    "instructions": "Mix oil, dillweed, lemon pepper, garlic salt, and ranch dressing. Pour over crackers. Bake at 250° for 15 to 20 minutes stirring halfway through cooking time. Cool on wax paper. Great snack. Freezes well.",

@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "stick butter"
+         "unit": "stick",
+         "name": "butter"
       },
       {
          "amount": 3,
-         "name": "Tbsp. milk"
+         "unit": "tbsp",
+         "name": "milk"
       },
       {
          "amount": 0,

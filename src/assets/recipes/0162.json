@@ -1,31 +1,37 @@
 {
    "name": "Cheeseburger Casserole",
    "author": "Shawn Schlosser",
-   "category": 3                                  ,
+   "category": 3,
    "ingredients": [
       {
          "amount": 8,
-         "name": "oz. can tomato sauce"
+         "unit": "oz",
+         "name": "can tomato sauce"
       },
       {
          "amount": 0.125,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 8,
-         "name": "oz. American cheese slices"
+         "unit": "oz",
+         "name": "American cheese slices"
       },
       {
          "amount": 1,
-         "name": "can refrigerator biscuits"
+         "unit": "can",
+         "name": "refrigerator biscuits"
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Brown meat with salt and pepper. Drain well. Add tomato sauce and mix well. In casserole dish that has been sprayed, alternate meat and cheese slices until all gone. Then top with biscuits and bake at 400° for 20 to 25 minutes.",

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
@@ -17,19 +18,23 @@
       },
       {
          "amount": 1,
-         "name": "pkg. yeast"
+         "unit": "pkg",
+         "name": "yeast"
       },
       {
          "amount": 0.5,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       }
    ],
    "instructions": "Measure warm water in large mixing bowl. Sprinkle on yeast and stir until it looks soft. Add salt, sugar, and flour. Mix and knead dough. Roll and twist into letters, numerals, snakes, etc. Grease cookie sheets. Brush pretzels with beaten eggs and sprinkle with salt. Bake at 425° for 12 to 15 minutes.",

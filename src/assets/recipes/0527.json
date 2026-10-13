@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box Duncan Hines golden butter mix"
+         "unit": "box",
+         "name": "Duncan Hines golden butter mix"
       },
       {
          "amount": 0.75,
-         "name": "c. Wesson oil"
+         "unit": "cup",
+         "name": "Wesson oil"
       },
       {
          "amount": 0.33,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 4,

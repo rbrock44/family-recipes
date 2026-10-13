@@ -14,7 +14,8 @@
     },
     {
       "amount": 2,
-      "name": "c. whole milk"
+      "unit": "cup",
+      "name": "whole milk"
     },
     {
       "amount": 3,
@@ -22,15 +23,18 @@
     },
     {
       "amount": 0.66,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla extract"
+      "unit": "tsp",
+      "name": "vanilla extract"
     },
     {
       "amount": 0.25,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     }
   ],
   "yield": {

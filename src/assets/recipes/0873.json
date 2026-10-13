@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "ounces uncooked large shell pasta"
+         "unit": "oz",
+         "name": "uncooked large shell pasta"
       },
       {
          "amount": 1,
-         "name": "cup cream"
+         "unit": "cup",
+         "name": "cream"
       },
       {
          "amount": 2,
-         "name": "tablespoons butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 0.5,
-         "name": "teaspoon minced garlic"
+         "unit": "tsp",
+         "name": "minced garlic"
       },
       {
          "amount": 2,
-         "name": "tablespoons tomato sauce"
+         "unit": "tbsp",
+         "name": "tomato sauce"
       },
       {
          "amount": 0.5,
-         "name": "cup chopped broccoli"
+         "unit": "cup",
+         "name": "chopped broccoli"
       },
       {
          "amount": 0.33,
-         "name": "cup thinly sliced fresh button mushroom"
+         "unit": "cup",
+         "name": "thinly sliced fresh button mushroom"
       },
       {
          "amount": 0.25,
-         "name": "cup grated parmesan cheese"
+         "unit": "cup",
+         "name": "grated parmesan cheese"
       },
       {
          "amount": 0,

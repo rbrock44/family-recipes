@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "tsp. dill weed"
+         "unit": "tsp",
+         "name": "dill weed"
       },
       {
          "amount": 0.5,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 1.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1.5,
-         "name": "tsp. parsley flakes"
+         "unit": "tsp",
+         "name": "parsley flakes"
       },
       {
          "amount": 1.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1.5,
@@ -29,11 +34,13 @@
       },
       {
          "amount": 1.5,
-         "name": " tsp. Accent"
+         "unit": "tsp",
+         "name": "Accent"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       }
    ],
    "instructions": "Combine all ingredients. Refrigerate for at least 8 hours before using. Serve with chips.",

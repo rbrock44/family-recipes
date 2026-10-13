@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can buttermilk refrigerator biscuits (10 count)"
+         "unit": "can",
+         "name": "buttermilk refrigerator biscuits (10 count)"
       },
       {
          "amount": 1,
-         "name": "stick margarine, melted"
+         "unit": "stick",
+         "name": "margarine, melted"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 4,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       }
    ],
    "instructions": "Cut each biscuit in fourths. Melt the margarine. Combine cinna- mon and sugar together in small bowl. Drop biscuits into the melted margarine and roll in cinnamon-sugar mixture. Place in greased glass pie pan and bake at 350° for 20 minutes or until done.",

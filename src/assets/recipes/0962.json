@@ -5,7 +5,8 @@
   "ingredients": [
     {
       "amount": 1.5,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 2,
@@ -13,31 +14,38 @@
     },
     {
       "amount": 0.5,
-      "name": "c. shortening"
+      "unit": "cup",
+      "name": "shortening"
     },
     {
       "amount": 1.75,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     },
     {
       "amount": 0.5,
-      "name": "c. buttermilk"
+      "unit": "cup",
+      "name": "buttermilk"
     },
     {
       "amount": 0.67,
-      "name": "c. mashed bananas"
+      "unit": "cup",
+      "name": "mashed bananas"
     },
     {
       "amount": 1,
-      "name": "tsp. soda"
+      "unit": "tsp",
+      "name": "soda"
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     },
     {
       "amount": 0.5,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 0,
@@ -45,23 +53,28 @@
     },
     {
       "amount": 1,
-      "name": "c. brown sugar (icing)"
+      "unit": "cup",
+      "name": "brown sugar (icing)"
     },
     {
       "amount": 0.5,
-      "name": "lb. butter (icing)"
+      "unit": "lb",
+      "name": "butter (icing)"
     },
     {
       "amount": 0.5,
-      "name": "c. milk (icing)"
+      "unit": "cup",
+      "name": "milk (icing)"
     },
     {
       "amount": 0.5,
-      "name": "tsp. vanilla (icing)"
+      "unit": "tsp",
+      "name": "vanilla (icing)"
     },
     {
       "amount": 2,
-      "name": "c. powdered sugar (icing)"
+      "unit": "cup",
+      "name": "powdered sugar (icing)"
     }
   ],
   "instructions": "Bake at 350°, 30 min.\n\nIcing: brown sugar, butter, milk, vanilla, powdered sugar (no mixing/cooking method given on card).\n\nNote: 1 1/2 recipe makes 2 nice loaves.",

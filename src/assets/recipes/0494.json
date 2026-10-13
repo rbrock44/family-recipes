@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 2.25,
-         "name": "c. sifted Softasilk flour"
+         "unit": "cup",
+         "name": "sifted Softasilk flour"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 3,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "c. soft shortening"
+         "unit": "cup",
+         "name": "soft shortening"
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1.5,
-         "name": "tsp. flavoring"
+         "unit": "tsp",
+         "name": "flavoring"
       },
       {
          "amount": 2,

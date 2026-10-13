@@ -9,47 +9,58 @@
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2.5,
-         "name": "Tbsp. hot water"
+         "unit": "tbsp",
+         "name": "hot water"
       },
       {
          "amount": 0.75,
-         "name": "c. vegetable oil"
+         "unit": "cup",
+         "name": "vegetable oil"
       },
       {
          "amount": 0.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "c. raw grated carrots"
+         "unit": "cup",
+         "name": "raw grated carrots"
       },
       {
          "amount": 0.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       }
    ],
    "instructions": "Beat eggs for 10 minutes. Add sugar and hot water and mix well. Add oil slowly. Add remaining ingredients. Blend well. Bake at 350° for 30 minutes. Ice with cream cheese frosting.",

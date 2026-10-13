@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. salad or vegetable oil"
+         "unit": "cup",
+         "name": "salad or vegetable oil"
       },
       {
          "amount": 2,
-         "name": "Tbsp. milk"
+         "unit": "tbsp",
+         "name": "milk"
       },
       {
          "amount": 1.5,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       }
    ],
    "instructions": "Stir milk and oil until creamy. Add dry ingredients. Mix with fork. Press to fit pan. Use any filling and bake as usual. Or bake at 350° for 10 to 12 minutes until golden brown.",

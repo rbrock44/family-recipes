@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 8,
-         "name": "oz. frozen strawberries, sweetened"
+         "unit": "oz",
+         "name": "frozen strawberries, sweetened"
       },
       {
          "amount": 1,
-         "name": "c. ice"
+         "unit": "cup",
+         "name": "ice"
       },
       {
          "amount": 0.25,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 0.25,
-         "name": "c. grenadine"
+         "unit": "cup",
+         "name": "grenadine"
       }
    ],
    "instructions": "Blend strawberries, ice and grenadine together. When all is crushed, add powdered sugar and mix. If you want rum, add enough for your taste.",

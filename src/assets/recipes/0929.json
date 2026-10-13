@@ -5,27 +5,33 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "stick oleo"
+      "unit": "stick",
+      "name": "oleo"
     },
     {
       "amount": 0.5,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "c. oil"
+      "unit": "cup",
+      "name": "oil"
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     },
     {
       "amount": 2,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "c. buttermilk"
+      "unit": "cup",
+      "name": "buttermilk"
     },
     {
       "amount": 5,
@@ -37,15 +43,18 @@
     },
     {
       "amount": 1,
-      "name": "tsp. baking soda"
+      "unit": "tsp",
+      "name": "baking soda"
     },
     {
       "amount": 1,
-      "name": "c. nuts"
+      "unit": "cup",
+      "name": "nuts"
     },
     {
       "amount": 2,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     }
   ],
   "instructions": "Cream sugar and oleo, add everything else.\nFold in the stiffly beaten egg whites from the 5 egg yolks. Bake 350 for 20 min in layered pans greased and floured. (3 pans)\n\nICING: 1 8 oz. pkg. cream cheese, 1/2 stick oleo, 1 box powdered sugar (about 4 1/2 c. = 1 lb.), 1 tsp vanilla and 1/2 c nuts. Spread between each layer and on top.",

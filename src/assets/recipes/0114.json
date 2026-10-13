@@ -1,11 +1,12 @@
 {
    "name": "Strawberry Snowball Salad",
    "author": "Rebecca Hooper",
-   "category": 2                                  ,
+   "category": 2,
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. boiling water"
+         "unit": "cup",
+         "name": "boiling water"
       },
       {
          "amount": 2,
@@ -17,23 +18,28 @@
       },
       {
          "amount": 2,
-         "name": "c. fresh strawberries"
+         "unit": "cup",
+         "name": "fresh strawberries"
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. cranberry cocktail"
+         "unit": "cup",
+         "name": "cranberry cocktail"
       },
       {
          "amount": 0.25,
-         "name": "c. cold water"
+         "unit": "cup",
+         "name": "cold water"
       },
       {
          "amount": 0.5,
-         "name": "c. finely chopped nuts"
+         "unit": "cup",
+         "name": "finely chopped nuts"
       }
    ],
    "instructions": "Pour boiling water over gelatin in bowl, stirring until gelatin is dissolved. Stir in cranberry cocktail and cold water. Chill until slightly thickened but not set. Shape cream cheese into 18 balls; roll each in nuts. Sprinkle sugar over strawberries; mix gently. Pour 1/3 c. thickened gelatin into 6 cup ring mold. Arrange cheese balls evenly in gela- tin. Spoon in sweetened strawberries over the cheese balls and gelatin. Pour remaining thickened gelatin carefully over berries. Chill until firm. If desired, garnish with strawberries.",

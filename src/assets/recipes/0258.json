@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Sterilize jars and lids. Blanche tomatoes and peel. Fill jars with whole or parts of tomatoes. Add sugar and salt but no water. Seal tight. Place jars on cookie sheet in 250° oven for 1 hour. Do not pre-heat oven. Leave in oven overnight.",

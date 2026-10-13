@@ -13,15 +13,18 @@
       },
       {
          "amount": 0.5,
-         "name": "c. softened butter"
+         "unit": "cup",
+         "name": "softened butter"
       },
       {
          "amount": 0.75,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "pkg instant vanilla pudding"
+         "unit": "pkg",
+         "name": "instant vanilla pudding"
       }
    ],
    "instructions": "Bake according to pkg directions",

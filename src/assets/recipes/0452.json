@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can cherry pie filling"
+         "unit": "can",
+         "name": "cherry pie filling"
       },
       {
          "amount": 1,
-         "name": "can crushed pineapple (drained)"
+         "unit": "can",
+         "name": "crushed pineapple (drained)"
       },
       {
          "amount": 1,
@@ -17,11 +19,13 @@
       },
       {
          "amount": 1,
-         "name": "c. oats"
+         "unit": "cup",
+         "name": "oats"
       },
       {
          "amount": 1,
-         "name": "stick butter"
+         "unit": "stick",
+         "name": "butter"
       }
    ],
    "instructions": "In an oblong pan put cherry pie filling, followed by crushed pine- apple. Sift cake mix over top of cherry pie filling and pineapple. Sprinkle oats and nuts over cake mix and put butter slices on top of the oats and nuts. Bake at 350° for 50 minutes.",

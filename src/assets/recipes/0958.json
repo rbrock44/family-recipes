@@ -5,23 +5,28 @@
   "ingredients": [
     {
       "amount": 15.25,
-      "name": "oz. can crushed pineapple, juice and all"
+      "unit": "oz",
+      "name": "can crushed pineapple, juice and all"
     },
     {
       "amount": 2,
-      "name": "boxes pistachio instant pudding mix"
+      "unit": "box",
+      "name": "pistachio instant pudding mix"
     },
     {
       "amount": 0.75,
-      "name": "c. chopped nuts"
+      "unit": "cup",
+      "name": "chopped nuts"
     },
     {
       "amount": 0.75,
-      "name": "c. chopped cherries"
+      "unit": "cup",
+      "name": "chopped cherries"
     },
     {
       "amount": 1,
-      "name": "c. mini marshmallows"
+      "unit": "cup",
+      "name": "mini marshmallows"
     },
     {
       "amount": 1,

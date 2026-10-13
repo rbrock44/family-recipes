@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "tsp. soda"
+         "unit": "tsp",
+         "name": "soda"
       },
       {
          "amount": 0.5,
-         "name": "c. sour cream"
+         "unit": "cup",
+         "name": "sour cream"
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. lemon juice"
+         "unit": "tsp",
+         "name": "lemon juice"
       },
       {
          "amount": 4,
@@ -41,15 +49,18 @@
       },
       {
          "amount": 0.5,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 1,
-         "name": "c. strawberry preserves"
+         "unit": "cup",
+         "name": "strawberry preserves"
       },
       {
          "amount": 1,
-         "name": "Tbsp. red food coloring"
+         "unit": "tbsp",
+         "name": "red food coloring"
       }
    ],
    "instructions": "Blend butter, sugar, vanilla, salt and juice; beat in eggs one at a time. Dissolve soda in sour cream. Add to egg mixture. Fold in flour, nuts, preserves and food coloring. Pour batter into 2 large greased loaf pans. Bake at 350° for 35 to 40 minutes or until bread pulls away from pan.",

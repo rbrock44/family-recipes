@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "c. strawberries"
+         "unit": "cup",
+         "name": "strawberries"
       },
       {
          "amount": 4,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       }
    ],
    "instructions": "Cook 20 minutes. Cool in shallow dish overnight. Put in con- tainers. Cover with 2 thin layers of paraffin.",

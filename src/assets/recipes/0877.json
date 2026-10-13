@@ -13,23 +13,28 @@
       },
       {
          "amount": 0.75,
-         "name": "c. shredded parmesan romano cheese mix"
+         "unit": "cup",
+         "name": "shredded parmesan romano cheese mix"
       },
       {
          "amount": 0.75,
-         "name": "c. mozz. Cheese"
+         "unit": "cup",
+         "name": "mozz. Cheese"
       },
       {
          "amount": 10,
-         "name": "oz alfredo sauce"
+         "unit": "oz",
+         "name": "alfredo sauce"
       },
       {
          "amount": 1,
-         "name": "tsp garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 4,
-         "name": "oz Soften cream cheese"
+         "unit": "oz",
+         "name": "Soften cream cheese"
       }
    ],
    "instructions": "350° oven. Combine ingredients thoroughly in bowl & spread mixture into 8x8 baking dish. Bake 25-30 mins. OR until melted & bubbly",

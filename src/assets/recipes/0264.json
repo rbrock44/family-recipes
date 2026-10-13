@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "tsp. black pepper"
+         "unit": "tsp",
+         "name": "black pepper"
       },
       {
          "amount": 2,
-         "name": "tsp. beef flavor base"
+         "unit": "tsp",
+         "name": "beef flavor base"
       },
       {
          "amount": 2,
-         "name": "Tbsp. soy sauce"
+         "unit": "tbsp",
+         "name": "soy sauce"
       },
       {
          "amount": 0.25,
-         "name": "c. instant minced onion"
+         "unit": "cup",
+         "name": "instant minced onion"
       },
       {
          "amount": 0.25,
-         "name": "c. oil or butter"
+         "unit": "cup",
+         "name": "oil or butter"
       },
       {
          "amount": 3,
-         "name": "c. cold, cooked rice"
+         "unit": "cup",
+         "name": "cold, cooked rice"
       },
       {
          "amount": 2,
@@ -33,7 +39,8 @@
       },
       {
          "amount": 1,
-         "name": "c. chopped cooked meat *Meat can be chicken, pork, beef, shrimp, lobster, sausage, or bacon."
+         "unit": "cup",
+         "name": "chopped cooked meat *Meat can be chicken, pork, beef, shrimp, lobster, sausage, or bacon."
       }
    ],
    "instructions": "Saute onion in hot oil until golden brown. Add rice; heat thor- oughly, stirring often. Stir in beaten eggs, pepper, beef flavor base and soy sauce. Saute 3 minutes, continuing to stir. Add meat and continue heating until mixture is steaming hot.",

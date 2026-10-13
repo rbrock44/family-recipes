@@ -9,23 +9,28 @@
       },
       {
          "amount": 2,
-         "name": "pkg. active dry yeast"
+         "unit": "pkg",
+         "name": "active dry yeast"
       },
       {
          "amount": 2,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 6,
-         "name": "Tbsp. butter or margarine"
+         "unit": "tbsp",
+         "name": "butter or margarine"
       },
       {
          "amount": 0.33,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,

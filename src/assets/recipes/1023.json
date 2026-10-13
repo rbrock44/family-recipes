@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "cup flour"
+      "unit": "cup",
+      "name": "flour"
     },
     {
       "amount": 1,
-      "name": "tsp baking powder"
+      "unit": "tsp",
+      "name": "baking powder"
     },
     {
       "amount": 0.25,
-      "name": "tsp salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,

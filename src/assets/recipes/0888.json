@@ -29,19 +29,23 @@
       },
       {
          "amount": 2,
-         "name": "tbl butter *"
+         "unit": "tbsp",
+         "name": "butter *"
       },
       {
          "amount": 2,
-         "name": "tsp flour *"
+         "unit": "tsp",
+         "name": "flour *"
       },
       {
          "amount": 0.75,
-         "name": "c. whipping cream *"
+         "unit": "cup",
+         "name": "whipping cream *"
       },
       {
          "amount": 0.5,
-         "name": "c. parmesan cheese *"
+         "unit": "cup",
+         "name": "parmesan cheese *"
       },
       {
          "amount": 0,

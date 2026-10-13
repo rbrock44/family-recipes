@@ -9,7 +9,8 @@
       },
       {
          "amount": 3,
-         "name": "lb. round steak"
+         "unit": "lb",
+         "name": "round steak"
       },
       {
          "amount": 0,

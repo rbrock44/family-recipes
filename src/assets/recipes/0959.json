@@ -9,7 +9,8 @@
     },
     {
       "amount": 2,
-      "name": "c. hot water, to dissolve jello"
+      "unit": "cup",
+      "name": "hot water, to dissolve jello"
     },
     {
       "amount": 1,
@@ -17,15 +18,18 @@
     },
     {
       "amount": 1,
-      "name": "can blueberry pie filling"
+      "unit": "can",
+      "name": "blueberry pie filling"
     },
     {
       "amount": 8,
-      "name": "oz. cream cheese"
+      "unit": "oz",
+      "name": "cream cheese"
     },
     {
       "amount": 1,
-      "name": "pt. sour cream, approximately"
+      "unit": "pt",
+      "name": "sour cream, approximately"
     }
   ],
   "instructions": "2 small boxes grape Jello\n2 cups hot water to dissolve Jello. Add entire contents of 1 large can crushed pineapple, 1 can blueberry pie filling.\nWhen gelatin mixture sets, top with 8 oz cream cheese, 1 pt. sour cream, approximately... (remainder of note is illegible - faint pencil bleed-through on the back of the card)",

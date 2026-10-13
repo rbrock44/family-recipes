@@ -5,7 +5,8 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "pkg. Duncan Hines Pudding Recipe Lemon Cake Mix"
+      "unit": "pkg",
+      "name": "Duncan Hines Pudding Recipe Lemon Cake Mix"
     },
     {
       "amount": 1,
@@ -13,19 +14,23 @@
     },
     {
       "amount": 0.33,
-      "name": "cup oil (crust)"
+      "unit": "cup",
+      "name": "oil (crust)"
     },
     {
       "amount": 2,
-      "name": "pkgs. (8 oz. each) cream cheese, softened"
+      "unit": "pkg",
+      "name": "(8 oz. each) cream cheese, softened"
     },
     {
       "amount": 1,
-      "name": "cup (8 oz.) dairy sour cream"
+      "unit": "cup",
+      "name": "(8 oz.) dairy sour cream"
     },
     {
       "amount": 0.5,
-      "name": "cup sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 2,

@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 3.5,
-         "name": "c. all-purpose flour"
+         "unit": "cup",
+         "name": "all-purpose flour"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 3,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. vegetable shortening"
+         "unit": "cup",
+         "name": "vegetable shortening"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 2,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 4,
@@ -41,15 +49,18 @@
       },
       {
          "amount": 2,
-         "name": "c. pumpkin"
+         "unit": "cup",
+         "name": "pumpkin"
       },
       {
          "amount": 1.5,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       }
    ],
    "instructions": "Mix dry ingredients together. In separate bowl, blend eggs, sugar, pumpkin, vegetable shortening and vanilla together. To the dry ingredients work in pumpkin mixture, a small amount at a time, and blend well. Put in greased and floured 3 pound coffee cans and bake at 350 degrees for 1 hour. Test to see if done, as it may need 5 or 10 more minutes baking.",

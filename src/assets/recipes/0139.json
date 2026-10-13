@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can cream of celery coup"
+         "unit": "can",
+         "name": "cream of celery coup"
       },
       {
          "amount": 1,
-         "name": "Tbsp. prepared mustard"
+         "unit": "tbsp",
+         "name": "prepared mustard"
       },
       {
          "amount": 2,
-         "name": "tsp. Worcestershire sauce"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 1,
-         "name": "tsp. prepared horseradish"
+         "unit": "tsp",
+         "name": "prepared horseradish"
       },
       {
          "amount": 1,
@@ -25,23 +29,28 @@
       },
       {
          "amount": 0.25,
-         "name": "c. dry bread crumbs"
+         "unit": "cup",
+         "name": "dry bread crumbs"
       },
       {
          "amount": 0.25,
-         "name": "c. finely chopped onion"
+         "unit": "cup",
+         "name": "finely chopped onion"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0,
-         "name": "Dash pepper"
+         "unit": "dash",
+         "name": "pepper"
       },
       {
          "amount": 1.5,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
@@ -49,11 +58,13 @@
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 2,
-         "name": "Tbsp. parsley"
+         "unit": "tbsp",
+         "name": "parsley"
       }
    ],
    "instructions": "In a bowl combine soup, mustard, Worcestershire sauce and horseradish. Blend well. Set aside. In another bowl lightly beat the egg. Add bread crumbs, onion, salt, pepper and 1/4 cup of the soup mix- ture. Add beef and mix well. Shape into six patties. In a large skillet brown the patties in oil. Drain, combine remaining soup mixture with water and pour over patties. Cover and cook over low heat for 10 to 15 minutes or until meat is done. Remove patties to a serving plate. Spoon sauce over meat. Sprinkle with parsley.",

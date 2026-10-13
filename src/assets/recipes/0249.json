@@ -9,15 +9,18 @@
       },
       {
          "amount": 0.75,
-         "name": "lb. sausage or ground beef"
+         "unit": "lb",
+         "name": "sausage or ground beef"
       },
       {
          "amount": 1,
-         "name": "pkg. chopped broccoli, cooked and drained"
+         "unit": "pkg",
+         "name": "chopped broccoli, cooked and drained"
       },
       {
          "amount": 1,
-         "name": "can chopped mushrooms"
+         "unit": "can",
+         "name": "chopped mushrooms"
       },
       {
          "amount": 0.5,

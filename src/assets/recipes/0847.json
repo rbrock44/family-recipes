@@ -9,7 +9,8 @@
       },
       {
          "amount": 4,
-         "name": "c. boiling water"
+         "unit": "cup",
+         "name": "boiling water"
       },
       {
          "amount": 4,

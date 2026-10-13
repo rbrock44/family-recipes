@@ -9,11 +9,13 @@
       },
       {
          "amount": 0.5,
-         "name": "c. melted butter or margarine"
+         "unit": "cup",
+         "name": "melted butter or margarine"
       },
       {
          "amount": 1,
-         "name": "can cream of chicken soup"
+         "unit": "can",
+         "name": "cream of chicken soup"
       },
       {
          "amount": 1,
@@ -25,11 +27,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 0.5,
@@ -37,11 +41,13 @@
       },
       {
          "amount": 2,
-         "name": "c. crushed corn flakes"
+         "unit": "cup",
+         "name": "crushed corn flakes"
       },
       {
          "amount": 0.25,
-         "name": "c. melted butter"
+         "unit": "cup",
+         "name": "melted butter"
       }
    ],
    "instructions": "Place partially thawed potatoes in a greased casserole dish. Mix next 7 ingredients and pour on top of potatoes. Sprinkle corn flakes and remaining butter on top. Bake at 350° for 45 minutes.\nVariations: You may use 5 cups boiled and cubed potatoes instead of hash browns. Some prefer 1 (8 ounce) carton sour cream instead of two. Others prefer using 1 (8 ounce) package cream cheese in place of sour cream. This is a great potluck dish by adding 1 cup diced ham.",

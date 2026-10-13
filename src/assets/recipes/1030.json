@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 2,
-      "name": "sticks butter (1/2 lb), melted"
+      "unit": "stick",
+      "name": "butter (1/2 lb), melted"
     },
     {
       "amount": 1,
-      "name": "c. Eagle Brand milk"
+      "unit": "cup",
+      "name": "Eagle Brand milk"
     },
     {
       "amount": 2,
-      "name": "lbs powdered sugar"
+      "unit": "lb",
+      "name": "powdered sugar"
     },
     {
       "amount": 0,

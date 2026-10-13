@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "sticks margarine"
+         "unit": "stick",
+         "name": "margarine"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 2,
@@ -21,23 +24,28 @@
       },
       {
          "amount": 1,
-         "name": "tsp. water"
+         "unit": "tsp",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.75,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
@@ -45,7 +53,8 @@
       },
       {
          "amount": 12,
-         "name": "oz. chocolate chips"
+         "unit": "oz",
+         "name": "chocolate chips"
       }
    ],
    "instructions": "Mix until fluffy margarine, sugars, eggs, water, vanilla, baking soda and salt. Add all at once flour, oatmeal and chocolate chips. Drop by teaspoonfuls onto lightly greased cookie sheet. Bake at 350° for 10 minutes.",

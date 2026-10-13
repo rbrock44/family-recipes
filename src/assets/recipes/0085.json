@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. grated Cheddar cheese"
+         "unit": "cup",
+         "name": "grated Cheddar cheese"
       },
       {
          "amount": 1,
-         "name": "tsp. sugar"
+         "unit": "tsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -17,27 +19,33 @@
       },
       {
          "amount": 0.5,
-         "name": "c. celery"
+         "unit": "cup",
+         "name": "celery"
       },
       {
          "amount": 0.25,
-         "name": "c. onion"
+         "unit": "cup",
+         "name": "onion"
       },
       {
          "amount": 0.5,
-         "name": "c. broccoli"
+         "unit": "cup",
+         "name": "broccoli"
       },
       {
          "amount": 0.5,
-         "name": "c. cauliflower"
+         "unit": "cup",
+         "name": "cauliflower"
       },
       {
          "amount": 0.5,
-         "name": "jar of Bac*Os"
+         "unit": "jar",
+         "name": "of Bac*Os"
       },
       {
          "amount": 1.5,
-         "name": "c. Miracle Whip"
+         "unit": "cup",
+         "name": "Miracle Whip"
       }
    ],
    "instructions": "Cut up vegetables and arrange in layers. Add sugar to miracle whip and spread over top of layers. Sprinkle with cheese and Bac*Os. Make the day before serving to give a better flavor.",

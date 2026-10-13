@@ -9,15 +9,18 @@
       },
       {
          "amount": 48,
-         "name": "oz. pineapple juice"
+         "unit": "oz",
+         "name": "pineapple juice"
       },
       {
          "amount": 48,
-         "name": "oz. orange juice"
+         "unit": "oz",
+         "name": "orange juice"
       },
       {
          "amount": 2,
-         "name": "pkg. presweetened"
+         "unit": "pkg",
+         "name": "presweetened"
       },
       {
          "amount": 0,

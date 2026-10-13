@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box Jiffy corn bread mix"
+         "unit": "box",
+         "name": "Jiffy corn bread mix"
       },
       {
          "amount": 1,
@@ -13,19 +14,23 @@
       },
       {
          "amount": 1,
-         "name": "can corn with juice"
+         "unit": "can",
+         "name": "corn with juice"
       },
       {
          "amount": 1,
-         "name": "can cream style com"
+         "unit": "can",
+         "name": "cream style com"
       },
       {
          "amount": 0.25,
-         "name": "c. onions"
+         "unit": "cup",
+         "name": "onions"
       },
       {
          "amount": 1,
-         "name": "stick oleo, melted"
+         "unit": "stick",
+         "name": "oleo, melted"
       },
       {
          "amount": 1,

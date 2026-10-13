@@ -9,19 +9,23 @@
       },
       {
          "amount": 1,
-         "name": "pkg (18.25oz) chocolate cake mix with puddig (cupcake)"
+         "unit": "pkg",
+         "name": "(18.25oz) chocolate cake mix with puddig (cupcake)"
       },
       {
          "amount": 1,
-         "name": "cup sour cream (cupcake)"
+         "unit": "cup",
+         "name": "sour cream (cupcake)"
       },
       {
          "amount": 0.75,
-         "name": "cup water (cupcake)"
+         "unit": "cup",
+         "name": "water (cupcake)"
       },
       {
          "amount": 0.5,
-         "name": "cup vegetable oil (cupcake)"
+         "unit": "cup",
+         "name": "vegetable oil (cupcake)"
       },
       {
          "amount": 3,
@@ -29,39 +33,48 @@
       },
       {
          "amount": 1,
-         "name": "tsp vanilla (cupcake)"
+         "unit": "tsp",
+         "name": "vanilla (cupcake)"
       },
       {
          "amount": 4,
-         "name": "oz. frozen whipped topping - thawed but stll cold (filling)"
+         "unit": "oz",
+         "name": "frozen whipped topping - thawed but stll cold (filling)"
       },
       {
          "amount": 0.5,
-         "name": "cup sour cream - cold (filling)"
+         "unit": "cup",
+         "name": "sour cream - cold (filling)"
       },
       {
          "amount": 0.5,
-         "name": "cup sifted powder sugar (filling)"
+         "unit": "cup",
+         "name": "sifted powder sugar (filling)"
       },
       {
          "amount": 0.5,
-         "name": "tsp vanilla (filling)"
+         "unit": "tsp",
+         "name": "vanilla (filling)"
       },
       {
          "amount": 6,
-         "name": "tbsp (3/4 stick) butter (frosting)"
+         "unit": "tbsp",
+         "name": "(3/4 stick) butter (frosting)"
       },
       {
          "amount": 0.25,
-         "name": "cup un-sweet cocoa powder (frosting)"
+         "unit": "cup",
+         "name": "un-sweet cocoa powder (frosting)"
       },
       {
          "amount": 0.25,
-         "name": "cup milk (frosting)"
+         "unit": "cup",
+         "name": "milk (frosting)"
       },
       {
          "amount": 2.75,
-         "name": "cup sifted powder sugar (frosting)"
+         "unit": "cup",
+         "name": "sifted powder sugar (frosting)"
       },
       {
          "amount": 2,

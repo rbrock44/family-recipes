@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick margarine"
+         "unit": "stick",
+         "name": "margarine"
       },
       {
          "amount": 1,
-         "name": "c. graham cracker crumbs"
+         "unit": "cup",
+         "name": "graham cracker crumbs"
       },
       {
          "amount": 1,
-         "name": "c. coconut"
+         "unit": "cup",
+         "name": "coconut"
       },
       {
          "amount": 1,
-         "name": "pkg. (6 oz.) chocolate chips"
+         "unit": "pkg",
+         "name": "(6 oz.) chocolate chips"
       },
       {
          "amount": 1,
-         "name": "pkg. (6 oz.) butterscotch chips"
+         "unit": "pkg",
+         "name": "(6 oz.) butterscotch chips"
       },
       {
          "amount": 1,
-         "name": "can Eagle Brand Milk"
+         "unit": "can",
+         "name": "Eagle Brand Milk"
       },
       {
          "amount": 1,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       }
    ],
    "instructions": "Melt butter in bottom of pan. Add as listed above in order on top of butter. Bake 30 minutes at 350°.",

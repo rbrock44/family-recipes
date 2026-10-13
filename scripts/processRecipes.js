@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const prettier = require('prettier');
 const { combineRecipes, outputPath } = require('./combineRecipes');
+const { splitIngredientUnits } = require('./splitIngredientUnits');
 
 function resolveProjectRoot() {
 	const candidateRoots = [
@@ -68,6 +69,7 @@ async function processRecipes() {
 		// Create new numbered files in assetDirectory, continuing after startId.
 		for (const [index, recipe] of data.entries()) {
 			const recipePayload = recipe.payload;
+			splitIngredientUnits(recipePayload);
 			const newRecipeNumber = startId + (index + 1);
 			const filename = `${String(newRecipeNumber).padStart(4, '0')}${jsonExtension}`;
 			const filepath = path.join(assetDirectory, filename);

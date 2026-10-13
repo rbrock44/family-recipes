@@ -5,23 +5,28 @@
   "ingredients": [
     {
       "amount": 3,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 0.67,
-      "name": "c. cream"
+      "unit": "cup",
+      "name": "cream"
     },
     {
       "amount": 1,
-      "name": "pt. marshmallow cream"
+      "unit": "pt",
+      "name": "marshmallow cream"
     },
     {
       "amount": 1,
-      "name": "c. crunchy peanut butter"
+      "unit": "cup",
+      "name": "crunchy peanut butter"
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     }
   ],
   "instructions": "Combine sugar & milk - cook to soft ball stage, remove from heat & stir in marshmallow cream, peanut butter & vanilla.\n\nPour into buttered pan.",

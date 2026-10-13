@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. Miracle Whip"
+         "unit": "cup",
+         "name": "Miracle Whip"
       },
       {
          "amount": 2,

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. Worcestershire sauce"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 2,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 3,
-         "name": "cans shrimp."
+         "unit": "can",
+         "name": "shrimp."
       },
       {
          "amount": 0.5,
@@ -21,7 +23,8 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. mayonnaise"
+         "unit": "tbsp",
+         "name": "mayonnaise"
       }
    ],
    "instructions": "Set out cream cheese to soften. Grate onion fine. Mix other ingredients. Serve with crackers, corn chips or potato chips. If refrigerated before-hand, remove from refrigerator and set at room temperature before serving.",

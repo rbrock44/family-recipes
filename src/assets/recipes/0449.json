@@ -9,7 +9,8 @@
       },
       {
          "amount": 0.5,
-         "name": "stick oleo or butter"
+         "unit": "stick",
+         "name": "oleo or butter"
       }
    ],
    "instructions": "Beat well. Frost cake. Mix well. Add dry ingredients and Bake in three 9 inch pans at 300°",

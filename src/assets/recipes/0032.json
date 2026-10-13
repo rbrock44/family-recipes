@@ -9,15 +9,18 @@
       },
       {
          "amount": 1,
-         "name": "lb. lean ground beef "
+         "unit": "lb",
+         "name": "lean ground beef"
       },
       {
          "amount": 1,
-         "name": "lb. processed American Cheese, cut in small pieces"
+         "unit": "lb",
+         "name": "processed American Cheese, cut in small pieces"
       },
-	  {
+      {
          "amount": 2,
-         "name": "tsp. Worcestershire sauce "
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 0.25,

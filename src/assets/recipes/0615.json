@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.66,
-         "name": "c. Eagle Brand Milk"
+         "unit": "cup",
+         "name": "Eagle Brand Milk"
       },
       {
          "amount": 1,
-         "name": "c. coconut"
+         "unit": "cup",
+         "name": "coconut"
       },
       {
          "amount": 1,
-         "name": "c. nuts, chopped"
+         "unit": "cup",
+         "name": "nuts, chopped"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Mix all ingredients together. Drop by teaspoonful on to well greased cookie sheet. Bake at 350° for 10 to 12 minutes.",

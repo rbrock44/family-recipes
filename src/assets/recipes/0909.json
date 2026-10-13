@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "tbsp unsalted butter, room temperature, plus more for muffin tins"
+         "unit": "tbsp",
+         "name": "unsalted butter, room temperature, plus more for muffin tins"
       },
       {
          "amount": 0.33,
-         "name": "cup granulated sugar, plus more for muffin tins"
+         "unit": "cup",
+         "name": "granulated sugar, plus more for muffin tins"
       },
       {
          "amount": 3,
@@ -17,15 +19,18 @@
       },
       {
          "amount": 0.33,
-         "name": "cup all-purpose flour"
+         "unit": "cup",
+         "name": "all-purpose flour"
       },
       {
          "amount": 0.25,
-         "name": "teaspoon salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 8,
-         "name": "ounces bittersweet or semi-sweet chocolate, melted"
+         "unit": "oz",
+         "name": "bittersweet or semi-sweet chocolate, melted"
       },
       {
          "amount": 0,

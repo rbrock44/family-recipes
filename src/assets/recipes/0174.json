@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. bulk pork sausage"
+         "unit": "lb",
+         "name": "bulk pork sausage"
       },
       {
          "amount": 1,
-         "name": "can cream of mushroom soup"
+         "unit": "can",
+         "name": "cream of mushroom soup"
       },
       {
          "amount": 0.66,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 3,
-         "name": "c. sliced and peeled raw potatoes"
+         "unit": "cup",
+         "name": "sliced and peeled raw potatoes"
       },
       {
          "amount": 2,
-         "name": "c. shredded Cheddar cheese"
+         "unit": "cup",
+         "name": "shredded Cheddar cheese"
       }
    ],
    "instructions": "Brown sausage, drain and set aside. Combine soup, milk, onion, salt and pepper. In a greased 2 quart casserole, layer half of the potatoes, half of the soup mixture and half of the sausage. Repeat, ending with sausage. Cover and bake at 350° for 1 hour or until potatoes are tender. Sprinkle with cheese. Return to oven uncovered for 2 or 3 minutes. Garnish with parsley if desired.",

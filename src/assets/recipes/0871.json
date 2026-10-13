@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "cup Peanut Butter"
+         "unit": "cup",
+         "name": "Peanut Butter"
       },
       {
          "amount": 0.5,
-         "name": "cups butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 2,
-         "name": "cups sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "cup cold milk"
+         "unit": "cup",
+         "name": "cold milk"
       },
       {
          "amount": 3.5,
-         "name": "cups quick cooking oats"
+         "unit": "cup",
+         "name": "quick cooking oats"
       },
       {
          "amount": 1,
-         "name": "tbsp vanilla"
+         "unit": "tbsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Add butter, sugar and milk to a heavy bottom pot, bring to a boil (rolling) and boil for 1 min while stirring. Remove pot from heat & mix in your peanut butter, Vanilla & oats. Use spoon to scoop and drop mixture on parchment paper and let cool.",

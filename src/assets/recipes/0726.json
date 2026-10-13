@@ -9,23 +9,28 @@
       },
       {
          "amount": 0.66,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. dark or light syrup"
+         "unit": "cup",
+         "name": "dark or light syrup"
       },
       {
          "amount": 1,
-         "name": "c. pecans"
+         "unit": "cup",
+         "name": "pecans"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.33,
-         "name": "c. butter, optional"
+         "unit": "cup",
+         "name": "butter, optional"
       },
       {
          "amount": 1,

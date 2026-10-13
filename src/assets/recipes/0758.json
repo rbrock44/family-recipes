@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 2.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 3,
@@ -25,7 +27,8 @@
       },
       {
          "amount": 2,
-         "name": "sticks whole cinnamon"
+         "unit": "stick",
+         "name": "whole cinnamon"
       }
    ],
    "instructions": "Place sugar, water, lemon and cinnamon in a 2 quart saucepan. Bring to boiling point and boil 3 minutes. Stick whole cloves into peeled whole apples with stems attached. Drop fruit in boiling syrup. Cook 20 to 25 minutes or until tender spooning syrup over the fruit at intervals. Chill and serve.",

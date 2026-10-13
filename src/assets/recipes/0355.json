@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 2,
@@ -21,23 +22,28 @@
       },
       {
          "amount": 0.25,
-         "name": "c. cornstarch"
+         "unit": "cup",
+         "name": "cornstarch"
       },
       {
          "amount": 1,
-         "name": "Tbsp. chopped fresh parsley"
+         "unit": "tbsp",
+         "name": "chopped fresh parsley"
       },
       {
          "amount": 1,
-         "name": "tsp. paprika"
+         "unit": "tsp",
+         "name": "paprika"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 1,
@@ -49,11 +55,13 @@
       },
       {
          "amount": 2,
-         "name": "c. shredded Cheddar cheese, divided"
+         "unit": "cup",
+         "name": "shredded Cheddar cheese, divided"
       },
       {
          "amount": 0.75,
-         "name": "c. sliced green onions, divided"
+         "unit": "cup",
+         "name": "sliced green onions, divided"
       },
       {
          "amount": 0,
@@ -61,7 +69,8 @@
       },
       {
          "amount": 1,
-         "name": "c. sour cream"
+         "unit": "cup",
+         "name": "sour cream"
       },
       {
          "amount": 1,

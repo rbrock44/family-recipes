@@ -5,23 +5,28 @@
   "ingredients": [
     {
       "amount": 2,
-      "name": "c. cooked and drained squash"
+      "unit": "cup",
+      "name": "cooked and drained squash"
     },
     {
       "amount": 2,
-      "name": "c. bread crumbs"
+      "unit": "cup",
+      "name": "bread crumbs"
     },
     {
       "amount": 0.25,
-      "name": "c. grated onion"
+      "unit": "cup",
+      "name": "grated onion"
     },
     {
       "amount": 0.25,
-      "name": "c. chopped green pepper"
+      "unit": "cup",
+      "name": "chopped green pepper"
     },
     {
       "amount": 1,
-      "name": "c. grated cheese"
+      "unit": "cup",
+      "name": "grated cheese"
     },
     {
       "amount": 1,
@@ -29,7 +34,8 @@
     },
     {
       "amount": 1,
-      "name": "c. milk"
+      "unit": "cup",
+      "name": "milk"
     },
     {
       "amount": 0,
@@ -37,7 +43,8 @@
     },
     {
       "amount": 0.5,
-      "name": "stick oleo, for sauteing"
+      "unit": "stick",
+      "name": "oleo, for sauteing"
     }
   ],
   "instructions": "Saute onion and pepper in 1/2 stick oleo.\nCombine all ingredients, mix well.\nBake 350 for 20 min.\nTop with stripes of cheese and melt.",

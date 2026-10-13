@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick margarine (softened)"
+         "unit": "stick",
+         "name": "margarine (softened)"
       },
       {
          "amount": 0.5,
-         "name": "c. Crisco"
+         "unit": "cup",
+         "name": "Crisco"
       },
       {
          "amount": 2,
@@ -17,31 +19,38 @@
       },
       {
          "amount": 0.75,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 0.75,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "pkg. (12 oz.) real chocolate chips"
+         "unit": "pkg",
+         "name": "(12 oz.) real chocolate chips"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       }
    ],
    "instructions": "Mix in large bowl, first 5 ingredients with electric mixer until creamy. Add salt, baking soda and flour, mixing well. Add chocolate chips and nuts. Drop by VERY OVERLOADED teaspoons onto ungreased cookie sheet. Bake in 350° oven for 12 minutes. Cool on aluminum foil. Other varieties of chips can be used as desire. THIS WON A BLUE RIBBON AT THE SOUTHEAST MISSOURI STATE FAIR.",

@@ -5,27 +5,33 @@
   "ingredients": [
     {
       "amount": 1.25,
-      "name": "c. sifted flour"
+      "unit": "cup",
+      "name": "sifted flour"
     },
     {
       "amount": 0.75,
-      "name": "c. corn meal"
+      "unit": "cup",
+      "name": "corn meal"
     },
     {
       "amount": 4,
-      "name": "tsp. baking powder"
+      "unit": "tsp",
+      "name": "baking powder"
     },
     {
       "amount": 1,
-      "name": "Tbsp. sugar"
+      "unit": "tbsp",
+      "name": "sugar"
     },
     {
       "amount": 0.5,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 2,
-      "name": "Tbsp. butter"
+      "unit": "tbsp",
+      "name": "butter"
     },
     {
       "amount": 0,

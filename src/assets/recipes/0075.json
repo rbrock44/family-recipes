@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "cup vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 1,
-         "name": "cup vegetable oil"
+         "unit": "cup",
+         "name": "vegetable oil"
       },
       {
          "amount": 0.66,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. turmeric"
+         "unit": "tsp",
+         "name": "turmeric"
       },
       {
          "amount": 0.66,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Mix together and pour over shredded cabbage, carrots, onions and celery. Serve immediately or refrigerate.",

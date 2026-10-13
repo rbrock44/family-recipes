@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "tbsp light brown sugar"
+         "unit": "tbsp",
+         "name": "light brown sugar"
       },
       {
          "amount": 1,
-         "name": "tbsp honey"
+         "unit": "tbsp",
+         "name": "honey"
       },
       {
          "amount": 2,
-         "name": "tbsp butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 0.25,
-         "name": "cup Dijon mustard"
+         "unit": "cup",
+         "name": "Dijon mustard"
       },
       {
          "amount": 2,
-         "name": "tbsp soy sauce"
+         "unit": "tbsp",
+         "name": "soy sauce"
       },
       {
          "amount": 2,
-         "name": "tbsp olive oil"
+         "unit": "tbsp",
+         "name": "olive oil"
       },
       {
          "amount": 1,
-         "name": "tbsp finely grated ginger"
+         "unit": "tbsp",
+         "name": "finely grated ginger"
       },
       {
          "amount": 0,

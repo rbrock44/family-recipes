@@ -9,11 +9,13 @@
       },
       {
          "amount": 0.33,
-         "name": "c. butter or oleo"
+         "unit": "cup",
+         "name": "butter or oleo"
       },
       {
          "amount": 0.5,
-         "name": "c. packed brown sugar"
+         "unit": "cup",
+         "name": "packed brown sugar"
       },
       {
          "amount": 2,
@@ -21,31 +23,38 @@
       },
       {
          "amount": 0.25,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.75,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt, optional"
+         "unit": "tsp",
+         "name": "salt, optional"
       },
       {
          "amount": 1,
-         "name": "c. finely chopped dried apricots"
+         "unit": "cup",
+         "name": "finely chopped dried apricots"
       },
       {
          "amount": 0.25,
-         "name": "c. sliced almonds"
+         "unit": "cup",
+         "name": "sliced almonds"
       },
       {
          "amount": 0.25,
-         "name": "c. flaked coconut"
+         "unit": "cup",
+         "name": "flaked coconut"
       }
    ],
    "instructions": "Melt chocolate and butter over low heat, stirring constantly until all of chocolate is melted. Remove from heat; stir in brown sugar, eggs and vanilla until blended. Set aside. In another bowl, mix flour, baking powder and salt. Stir in chocolate mixture. Combine apricots, almonds, and coconut; stir half into the batter. Pour into a greased 9-inch square baking pan. Sprinkle remaining apricot mixture on top. Bake at 350° for 25 minutes or until golden brown. Cool.",

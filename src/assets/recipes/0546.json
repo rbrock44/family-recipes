@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. powdered sugar"
+         "unit": "lb",
+         "name": "powdered sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. dry cocoa"
+         "unit": "cup",
+         "name": "dry cocoa"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 6,
-         "name": "Tbsp. boiling water"
+         "unit": "tbsp",
+         "name": "boiling water"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 13,
-         "name": "c. (3 sticks) soft butter or margarine"
+         "unit": "cup",
+         "name": "(3 sticks) soft butter or margarine"
       }
    ],
    "instructions": "In mixing bowl mix thoroughly powdered sugar, cocoa, and salt. Add boiling water, vanilla, and butter to first mixture. Blend, then beat with mixer or spoon until smooth and thickened. If you wish to speed up thickening, set bowl in ice water while beating. If frosting stiffens too quickly while spreading, just stir in a few drops of hot water. Makes about 2 cups--enough to frost tops and sides of two 8 or 9 inch layers.",

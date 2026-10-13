@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. graham crackers, crushed"
+         "unit": "cup",
+         "name": "graham crackers, crushed"
       },
       {
          "amount": 1,
-         "name": "lb. box powdered sugar"
+         "unit": "lb",
+         "name": "box powdered sugar"
       },
       {
          "amount": 1,
-         "name": "c. creamy peanut butter"
+         "unit": "cup",
+         "name": "creamy peanut butter"
       },
       {
          "amount": 2,
-         "name": "sticks margarine, melted"
+         "unit": "stick",
+         "name": "margarine, melted"
       },
       {
          "amount": 2,
-         "name": "c. chocolate chips"
+         "unit": "cup",
+         "name": "chocolate chips"
       }
    ],
    "instructions": "Crush graham crackers. Can use food processor, or can use rolling pin with crackers in a bread bag. Mix crackers, sugar, butter and peanut butter. Pat in a 9 x 13 inch pan. Melt chocolate chips and spread over cracker mixture. Let chocolate partially harden and then cut into pieces.",

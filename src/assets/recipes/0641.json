@@ -5,43 +5,53 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. raisins"
+         "unit": "cup",
+         "name": "raisins"
       },
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.25,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 0.25,
-         "name": "tsp. allspice"
+         "unit": "tsp",
+         "name": "allspice"
       },
       {
          "amount": 1,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 1.25,
-         "name": "c. dark brown sugar"
+         "unit": "cup",
+         "name": "dark brown sugar"
       },
       {
          "amount": 3,
@@ -49,19 +59,23 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 4,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "c. chopped walnuts or pecans"
+         "unit": "cup",
+         "name": "chopped walnuts or pecans"
       }
    ],
    "instructions": "Boil raisins and water together for five minutes. This should boil down to 1⁄2 cup liquid. Cool, add soda to raisins and liquid. Cream butter, then add salt, cinnamon, nutmeg, allspice, white sugar and brown sugar, cream together well. Then add beaten eggs, vanilla and cooled raisin-soda mixture. Mix well. Sift flour with baking powder and add to first mixture. Mix well. Stir in nuts. Chill dough. To bake, drop by teaspoonful on greased cookie sheets. Bake 10 to 12 minutes at 400°.",

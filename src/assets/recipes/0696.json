@@ -9,19 +9,23 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. lemon juice"
+         "unit": "tbsp",
+         "name": "lemon juice"
       },
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0.5,
-         "name": "c. red cinnamon candies"
+         "unit": "cup",
+         "name": "red cinnamon candies"
       }
    ],
    "instructions": "Pare, quarter and core apples. Mix sugar, lemon juice, water and candies in saucepan. Cook for 5 minutes to form a syrup. Add apples to syrup; cook until transparent and tender.",

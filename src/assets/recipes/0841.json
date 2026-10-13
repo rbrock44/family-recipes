@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. crushed strawberries"
+         "unit": "cup",
+         "name": "crushed strawberries"
       },
       {
          "amount": 4,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "box Sure-Jell"
+         "unit": "box",
+         "name": "Sure-Jell"
       },
       {
          "amount": 0.75,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       }
    ],
    "instructions": "Prepare fruit. Measure sugar into bowl (exact measure). Stir sug- ar into fruit. Set aside for 10 minutes; stirring occasionally. Stir box sure-jell and water in small saucepan. Bring mixture to full boil on high heat, stirring occasionally. Boil and stir 1 minute. Remove from heat. Stir Sure-Jell mixture into fruit. Stir until sugar is completely dissolved and no longer grainy, about 3 minutes. Pour quickly into clean freezer jars or plastic containers. Let stand 24 hours, then freeze.",

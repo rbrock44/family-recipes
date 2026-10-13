@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "lb. chopped carrots"
+         "unit": "lb",
+         "name": "chopped carrots"
       },
       {
          "amount": 1,
-         "name": "c. chopped onions"
+         "unit": "cup",
+         "name": "chopped onions"
       },
       {
          "amount": 0.5,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 1,
-         "name": "can cream of tomato soup"
+         "unit": "can",
+         "name": "cream of tomato soup"
       },
       {
          "amount": 1,
-         "name": "tsp. mustard"
+         "unit": "tsp",
+         "name": "mustard"
       },
       {
          "amount": 0.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 1,
@@ -33,19 +39,23 @@
       },
       {
          "amount": 1,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. Worcestershire sauce"
+         "unit": "tbsp",
+         "name": "Worcestershire sauce"
       }
    ],
    "instructions": "Boil carrots until done. Mix all ingredients, except carrots. Let set 1 hour. Pour over the cooked and drained carrots.",

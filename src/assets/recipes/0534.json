@@ -13,15 +13,18 @@
       },
       {
          "amount": 0.75,
-         "name": "c. Wesson oil"
+         "unit": "cup",
+         "name": "Wesson oil"
       },
       {
          "amount": 0.75,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0.5,
-         "name": "c. frozen strawberries"
+         "unit": "cup",
+         "name": "frozen strawberries"
       },
       {
          "amount": 4,

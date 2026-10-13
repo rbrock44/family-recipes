@@ -9,11 +9,13 @@
       },
       {
          "amount": 2,
-         "name": "jars soup base"
+         "unit": "jar",
+         "name": "soup base"
       },
       {
          "amount": 1,
-         "name": "box barley"
+         "unit": "box",
+         "name": "barley"
       },
       {
          "amount": 2,
@@ -21,11 +23,13 @@
       },
       {
          "amount": 10,
-         "name": "lb. potatoes"
+         "unit": "lb",
+         "name": "potatoes"
       },
       {
          "amount": 4,
-         "name": "lb. carrots"
+         "unit": "lb",
+         "name": "carrots"
       },
       {
          "amount": 1,
@@ -33,7 +37,8 @@
       },
       {
          "amount": 25,
-         "name": "pkg. egg noodles (12 oz. bags)"
+         "unit": "pkg",
+         "name": "egg noodles (12 oz. bags)"
       },
       {
          "amount": 0,

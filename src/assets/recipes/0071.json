@@ -13,9 +13,10 @@
       },
       {
          "amount": 2,
-         "name": "cans cream of chicken soup"
+         "unit": "can",
+         "name": "cream of chicken soup"
       },
-	  {
+      {
          "amount": 1,
          "name": "to 2 lb. Velveeta cheese"
       },
@@ -27,25 +28,30 @@
          "amount": 4,
          "name": "chicken bouillon cubes"
       },
-	  {
+      {
          "amount": 1,
-         "name": "qt. water"
+         "unit": "qt",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "c. diced onion"
+         "unit": "cup",
+         "name": "diced onion"
       },
       {
          "amount": 1,
-         "name": "c. diced celery"
+         "unit": "cup",
+         "name": "diced celery"
       },
       {
          "amount": 2,
-         "name": "c. cubed raw potatoes"
+         "unit": "cup",
+         "name": "cubed raw potatoes"
       },
       {
          "amount": 0.5,
-         "name": "c. diced carrots"
+         "unit": "cup",
+         "name": "diced carrots"
       }
    ],
    "instructions": "Mix bouillon cubes, water, onion, celery and potatoes together. Cover and cook 20 to 30 minutes. Add remaining vegetables and cook until tender. Add cream of chicken soup and 1 cup water. Add Velveeta cheese and cook slowly until all cheese is melted. Sprinkle in bacon crumbs.",

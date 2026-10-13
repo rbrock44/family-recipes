@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. oleo"
+         "unit": "cup",
+         "name": "oleo"
       },
       {
          "amount": 0.5,
-         "name": "c. heaving cream or evaporated milk"
+         "unit": "cup",
+         "name": "heaving cream or evaporated milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Place all ingredients in saucepan; stir. Bring to boil over medium heat and cook for 3 minutes. Serve warm over cake.",

@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.66,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.25,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       }
    ],
    "instructions": "Mix all ingredients. Gather together and press into a ball. Knead dough in bowl 10 times to make smooth. Roll out dough. Top with your favorite toppings. Bake at 425° for 20 to 30 minutes.",

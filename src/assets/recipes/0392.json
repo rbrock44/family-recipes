@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
@@ -13,23 +14,28 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. melted butter"
+         "unit": "tbsp",
+         "name": "melted butter"
       },
       {
          "amount": 1,
-         "name": "c. sweet milk"
+         "unit": "cup",
+         "name": "sweet milk"
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Cream sugar and eggs, add other ingredients. Drop from a teaspoon in hot lard or Crisco until brown.",

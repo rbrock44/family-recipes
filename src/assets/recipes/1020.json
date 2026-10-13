@@ -5,43 +5,53 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "c. sour cream"
+      "unit": "cup",
+      "name": "sour cream"
     },
     {
       "amount": 1,
-      "name": "c. mayonnaise"
+      "unit": "cup",
+      "name": "mayonnaise"
     },
     {
       "amount": 3,
-      "name": "tbsp. finely chopped onion"
+      "unit": "tbsp",
+      "name": "finely chopped onion"
     },
     {
       "amount": 0.5,
-      "name": "tsp. celery seed"
+      "unit": "tsp",
+      "name": "celery seed"
     },
     {
       "amount": 0.75,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "tsp. sugar"
+      "unit": "tsp",
+      "name": "sugar"
     },
     {
       "amount": 2,
-      "name": "tbsp. dill"
+      "unit": "tbsp",
+      "name": "dill"
     },
     {
       "amount": 0.5,
-      "name": "tsp. parsley"
+      "unit": "tsp",
+      "name": "parsley"
     },
     {
       "amount": 2,
-      "name": "tsp. vinegar"
+      "unit": "tsp",
+      "name": "vinegar"
     },
     {
       "amount": 1,
-      "name": "tsp. horseradish"
+      "unit": "tsp",
+      "name": "horseradish"
     }
   ],
   "instructions": "Mix together and serve after chilling one hour.",

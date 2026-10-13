@@ -13,27 +13,33 @@
     },
     {
       "amount": 3,
-      "name": "pkg black cherry Kool-Aid"
+      "unit": "pkg",
+      "name": "black cherry Kool-Aid"
     },
     {
       "amount": 3,
-      "name": "pkg raspberry Kool-Aid"
+      "unit": "pkg",
+      "name": "raspberry Kool-Aid"
     },
     {
       "amount": 3,
-      "name": "pkg strawberry Kool-Aid"
+      "unit": "pkg",
+      "name": "strawberry Kool-Aid"
     },
     {
       "amount": 3,
-      "name": "pkg orange Kool-Aid"
+      "unit": "pkg",
+      "name": "orange Kool-Aid"
     },
     {
       "amount": 4.5,
-      "name": "lbs sugar"
+      "unit": "lb",
+      "name": "sugar"
     },
     {
       "amount": 4,
-      "name": "gal water"
+      "unit": "gal",
+      "name": "water"
     },
     {
       "amount": 4,

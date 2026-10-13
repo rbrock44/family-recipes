@@ -9,11 +9,13 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 2,
-         "name": "Tbsp. brown sugar"
+         "unit": "tbsp",
+         "name": "brown sugar"
       },
       {
          "amount": 0,

@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 1.33,
-         "name": "c. firmly packed brown sugar"
+         "unit": "cup",
+         "name": "firmly packed brown sugar"
       },
       {
          "amount": 2,
@@ -17,35 +19,43 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 2,
-         "name": "c. quick oats"
+         "unit": "cup",
+         "name": "quick oats"
       },
       {
          "amount": 1,
-         "name": "c. raisins"
+         "unit": "cup",
+         "name": "raisins"
       },
       {
          "amount": 0.75,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.25,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 0.75,
-         "name": "c. soft shortening"
+         "unit": "cup",
+         "name": "soft shortening"
       }
    ],
    "instructions": "Sift dry ingredients into bowl. Add shortening, brown sugar, eggs and vanilla. Beat until smooth about 2 minutes. Stir in quick oats and raisins. Drop by teaspoon on greased cookie sheet. Bake at 350°.\nI usually soak the raisins in a little warm water while getting the ingredients together. I make powdered sugar icing and dribble it on the cookies when I take them out of the oven.",

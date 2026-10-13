@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 8,
-         "name": "oz. fettuccine"
+         "unit": "oz",
+         "name": "fettuccine"
       },
       {
          "amount": 0.5,
-         "name": "c. grated Parmesan cheese"
+         "unit": "cup",
+         "name": "grated Parmesan cheese"
       },
       {
          "amount": 0.33,
-         "name": "c. light cream or whipping cream, at room temperature"
+         "unit": "cup",
+         "name": "light cream or whipping cream, at room temperature"
       },
       {
          "amount": 3,
-         "name": "Tbsp. margarine or butter, cut up and at room temperature"
+         "unit": "tbsp",
+         "name": "margarine or butter, cut up and at room temperature"
       },
       {
          "amount": 0,

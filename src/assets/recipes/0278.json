@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 6,
-         "name": "Tbsp. melted butter"
+         "unit": "tbsp",
+         "name": "melted butter"
       },
       {
          "amount": 8,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 3,
-         "name": "Tbsp. grated Parmesan cheese"
+         "unit": "tbsp",
+         "name": "grated Parmesan cheese"
       }
    ],
    "instructions": "Pour butter into 9 x 13 pan. Sprinkle cheese. Place potatoes face down. Bake uncovered at 400° for 40 to 45 minutes.",

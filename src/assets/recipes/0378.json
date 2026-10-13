@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 0.5,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.5,
-         "name": "pkg. active dry yeast"
+         "unit": "pkg",
+         "name": "active dry yeast"
       },
       {
          "amount": 0.5,
-         "name": "c. boiling water"
+         "unit": "cup",
+         "name": "boiling water"
       },
       {
          "amount": 0.33,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 5,
@@ -33,7 +39,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. evaporated milk"
+         "unit": "cup",
+         "name": "evaporated milk"
       },
       {
          "amount": 2,

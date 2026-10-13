@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 4,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "sticks butter"
+         "unit": "stick",
+         "name": "butter"
       }
    ],
    "instructions": "Cook the milk and flour in a double boiler and set aside to get cold. Beat the oleo and sugar for 8 minutes. Add vanilla and beat 4 more minutes. Add flour and milk mixture and beat more minutes. Note: 1/2 c. drained crushed pineapple, 1⁄2 c. coconut, or 2 c. chopped nuts may be added into mixture as a final step.",

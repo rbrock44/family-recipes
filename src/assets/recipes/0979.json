@@ -5,7 +5,8 @@
   "ingredients": [
     {
       "amount": 1.5,
-      "name": "lb. ground beef"
+      "unit": "lb",
+      "name": "ground beef"
     },
     {
       "amount": 2,
@@ -21,15 +22,18 @@
     },
     {
       "amount": 1,
-      "name": "can tomato soup"
+      "unit": "can",
+      "name": "tomato soup"
     },
     {
       "amount": 1,
-      "name": "can mushroom soup"
+      "unit": "can",
+      "name": "mushroom soup"
     },
     {
       "amount": 1,
-      "name": "can green peas"
+      "unit": "can",
+      "name": "green peas"
     },
     {
       "amount": 0,

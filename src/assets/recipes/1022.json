@@ -13,15 +13,18 @@
     },
     {
       "amount": 1,
-      "name": "pkg garlic cheese"
+      "unit": "pkg",
+      "name": "garlic cheese"
     },
     {
       "amount": 1,
-      "name": "can mushroom soup"
+      "unit": "can",
+      "name": "mushroom soup"
     },
     {
       "amount": 1,
-      "name": "stick butter"
+      "unit": "stick",
+      "name": "butter"
     }
   ],
   "instructions": "Cook broccoli and onion; drain. Add garlic cheese, mushroom soup, and butter.\n\nServe warm.",

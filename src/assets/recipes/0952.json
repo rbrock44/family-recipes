@@ -9,7 +9,8 @@
     },
     {
       "amount": 2,
-      "name": "cups celery"
+      "unit": "cup",
+      "name": "celery"
     },
     {
       "amount": 0.5,
@@ -25,7 +26,8 @@
     },
     {
       "amount": 1,
-      "name": "pkg. frozen peas"
+      "unit": "pkg",
+      "name": "frozen peas"
     },
     {
       "amount": 1,
@@ -33,19 +35,23 @@
     },
     {
       "amount": 1,
-      "name": "cup sour cream"
+      "unit": "cup",
+      "name": "sour cream"
     },
     {
       "amount": 1,
-      "name": "c. mayonnaise"
+      "unit": "cup",
+      "name": "mayonnaise"
     },
     {
       "amount": 2,
-      "name": "Tbsp. sugar"
+      "unit": "tbsp",
+      "name": "sugar"
     },
     {
       "amount": 0.5,
-      "name": "c. grated colby cheese (top layer)"
+      "unit": "cup",
+      "name": "grated colby cheese (top layer)"
     },
     {
       "amount": 12,

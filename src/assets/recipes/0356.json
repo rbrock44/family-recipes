@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "Tbsp. salad oil"
+         "unit": "tbsp",
+         "name": "salad oil"
       },
       {
          "amount": 1,
@@ -13,27 +14,33 @@
       },
       {
          "amount": 4,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 10.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 2,
-         "name": "c. diagonally sliced celery"
+         "unit": "cup",
+         "name": "diagonally sliced celery"
       },
       {
          "amount": 2,
-         "name": "c. diagonally sliced carrots"
+         "unit": "cup",
+         "name": "diagonally sliced carrots"
       },
       {
          "amount": 1,
-         "name": "c. regular long-grain rice "
+         "unit": "cup",
+         "name": "regular long-grain rice"
       },
       {
          "amount": 1,

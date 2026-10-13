@@ -9,7 +9,8 @@
       },
       {
          "amount": 1,
-         "name": "pkg. linguini noodles"
+         "unit": "pkg",
+         "name": "linguini noodles"
       },
       {
          "amount": 2,
@@ -17,15 +18,18 @@
       },
       {
          "amount": 2,
-         "name": "cans cream of mushroom soup"
+         "unit": "can",
+         "name": "cream of mushroom soup"
       },
       {
          "amount": 1,
-         "name": "c. Mozzarella cheese"
+         "unit": "cup",
+         "name": "Mozzarella cheese"
       },
       {
          "amount": 1,
-         "name": "c. chicken broth"
+         "unit": "cup",
+         "name": "chicken broth"
       }
    ],
    "instructions": "Boil chicken and cut into bite-size pieces. Cook noodles and drain. Spray 9 x 13 inch pan with Pam. Layer noodles, then chicken. Mix chicken broth and mushroom soup and then pour over chicken. Saute peppers for next layer. Top with cheese. Bake at 250° for 20 minutes or 350° for 10 minutes.",

@@ -3,16 +3,50 @@
   "author": "Roberta Wheeler - Anne Brock",
   "category": 6,
   "ingredients": [
-    { "amount": 1, "name": "box Butter Pecan cake mix" },
-    { "amount": 2, "name": "c. oatmeal" },
-    { "amount": 1, "name": "c. sugar" },
-    { "amount": 1, "name": "c. oil" },
-    { "amount": 2, "name": "eggs" },
-    { "amount": 2, "name": "tsp. vanilla" },
-    { "amount": 1, "name": "cup chopped pecans" },
-    { "amount": 0.5, "name": "cup dried cranberries" }
+    {
+      "amount": 1,
+      "unit": "box",
+      "name": "Butter Pecan cake mix"
+    },
+    {
+      "amount": 2,
+      "unit": "cup",
+      "name": "oatmeal"
+    },
+    {
+      "amount": 1,
+      "unit": "cup",
+      "name": "sugar"
+    },
+    {
+      "amount": 1,
+      "unit": "cup",
+      "name": "oil"
+    },
+    {
+      "amount": 2,
+      "name": "eggs"
+    },
+    {
+      "amount": 2,
+      "unit": "tsp",
+      "name": "vanilla"
+    },
+    {
+      "amount": 1,
+      "unit": "cup",
+      "name": "chopped pecans"
+    },
+    {
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "dried cranberries"
+    }
   ],
   "instructions": "Mix all and let set a few minutes so oatmeal absorbs oil.\nDrop by teaspoon onto cookie sheet. Bake 350°.\n\nSee also recipe #1048, another version of this recipe.",
-  "yield": { "amount": 5, "name": "dozen" },
+  "yield": {
+    "amount": 5,
+    "name": "dozen"
+  },
   "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1050.jpg"
 }

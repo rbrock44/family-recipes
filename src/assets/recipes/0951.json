@@ -5,35 +5,43 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "can green beans"
+      "unit": "can",
+      "name": "green beans"
     },
     {
       "amount": 1,
-      "name": "can wax beans"
+      "unit": "can",
+      "name": "wax beans"
     },
     {
       "amount": 1,
-      "name": "can kidney beans"
+      "unit": "can",
+      "name": "kidney beans"
     },
     {
       "amount": 0.5,
-      "name": "cup oil"
+      "unit": "cup",
+      "name": "oil"
     },
     {
       "amount": 0.5,
-      "name": "cup vinegar"
+      "unit": "cup",
+      "name": "vinegar"
     },
     {
       "amount": 0.75,
-      "name": "cup sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "teaspoon salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "teaspoon pepper"
+      "unit": "tsp",
+      "name": "pepper"
     },
     {
       "amount": 1,

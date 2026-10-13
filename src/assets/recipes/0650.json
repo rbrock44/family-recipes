@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. confectioners sugar"
+         "unit": "cup",
+         "name": "confectioners sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 3,
-         "name": "Tbsp. cream or milk"
+         "unit": "tbsp",
+         "name": "cream or milk"
       }
    ],
    "instructions": "Add vanilla to confections sugar. Add milk gradually and beat until frosting is of right consistency for decorating or spreading.",

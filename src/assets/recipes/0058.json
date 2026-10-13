@@ -13,7 +13,8 @@
       },
       {
          "amount": 1.5,
-         "name": "tsp. dill seed Pickles"
+         "unit": "tsp",
+         "name": "dill seed Pickles"
       }
    ],
    "instructions": "Add all ingredients to jars. Pour the hot liquid over the cucum- bers and then seal. Let the jars set for 3 weeks before using. Makes 4 quarts",

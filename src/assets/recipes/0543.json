@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box powdered sugar"
+         "unit": "box",
+         "name": "powdered sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. Crisco"
+         "unit": "cup",
+         "name": "Crisco"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0,
-         "name": "Pinch of salt"
+         "unit": "pinch",
+         "name": "of salt"
       },
       {
          "amount": 0.25,
-         "name": "c. water or milk"
+         "unit": "cup",
+         "name": "water or milk"
       }
    ],
    "instructions": "Beat together until smooth.",

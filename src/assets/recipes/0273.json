@@ -9,11 +9,13 @@
       },
       {
          "amount": 2,
-         "name": "lb. unpeeled potatoes, cut into large chunks"
+         "unit": "lb",
+         "name": "unpeeled potatoes, cut into large chunks"
       },
       {
          "amount": 0.33,
-         "name": "cup vegetable oil"
+         "unit": "cup",
+         "name": "vegetable oil"
       }
    ],
    "instructions": "Preheat oven to 450°. In large plastic bag, add all ingredients. Close bag and shake until potatoes are evenly coated. Empty potatoes into shallow baking pan. Bake stirring occasionally, 40 minutes or until potatoes are tender and golden brown.",

@@ -13,9 +13,10 @@
       },
       {
          "amount": 1,
-         "name": "pkg. taco seasoning"
+         "unit": "pkg",
+         "name": "taco seasoning"
       },
-	  {
+      {
          "amount": 0,
          "name": "Shredded lettuce"
       },
@@ -27,7 +28,7 @@
          "amount": 0,
          "name": "Chopped onions"
       },
-	  {
+      {
          "amount": 0,
          "name": "Shredded cheese"
       },

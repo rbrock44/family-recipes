@@ -29,7 +29,8 @@
       },
       {
          "amount": 10,
-         "name": "oz. frozen peas"
+         "unit": "oz",
+         "name": "frozen peas"
       },
       {
          "amount": 0,
@@ -41,7 +42,8 @@
       },
       {
          "amount": 8,
-         "name": "oz. shredded Cheddar cheese"
+         "unit": "oz",
+         "name": "shredded Cheddar cheese"
       }
    ],
    "instructions": "Layer each item in a large container.",

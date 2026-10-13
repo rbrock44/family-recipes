@@ -5,23 +5,27 @@
    "ingredients": [
       {
          "amount": 0.125,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 2,
-         "name": "Tbsp. mayonnaise"
+         "unit": "tbsp",
+         "name": "mayonnaise"
       },
       {
          "amount": 6,
          "name": "hard-cooked eggs"
       },
-	  {
+      {
          "amount": 1,
-         "name": "tsp. mustard"
+         "unit": "tsp",
+         "name": "mustard"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Shell the eggs, cut each in half and remove the yolks. Mash the yolks with a fork. Add all other ingredients to mashed yolks and mix until smooth. Fill the whites with the mixture.",

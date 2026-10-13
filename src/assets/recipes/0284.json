@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "c. diced potatoes"
+         "unit": "cup",
+         "name": "diced potatoes"
       },
       {
          "amount": 0,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. minced onion"
+         "unit": "tbsp",
+         "name": "minced onion"
       },
       {
          "amount": 0,
@@ -21,15 +23,18 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.5,
-         "name": "c. diced or grated cheese"
+         "unit": "cup",
+         "name": "diced or grated cheese"
       }
    ],
    "instructions": "Cook potatoes for about 10 minutes in boiling salted water. Drain, reserving 1 cup water. Place potatoes in baking dish. Saute onion in 4 Tbsp. of melted butter in a saucepan; blend in flour. Add reserved water and milk. Cook, stirring until thick. Remove from heat; add cheese, salt and pepper to taste. Stir. Pour over potatoes. Bake for 30 minutes at 350°.",

@@ -5,23 +5,28 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "c. grits"
+      "unit": "cup",
+      "name": "grits"
     },
     {
       "amount": 1,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 4,
-      "name": "c. water, to cook grits in"
+      "unit": "cup",
+      "name": "water, to cook grits in"
     },
     {
       "amount": 0.5,
-      "name": "stick butter"
+      "unit": "stick",
+      "name": "butter"
     },
     {
       "amount": 1,
-      "name": "pkg. garlic cheese"
+      "unit": "pkg",
+      "name": "garlic cheese"
     },
     {
       "amount": 1,
@@ -33,7 +38,8 @@
     },
     {
       "amount": 0.5,
-      "name": "tsp. red pepper"
+      "unit": "tsp",
+      "name": "red pepper"
     },
     {
       "amount": 0,

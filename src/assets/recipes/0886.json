@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "Tbs butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 0.5,
-         "name": "c. soy sauce"
+         "unit": "cup",
+         "name": "soy sauce"
       },
       {
          "amount": 1,
@@ -17,19 +19,23 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp onoin salt"
+         "unit": "tsp",
+         "name": "onoin salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp freshly ground pepper"
+         "unit": "tsp",
+         "name": "freshly ground pepper"
       },
       {
          "amount": 0.5,
-         "name": "tsp Tabasco"
+         "unit": "tsp",
+         "name": "Tabasco"
       },
       {
          "amount": 2,
-         "name": "Tbs Bourbon"
+         "unit": "tbsp",
+         "name": "Bourbon"
       },
       {
          "amount": 4,

@@ -9,27 +9,33 @@
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 4,
-         "name": "c. fresh berries"
+         "unit": "cup",
+         "name": "fresh berries"
       },
       {
          "amount": 0.66,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "c. cream"
+         "unit": "cup",
+         "name": "cream"
       },
       {
          "amount": 4,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       }
    ],
    "instructions": "Place berries in pie crust. Mix together and pour over berries the sugar, flour, salt, cinnamon and cream. Bake until crust is nicely browned and filling is set. Serve slightly warm Bake in 400° oven for 35 to 45 minutes. This recipe can be used for blackberries, blueberries, raspberries, peaches and rhubarb.",

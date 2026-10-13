@@ -17,11 +17,13 @@
       },
       {
          "amount": 2,
-         "name": "c. catsup"
+         "unit": "cup",
+         "name": "catsup"
       },
       {
          "amount": 1,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 2,
@@ -29,7 +31,8 @@
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       }
    ],
    "instructions": "Brown ground beef, onions and bell pepper. Pour off excess grease. Combine all other ingredients and cook over medium heat for 10 to 15 minutes. Serve with green salad and rolls. This is a quick meal for someone on the go.",

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 8,
-         "name": "oz. tomato sauce"
+         "unit": "oz",
+         "name": "tomato sauce"
       },
       {
          "amount": 0,

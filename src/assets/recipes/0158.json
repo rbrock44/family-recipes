@@ -9,19 +9,23 @@
       },
       {
          "amount": 1,
-         "name": "c. sliced mushrooms"
+         "unit": "cup",
+         "name": "sliced mushrooms"
       },
       {
          "amount": 0.33,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 2,
-         "name": "Tbsp. margarine"
+         "unit": "tbsp",
+         "name": "margarine"
       },
       {
          "amount": 2,
-         "name": "Tbsp. dry bread crumbs"
+         "unit": "tbsp",
+         "name": "dry bread crumbs"
       },
       {
          "amount": 1,
@@ -29,15 +33,18 @@
       },
       {
          "amount": 0.5,
-         "name": "c. shredded Cheddar cheese"
+         "unit": "cup",
+         "name": "shredded Cheddar cheese"
       },
       {
          "amount": 0.25,
-         "name": "tsp. white pepper"
+         "unit": "tsp",
+         "name": "white pepper"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 5,
@@ -45,19 +52,23 @@
       },
       {
          "amount": 0.5,
-         "name": "c. real mayonnaise"
+         "unit": "cup",
+         "name": "real mayonnaise"
       },
       {
          "amount": 0.5,
-         "name": "c. whipping cream"
+         "unit": "cup",
+         "name": "whipping cream"
       },
       {
          "amount": 2,
-         "name": "Tbsp. minced parsley"
+         "unit": "tbsp",
+         "name": "minced parsley"
       },
       {
          "amount": 1,
-         "name": "tsp. Dijon mustard"
+         "unit": "tsp",
+         "name": "Dijon mustard"
       }
    ],
    "instructions": "Roll pastry into 12 inch circle and place in a 10 inch quiche pan. Bake at 425° for 10 minutes or until crust is golden brown. Cool. Saute mushrooms and onions in margarine in medium skillet until tender, about 8 minutes. Sprinkle bread crumbs in bottom of crust. Sprinkle with cheese and mushrooms. Mix remaining ingredients until blended. Pour into crust and bake at 375° for 50 to 55 minutes, or until knife inserted between edge and middle comes clean.",

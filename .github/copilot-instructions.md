@@ -19,6 +19,10 @@ served from GitHub Pages at `family-recipes.ryan-brock.com`. No backend of its o
 - One recipe per file: `src/assets/recipes/NNNN.json`, zero-padded, numbered in order. The number is the recipe id
   and its `filename`. Shape is `Recipe` in `src/app/models/recipe.interface.ts`; `src/assets/recipe-format.json`
   is a sample. `category` is the `Category` enum in `src/app/models/category.enum.ts`
+- An ingredient's unit is its own canonical `unit` field (`cup`, `tsp`, `tbsp`, `lb`...), not part of `name`;
+  `utils/ingredient-unit.util.ts` parses and labels units. Both recipe pipelines split units before writing, and
+  `npm run recipes:split-units` does it for any file added by hand. That util is also `require`d by the Node
+  scripts (Node strips the types), so keep it import-free with no enums
 - `scripts/combineRecipes.js` merges every file into `src/assets/recipes.json` (gitignored, never commit it) and
   adds `filename`. The app fetches that one file; prerendering reads it from disk via `recipe-index.server.ts`
 - New recipes arrive two ways:

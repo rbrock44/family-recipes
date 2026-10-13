@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "lb. almond bark"
+         "unit": "lb",
+         "name": "almond bark"
       },
       {
          "amount": 1,
-         "name": "c. crunchy peanut butter"
+         "unit": "cup",
+         "name": "crunchy peanut butter"
       },
       {
          "amount": 2,
-         "name": "c. salted peanuts"
+         "unit": "cup",
+         "name": "salted peanuts"
       },
       {
          "amount": 2,
-         "name": "c. miniature marshmallows"
+         "unit": "cup",
+         "name": "miniature marshmallows"
       },
       {
          "amount": 3,
-         "name": "c. rice crispies"
+         "unit": "cup",
+         "name": "rice crispies"
       }
    ],
    "instructions": "Melt the almond bark. Add rest of ingredients. Drop by teaspoons on foil to cool.",

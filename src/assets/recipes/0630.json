@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 2,
-         "name": "c. brown sugar, firmly packed"
+         "unit": "cup",
+         "name": "brown sugar, firmly packed"
       },
       {
          "amount": 1,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 2,
@@ -33,11 +39,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 3,
-         "name": "c. quick cooking oats"
+         "unit": "cup",
+         "name": "quick cooking oats"
       }
    ],
    "instructions": "Sift flour, salt, baking powder and soda together. Cream shortening and brown sugar. Add beaten eggs and vanilla and beat well. Stir in sifted dry ingredients and oats. Chill dough. Form into little balls the size of a walnut. Roll in powdered sugar until heavily coated. Place 2 inches apart on greased cookie sheet. Put pecan in center of each. Bake at 350° for 10 to 12 minutes.",

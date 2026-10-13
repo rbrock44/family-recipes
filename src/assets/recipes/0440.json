@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. cake flour, sift before measuring"
+         "unit": "cup",
+         "name": "cake flour, sift before measuring"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.75,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar, sifted"
+         "unit": "cup",
+         "name": "sugar, sifted"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 2,
@@ -33,15 +39,18 @@
       },
       {
          "amount": 1,
-         "name": "c. mashed ripe bananas"
+         "unit": "cup",
+         "name": "mashed ripe bananas"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.25,
-         "name": "c. buttermilk or yogurt"
+         "unit": "cup",
+         "name": "buttermilk or yogurt"
       }
    ],
    "instructions": "Preheat oven to 350°. Sift cake flour, baking powder, baking soda and salt. Cream butter and add sugar, mixing until very light. Beat in eggs one at a time. Mix together bananas and vanilla and buttermilk or yogurt. Add the flour mixture to the butter mixture in about 3 parts, alternating with thirds of the banana mixture. Stir the batter after each addition until smooth. Bake in greased pans for about 1/2 an hour. When cool, place between the layers: 2 sliced ripe bananas and spread the cake with a white icing.",

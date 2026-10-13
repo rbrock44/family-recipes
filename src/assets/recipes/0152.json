@@ -9,15 +9,18 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. garlic salt"
+         "unit": "tbsp",
+         "name": "garlic salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. black pepper"
+         "unit": "tsp",
+         "name": "black pepper"
       },
       {
          "amount": 8,
-         "name": "oz. uncooked elbow macaroni"
+         "unit": "oz",
+         "name": "uncooked elbow macaroni"
       },
       {
          "amount": 0.5,
@@ -33,7 +36,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,

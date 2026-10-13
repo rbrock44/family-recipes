@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "pkgs active dry yeast"
+         "unit": "pkg",
+         "name": "active dry yeast"
       },
       {
          "amount": 1,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 3.5,
-         "name": "oz pakage instant vanilla pudding mix"
+         "unit": "oz",
+         "name": "pakage instant vanilla pudding mix"
       },
       {
          "amount": 0.25,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 0.5,
-         "name": "t. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,

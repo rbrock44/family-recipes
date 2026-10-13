@@ -5,31 +5,38 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "can (1 lb.) Pork & Beans"
+      "unit": "can",
+      "name": "(1 lb.) Pork & Beans"
     },
     {
       "amount": 0.5,
-      "name": "can dry onion soup mix"
+      "unit": "can",
+      "name": "dry onion soup mix"
     },
     {
       "amount": 1,
-      "name": "Tbsp. brown sugar"
+      "unit": "tbsp",
+      "name": "brown sugar"
     },
     {
       "amount": 2,
-      "name": "Tbsp. prepared mustard"
+      "unit": "tbsp",
+      "name": "prepared mustard"
     },
     {
       "amount": 3,
-      "name": "Tbsp. catsup"
+      "unit": "tbsp",
+      "name": "catsup"
     },
     {
       "amount": 1,
-      "name": "Tbsp. vinegar"
+      "unit": "tbsp",
+      "name": "vinegar"
     },
     {
       "amount": 1,
-      "name": "lb. wieners"
+      "unit": "lb",
+      "name": "wieners"
     }
   ],
   "instructions": "Place Pork & Beans in 1-qt. casserole; add next 5 ingredients; mix well. Bake uncovered 15 minutes at 375°. Cut wieners in half and stand around edge of casserole. Return to oven; bake 15 minutes longer. Makes 4 servings.",

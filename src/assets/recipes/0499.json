@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "stick butter or shortening"
+         "unit": "stick",
+         "name": "butter or shortening"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 2,
@@ -25,23 +29,28 @@
       },
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. raisins"
+         "unit": "cup",
+         "name": "raisins"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       }
    ],
    "instructions": "Mix oatmeal and boiling water: let cool. Cream butter and sug- ars. Add eggs, vanilla and oatmeal. Sift flour, soda and salt. Fold into mixture, then add cinnamon and raisins. Bake about 40 minutes at 350°.\nFor Chocolate Oatmeal Cake: Same as above except: add 1 1/2 c. sugar, 1 c. flour, 1?2 c. cocoa, 1?2 tsp. salt and omit cinnamon and raisins.",

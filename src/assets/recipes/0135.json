@@ -1,31 +1,37 @@
 {
    "name": "Pepper Steak",
    "author": "R. Parker",
-   "category": 3                                  ,
+   "category": 3,
    "ingredients": [
       {
          "amount": 3,
-         "name": "c. thinly sliced round steak"
+         "unit": "cup",
+         "name": "thinly sliced round steak"
       },
       {
          "amount": 1,
-         "name": "Tbsp. paprika"
+         "unit": "tbsp",
+         "name": "paprika"
       },
       {
          "amount": 1,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 2,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 1.5,
-         "name": "c. beef broth"
+         "unit": "cup",
+         "name": "beef broth"
       },
       {
          "amount": 1,
-         "name": "c. sliced onion"
+         "unit": "cup",
+         "name": "sliced onion"
       },
       {
          "amount": 2,
@@ -33,15 +39,18 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 0.25,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0.25,
-         "name": "c. soy sauce"
+         "unit": "cup",
+         "name": "soy sauce"
       },
       {
          "amount": 2,

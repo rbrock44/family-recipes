@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. active dry yeast"
+         "unit": "pkg",
+         "name": "active dry yeast"
       },
       {
          "amount": 0.75,
-         "name": "c. mashed potatoes"
+         "unit": "cup",
+         "name": "mashed potatoes"
       },
       {
          "amount": 5,
@@ -17,23 +19,28 @@
       },
       {
          "amount": 0.5,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 1,
-         "name": "c. milk, scalded"
+         "unit": "cup",
+         "name": "milk, scalded"
       },
       {
          "amount": 0.5,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 0.25,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
@@ -41,15 +48,18 @@
       },
       {
          "amount": 1,
-         "name": "lb. confectioners sugar"
+         "unit": "lb",
+         "name": "confectioners sugar"
       },
       {
          "amount": 6,
-         "name": "Tbsp. water"
+         "unit": "tbsp",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "Tbsp. vanilla"
+         "unit": "tbsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Dissolve yeast in warm water. Combine milk, shortening, sugar and salt. Cool until lukewarm. Stir in yeast, potatoes and eggs. Gradually add enough flour to make soft dough. Turn onto floured surface; knead until smooth and satiny. Place in lightly greased bowl; turn over to grease top. Cover. Let rise in a warm place until doubled, 1 and 1/2 hours. Roll out to 1?2 inch thickness, cut with donut cutter. Cover; let rise until doubled (about 30 minutes). Meanwhile, stir confec- tioners sugar, water and vanilla together. Fry donuts in deep hot fat (375°). Drain on absorbent paper towel. Drop hot donuts in glaze.",

@@ -9,7 +9,8 @@
       },
       {
          "amount": 12,
-         "name": "lb. sugar, dissolved in warm water"
+         "unit": "lb",
+         "name": "sugar, dissolved in warm water"
       },
       {
          "amount": 3,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 4,
-         "name": "lb. sand, tied in cloth"
+         "unit": "lb",
+         "name": "sand, tied in cloth"
       }
    ],
    "instructions": "Pour cherries into 5 gallon jug and add sugar. Fill remainder of jug to overflowing with water. Cover the opening of the jug with leaves, weighing them down with sand. Place in basement for fermentation. More or less cherries than above amount will produce a darker or lighter wine, respectively.",

@@ -13,7 +13,8 @@
     },
     {
       "amount": 0.33,
-      "name": "cup oil (crust)"
+      "unit": "cup",
+      "name": "oil (crust)"
     },
     {
       "amount": 1,
@@ -21,11 +22,13 @@
     },
     {
       "amount": 0.33,
-      "name": "cup sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "teaspoon lemon juice"
+      "unit": "tsp",
+      "name": "lemon juice"
     },
     {
       "amount": 1,

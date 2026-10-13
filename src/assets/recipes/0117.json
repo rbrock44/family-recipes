@@ -1,31 +1,37 @@
 {
    "name": "French Dressing",
    "author": "Annita Layton",
-   "category": 2                                  ,
+   "category": 2,
    "ingredients": [
       {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       },
       {
          "amount": 6,
-         "name": "Tbsp. vinegar"
+         "unit": "tbsp",
+         "name": "vinegar"
       },
       {
          "amount": 0.5,
-         "name": "c. plus 2 Tbsp. sugar"
+         "unit": "cup",
+         "name": "plus 2 Tbsp. sugar"
       },
       {
          "amount": 1.5,
-         "name": "tsp. paprika"
+         "unit": "tsp",
+         "name": "paprika"
       },
       {
          "amount": 0.25,
-         "name": "c. onion"
+         "unit": "cup",
+         "name": "onion"
       },
       {
          "amount": 0.25,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       }
    ],
    "instructions": "Mix in blender. Chill well before serving.",

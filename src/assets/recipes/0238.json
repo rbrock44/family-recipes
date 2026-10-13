@@ -9,23 +9,28 @@
       },
       {
          "amount": 3,
-         "name": "Tbsp. lemon extract"
+         "unit": "tbsp",
+         "name": "lemon extract"
       },
       {
          "amount": 0.5,
-         "name": "c. Dijon mustard"
+         "unit": "cup",
+         "name": "Dijon mustard"
       },
       {
          "amount": 0.5,
-         "name": "c. honey"
+         "unit": "cup",
+         "name": "honey"
       },
       {
          "amount": 2,
-         "name": "tsp. paprika"
+         "unit": "tsp",
+         "name": "paprika"
       },
       {
          "amount": 1,
-         "name": "Tbsp. dried basil"
+         "unit": "tbsp",
+         "name": "dried basil"
       },
       {
          "amount": 0,

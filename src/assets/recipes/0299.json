@@ -13,27 +13,33 @@
       },
       {
          "amount": 0.5,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 0.33,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       },
       {
          "amount": 1,
-         "name": "c. orange juice"
+         "unit": "cup",
+         "name": "orange juice"
       },
       {
          "amount": 2,
-         "name": "Tbsp. grated orange rind "
+         "unit": "tbsp",
+         "name": "grated orange rind"
       },
       {
          "amount": 0.33,
-         "name": "c. Sherry (optional)"
+         "unit": "cup",
+         "name": "Sherry (optional)"
       },
       {
          "amount": 2,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       }
    ],
    "instructions": "Cook sweet potatoes in boiling salt water until tender. Peel and cut in half lengthwise. Place in 1 1/2 quart shallow casserole one layer thick. Sprinkle with sugar and pecans. Pour on orange juice, rind and Sherry. Dot with butter. Cover and bake in preheated oven, 350° for Shirley Drury 45 minutes or until juice has cooked into potatoes.",

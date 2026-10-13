@@ -13,7 +13,8 @@
       },
       {
          "amount": 1,
-         "name": "c. corn meal"
+         "unit": "cup",
+         "name": "corn meal"
       },
       {
          "amount": 0,

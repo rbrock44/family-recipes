@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sifted powdered sugar"
+         "unit": "cup",
+         "name": "sifted powdered sugar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. orange juice"
+         "unit": "tbsp",
+         "name": "orange juice"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Stir together. Stir in more orange juice, a teaspoon at a time, until glaze is of drizzling consistency.",

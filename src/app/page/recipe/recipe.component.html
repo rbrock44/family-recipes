@@ -154,12 +154,12 @@
               [ngClass]="shouldUnderline(ing)"
             >
               @if (!hasFraction(getIngredientDisplay(ing))) {
-                <span>{{ getIngredientDisplay(ing) }} {{ ing.name }}</span>
+                <span>{{ getIngredientDisplay(ing) }} {{ ingredientLabel(ing) }}</span>
               }
               @if (hasFraction(getIngredientDisplay(ing))) {
                 <app-fraction
                   before="{{ getIngredientDisplay(ing).split(' ')[0] }}"
-                  after="{{ ing.name }}"
+                  after="{{ ingredientLabel(ing) }}"
                   fraction="{{ getIngredientDisplay(ing).split(' ')[1] }}"
                 ></app-fraction>
               }
@@ -176,12 +176,12 @@
               [ngClass]="shouldUnderline(ing)"
             >
               @if (!hasFraction(getIngredientDisplay(ing))) {
-                <span>{{ getIngredientDisplay(ing) }} {{ ing.name }}</span>
+                <span>{{ getIngredientDisplay(ing) }} {{ ingredientLabel(ing) }}</span>
               }
               @if (hasFraction(getIngredientDisplay(ing))) {
                 <app-fraction
                   before="{{ getIngredientDisplay(ing).split(' ')[0] }}"
-                  after="{{ ing.name }}"
+                  after="{{ ingredientLabel(ing) }}"
                   fraction="{{ getIngredientDisplay(ing).split(' ')[1] }}"
                 ></app-fraction>
               }

@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. Instant Minced Onion"
+         "unit": "tsp",
+         "name": "Instant Minced Onion"
       },
       {
          "amount": 0.5,
-         "name": "tsp. Instant Minced Garlic"
+         "unit": "tsp",
+         "name": "Instant Minced Garlic"
       },
       {
          "amount": 1,
-         "name": "tsp. Worcestershire sauce"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 1.5,
-         "name": "tsp. Season-All"
+         "unit": "tsp",
+         "name": "Season-All"
       },
       {
          "amount": 2.5,
-         "name": "c. noodles"
+         "unit": "cup",
+         "name": "noodles"
       },
       {
          "amount": 1,
-         "name": "c. cottage cheese"
+         "unit": "cup",
+         "name": "cottage cheese"
       },
       {
          "amount": 1,
-         "name": "c. cottage cheese"
+         "unit": "cup",
+         "name": "cottage cheese"
       },
       {
          "amount": 1,
-         "name": "Dash ground Red Pepper"
+         "unit": "dash",
+         "name": "ground Red Pepper"
       },
       {
          "amount": 0.33,
-         "name": "c. grated Cheddar cheese"
+         "unit": "cup",
+         "name": "grated Cheddar cheese"
       }
    ],
    "instructions": "Cook noodles as directed on package; drain. Combine noodles with remaining ingredients except grated cheese. Put in buttered 1 1/2 quart casserole; sprinkle top with grated Cheddar cheese. Bake in 350° oven for 30 minutes or until heated through and bubbly and cheese has melted.",

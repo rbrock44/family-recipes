@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "cup sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.75,
-         "name": "cup evaporated milk"
+         "unit": "cup",
+         "name": "evaporated milk"
       },
       {
          "amount": 3,
@@ -21,11 +23,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp ground cinnamon"
+         "unit": "tsp",
+         "name": "ground cinnamon"
       },
       {
          "amount": 1,
-         "name": "tsp pumpkin pie spice"
+         "unit": "tsp",
+         "name": "pumpkin pie spice"
       },
       {
          "amount": 1,

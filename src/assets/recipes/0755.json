@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. rice, cooked"
+         "unit": "cup",
+         "name": "rice, cooked"
       },
       {
          "amount": 4,
@@ -13,23 +14,28 @@
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 3,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       }
    ],
    "instructions": "Mix all ingredients together. Put in oven and bake. Stirring sev- eral times until it thickens. If it is real thick when you mix altogether, add a little more milk. It will thicken while baking. You can add raisins, too.",

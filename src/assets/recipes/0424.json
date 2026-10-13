@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. egg whites"
+         "unit": "cup",
+         "name": "egg whites"
       },
       {
          "amount": 1.5,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. cake flour"
+         "unit": "cup",
+         "name": "cake flour"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.25,
-         "name": "tsp. almond flavoring"
+         "unit": "tsp",
+         "name": "almond flavoring"
       },
       {
          "amount": 1.5,
-         "name": "tsp. cream of tartar"
+         "unit": "tsp",
+         "name": "cream of tartar"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Sift together flour and powdered sugar 3 times. Set aside. Beat egg whites, cream of tarter, and salt until foamy. Gradually add 1 tablespoon of sugar at a time and beat until very stiff. Fold in vanilla and almond. Sift 1/4 of flour and powdered sugar at a time and fold in gently. Pour in pan. Bake at 375° for 30 to 35 minutes.",

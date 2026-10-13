@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. (1/2 lb.) ham cubes"
+         "unit": "cup",
+         "name": "(1/2 lb.) ham cubes"
       },
       {
          "amount": 1,
@@ -13,19 +14,23 @@
       },
       {
          "amount": 3,
-         "name": "Tbsp. chopped onions"
+         "unit": "tbsp",
+         "name": "chopped onions"
       },
       {
          "amount": 2,
-         "name": "c. shredded Swiss cheese"
+         "unit": "cup",
+         "name": "shredded Swiss cheese"
       },
       {
          "amount": 1.5,
-         "name": "c. scalded milk"
+         "unit": "cup",
+         "name": "scalded milk"
       },
       {
          "amount": 0.125,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
@@ -37,7 +42,8 @@
       },
       {
          "amount": 0.125,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       }
    ],
    "instructions": "Cook, drain and chop broccoli. Layer half of broccoli, ham and cheese in shell. Repeat with second half. Sprinkle onion over it and set aside. Gradually stir milk into eggs and add seasonings. Pour into pastry shell and bake at 450° for 10 minutes. Reduce heat to 325° and cook 35 minutes. Let stand a few minutes before serving.",
@@ -46,4 +52,3 @@
       "name": ""
    }
 }
-

@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 0.5,
-      "name": "c. horseradish"
+      "unit": "cup",
+      "name": "horseradish"
     },
     {
       "amount": 0.25,
-      "name": "c sweet relish"
+      "unit": "cup",
+      "name": "sweet relish"
     },
     {
       "amount": 3,
-      "name": "c catsup"
+      "unit": "cup",
+      "name": "catsup"
     }
   ],
   "instructions": "",

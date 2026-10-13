@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. Miracle Whip"
+         "unit": "cup",
+         "name": "Miracle Whip"
       },
       {
          "amount": 0.5,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 0.25,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 0,
@@ -21,11 +24,13 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. mustard"
+         "unit": "tsp",
+         "name": "mustard"
       }
    ],
    "instructions": "Pour over cut up vegetables. Refrigerate.",

@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "cup heavy cream, chilled"
+      "unit": "cup",
+      "name": "heavy cream, chilled"
     },
     {
       "amount": 0.25,
-      "name": "cup unsifted confectioners sugar"
+      "unit": "cup",
+      "name": "unsifted confectioners sugar"
     },
     {
       "amount": 1,
-      "name": "t. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     }
   ],
   "instructions": "",

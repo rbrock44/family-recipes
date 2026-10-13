@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
@@ -13,35 +14,43 @@
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 2,
-         "name": "c. rhubarb (diced)"
+         "unit": "cup",
+         "name": "rhubarb (diced)"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "c. sour milk"
+         "unit": "cup",
+         "name": "sour milk"
       },
       {
          "amount": 0,
-         "name": "Pinch of salt"
+         "unit": "pinch",
+         "name": "of salt"
       }
    ],
    "instructions": "Mix 1/2 of sugar with rhubarb, let stand until shortening is creamed. Mix all ingredients together well then add rhubarb, stir well. Pour into greased and floured pan. Bake at 350° for 30 to 35 minutes. Prepare topping and pour on cooled cake.",

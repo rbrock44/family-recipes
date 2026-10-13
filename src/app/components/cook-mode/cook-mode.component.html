@@ -53,10 +53,10 @@
                   <app-fraction
                     [before]="amount(ingredient).split(' ')[0]"
                     [fraction]="amount(ingredient).split(' ')[1]"
-                    [after]="ingredient.name"
+                    [after]="label(ingredient)"
                   ></app-fraction>
                 } @else {
-                  {{ amount(ingredient) }} {{ ingredient.name }}
+                  {{ amount(ingredient) }} {{ label(ingredient) }}
                 }
               </span>
             </button>

@@ -5,19 +5,23 @@
   "ingredients": [
     {
       "amount": 0.5,
-      "name": "cup melted butter"
+      "unit": "cup",
+      "name": "melted butter"
     },
     {
       "amount": 0.25,
-      "name": "cup sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1.25,
-      "name": "cup sifted flour"
+      "unit": "cup",
+      "name": "sifted flour"
     },
     {
       "amount": 1,
-      "name": "cup well-drained crushed pineapple"
+      "unit": "cup",
+      "name": "well-drained crushed pineapple"
     },
     {
       "amount": 1,
@@ -25,15 +29,18 @@
     },
     {
       "amount": 1,
-      "name": "tablespoon melted butter (topping)"
+      "unit": "tbsp",
+      "name": "melted butter (topping)"
     },
     {
       "amount": 1.5,
-      "name": "cup coconut (topping)"
+      "unit": "cup",
+      "name": "coconut (topping)"
     },
     {
       "amount": 1,
-      "name": "cup sugar (topping)"
+      "unit": "cup",
+      "name": "sugar (topping)"
     }
   ],
   "instructions": "Mix and press into 8 or 9-inch square pan. Bake at 350°F. for 15 minutes. Cool slightly. Spread evenly with one cup well-drained crushed pineapple.\n\nTopping:\nMix topping ingredients together and spread over top of pineapple. Bake another 20-30 minutes at 350°F. or until browned.",

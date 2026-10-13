@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. cornstarch"
+         "unit": "cup",
+         "name": "cornstarch"
       },
       {
          "amount": 0.5,
@@ -13,19 +14,23 @@
       },
       {
          "amount": 0.5,
-         "name": "c. salt"
+         "unit": "cup",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. soap flakes"
+         "unit": "cup",
+         "name": "soap flakes"
       },
       {
          "amount": 4,
-         "name": "c. hot water"
+         "unit": "cup",
+         "name": "hot water"
       },
       {
          "amount": 1,
-         "name": "Tbsp. glycerin"
+         "unit": "tbsp",
+         "name": "glycerin"
       },
       {
          "amount": 0,

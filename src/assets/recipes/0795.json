@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. rum"
+         "unit": "cup",
+         "name": "rum"
       },
       {
          "amount": 9,
-         "name": "c. hot water"
+         "unit": "cup",
+         "name": "hot water"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -25,7 +28,8 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. instant tea"
+         "unit": "tbsp",
+         "name": "instant tea"
       },
       {
          "amount": 3,

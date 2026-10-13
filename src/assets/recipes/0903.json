@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "tsp baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.75,
-         "name": "c. room temp butter"
+         "unit": "cup",
+         "name": "room temp butter"
       },
       {
          "amount": 1.5,
-         "name": "c. whole milk ricotta"
+         "unit": "cup",
+         "name": "whole milk ricotta"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 3,

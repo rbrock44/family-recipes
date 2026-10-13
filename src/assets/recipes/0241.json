@@ -17,19 +17,23 @@
       },
       {
          "amount": 3,
-         "name": "Tbsp. all-purpose flour"
+         "unit": "tbsp",
+         "name": "all-purpose flour"
       },
       {
          "amount": 1,
-         "name": "tsp. paprika"
+         "unit": "tsp",
+         "name": "paprika"
       },
       {
          "amount": 6,
-         "name": "Tbsp. butter or margarine"
+         "unit": "tbsp",
+         "name": "butter or margarine"
       },
       {
          "amount": 0.5,
-         "name": "c. dry white wine"
+         "unit": "cup",
+         "name": "dry white wine"
       },
       {
          "amount": 1,
@@ -37,11 +41,13 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 1,
-         "name": "c. heavy or whipping cream"
+         "unit": "cup",
+         "name": "heavy or whipping cream"
       }
    ],
    "instructions": "",

@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. Good Seasons Zesty Italian Mix"
+         "unit": "pkg",
+         "name": "Good Seasons Zesty Italian Mix"
       },
       {
          "amount": 2,
-         "name": "Tbsp. artichoke heart water"
+         "unit": "tbsp",
+         "name": "artichoke heart water"
       },
       {
          "amount": 0.5,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 0.25,
-         "name": "c. Regina red wine vinegar with garlic"
+         "unit": "cup",
+         "name": "Regina red wine vinegar with garlic"
       }
    ],
    "instructions": "",

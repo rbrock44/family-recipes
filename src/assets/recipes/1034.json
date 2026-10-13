@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 3,
-      "name": "lb powdered sugar, approximately"
+      "unit": "lb",
+      "name": "powdered sugar, approximately"
     },
     {
       "amount": 0.5,
-      "name": "lb butter (2 sticks)"
+      "unit": "lb",
+      "name": "butter (2 sticks)"
     },
     {
       "amount": 1,
-      "name": "can Eagle Brand milk"
+      "unit": "can",
+      "name": "Eagle Brand milk"
     },
     {
       "amount": 0,

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "Tbsp. cooking oil (peanut or Mazola)"
+         "unit": "tbsp",
+         "name": "cooking oil (peanut or Mazola)"
       },
       {
          "amount": 3,
@@ -21,11 +22,13 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. soy sauce"
+         "unit": "tbsp",
+         "name": "soy sauce"
       },
       {
          "amount": 1,
-         "name": "c. cooked, diced shrimp or 1 c. cooked, diced"
+         "unit": "cup",
+         "name": "cooked, diced shrimp or 1 c. cooked, diced"
       },
       {
          "amount": 0,

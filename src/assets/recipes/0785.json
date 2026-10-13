@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. melted oleo"
+         "unit": "cup",
+         "name": "melted oleo"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       },
       {
          "amount": 8,
-         "name": "oz. cream cheese, softened"
+         "unit": "oz",
+         "name": "cream cheese, softened"
       },
       {
          "amount": 1,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 2,
-         "name": "c. Cool Whip"
+         "unit": "cup",
+         "name": "Cool Whip"
       },
       {
          "amount": 2,
@@ -33,11 +39,13 @@
       },
       {
          "amount": 3,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0,

@@ -13,15 +13,18 @@
       },
       {
          "amount": 0.75,
-         "name": "c. sour cream"
+         "unit": "cup",
+         "name": "sour cream"
       },
       {
          "amount": 3,
-         "name": "Tbsp. cider vinegar"
+         "unit": "tbsp",
+         "name": "cider vinegar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 0,

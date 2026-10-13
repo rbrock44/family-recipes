@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "qt. blackberries, fresh or frozen"
+         "unit": "qt",
+         "name": "blackberries, fresh or frozen"
       },
       {
          "amount": 2,
-         "name": "qt. water"
+         "unit": "qt",
+         "name": "water"
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "c. Crisco"
+         "unit": "cup",
+         "name": "Crisco"
       },
       {
          "amount": 3,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 2,

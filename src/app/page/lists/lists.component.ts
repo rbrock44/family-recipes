@@ -6,6 +6,7 @@ import {
   AggregatedIngredient,
   aggregateIngredients,
 } from 'src/app/models/ingredient-aggregator';
+import { ingredientText } from 'src/app/utils/ingredient-unit.util';
 import { encodeSharedList } from 'src/app/models/list-share';
 import {
   pickRandomRecipe,
@@ -372,6 +373,10 @@ export class ListsComponent implements OnInit {
 
   getIngredientDisplay(ingredient: AggregatedIngredient): string {
     return formatAmount(ingredient.amount);
+  }
+
+  ingredientLabel(ingredient: AggregatedIngredient): string {
+    return ingredientText(ingredient, ingredient.amount);
   }
 
   hasFraction(value: string): boolean {

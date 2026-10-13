@@ -9,7 +9,8 @@
       },
       {
          "amount": 2,
-         "name": "pkg. Spring egg roll wrappers, square"
+         "unit": "pkg",
+         "name": "Spring egg roll wrappers, square"
       },
       {
          "amount": 1,
@@ -17,15 +18,18 @@
       },
       {
          "amount": 1,
-         "name": "lb. carrots, grated"
+         "unit": "lb",
+         "name": "carrots, grated"
       },
       {
          "amount": 1,
-         "name": "lb. pork sausage (ground pork shoulder, etc.)"
+         "unit": "lb",
+         "name": "pork sausage (ground pork shoulder, etc.)"
       },
       {
          "amount": 0.5,
-         "name": "pkg. fresh mushrooms or 1 large can"
+         "unit": "pkg",
+         "name": "fresh mushrooms or 1 large can"
       },
       {
          "amount": 1,

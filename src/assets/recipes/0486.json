@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box yellow cake mix"
+         "unit": "box",
+         "name": "yellow cake mix"
       },
       {
          "amount": 3,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 1,
-         "name": "stick of margarine, melted"
+         "unit": "stick",
+         "name": "of margarine, melted"
       },
       {
          "amount": 1,
@@ -21,11 +23,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 3.75,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       }
    ],
    "instructions": "Mix together cake mix, 1 egg, and margarine and press into greased 9 x 13 inch pan. Blend cream cheese, 2 eggs, vanilla, and powdered sugar. Pour mixture over cake and bake for 30 to 35 minutes at 350°. Sprinkle with powdered sugar.",

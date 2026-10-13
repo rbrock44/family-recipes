@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 1,
-         "name": "c. cherries"
+         "unit": "cup",
+         "name": "cherries"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. white syrup"
+         "unit": "cup",
+         "name": "white syrup"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
@@ -33,7 +39,8 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Chop nuts coarsely, cut up cherries fine. Combine sugar, syrup, water and salt in a pan. Cook without stirring until hard boil stage. Beat egg whites until stiff enough to hold peaks but not stiff enough to cling to bowl. Pour the syrup in a very thin stream, slowly, onto the beaten egg whites, beating constantly. Continue beating until it is so thick you can pick up the mixture on the beater. Then mix in vanilla, nuts, and cherries. Drop from a teaspoon onto waxed paper.",

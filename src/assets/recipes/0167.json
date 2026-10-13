@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "lb. ground meat"
+         "unit": "lb",
+         "name": "ground meat"
       },
       {
          "amount": 1,
@@ -13,19 +14,23 @@
       },
       {
          "amount": 1,
-         "name": "c. chopped pimento olives"
+         "unit": "cup",
+         "name": "chopped pimento olives"
       },
       {
          "amount": 3,
-         "name": "Tbsp. garlic cloves"
+         "unit": "tbsp",
+         "name": "garlic cloves"
       },
       {
          "amount": 1,
-         "name": "Tbsp. vinegar"
+         "unit": "tbsp",
+         "name": "vinegar"
       },
       {
          "amount": 3,
-         "name": "Tbsp. chili powder"
+         "unit": "tbsp",
+         "name": "chili powder"
       },
       {
          "amount": 0,
@@ -33,15 +38,18 @@
       },
       {
          "amount": 1,
-         "name": "c. cold water"
+         "unit": "cup",
+         "name": "cold water"
       },
       {
          "amount": 2,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "c. Cheddar cheese, grated"
+         "unit": "cup",
+         "name": "Cheddar cheese, grated"
       },
       {
          "amount": 3,

@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "lb. thin sliced beef strips"
+         "unit": "lb",
+         "name": "thin sliced beef strips"
       },
       {
          "amount": 2,
-         "name": "Tbsp. cooking oil"
+         "unit": "tbsp",
+         "name": "cooking oil"
       },
       {
          "amount": 0,
@@ -17,15 +19,18 @@
       },
       {
          "amount": 0.25,
-         "name": "c. soy sauce"
+         "unit": "cup",
+         "name": "soy sauce"
       },
       {
          "amount": 2,
-         "name": "tsp. sugar"
+         "unit": "tsp",
+         "name": "sugar"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper (optional)"
+         "unit": "tsp",
+         "name": "pepper (optional)"
       },
       {
          "amount": 1,
@@ -45,11 +50,13 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 0.25,
-         "name": "c. water "
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0,

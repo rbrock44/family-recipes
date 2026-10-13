@@ -9,7 +9,8 @@
       },
       {
          "amount": 24,
-         "name": "oz. Sprite"
+         "unit": "oz",
+         "name": "Sprite"
       },
       {
          "amount": 2,

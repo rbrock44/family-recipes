@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.66,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 0.66,
-         "name": "c. buttermilk"
+         "unit": "cup",
+         "name": "buttermilk"
       },
       {
          "amount": 3,
@@ -17,31 +19,38 @@
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1.66,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1.25,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.25,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.25,
-         "name": "c. mashed ripe bananas"
+         "unit": "cup",
+         "name": "mashed ripe bananas"
       },
       {
          "amount": 0.66,
-         "name": "c. finely chopped pecans"
+         "unit": "cup",
+         "name": "finely chopped pecans"
       }
    ],
    "instructions": "Heat oven to 350°. Grease and flour 13 x 9 x 2 inch or two 9 inch or three 8 inch round baking pans. Measure all ingredients into large mixer bowl. Blend 1/2 minute on low speed, scraping bowl constantly. Beat 3 minutes on high speed, scraping bowl occasionally. Pour into pan(s). Bake oblong cake 45 to 50 minutes, layers 35 to 40 minutes or until wooden pick inserted in center comes out clean. Cool. Frost with Mock Whip Icing.",

@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. margarine"
+         "unit": "cup",
+         "name": "margarine"
       },
       {
          "amount": 1,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
@@ -21,43 +24,53 @@
       },
       {
          "amount": 2.5,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 1.25,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "c. buttermilk"
+         "unit": "cup",
+         "name": "buttermilk"
       },
       {
          "amount": 2,
-         "name": "c. chopped apples"
+         "unit": "cup",
+         "name": "chopped apples"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "c. nuts, chopped"
+         "unit": "cup",
+         "name": "nuts, chopped"
       }
    ],
    "instructions": "Cream margarine and sugars with electric mixer until light and fluffy. Add eggs, one at a time beating after each addition. Sift togeth- er the flour, baking powder, baking soda, salt and 2 teaspoons of cin- namon. Add sifted dry ingredients and milk in thirds alternately, beating until smooth after each addition. Fold in apples, spread batter in 9 x 13 x 2 inch pan. Sprinkle sugar, cinnamon and nuts on top. Bake at 300° for about 1 hour and 15 minutes.",

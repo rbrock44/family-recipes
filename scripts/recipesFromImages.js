@@ -63,6 +63,7 @@ const Anthropic = requireOrExplain('@anthropic-ai/sdk');
 const sharp = requireOrExplain('sharp');
 const prettier = requireOrExplain('prettier');
 const { combineRecipes, outputPath: combinedOutputPath } = require('./combineRecipes');
+const { splitIngredientUnits } = require('./splitIngredientUnits');
 
 // ---------------------------------------------------------------------------
 // Constants
@@ -435,6 +436,9 @@ function buildRecipePayload(parsed, authorParam, link) {
 	if (url) {
 		payload.url = url;
 	}
+
+	// The model writes the unit into the name ("c. flour"); store it on its own like every other recipe.
+	splitIngredientUnits(payload);
 
 	return payload;
 }

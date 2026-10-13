@@ -32,7 +32,25 @@ describe('aggregateIngredients', () => {
 
     expect(result.length).toBe(1);
     expect(result[0].amount).toBe(3);
-    expect(result[0].name).toBe('cups flour');
+    expect(result[0].name).toBe('flour');
+    expect(result[0].unit).toBe('cup');
+  });
+
+  it('merges a stored unit with the same unit written in the name', () => {
+    const result = aggregateIngredients([
+      { recipe: recipe([{ name: 'flour', unit: 'cup', amount: 2 }]), batches: 1 },
+      { recipe: recipe([{ name: 'c. Flour', amount: 1 }]), batches: 2 },
+    ]);
+
+    expect(result).toEqual([{ key: 'cup|flour', amount: 4, name: 'flour', unit: 'cup' }]);
+  });
+
+  it('leaves the unit off ingredients that have none', () => {
+    const result = aggregateIngredients([
+      { recipe: recipe([{ name: 'eggs', amount: 2 }]), batches: 1 },
+    ]);
+
+    expect(result).toEqual([{ key: '|egg', amount: 2, name: 'eggs' }]);
   });
 
   it('keeps teaspoons and tablespoons apart by case', () => {

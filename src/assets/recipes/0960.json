@@ -5,27 +5,33 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "pkg. Velveeta Shells & Cheese"
+      "unit": "pkg",
+      "name": "Velveeta Shells & Cheese"
     },
     {
       "amount": 1,
-      "name": "cup celery slices"
+      "unit": "cup",
+      "name": "celery slices"
     },
     {
       "amount": 0.5,
-      "name": "cup Kraft Real Mayonnaise"
+      "unit": "cup",
+      "name": "Kraft Real Mayonnaise"
     },
     {
       "amount": 0.5,
-      "name": "cup chopped red pepper"
+      "unit": "cup",
+      "name": "chopped red pepper"
     },
     {
       "amount": 0.5,
-      "name": "cup chopped sweet pickle"
+      "unit": "cup",
+      "name": "chopped sweet pickle"
     },
     {
       "amount": 0.25,
-      "name": "cup finely chopped onion"
+      "unit": "cup",
+      "name": "finely chopped onion"
     }
   ],
   "instructions": "Prepare Velveeta Shells & Cheese as directed on package.\nAdd remaining ingredients; mix lightly.\nChill. Add additional mayonnaise before serving, if desired. 6 to 8 servings.\n\nPrep time: 15 minutes plus chilling.\n\nVariation: Substitute Miracle Whip Salad Dressing for mayonnaise.",

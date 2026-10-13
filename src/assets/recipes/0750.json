@@ -13,7 +13,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. ReaLime Lime Juice from concentrate"
+         "unit": "cup",
+         "name": "ReaLime Lime Juice from concentrate"
       },
       {
          "amount": 3,
@@ -21,11 +22,13 @@
       },
       {
          "amount": 2,
-         "name": "c. fresh pineapple chunks"
+         "unit": "cup",
+         "name": "fresh pineapple chunks"
       },
       {
          "amount": 1.5,
-         "name": "c. grape halves (about 1/2 pound)"
+         "unit": "cup",
+         "name": "grape halves (about 1/2 pound)"
       },
       {
          "amount": 1,
@@ -33,11 +36,13 @@
       },
       {
          "amount": 1,
-         "name": "c. miniature marshmallows"
+         "unit": "cup",
+         "name": "miniature marshmallows"
       },
       {
          "amount": 1,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       }
    ],
    "instructions": "In bowl, combine all ingredients, mix well. Chill at least 3 hours. Refrigerate leftovers.",

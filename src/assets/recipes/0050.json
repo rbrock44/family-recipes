@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 8,
-         "name": "oz. cream cheese, softened "
+         "unit": "oz",
+         "name": "cream cheese, softened"
       },
       {
          "amount": 0,
-         "name": "dash of pepper"
+         "unit": "dash",
+         "name": "of pepper"
       },
       {
          "amount": 0,
-         "name": "dash of seasoned salt"
+         "unit": "dash",
+         "name": "of seasoned salt"
       },
-	  {
+      {
          "amount": 10,
-         "name": "oz. sharp Cheddar cheese, shredded"
+         "unit": "oz",
+         "name": "sharp Cheddar cheese, shredded"
       },
       {
          "amount": 2,
-         "name": "Tbsp. milk"
+         "unit": "tbsp",
+         "name": "milk"
       },
       {
          "amount": 0.25,
-         "name": "c. Miracle Whip"
+         "unit": "cup",
+         "name": "Miracle Whip"
       },
-	  {
+      {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 4,

@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. salt"
+         "unit": "cup",
+         "name": "salt"
       },
       {
          "amount": 2,
-         "name": "Tbsp. celery salt"
+         "unit": "tbsp",
+         "name": "celery salt"
       },
       {
          "amount": 2,
-         "name": "Tbsp. garlic salt"
+         "unit": "tbsp",
+         "name": "garlic salt"
       },
       {
          "amount": 2,
-         "name": "Tbsp. paprika"
+         "unit": "tbsp",
+         "name": "paprika"
       },
       {
          "amount": 2,
-         "name": "tsp. dry mustard"
+         "unit": "tsp",
+         "name": "dry mustard"
       },
       {
          "amount": 2,
-         "name": "tsp. onion powder"
+         "unit": "tsp",
+         "name": "onion powder"
       },
       {
          "amount": 2,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       }
    ],
    "instructions": "Place all ingredients in blender container. Cover and blend on high speed for 20 seconds. Store in tightly covered container.",

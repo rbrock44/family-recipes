@@ -9,15 +9,18 @@
       },
       {
          "amount": 0.75,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
-	  {
+      {
          "amount": 1,
-         "name": "c. Honey Roasted peanuts (chopped)"
+         "unit": "cup",
+         "name": "Honey Roasted peanuts (chopped)"
       }
    ],
    "instructions": "Mix together and dip your apples in.",

@@ -9,7 +9,8 @@
       },
       {
          "amount": 1,
-         "name": "box whipped topping"
+         "unit": "box",
+         "name": "whipped topping"
       },
       {
          "amount": 0,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 1,
-         "name": "can crushed pineapple"
+         "unit": "can",
+         "name": "crushed pineapple"
       }
    ],
    "instructions": "Bake cake mix according to directions on box. Remove from oven. Poke holes in cake with fork. Pour can of pina colada and juice from pineapple over cake. Cover cake with pineapple. Put on whipped topping. Sprinkle with coconut.",

@@ -9,15 +9,18 @@
       },
       {
          "amount": 1,
-         "name": "can cream of mushroom soup"
+         "unit": "can",
+         "name": "cream of mushroom soup"
       },
       {
          "amount": 1,
-         "name": "can cream of chicken soup"
+         "unit": "can",
+         "name": "cream of chicken soup"
       },
       {
          "amount": 1,
-         "name": "can diced Rotel"
+         "unit": "can",
+         "name": "diced Rotel"
       },
       {
          "amount": 1,

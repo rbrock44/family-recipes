@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
-         "name": "can cherry pie filling"
+         "unit": "can",
+         "name": "cherry pie filling"
       },
       {
          "amount": 2,

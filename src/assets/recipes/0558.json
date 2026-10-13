@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can cherry pie filling"
+         "unit": "can",
+         "name": "cherry pie filling"
       },
       {
          "amount": 1,
-         "name": "box brownie mix"
+         "unit": "box",
+         "name": "brownie mix"
       }
    ],
    "instructions": "Spread cherry pie filling in 9 x 13 inch pan. Prepare brownie mix as directed on package. Pour over pie filling and bake at 350° for 30 minutes. Serve warm with ice cream.",

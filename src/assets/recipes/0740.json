@@ -9,11 +9,13 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 1,
-         "name": "pkg. diet strawberry Jell-o"
+         "unit": "pkg",
+         "name": "diet strawberry Jell-o"
       },
       {
          "amount": 3,

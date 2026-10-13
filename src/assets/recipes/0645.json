@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. butter, softened"
+         "unit": "cup",
+         "name": "butter, softened"
       },
       {
          "amount": 0.5,
-         "name": "c. sifted powdered sugar"
+         "unit": "cup",
+         "name": "sifted powdered sugar"
       },
       {
          "amount": 2,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 0,

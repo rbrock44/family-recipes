@@ -9,7 +9,8 @@
       },
       {
          "amount": 2,
-         "name": "lb. carrots, sliced"
+         "unit": "lb",
+         "name": "carrots, sliced"
       },
       {
          "amount": 1,
@@ -21,27 +22,33 @@
       },
       {
          "amount": 0.75,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 0.33,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. cooking oil"
+         "unit": "cup",
+         "name": "cooking oil"
       },
       {
          "amount": 1,
-         "name": "tsp. prepared mustard"
+         "unit": "tsp",
+         "name": "prepared mustard"
       },
       {
          "amount": 1,
-         "name": "tsp. Worcestershire sauce"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 1.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Cook carrots in salted water about 10 minutes. Drain, put the vegetables in a large bowl. Combine rest of ingredients and pour over vegetables. Let stand several hours or over night. Keeps a long time.",

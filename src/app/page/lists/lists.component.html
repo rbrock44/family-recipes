@@ -196,13 +196,13 @@
                     @if (!hasFraction(getIngredientDisplay(ingredient))) {
                       <span
                         >{{ getIngredientDisplay(ingredient) }}
-                        {{ ingredient.name }}</span
+                        {{ ingredientLabel(ingredient) }}</span
                       >
                     }
                     @if (hasFraction(getIngredientDisplay(ingredient))) {
                       <app-fraction
                         before="{{ getIngredientDisplay(ingredient).split(' ')[0] }}"
-                        after="{{ ingredient.name }}"
+                        after="{{ ingredientLabel(ingredient) }}"
                         fraction="{{ getIngredientDisplay(ingredient).split(' ')[1] }}"
                       ></app-fraction>
                     }

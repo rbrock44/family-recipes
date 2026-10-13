@@ -5,27 +5,33 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "cup graham cracker crumbs"
+      "unit": "cup",
+      "name": "graham cracker crumbs"
     },
     {
       "amount": 0.5,
-      "name": "stick melted butter"
+      "unit": "stick",
+      "name": "melted butter"
     },
     {
       "amount": 1,
-      "name": "cup chocolate chips"
+      "unit": "cup",
+      "name": "chocolate chips"
     },
     {
       "amount": 1,
-      "name": "cup pecans, chopped"
+      "unit": "cup",
+      "name": "pecans, chopped"
     },
     {
       "amount": 1.5,
-      "name": "cups coconut"
+      "unit": "cup",
+      "name": "coconut"
     },
     {
       "amount": 1,
-      "name": "can Eagle Brand condensed milk"
+      "unit": "can",
+      "name": "Eagle Brand condensed milk"
     }
   ],
   "instructions": "Mix crumbs and butter, press into 7 x 11 pan. Spread remaining ingredients and pour condensed milk over all. Bake at 350° for 30 minutes. Cool over night. Cut into squares and serve.",

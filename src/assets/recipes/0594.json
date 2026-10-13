@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick margarine, softened"
+         "unit": "stick",
+         "name": "margarine, softened"
       },
       {
          "amount": 1,
@@ -21,7 +22,8 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Mix all ingredients. Chill in refrigerator for a couple of hours. Roll in balls and then in powder sugar. Bake at 350° for 9 to 10 minutes.",

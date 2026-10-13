@@ -13,11 +13,13 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       }
    ],
    "instructions": "Boil potatoes in water until done. Drain well. Melt butter in skillet. Pour in potatoes and top with sugar. Cook until syrup like and golden brown.",

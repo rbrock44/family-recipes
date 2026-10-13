@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.33,
-         "name": "c. soft shortening, part butter"
+         "unit": "cup",
+         "name": "soft shortening, part butter"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -17,35 +19,43 @@
       },
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.33,
-         "name": "c. butter, melted"
+         "unit": "cup",
+         "name": "butter, melted"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       }
    ],
    "instructions": "Grease bottom of muffin cups. Mix shortening, 1/2 cup sugar and egg thoroughly. Measure flour by dip-level-pour method. Blend flour, baking powder, salt and nutmeg. Stir in alternately with milk. Fill muffin cups 2/3 full. Bake at 350° for 20 to 25 minutes. Immediately roll in the melted butter, then in sugar and cinnamon.",

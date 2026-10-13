@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick butter"
+         "unit": "stick",
+         "name": "butter"
       },
       {
          "amount": 30,
@@ -13,15 +14,18 @@
       },
       {
          "amount": 1.5,
-         "name": "c. chopped pecans or leave whole"
+         "unit": "cup",
+         "name": "chopped pecans or leave whole"
       },
       {
          "amount": 4,
-         "name": "sq. chocolate bark"
+         "unit": "square",
+         "name": "chocolate bark"
       },
       {
          "amount": 4,
-         "name": "sq. white almond bark"
+         "unit": "square",
+         "name": "white almond bark"
       }
    ],
    "instructions": "Melt caramel and butter together in microwave, add chopped pecans. Spoon onto buttered cookie sheet or wax paper. Melt chocolate and white bark together. Take hardened caramel pieces and dip in chocolate mixture, set back on cookie sheet until firm.",

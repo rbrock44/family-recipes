@@ -52,7 +52,7 @@ const DECIMAL_RX = '(?:\\.[0-9]+)?';
 export const REGEX_TO_HIGHLIGHT = [
   // liquid conversions
   // `^([2-9]|${TWO_RX}|${THREE_RX}) c`,
-  `^(([2-9]${DECIMAL_RX})|(${TWO_RX}${DECIMAL_RX})|(${THREE_RX}${DECIMAL_RX})) qrt`,
+  `^(([2-9]${DECIMAL_RX})|(${TWO_RX}${DECIMAL_RX})|(${THREE_RX}${DECIMAL_RX})) qt`,
   `^(([2-9]${DECIMAL_RX})|(${TWO_RX}${DECIMAL_RX})|(${THREE_RX}${DECIMAL_RX})) qu`,
   `^(([2-9]${DECIMAL_RX})|(${TWO_RX}${DECIMAL_RX})|(${THREE_RX}${DECIMAL_RX})) p`,
   // dry conversions

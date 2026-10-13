@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "can taco dip"
+      "unit": "can",
+      "name": "taco dip"
     },
     {
       "amount": 16,
-      "name": "oz. sour cream"
+      "unit": "oz",
+      "name": "sour cream"
     },
     {
       "amount": 1,
-      "name": "pkg. taco seasoning"
+      "unit": "pkg",
+      "name": "taco seasoning"
     },
     {
       "amount": 0,

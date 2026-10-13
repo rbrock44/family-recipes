@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "jar vanilla beans (usually 2 per jar)"
+         "unit": "jar",
+         "name": "vanilla beans (usually 2 per jar)"
       },
       {
          "amount": 1,
-         "name": "bottle of brandy"
+         "unit": "bottle",
+         "name": "of brandy"
       }
    ],
    "instructions": "Split each bean lengthwise and add to a bottle of brandy. Store the bottles 2 to 3 months before using.",

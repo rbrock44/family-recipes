@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "qt. strawberry ice cream"
+         "unit": "qt",
+         "name": "strawberry ice cream"
       },
       {
          "amount": 1.5,
-         "name": "c. Miracle Whip"
+         "unit": "cup",
+         "name": "Miracle Whip"
       },
       {
          "amount": 2,
@@ -21,7 +23,8 @@
       },
       {
          "amount": 0.33,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       }
    ],
    "instructions": "Combine softened cream cheese, ice cream, and salad dressing, mixing until well blended. Fold in fruit and nuts. Pour into 9 inch square pan. Freeze until firm. Garnish with cherries, mint and holly leaves.",

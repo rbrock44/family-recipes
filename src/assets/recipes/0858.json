@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. thawed ground beef"
+         "unit": "lb",
+         "name": "thawed ground beef"
       },
       {
          "amount": 1,
-         "name": "can tomato sauce"
+         "unit": "can",
+         "name": "tomato sauce"
       },
       {
          "amount": 1,
-         "name": "cup instant rice"
+         "unit": "cup",
+         "name": "instant rice"
       },
       {
          "amount": 0,

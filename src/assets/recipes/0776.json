@@ -9,7 +9,8 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 4,
@@ -17,11 +18,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "tsp. lemon juice"
+         "unit": "tsp",
+         "name": "lemon juice"
       },
       {
          "amount": 0,
@@ -29,11 +32,13 @@
       },
       {
          "amount": 1,
-         "name": "pkg. vanilla wafers"
+         "unit": "pkg",
+         "name": "vanilla wafers"
       },
       {
          "amount": 0,
-         "name": "Cup cake holders"
+         "unit": "cup",
+         "name": "cake holders"
       },
       {
          "amount": 0,

@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. plus  2 Tbsp. flour"
+         "unit": "cup",
+         "name": "plus  2 Tbsp. flour"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 4,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "c. soft shortening"
+         "unit": "cup",
+         "name": "soft shortening"
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.5,
@@ -37,7 +44,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. chocolate chips, chopped"
+         "unit": "cup",
+         "name": "chocolate chips, chopped"
       }
    ],
    "instructions": "Grease and flour 9 x 13 inch pan or 2 round layer pans. Sift flour, sugar, baking powder, and salt into bowl. Add shortening, milk, and vanilla. Beat 2 minutes on medium speed. Scrape sides and bot- tom of bowl constantly. Add egg whites. Beat 2 more minutes. Care- fully fold in chocolate chips. Pour into prepared pans. Bake at 350° 30 to 35 minutes for layers and 40 to 45 minutes for oblong.",

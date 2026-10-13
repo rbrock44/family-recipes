@@ -9,7 +9,8 @@
       },
       {
          "amount": 0.25,
-         "name": "c. margarine"
+         "unit": "cup",
+         "name": "margarine"
       },
       {
          "amount": 0,
@@ -17,15 +18,18 @@
       },
       {
          "amount": 1,
-         "name": "box powdered sugar"
+         "unit": "box",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "tsp. flour (to thicken)"
+         "unit": "tsp",
+         "name": "flour (to thicken)"
       }
    ],
    "instructions": "Beat cream cheese and margarine until smooth. Add sugar and mix well. Add vanilla and beat until smooth. Spread on cake. Sprinkle with chopped pecans.",

@@ -3,17 +3,52 @@
   "author": "Anne Brock",
   "category": 2,
   "ingredients": [
-    { "amount": 2, "name": "pkgs. mashed potatoes" },
-    { "amount": 1, "name": "can (contents not specified on card)" },
-    { "amount": 1, "name": "stick butter" },
-    { "amount": 0, "name": "Velveeta" },
-    { "amount": 2, "name": "c. whole milk" },
-    { "amount": 1, "name": "c. bacon" },
-    { "amount": 1, "name": "c. broth" },
-    { "amount": 0, "name": "half-and-half" }
+    {
+      "amount": 2,
+      "unit": "pkg",
+      "name": "mashed potatoes"
+    },
+    {
+      "amount": 1,
+      "unit": "can",
+      "name": "(contents not specified on card)"
+    },
+    {
+      "amount": 1,
+      "unit": "stick",
+      "name": "butter"
+    },
+    {
+      "amount": 0,
+      "name": "Velveeta"
+    },
+    {
+      "amount": 2,
+      "unit": "cup",
+      "name": "whole milk"
+    },
+    {
+      "amount": 1,
+      "unit": "cup",
+      "name": "bacon"
+    },
+    {
+      "amount": 1,
+      "unit": "cup",
+      "name": "broth"
+    },
+    {
+      "amount": 0,
+      "name": "half-and-half"
+    }
   ],
   "instructions": "Butter in pan. Bacon, raw (cook). Transfer to pot. Add broth, cook. Add half-and-half.\n\nAdd mashed potatoes and milk. Stir in Velveeta until melted.",
-  "yield": { "amount": 0, "name": "" },
+  "yield": {
+    "amount": 0,
+    "name": ""
+  },
   "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1057.jpg",
-  "additionalLinks": ["https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1057a.jpg"]
+  "additionalLinks": [
+    "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1057a.jpg"
+  ]
 }

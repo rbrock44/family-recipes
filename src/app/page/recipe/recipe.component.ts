@@ -13,6 +13,7 @@ import { AddToListDialogComponent } from 'src/app/components/add-to-list-dialog/
 import { REGEX_TO_HIGHLIGHT } from 'src/app/constants/constants';
 import { formatAmount, trimFloat } from 'src/app/models/decimal.enum';
 import { Ingredient } from 'src/app/models/ingredient.interface';
+import { ingredientText } from 'src/app/utils/ingredient-unit.util';
 import { RecipeService } from 'src/app/services/recipe.service';
 import { Recipe } from '../../models/recipe.interface';
 import { RecipeModel } from '../../models/recipe.model';
@@ -225,8 +226,13 @@ export class RecipeComponent implements OnChanges {
     return formatAmount(ingredient.amount, this.batches());
   }
 
+  /** Unit and name after the amount, e.g. "cups flour" once scaled past one. */
+  ingredientLabel(ingredient: Ingredient): string {
+    return ingredientText(ingredient, ingredient.amount * this.batches());
+  }
+
   getIngredientDisplayOld(ingredient: Ingredient): string {
-    return `${this.timesBatch(ingredient.amount)} ${ingredient.name}`;
+    return `${this.timesBatch(ingredient.amount)} ${this.ingredientLabel(ingredient)}`;
   }
 
   hasFraction(value: string): boolean {

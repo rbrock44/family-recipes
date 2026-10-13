@@ -5,32 +5,38 @@
    "ingredients": [
       {
          "amount": 8,
-         "name": "c. original Quaker Oatmeal"
+         "unit": "cup",
+         "name": "original Quaker Oatmeal"
       },
       {
          "amount": 2,
-         "name": "c. fat free mini pretzel sticks"
+         "unit": "cup",
+         "name": "fat free mini pretzel sticks"
       },
       {
          "amount": 2,
-         "name": "Tbsp. margarine"
+         "unit": "tbsp",
+         "name": "margarine"
       },
-	  {
+      {
          "amount": 0.25,
-         "name": "c. Dijon-style prepared mustard"
+         "unit": "cup",
+         "name": "Dijon-style prepared mustard"
       },
       {
          "amount": 3,
-         "name": " Tbsp. honey"
+         "unit": "tbsp",
+         "name": "honey"
       },
       {
          "amount": 3,
-         "name": "tsp. garlic salt"
+         "unit": "tsp",
+         "name": "garlic salt"
       },
-	  {
+      {
          "amount": 1,
          "name": "16 oz. box of Squares Cereal"
-	  }
+      }
    ],
    "instructions": "Heat oven to 250°. Spray 13 x 9 inch baking pan with nonstick cooking spray. In pan, combine cereal and pretzels; set aside. Place margarine in 2-cup microwaveable bowl. Microwave at HIGH 45 sec- onds or until melted. Stir in mustard, honey and garlic salt; mix well. Pour margarine mixture evenly over cereal mixture. Stir evenly to coat. Bake 1 hour, stirring every 15 minutes. Spread on baking sheet to cool. Stir to break up crunch mix. Store in tightly covered contain- er up to 5 days. Makes 10 cups.",
    "yield": {

@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. peanut butter"
+         "unit": "cup",
+         "name": "peanut butter"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar, firmly packed"
+         "unit": "cup",
+         "name": "brown sugar, firmly packed"
       },
       {
          "amount": 0.25,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 2,
@@ -21,35 +24,43 @@
       },
       {
          "amount": 2,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.33,
-         "name": "c. granulated sugar, for rolling cookies"
+         "unit": "cup",
+         "name": "granulated sugar, for rolling cookies"
       },
       {
          "amount": 1,
-         "name": "pkg. chocolate kisses (11 oz.)"
+         "unit": "pkg",
+         "name": "chocolate kisses (11 oz.)"
       },
       {
          "amount": 1,
-         "name": "c. shortening or oleo"
+         "unit": "cup",
+         "name": "shortening or oleo"
       },
       {
          "amount": 1,
-         "name": "c. granulated sugar"
+         "unit": "cup",
+         "name": "granulated sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla extract"
+         "unit": "tsp",
+         "name": "vanilla extract"
       },
       {
          "amount": 3.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Combine peanut butter, shortening and sugar. Stir in milk, vanilla, and eggs. Add dry ingredients. Mix thoroughly, using your hands if necessary. Shape dough into 1 inch balls, roll in 1/3 cup granu- lated sugar. Place on ungreased baking sheets. Bake at 350° for 10 minutes. Remove from oven and press a chocolate kiss on the center of each cookie. Remove to rack to cool. Make 6 to 7 dozen cookies.",

@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.66,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 1.25,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -29,19 +34,23 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.5,
-         "name": "tsp. almond extract, optional"
+         "unit": "tsp",
+         "name": "almond extract, optional"
       },
       {
          "amount": 0.75,
-         "name": "c. well-drained crushed pineapple"
+         "unit": "cup",
+         "name": "well-drained crushed pineapple"
       },
       {
          "amount": 0.5,
-         "name": "c. finely chopped shredded coconut"
+         "unit": "cup",
+         "name": "finely chopped shredded coconut"
       }
    ],
    "instructions": "Sift flour, baking powder and salt together. Cream shortening, sugar and extracts thoroughly. Beat in egg until mixture is fluffy. Blend in pineapple and dry ingredients. Drop by teaspoonfuls on ungreased cookie sheet 3 inches apart. Sprinkle with coconut. Bake in a 325° oven for about 20 minutes.",

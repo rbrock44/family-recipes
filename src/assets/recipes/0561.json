@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "c. margarine, softened"
+         "unit": "cup",
+         "name": "margarine, softened"
       },
       {
          "amount": 1,
@@ -17,27 +19,33 @@
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. fudge ice cream topping"
+         "unit": "cup",
+         "name": "fudge ice cream topping"
       },
       {
          "amount": 2,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       },
       {
          "amount": 1,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 2,
-         "name": "c. sifted unsweetened cocoa powder"
+         "unit": "cup",
+         "name": "sifted unsweetened cocoa powder"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       }
    ],
    "instructions": "In mixing bowl combine sugar, margarine, eggs, and vanilla; beat on medium speed until thoroughly combined. Stir in fudge topping, stir in nuts, flour, cocoa and baking powder until combined. Pour into a greased 13 x 9 inch pan. Bake at 350° for 50 minutes or until toothpick comes out clean. Cool on wire rack, cut.",

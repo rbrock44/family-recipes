@@ -9,7 +9,8 @@
       },
       {
          "amount": 2,
-         "name": "c. diced celery"
+         "unit": "cup",
+         "name": "diced celery"
       },
       {
          "amount": 1,
@@ -17,35 +18,43 @@
       },
       {
          "amount": 1,
-         "name": "can water"
+         "unit": "can",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 0.25,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 0.25,
-         "name": "tsp. oregano"
+         "unit": "tsp",
+         "name": "oregano"
       },
       {
          "amount": 2,
-         "name": "tsp. soy sauce"
+         "unit": "tsp",
+         "name": "soy sauce"
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 6,
-         "name": "oz. macaroni"
+         "unit": "oz",
+         "name": "macaroni"
       }
    ],
    "instructions": "Brown meat. Add celery and onion and cook, covered, for 10 minutes. Combine all ingredients. Pour in greased pan. Cover and bake for about 1 hour at 350°.",

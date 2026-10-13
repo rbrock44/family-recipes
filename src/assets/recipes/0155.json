@@ -9,19 +9,23 @@
       },
       {
          "amount": 6,
-         "name": "gal. corn"
+         "unit": "gal",
+         "name": "corn"
       },
       {
          "amount": 6,
-         "name": "gal. sweet potatoes"
+         "unit": "gal",
+         "name": "sweet potatoes"
       },
       {
          "amount": 4,
-         "name": "lb. bags of carrots"
+         "unit": "lb",
+         "name": "bags of carrots"
       },
       {
          "amount": 10,
-         "name": "lb. salt"
+         "unit": "lb",
+         "name": "salt"
       },
       {
          "amount": 0,
@@ -29,23 +33,28 @@
       },
       {
          "amount": 60,
-         "name": "lb. potatoes"
+         "unit": "lb",
+         "name": "potatoes"
       },
       {
          "amount": 2,
-         "name": "qt. oil"
+         "unit": "qt",
+         "name": "oil"
       },
       {
          "amount": 10,
-         "name": "lb. onion"
+         "unit": "lb",
+         "name": "onion"
       },
       {
          "amount": 3,
-         "name": "jars instant tea"
+         "unit": "jar",
+         "name": "instant tea"
       },
       {
          "amount": 9,
-         "name": "lb. butter"
+         "unit": "lb",
+         "name": "butter"
       },
       {
          "amount": 1,
@@ -57,11 +66,13 @@
       },
       {
          "amount": 4,
-         "name": "lb. ham or bacon"
+         "unit": "lb",
+         "name": "ham or bacon"
       },
       {
          "amount": 250,
-         "name": "lb. ice in bags"
+         "unit": "lb",
+         "name": "ice in bags"
       },
       {
          "amount": 20,
@@ -71,13 +82,15 @@
          "amount": 16,
          "name": "large sandwich bread"
       },
-	  {
+      {
          "amount": 6,
-         "name": "gal. green beans"
+         "unit": "gal",
+         "name": "green beans"
       },
       {
          "amount": 75,
-         "name": "lb. cabbage"
+         "unit": "lb",
+         "name": "cabbage"
       },
       {
          "amount": 4,
@@ -85,39 +98,48 @@
       },
       {
          "amount": 20,
-         "name": "lb. sugar"
+         "unit": "lb",
+         "name": "sugar"
       },
       {
          "amount": 4,
-         "name": "lb. coffee"
+         "unit": "lb",
+         "name": "coffee"
       },
       {
          "amount": 1,
-         "name": "gal. vinegar"
+         "unit": "gal",
+         "name": "vinegar"
       },
       {
          "amount": 25,
-         "name": "lb. flour"
+         "unit": "lb",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "can chicken base"
+         "unit": "can",
+         "name": "chicken base"
       },
       {
          "amount": 1,
-         "name": "jar coffee creamer"
+         "unit": "jar",
+         "name": "coffee creamer"
       },
       {
          "amount": 2,
-         "name": "box brown sugar"
+         "unit": "box",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
-         "name": "box corn starch"
+         "unit": "box",
+         "name": "corn starch"
       },
       {
          "amount": 1,
-         "name": "can Pam spray"
+         "unit": "can",
+         "name": "Pam spray"
       },
       {
          "amount": 0,
@@ -133,13 +155,14 @@
       },
       {
          "amount": 250,
-         "name": "lb. of ice in bags"
+         "unit": "lb",
+         "name": "of ice in bags"
       },
       {
          "amount": 1,
          "name": "roll paper towels"
       },
-	  {
+      {
          "amount": 1,
          "name": "roll plastic tablecloth"
       },
@@ -157,7 +180,8 @@
       },
       {
          "amount": 1,
-         "name": "box trash bags"
+         "unit": "box",
+         "name": "trash bags"
       },
       {
          "amount": 0,

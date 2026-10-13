@@ -13,23 +13,28 @@
     },
     {
       "amount": 1,
-      "name": "lb. sausage, browned"
+      "unit": "lb",
+      "name": "sausage, browned"
     },
     {
       "amount": 2,
-      "name": "c. milk"
+      "unit": "cup",
+      "name": "milk"
     },
     {
       "amount": 1,
-      "name": "c. shredded cheddar (mild)"
+      "unit": "cup",
+      "name": "shredded cheddar (mild)"
     },
     {
       "amount": 1,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "tsp. dry mustard"
+      "unit": "tsp",
+      "name": "dry mustard"
     },
     {
       "amount": 0,

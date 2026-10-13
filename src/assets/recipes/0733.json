@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "can (16 oz.) pumpkin"
+         "unit": "can",
+         "name": "(16 oz.) pumpkin"
       },
       {
          "amount": 1,
-         "name": "can (14 oz.) sweetened condensed milk"
+         "unit": "can",
+         "name": "(14 oz.) sweetened condensed milk"
       },
       {
          "amount": 2,
@@ -21,15 +23,18 @@
       },
       {
          "amount": 1,
-         "name": "tsp. ground cinnamon"
+         "unit": "tsp",
+         "name": "ground cinnamon"
       },
       {
          "amount": 1,
-         "name": "tsp. pumpkin pie spice"
+         "unit": "tsp",
+         "name": "pumpkin pie spice"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Preheat oven to 425°. In large mixer bowl, combine all ingredients except pastry shell. Mix well. Pour into pastry shell. Bake 15 minutes. Reduce oven temperature to 350° and continue baking 35 to 40 minutes or until knife inserted in center comes out clean. Cool.",

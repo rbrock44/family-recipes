@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 2,
-      "name": "c. Bisquick baking mix"
+      "unit": "cup",
+      "name": "Bisquick baking mix"
     },
     {
       "amount": 0.5,
-      "name": "c. water"
+      "unit": "cup",
+      "name": "water"
     },
     {
       "amount": 1,
@@ -17,19 +19,23 @@
     },
     {
       "amount": 6,
-      "name": "oz. thinly sliced cooked smoked ham"
+      "unit": "oz",
+      "name": "thinly sliced cooked smoked ham"
     },
     {
       "amount": 1,
-      "name": "c. shredded Swiss or Cheddar cheese"
+      "unit": "cup",
+      "name": "shredded Swiss or Cheddar cheese"
     },
     {
       "amount": 0.25,
-      "name": "c. sliced green onions (with tops)"
+      "unit": "cup",
+      "name": "sliced green onions (with tops)"
     },
     {
       "amount": 4,
-      "name": "oz. can mushroom stems and pieces, drained"
+      "unit": "oz",
+      "name": "can mushroom stems and pieces, drained"
     }
   ],
   "instructions": "Mix baking mix and water until dough forms. Smooth into ball on cloth-covered surface dusted with baking mix. Knead 15 times. Roll into rectangle, 15x9 inches; spread with mustard. Top with remaining ingredients. Roll up tightly, beginning at 15-inch side. Pinch edge into roll (moisten if necessary). Wrap and refrigerate at least 30 minutes but no longer than 24 hours. Heat oven to 400°. Cut into 12 slices. Place on greased and floured cookie sheet (replace filling if necessary). Bake until golden, 20 to 25 minutes. 6 servings.\n\nHigh Altitude: Heat oven to 425°.",

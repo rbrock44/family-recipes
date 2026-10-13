@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "c. Parmesan cheese"
+         "unit": "cup",
+         "name": "Parmesan cheese"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 1,
@@ -17,15 +19,18 @@
       },
       {
          "amount": 1,
-         "name": "c. butter, melted"
+         "unit": "cup",
+         "name": "butter, melted"
       },
       {
          "amount": 1.5,
-         "name": "c. dry bread crumbs"
+         "unit": "cup",
+         "name": "dry bread crumbs"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0,

@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "c. sour cream"
+         "unit": "cup",
+         "name": "sour cream"
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
@@ -21,23 +23,28 @@
       },
       {
          "amount": 0.5,
-         "name": "lb. mushrooms"
+         "unit": "lb",
+         "name": "mushrooms"
       },
       {
          "amount": 1,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 2,
-         "name": "Tbsp. dried onion"
+         "unit": "tbsp",
+         "name": "dried onion"
       },
       {
          "amount": 1,
-         "name": "tsp. oregano"
+         "unit": "tsp",
+         "name": "oregano"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
@@ -45,7 +52,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. minute rice"
+         "unit": "cup",
+         "name": "minute rice"
       },
       {
          "amount": 6,

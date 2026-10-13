@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
@@ -13,19 +14,23 @@
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.5,
-         "name": "c. milk"
-      } ,
-	  {
+         "unit": "cup",
+         "name": "milk"
+      },
+      {
          "amount": 3,
-         "name": "c. corn meal"
+         "unit": "cup",
+         "name": "corn meal"
       },
       {
          "amount": 1,

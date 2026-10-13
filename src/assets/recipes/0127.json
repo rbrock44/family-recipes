@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "Tbsp. Worcestershire sauce"
+         "unit": "tbsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 0,
@@ -13,27 +14,33 @@
       },
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0.25,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. catsup"
+         "unit": "cup",
+         "name": "catsup"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. celery seed"
+         "unit": "tsp",
+         "name": "celery seed"
       }
    ],
    "instructions": "Combine all ingredients. Heat to boiling. Let simmer 30 minutes. Makes enough sauce for basting 4 pounds of spareribs.",

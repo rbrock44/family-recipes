@@ -13,11 +13,13 @@
       },
       {
          "amount": 1,
-         "name": "bottle Zesty Italian salad dressing"
+         "unit": "bottle",
+         "name": "Zesty Italian salad dressing"
       },
       {
          "amount": 1,
-         "name": "can seasoned salad croutons"
+         "unit": "can",
+         "name": "seasoned salad croutons"
       },
       {
          "amount": 1,

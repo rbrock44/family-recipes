@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1,
@@ -25,23 +29,28 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. soda"
+         "unit": "tsp",
+         "name": "soda"
       },
       {
          "amount": 1,
-         "name": "tsp. cream of tartar"
+         "unit": "tsp",
+         "name": "cream of tartar"
       }
    ],
    "instructions": "Cream sugar, shortening and vanilla. Add sifted dry ingredients. Form into balls size of walnut. Dip top half in water, then in white sugar. Press dough in center with finger. Place on ungreased baking sheet. Bake at 425° for 8 to 10 minutes.",

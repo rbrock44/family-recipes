@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. lemon juice"
+         "unit": "tsp",
+         "name": "lemon juice"
       },
       {
          "amount": 2,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 2,
-         "name": "tsp. Worcestershire sauce"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       }
    ],
    "instructions": "Combine softened cream cheese, and Cheddar cheese, mixing until well blended. Add remaining ingredients. Mix well. Shape into ball, roll ball in crushed nuts. Chill before serving.",

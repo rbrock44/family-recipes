@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "c. (1 1/2 sticks) butter or margarine, softened"
+         "unit": "cup",
+         "name": "(1 1/2 sticks) butter or margarine, softened"
       },
       {
          "amount": 0.5,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1.5,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       }
    ],
    "instructions": "Heat oven to 300°. In small mixer bowl, beat butter and powdered sugar until smooth; blend in flour. Press mixture onto bottom and up side of 12 inch round pizza pan. Flute edge, if desired. Bake 20 to 25 minutes or until lightly browned; cool completely.",

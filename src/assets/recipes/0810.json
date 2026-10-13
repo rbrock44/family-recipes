@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. instant tea"
+         "unit": "cup",
+         "name": "instant tea"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "pkg. Wyler's lemonade mix"
+         "unit": "pkg",
+         "name": "Wyler's lemonade mix"
       },
       {
          "amount": 2,
-         "name": "c. Tang"
+         "unit": "cup",
+         "name": "Tang"
       },
       {
          "amount": 1,
-         "name": "tsp. cloves, ground"
+         "unit": "tsp",
+         "name": "cloves, ground"
       },
       {
          "amount": 2,
-         "name": "tsp. ground cinnamon"
+         "unit": "tsp",
+         "name": "ground cinnamon"
       }
    ],
    "instructions": "Mix all ingredients, store in tightly sealed jar. To make a cup, add 1 tablespoon of mix to 1 cup boiling water.",

@@ -9,7 +9,8 @@
       },
       {
          "amount": 2,
-         "name": "cans corn"
+         "unit": "can",
+         "name": "corn"
       },
       {
          "amount": 2,

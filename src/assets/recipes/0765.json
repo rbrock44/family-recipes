@@ -5,35 +5,42 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick butter"
+         "unit": "stick",
+         "name": "butter"
       },
-	  {
+      {
          "amount": 0,
          "name": "Fresh peaches, about 2 cups, sliced and sugared"
       },
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0,
-         "name": "Dash of salt"
+         "unit": "dash",
+         "name": "of salt"
       },
       {
          "amount": 0.66,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Melt butter in large pan. Add sliced peaches. Mix together remaining ingredients and drop this mixture on peaches. Top with 1⁄2 cup of sugar. Bake 325° until done.",

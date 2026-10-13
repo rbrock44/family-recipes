@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. sifted Swan's Down cake flour"
+         "unit": "cup",
+         "name": "sifted Swan's Down cake flour"
       },
       {
          "amount": 1,
-         "name": "tsp. Calumet baking powder"
+         "unit": "tsp",
+         "name": "Calumet baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.75,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 0.5,
-         "name": "c. sour milk (or buttermilk)"
+         "unit": "cup",
+         "name": "sour milk (or buttermilk)"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. mashed bananas (2 or 3 fully ripe)"
+         "unit": "cup",
+         "name": "mashed bananas (2 or 3 fully ripe)"
       },
       {
          "amount": 2,
@@ -45,11 +54,13 @@
       },
       {
          "amount": 0.5,
-         "name": "c. coarsely chopped nuts"
+         "unit": "cup",
+         "name": "coarsely chopped nuts"
       },
       {
          "amount": 0.5,
-         "name": "c. minus 2 Tbsp. sour milk (with butter, margarine, or lard)*"
+         "unit": "cup",
+         "name": "minus 2 Tbsp. sour milk (with butter, margarine, or lard)*"
       }
    ],
    "instructions": "*With vegetable or another shortening use 1/2 c. sour milk. Measure flour, baking powder, baking soda, salt, and sugar into the sifter. Measure shortening into mixing bowl. Measure sour milk and vanilla into cup. Have bananas, eggs, and nuts ready. Stir shortening just to soften. Stir in dry ingredients. Add 1/4 cup of milk and the bananas and mix until all of the flour is dampened. Then beat 300 strokes by hand or 2 minutes with the mixer at low speed. Add remaining milk, nuts, and eggs. Beat 150 strokes by hand or 1 minute with mixer. Bake at 375° for 25 minutes in 2 greased 9 inch pans.",

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. margarine"
+         "unit": "cup",
+         "name": "margarine"
       },
       {
          "amount": 1,
@@ -13,23 +14,28 @@
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.125,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 4.5,
-         "name": "tsp. almond extract"
+         "unit": "tsp",
+         "name": "almond extract"
       },
       {
          "amount": 2.25,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       }
    ],
    "instructions": "Beat well, margarine, cream cheese, baking powder, salt and 1/2 cup sugar. Add 1 teaspoon almond extract and flour. Then mix well. Mix remaining sugar and almost extract together, set aside. Roll the dough rectangle shape about 1/4 thick. Sprinkle with sugar and fold in half again. Continue until you are left with a small rectangle. Slice and bake 350 degrees for 10 to 12 minutes.",

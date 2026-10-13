@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "pkg. Cherry Kool-Aid"
+         "unit": "pkg",
+         "name": "Cherry Kool-Aid"
       },
       {
          "amount": 1,
@@ -13,15 +14,18 @@
       },
       {
          "amount": 3,
-         "name": "pkg. Strawberry Kool-Aid"
+         "unit": "pkg",
+         "name": "Strawberry Kool-Aid"
       },
       {
          "amount": 3,
-         "name": "gallons water"
+         "unit": "gal",
+         "name": "water"
       },
       {
          "amount": 6,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,

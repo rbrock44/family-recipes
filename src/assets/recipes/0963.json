@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 2,
-      "name": "c. sifted flour"
+      "unit": "cup",
+      "name": "sifted flour"
     },
     {
       "amount": 0.5,
-      "name": "tsp. soda"
+      "unit": "tsp",
+      "name": "soda"
     },
     {
       "amount": 0.25,
-      "name": "c. butter"
+      "unit": "cup",
+      "name": "butter"
     },
     {
       "amount": 1,
@@ -21,31 +24,38 @@
     },
     {
       "amount": 1,
-      "name": "Tbsp. grated orange rind"
+      "unit": "tbsp",
+      "name": "grated orange rind"
     },
     {
       "amount": 3,
-      "name": "Tbsp. orange juice"
+      "unit": "tbsp",
+      "name": "orange juice"
     },
     {
       "amount": 0.5,
-      "name": "tsp. baking powder"
+      "unit": "tsp",
+      "name": "baking powder"
     },
     {
       "amount": 0.25,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 0.75,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 0.75,
-      "name": "c. mashed banana"
+      "unit": "cup",
+      "name": "mashed banana"
     },
     {
       "amount": 0.5,
-      "name": "c. walnuts"
+      "unit": "cup",
+      "name": "walnuts"
     }
   ],
   "instructions": "Sift together the dry ingredients. Cream butter and sugar, add egg, stir in banana, orange and rind. Add all ingredients only until mixture is moist. Turn into greased loaf pan.\nBake 350 for 1 hr.",

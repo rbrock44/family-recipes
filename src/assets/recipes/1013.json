@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 4,
-      "name": "c. unsifted flour (plain)"
+      "unit": "cup",
+      "name": "unsifted flour (plain)"
     },
     {
       "amount": 1,
-      "name": "c. salt"
+      "unit": "cup",
+      "name": "salt"
     },
     {
       "amount": 1.5,
-      "name": "c. water"
+      "unit": "cup",
+      "name": "water"
     }
   ],
   "instructions": "Mix, roll, cut. Bake 350 1 Hr.\nDon't forget hole for hanger",

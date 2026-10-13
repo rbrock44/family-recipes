@@ -17,23 +17,28 @@
       },
       {
          "amount": 0.75,
-         "name": "c. Miracle Whip salad dressing"
+         "unit": "cup",
+         "name": "Miracle Whip salad dressing"
       },
       {
          "amount": 0.5,
-         "name": "c. celery slices"
+         "unit": "cup",
+         "name": "celery slices"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0,
-         "name": "dash of pepper"
+         "unit": "dash",
+         "name": "of pepper"
       },
       {
          "amount": 6,

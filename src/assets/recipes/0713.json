@@ -9,7 +9,8 @@
       },
       {
          "amount": 2.75,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 2,

@@ -20,6 +20,7 @@ import { Recipe } from '../../models/recipe.interface';
 import { RecipeService } from '../../services/recipe.service';
 import { WakeLockService } from '../../services/wake-lock.service';
 import { splitSteps } from '../../utils/instruction-steps.util';
+import { ingredientText } from '../../utils/ingredient-unit.util';
 import { FractionComponent } from '../fraction/fraction.component';
 
 @Component({
@@ -72,6 +73,10 @@ export class CookModeComponent implements OnInit {
 
   amount(ingredient: Ingredient): string {
     return formatAmount(ingredient.amount, this.batches());
+  }
+
+  label(ingredient: Ingredient): string {
+    return ingredientText(ingredient, ingredient.amount * this.batches());
   }
 
   hasFraction(value: string): boolean {

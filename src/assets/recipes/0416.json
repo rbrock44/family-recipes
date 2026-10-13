@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,

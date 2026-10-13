@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. Tang"
+         "unit": "cup",
+         "name": "Tang"
       },
       {
          "amount": 0.5,
-         "name": "c. instant tea"
+         "unit": "cup",
+         "name": "instant tea"
       },
       {
          "amount": 0.5,
-         "name": "c. cloves"
+         "unit": "cup",
+         "name": "cloves"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       }
    ],
    "instructions": "Mix all ingredients together. Keep in covered jar. Use 2 to 3 rounded teaspoons per cup of boiling water.",

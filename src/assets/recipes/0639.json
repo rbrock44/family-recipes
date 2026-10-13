@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 2,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "c. nuts, chopped"
+         "unit": "cup",
+         "name": "nuts, chopped"
       },
       {
          "amount": 2,
-         "name": "c. pumpkin"
+         "unit": "cup",
+         "name": "pumpkin"
       },
       {
          "amount": 4,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Mix sugar, pumpkin and shortening in separate bowl. Mix dry ingredients. Stir in nuts. Mix in shortening mixture. Drop dough by teaspoon onto cookie sheets (ungreased) Bake 8 to 10 minutes. Immediately remove from cookie sheet. Cool and glaze with powdered sugar icing.",

@@ -9,39 +9,48 @@
       },
       {
          "amount": 1,
-         "name": "tablespoon oil"
+         "unit": "tbsp",
+         "name": "oil"
       },
       {
          "amount": 0.5,
-         "name": "teaspoon seasoning salt"
+         "unit": "tsp",
+         "name": "seasoning salt"
       },
       {
          "amount": 0.66,
-         "name": "cup clear honey"
+         "unit": "cup",
+         "name": "clear honey"
       },
       {
          "amount": 0.25,
-         "name": "cup low sodium chicken broth (or sub water)"
+         "unit": "cup",
+         "name": "low sodium chicken broth (or sub water)"
       },
       {
          "amount": 2,
-         "name": "tablespoons low sodium soy sauce"
+         "unit": "tbsp",
+         "name": "low sodium soy sauce"
       },
       {
          "amount": 2,
-         "name": "tablespoons minced garlic"
+         "unit": "tbsp",
+         "name": "minced garlic"
       },
       {
          "amount": 1,
-         "name": "tablespoon apple cider vinegar"
+         "unit": "tbsp",
+         "name": "apple cider vinegar"
       },
       {
          "amount": 0.25,
-         "name": "teaspoon salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.5,
-         "name": "tablespoons corn starch"
+         "unit": "tbsp",
+         "name": "corn starch"
       },
       {
          "amount": 0.125,

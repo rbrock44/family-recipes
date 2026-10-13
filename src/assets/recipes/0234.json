@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "c. shredded Swiss cheese"
+         "unit": "cup",
+         "name": "shredded Swiss cheese"
       },
       {
          "amount": 1,
@@ -13,39 +14,48 @@
       },
       {
          "amount": 0.25,
-         "name": "c. salad dressing"
+         "unit": "cup",
+         "name": "salad dressing"
       },
       {
          "amount": 2,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 0.25,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 0,
-         "name": "Dash of salt"
+         "unit": "dash",
+         "name": "of salt"
       },
       {
          "amount": 2,
-         "name": "c. finely chopped cooked chicken"
+         "unit": "cup",
+         "name": "finely chopped cooked chicken"
       },
       {
          "amount": 0.25,
-         "name": "c. chopped celery"
+         "unit": "cup",
+         "name": "chopped celery"
       },
       {
          "amount": 2,
-         "name": "Tbsp. dry white wine"
+         "unit": "tbsp",
+         "name": "dry white wine"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0,
-         "name": "Dash of pepper"
+         "unit": "dash",
+         "name": "of pepper"
       }
    ],
    "instructions": "Melt butter in 1/4 cup boiling water. Add flour and dash of salt; stir vigorously. Cook and stir mixture until dough forms a ball that doesn't separate. Remove from heat and cool slightly. Add egg and beat vigorously until smooth. Stir in cheese. Drop dough onto greased baking sheet, using level teaspoon of dough for each puff. Bake at 375°.",

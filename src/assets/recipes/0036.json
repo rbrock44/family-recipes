@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "c. pecans"
+         "unit": "cup",
+         "name": "pecans"
       },
       {
          "amount": 1,
-         "name": "Tbsp. seasoned salt"
+         "unit": "tbsp",
+         "name": "seasoned salt"
       },
       {
          "amount": 12,
@@ -21,7 +23,8 @@
       },
       {
          "amount": 4,
-         "name": "c. Cheddar cheese, grated"
+         "unit": "cup",
+         "name": "Cheddar cheese, grated"
       },
       {
          "amount": 2,

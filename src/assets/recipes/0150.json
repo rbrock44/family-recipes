@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. salmon liquid and milk"
+         "unit": "cup",
+         "name": "salmon liquid and milk"
       },
       {
          "amount": 1.5,
-         "name": "c. coarse cracker crumbs"
+         "unit": "cup",
+         "name": "coarse cracker crumbs"
       },
       {
          "amount": 1,
-         "name": "Tbsp. lemon juice"
+         "unit": "tbsp",
+         "name": "lemon juice"
       },
       {
          "amount": 1,
-         "name": "can salmon"
+         "unit": "can",
+         "name": "salmon"
       },
       {
          "amount": 1,
@@ -25,11 +29,13 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. chopped onions"
+         "unit": "tbsp",
+         "name": "chopped onions"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt and pepper-optional"
+         "unit": "tsp",
+         "name": "salt and pepper-optional"
       }
    ],
    "instructions": "Heat oven to 350°. Grease loaf pan. Flake salmon and remove bone. Blend in egg, stir in remaining ingredients. Spoon lightly into pan and bake for 45 minutes. Garnish with lemon wedges.",

@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "c. peeled, sliced apples"
+         "unit": "cup",
+         "name": "peeled, sliced apples"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 2,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
@@ -33,15 +39,18 @@
       },
       {
          "amount": 0.75,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       }
    ],
    "instructions": "Preheat oven to 350°. In large bowl, stir together apples and sug- ar. Add dry ingredients, stir well. In separate bowl beat eggs, oil and vanilla. Stir egg mixture into apple mixture, blending until thoroughly moistened. Stir in pecans. Pour into greased 9 x 13 inch pan. Bake 50 minutes or until cake springs back. Serve with apple dessert sauce or Cool Whip.",

@@ -15,9 +15,10 @@
          "amount": 0,
          "name": "Salt"
       },
-	  {
+      {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 0,
@@ -27,7 +28,7 @@
          "amount": 0,
          "name": "Celery salt"
       },
-	  {
+      {
          "amount": 0,
          "name": "Parsley"
       },

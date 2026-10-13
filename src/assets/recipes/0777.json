@@ -9,7 +9,8 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. butter, melted"
+         "unit": "tbsp",
+         "name": "butter, melted"
       },
       {
          "amount": 3,
@@ -25,11 +26,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 6,
-         "name": "oz. mini chocolate chips"
+         "unit": "oz",
+         "name": "mini chocolate chips"
       }
    ],
    "instructions": "Mix cookie crumbs and butter. Press evenly on bottom of ungreased springform pan. In a large bowl, beat remaining ingredients, except chocolate chips, until smooth. Mix in chocolate chips. Pour cheese mixture over crumb mixture. Bake at 300° for 1 hour. Cover and refrigerate for at least 3 hours.",

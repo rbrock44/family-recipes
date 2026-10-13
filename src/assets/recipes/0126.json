@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "qt. tomato juice"
+         "unit": "qt",
+         "name": "tomato juice"
       },
       {
          "amount": 1,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 1,
-         "name": "tsp. garlic salt"
+         "unit": "tsp",
+         "name": "garlic salt"
       },
       {
          "amount": 1,
@@ -25,15 +27,18 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. oregano, ground"
+         "unit": "tbsp",
+         "name": "oregano, ground"
       },
       {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       },
       {
          "amount": 1,

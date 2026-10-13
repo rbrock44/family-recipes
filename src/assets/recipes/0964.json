@@ -5,23 +5,28 @@
   "ingredients": [
     {
       "amount": 1.5,
-      "name": "lb. ground beef"
+      "unit": "lb",
+      "name": "ground beef"
     },
     {
       "amount": 1,
-      "name": "pkg. onion soup"
+      "unit": "pkg",
+      "name": "onion soup"
     },
     {
       "amount": 3,
-      "name": "Tbsp. tomato or catsup"
+      "unit": "tbsp",
+      "name": "tomato or catsup"
     },
     {
       "amount": 3,
-      "name": "Tbsp. flour"
+      "unit": "tbsp",
+      "name": "flour"
     },
     {
       "amount": 2,
-      "name": "c. water"
+      "unit": "cup",
+      "name": "water"
     },
     {
       "amount": 0,

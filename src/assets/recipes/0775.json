@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box yellow Jiffy cake mix"
+         "unit": "box",
+         "name": "yellow Jiffy cake mix"
       },
       {
          "amount": 1,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 2,
-         "name": "boxes instant vanilla pudding"
+         "unit": "box",
+         "name": "instant vanilla pudding"
       },
       {
          "amount": 0,

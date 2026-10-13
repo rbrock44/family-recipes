@@ -13,23 +13,28 @@
       },
       {
          "amount": 1,
-         "name": "tsp. plus 1 Tbsp. cornstarch"
+         "unit": "tsp",
+         "name": "plus 1 Tbsp. cornstarch"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "Tbsp. plus 1 tsp. rice wine or rice vinegar"
+         "unit": "tbsp",
+         "name": "plus 1 tsp. rice wine or rice vinegar"
       },
       {
          "amount": 1,
-         "name": "c. chicken broth"
+         "unit": "cup",
+         "name": "chicken broth"
       },
       {
          "amount": 1,
-         "name": "Tbsp. soy sauce"
+         "unit": "tbsp",
+         "name": "soy sauce"
       },
       {
          "amount": 1,
@@ -37,7 +42,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. cashews"
+         "unit": "cup",
+         "name": "cashews"
       },
       {
          "amount": 1,

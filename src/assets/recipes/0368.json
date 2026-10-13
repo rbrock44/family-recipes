@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. mashed potatoes"
+         "unit": "cup",
+         "name": "mashed potatoes"
       },
       {
          "amount": 1,
-         "name": "c. melted shortening"
+         "unit": "cup",
+         "name": "melted shortening"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       },
       {
          "amount": 2,
@@ -25,11 +29,13 @@
       },
       {
          "amount": 3,
-         "name": "c. lukewarm water"
+         "unit": "cup",
+         "name": "lukewarm water"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 6,

@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "Tbsp. butter or margarine"
+         "unit": "tbsp",
+         "name": "butter or margarine"
       },
       {
          "amount": 0.25,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 2,
-         "name": "c. white rice"
+         "unit": "cup",
+         "name": "white rice"
       },
       {
          "amount": 2,
@@ -21,7 +24,8 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       }
    ],
    "instructions": "Cook rice in water until done. Drain. Add sugar, butter and milk. Cook until thick. Serve with cinnamon sprinkled on each serving.",

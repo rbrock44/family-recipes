@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "gal. boiling water"
+         "unit": "gal",
+         "name": "boiling water"
       },
       {
          "amount": 3,
-         "name": "qt. dandelion flowers"
+         "unit": "qt",
+         "name": "dandelion flowers"
       },
       {
          "amount": 5,
-         "name": "lb. light brown sugar"
+         "unit": "lb",
+         "name": "light brown sugar"
       },
       {
          "amount": 0,

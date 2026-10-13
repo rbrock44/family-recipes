@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick margarine"
+         "unit": "stick",
+         "name": "margarine"
       },
       {
          "amount": 3,
-         "name": "Tbsp. dark brown sugar"
+         "unit": "tbsp",
+         "name": "dark brown sugar"
       },
       {
          "amount": 0.75,
-         "name": "c. dark corn syrup"
+         "unit": "cup",
+         "name": "dark corn syrup"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.125,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 3,
@@ -29,7 +34,8 @@
       },
       {
          "amount": 1,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       },
       {
          "amount": 0,

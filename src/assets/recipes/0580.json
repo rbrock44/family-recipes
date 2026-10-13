@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 6,
-         "name": "Tbsp. strawberry Jell-O"
+         "unit": "tbsp",
+         "name": "strawberry Jell-O"
       },
       {
          "amount": 0.5,
-         "name": "c. cornstarch"
+         "unit": "cup",
+         "name": "cornstarch"
       },
       {
          "amount": 5,
-         "name": "c. sliced strawberries"
+         "unit": "cup",
+         "name": "sliced strawberries"
       },
       {
          "amount": 0,

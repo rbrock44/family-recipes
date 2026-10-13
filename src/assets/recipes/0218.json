@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. pork cut in strips"
+         "unit": "lb",
+         "name": "pork cut in strips"
       },
       {
          "amount": 1,
-         "name": "Tbsp. oil"
+         "unit": "tbsp",
+         "name": "oil"
       },
       {
          "amount": 0.25,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. soy sauce"
+         "unit": "tbsp",
+         "name": "soy sauce"
       },
       {
          "amount": 1,
@@ -25,11 +29,13 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 0.5,

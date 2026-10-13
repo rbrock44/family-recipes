@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. Red Star dry yeast"
+         "unit": "pkg",
+         "name": "Red Star dry yeast"
       },
       {
          "amount": 1,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 3,
-         "name": "Tbsp. cooking oil"
+         "unit": "tbsp",
+         "name": "cooking oil"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0,

@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "c. pumpkin (dry)"
+         "unit": "cup",
+         "name": "pumpkin (dry)"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.25,
-         "name": "c. molasses"
+         "unit": "cup",
+         "name": "molasses"
       },
       {
          "amount": 0.75,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.25,
-         "name": "c. melted butter"
+         "unit": "cup",
+         "name": "melted butter"
       },
       {
          "amount": 1.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 4,

@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. margarine"
+         "unit": "cup",
+         "name": "margarine"
       },
       {
          "amount": 0.75,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. cocoa"
+         "unit": "tbsp",
+         "name": "cocoa"
       },
       {
          "amount": 0.25,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 2,
-         "name": "c. miniature marshmallows"
+         "unit": "cup",
+         "name": "miniature marshmallows"
       },
       {
          "amount": 2,
-         "name": "pkg. (6 oz.) chocolate chips"
+         "unit": "pkg",
+         "name": "(6 oz.) chocolate chips"
       },
       {
          "amount": 1,
-         "name": "c. peanut butter"
+         "unit": "cup",
+         "name": "peanut butter"
       },
       {
          "amount": 1,
-         "name": "c. crispy rice cereal"
+         "unit": "cup",
+         "name": "crispy rice cereal"
       },
       {
          "amount": 2,
@@ -41,15 +49,18 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.75,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.75,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       }
    ],
    "instructions": "Cream together margarine and sugar. Add eggs and vanilla, mixing well. Add flour, cocoa, baking powder and nuts. Spread on greased 9 x 13 inch pan and bake 350° for 15 minutes. Remove from oven and sprinkle marshmallows over top. Return to oven for three minutes. In large sauce pan melt chocolate chips with peanut butter. Add crisp rice cereal and spread over top of baked mixture. Refrigerate or put in a very cool place. Then cut in bars.",

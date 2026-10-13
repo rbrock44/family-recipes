@@ -1,19 +1,22 @@
 {
    "name": "Vegetable-Pasta Toss",
    "author": "Pat Schlosser",
-   "category": 2                                  ,
+   "category": 2,
    "ingredients": [
       {
          "amount": 8,
-         "name": "oz. vermicelli, broken into thirds"
+         "unit": "oz",
+         "name": "vermicelli, broken into thirds"
       },
       {
          "amount": 4,
-         "name": "c. bite-sized broccoli flowerets"
+         "unit": "cup",
+         "name": "bite-sized broccoli flowerets"
       },
       {
          "amount": 4,
-         "name": "c. bite-sized cauliflowerets"
+         "unit": "cup",
+         "name": "bite-sized cauliflowerets"
       },
       {
          "amount": 1,
@@ -21,31 +24,38 @@
       },
       {
          "amount": 0.33,
-         "name": "c. grated Parmesan cheese "
+         "unit": "cup",
+         "name": "grated Parmesan cheese"
       },
       {
          "amount": 0.25,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. basil leaves"
+         "unit": "tsp",
+         "name": "basil leaves"
       },
       {
          "amount": 2,
-         "name": "c. mayonnaise"
+         "unit": "cup",
+         "name": "mayonnaise"
       },
       {
          "amount": 1,
-         "name": "lb. bacon, crisp fried and crumbled"
+         "unit": "lb",
+         "name": "bacon, crisp fried and crumbled"
       },
       {
          "amount": 2,
-         "name": "c. season croutons"
+         "unit": "cup",
+         "name": "season croutons"
       },
       {
          "amount": 1,

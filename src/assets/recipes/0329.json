@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. dried rosemary"
+         "unit": "tsp",
+         "name": "dried rosemary"
       },
       {
          "amount": 2,
-         "name": "lb. asparagus"
+         "unit": "lb",
+         "name": "asparagus"
       },
       {
          "amount": 1,
-         "name": "Tbsp. olive oil"
+         "unit": "tbsp",
+         "name": "olive oil"
       },
       {
          "amount": 2,

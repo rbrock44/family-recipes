@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "lb. lean neck of lamb"
+         "unit": "lb",
+         "name": "lean neck of lamb"
       },
       {
          "amount": 1,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 2,
-         "name": "c. water (approximately)"
+         "unit": "cup",
+         "name": "water (approximately)"
       },
       {
          "amount": 4,

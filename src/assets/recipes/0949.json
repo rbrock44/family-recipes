@@ -9,15 +9,18 @@
     },
     {
       "amount": 2,
-      "name": "Tbsp. lemon juice"
+      "unit": "tbsp",
+      "name": "lemon juice"
     },
     {
       "amount": 3,
-      "name": "cups spinach"
+      "unit": "cup",
+      "name": "spinach"
     },
     {
       "amount": 0.5,
-      "name": "c. blue cheese"
+      "unit": "cup",
+      "name": "blue cheese"
     },
     {
       "amount": 2,
@@ -25,31 +28,38 @@
     },
     {
       "amount": 0.5,
-      "name": "c. very thin sliced onions"
+      "unit": "cup",
+      "name": "very thin sliced onions"
     },
     {
       "amount": 3,
-      "name": "c. torn lettuce"
+      "unit": "cup",
+      "name": "torn lettuce"
     },
     {
       "amount": 0.5,
-      "name": "c. chopped pecans"
+      "unit": "cup",
+      "name": "chopped pecans"
     },
     {
       "amount": 0.5,
-      "name": "c. sliced mushrooms"
+      "unit": "cup",
+      "name": "sliced mushrooms"
     },
     {
       "amount": 0.25,
-      "name": "c. red wine (dressing)"
+      "unit": "cup",
+      "name": "red wine (dressing)"
     },
     {
       "amount": 0.33,
-      "name": "c. oil (dressing)"
+      "unit": "cup",
+      "name": "oil (dressing)"
     },
     {
       "amount": 1,
-      "name": "tsp. Worcestershire sauce (dressing)"
+      "unit": "tsp",
+      "name": "Worcestershire sauce (dressing)"
     },
     {
       "amount": 1,
@@ -57,19 +67,23 @@
     },
     {
       "amount": 0.25,
-      "name": "tsp. oregano (dressing)"
+      "unit": "tsp",
+      "name": "oregano (dressing)"
     },
     {
       "amount": 0.5,
-      "name": "tsp. salt (dressing)"
+      "unit": "tsp",
+      "name": "salt (dressing)"
     },
     {
       "amount": 0.5,
-      "name": "tsp. sugar (dressing)"
+      "unit": "tsp",
+      "name": "sugar (dressing)"
     },
     {
       "amount": 0,
-      "name": "dash of pepper (dressing)"
+      "unit": "dash",
+      "name": "of pepper (dressing)"
     }
   ],
   "instructions": "Serve with red wine dressing.\n\nRed Wine Dressing: Mix well, refrigerate for 1 hr. Remove garlic.",

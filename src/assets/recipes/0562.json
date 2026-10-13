@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "lb. margarine"
+         "unit": "lb",
+         "name": "margarine"
       },
       {
          "amount": 4,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 4,
@@ -17,23 +19,28 @@
       },
       {
          "amount": 1,
-         "name": "can Hershey's chocolate syrup"
+         "unit": "can",
+         "name": "Hershey's chocolate syrup"
       },
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.5,
-         "name": "c. nuts, optional"
+         "unit": "cup",
+         "name": "nuts, optional"
       }
    ],
    "instructions": "Cream sugar and margarine, beat in eggs each seperately. Add syrup, flour, salt, vanilla and nuts mixing thoroughly. Bake in 13 x 9 inch pan at 350° for 25 minutes.",

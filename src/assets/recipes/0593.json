@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. (6 oz.) Bits 'O Brickle"
+         "unit": "pkg",
+         "name": "(6 oz.) Bits 'O Brickle"
       },
       {
          "amount": 1.5,
-         "name": "Tbsp. oil"
+         "unit": "tbsp",
+         "name": "oil"
       },
       {
          "amount": 6,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 6,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 6,
-         "name": "Tbsp. brown sugar, packed"
+         "unit": "tbsp",
+         "name": "brown sugar, packed"
       },
       {
          "amount": 0.5,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
@@ -37,15 +44,18 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1.25,
-         "name": "cup plus 2 Tbsp. flour"
+         "unit": "cup",
+         "name": "plus 2 Tbsp. flour"
       }
    ],
    "instructions": "Preheat oven to 325°. In a small bowl mix Bits 'O Brickle with liquid shortening until evenly coated, then stir in 6 tablespoons of flour until well coated; set aside. In a large bowl, combine butter, sugar and brown sugar and vanilla; beat until creamy. Beat in egg. Gradually add salt, baking soda and flour, mix well. Stir in coated Bits. Drop to 12 minutes. Makes 50 cookies. by rounded teaspoons onto greased cookie sheets. Bake at 325° for 10 to 12 minutes.",

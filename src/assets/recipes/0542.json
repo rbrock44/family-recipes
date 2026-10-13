@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "c. butter or margarine"
+         "unit": "cup",
+         "name": "butter or margarine"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 3,
-         "name": "c. confectioners sugar (sift if lumpy)"
+         "unit": "cup",
+         "name": "confectioners sugar (sift if lumpy)"
       },
       {
          "amount": 0.25,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       }
    ],
    "instructions": "Combine butter, salt, vanilla and 1 cup sugar. Add milk and remaining sugar. Mix until smooth. Add sugar to thicken, milk to thin.",

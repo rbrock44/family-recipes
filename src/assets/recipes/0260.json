@@ -9,11 +9,13 @@
       },
       {
          "amount": 11,
-         "name": "oz. cream cheese"
+         "unit": "oz",
+         "name": "cream cheese"
       },
       {
          "amount": 0.5,
-         "name": "c. mayonnaise"
+         "unit": "cup",
+         "name": "mayonnaise"
       },
       {
          "amount": 0,
@@ -21,7 +23,8 @@
       },
       {
          "amount": 1,
-         "name": "pkg. dry ranch dressing mix"
+         "unit": "pkg",
+         "name": "dry ranch dressing mix"
       },
       {
          "amount": 0,

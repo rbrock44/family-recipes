@@ -1,7 +1,7 @@
 {
    "name": "Cottage Cheese Salad",
    "author": "Rebecca Hooper",
-   "category": 2                                  ,
+   "category": 2,
    "ingredients": [
       {
          "amount": 1,
@@ -17,11 +17,13 @@
       },
       {
          "amount": 1,
-         "name": "can crushed pineapple"
+         "unit": "can",
+         "name": "crushed pineapple"
       },
       {
          "amount": 1,
-         "name": "can mandarin oranges"
+         "unit": "can",
+         "name": "mandarin oranges"
       },
       {
          "amount": 0,

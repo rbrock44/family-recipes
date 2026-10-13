@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "Tbsp. margarine, softened"
+         "unit": "tbsp",
+         "name": "margarine, softened"
       },
       {
          "amount": 1.5,
-         "name": "c. chopped, peeled apples"
+         "unit": "cup",
+         "name": "chopped, peeled apples"
       },
       {
          "amount": 10,
-         "name": "oz. can Hungry Jack Refrigerated Flaky Biscuits"
+         "unit": "oz",
+         "name": "can Hungry Jack Refrigerated Flaky Biscuits"
       },
       {
          "amount": 0.33,
-         "name": "c. firmly packed brown sugar"
+         "unit": "cup",
+         "name": "firmly packed brown sugar"
       },
       {
          "amount": 0.33,
-         "name": "c. light corn syrup"
+         "unit": "cup",
+         "name": "light corn syrup"
       },
       {
          "amount": 1,
@@ -29,19 +34,23 @@
       },
       {
          "amount": 0.25,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "c. pecan pieces or halves"
+         "unit": "cup",
+         "name": "pecan pieces or halves"
       },
       {
          "amount": 0.33,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 0.25,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,

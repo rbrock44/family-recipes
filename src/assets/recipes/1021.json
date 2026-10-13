@@ -5,7 +5,8 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "can bean dip"
+      "unit": "can",
+      "name": "bean dip"
     },
     {
       "amount": 2,
@@ -13,23 +14,28 @@
     },
     {
       "amount": 0,
-      "name": "dash salt"
+      "unit": "dash",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "tsp. lemon juice"
+      "unit": "tsp",
+      "name": "lemon juice"
     },
     {
       "amount": 0.5,
-      "name": "c. mayonnaise"
+      "unit": "cup",
+      "name": "mayonnaise"
     },
     {
       "amount": 0.5,
-      "name": "c. sour cream"
+      "unit": "cup",
+      "name": "sour cream"
     },
     {
       "amount": 0.5,
-      "name": "package taco seasoning"
+      "unit": "pkg",
+      "name": "taco seasoning"
     },
     {
       "amount": 1,

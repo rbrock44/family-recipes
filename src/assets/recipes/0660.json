@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -17,27 +19,33 @@
       },
       {
          "amount": 0.25,
-         "name": "c. molasses"
+         "unit": "cup",
+         "name": "molasses"
       },
       {
          "amount": 2,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 1,
-         "name": "Tbsp. ground ginger"
+         "unit": "tbsp",
+         "name": "ground ginger"
       },
       {
          "amount": 2,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Cream shortening until soft; gradually add sugar creaming after each addition until mixture is fluffy. Beat in egg, then add molasses. Measure flour, ginger, soda, cinnamon, and salt into sifter. Sift dry ingredients over creamed mixture and blend well. Form teaspoons of dough into small balls by rolling them lightly one at a time between palms of hands. Roll the dough balls in granulated sugar to cover out- side surfaces. Place 2 inches apart on ungreased cookie sheets. Bake in 350° oven for 12 to 15 minutes or until tops are cracky and lightly browned. Remove from cookie sheets and cool. Store in airtight con- tainers. (Will be best if stored a few weeks to age properly.)",

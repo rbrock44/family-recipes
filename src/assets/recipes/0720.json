@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1.75,
-         "name": "c. cold milk"
+         "unit": "cup",
+         "name": "cold milk"
       },
       {
          "amount": 2,
-         "name": "pkg. (4 serving) Jell-O instant vanilla pudding"
+         "unit": "pkg",
+         "name": "(4 serving) Jell-O instant vanilla pudding"
       },
       {
          "amount": 1,
-         "name": "can (6 oz.) frozen lemonade concentrate thawed"
+         "unit": "can",
+         "name": "(6 oz.) frozen lemonade concentrate thawed"
       },
       {
          "amount": 1,

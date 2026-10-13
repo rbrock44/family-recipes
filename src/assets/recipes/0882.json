@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "cup vanilla yogurt"
+         "unit": "cup",
+         "name": "vanilla yogurt"
       },
       {
          "amount": 0.25,
-         "name": "cup creme of coconut"
+         "unit": "cup",
+         "name": "creme of coconut"
       },
       {
          "amount": 0.25,
-         "name": "cup crushed pineapple"
+         "unit": "cup",
+         "name": "crushed pineapple"
       }
    ],
    "instructions": "Mix, chill and serve",

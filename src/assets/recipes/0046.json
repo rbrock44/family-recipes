@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. Velveeta cheese"
+         "unit": "lb",
+         "name": "Velveeta cheese"
       },
       {
          "amount": 1,
@@ -13,11 +14,13 @@
       },
       {
          "amount": 0.5,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       },
       {
          "amount": 0.25,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       }
    ],
    "instructions": "Mix all ingredients. Shape into ball or roll.",

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 5,
-         "name": "lbs potatoes, wash & boil with packets on til done (not mushy-jist knife through them)"
+         "unit": "lb",
+         "name": "potatoes, wash & boil with packets on til done (not mushy-jist knife through them)"
       },
       {
          "amount": 8,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 1,
-         "name": "cup diced and chopped celery"
+         "unit": "cup",
+         "name": "diced and chopped celery"
       },
       {
          "amount": 1,
@@ -21,7 +23,8 @@
       },
       {
          "amount": 3,
-         "name": "cups mayonnaise"
+         "unit": "cup",
+         "name": "mayonnaise"
       },
       {
          "amount": 0.33,
@@ -29,7 +32,8 @@
       },
       {
          "amount": 0.5,
-         "name": "cup sugar (if too much mustard add more sugar)"
+         "unit": "cup",
+         "name": "sugar (if too much mustard add more sugar)"
       },
       {
          "amount": 0,

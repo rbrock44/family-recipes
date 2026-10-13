@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
@@ -13,19 +14,23 @@
       },
       {
          "amount": 3,
-         "name": "Tbsp. garlic cloves"
+         "unit": "tbsp",
+         "name": "garlic cloves"
       },
       {
          "amount": 1,
-         "name": "Tbsp. vinegar"
+         "unit": "tbsp",
+         "name": "vinegar"
       },
       {
          "amount": 3,
-         "name": "c. tomato juice"
+         "unit": "cup",
+         "name": "tomato juice"
       },
       {
          "amount": 3,
-         "name": "Tbsp. chili powder"
+         "unit": "tbsp",
+         "name": "chili powder"
       },
       {
          "amount": 0,
@@ -33,11 +38,13 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "c. cheese"
+         "unit": "cup",
+         "name": "cheese"
       },
       {
          "amount": 3,

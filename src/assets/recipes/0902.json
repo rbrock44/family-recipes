@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. leftover mashed potatoes"
+         "unit": "cup",
+         "name": "leftover mashed potatoes"
       },
       {
          "amount": 1,
@@ -13,11 +14,13 @@
       },
       {
          "amount": 1,
-         "name": "c. shreded chedder cheese"
+         "unit": "cup",
+         "name": "shreded chedder cheese"
       },
       {
          "amount": 0.5,
-         "name": "c. green onoins, chooped"
+         "unit": "cup",
+         "name": "green onoins, chooped"
       },
       {
          "amount": 0,

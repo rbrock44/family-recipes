@@ -13,23 +13,28 @@
       },
       {
          "amount": 1,
-         "name": "tsp. basil"
+         "unit": "tsp",
+         "name": "basil"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "c. oleo"
+         "unit": "cup",
+         "name": "oleo"
       },
       {
          "amount": 0.125,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 0.125,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       }
    ],
    "instructions": "Melt oleo and saute corn and broccoli. Cook until heated and tender, then add seasoning and heat.",

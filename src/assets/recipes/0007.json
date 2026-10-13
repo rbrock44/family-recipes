@@ -5,51 +5,62 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. dried basil"
+         "unit": "tsp",
+         "name": "dried basil"
       },
       {
          "amount": 1,
-         "name": "tsp. Italian seasoning"
+         "unit": "tsp",
+         "name": "Italian seasoning"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
-      }	  ,
-	  {
+         "unit": "tsp",
+         "name": "salt"
+      },
+      {
          "amount": 1,
-         "name": "Tbsp. Ketchup"
+         "unit": "tbsp",
+         "name": "Ketchup"
       },
       {
          "amount": 2,
-         "name": "tsp. Worcestershire sauce"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 2,
-         "name": "lb. lean ground beef"
-      }	  ,
-	  {
+         "unit": "lb",
+         "name": "lean ground beef"
+      },
+      {
          "amount": 2,
          "name": "eggs, slightly beaten"
       },
       {
          "amount": 0.5,
-         "name": "c. dry bread crumbs"
+         "unit": "cup",
+         "name": "dry bread crumbs"
       },
       {
          "amount": 0.25,
-         "name": "c. finely chopped onions"
-      }	  ,
-	  {
+         "unit": "cup",
+         "name": "finely chopped onions"
+      },
+      {
          "amount": 1,
-         "name": "c. (4 oz.) shredded Mozzerella cheese"
+         "unit": "cup",
+         "name": "(4 oz.) shredded Mozzerella cheese"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 2,
-         "name": "Tbsp. grated Parmesan cheese"
+         "unit": "tbsp",
+         "name": "grated Parmesan cheese"
       }
    ],
    "instructions": "In a bowl, mix all ingredients together; mix well. Shape into 1 inch balls. Place on a rack in a shallow roasting pan. Bake at 350 degrees for 10 to 15 minutes. Remove the meatballs and rack and drain. Sauce is next recipe",

@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp. ground nutmeg"
+         "unit": "tsp",
+         "name": "ground nutmeg"
       },
       {
          "amount": 2,
-         "name": "c. butter softened"
+         "unit": "cup",
+         "name": "butter softened"
       },
       {
          "amount": 2,
-         "name": "c. sugar, divided"
+         "unit": "cup",
+         "name": "sugar, divided"
       },
       {
          "amount": 9,
@@ -29,11 +34,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. cream of tartar"
+         "unit": "tsp",
+         "name": "cream of tartar"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Sift together flour, salt and nutmeg. Set aside. In large mixing bowl, beat together butter and 1 1/2 cups sugar at medium speed until light and fluffy. Add yolks all at once and beat until thoroughly blended. Gradually blend flour mixture, 3/4 cup at a time, into butter- yolk mixture. Set aside.\nWash and dry beaters. Beat egg whites and cream of tartar at high speed until foamy. Gradually add remaining 1/2 cup sugar, 1 tablespoon at a time, beating constantly until sugar is dissolved and whites are glossy and stand in soft peaks. Beat in vanilla. Gently but thoroughly fold egg whites into flour mixture. Pour 4 cups batter into each of two greased and floured 9 x 5 x 3 inch loaf pans. Spread evenly. Bake in preheated 325° oven until cake tester inserted in center comes out clean, 55 to 60 minutes. Cool on wire racks 10 minutes. Remove from pans and cool completely.",

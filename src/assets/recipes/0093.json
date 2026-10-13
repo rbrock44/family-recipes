@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "cans pineapple chunks, drained"
+         "unit": "can",
+         "name": "pineapple chunks, drained"
       },
       {
          "amount": 4,
@@ -13,15 +14,18 @@
       },
       {
          "amount": 2,
-         "name": "cans mandarin oranges, drained"
+         "unit": "can",
+         "name": "mandarin oranges, drained"
       },
       {
          "amount": 1,
-         "name": "pkg. frozen strawberries, thawed"
+         "unit": "pkg",
+         "name": "frozen strawberries, thawed"
       },
       {
          "amount": 1,
-         "name": "can peach pie filling"
+         "unit": "can",
+         "name": "peach pie filling"
       }
    ],
    "instructions": "Mix ingredients and chill before serving.",

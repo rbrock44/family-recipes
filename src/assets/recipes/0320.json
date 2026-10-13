@@ -21,15 +21,18 @@
       },
       {
          "amount": 0.5,
-         "name": "c. smokey BBQ sauce"
+         "unit": "cup",
+         "name": "smokey BBQ sauce"
       },
       {
          "amount": 0.33,
-         "name": "c. firmly packed brown sugar"
+         "unit": "cup",
+         "name": "firmly packed brown sugar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. mustard"
+         "unit": "tbsp",
+         "name": "mustard"
       }
    ],
    "instructions": "Fry bacon until crisp, remove from skillet and crumble. Add onion and green pepper to bacon drippings; fry until soft. Add crumbled bacon, pork 'n beans, brown sugar, BBQ sauce and mustard. Bring to a boil on medium heat; cook 15 minutes, stirring occasionally to keep from sticking.",

@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 2.5,
-         "name": "c. dry lazy manes fondant"
+         "unit": "cup",
+         "name": "dry lazy manes fondant"
       },
       {
          "amount": 4,
-         "name": "Tbsp. water"
+         "unit": "tbsp",
+         "name": "water"
       },
       {
          "amount": 0,

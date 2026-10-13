@@ -9,39 +9,48 @@
       },
       {
          "amount": 0.66,
-         "name": "c. pumpkin"
+         "unit": "cup",
+         "name": "pumpkin"
       },
       {
          "amount": 0.66,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 2,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. lemon juice"
+         "unit": "tsp",
+         "name": "lemon juice"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. ginger"
+         "unit": "tsp",
+         "name": "ginger"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Beat eggs for 5 minutes. Add sugar and other ingredients. Mix thoroughly. Spread batter in a large greased cookie sheet with sides. Sprinkle with one cup nuts. Bake at 375° for 15 minutes. Dust dish towel with powdered sugar. Turn cake out onto powdered sugar and roll up. Let cool rolled up.",

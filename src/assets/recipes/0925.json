@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "c. shortening"
+      "unit": "cup",
+      "name": "shortening"
     },
     {
       "amount": 1,
-      "name": "c. brown sugar"
+      "unit": "cup",
+      "name": "brown sugar"
     },
     {
       "amount": 1,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 2,
@@ -21,27 +24,33 @@
     },
     {
       "amount": 1,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     },
     {
       "amount": 0.5,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "tsp. soda"
+      "unit": "tsp",
+      "name": "soda"
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     },
     {
       "amount": 3.5,
-      "name": "c. oats"
+      "unit": "cup",
+      "name": "oats"
     },
     {
       "amount": 1,
-      "name": "c. nuts"
+      "unit": "cup",
+      "name": "nuts"
     }
   ],
   "instructions": "Bake 350 onto greased pans by spoonfuls.",

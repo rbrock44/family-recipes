@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. uncooked rice"
+         "unit": "cup",
+         "name": "uncooked rice"
       },
       {
          "amount": 3,
-         "name": "cans cream of mushroom soup"
+         "unit": "can",
+         "name": "cream of mushroom soup"
       },
       {
          "amount": 3,
-         "name": "cans cream of chicken soup"
+         "unit": "can",
+         "name": "cream of chicken soup"
       },
       {
          "amount": 4,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 3,
-         "name": "cans Chinese noodles"
+         "unit": "can",
+         "name": "Chinese noodles"
       },
       {
          "amount": 3,
-         "name": "lb. hamburger, salted and browned"
+         "unit": "lb",
+         "name": "hamburger, salted and browned"
       },
       {
          "amount": 4,
-         "name": "c. celery"
+         "unit": "cup",
+         "name": "celery"
       },
       {
          "amount": 3,
@@ -37,7 +44,8 @@
       },
       {
          "amount": 0.75,
-         "name": "C. soy sauce"
+         "unit": "cup",
+         "name": "soy sauce"
       }
    ],
    "instructions": "Brown and salt hamburger. Add remaining ingredients except noodles. Mix and bake 1 hour at 350°. Sprinkle Chinese noodles over top and bake an additional 15 minutes.",

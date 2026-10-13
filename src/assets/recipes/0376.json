@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. Crisco"
+         "unit": "cup",
+         "name": "Crisco"
       },
       {
          "amount": 0.75,
-         "name": "c. dry white cake mix"
+         "unit": "cup",
+         "name": "dry white cake mix"
       },
       {
          "amount": 0.5,
-         "name": "lb. powdered sugar"
+         "unit": "lb",
+         "name": "powdered sugar"
       },
       {
          "amount": 0.75,
-         "name": "c. cold water"
+         "unit": "cup",
+         "name": "cold water"
       },
       {
          "amount": 0,

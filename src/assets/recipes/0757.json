@@ -5,47 +5,58 @@
    "ingredients": [
       {
          "amount": 6,
-         "name": "c. (big) sliced apples"
+         "unit": "cup",
+         "name": "(big) sliced apples"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.75,
-         "name": "c. oatmeal"
+         "unit": "cup",
+         "name": "oatmeal"
       },
       {
          "amount": 0.75,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.75,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.33,
-         "name": "c. shortening or butter"
+         "unit": "cup",
+         "name": "shortening or butter"
       },
       {
          "amount": 0.5,
-         "name": "tsp. soda"
+         "unit": "tsp",
+         "name": "soda"
       },
       {
-         "amount":0.5,
-         "name": "tsp. baking powder"
+         "amount": 0.5,
+         "unit": "tsp",
+         "name": "baking powder"
       }
    ],
    "instructions": "Mix together sugar and 2 tablespoons of flour and the cinnamon. Mix in apples. Place apples in greased and floured baking dish (9 x 13). Mix with pastry blender or forks the oatmeal, baking powder, brown sugar, salt, flour, butter and soda. Pour over tops of apples. Bake 30 minutes at 350°.",

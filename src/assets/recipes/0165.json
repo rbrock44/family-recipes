@@ -1,7 +1,7 @@
 {
    "name": "Cheese Enchiladas",
    "author": "Rebecca Hooper",
-   "category": 3                                  ,
+   "category": 3,
    "ingredients": [
       {
          "amount": 1,
@@ -17,7 +17,8 @@
       },
       {
          "amount": 0.33,
-         "name": "c. salad oil"
+         "unit": "cup",
+         "name": "salad oil"
       }
    ],
    "instructions": "",

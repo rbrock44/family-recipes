@@ -9,15 +9,18 @@
       },
       {
          "amount": 1,
-         "name": "c. sifted powdered sugar"
+         "unit": "cup",
+         "name": "sifted powdered sugar"
       },
       {
          "amount": 0.33,
-         "name": "c. creamy peanut butter"
+         "unit": "cup",
+         "name": "creamy peanut butter"
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,

@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0.25,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.25,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 0.25,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 6,
@@ -29,23 +34,28 @@
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.75,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       }
    ],
    "instructions": "Make a syrup of sugar, water, cinnamon and nutmeg. Add but- ter. Pare, core and slice apples. Sift flour, salt, and baking powder. Cut in shortening. Add milk all at once, and stir until moistened. Roll 1/4 inch thick. Cut into 5 inch squares. Arrange apple slices on each square. Sprinkle generously with additional sugar, cinnamon and nutmeg. Dot with butter. Fold corners to center and pinch edges together. Place 1 inch apart in greased baking pan. Pour syrup over dumplings. Bake at 375° for 35 minutes.",

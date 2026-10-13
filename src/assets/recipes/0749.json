@@ -9,15 +9,18 @@
       },
       {
          "amount": 0.25,
-         "name": "tsp. cream of tartar"
+         "unit": "tsp",
+         "name": "cream of tartar"
       },
       {
          "amount": 6,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "tsp. desired flavoring"
+         "unit": "tsp",
+         "name": "desired flavoring"
       }
    ],
    "instructions": "Beat whites with cream of tartar until frothy. Gradually beat in sugar, a little at a time. Continue beating until stiff and glossy. Add flavoring. Pile meringue onto pie filling, being careful to seal the edges. Bake at 400° in oven for 8 to 10 minutes.",

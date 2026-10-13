@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box chicken Rice-a-Roni"
+         "unit": "box",
+         "name": "chicken Rice-a-Roni"
       },
       {
          "amount": 2,
-         "name": "c. shredded zucchini (may use 1 cup)"
+         "unit": "cup",
+         "name": "shredded zucchini (may use 1 cup)"
       },
       {
          "amount": 1,
-         "name": "c. shredded carrot"
+         "unit": "cup",
+         "name": "shredded carrot"
       },
       {
          "amount": 1,
@@ -21,7 +24,8 @@
       },
       {
          "amount": 1,
-         "name": "can cream of chicken soup"
+         "unit": "can",
+         "name": "cream of chicken soup"
       },
       {
          "amount": 1,
@@ -29,7 +33,8 @@
       },
       {
          "amount": 0.5,
-         "name": "stick melted oleo"
+         "unit": "stick",
+         "name": "melted oleo"
       }
    ],
    "instructions": "Prepare box of chicken Rice-a-Roni. Add the zucchini, carrot, and onion. Mix chicken soup, sour cream, and oleo together for the topping. Add the topping to the rice mixture and bake 35 to 40 minutes at 350° or until veggies are tender.",

@@ -6,27 +6,33 @@
   "ingredients": [
     {
       "amount": 5,
-      "name": "c. mini pretzels"
+      "unit": "cup",
+      "name": "mini pretzels"
     },
     {
       "amount": 8,
-      "name": "c. bugles"
+      "unit": "cup",
+      "name": "bugles"
     },
     {
       "amount": 2,
-      "name": "c. salted cashews"
+      "unit": "cup",
+      "name": "salted cashews"
     },
     {
       "amount": 2,
-      "name": "c. goldfish"
+      "unit": "cup",
+      "name": "goldfish"
     },
     {
       "amount": 2,
-      "name": "c. cheetos"
+      "unit": "cup",
+      "name": "cheetos"
     },
     {
       "amount": 2,
-      "name": "c. fritos"
+      "unit": "cup",
+      "name": "fritos"
     },
     {
       "amount": 1,
@@ -34,19 +40,23 @@
     },
     {
       "amount": 1,
-      "name": "tsp. dill weed"
+      "unit": "tsp",
+      "name": "dill weed"
     },
     {
       "amount": 1,
-      "name": "tsp. lemon pepper"
+      "unit": "tsp",
+      "name": "lemon pepper"
     },
     {
       "amount": 0.75,
-      "name": "tsp. garlic salt"
+      "unit": "tsp",
+      "name": "garlic salt"
     },
     {
       "amount": 0.75,
-      "name": "c. canola oil"
+      "unit": "cup",
+      "name": "canola oil"
     }
   ],
   "yield": {

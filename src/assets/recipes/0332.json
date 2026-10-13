@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "c. chopped cabbage"
+         "unit": "cup",
+         "name": "chopped cabbage"
       },
       {
          "amount": 1,
-         "name": "can cream of chicken soup"
+         "unit": "can",
+         "name": "cream of chicken soup"
       },
       {
          "amount": 2,
-         "name": "c. chopped celery"
+         "unit": "cup",
+         "name": "chopped celery"
       },
       {
          "amount": 0.25,
-         "name": "lb. Cheddar cheese, coarsely grated"
+         "unit": "lb",
+         "name": "Cheddar cheese, coarsely grated"
       }
    ],
    "instructions": "Cook vegetables in salted waster until crunchy. Drain and mix vegetables. Butter casserole. Layer half of the vegetables, half the soup (may need more), half the cheese and sprinkle with salt and pep- per. Repeat with another layer of vegetables, soup, seasoning, and cheese. Top with buttered bread crumbs (French fried onion may be used for topping). Bake at 350° for 45 minutes.",

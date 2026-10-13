@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "c. grape juice"
+         "unit": "cup",
+         "name": "grape juice"
       },
       {
          "amount": 0.25,
-         "name": "c. lemon juice"
+         "unit": "cup",
+         "name": "lemon juice"
       },
       {
          "amount": 4.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "pkg. Sure-Jell"
+         "unit": "pkg",
+         "name": "Sure-Jell"
       },
       {
          "amount": 1,
-         "name": "c. light corn syrup"
+         "unit": "cup",
+         "name": "light corn syrup"
       }
    ],
    "instructions": "Measure grape and lemon juice in 4 quart saucepan and stir well. Then, add sure-jell. Stir vigorously. Let set 30 minutes, stirring occasionally. Add corn syrup and mix well. Add sugar all at once. Stir thoroughly. Pour into containers. Let set for 24 hours and then freeze.",

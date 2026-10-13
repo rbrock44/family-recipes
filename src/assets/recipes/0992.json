@@ -9,7 +9,8 @@
     },
     {
       "amount": 1,
-      "name": "can Eagle Brand milk"
+      "unit": "can",
+      "name": "Eagle Brand milk"
     },
     {
       "amount": 0,

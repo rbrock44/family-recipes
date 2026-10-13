@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. firmly packed brown sugar"
+         "unit": "cup",
+         "name": "firmly packed brown sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. shortening or margarine, softened"
+         "unit": "cup",
+         "name": "shortening or margarine, softened"
       },
       {
          "amount": 0.5,
-         "name": "c. peanut butter"
+         "unit": "cup",
+         "name": "peanut butter"
       },
       {
          "amount": 2,
-         "name": "Tbsp. milk"
+         "unit": "tbsp",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
@@ -33,15 +39,18 @@
       },
       {
          "amount": 1.75,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "In a large bowl, combine first seven ingredients, blend well. Stir in remaining ingredients, blend well. Shape into 1 inch balls. Place 2 inches apart on ungreased cookie sheet. Flatten in crisscross pattern with fork dipped in sugar. Bake at 350° for 7 to 8 minutes or until golden brown. Immediately remove from cookie sheet.",

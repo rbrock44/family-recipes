@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "c. rhubarb"
+         "unit": "cup",
+         "name": "rhubarb"
       },
       {
          "amount": 4,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,

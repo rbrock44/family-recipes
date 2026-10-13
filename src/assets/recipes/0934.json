@@ -5,27 +5,33 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "can apple pie filling"
+      "unit": "can",
+      "name": "apple pie filling"
     },
     {
       "amount": 1,
-      "name": "cup quick oats"
+      "unit": "cup",
+      "name": "quick oats"
     },
     {
       "amount": 0.5,
-      "name": "c. butter"
+      "unit": "cup",
+      "name": "butter"
     },
     {
       "amount": 0.5,
-      "name": "c. brown sugar"
+      "unit": "cup",
+      "name": "brown sugar"
     },
     {
       "amount": 1,
-      "name": "tsp. cinnamon"
+      "unit": "tsp",
+      "name": "cinnamon"
     },
     {
       "amount": 0.5,
-      "name": "tsp. nutmeg"
+      "unit": "tsp",
+      "name": "nutmeg"
     }
   ],
   "instructions": "Preheat oven 325. Spread filling in 8 in. square pan. In bowl combine remaining ingredients well and spread over apples. Bake 25 minutes. Serve plain or with ice cream topping.",

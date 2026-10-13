@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "lb. powdered sugar"
+         "unit": "lb",
+         "name": "powdered sugar"
       },
       {
          "amount": 12,
-         "name": "oz. chocolate chips"
+         "unit": "oz",
+         "name": "chocolate chips"
       },
       {
          "amount": 18,
-         "name": "lb. paraffin"
+         "unit": "lb",
+         "name": "paraffin"
       },
       {
          "amount": 1,
-         "name": "lb. peanut butter"
+         "unit": "lb",
+         "name": "peanut butter"
       },
       {
          "amount": 0.5,
-         "name": "lb. margarine, softened"
+         "unit": "lb",
+         "name": "margarine, softened"
       }
    ],
    "instructions": "Mix well first three ingredients. Roll into balls the size of buck- eyes, abut 1 inch. Lay on cookie sheet. Chill. Melt chocolate chips and paraffin in double boiler. Coat buckeyes with chocolate. Lay on cook sheet. Chill again.",

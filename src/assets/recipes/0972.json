@@ -5,31 +5,38 @@
   "ingredients": [
     {
       "amount": 2.5,
-      "name": "lb. flour"
+      "unit": "lb",
+      "name": "flour"
     },
     {
       "amount": 6.67,
-      "name": "T. sugar"
+      "unit": "tbsp",
+      "name": "sugar"
     },
     {
       "amount": 6.67,
-      "name": "T. dry milk"
+      "unit": "tbsp",
+      "name": "dry milk"
     },
     {
       "amount": 1,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 6.67,
-      "name": "T. butter"
+      "unit": "tbsp",
+      "name": "butter"
     },
     {
       "amount": 4.5,
-      "name": "c. water"
+      "unit": "cup",
+      "name": "water"
     },
     {
       "amount": 5,
-      "name": "pkg. yeast (about 2-3 T)"
+      "unit": "pkg",
+      "name": "yeast (about 2-3 T)"
     }
   ],
   "instructions": "Let rise in bowl - punch down and make biscuits - let rise.\n425°",

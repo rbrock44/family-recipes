@@ -9,23 +9,28 @@
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 4,
-         "name": "TBL butter @ room temperature"
+         "unit": "tbsp",
+         "name": "butter @ room temperature"
       },
       {
          "amount": 0.25,
-         "name": "c. Sour Cream @ room temperature"
+         "unit": "cup",
+         "name": "Sour Cream @ room temperature"
       },
       {
          "amount": 1,
-         "name": "tsp. finely minced garlic"
+         "unit": "tsp",
+         "name": "finely minced garlic"
       },
       {
          "amount": 1,
-         "name": "TBL. (OR none) whole milk @ room temp or warm"
+         "unit": "tbsp",
+         "name": "(OR none) whole milk @ room temp or warm"
       },
       {
          "amount": 0,

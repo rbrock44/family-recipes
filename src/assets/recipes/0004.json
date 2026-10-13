@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. hot sausage"
+         "unit": "lb",
+         "name": "hot sausage"
       },
       {
          "amount": 1,
-         "name": "tsp. garlic bread"
+         "unit": "tsp",
+         "name": "garlic bread"
       },
       {
          "amount": 1,
-         "name": "tsp. oregano"
-      } ,
-	  {
+         "unit": "tsp",
+         "name": "oregano"
+      },
+      {
          "amount": 1,
-         "name": "lb. Velveeta cheese"
-      } ,
-	  {
+         "unit": "lb",
+         "name": "Velveeta cheese"
+      },
+      {
          "amount": 1,
-         "name": "Tbsp. Worcestershire sauce"
+         "unit": "tbsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 2,
-         "name": "Tbsp. catsup"
+         "unit": "tbsp",
+         "name": "catsup"
       },
       {
          "amount": 1,

@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. oleo"
+         "unit": "cup",
+         "name": "oleo"
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 2,
-         "name": "c. Crisco shortening"
+         "unit": "cup",
+         "name": "Crisco shortening"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0,
-         "name": "Dash of salt"
+         "unit": "dash",
+         "name": "of salt"
       }
    ],
    "instructions": "Mix flour and milk and stir. Cook until thick. Set aside to cool. In mixer beat oleo, shortening, and sugar until creamy. Add paste, vanilla, and salt. Mix all together and beat until creamy.",

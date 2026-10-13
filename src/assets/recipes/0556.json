@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. yellow cake mix"
+         "unit": "pkg",
+         "name": "yellow cake mix"
       },
       {
          "amount": 0.33,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1,
@@ -17,7 +19,8 @@
       },
       {
          "amount": 1,
-         "name": "can sweetened condensed milk (regular/fat free)"
+         "unit": "can",
+         "name": "sweetened condensed milk (regular/fat free)"
       },
       {
          "amount": 1,
@@ -25,15 +28,18 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. pecans"
+         "unit": "cup",
+         "name": "pecans"
       },
       {
          "amount": 1,
-         "name": "pkg. brickle bits"
+         "unit": "pkg",
+         "name": "brickle bits"
       }
    ],
    "instructions": "Mix together cake mix, butter and 1 egg. Press in bottom of 13 x 9 inch pan. Mix together condensed milk, egg, vanilla and add pecans and brickle bits. Pour over mixture in pan. Bake at 350° for 25 to 35 minutes.",

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
@@ -13,11 +14,13 @@
       },
       {
          "amount": 1,
-         "name": "qt. spaghetti sauce"
+         "unit": "qt",
+         "name": "spaghetti sauce"
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
@@ -29,19 +32,23 @@
       },
       {
          "amount": 8,
-         "name": "oz. shredded Mozzarella cheese"
+         "unit": "oz",
+         "name": "shredded Mozzarella cheese"
       },
       {
          "amount": 0.33,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0.25,
-         "name": "c. Parmesan cheese"
+         "unit": "cup",
+         "name": "Parmesan cheese"
       },
       {
          "amount": 1,
-         "name": "Tbsp. parsley flakes"
+         "unit": "tbsp",
+         "name": "parsley flakes"
       },
       {
          "amount": 0,
@@ -49,7 +56,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. Parmesan cheese"
+         "unit": "cup",
+         "name": "Parmesan cheese"
       }
    ],
    "instructions": "Preheat oven to 375°. In a saucepan brown ground beef, drain excess fat. Add 1 quart spaghetti sauce and 1 cup water, bring to a boil. In a large bowl, mix together with cottage cheese, beaten egg, Mozzarella cheese, 1/2 cup water, 4 cup Parmesan cheese and parsley flakes. Add salt and pepper if desired. To assemble, use uncooked lasagna strips but rinsed in hot water before layering in a 9 x 13 inch pan. Approximately 4 Lasagna strips will fit in pan for a single layer, 3 lengthwise and 1 crosswise.\nLayer as follows: 1/3 cup hot sauce, lasagna strips, 1/2 cheese mix- ture, 1/3 cup hot sauce, lasagna strips, rest of cheese mixture, 1/3 c. hot sauce, lasagna strips and remaining sauce. Top with 1/2 cup Parmesan cheese. Bake at 375°, covered with aluminum foil, for 40 minutes. Remove foil and bake for 15 minutes more. Important, let stand for 5 to 10 minutes before cutting.",

@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "Tbsp. butter, melted"
+         "unit": "tbsp",
+         "name": "butter, melted"
       },
       {
          "amount": 2,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "c. evaporated skimmed milk"
+         "unit": "cup",
+         "name": "evaporated skimmed milk"
       },
       {
          "amount": 0.5,
-         "name": "c. plus 2 tsp. canned chicken broth"
+         "unit": "cup",
+         "name": "plus 2 tsp. canned chicken broth"
       },
       {
          "amount": 0.25,
-         "name": "tsp. lite salt (optional)"
+         "unit": "tsp",
+         "name": "lite salt (optional)"
       },
       {
          "amount": 0.5,
-         "name": "tsp. white pepper"
+         "unit": "tsp",
+         "name": "white pepper"
       },
       {
          "amount": 3,
-         "name": "Tbsp. chopped fresh chives (optional)"
+         "unit": "tbsp",
+         "name": "chopped fresh chives (optional)"
       }
    ],
    "instructions": "Combine butter and flour in saucepan on top of stove. Over low heat gradually add milk, and broth stirring until smooth. Cook until thickened. Add salt and pepper. Add chives if desired. Serve over chicken.",

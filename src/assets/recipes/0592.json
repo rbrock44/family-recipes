@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. lard"
+         "unit": "cup",
+         "name": "lard"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -17,43 +19,53 @@
       },
       {
          "amount": 1.75,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 0.5,
-         "name": "tsp. cloves"
+         "unit": "tsp",
+         "name": "cloves"
       },
       {
          "amount": 0.5,
-         "name": "c. raisins"
+         "unit": "cup",
+         "name": "raisins"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 1,
-         "name": "c. applesauce"
+         "unit": "cup",
+         "name": "applesauce"
       },
       {
          "amount": 1,
-         "name": "c. quick cooking rolled oats"
+         "unit": "cup",
+         "name": "quick cooking rolled oats"
       }
    ],
    "instructions": "Cream together lard and sugar. Stir in egg. Sift together flour, baking powder, salt, soda, cinnamon, cloves and nutmeg. Mix in raisins and oats. Add to creamed mixture in 3 portions alternating with applesauce in 2 portions. Beat well. Drop from teaspoon. Bake at 375° for 10 to 15 minutes.",

@@ -5,35 +5,42 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. chopped ham"
+         "unit": "cup",
+         "name": "chopped ham"
       },
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
          "name": "(10 oz.) pkg. frozen chopped broccoli"
       },
-	  {
+      {
          "amount": 2,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 3,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 8,
-         "name": "oz. natural Swiss cheese, cubed"
+         "unit": "oz",
+         "name": "natural Swiss cheese, cubed"
       },
-	  {
+      {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0,
-         "name": "dash of pepper"
+         "unit": "dash",
+         "name": "of pepper"
       }
    ],
    "instructions": "Boil ham in water for 10 minutes; add broccoli. Cook until ten- der. Gradually add milk to flour, stirring until well blended. Gradually add milk mixture to ham mixture, stirring constantly until mixture slightly thickens. Simmer 5 minutes, stirring occasionally. Add cheese and seasonings. Cook until cheese begins to melt.",

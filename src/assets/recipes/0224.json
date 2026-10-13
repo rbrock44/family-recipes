@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. chicken broth"
+         "unit": "cup",
+         "name": "chicken broth"
       },
       {
          "amount": 2,
@@ -21,7 +22,8 @@
       },
       {
          "amount": 1,
-         "name": "tsp. salt "
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,

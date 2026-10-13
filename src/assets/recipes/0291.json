@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "lb. bag hash browns"
+         "unit": "lb",
+         "name": "bag hash browns"
       },
       {
          "amount": 0.5,
-         "name": "c. onion, chopped"
+         "unit": "cup",
+         "name": "onion, chopped"
       },
       {
          "amount": 1,
-         "name": "can cream of chicken soup"
+         "unit": "can",
+         "name": "cream of chicken soup"
       },
       {
          "amount": 2,
-         "name": "c. Cheddar cheese, grated"
+         "unit": "cup",
+         "name": "Cheddar cheese, grated"
       },
       {
          "amount": 1,
-         "name": "stick margarine, melted"
+         "unit": "stick",
+         "name": "margarine, melted"
       },
       {
          "amount": 1,
-         "name": "pint sour cream"
+         "unit": "pt",
+         "name": "sour cream"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       }
    ],
    "instructions": "Mix all ingredients together and put in a 3 quart oblong baking dish. Bake at 350° for 1 1/4 hours.",

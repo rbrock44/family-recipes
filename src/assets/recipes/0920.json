@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. hamburger"
+         "unit": "lb",
+         "name": "hamburger"
       },
       {
          "amount": 2,
-         "name": "Tbsp. margarine"
+         "unit": "tbsp",
+         "name": "margarine"
       },
       {
          "amount": 1,
@@ -17,35 +19,43 @@
       },
       {
          "amount": 1,
-         "name": "lb. cottage cheese"
+         "unit": "lb",
+         "name": "cottage cheese"
       },
       {
          "amount": 3,
-         "name": "c. extra wide noodles"
+         "unit": "cup",
+         "name": "extra wide noodles"
       },
       {
          "amount": 2,
-         "name": "tsp. basil leaves"
+         "unit": "tsp",
+         "name": "basil leaves"
       },
       {
          "amount": 1,
-         "name": "Tbsp. parsley flakes"
+         "unit": "tbsp",
+         "name": "parsley flakes"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 8,
-         "name": "oz. tomato sauce"
+         "unit": "oz",
+         "name": "tomato sauce"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "pkg. (8 oz.) Mozzeralla cheese"
+         "unit": "pkg",
+         "name": "(8 oz.) Mozzeralla cheese"
       }
    ],
    "instructions": "Brown meat in margarine. Sprinkle with half the sauce mix. Spoon cottage cheese over meat. Top with layer of uncooked noodles and sprinkle remaining sauce mix, basil, parsley and salt. Pour juice over mixture making sure all is moistened. Bring to a boil, cover and simmer 35 minutes or until noodles are tender. Sprinkle heese over top. Let stand for 5 minuntes.",

@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 9,
-         "name": "lb. pickles"
+         "unit": "lb",
+         "name": "pickles"
       },
       {
          "amount": 2,
-         "name": "c. lime"
+         "unit": "cup",
+         "name": "lime"
       },
       {
          "amount": 2,
-         "name": "gal. water"
+         "unit": "gal",
+         "name": "water"
       },
       {
          "amount": 2,
-         "name": "qt. vinegar"
+         "unit": "qt",
+         "name": "vinegar"
       },
       {
          "amount": 8,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. celery seed"
+         "unit": "tsp",
+         "name": "celery seed"
       },
       {
          "amount": 1,
-         "name": "tsp. whole cloves"
+         "unit": "tsp",
+         "name": "whole cloves"
       },
       {
          "amount": 1,
-         "name": "tsp. mixed spices"
+         "unit": "tsp",
+         "name": "mixed spices"
       },
       {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       }
    ],
    "instructions": "Slice the pickles and cover with lime and water. Let the pickles soak in the solution for 24 hours. Rinse solution from vegetables. Let them stand in clean cold water for 3 more hours. Drain. Mix all other ingredients, add pickles and let sit overnight. Bring mixture to a boil for 35 minutes. Can add alum, if desired. Put in jars and seal.",

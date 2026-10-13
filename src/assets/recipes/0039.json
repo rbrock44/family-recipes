@@ -9,13 +9,14 @@
       },
       {
          "amount": 21,
-         "name": "oz. salsa"
+         "unit": "oz",
+         "name": "salsa"
       },
       {
          "amount": 0.5,
          "name": "(0.5 to 1) c. green onions (chopped)"
       },
-	  {
+      {
          "amount": 1,
          "name": "(12 piece) pkg. flour or corn tortillas"
       },
@@ -23,9 +24,10 @@
          "amount": 10,
          "name": "(10 to 16) oz. grated Cheddar cheese"
       },
-	  {
+      {
          "amount": 1,
-         "name": "pint sour cream"
+         "unit": "pt",
+         "name": "sour cream"
       }
    ],
    "instructions": "Grease 9 x 13 pan. Tear tortillas into bite size pieces and saute in butter until soft. Layer (lasagna style), tortillas, eggs, sauce, onions, sour cream, and cheese. Repeat layer. Can easily be made ahead. Bake at 350' for 20 minutes. Good cold or reheated. Freezes well also.",

@@ -9,35 +9,43 @@
       },
       {
          "amount": 1,
-         "name": "c. cornmeal"
+         "unit": "cup",
+         "name": "cornmeal"
       },
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 2,
-         "name": "Tbsp. melted shortening"
+         "unit": "tbsp",
+         "name": "melted shortening"
       },
       {
          "amount": 1,
-         "name": "lb. wieners"
+         "unit": "lb",
+         "name": "wieners"
       }
    ],
    "instructions": "Mix cornmeal with flour, sugar, baking powder and salt. Add egg and milk; blend in melted shortening. Mix well. Dip wieners in Zachary Estes batter. Fry in deep fat.",

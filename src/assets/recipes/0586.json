@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick oleo"
+         "unit": "stick",
+         "name": "oleo"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
@@ -17,7 +19,8 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
@@ -25,11 +28,13 @@
       },
       {
          "amount": 0.5,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 3,
-         "name": "c. Rice Krispies"
+         "unit": "cup",
+         "name": "Rice Krispies"
       },
       {
          "amount": 0,

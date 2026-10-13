@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "gallon popped corn"
+         "unit": "gal",
+         "name": "popped corn"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.5,
-         "name": "lb. marshmallows"
+         "unit": "lb",
+         "name": "marshmallows"
       },
-	  {
+      {
          "amount": 3,
-         "name": "Tbsp. margarine"
+         "unit": "tbsp",
+         "name": "margarine"
       }
    ],
    "instructions": "Melt marshmallows and margarine over low heat, stirring constantly. Add vanilla. Pour mixture over popped corn and shape into balls. Place on waxed paper.",

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can (8 oz.) crushed pineapple undrained"
+         "unit": "can",
+         "name": "(8 oz.) crushed pineapple undrained"
       },
       {
          "amount": 1,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 0.25,
-         "name": "c. butter or margarine, softened"
+         "unit": "cup",
+         "name": "butter or margarine, softened"
       },
       {
          "amount": 1,

@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 4.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
@@ -17,7 +19,8 @@
       },
       {
          "amount": 1,
-         "name": "c. Amaretto"
+         "unit": "cup",
+         "name": "Amaretto"
       },
       {
          "amount": 0,

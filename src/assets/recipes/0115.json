@@ -1,15 +1,17 @@
 {
    "name": "Thousand Island Dressing",
    "author": "Doris Moore",
-   "category": 2                                  ,
+   "category": 2,
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. Hellmann's Real Mayonnaise"
+         "unit": "cup",
+         "name": "Hellmann's Real Mayonnaise"
       },
       {
          "amount": 3,
-         "name": "tsp. sweet pickle relish"
+         "unit": "tsp",
+         "name": "sweet pickle relish"
       },
       {
          "amount": 1,
@@ -17,7 +19,8 @@
       },
       {
          "amount": 0.33,
-         "name": "c. chili sauce or catsup"
+         "unit": "cup",
+         "name": "chili sauce or catsup"
       }
    ],
    "instructions": "Stir together all ingredients. Cover; chill.",

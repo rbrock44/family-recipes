@@ -17,7 +17,8 @@
       },
       {
          "amount": 3,
-         "name": "cups milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,

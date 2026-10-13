@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.33,
-         "name": "c. chopped green peppers"
+         "unit": "cup",
+         "name": "chopped green peppers"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 1,
-         "name": "c. chopped celery"
+         "unit": "cup",
+         "name": "chopped celery"
       },
       {
          "amount": 1,
-         "name": "c. regular, uncooked rice"
+         "unit": "cup",
+         "name": "regular, uncooked rice"
       },
       {
          "amount": 2,
@@ -25,15 +29,18 @@
       },
       {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 0.25,
-         "name": "tsp. Tabasco sauce"
+         "unit": "tsp",
+         "name": "Tabasco sauce"
       },
       {
          "amount": 1,

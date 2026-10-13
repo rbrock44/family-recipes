@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. lard"
+         "unit": "lb",
+         "name": "lard"
       },
       {
          "amount": 6,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       }
    ],
    "instructions": "Mix altogether and store in refrigerator. One level cup of mix equals one pie crust. Add two tablespoons of ice water to one cup full of mix for one crust.",

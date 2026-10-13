@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 0.5,
-         "name": "c. uncooked rice (not minute rice)"
+         "unit": "cup",
+         "name": "uncooked rice (not minute rice)"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0.33,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.125,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 1.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 1,
@@ -37,11 +44,13 @@
       },
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 2,
-         "name": "tsp. Worcestershire Sauce"
+         "unit": "tsp",
+         "name": "Worcestershire Sauce"
       }
    ],
    "instructions": "Heat oven to 350°. Mix meat, rice, 1/2 cup water, onion, salt, garlic powder and pepper. Shape mixture into balls with rounded tablespoon. Place meatballs in ungreased baking dish. Stir together remaining ingredients. Pour over meatballs. Cover with lid or foil and bake 45 minutes. Uncover and bake 15 minutes more.",

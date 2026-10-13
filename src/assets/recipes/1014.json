@@ -5,35 +5,43 @@
   "ingredients": [
     {
       "amount": 2,
-      "name": "cups rice chex"
+      "unit": "cup",
+      "name": "rice chex"
     },
     {
       "amount": 2,
-      "name": "cups corn chex"
+      "unit": "cup",
+      "name": "corn chex"
     },
     {
       "amount": 2,
-      "name": "cups wheat chex"
+      "unit": "cup",
+      "name": "wheat chex"
     },
     {
       "amount": 2,
-      "name": "cups pretzels"
+      "unit": "cup",
+      "name": "pretzels"
     },
     {
       "amount": 1,
-      "name": "cup salted nuts"
+      "unit": "cup",
+      "name": "salted nuts"
     },
     {
       "amount": 1,
-      "name": "stick butter"
+      "unit": "stick",
+      "name": "butter"
     },
     {
       "amount": 2,
-      "name": "tsp. garlic salt"
+      "unit": "tsp",
+      "name": "garlic salt"
     },
     {
       "amount": 4,
-      "name": "tsp. Worcestershire sauce"
+      "unit": "tsp",
+      "name": "Worcestershire sauce"
     }
   ],
   "instructions": "Melt 1 stick butter, 2 tsp garlic salt, and 4 tsp. Worcestershire sauce. Spoon over mixture and cook stirring often until done.\n250 for 45 min, stirring every 15 min.",

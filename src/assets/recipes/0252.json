@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "c. Hot Rise Cornbread"
+         "unit": "cup",
+         "name": "Hot Rise Cornbread"
       },
       {
          "amount": 2,
@@ -25,7 +26,8 @@
       },
       {
          "amount": 4,
-         "name": "oz. mushrooms"
+         "unit": "oz",
+         "name": "mushrooms"
       },
       {
          "amount": 3,
@@ -37,15 +39,18 @@
       },
       {
          "amount": 3,
-         "name": "cans broth"
+         "unit": "can",
+         "name": "broth"
       },
       {
          "amount": 2,
-         "name": "sticks melted margarine"
+         "unit": "stick",
+         "name": "melted margarine"
       },
       {
          "amount": 1,
-         "name": "tsp. sage"
+         "unit": "tsp",
+         "name": "sage"
       },
       {
          "amount": 0,

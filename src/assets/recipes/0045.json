@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. Velveeta"
+         "unit": "lb",
+         "name": "Velveeta"
       },
       {
          "amount": 0,
@@ -13,19 +14,23 @@
       },
       {
          "amount": 3,
-         "name": "oz. cream cheese"
-      },
-	  {
-         "amount": 0.25,
-         "name": "tsp. garlic powder"
+         "unit": "oz",
+         "name": "cream cheese"
       },
       {
          "amount": 0.25,
-         "name": "tsp. red pepper"
+         "unit": "tsp",
+         "name": "garlic powder"
+      },
+      {
+         "amount": 0.25,
+         "unit": "tsp",
+         "name": "red pepper"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       }
    ],
    "instructions": "Let cheeses soften. Mix all ingredients except paprika. Shape into roll. Sprinkle with paprika.",

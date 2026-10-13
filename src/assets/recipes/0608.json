@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. butter"
-      },
-	  {
-         "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "sugar"
+      },
+      {
+         "amount": 1,
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
@@ -21,39 +24,48 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 2,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 2.5,
-         "name": "c. oatmeal"
+         "unit": "cup",
+         "name": "oatmeal"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 12,
-         "name": "oz. mini chocolate chips"
+         "unit": "oz",
+         "name": "mini chocolate chips"
       },
       {
          "amount": 4,
-         "name": "oz. grated Hershey bar"
+         "unit": "oz",
+         "name": "grated Hershey bar"
       },
       {
          "amount": 1.5,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       }
    ],
    "instructions": "Cream butter, sugars, eggs and vanilla. Add dry ingredients and mix well. Then add chocolate chips, Hershey bar and nuts. Drop by teaspoonfuls onto ungreased cookie sheet. Bake 5 to 6 minutes at 375°.",

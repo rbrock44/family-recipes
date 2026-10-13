@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "c. salad oil"
+         "unit": "cup",
+         "name": "salad oil"
       },
       {
          "amount": 2,
@@ -21,23 +24,28 @@
       },
       {
          "amount": 4.25,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. cream of tartar"
+         "unit": "tsp",
+         "name": "cream of tartar"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.5,
-         "name": "tsp. almond extract"
+         "unit": "tsp",
+         "name": "almond extract"
       }
    ],
    "instructions": "Mix all ingredients together and drop by teaspoon on cookie sheet, flatten with glass dipped in a little oil, then put a little sugar and a pecan on top. Bake 350° for 8 to 10 minutes. These are very light and makes a large batch.",

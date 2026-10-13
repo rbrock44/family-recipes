@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.25,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "c. chocolate chips"
+         "unit": "cup",
+         "name": "chocolate chips"
       },
       {
          "amount": 1.5,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       }
    ],
    "instructions": "Melt together butter, milk, and chocolate chips. Stir in powdered sugar. Pour on cake.",

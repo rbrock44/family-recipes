@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
-         "name": "c. brown sugar, packed"
+         "unit": "cup",
+         "name": "brown sugar, packed"
       },
       {
          "amount": 2,
-         "name": "c. granulated sugar"
+         "unit": "cup",
+         "name": "granulated sugar"
       },
       {
          "amount": 2,
-         "name": "c. Crisco oil"
+         "unit": "cup",
+         "name": "Crisco oil"
       },
       {
          "amount": 4,
@@ -33,15 +39,18 @@
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 4,
-         "name": "c. cornflakes"
+         "unit": "cup",
+         "name": "cornflakes"
       },
       {
          "amount": 1.5,
-         "name": "c. quick oatmeal"
+         "unit": "cup",
+         "name": "quick oatmeal"
       }
    ],
    "instructions": "Sift together flour, baking soda and salt. Combine sugars, vegetable oil and eggs, one at a time and vanilla in a very large bowl. (Dish- pan) Mix well. Add remaining ingredients and mix until thoroughly blended. Drop by teaspoonful onto a greased cookie sheet. Bake at 325° for 8 to 10 minutes, or until light brown.",

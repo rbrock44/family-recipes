@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. corn flakes cereal, crushed"
+         "unit": "cup",
+         "name": "corn flakes cereal, crushed"
       },
       {
          "amount": 1,
-         "name": "tsp. paprika"
+         "unit": "tsp",
+         "name": "paprika"
       },
       {
          "amount": 1,
-         "name": "tsp. poultry seasoning"
+         "unit": "tsp",
+         "name": "poultry seasoning"
       },
       {
          "amount": 0.5,
-         "name": "tsp. whole thyme"
+         "unit": "tsp",
+         "name": "whole thyme"
       },
       {
          "amount": 0.5,
-         "name": "tsp. lite salt (optional)"
+         "unit": "tsp",
+         "name": "lite salt (optional)"
       },
       {
          "amount": 0.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 0.75,
-         "name": "c. eggs"
+         "unit": "cup",
+         "name": "eggs"
       },
       {
          "amount": 6,

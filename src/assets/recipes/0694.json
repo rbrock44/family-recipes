@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. white almond bark"
+         "unit": "pkg",
+         "name": "white almond bark"
       },
       {
          "amount": 1,

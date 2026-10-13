@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "cup salted butter melted (topping)"
+         "unit": "cup",
+         "name": "salted butter melted (topping)"
       },
       {
          "amount": 0.5,
-         "name": "cup brown sugar (topping)"
+         "unit": "cup",
+         "name": "brown sugar (topping)"
       },
       {
          "amount": 5,
@@ -21,11 +23,13 @@
       },
       {
          "amount": 3,
-         "name": "tbsp vegetable oil (cake)"
+         "unit": "tbsp",
+         "name": "vegetable oil (cake)"
       },
       {
          "amount": 0.75,
-         "name": "cup granulated sugar (cake)"
+         "unit": "cup",
+         "name": "granulated sugar (cake)"
       },
       {
          "amount": 1,
@@ -37,31 +41,38 @@
       },
       {
          "amount": 2,
-         "name": "tsp salt (cake)"
+         "unit": "tsp",
+         "name": "salt (cake)"
       },
       {
          "amount": 2,
-         "name": "tsp baking powder (cake)"
+         "unit": "tsp",
+         "name": "baking powder (cake)"
       },
       {
          "amount": 7,
-         "name": "tsp vanilla extract (cake)"
+         "unit": "tsp",
+         "name": "vanilla extract (cake)"
       },
       {
          "amount": 1.33,
-         "name": "cups all-purpose flour (cake)"
+         "unit": "cup",
+         "name": "all-purpose flour (cake)"
       },
       {
          "amount": 0.25,
-         "name": "cup full-fat sour cream or Greek yogurt (cake)"
+         "unit": "cup",
+         "name": "full-fat sour cream or Greek yogurt (cake)"
       },
       {
          "amount": 0.5,
-         "name": "cup milk (cake)"
+         "unit": "cup",
+         "name": "milk (cake)"
       },
       {
          "amount": 0.25,
-         "name": "cup pineapple juice (cake)"
+         "unit": "cup",
+         "name": "pineapple juice (cake)"
       }
    ],
    "instructions": "Prep Time: 10 mins\nCook Time: 45 mins\n\nInstructions\n\n* Preheat your oven to 350 degrees F. Lightly grease the bottom and sides of a 9 inch round cake pan with cooking spray. In a small bowl, combine the melted butter and brown sugar and pour the mixture into the bottom of the cake pan, spreading it out evenly. Arrange the pineapple rings around the pan and place maraschino cherries in between. Set aside briefly.\n * In the bowl of a stand mixer, cream together the oil and granulated sugar until moistened. Beat in the egg, salt, baking powder, and vanilla until combined. Beat in the sour cream. Gradually add some of the milk, alternating with the flour until a soft batter comes together. Gently beat in the pineapple juice last.\n* Carefully pour the batter over the pineapples in the pan, careful not to disturb their placement. Bake for approx. 40-45 minutes or until the cake appears set, is light golden brown, and a toothpick inserted near the center comes out clean or with moist, not wet, crumbs. Cool for 10-15 minutes, then very carefully invert the cake onto a platter or plate. Serve warm or room temperature.",

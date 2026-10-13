@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "tsp. mustard seed"
+         "unit": "tsp",
+         "name": "mustard seed"
       },
       {
          "amount": 0.5,
-         "name": "tsp. celery seed"
+         "unit": "tsp",
+         "name": "celery seed"
       },
       {
          "amount": 1,
@@ -21,7 +23,8 @@
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 3,
@@ -29,7 +32,8 @@
       },
       {
          "amount": 4,
-         "name": "pint canning jars"
+         "unit": "pt",
+         "name": "canning jars"
       }
    ],
    "instructions": "Pack clean okra in clean jars. Add other ingredients.",

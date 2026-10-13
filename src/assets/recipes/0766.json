@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 1,
@@ -13,35 +14,43 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "can cherry pie filling"
+         "unit": "can",
+         "name": "cherry pie filling"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.75,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       }
    ],
    "instructions": "Sift 2 cups of flour and baking powder together. Cut in butter. Beat egg and milk together. Add to flour mixture, mix well. Pour into 15 x 10 inch pan that has been greased and floured. Cover with cherry filling. For topping, sift together 1 cup of flour and 1 cut of sugar. Cut in butter. Sprinkle over pie filling. Bake at 350° for 30 to 35 minutes.",

@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. butter or shortening"
+         "unit": "cup",
+         "name": "butter or shortening"
       },
       {
          "amount": 1,
-         "name": "c. firmly packed brown sugar"
+         "unit": "cup",
+         "name": "firmly packed brown sugar"
       },
       {
          "amount": 1,
-         "name": "c. granulated sugar"
+         "unit": "cup",
+         "name": "granulated sugar"
       },
       {
          "amount": 2,
@@ -37,19 +44,23 @@
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. quick rolled oats"
+         "unit": "cup",
+         "name": "quick rolled oats"
       },
       {
          "amount": 1.5,
-         "name": "c. shredded coconut"
+         "unit": "cup",
+         "name": "shredded coconut"
       },
       {
          "amount": 1,
-         "name": "c. butterscotch chips, optional"
+         "unit": "cup",
+         "name": "butterscotch chips, optional"
       }
    ],
    "instructions": "Sift flour, baking powder, salt and soda. Cream butter, add sug- ars gradually, cream until fluffy. Add vanilla and eggs; beat well. Add flour mixture gradually, beating until smooth after each addition. Mix in oats and coconut; add butterscotch chips, if desired. Drop from tea- spoon onto ungreased cookie sheets. Bake at 375° for 9 to 12 minutes.",
