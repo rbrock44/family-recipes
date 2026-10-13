@@ -37,6 +37,15 @@
       >
         <mat-icon>playlist_add</mat-icon>
       </button>
+      <button
+        mat-icon-button
+        (click)="print()"
+        aria-label="Print recipe"
+        title="Print recipe"
+        data-print
+      >
+        <mat-icon>print</mat-icon>
+      </button>
       @if (recipe.link) {
         <button mat-icon-button (click)="openImage()" aria-label="View photo">
           <mat-icon>photo</mat-icon>
@@ -121,6 +130,10 @@
         (change)="onBatchChange()"
       />
     </mat-form-field>
+
+    @if (batches() > 1) {
+      <p class="print-only batches-print" data-batches-print>{{ batches() }} batches</p>
+    }
 
     @if (recipe.yield.amount > 0) {
       <p class="serves">

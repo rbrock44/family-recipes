@@ -193,6 +193,10 @@ export class RecipeComponent implements OnChanges {
     });
   }
 
+  print(): void {
+    window.print();
+  }
+
   isCooking(): boolean {
     return this.service.cookMode;
   }

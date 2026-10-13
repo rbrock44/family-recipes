@@ -244,3 +244,88 @@
         margin: 0 0 0 -8px;
     }
 }
+
+@media print {
+    .recipe-page {
+        display: block;
+        padding: 0;
+        font-size: 11pt;
+    }
+
+    .recipe-hero,
+    .meta-card,
+    .ingredients-card,
+    .instructions-card {
+        padding: 0;
+    }
+
+    .recipe-hero h1 {
+        font-size: 20pt;
+    }
+
+    .recipe-hero h2 {
+        font-size: 12pt;
+        color: #333;
+    }
+
+    .recipe-hero-actions,
+    .batch,
+    .conversion-block,
+    .conversion-actions,
+    .image-overlay,
+    app-cook-mode {
+        display: none !important;
+    }
+
+    .meta-card {
+        gap: 1rem;
+        margin: 0.25rem 0 0.75rem;
+    }
+
+    .serves,
+    .batches-print {
+        margin: 0;
+        color: #333;
+    }
+
+    .ingredients-card,
+    .instructions-card {
+        margin-bottom: 0.75rem;
+    }
+
+    /* Ingredients are a short list; splitting them across pages loses the cook. */
+    .ingredients-card {
+        break-inside: avoid;
+    }
+
+    .ingredients-card h3,
+    .instructions-card h3 {
+        margin: 0 0 0.35rem;
+        font-size: 13pt;
+        border-bottom: 1px solid #999;
+    }
+
+    .ingredients-cont {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .ingredients-column {
+        min-width: 0;
+    }
+
+    .ingredient {
+        margin: 0.15rem 0;
+        color: #000;
+        font-weight: 400;
+    }
+
+    .underline {
+        border-bottom: 0;
+    }
+
+    .instructions {
+        color: #000;
+        line-height: 1.5;
+    }
+}

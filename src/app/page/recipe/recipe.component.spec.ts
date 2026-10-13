@@ -47,4 +47,23 @@ describe('RecipeComponent', () => {
     expect(open).toHaveBeenCalled();
     expect(fixture.nativeElement.querySelector('[data-cook-mode]')).toBeTruthy();
   });
+
+  it('should print from the print button', () => {
+    const print = vi.spyOn(window, 'print').mockImplementation(() => {});
+    fixture.detectChanges();
+
+    fixture.nativeElement.querySelector('[data-print]').click();
+
+    expect(print).toHaveBeenCalled();
+  });
+
+  it('should only add the batch count for print when scaled', () => {
+    fixture.detectChanges();
+    expect(fixture.nativeElement.querySelector('[data-batches-print]')).toBeNull();
+
+    fixture.componentInstance.batchControl.setValue(3);
+    fixture.detectChanges();
+
+    expect(fixture.nativeElement.querySelector('[data-batches-print]').textContent).toContain('3 batches');
+  });
 });

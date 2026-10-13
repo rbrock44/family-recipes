@@ -72,3 +72,49 @@ h4 {
   border-radius: 16px;
   overflow: hidden;
 }
+
+/* Only shows on paper, e.g. the batch count when the input itself is hidden. */
+.print-only {
+  display: none;
+}
+
+/* Printing a recipe for a card or binder: plain black on white, no chrome. */
+@media print {
+  .print-only {
+    display: block;
+  }
+
+  @page {
+    margin: 1.5cm;
+  }
+
+  html,
+  body {
+    height: auto;
+    background: #fff;
+    color: #000;
+  }
+
+  app-header,
+  app-command-palette,
+  .ambient-shape,
+  .mat-mdc-button-base {
+    display: none !important;
+  }
+
+  .main-shell {
+    min-height: 0 !important;
+    padding: 0 !important;
+  }
+
+  .page-shell {
+    width: 100%;
+  }
+
+  .surface-card {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+}

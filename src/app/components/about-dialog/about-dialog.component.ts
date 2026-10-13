@@ -43,6 +43,7 @@ export const ABOUT_SECTIONS: Section[] = [
       { icon: 'soup_kitchen', text: 'Cook mode shows big, tappable ingredients and steps to check off, and keeps the screen on while you cook.' },
       { icon: 'format_underlined', text: 'An underlined ingredient has a possible conversion. Hover over it to see it.' },
       { icon: 'water_drop', text: 'Liquid and Dry open measurement conversion charts.' },
+      { icon: 'print', text: 'Print gives a plain one-page copy for a recipe card or binder, scaled to your batches.' },
       { icon: 'photo', text: 'Shows the original recipe card, when there is one.' },
       { icon: 'chevron_right', text: 'The arrows at the top step through your search results without going back.' },
     ],
