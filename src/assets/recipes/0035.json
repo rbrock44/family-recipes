@@ -1,12 +1,12 @@
 {
-   "name": "Broccili Cheese Dip",
+   "name": "Broccoli Cheese Dip",
    "author": "Michelle Stull",
    "category": 1,
    "ingredients": [
       {
          "amount": 1,
          "unit": "box",
-         "name": "frozen broccili"
+         "name": "frozen broccoli"
       },
       {
          "amount": 1,
@@ -28,7 +28,7 @@
          "name": "seasoned salt"
       }
    ],
-   "instructions": "Cook broccili and drain well. add the remaing inredients and cook until cheese is melted.",
+   "instructions": "Cook broccoli and drain well. add the remaining ingredients and cook until cheese is melted.",
    "yield": {
       "amount": 0,
       "name": ""
