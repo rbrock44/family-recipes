@@ -13,6 +13,7 @@ import { RecipeModel } from '../models/recipe.model';
 import { RecipeReaderService } from './recipe-reader.service';
 import { SeoService } from './seo.service';
 import { isListsPath, parseRecipeId, recipePath } from '../utils/recipe-url.util';
+import { matchIngredients } from '../utils/ingredient-match.util';
 
 /** Marks a history entry the app pushed, and which view it holds when the URL alone can't say. */
 export interface RecipeHistoryState {
@@ -34,6 +35,10 @@ export class RecipeService {
   searchTerm: string = '';
   searchCategory: Category = 0;
   searchHooperFamily: boolean = false;
+  // Comma-separated ingredients on hand, as typed.
+  searchHave: string = '';
+  // Extra ingredients each result needs when searching by what's on hand; ranks the unsorted table.
+  private haveExtras: Map<string, number> | null = null;
   hasSearched: boolean = false;
   recentFavoritesExpanded: boolean = false;
   recentExpanded: boolean = true;
@@ -117,7 +122,7 @@ export class RecipeService {
     return query ? `/?${query}` : '/';
   }
 
-  /** Seeds the search from a link's `?search=`, `?category=` and `?hooperFamily=`. */
+  /** Seeds the search from a link's `?search=`, `?category=`, `?hooperFamily=` and `?have=`. */
   restoreSearchParams(path: string): void {
     const queryParams = new URLSearchParams(path.split('?')[1] ?? '');
     const category = Number(queryParams.get('category'));
@@ -125,6 +130,7 @@ export class RecipeService {
     this.searchTerm = queryParams.get('search') ?? '';
     this.searchCategory = Category[category] !== undefined ? category : 0;
     this.searchHooperFamily = queryParams.get('hooperFamily') === 'true';
+    this.searchHave = queryParams.get('have') ?? '';
   }
 
   listsUrl(): string {
@@ -187,7 +193,12 @@ export class RecipeService {
     return this.recipes;
   }
 
-  search(criteria: string, category: Category = 0, onlyHooperFamily: boolean = false): Recipe[] {
+  search(
+    criteria: string,
+    category: Category = 0,
+    onlyHooperFamily: boolean = false,
+    have: string[] = [],
+  ): Recipe[] {
     let list: Recipe[] = [];
 
     let crits = criteria.toUpperCase().trim().split(' ');
@@ -206,13 +217,26 @@ export class RecipeService {
       list = list.filter(it => HOOPER_FAMILY.indexOf(it.author) > -1);
     }
 
-    list = this.sortData(list, this.sort, false)
+    if (have.length > 0) {
+      const matches = matchIngredients(list, have);
+      this.haveExtras = new Map(matches.map(it => [it.recipe.filename, it.extra]));
+      list = matches.map(it => it.recipe);
+    } else {
+      this.haveExtras = null;
+    }
+
+    list = this.sortData(list, this.sort, false, this.haveExtras)
 
     return list;
   }
 
   sortTable(dataSource: MatTableDataSource<Recipe>, sort: MatSort, isMainTable: boolean = true): void {
-    dataSource.data = this.sortData(dataSource.data, sort, isMainTable)
+    dataSource.data = this.sortData(dataSource.data, sort, isMainTable, isMainTable ? this.haveExtras : null)
+  }
+
+  /** How many more ingredients a result needs beyond those on hand, when searching by them. */
+  extraIngredients(filename: string): number | undefined {
+    return this.haveExtras?.get(filename);
   }
 
   readFile(fileNumber: string): void {
@@ -469,7 +493,12 @@ export class RecipeService {
     return this.searchList.indexOf(this.selectedRecipe.filename) + 1;
   }
 
-  private sortData(data: Recipe[], sort: MatSort, isMainTable: boolean = true): Recipe[] {
+  private sortData(
+    data: Recipe[],
+    sort: MatSort,
+    isMainTable: boolean = true,
+    extras: Map<string, number> | null = null,
+  ): Recipe[] {
     if (isMainTable)
       this.sort = sort;
 
@@ -483,7 +512,10 @@ export class RecipeService {
         sort.direction = 'desc';
         break;
       default:
-        data = this.sortRecipes(data, "filename")
+        // Unsorted results from an ingredients search keep their closest-fit order.
+        data = extras
+          ? data.sort((a, b) => (extras.get(a.filename) ?? 0) - (extras.get(b.filename) ?? 0) || a.name.localeCompare(b.name))
+          : this.sortRecipes(data, "filename")
         sort.direction = '';
     }
 

@@ -19,6 +19,7 @@ import {
 import { EMPTY_RECIPE } from '../../constants/constants';
 import { decodeSharedFavorites } from '../../models/favorites-share';
 import { Recipe } from '../../models/recipe.interface';
+import { Location } from '@angular/common';
 
 describe('HomeComponent', () => {
   let fixture: ComponentFixture<HomeComponent>;
@@ -55,6 +56,29 @@ describe('HomeComponent', () => {
     expectElementPresent(fixture, 'input');
     // scoped to the search button, since the page renders other icons first
     expectElementToContainContent(fixture, '[aria-label="Search"] mat-icon', 'search');
+  });
+
+  it('should search by ingredients on hand and keep them in the URL', () => {
+    const service = TestBed.inject(RecipeService);
+    vi.spyOn(service, 'isFullyLoaded').mockReturnValue(true);
+    const search = vi.spyOn(service, 'search').mockReturnValue([]);
+    fixture.detectChanges();
+
+    component.haveControl.setValue('Chicken, rice,');
+    component.search('');
+
+    expect(search).toHaveBeenLastCalledWith('', 0, false, ['chicken', 'rice']);
+    expect(service.searchHave).toBe('Chicken, rice,');
+    expect(new URLSearchParams(TestBed.inject(Location).path().split('?')[1]).get('have')).toBe('chicken, rice');
+  });
+
+  it('should open the advanced panel when a link has ingredients on hand', () => {
+    TestBed.inject(Location).replaceState('/?have=rice');
+
+    const opened = TestBed.createComponent(HomeComponent).componentInstance;
+
+    expect(opened.advancedExpanded).toBe(true);
+    expect(opened.haveControl.value).toBe('rice');
   });
 
   it('should open the about dialog from the info button', () => {

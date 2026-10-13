@@ -67,6 +67,8 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
   @Input() showAddToList: boolean = false;
   @Input() showBulkActions: boolean = false;
   @Input() showWhenEmpty: boolean = false;
+  // Tags each row with how many more ingredients it needs when searching by ingredients on hand.
+  @Input() showIngredientMatch: boolean = false;
   @Output() favoritesChanged = new EventEmitter<void>();
   displayColumns: string[] = ['name', 'author', 'category', 'filename'];
   readonly actionButtonWidth = 32;
@@ -158,6 +160,10 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
 
   ngOnChanges(): void {
     this.updateDisplayColumns();
+  }
+
+  extraIngredients(recipe: Recipe): number | undefined {
+    return this.showIngredientMatch ? this.service.extraIngredients(recipe.filename) : undefined;
   }
 
   showNumber(): boolean {

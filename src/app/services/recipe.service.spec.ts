@@ -168,6 +168,54 @@ describe('RecipeService', () => {
       expect(service.searchTerm).toBe('');
       expect(service.searchCategory).toBe(0);
       expect(service.searchHooperFamily).toBe(false);
+      expect(service.searchHave).toBe('');
+    });
+
+    it('should seed the ingredients on hand', () => {
+      service.restoreSearchParams('/?have=chicken%2C%20rice');
+
+      expect(service.searchHave).toBe('chicken, rice');
+    });
+  });
+
+  describe('search by ingredients on hand', () => {
+    const ingredientRecipe = (filename: string, name: string, ingredients: string[]) =>
+      new RecipeModel({
+        filename,
+        name,
+        author: 'A',
+        category: 3,
+        ingredients: ingredients.map(it => ({ name: it, amount: 1 })),
+      });
+
+    beforeEach(() => {
+      spy.mockReturnValue([
+        ingredientRecipe('0001', 'Casserole', ['chicken', 'rice', 'soup', 'cheese']),
+        ingredientRecipe('0002', 'Fried Rice', ['rice', 'chicken', 'eggs']),
+        ingredientRecipe('0003', 'Pudding', ['rice', 'milk']),
+      ]);
+      service.load();
+    });
+
+    it('should keep recipes with every ingredient, closest fit first', () => {
+      const result = service.search('', 0, false, ['chicken', 'rice']);
+
+      expect(result.map(it => it.filename)).toEqual(['0002', '0001']);
+      expect(service.extraIngredients('0002')).toBe(1);
+      expect(service.extraIngredients('0001')).toBe(2);
+      expect(service.extraIngredients('0003')).toBeUndefined();
+    });
+
+    it('should still combine with the text search', () => {
+      expect(service.search('casserole', 0, false, ['rice']).map(it => it.filename)).toEqual(['0001']);
+    });
+
+    it('should drop the ranking once the ingredients are cleared', () => {
+      service.search('', 0, false, ['rice']);
+      const result = service.search('', 0, false, []);
+
+      expect(result.map(it => it.filename)).toEqual(['0001', '0002', '0003']);
+      expect(service.extraIngredients('0001')).toBeUndefined();
     });
   });
 

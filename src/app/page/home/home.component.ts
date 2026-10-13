@@ -16,6 +16,7 @@ import { MatButton, MatIconButton } from '@angular/material/button';
 import { MatProgressSpinner } from '@angular/material/progress-spinner';
 import {
   MatFormField,
+  MatHint,
   MatLabel,
   MatSuffix,
 } from '@angular/material/form-field';
@@ -33,6 +34,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { AboutDialogComponent } from '../../components/about-dialog/about-dialog.component';
 import { RecipeTableComponent } from '../../components/recipe-table/recipe-table.component';
 import { isListsPath, parseRecipeId } from '../../utils/recipe-url.util';
+import { parseHaveList } from '../../utils/ingredient-match.util';
 
 @Component({
   selector: 'app-home',
@@ -45,6 +47,7 @@ import { isListsPath, parseRecipeId } from '../../utils/recipe-url.util';
     MatProgressSpinner,
     MatFormField,
     MatLabel,
+    MatHint,
     MatInput,
     ReactiveFormsModule,
     MatIconButton,
@@ -66,6 +69,7 @@ export class HomeComponent implements OnInit {
   searchControl: FormControl;
   categoryControl: FormControl;
   familyControl: FormControl;
+  haveControl: FormControl;
 
   dataSource = new MatTableDataSource<Recipe>();
   favoritesDataSource = new MatTableDataSource<Recipe>();
@@ -87,10 +91,12 @@ export class HomeComponent implements OnInit {
     }
 
     // A linked filter would otherwise sit hidden in the collapsed panel.
-    this.advancedExpanded = this.service.searchCategory !== 0 || this.service.searchHooperFamily;
+    this.advancedExpanded =
+      this.service.searchCategory !== 0 || this.service.searchHooperFamily || this.service.searchHave !== '';
     this.searchControl = new FormControl(this.service.searchTerm);
     this.categoryControl = new FormControl(this.service.searchCategory);
     this.familyControl = new FormControl(this.service.searchHooperFamily);
+    this.haveControl = new FormControl(this.service.searchHave);
   }
 
   ngOnInit(): void {
@@ -109,6 +115,12 @@ export class HomeComponent implements OnInit {
 
     this.familyControl.valueChanges
       .pipe(debounceTime(100), distinctUntilChanged())
+      .subscribe(() => {
+        this.search();
+      });
+
+    this.haveControl.valueChanges
+      .pipe(debounceTime(300), distinctUntilChanged())
       .subscribe(() => {
         this.search();
       });
@@ -227,11 +239,13 @@ export class HomeComponent implements OnInit {
     this.service.searchTerm = value;
     this.service.searchCategory = this.categoryControl.value;
     this.service.searchHooperFamily = this.familyControl.value;
+    this.service.searchHave = this.haveControl.value ?? '';
 
     this.dataSource.data = this.service.search(
       value,
       this.categoryControl.value,
       this.familyControl.value,
+      parseHaveList(this.haveControl.value),
     );
 
     this.location.replaceState(
@@ -239,6 +253,7 @@ export class HomeComponent implements OnInit {
         value,
         this.categoryControl.value,
         this.familyControl.value,
+        this.haveControl.value,
       ),
     );
   }
@@ -372,6 +387,7 @@ export class HomeComponent implements OnInit {
     search: string,
     category: number,
     hooperFamily: boolean,
+    have: string = '',
   ): string {
     const queryParams = new URLSearchParams();
 
@@ -385,6 +401,11 @@ export class HomeComponent implements OnInit {
 
     if (hooperFamily) {
       queryParams.set('hooperFamily', hooperFamily ? 'true' : 'false');
+    }
+
+    const haveList = parseHaveList(have);
+    if (haveList.length > 0) {
+      queryParams.set('have', haveList.join(', '));
     }
 
     const end = queryParams.toString();

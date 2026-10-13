@@ -87,6 +87,22 @@
                 }
               </mat-select>
             </mat-form-field>
+
+            <mat-form-field
+              appearance="fill"
+              class="have-form-field"
+              subscriptSizing="dynamic"
+            >
+              <mat-label>Ingredients I have</mat-label>
+              <input
+                [formControl]="haveControl"
+                matInput
+                type="text"
+                placeholder="chicken, rice, broccoli"
+                data-have-input
+              />
+              <mat-hint>Recipes using all of them; +N is how many more ingredients each needs</mat-hint>
+            </mat-form-field>
           </div>
         </mat-expansion-panel>
       </mat-accordion>
@@ -232,6 +248,7 @@
       [showBulkActions]="true"
       [showWhenEmpty]="true"
       [showFavorite]="true"
+      [showIngredientMatch]="true"
       (favoritesChanged)="loadFavorites()"
     ></app-recipe-table>
   }

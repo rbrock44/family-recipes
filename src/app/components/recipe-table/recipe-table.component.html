@@ -100,7 +100,21 @@
         >
           <!-- name Column -->
           <ng-container matColumnDef="name">
-            <mat-cell *matCellDef="let element"> {{ element.name }} </mat-cell>
+            <mat-cell *matCellDef="let element">
+              {{ element.name }}
+              @if (extraIngredients(element); as extra) {
+                <span
+                  class="extra-ingredients"
+                  [title]="'Needs ' + extra + ' more ingredient' + (extra === 1 ? '' : 's')"
+                  data-extra-ingredients
+                  >+{{ extra }}</span
+                >
+              } @else if (extraIngredients(element) === 0) {
+                <span class="extra-ingredients" title="You have everything" data-extra-ingredients
+                  >✓</span
+                >
+              }
+            </mat-cell>
           </ng-container>
           <!-- author Column -->
           <ng-container matColumnDef="author">

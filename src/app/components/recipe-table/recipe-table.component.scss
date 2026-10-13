@@ -148,6 +148,18 @@
   text-align: center;
 }
 
+.extra-ingredients {
+  flex-shrink: 0;
+  margin-left: 0.4rem;
+  padding: 0 0.4rem;
+  border-radius: 999px;
+  background: var(--table-header-strong);
+  color: var(--brand-900);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
 ::ng-deep .mat-mdc-header-cell.mat-column-filename .mat-sort-header-arrow {
   margin-right: -18px;
 }

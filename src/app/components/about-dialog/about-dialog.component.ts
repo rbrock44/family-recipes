@@ -25,6 +25,7 @@ export const ABOUT_SECTIONS: Section[] = [
     tips: [
       { icon: 'search', text: 'Results update as you type. Every word has to match the recipe name, author, or number.' },
       { icon: 'tune', text: 'Advanced Search filters by category, or to Hooper Family Only: Grandma\'s recipes, even those under her descendants\' names.' },
+      { icon: 'kitchen', text: 'Ingredients I have (in Advanced Search) finds recipes that use all of them, closest fit first. The +N on each shows how many more ingredients it needs.' },
       { icon: 'swap_vert', text: 'Click a column header to sort the results. Click a recipe to open it.' },
       { icon: 'link', text: 'Your search is saved in the address bar, so you can bookmark or send it.' },
     ],
