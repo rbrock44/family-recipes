@@ -188,6 +188,12 @@ describe('RecipeService', () => {
 
       expect(service.searchAuthors).toEqual(['Anne Brock', 'Charlotte Hooper']);
     });
+
+    it('should seed the people in a credit, under one spelling each', () => {
+      service.restoreSearchParams('/?author=Mrs.%20Coats%20-%20Anne%20Brock&author=Ryan%20Hooper%20Brock&author=anne%20brock');
+
+      expect(service.searchAuthors).toEqual(['Mrs. Coats', 'Anne Brock', 'Ryan Brock']);
+    });
   });
 
   describe('browse by author', () => {

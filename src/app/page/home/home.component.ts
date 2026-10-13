@@ -36,7 +36,7 @@ import { AboutDialogComponent } from '../../components/about-dialog/about-dialog
 import { RecipeTableComponent } from '../../components/recipe-table/recipe-table.component';
 import { isListsPath, parseRecipeId } from '../../utils/recipe-url.util';
 import { parseHaveList } from '../../utils/ingredient-match.util';
-import { AuthorEntry, filterAuthors, indexAuthors } from '../../utils/author-index.util';
+import { AuthorEntry, authorKey, filterAuthors, indexAuthors } from '../../utils/author-index.util';
 
 /** Authors shown before "Show all", so the card stays short. */
 const AUTHOR_PREVIEW = 24;
@@ -252,18 +252,18 @@ export class HomeComponent implements OnInit {
   }
 
   isAuthorSelected(author: string): boolean {
-    return this.service.searchAuthors.includes(author);
+    return this.service.searchAuthors.some((it) => authorKey(it) === authorKey(author));
   }
 
   isFamilyAuthor(author: string): boolean {
-    return this.authors.some((it) => it.author === author && it.family);
+    return this.authors.some((it) => authorKey(it.author) === authorKey(author) && it.family);
   }
 
   /** Adds the author to the filter, or takes them back out if already in it. */
   toggleAuthor(author: string): void {
     const authors = this.service.searchAuthors;
-    this.service.searchAuthors = authors.includes(author)
-      ? authors.filter((it) => it !== author)
+    this.service.searchAuthors = this.isAuthorSelected(author)
+      ? authors.filter((it) => authorKey(it) !== authorKey(author))
       : [...authors, author];
     this.search();
   }

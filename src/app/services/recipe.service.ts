@@ -15,7 +15,7 @@ import { RecipeReaderService } from './recipe-reader.service';
 import { SeoService } from './seo.service';
 import { isListsPath, parseRecipeId, recipePath } from '../utils/recipe-url.util';
 import { matchIngredients } from '../utils/ingredient-match.util';
-import { matchesAuthor } from '../utils/author-index.util';
+import { authorPeople, matchesAuthor } from '../utils/author-index.util';
 
 /** Marks a history entry the app pushed, and which view it holds when the URL alone can't say. */
 export interface RecipeHistoryState {
@@ -146,17 +146,23 @@ export class RecipeService {
     this.searchCategory = Category[category] !== undefined ? category : 0;
     this.searchHooperFamily = queryParams.get('hooperFamily') === 'true';
     this.searchHave = queryParams.get('have') ?? '';
-    this.searchAuthors = queryParams.getAll('author').filter(Boolean);
+    this.searchAuthors = this.peopleIn(queryParams.getAll('author'));
   }
 
-  /** Starts a fresh search for everything one author wrote. */
+  /** Starts a fresh search for everything the people in one credit wrote. */
   browseAuthor(author: string): void {
     this.searchTerm = '';
     this.searchCategory = 0;
     this.searchHooperFamily = false;
     this.searchHave = '';
-    this.searchAuthors = [author];
+    this.searchAuthors = this.peopleIn([author]);
     this.hasSearched = true;
+  }
+
+  /** Each person named across these credits, once. */
+  private peopleIn(credits: string[]): string[] {
+    const people = credits.flatMap(credit => authorPeople(credit));
+    return people.filter((person, i) => people.findIndex(it => matchesAuthor(it, person)) === i);
   }
 
   listsUrl(): string {

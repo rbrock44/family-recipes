@@ -227,7 +227,9 @@ export class RecipeComponent implements OnChanges {
     this.service.showLists = false;
     this.service.openedFromLists = false;
     this.service.activeListId = null;
-    this.service.pushView(`/?${new URLSearchParams({ author })}`);
+    const query = new URLSearchParams();
+    this.service.searchAuthors.forEach(person => query.append('author', person));
+    this.service.pushView(`/?${query}`);
   }
 
   sharedNote(): SharedNotePayload | null {

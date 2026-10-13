@@ -42,6 +42,30 @@ export const HOOPER_FAMILY: string[] = [
   'Zachary Estes',
 ];
 
+// Other spellings of one person, keyed lowercase, so Browse by Author shows them once.
+export const AUTHOR_ALIASES: Record<string, string> = {
+  'ryan hooper brock': 'Ryan Brock',
+  'shelley dohogne': 'Shelly Dohogne',
+  'hazel leubbers': 'Hazel Luebbers',
+  'anna rose bless': 'Anna Rose Bles',
+  'shirley efting': 'Shirley Eftink',
+  'lorenna essner': 'Lorena Essner',
+  'martha hamm': 'Martha J. Hamm',
+  'joan m. drury': 'Joan Drury',
+  'marian essner': 'Marian M. Essner',
+  'louise maria': 'Louise Maria Blankenship',
+  'aunt mary welter': 'Mary Welter',
+  'aunt bert dumey': 'Bert Dumey',
+  'mrs. theon schlosser': 'Ella I. Schlosser',
+  'helen schlosser': 'Helen T. Schlosser',
+  'mrs. william schlosser': 'Pat Schlosser',
+  'st. augustine school cafeteria': 'St. Augustine Cafeteria',
+  'kelso ladies': 'Kelso Ladies Sodality',
+  'denise pepin chicago': 'Denise Pepin',
+  'favorite recipe of the dave carmen family': 'Dave Carmen Family',
+  'paula dean': 'Paula Deen',
+};
+
 export const EMPTY_RECIPE: Recipe = new RecipeModel()
 
 const THREE_RX = '[1-9]\\d{2,}';
