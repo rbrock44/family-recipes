@@ -82,6 +82,19 @@ describe('HomeComponent', () => {
     expect(opened.haveControl.value).toBe('rice');
   });
 
+  it('should open the advanced panel and count the filters when a link has authors', () => {
+    TestBed.inject(Location).replaceState('/?author=Anne%20Brock&author=Ryan%20Brock&hooperFamily=true');
+    const service = TestBed.inject(RecipeService);
+    vi.spyOn(service, 'isFullyLoaded').mockReturnValue(true);
+
+    const opened = TestBed.createComponent(HomeComponent);
+    opened.detectChanges();
+
+    expect(opened.componentInstance.advancedExpanded).toBe(true);
+    expect(opened.nativeElement.querySelector('[data-filter-count]').textContent.trim()).toBe('3');
+    expect(opened.nativeElement.querySelector('[data-authors-section]')).not.toBeNull();
+  });
+
   describe('browse by author', () => {
     let service: RecipeService;
     const recipes = [
@@ -102,7 +115,7 @@ describe('HomeComponent', () => {
     it('lists authors with counts once opened', () => {
       expect(chips().length).toBe(0);
 
-      clickElement(fixture, '[data-authors-toggle]');
+      clickElement(fixture, '[data-advanced-toggle]');
       fixture.detectChanges();
 
       const text = (selector: string) => chips().map(it => it.querySelector(selector)?.textContent?.trim());
@@ -112,7 +125,7 @@ describe('HomeComponent', () => {
     });
 
     it('narrows the list by name', () => {
-      clickElement(fixture, '[data-authors-toggle]');
+      clickElement(fixture, '[data-advanced-toggle]');
       fixture.detectChanges();
       const input = fixture.nativeElement.querySelector('[data-author-query]') as HTMLInputElement;
       input.value = 'hoop';
@@ -126,7 +139,7 @@ describe('HomeComponent', () => {
       const search = vi.spyOn(service, 'search');
       const urlAuthors = () =>
         new URLSearchParams(TestBed.inject(Location).path().split('?')[1]).getAll('author');
-      clickElement(fixture, '[data-authors-toggle]');
+      clickElement(fixture, '[data-advanced-toggle]');
       fixture.detectChanges();
 
       chips()[0].click();
@@ -151,7 +164,7 @@ describe('HomeComponent', () => {
     });
 
     it('removes one author from the search with its x', () => {
-      clickElement(fixture, '[data-authors-toggle]');
+      clickElement(fixture, '[data-advanced-toggle]');
       fixture.detectChanges();
 
       chips()[0].click();
@@ -172,7 +185,7 @@ describe('HomeComponent', () => {
     });
 
     it('takes an author back out when picked again', () => {
-      clickElement(fixture, '[data-authors-toggle]');
+      clickElement(fixture, '[data-advanced-toggle]');
       fixture.detectChanges();
 
       chips()[0].click();

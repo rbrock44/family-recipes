@@ -41,7 +41,6 @@ export class RecipeService {
   searchHave: string = '';
   // Only these authors' recipes, picked from Browse by Author or a recipe's byline.
   searchAuthors: string[] = [];
-  authorsExpanded: boolean = false;
   // Extra ingredients each result needs when searching by what's on hand; ranks the unsorted table.
   private haveExtras: Map<string, number> | null = null;
   hasSearched: boolean = false;

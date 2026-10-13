@@ -19,15 +19,10 @@ import {
   MatFormField,
   MatHint,
   MatLabel,
+  MatPrefix,
   MatSuffix,
 } from '@angular/material/form-field';
 import { MatInput } from '@angular/material/input';
-import {
-  MatAccordion,
-  MatExpansionPanel,
-  MatExpansionPanelHeader,
-  MatExpansionPanelTitle,
-} from '@angular/material/expansion';
 import { MatCheckbox } from '@angular/material/checkbox';
 import { MatSelect } from '@angular/material/select';
 import { MatOption } from '@angular/material/core';
@@ -56,11 +51,8 @@ const AUTHOR_PREVIEW = 24;
     MatInput,
     ReactiveFormsModule,
     MatIconButton,
+    MatPrefix,
     MatSuffix,
-    MatAccordion,
-    MatExpansionPanel,
-    MatExpansionPanelHeader,
-    MatExpansionPanelTitle,
     MatCheckbox,
     MatSelect,
     MatOption,
@@ -99,8 +91,7 @@ export class HomeComponent implements OnInit {
     }
 
     // A linked filter would otherwise sit hidden in the collapsed panel.
-    this.advancedExpanded =
-      this.service.searchCategory !== 0 || this.service.searchHooperFamily || this.service.searchHave !== '';
+    this.advancedExpanded = this.activeFilterCount() > 0;
     this.searchControl = new FormControl(this.service.searchTerm);
     this.categoryControl = new FormControl(this.service.searchCategory);
     this.familyControl = new FormControl(this.service.searchHooperFamily);
@@ -247,8 +238,14 @@ export class HomeComponent implements OnInit {
     return this.authors.length - this.visibleAuthors().length;
   }
 
-  toggleAuthors(): void {
-    this.service.authorsExpanded = !this.service.authorsExpanded;
+  /** Filters set in Advanced Search, shown on its header so a folded panel still says it's narrowing. */
+  activeFilterCount(): number {
+    return (
+      (this.service.searchCategory !== 0 ? 1 : 0) +
+      (this.service.searchHooperFamily ? 1 : 0) +
+      (this.service.searchHave.trim() !== '' ? 1 : 0) +
+      this.service.searchAuthors.length
+    );
   }
 
   isAuthorSelected(author: string): boolean {

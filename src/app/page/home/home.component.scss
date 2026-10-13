@@ -110,24 +110,144 @@
 }
 
 .advanced-search {
-  margin-top: 0.45rem;
+  margin-top: 0.6rem;
+  border: 1px solid rgba(77, 35, 148, 0.22);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.55);
+  transition: background 0.2s ease, border-color 0.2s ease;
 }
 
-.advanced-grid {
+.advanced-search.open {
+  border-color: rgba(77, 35, 148, 0.35);
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.advanced-toggle {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1rem;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: none;
+  border-radius: var(--radius-md);
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
 }
 
-.dropdown-form-field {
-  width: 100%;
-  max-width: 320px;
+.advanced-toggle:hover {
+  background: rgba(111, 66, 193, 0.06);
 }
 
-.have-form-field {
+.advanced-toggle:focus-visible {
+  outline: 2px solid var(--brand-500);
+  outline-offset: -2px;
+}
+
+.advanced-icon,
+.advanced-chevron {
+  flex-shrink: 0;
+}
+
+.advanced-icon {
+  color: var(--brand-500);
+}
+
+.advanced-title {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.filter-count {
+  flex-shrink: 0;
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.4rem;
+  height: 1.4rem;
+  padding: 0 0.35rem;
+  border-radius: 999px;
+  background: var(--brand-500);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.advanced-chevron {
+  margin-left: auto;
+  color: var(--ink-muted);
+  transition: transform 0.2s ease;
+}
+
+.advanced-search.open .advanced-chevron {
+  transform: rotate(180deg);
+}
+
+.advanced-body {
+  display: grid;
+  gap: 1.25rem;
+  padding: 1rem 1rem 1.1rem;
+  border-top: 1px solid rgba(77, 35, 148, 0.14);
+}
+
+.filter-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem 1.25rem;
+}
+
+.filter-group {
+  display: grid;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.filter-label {
+  color: var(--ink-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.filter-field {
   width: 100%;
-  max-width: 420px;
+}
+
+.family-toggle {
+  justify-self: start;
+  padding-right: 0.9rem;
+  border: 1px solid rgba(77, 35, 148, 0.25);
+  border-radius: 999px;
+  background: var(--table-stripe);
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.family-toggle.checked {
+  border-color: var(--brand-500);
+  background: var(--table-header-strong);
+}
+
+.family-toggle-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.authors-group {
+  gap: 0.75rem;
+  padding-top: 1rem;
+  border-top: 1px dashed rgba(77, 35, 148, 0.2);
+}
+
+.authors-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
 }
 
 .recent-favorites-card {
@@ -289,21 +409,9 @@
   font-size: 14px;
 }
 
-.authors-card {
-  margin-top: 0.3rem;
-  padding: 1.25rem;
-  background: var(--surface-gradient-mid);
-}
-
-.authors-card h3 {
-  margin: 0;
-  font-size: 1.35rem;
-}
-
 .author-search {
   width: 100%;
-  max-width: 320px;
-  margin-bottom: 0.75rem;
+  max-width: 280px;
 }
 
 .author-chips {
@@ -364,5 +472,5 @@
 }
 
 .show-all-authors {
-  margin-top: 0.75rem;
+  justify-self: start;
 }

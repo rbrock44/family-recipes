@@ -96,49 +96,118 @@
         </div>
       }
 
-      <mat-accordion class="advanced-search">
-        <mat-expansion-panel [expanded]="advancedExpanded">
-          <mat-expansion-panel-header>
-            <mat-panel-title> Advanced Search </mat-panel-title>
-          </mat-expansion-panel-header>
-
-          <div class="advanced-grid">
-            <mat-checkbox [formControl]="familyControl"
-              >Hooper Family Only</mat-checkbox
+      <div class="advanced-search" [class.open]="advancedExpanded">
+        <button
+          type="button"
+          class="advanced-toggle"
+          (click)="advancedExpanded = !advancedExpanded"
+          [attr.aria-expanded]="advancedExpanded"
+          aria-controls="advanced-filters"
+          data-advanced-toggle
+        >
+          <mat-icon class="advanced-icon" aria-hidden="true">tune</mat-icon>
+          <span class="advanced-title">Advanced Search</span>
+          @if (activeFilterCount() > 0) {
+            <span
+              class="filter-count"
+              [attr.aria-label]="activeFilterCount() + (activeFilterCount() === 1 ? ' filter' : ' filters') + ' on'"
+              data-filter-count
+              >{{ activeFilterCount() }}</span
             >
+          }
+          <mat-icon class="advanced-chevron" aria-hidden="true">expand_more</mat-icon>
+        </button>
 
-            <mat-form-field appearance="fill" class="dropdown-form-field">
-              <mat-label data-dropdown-label>Category</mat-label>
-              <mat-select
-                [formControl]="categoryControl"
-                (selectionChange)="search()"
-              >
-                @for (cat of this.categories; track cat) {
-                  <mat-option [value]="cat.value" data-dropdown-option>
-                    {{ cat.name }}
-                  </mat-option>
+        @if (advancedExpanded) {
+          <div class="advanced-body" id="advanced-filters">
+            <div class="filter-row">
+              <div class="filter-group">
+                <span class="filter-label">Category</span>
+                <mat-form-field appearance="outline" class="filter-field" subscriptSizing="dynamic">
+                  <mat-select
+                    [formControl]="categoryControl"
+                    (selectionChange)="search()"
+                    aria-label="Category"
+                  >
+                    @for (cat of this.categories; track cat) {
+                      <mat-option [value]="cat.value" data-dropdown-option>
+                        {{ cat.name || "All categories" }}
+                      </mat-option>
+                    }
+                  </mat-select>
+                </mat-form-field>
+              </div>
+
+              <div class="filter-group">
+                <span class="filter-label">Ingredients I have</span>
+                <mat-form-field appearance="outline" class="filter-field" subscriptSizing="dynamic">
+                  <input
+                    [formControl]="haveControl"
+                    matInput
+                    type="text"
+                    aria-label="Ingredients I have"
+                    placeholder="chicken, rice, broccoli"
+                    data-have-input
+                  />
+                  <mat-hint>Recipes using all of them; +N is how many more each needs</mat-hint>
+                </mat-form-field>
+              </div>
+            </div>
+
+            <mat-checkbox class="family-toggle" [class.checked]="familyControl.value" [formControl]="familyControl">
+              <span class="family-toggle-label">
+                <mat-icon class="family-icon" aria-hidden="true">favorite</mat-icon>
+                Hooper Family only
+              </span>
+            </mat-checkbox>
+
+            <div class="filter-group authors-group" data-authors-section>
+              <div class="authors-head">
+                <span class="filter-label">Authors</span>
+                <mat-form-field appearance="outline" class="author-search" subscriptSizing="dynamic">
+                  <mat-icon matPrefix aria-hidden="true">person_search</mat-icon>
+                  <input
+                    matInput
+                    type="text"
+                    aria-label="Find an author"
+                    placeholder="Find an author"
+                    [formControl]="authorQueryControl"
+                    data-author-query
+                  />
+                </mat-form-field>
+              </div>
+
+              <div class="author-chips">
+                @for (entry of visibleAuthors(); track entry.author) {
+                  <button
+                    type="button"
+                    class="author-chip"
+                    [class.family]="entry.family"
+                    [class.selected]="isAuthorSelected(entry.author)"
+                    [attr.aria-pressed]="isAuthorSelected(entry.author)"
+                    (click)="toggleAuthor(entry.author)"
+                    data-author-chip
+                  >
+                    @if (entry.family) {
+                      <mat-icon class="family-icon" aria-label="Hooper Family">favorite</mat-icon>
+                    }
+                    <span class="author-name">{{ entry.author }}</span>
+                    <span class="author-count">{{ entry.count }}</span>
+                  </button>
+                } @empty {
+                  <p class="author-empty">No author matches that name.</p>
                 }
-              </mat-select>
-            </mat-form-field>
+              </div>
 
-            <mat-form-field
-              appearance="fill"
-              class="have-form-field"
-              subscriptSizing="dynamic"
-            >
-              <mat-label>Ingredients I have</mat-label>
-              <input
-                [formControl]="haveControl"
-                matInput
-                type="text"
-                placeholder="chicken, rice, broccoli"
-                data-have-input
-              />
-              <mat-hint>Recipes using all of them; +N is how many more ingredients each needs</mat-hint>
-            </mat-form-field>
+              @if (hiddenAuthorCount() > 0) {
+                <button mat-button class="show-all-authors" (click)="showAllAuthors = true" data-show-all-authors>
+                  Show all {{ authors.length }} authors
+                </button>
+              }
+            </div>
           </div>
-        </mat-expansion-panel>
-      </mat-accordion>
+        }
+      </div>
     </section>
 
     @if (service.sharedFavorites) {
@@ -274,55 +343,6 @@
         }
       </section>
     }
-
-    <section class="surface-card authors-card" data-authors-card>
-      <button
-        type="button"
-        class="recent-favorites-header"
-        [class.expanded]="service.authorsExpanded"
-        (click)="toggleAuthors()"
-        [attr.aria-expanded]="service.authorsExpanded"
-        data-authors-toggle
-      >
-        <h3>Browse by Author</h3>
-        <mat-icon>{{ service.authorsExpanded ? "expand_less" : "expand_more" }}</mat-icon>
-      </button>
-
-      @if (service.authorsExpanded) {
-        <mat-form-field appearance="outline" class="author-search" subscriptSizing="dynamic">
-          <mat-label>Find an author</mat-label>
-          <input matInput type="text" [formControl]="authorQueryControl" data-author-query />
-        </mat-form-field>
-
-        <div class="author-chips">
-          @for (entry of visibleAuthors(); track entry.author) {
-            <button
-              type="button"
-              class="author-chip"
-              [class.family]="entry.family"
-              [class.selected]="isAuthorSelected(entry.author)"
-              [attr.aria-pressed]="isAuthorSelected(entry.author)"
-              (click)="toggleAuthor(entry.author)"
-              data-author-chip
-            >
-              @if (entry.family) {
-                <mat-icon class="family-icon" aria-label="Hooper Family">favorite</mat-icon>
-              }
-              <span class="author-name">{{ entry.author }}</span>
-              <span class="author-count">{{ entry.count }}</span>
-            </button>
-          } @empty {
-            <p class="author-empty">No author matches that name.</p>
-          }
-        </div>
-
-        @if (hiddenAuthorCount() > 0) {
-          <button mat-button class="show-all-authors" (click)="showAllAuthors = true" data-show-all-authors>
-            Show all {{ authors.length }} authors
-          </button>
-        }
-      }
-    </section>
 
     <app-recipe-table
       [dataSource]="dataSource"
