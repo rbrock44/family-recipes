@@ -150,6 +150,27 @@ describe('HomeComponent', () => {
       expect(search).toHaveBeenLastCalledWith('', 0, false, [], []);
     });
 
+    it('removes one author from the search with its x', () => {
+      clickElement(fixture, '[data-authors-toggle]');
+      fixture.detectChanges();
+
+      chips()[0].click();
+      chips()[1].click();
+      fixture.detectChanges();
+
+      const selected = () =>
+        Array.from(fixture.nativeElement.querySelectorAll('[data-selected-author] .author-name')).map(it =>
+          (it as HTMLElement).textContent?.trim(),
+        );
+      expect(selected()).toEqual(['Anne Brock', 'Charlotte Hooper']);
+
+      (fixture.nativeElement.querySelector('[data-remove-author]') as HTMLElement).click();
+      fixture.detectChanges();
+
+      expect(service.searchAuthors).toEqual(['Charlotte Hooper']);
+      expect(selected()).toEqual(['Charlotte Hooper']);
+    });
+
     it('takes an author back out when picked again', () => {
       clickElement(fixture, '[data-authors-toggle]');
       fixture.detectChanges();

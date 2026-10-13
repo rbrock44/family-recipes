@@ -255,6 +255,10 @@ export class HomeComponent implements OnInit {
     return this.service.searchAuthors.includes(author);
   }
 
+  isFamilyAuthor(author: string): boolean {
+    return this.authors.some((it) => it.author === author && it.family);
+  }
+
   /** Adds the author to the filter, or takes them back out if already in it. */
   toggleAuthor(author: string): void {
     const authors = this.service.searchAuthors;

@@ -249,6 +249,46 @@
   color: var(--ink);
 }
 
+.author-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.author-filter .author-chip {
+  cursor: default;
+}
+
+.author-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: var(--table-header-strong);
+  color: var(--brand-900);
+  cursor: pointer;
+}
+
+.author-remove:hover {
+  background: var(--table-hover);
+}
+
+.author-remove:focus-visible {
+  outline: 2px solid var(--brand-500);
+  outline-offset: 1px;
+}
+
+.author-remove mat-icon {
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+}
+
 .authors-card {
   margin-top: 0.3rem;
   padding: 1.25rem;

@@ -65,12 +65,26 @@
 
       @if (service.searchAuthors.length > 0) {
         <div class="author-filter" data-author-filter>
-          <span
-            >Recipes by
-            @for (author of service.searchAuthors; track author; let last = $last) {
-              <strong>{{ author }}</strong>{{ last ? "" : ", " }}
+          <div class="author-filter-chips">
+            <span>Recipes by</span>
+            @for (author of service.searchAuthors; track author) {
+              <span class="author-chip selected" [class.family]="isFamilyAuthor(author)" data-selected-author>
+                @if (isFamilyAuthor(author)) {
+                  <mat-icon class="family-icon" aria-label="Hooper Family">favorite</mat-icon>
+                }
+                <span class="author-name">{{ author }}</span>
+                <button
+                  type="button"
+                  class="author-remove"
+                  [attr.aria-label]="'Remove ' + author"
+                  (click)="toggleAuthor(author)"
+                  data-remove-author
+                >
+                  <mat-icon>close</mat-icon>
+                </button>
+              </span>
             }
-          </span>
+          </div>
           <button
             mat-icon-button
             aria-label="Show every author"
