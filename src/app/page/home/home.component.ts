@@ -66,6 +66,7 @@ export class HomeComponent implements OnInit {
   searchControl: FormControl;
   categoryControl: FormControl;
   familyControl: FormControl;
+  hasNoteControl: FormControl;
   haveControl: FormControl;
   authorQueryControl = new FormControl('');
   authors: AuthorEntry[] = [];
@@ -95,6 +96,7 @@ export class HomeComponent implements OnInit {
     this.searchControl = new FormControl(this.service.searchTerm);
     this.categoryControl = new FormControl(this.service.searchCategory);
     this.familyControl = new FormControl(this.service.searchHooperFamily);
+    this.hasNoteControl = new FormControl(this.service.searchHasNote);
     this.haveControl = new FormControl(this.service.searchHave);
   }
 
@@ -114,6 +116,12 @@ export class HomeComponent implements OnInit {
       });
 
     this.familyControl.valueChanges
+      .pipe(debounceTime(100), distinctUntilChanged())
+      .subscribe(() => {
+        this.search();
+      });
+
+    this.hasNoteControl.valueChanges
       .pipe(debounceTime(100), distinctUntilChanged())
       .subscribe(() => {
         this.search();
@@ -243,6 +251,7 @@ export class HomeComponent implements OnInit {
     return (
       (this.service.searchCategory !== 0 ? 1 : 0) +
       (this.service.searchHooperFamily ? 1 : 0) +
+      (this.service.searchHasNote ? 1 : 0) +
       (this.service.searchHave.trim() !== '' ? 1 : 0) +
       this.service.searchAuthors.length
     );
@@ -304,6 +313,7 @@ export class HomeComponent implements OnInit {
     this.service.searchTerm = value;
     this.service.searchCategory = this.categoryControl.value;
     this.service.searchHooperFamily = this.familyControl.value;
+    this.service.searchHasNote = this.hasNoteControl.value;
     this.service.searchHave = this.haveControl.value ?? '';
 
     this.dataSource.data = this.service.search(
@@ -312,6 +322,7 @@ export class HomeComponent implements OnInit {
       this.familyControl.value,
       parseHaveList(this.haveControl.value),
       this.service.searchAuthors,
+      this.hasNoteControl.value,
     );
 
     this.location.replaceState(
@@ -321,6 +332,7 @@ export class HomeComponent implements OnInit {
         this.familyControl.value,
         this.haveControl.value,
         this.service.searchAuthors,
+        this.hasNoteControl.value,
       ),
     );
   }
@@ -456,6 +468,7 @@ export class HomeComponent implements OnInit {
     hooperFamily: boolean,
     have: string = '',
     authors: string[] = [],
+    hasNote: boolean = false,
   ): string {
     const queryParams = new URLSearchParams();
 
@@ -469,6 +482,10 @@ export class HomeComponent implements OnInit {
 
     if (hooperFamily) {
       queryParams.set('hooperFamily', hooperFamily ? 'true' : 'false');
+    }
+
+    if (hasNote) {
+      queryParams.set('hasNote', 'true');
     }
 
     const haveList = parseHaveList(have);

@@ -54,6 +54,7 @@ describe('RecipeReaderService', () => {
 
     expect(reader.readNote('0001')).toBe('Less salt');
     expect(reader.readNote('0003')).toBe('');
+    expect(reader.readNotedFilenames()).toEqual(['0001', '0002']);
 
     reader.setNote('0001', '   ');
     expect(reader.readNote('0001')).toBe('');

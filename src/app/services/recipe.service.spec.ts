@@ -162,6 +162,12 @@ describe('RecipeService', () => {
       expect(service.searchHooperFamily).toBe(true);
     });
 
+    it('should seed the has note filter from a link', () => {
+      service.restoreSearchParams('/?hasNote=true');
+
+      expect(service.searchHasNote).toBe(true);
+    });
+
     it('should fall back to defaults for missing or bad values', () => {
       service.restoreSearchParams('/?category=99&hooperFamily=yes');
 
@@ -275,6 +281,17 @@ describe('RecipeService', () => {
 
     it('should still combine with the text search', () => {
       expect(service.search('casserole', 0, false, ['rice']).map(it => it.filename)).toEqual(['0001']);
+    });
+
+    it('should keep only recipes with a note when asked', () => {
+      vi.spyOn(reader, 'setNote').mockImplementation(() => {});
+      service.setNote('0003', 'Less sugar');
+
+      expect(service.search('', 0, false, [], [], true).map(it => it.filename)).toEqual(['0003']);
+      expect(service.hasNote('0003')).toBe(true);
+
+      service.setNote('0003', '  ');
+      expect(service.search('', 0, false, [], [], true)).toEqual([]);
     });
 
     it('should drop the ranking once the ingredients are cleared', () => {

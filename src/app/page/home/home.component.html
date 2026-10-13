@@ -154,12 +154,26 @@
               </div>
             </div>
 
-            <mat-checkbox class="family-toggle" [class.checked]="familyControl.value" [formControl]="familyControl">
-              <span class="family-toggle-label">
-                <mat-icon class="family-icon" aria-hidden="true">favorite</mat-icon>
-                Hooper Family only
-              </span>
-            </mat-checkbox>
+            <div class="toggle-row">
+              <mat-checkbox class="family-toggle" [class.checked]="familyControl.value" [formControl]="familyControl">
+                <span class="family-toggle-label">
+                  <mat-icon class="family-icon" aria-hidden="true">favorite</mat-icon>
+                  Hooper Family only
+                </span>
+              </mat-checkbox>
+
+              <mat-checkbox
+                class="family-toggle"
+                [class.checked]="hasNoteControl.value"
+                [formControl]="hasNoteControl"
+                data-has-note-toggle
+              >
+                <span class="family-toggle-label">
+                  <mat-icon class="family-icon" aria-hidden="true">sticky_note_2</mat-icon>
+                  Has a note
+                </span>
+              </mat-checkbox>
+            </div>
 
             <div class="filter-group authors-group" data-authors-section>
               <div class="authors-head">

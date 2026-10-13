@@ -293,6 +293,10 @@ export class RecipeReaderService {
     return this.readAllNotes()[filename] ?? '';
   }
 
+  readNotedFilenames(): string[] {
+    return Object.keys(this.readAllNotes());
+  }
+
   /** A blank note is removed rather than stored. */
   setNote(filename: string, note: string): void {
     const all = this.readAllNotes();

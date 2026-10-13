@@ -166,6 +166,10 @@ export class RecipeTableComponent implements OnInit, OnChanges, OnDestroy {
     return this.showIngredientMatch ? this.service.extraIngredients(recipe.filename) : undefined;
   }
 
+  hasNote(recipe: Recipe): boolean {
+    return this.service.hasNote(recipe.filename);
+  }
+
   showNumber(): boolean {
     return !this.removeColumns || this.isWide;
   }

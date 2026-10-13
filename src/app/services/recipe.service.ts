@@ -37,6 +37,8 @@ export class RecipeService {
   searchTerm: string = '';
   searchCategory: Category = 0;
   searchHooperFamily: boolean = false;
+  // Only recipes with a saved note on this device.
+  searchHasNote: boolean = false;
   // Comma-separated ingredients on hand, as typed.
   searchHave: string = '';
   // Only these authors' recipes, picked from Browse by Author or a recipe's byline.
@@ -61,6 +63,8 @@ export class RecipeService {
   // Lists showing the random pick card, kept so it survives opening the recipe and coming back.
   randomPickOpenListIds: Set<string> = new Set<string>();
   favorites: Set<string>;
+  // Recipes with a saved note, cached so table rows don't parse storage on every check.
+  notedFilenames: Set<string>;
   // Someone else's favorites opened from a share link, held here so the card survives opening a recipe and coming back.
   sharedFavorites: SharedFavoritesPayload | null = null;
   // Someone's note on a recipe, from a share link; shown on that recipe until added or dismissed.
@@ -75,6 +79,7 @@ export class RecipeService {
     this.expandedListIds = new Set(this.reader.readExpandedListIds());
     this.collapsedListIngredientIds = new Set(this.reader.readCollapsedListIngredientIds());
     this.favorites = new Set(this.reader.readFavorites());
+    this.notedFilenames = new Set(this.reader.readNotedFilenames());
 
     // Browser/mouse back and forward land here; show whichever view the entry names.
     this.location.subscribe(() => this.restoreFromHistory());
@@ -107,6 +112,16 @@ export class RecipeService {
 
   setNote(filename: string, note: string): void {
     this.reader.setNote(filename, note);
+
+    if (note.trim()) {
+      this.notedFilenames.add(filename);
+    } else {
+      this.notedFilenames.delete(filename);
+    }
+  }
+
+  hasNote(filename: string): boolean {
+    return this.notedFilenames.has(filename);
   }
 
   readCookProgress(filename: string): CookProgress | undefined {
@@ -136,7 +151,7 @@ export class RecipeService {
     return query ? `/?${query}` : '/';
   }
 
-  /** Seeds the search from a link's `?search=`, `?category=`, `?hooperFamily=`, `?have=` and `?author=`. */
+  /** Seeds the search from a link's `?search=`, `?category=`, `?hooperFamily=`, `?hasNote=`, `?have=` and `?author=`. */
   restoreSearchParams(path: string): void {
     const queryParams = new URLSearchParams(path.split('?')[1] ?? '');
     const category = Number(queryParams.get('category'));
@@ -144,6 +159,7 @@ export class RecipeService {
     this.searchTerm = queryParams.get('search') ?? '';
     this.searchCategory = Category[category] !== undefined ? category : 0;
     this.searchHooperFamily = queryParams.get('hooperFamily') === 'true';
+    this.searchHasNote = queryParams.get('hasNote') === 'true';
     this.searchHave = queryParams.get('have') ?? '';
     this.searchAuthors = this.peopleIn(queryParams.getAll('author'));
   }
@@ -153,6 +169,7 @@ export class RecipeService {
     this.searchTerm = '';
     this.searchCategory = 0;
     this.searchHooperFamily = false;
+    this.searchHasNote = false;
     this.searchHave = '';
     this.searchAuthors = this.peopleIn([author]);
     this.hasSearched = true;
@@ -230,6 +247,7 @@ export class RecipeService {
     onlyHooperFamily: boolean = false,
     have: string[] = [],
     authors: string[] = [],
+    onlyWithNotes: boolean = false,
   ): Recipe[] {
     let list: Recipe[] = [];
 
@@ -247,6 +265,10 @@ export class RecipeService {
 
     if (onlyHooperFamily) {
       list = list.filter(it => HOOPER_FAMILY.indexOf(it.author) > -1);
+    }
+
+    if (onlyWithNotes) {
+      list = list.filter(it => this.hasNote(it.filename));
     }
 
     if (authors.length > 0) {

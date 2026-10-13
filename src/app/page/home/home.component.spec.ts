@@ -68,7 +68,7 @@ describe('HomeComponent', () => {
     component.haveControl.setValue('Chicken, rice,');
     component.search('');
 
-    expect(search).toHaveBeenLastCalledWith('', 0, false, ['chicken', 'rice'], []);
+    expect(search).toHaveBeenLastCalledWith('', 0, false, ['chicken', 'rice'], [], false);
     expect(service.searchHave).toBe('Chicken, rice,');
     expect(new URLSearchParams(TestBed.inject(Location).path().split('?')[1]).get('have')).toBe('chicken, rice');
   });
@@ -145,14 +145,14 @@ describe('HomeComponent', () => {
       chips()[0].click();
       fixture.detectChanges();
 
-      expect(search).toHaveBeenLastCalledWith('', 0, false, [], ['Anne Brock']);
+      expect(search).toHaveBeenLastCalledWith('', 0, false, [], ['Anne Brock'], false);
       expectElementToContainContent(fixture, '[data-author-filter]', 'Anne Brock');
       expect(urlAuthors()).toEqual(['Anne Brock']);
 
       chips()[1].click();
       fixture.detectChanges();
 
-      expect(search).toHaveBeenLastCalledWith('', 0, false, [], ['Anne Brock', 'Charlotte Hooper']);
+      expect(search).toHaveBeenLastCalledWith('', 0, false, [], ['Anne Brock', 'Charlotte Hooper'], false);
       expectElementToContainContent(fixture, '[data-author-filter]', 'Charlotte Hooper');
       expect(urlAuthors()).toEqual(['Anne Brock', 'Charlotte Hooper']);
       expect(chips().map(it => it.classList.contains('selected'))).toEqual([true, true]);
@@ -160,7 +160,7 @@ describe('HomeComponent', () => {
       clickElement(fixture, '[data-clear-author]');
       fixture.detectChanges();
       expect(service.searchAuthors).toEqual([]);
-      expect(search).toHaveBeenLastCalledWith('', 0, false, [], []);
+      expect(search).toHaveBeenLastCalledWith('', 0, false, [], [], false);
     });
 
     it('removes one author from the search with its x', () => {

@@ -102,6 +102,11 @@
           <ng-container matColumnDef="name">
             <mat-cell *matCellDef="let element">
               {{ element.name }}
+              @if (hasNote(element)) {
+                <mat-icon class="note-icon" title="Has a note" aria-label="Has a note" data-note-icon
+                  >sticky_note_2</mat-icon
+                >
+              }
               @if (extraIngredients(element); as extra) {
                 <span
                   class="extra-ingredients"
