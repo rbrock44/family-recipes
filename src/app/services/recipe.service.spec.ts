@@ -200,8 +200,18 @@ describe('RecipeService', () => {
       service.load();
     });
 
-    it('should only keep that exact author', () => {
+    it('should keep that author, not one whose name only starts the same', () => {
       expect(service.search('', 0, false, [], ['Anne Brock']).map(it => it.filename)).toEqual(['0001', '0003']);
+    });
+
+    it('should keep recipes the author passed on from a source', () => {
+      spy.mockReturnValue([
+        new RecipeModel({ filename: '0001', name: 'Pie', author: 'Anne Brock' }),
+        new RecipeModel({ filename: '0002', name: 'Cake', author: 'Mrs. Coats - Anne Brock' }),
+      ]);
+      service.load();
+
+      expect(service.search('', 0, false, [], ['Anne Brock']).map(it => it.filename)).toEqual(['0001', '0002']);
     });
 
     it('should keep every author picked', () => {

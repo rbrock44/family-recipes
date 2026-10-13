@@ -1,5 +1,5 @@
 import { RecipeModel } from '../models/recipe.model';
-import { filterAuthors, indexAuthors } from './author-index.util';
+import { filterAuthors, indexAuthors, matchesAuthor } from './author-index.util';
 
 const byAuthor = (...authors: string[]) => authors.map((author) => new RecipeModel({ author }));
 
@@ -15,6 +15,16 @@ describe('indexAuthors', () => {
     ]);
   });
 
+  it('counts every recipe naming the author, sources included', () => {
+    const result = indexAuthors(byAuthor('Anne Brock', 'Mrs. Coats - Anne Brock', 'Anne Brockman'));
+
+    expect(result.map((it) => [it.author, it.count])).toEqual([
+      ['Anne Brock', 2],
+      ['Anne Brockman', 1],
+      ['Mrs. Coats - Anne Brock', 1],
+    ]);
+  });
+
   it('marks Hooper family authors', () => {
     const result = indexAuthors(byAuthor('Charlotte Hooper', 'Anne Brock'));
 
@@ -26,6 +36,15 @@ describe('indexAuthors', () => {
     const result = indexAuthors(byAuthor(' Amy ', 'Amy', '', '  '));
 
     expect(result).toEqual([{ author: 'Amy', count: 2, family: false }]);
+  });
+});
+
+describe('matchesAuthor', () => {
+  it('finds the name anywhere in the author, as whole words', () => {
+    expect(matchesAuthor('Anne Brock', 'Anne Brock')).toBe(true);
+    expect(matchesAuthor('Mrs. Coats - Anne Brock', 'anne brock')).toBe(true);
+    expect(matchesAuthor('Anne Brockman', 'Anne Brock')).toBe(false);
+    expect(matchesAuthor('S. & R.P.', 'S. & R.P.')).toBe(true);
   });
 });
 

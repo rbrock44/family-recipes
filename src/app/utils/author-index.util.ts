@@ -8,20 +8,22 @@ export interface AuthorEntry {
   family: boolean;
 }
 
-/** Every author with how many recipes they have, most first, then by name. */
+/**
+ * True when the recipe's author names this person anywhere, as whole words, so
+ * "Anne Brock" picks up "Mrs. Coats - Anne Brock" but not "Anne Brockman".
+ */
+export function matchesAuthor(recipeAuthor: string, author: string): boolean {
+  const name = author.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return name !== '' && new RegExp(`(?<!\\w)${name}(?!\\w)`, 'i').test(recipeAuthor);
+}
+
+/** Every author with how many recipes name them, most first, then by name. */
 export function indexAuthors(recipes: Recipe[]): AuthorEntry[] {
-  const counts = new Map<string, number>();
+  const authors = new Set(recipes.map((recipe) => recipe.author.trim()).filter((it) => it !== ''));
 
-  recipes.forEach((recipe) => {
-    const author = recipe.author.trim();
-    if (author) {
-      counts.set(author, (counts.get(author) ?? 0) + 1);
-    }
-  });
-
-  return Array.from(counts, ([author, count]) => ({
+  return Array.from(authors, (author) => ({
     author,
-    count,
+    count: recipes.filter((recipe) => matchesAuthor(recipe.author, author)).length,
     family: HOOPER_FAMILY.includes(author),
   })).sort((a, b) => b.count - a.count || a.author.localeCompare(b.author));
 }

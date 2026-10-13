@@ -15,6 +15,7 @@ import { RecipeReaderService } from './recipe-reader.service';
 import { SeoService } from './seo.service';
 import { isListsPath, parseRecipeId, recipePath } from '../utils/recipe-url.util';
 import { matchIngredients } from '../utils/ingredient-match.util';
+import { matchesAuthor } from '../utils/author-index.util';
 
 /** Marks a history entry the app pushed, and which view it holds when the URL alone can't say. */
 export interface RecipeHistoryState {
@@ -244,7 +245,7 @@ export class RecipeService {
     }
 
     if (authors.length > 0) {
-      list = list.filter(it => authors.includes(it.author.trim()));
+      list = list.filter(it => authors.some(author => matchesAuthor(it.author, author)));
     }
 
     if (have.length > 0) {
