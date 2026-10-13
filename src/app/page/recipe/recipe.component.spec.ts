@@ -156,6 +156,17 @@ describe('RecipeComponent', () => {
       expect(el('[data-open-notes]')).not.toBeNull();
     });
 
+    it('opens an empty note from anywhere on its card', () => {
+      vi.spyOn(recipeService, 'readNote').mockReturnValue('');
+      vi.spyOn(recipeService, 'setNote').mockImplementation(() => {});
+
+      show('0001');
+      (fixture.nativeElement.querySelector('[data-notes-card] h3') as HTMLElement).click();
+      fixture.detectChanges();
+
+      expect(fixture.nativeElement.querySelector('[data-note-input]')).not.toBeNull();
+    });
+
     it('keeps a note with text open with no way to close it', () => {
       vi.spyOn(recipeService, 'readNote').mockReturnValue('Less salt');
       vi.spyOn(recipeService, 'setNote').mockImplementation(() => {});

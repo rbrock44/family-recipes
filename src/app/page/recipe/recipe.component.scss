@@ -94,6 +94,10 @@
     width: 100%;
 }
 
+.notes-card.collapsed-notes {
+    cursor: pointer;
+}
+
 .notes-card.collapsed-notes .notes-title-row {
     margin-bottom: 0;
 }

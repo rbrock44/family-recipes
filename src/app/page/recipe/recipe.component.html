@@ -222,7 +222,13 @@
     </section>
   }
 
-  <section class="surface-card notes-card" [class.empty-notes]="!hasNote()" [class.collapsed-notes]="!notesShown()">
+  <section
+    class="surface-card notes-card"
+    [class.empty-notes]="!hasNote()"
+    [class.collapsed-notes]="!notesShown()"
+    (click)="notesShown() || openNotes()"
+    data-notes-card
+  >
     <div class="notes-title-row">
       <h3>My Notes</h3>
       @if (!notesShown()) {
@@ -239,7 +245,7 @@
           <mat-icon>{{ justSharedNote ? 'check' : 'share' }}</mat-icon>
         </button>
       } @else {
-        <button mat-icon-button aria-label="Close notes" (click)="notesOpen = false" data-close-notes>
+        <button mat-icon-button aria-label="Close notes" (click)="notesOpen = false; $event.stopPropagation()" data-close-notes>
           <mat-icon>close</mat-icon>
         </button>
       }
