@@ -13,11 +13,13 @@
       },
       {
          "amount": 3,
-         "name": "Tbsp. chopped onion"
+         "unit": "tbsp",
+         "name": "chopped onion"
       },
       {
          "amount": 3,
-         "name": "Tbsp. chopped green pepper"
+         "unit": "tbsp",
+         "name": "chopped green pepper"
       }
    ],
    "instructions": "Mix all ingredients and refrigerate overnight or several hours before serving. More onion and green pepper can be used for a stronger flavor.",

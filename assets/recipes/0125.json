@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "gal. cut up ripe tomatoes"
+         "unit": "gal",
+         "name": "cut up ripe tomatoes"
       },
       {
          "amount": 2,
@@ -25,27 +26,33 @@
       },
       {
          "amount": 8,
-         "name": "tsp. parsley"
+         "unit": "tsp",
+         "name": "parsley"
       },
       {
          "amount": 0.5,
-         "name": "tsp. thyme"
+         "unit": "tsp",
+         "name": "thyme"
       },
       {
          "amount": 2,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 0.5,
-         "name": "tsp. basil"
+         "unit": "tsp",
+         "name": "basil"
       },
       {
          "amount": 1.5,
-         "name": "tsp. marjoram"
+         "unit": "tsp",
+         "name": "marjoram"
       },
       {
          "amount": 4,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Cook together until tender. Put in blender or colander and put back on stove and heat to boil. Can while hot. Very Good.",

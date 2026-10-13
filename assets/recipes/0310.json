@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "lb. carrots, peeled and sliced"
+         "unit": "lb",
+         "name": "carrots, peeled and sliced"
       },
       {
          "amount": 1,
@@ -21,19 +22,23 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. vegetable oil"
+         "unit": "cup",
+         "name": "vegetable oil"
       },
       {
          "amount": 0.5,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. dry mustard"
+         "unit": "tbsp",
+         "name": "dry mustard"
       }
    ],
    "instructions": "Cook carrots in boiling salted water for 5 minutes or until crisp tender. Drain. Combine carrots, green pepper and onion in a 13 x 9 x 2 inch pan. Toss until mixed. Combine soup, sugar, oil, vinegar, and mustard; stir until combined. Pour soup mixture over carrot mixture, cover and marinate in refrigerator for 8 hours or overnight.",

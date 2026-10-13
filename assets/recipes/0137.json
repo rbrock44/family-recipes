@@ -9,7 +9,8 @@
       },
       {
          "amount": 0.25,
-         "name": "c. red cooking wine"
+         "unit": "cup",
+         "name": "red cooking wine"
       },
       {
          "amount": 1,

@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "c. Crisco shortening"
+         "unit": "cup",
+         "name": "Crisco shortening"
       },
       {
          "amount": 0.5,
-         "name": "c. creamy peanut butter"
+         "unit": "cup",
+         "name": "creamy peanut butter"
       },
       {
          "amount": 6,
-         "name": "Tbsp. milk"
+         "unit": "tbsp",
+         "name": "milk"
       },
       {
          "amount": 3,
-         "name": "c. sifted powdered sugar"
+         "unit": "cup",
+         "name": "sifted powdered sugar"
       }
    ],
    "instructions": "Blend Crisco and peanut butter thoroughly. Alternately add milk and sugar. Frosts two 9 inch layer cakes or one 13 x 9 inch cake.",

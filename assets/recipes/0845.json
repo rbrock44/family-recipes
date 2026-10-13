@@ -17,7 +17,8 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. Epsom salt"
+         "unit": "tbsp",
+         "name": "Epsom salt"
       }
    ],
    "instructions": "Blend fruit and grind all together with seeds out. Put Epsom salt in the fruit and mix. Take 1 tablespoon before each meal or 3 times a day.",

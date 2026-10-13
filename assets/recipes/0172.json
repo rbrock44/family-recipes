@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 1,
-         "name": "can cream of chicken soup"
+         "unit": "can",
+         "name": "cream of chicken soup"
       },
       {
          "amount": 1,
@@ -21,7 +24,8 @@
       },
       {
          "amount": 0.75,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
@@ -29,31 +33,38 @@
       },
       {
          "amount": 0.5,
-         "name": "c. sliced pitted olives"
+         "unit": "cup",
+         "name": "sliced pitted olives"
       },
       {
          "amount": 2,
-         "name": "Tbsp. soy sauce"
+         "unit": "tbsp",
+         "name": "soy sauce"
       },
       {
          "amount": 1.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 2.5,
-         "name": "c. uncooked egg noodles"
+         "unit": "cup",
+         "name": "uncooked egg noodles"
       },
       {
          "amount": 1,
-         "name": "c. chow mein noodles"
+         "unit": "cup",
+         "name": "chow mein noodles"
       },
       {
          "amount": 0.5,
-         "name": "c. mixed nuts, salted"
+         "unit": "cup",
+         "name": "mixed nuts, salted"
       },
       {
          "amount": 1,
-         "name": "c. Cheddar cheese, shredded"
+         "unit": "cup",
+         "name": "Cheddar cheese, shredded"
       }
    ],
    "instructions": "Cook ground beef and onion in 10 inch skillet, stirring frequently until beef is brown; drain. Stir in remaining ingredients except cheese, noodles, and nuts. Pour into ungreased 2 quart casserole. Sprinkle with cheese. Cover and bake 50 minutes at 350°. Top with noodles and nuts. Bake uncovered for 10 minutes. To serve later: cover and refrigerate up to 24 hours. Bake uncovered in 350° for 50 minutes. Top with noodles and nuts. Bake uncovered 10 minutes.",

@@ -9,23 +9,28 @@
       },
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. sugar"
+         "unit": "tsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1.25,
-         "name": "c. beer at room temperature"
+         "unit": "cup",
+         "name": "beer at room temperature"
       }
    ],
    "instructions": "Mix until smooth with wire wisk. If too thick, add more beer. Coat fish and fry in hot grease.",

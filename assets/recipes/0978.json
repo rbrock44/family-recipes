@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "lb. beef chuck or round, fat trimmed"
+      "unit": "lb",
+      "name": "beef chuck or round, fat trimmed"
     },
     {
       "amount": 0.25,
-      "name": "cup soy sauce"
+      "unit": "cup",
+      "name": "soy sauce"
     },
     {
       "amount": 1,
@@ -17,19 +19,23 @@
     },
     {
       "amount": 1.5,
-      "name": "tsp. grated fresh ginger, or 1/2 tsp. ground ginger"
+      "unit": "tsp",
+      "name": "grated fresh ginger, or 1/2 tsp. ground ginger"
     },
     {
       "amount": 0.25,
-      "name": "cup salad oil"
+      "unit": "cup",
+      "name": "salad oil"
     },
     {
       "amount": 1,
-      "name": "cup green onion, thinly sliced"
+      "unit": "cup",
+      "name": "green onion, thinly sliced"
     },
     {
       "amount": 1,
-      "name": "cup red or green peppers, cut into 1-inch squares"
+      "unit": "cup",
+      "name": "red or green peppers, cut into 1-inch squares"
     },
     {
       "amount": 2,
@@ -37,11 +43,13 @@
     },
     {
       "amount": 1,
-      "name": "Tbsp. cornstarch"
+      "unit": "tbsp",
+      "name": "cornstarch"
     },
     {
       "amount": 1,
-      "name": "cup water"
+      "unit": "cup",
+      "name": "water"
     },
     {
       "amount": 2,

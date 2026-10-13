@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "gal. Diebold's Cider"
+         "unit": "gal",
+         "name": "Diebold's Cider"
       },
       {
          "amount": 2,

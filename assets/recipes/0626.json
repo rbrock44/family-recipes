@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. molasses"
+         "unit": "cup",
+         "name": "molasses"
       },
       {
          "amount": 1,
-         "name": "c. lard"
+         "unit": "cup",
+         "name": "lard"
       },
       {
          "amount": 1,
-         "name": "Tbsp. cloves"
+         "unit": "tbsp",
+         "name": "cloves"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.66,
-         "name": "c. boiling water or sour milk"
+         "unit": "cup",
+         "name": "boiling water or sour milk"
       },
       {
          "amount": 0,

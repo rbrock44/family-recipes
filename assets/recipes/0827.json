@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. boiling water"
+         "unit": "cup",
+         "name": "boiling water"
       },
       {
          "amount": 1,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 1,
-         "name": "pkg. Kool-Aid"
+         "unit": "pkg",
+         "name": "Kool-Aid"
       },
       {
          "amount": 1,
@@ -21,7 +23,8 @@
       },
       {
          "amount": 5,
-         "name": "c. cold water"
+         "unit": "cup",
+         "name": "cold water"
       }
    ],
    "instructions": "Dissolve Jello in hot water. Add remaining ingredients and mix together in pitcher. Freeze in molds.",

@@ -9,19 +9,23 @@
       },
       {
          "amount": 2,
-         "name": "pkg. instant chocolate pudding"
+         "unit": "pkg",
+         "name": "instant chocolate pudding"
       },
       {
          "amount": 3,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "stick melted butter"
+         "unit": "stick",
+         "name": "melted butter"
       },
       {
          "amount": 1,
@@ -29,7 +33,8 @@
       },
       {
          "amount": 1,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       }
    ],
    "instructions": "Mix together flour and butter. Bake at 350° for 10 to 15 minutes to make the first layer. Beat together cream cheese, powdered sugar and 1 container of Cool Whip. Add this to the first layer, after it has cooled. For the third layer, beat together pudding and milk. Finally, for the fourth layer, spread Cool Whip on top and nuts if desired.",

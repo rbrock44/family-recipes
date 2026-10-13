@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can Eagle Brand Milk"
+         "unit": "can",
+         "name": "Eagle Brand Milk"
       },
       {
          "amount": 0.25,
-         "name": "c. lemon juice"
+         "unit": "cup",
+         "name": "lemon juice"
       },
       {
          "amount": 0.5,
-         "name": "c. coconut"
+         "unit": "cup",
+         "name": "coconut"
       },
       {
          "amount": 1,
-         "name": "can crushed pineapple, drained"
+         "unit": "can",
+         "name": "crushed pineapple, drained"
       },
       {
          "amount": 1,
@@ -29,7 +33,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       }
    ],
    "instructions": "Mix well milk, lemon juice, coconut and pineapple. Pour into pie shells. Top with nuts. Refrigerate.",

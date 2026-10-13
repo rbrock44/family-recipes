@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. brown sugar (packed)"
+         "unit": "cup",
+         "name": "brown sugar (packed)"
       },
       {
          "amount": 0.5,
-         "name": "c. molasses"
+         "unit": "cup",
+         "name": "molasses"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
-      } ,
-	  {
+         "unit": "tsp",
+         "name": "salt"
+      },
+      {
          "amount": 0.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 5,
-         "name": "qt. popped corn"
+         "unit": "qt",
+         "name": "popped corn"
       },
       {
          "amount": 1,
-         "name": " c. margarine (2 sticks)"
+         "unit": "cup",
+         "name": "margarine (2 sticks)"
       }
    ],
    "instructions": "Keep popped corn warm in a shallow pan in a 250° oven. Com- bine margarine, brown sugar, molasses and salt in a saucepan and cook to a firm ball stage, 5 minutes. Remove from heat and stir in bak- ing soda. Pour syrup over popped corn, stirring well. Return corn to oven for 45 minutes, stirring every 15 minutes. Cool and store in an air tight container.",

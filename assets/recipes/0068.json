@@ -9,15 +9,17 @@
       },
       {
          "amount": 2,
-         "name": "c. water (or more)"
+         "unit": "cup",
+         "name": "water (or more)"
       },
       {
          "amount": 3,
          "name": "green onions chopped"
       },
-	  {
+      {
          "amount": 1,
-         "name": "stick butter or margarine"
+         "unit": "stick",
+         "name": "butter or margarine"
       },
       {
          "amount": 1,
@@ -25,23 +27,26 @@
       },
       {
          "amount": 3,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
-	  {
+      {
          "amount": 1,
          "name": "(8 oz.) carton sour cream"
       },
       {
          "amount": 0.5,
-         "name": "lb. bacon, cooked crisp and crumbled"
+         "unit": "lb",
+         "name": "bacon, cooked crisp and crumbled"
       },
       {
          "amount": 8,
          "name": "to 10 red potatoes"
       },
-	  {
+      {
          "amount": 1,
-         "name": "c. grated Cheddar cheese"
+         "unit": "cup",
+         "name": "grated Cheddar cheese"
       },
       {
          "amount": 0,
@@ -49,7 +54,8 @@
       },
       {
          "amount": 6,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       }
    ],
    "instructions": "Chop potatoes (skin on) into 1-inch chunks and just barely cov- er with water, cook until almost tender. Saute onions and celery in stick of butter, add to potatoes and water. Mix flour and milk, add to potato mixture. Let simmer for 1/2 hour to thicken and add salt and pepper. Serve in bowls or crocks, topped with 1 tablespoon sour cream, grated cheese, green onion and crumbled bacon. Great served with warm, crusty bread and butter.",

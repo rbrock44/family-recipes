@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "tsp. baking soda, dissolved in milk"
+         "unit": "tsp",
+         "name": "baking soda, dissolved in milk"
       },
       {
          "amount": 1,
-         "name": "c. raisins"
+         "unit": "cup",
+         "name": "raisins"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
-         "name": "c. sour milk"
+         "unit": "cup",
+         "name": "sour milk"
       },
       {
          "amount": 1,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       }
    ],
    "instructions": "Mix together well. Bake 1 hour in slow oven (325°).",

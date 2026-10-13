@@ -13,19 +13,23 @@
     },
     {
       "amount": 4,
-      "name": "Tbsp. butter"
+      "unit": "tbsp",
+      "name": "butter"
     },
     {
       "amount": 1,
-      "name": "cup shredded cheddar cheese"
+      "unit": "cup",
+      "name": "shredded cheddar cheese"
     },
     {
       "amount": 2,
-      "name": "Tbsp. dried parsley"
+      "unit": "tbsp",
+      "name": "dried parsley"
     },
     {
       "amount": 2,
-      "name": "Tbsp. Worcestershire sauce"
+      "unit": "tbsp",
+      "name": "Worcestershire sauce"
     },
     {
       "amount": 0,

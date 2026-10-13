@@ -9,15 +9,18 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.25,
-         "name": "c. cornstarch"
+         "unit": "cup",
+         "name": "cornstarch"
       },
       {
          "amount": 1,
-         "name": "c. liquid drained from cherries"
+         "unit": "cup",
+         "name": "liquid drained from cherries"
       },
       {
          "amount": 0,
@@ -29,11 +32,13 @@
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "tsp. vanilla extract"
+         "unit": "tsp",
+         "name": "vanilla extract"
       },
       {
          "amount": 2,
@@ -41,7 +46,8 @@
       },
       {
          "amount": 1,
-         "name": "c. dairy sour cream"
+         "unit": "cup",
+         "name": "dairy sour cream"
       }
    ],
    "instructions": "For filling, drain cherries, reserving 1 cup liquid. Combine 1 cup sugar and cornstarch in medium saucepan. Stir in cherries and reserved 1 cup liquid. You will not use all of liquid. Cook and stir on medium heat until mixture comes to a boil. Boil for 1 minute. Cool while preparing crust. Preheat oven to 425°. Spoon half of cherry filling into unbaked pie shell. Bake at 425° for 15 minutes. For cream cheese layer, beat cream cheese, 1/2 cup sugar and vanilla extract in small bowl at medium speed of electric mixer until smooth. Beat in eggs until blended. Remove pie from oven. Spoon cream cheese mix- ture over cherries. Reduce oven temperature to 375°. Top with remaining cherry mixture. Return to oven for 20 minutes. Cool to room temperature. For topping, place spoonfuls of sour cream around edge of pie. Makes one 9-inch pie.",

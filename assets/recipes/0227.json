@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. butter or margarine"
+         "unit": "cup",
+         "name": "butter or margarine"
       },
       {
          "amount": 1,
-         "name": "can cream of mushroom soup (undiluted)"
+         "unit": "can",
+         "name": "cream of mushroom soup (undiluted)"
       },
       {
          "amount": 1,
-         "name": "can of cream of chicken soup (undiluted)"
+         "unit": "can",
+         "name": "of cream of chicken soup (undiluted)"
       },
       {
          "amount": 1,
@@ -21,15 +24,18 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. chopped pimentos"
+         "unit": "tbsp",
+         "name": "chopped pimentos"
       },
       {
          "amount": 2,
-         "name": "c. cubed chicken (or more)"
+         "unit": "cup",
+         "name": "cubed chicken (or more)"
       },
       {
          "amount": 4,
-         "name": "oz. spaghetti, cooked and drained"
+         "unit": "oz",
+         "name": "spaghetti, cooked and drained"
       },
       {
          "amount": 0,

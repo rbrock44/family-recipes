@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "pints fresh strawberries, washed and hulled"
+         "unit": "pt",
+         "name": "fresh strawberries, washed and hulled"
       },
       {
          "amount": 0.75,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2.5,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "Tbsp. lemon juice"
+         "unit": "tbsp",
+         "name": "lemon juice"
       },
       {
          "amount": 2,
-         "name": "Tbsp. butter or margarine"
+         "unit": "tbsp",
+         "name": "butter or margarine"
       },
       {
          "amount": 1,

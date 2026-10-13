@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. dark Karo syrup"
+         "unit": "cup",
+         "name": "dark Karo syrup"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. pecans"
+         "unit": "cup",
+         "name": "pecans"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 3,

@@ -17,11 +17,13 @@
       },
       {
          "amount": 2.5,
-         "name": "c. Coca-Cola"
+         "unit": "cup",
+         "name": "Coca-Cola"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       }
    ],
    "instructions": "Mix together cherry jello, lime jello and crushed pineapple. Put on stove and cook until boiling. Take off stove and add Coke and nuts to mixture. Stir in pan well; pour in bowl and refrigerate.",

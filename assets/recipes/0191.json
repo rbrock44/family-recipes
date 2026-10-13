@@ -21,43 +21,53 @@
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 8,
-         "name": "oz. Mostaccioli"
+         "unit": "oz",
+         "name": "Mostaccioli"
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. sugar"
+         "unit": "tsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. dried basil"
+         "unit": "tsp",
+         "name": "dried basil"
       },
       {
          "amount": 6,
-         "name": "oz. shredded Mozzarella cheese"
+         "unit": "oz",
+         "name": "shredded Mozzarella cheese"
       },
       {
          "amount": 0.5,
-         "name": "c. grated Parmesan cheese"
+         "unit": "cup",
+         "name": "grated Parmesan cheese"
       },
       {
          "amount": 2,
-         "name": "c. grated Parmesan cheese"
+         "unit": "cup",
+         "name": "grated Parmesan cheese"
       }
    ],
    "instructions": "Cook mostaccioli in large amount of boiling salted water for about 14 minutes. Set aside. In large saucepan, cook ground beef and onion until meat is browned. Drain off fat. Stir in undrained toma- toes, tomato sauce, tomato paste, undrained mushrooms, water, salt, sugar and basil. Bring to a boil. Cover and simmer for 10 minutes. Stir in mostaccioli and Mozzarella cheese. Place mixture into 3 quart casserole or 13 x 9 x 2 inch baking dish. Sprinkle with Parmesan cheese. Cover with foil Bake in 350° oven about 30 minutes. Let stand 5 minutes before serving.",

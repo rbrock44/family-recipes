@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "Tbsp. mustard"
+         "unit": "tbsp",
+         "name": "mustard"
       },
       {
          "amount": 2,
-         "name": "Tbsp. brown sugar"
+         "unit": "tbsp",
+         "name": "brown sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. catsup"
+         "unit": "cup",
+         "name": "catsup"
       }
    ],
    "instructions": "Mix ingredients in a small bowl or cup.",

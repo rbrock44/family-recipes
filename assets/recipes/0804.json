@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "qt. (40 oz.) grape juice"
+         "unit": "qt",
+         "name": "(40 oz.) grape juice"
       },
       {
          "amount": 5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.25,
-         "name": "tsp. yeast"
+         "unit": "tsp",
+         "name": "yeast"
       },
       {
          "amount": 0,

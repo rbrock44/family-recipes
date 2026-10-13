@@ -9,11 +9,13 @@
       },
       {
          "amount": 5,
-         "name": "sq. chocolate almond bark"
+         "unit": "square",
+         "name": "chocolate almond bark"
       },
       {
          "amount": 2,
-         "name": "sq. white almond bark"
+         "unit": "square",
+         "name": "white almond bark"
       }
    ],
    "instructions": "Melt almond bark in microwave until smooth. Stir in peanuts and spoon onto wax paper. Let set until firm.",

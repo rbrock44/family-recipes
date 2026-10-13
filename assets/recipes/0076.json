@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. beef Ramen noodles"
+         "unit": "pkg",
+         "name": "beef Ramen noodles"
       },
       {
          "amount": 1,
-         "name": "lb. shredded cabbage"
+         "unit": "lb",
+         "name": "shredded cabbage"
       },
       {
          "amount": 0.25,
@@ -17,7 +19,8 @@
       },
       {
          "amount": 0.25,
-         "name": "c. broccoli"
+         "unit": "cup",
+         "name": "broccoli"
       },
       {
          "amount": 0.25,
@@ -29,7 +32,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. Canola oil"
+         "unit": "cup",
+         "name": "Canola oil"
       },
       {
          "amount": 0,
@@ -41,7 +45,8 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. vinegar"
+         "unit": "tbsp",
+         "name": "vinegar"
       }
    ],
    "instructions": "Crumble Ramen noodles in large bowl. Add cabbage, red cab- bage, broccoli, seeds and green onions. Mix well. To make dressing combine oil, broth, sugar and vinegar in a shaker bottle. Shake to dissolve broth. Pour over vegetable mixture. If dry, may need more dressing",

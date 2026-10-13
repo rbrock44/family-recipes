@@ -13,31 +13,38 @@
       },
       {
          "amount": 0.75,
-         "name": "c. pecans, chopped"
+         "unit": "cup",
+         "name": "pecans, chopped"
       },
-	  {
+      {
          "amount": 1,
-         "name": "Tbsp. pimentos"
+         "unit": "tbsp",
+         "name": "pimentos"
       },
       {
          "amount": 2,
-         "name": "Tbsp. Worcestershire sauce"
+         "unit": "tbsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 1,
-         "name": "Tbsp. chopped onion"
+         "unit": "tbsp",
+         "name": "chopped onion"
       },
-	  {
+      {
          "amount": 1,
-         "name": "Tbsp. green pepper"
+         "unit": "tbsp",
+         "name": "green pepper"
       },
       {
          "amount": 0,
-         "name": "Dash cayenne pepper"
+         "unit": "dash",
+         "name": "cayenne pepper"
       },
       {
          "amount": 1,
-         "name": "Tbsp. lemon juice"
+         "unit": "tbsp",
+         "name": "lemon juice"
       }
    ],
    "instructions": "Combine cream cheese and Cheddar cheese. Mix well. Add all other ingredients except pecans and mix until well blended. Put the chopped nuts on wax paper, shape cheese mixture into a ball and roll in the nuts. Let chill for a few hours in refrigerator before serving.",

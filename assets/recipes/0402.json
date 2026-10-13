@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 3,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 1,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 2,
@@ -25,19 +27,23 @@
       },
       {
          "amount": 3,
-         "name": "C. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,

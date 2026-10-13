@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. melted butter or margarine"
+         "unit": "cup",
+         "name": "melted butter or margarine"
       },
       {
          "amount": 2,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       }
    ],
    "instructions": "Mix topping ingredients thoroughly and sprinkle evenly over potato mixture. Bake for 30 minutes.",

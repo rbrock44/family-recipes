@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "qt. milk"
+         "unit": "qt",
+         "name": "milk"
       },
       {
          "amount": 5,
@@ -21,7 +24,8 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 3,
@@ -29,11 +33,13 @@
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "lb. raisins"
+         "unit": "lb",
+         "name": "raisins"
       }
    ],
    "instructions": "Mix all ingredients together. Bake in baking dish that has been well greased. Bake at 325° for one hour.",

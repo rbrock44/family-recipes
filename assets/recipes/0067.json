@@ -5,43 +5,52 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. celery, cubed"
+         "unit": "cup",
+         "name": "celery, cubed"
       },
       {
          "amount": 2,
-         "name": "Tbsp. oleo"
+         "unit": "tbsp",
+         "name": "oleo"
       },
       {
          "amount": 3,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
-	  {
+      {
          "amount": 1,
-         "name": "can chicken broth"
+         "unit": "can",
+         "name": "chicken broth"
       },
       {
          "amount": 0.25,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
-	  {
+      {
          "amount": 0.5,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 4,
-         "name": "c. potatoes, cubed"
+         "unit": "cup",
+         "name": "potatoes, cubed"
       },
       {
          "amount": 0,
          "name": "Salt "
       },
-	  {
+      {
          "amount": 0.5,
-         "name": "c. carrots, shredded"
+         "unit": "cup",
+         "name": "carrots, shredded"
       },
       {
          "amount": 0,

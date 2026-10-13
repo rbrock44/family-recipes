@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 5,
-         "name": "lb. potatoes, boiled, cooled, peeled and cubed"
+         "unit": "lb",
+         "name": "potatoes, boiled, cooled, peeled and cubed"
       },
       {
          "amount": 1,
-         "name": "lb. Velveeta cheese, cubed"
+         "unit": "lb",
+         "name": "Velveeta cheese, cubed"
       },
       {
          "amount": 1,
@@ -21,7 +23,8 @@
       },
       {
          "amount": 1,
-         "name": "c. margarine"
+         "unit": "cup",
+         "name": "margarine"
       },
       {
          "amount": 0,

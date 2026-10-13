@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "pkg. hot dogs"
+         "unit": "pkg",
+         "name": "hot dogs"
       },
       {
          "amount": 32,
-         "name": "oz. ketchup"
+         "unit": "oz",
+         "name": "ketchup"
       },
       {
          "amount": 1,
-         "name": "box of brown sugar"
+         "unit": "box",
+         "name": "of brown sugar"
       },
       {
          "amount": 1,
-         "name": "can beer"
+         "unit": "can",
+         "name": "beer"
       }
    ],
    "instructions": "Cut each hot dog into four pieces. Boil all the hot dogs in the beer. When hot dogs are done, add ketchup and brown sugar. Bring to boil and cook on medium heat for 30 minutes until mixture is thick.",

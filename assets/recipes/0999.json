@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 5,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     },
     {
       "amount": 6,
-      "name": "tsp. baking powder"
+      "unit": "tsp",
+      "name": "baking powder"
     },
     {
       "amount": 2,
@@ -17,23 +19,28 @@
     },
     {
       "amount": 4,
-      "name": "Tbsp. sugar"
+      "unit": "tbsp",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 2,
-      "name": "c. buttermilk"
+      "unit": "cup",
+      "name": "buttermilk"
     },
     {
       "amount": 6,
-      "name": "Tbsp. melted shortening"
+      "unit": "tbsp",
+      "name": "melted shortening"
     },
     {
       "amount": 0.5,
-      "name": "tsp. soda"
+      "unit": "tsp",
+      "name": "soda"
     }
   ],
   "instructions": "(No instructions were written on this card - only the ingredient list was captured. The preparation/baking steps may be missing.)",

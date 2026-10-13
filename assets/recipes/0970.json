@@ -5,23 +5,28 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "cup crushed pineapple"
+      "unit": "cup",
+      "name": "crushed pineapple"
     },
     {
       "amount": 0.25,
-      "name": "cup sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "pkg. cherry jello"
+      "unit": "pkg",
+      "name": "cherry jello"
     },
     {
       "amount": 1,
-      "name": "tbsp. lemon juice"
+      "unit": "tbsp",
+      "name": "lemon juice"
     },
     {
       "amount": 1,
-      "name": "cup ground fresh cranberries (uncooked)"
+      "unit": "cup",
+      "name": "ground fresh cranberries (uncooked)"
     },
     {
       "amount": 1,
@@ -33,7 +38,8 @@
     },
     {
       "amount": 0.5,
-      "name": "cups chopped pecans"
+      "unit": "cup",
+      "name": "chopped pecans"
     }
   ],
   "instructions": "Drain pineapple but retain syrup. In saucepan combine jello, sugar & enough water added to pineapple juice to make 2 cups. Heat & stir until all ingredients are dissolved. Add lemon juice to jello mixture. Chill until almost set - then stir in fruit & nuts. Mix well & return to refrigerator until firm - overnight if possible.",

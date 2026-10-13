@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. (3 oz.) cream cheese, softened"
+         "unit": "pkg",
+         "name": "(3 oz.) cream cheese, softened"
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -21,11 +23,13 @@
       },
       {
          "amount": 1,
-         "name": "c. cold milk"
+         "unit": "cup",
+         "name": "cold milk"
       },
       {
          "amount": 2,
-         "name": "pkg. (3.4 oz.) instant vanilla pudding"
+         "unit": "pkg",
+         "name": "(3.4 oz.) instant vanilla pudding"
       },
       {
          "amount": 1,
@@ -33,15 +37,18 @@
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "tsp. ground ginger"
+         "unit": "tsp",
+         "name": "ground ginger"
       },
       {
          "amount": 0.25,
-         "name": "tsp. ground cloves"
+         "unit": "tsp",
+         "name": "ground cloves"
       }
    ],
    "instructions": "In a mixing bowl, beat cream cheese and sugar until smooth. Add Cool Whip and mix well. Spread into crust. In another bowl beat milk and pudding mixes on low speed until combined; beat on high for 2 minutes. Let stand 3 minutes. Stir in pumpkin and spices. Mix well. Spread over cream cheese layer. Chill.",

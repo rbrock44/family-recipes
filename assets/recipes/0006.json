@@ -1,4 +1,4 @@
- {
+{
    "name": "Sausage Snacks Italiano",
    "author": "Rick Schlosser",
    "category": 1,
@@ -9,13 +9,15 @@
       },
       {
          "amount": 0.25,
-         "name": "c. grated Parmesan cheese"
+         "unit": "cup",
+         "name": "grated Parmesan cheese"
       },
       {
          "amount": 1,
-         "name": "tsp. oregano"
+         "unit": "tsp",
+         "name": "oregano"
       },
-	  {
+      {
          "amount": 8,
          "name": "Brown 'N Serve sausage links"
       }

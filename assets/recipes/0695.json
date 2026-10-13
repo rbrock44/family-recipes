@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 3.5,
-         "name": "sticks of butter"
+         "unit": "stick",
+         "name": "of butter"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1.5,
-         "name": "tsp. lecithin"
+         "unit": "tsp",
+         "name": "lecithin"
       },
       {
          "amount": 1,
-         "name": "Tbsp. light corn syrup"
+         "unit": "tbsp",
+         "name": "light corn syrup"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. chopped nut meats"
+         "unit": "cup",
+         "name": "chopped nut meats"
       }
    ],
    "instructions": "In a 2 or 3 quart heavy saucepan, melt the butter or margarine over a low heat. Add the sugar and lecithin and stir constantly with a wooden spoon over a medium high heat, until mixture comes to a boil. Then add the corn syrup and continue to cook over a medium heat, stirring constantly to prevent burning in the bottom, until temperature reaches 295°. Remove from heat. To the cooked mixture, add salt and nut meats and gently mix in. Then pour into a well buttered shallow pan. Smooth out with a spatula or knife to a thickness of 1/4 inch. Before toffee sets and becomes firm, cut into rectangles using a knife. Toffee can also be left unscored and broken into irregular pieces after it sets. Toffee can be left uncovered or dipped in chocolate almond bark",

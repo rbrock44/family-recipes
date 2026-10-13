@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can refried beans"
+         "unit": "can",
+         "name": "refried beans"
       },
       {
          "amount": 1,
-         "name": "pkg. taco seasoning"
+         "unit": "pkg",
+         "name": "taco seasoning"
       },
       {
          "amount": 8,
-         "name": "oz. sour cream"
+         "unit": "oz",
+         "name": "sour cream"
       },
       {
          "amount": 0,
@@ -21,11 +24,13 @@
       },
       {
          "amount": 1,
-         "name": "c. salsa"
+         "unit": "cup",
+         "name": "salsa"
       },
       {
          "amount": 1,
-         "name": "c. Cheddar cheese, shredded"
+         "unit": "cup",
+         "name": "Cheddar cheese, shredded"
       }
    ],
    "instructions": "Spread refried beans on platter. Mix taco seasoning and sour cream. Spread on beans. Put jalepeno peppers on next layer, then salsa on next layer. Top with shredded cheese. Serve cold with corn chips or tortilla chips.",

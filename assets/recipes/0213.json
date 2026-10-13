@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 0.33,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. dry mustard"
+         "unit": "tsp",
+         "name": "dry mustard"
       },
       {
          "amount": 0.25,
-         "name": "tsp. allspice"
+         "unit": "tsp",
+         "name": "allspice"
       },
       {
          "amount": 1,
-         "name": "tsp. flour"
+         "unit": "tsp",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. lemon juice"
+         "unit": "cup",
+         "name": "lemon juice"
       },
       {
          "amount": 0,

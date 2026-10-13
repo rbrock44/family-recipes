@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "c. chicken broth"
+         "unit": "cup",
+         "name": "chicken broth"
       },
       {
          "amount": 0.25,
-         "name": "c. soy sauce"
+         "unit": "cup",
+         "name": "soy sauce"
       },
       {
          "amount": 2,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 1,
-         "name": "Tbsp. vegetable oil"
+         "unit": "tbsp",
+         "name": "vegetable oil"
       },
       {
          "amount": 2,
@@ -25,11 +29,13 @@
       },
       {
          "amount": 1.5,
-         "name": "c. sliced celery"
+         "unit": "cup",
+         "name": "sliced celery"
       },
       {
          "amount": 0.25,
-         "name": "lb. fresh snow pea pods"
+         "unit": "lb",
+         "name": "fresh snow pea pods"
       },
       {
          "amount": 4,
@@ -41,7 +47,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. slivered almonds, toasted"
+         "unit": "cup",
+         "name": "slivered almonds, toasted"
       }
    ],
    "instructions": "Combine broth, soy sauce, and cornstarch in a small bowl, set aside. Pour oil around top of a preheated nonstick wok or large skillet, coating sides. Heat at medium-high heat for 1 minute. Add chicken, cook, stirring constantly, for 4 minutes or until chicken is almost done. Add celery, pea pods, mushrooms and onions. Cook, stirring constantly, 3 to 4 minutes or until vegetables are tender and chicken is done. Stir in toasted almonds. Stir in broth mixture, cook, stirring constantly, until thickens and boils. Boil for 1 minute, stirring constantly. Serve over rice.",

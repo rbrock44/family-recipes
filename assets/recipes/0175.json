@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. pork sausage"
+         "unit": "cup",
+         "name": "pork sausage"
       },
       {
          "amount": 1,
@@ -17,11 +18,13 @@
       },
       {
          "amount": 1.5,
-         "name": "c. celery (chopped)"
+         "unit": "cup",
+         "name": "celery (chopped)"
       },
       {
          "amount": 3,
-         "name": "c. boiling water"
+         "unit": "cup",
+         "name": "boiling water"
       },
       {
          "amount": 2,
@@ -29,7 +32,8 @@
       },
       {
          "amount": 0.75,
-         "name": "c. raw minute rice"
+         "unit": "cup",
+         "name": "raw minute rice"
       }
    ],
    "instructions": "Saute meat, onion, peppers and celery. Place soup and rice in casserole dish and add meat mixture. Then pour boiling water over the top. Stir and cover with lid or foil. Bake 30 minutes at 375°.",

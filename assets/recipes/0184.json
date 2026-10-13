@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
-         "name": "tsp. vegetable oil"
+         "unit": "tsp",
+         "name": "vegetable oil"
       },
       {
          "amount": 1,
@@ -17,11 +19,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. parsley flakes"
+         "unit": "tsp",
+         "name": "parsley flakes"
       },
       {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
@@ -45,15 +49,18 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 0.5,
-         "name": "c. Parmesan cheese"
+         "unit": "cup",
+         "name": "Parmesan cheese"
       },
       {
          "amount": 4,
-         "name": "c. shredded Mozzarella cheese"
+         "unit": "cup",
+         "name": "shredded Mozzarella cheese"
       }
    ],
    "instructions": "Saute beef in oil until browned, stirring to crumble meat. Stir in garlic, parsley, 1 teaspoon salt, tomatoes and tomato paste. Simmer uncovered for 45 to 50 minutes or until thickened; set aside. Cook noodles according to package directions; drain. Combine cottage cheese, eggs, 1 teaspoon salt, pepper and Parmesan cheese; mix well. Layer 1/2 of noodles, cottage cheese mixture, Mozzarella and meat sauce in greased 13x9x2 inch baking dish. Repeat layers; bake at 375° for 30 minutes.",

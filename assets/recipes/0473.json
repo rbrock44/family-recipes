@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "sticks margarine"
+         "unit": "stick",
+         "name": "margarine"
       },
       {
          "amount": 4,
-         "name": "Tbsp. cocoa"
+         "unit": "tbsp",
+         "name": "cocoa"
       },
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "c. buttermilk"
+         "unit": "cup",
+         "name": "buttermilk"
       },
       {
          "amount": 2,
@@ -37,7 +44,8 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Mix together and bring to a boil the margarine, cocoa, and water. Mix together the flour, sugar, and baking soda. Add dry mixture to liquid mixture. Stir in the milk, eggs, and vanilla. Bake on large, greased, and floured cookie sheet in 350° oven for 20 minutes. ",

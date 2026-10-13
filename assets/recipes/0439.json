@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "pkg. (1 layer size) white cake mix"
+         "unit": "pkg",
+         "name": "(1 layer size) white cake mix"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
@@ -21,15 +23,18 @@
       },
       {
          "amount": 0.5,
-         "name": "c. flaked coconut"
+         "unit": "cup",
+         "name": "flaked coconut"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       },
       {
          "amount": 0.5,
-         "name": "c. butter or margarine, melted"
+         "unit": "cup",
+         "name": "butter or margarine, melted"
       }
    ],
    "instructions": "Spread pie filling in bottom of 9 x 9 x 2 inch baking dish. Com-bine cake mix, the water, and the egg. Using electric mixer, beat 4 minutes on medium speed. Pour over pie filling; sprinkle with coconut and pecans. Drizzle butter or margarine over top. Bake in moderate oven, 350°, for 40 minutes. Serve warm.",

@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 0.5,
-         "name": "c. beet juice"
+         "unit": "cup",
+         "name": "beet juice"
       },
       {
          "amount": 0.5,
-         "name": "tsp. italian dressing, dry mix"
+         "unit": "tsp",
+         "name": "italian dressing, dry mix"
       },
       {
          "amount": 12,
-         "name": "cans sliced beets or whole"
+         "unit": "can",
+         "name": "sliced beets or whole"
       }
    ],
    "instructions": "Drain beets. Heat to boiling, everything but beets. Remove from heat and add beets.",

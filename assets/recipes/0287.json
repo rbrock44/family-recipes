@@ -9,19 +9,23 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vegetable oil"
+         "unit": "tsp",
+         "name": "vegetable oil"
       },
       {
          "amount": 0.25,
-         "name": "tsp. onion powder"
+         "unit": "tsp",
+         "name": "onion powder"
       },
       {
          "amount": 0.25,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 0.25,
-         "name": "tsp. ground red pepper"
+         "unit": "tsp",
+         "name": "ground red pepper"
       },
       {
          "amount": 0.25,

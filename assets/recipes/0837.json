@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. all purpose flour, sifted"
+         "unit": "cup",
+         "name": "all purpose flour, sifted"
       },
       {
          "amount": 1,
@@ -13,15 +14,18 @@
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0,
@@ -32,7 +36,7 @@
          "name": "Vegetable of your choice"
       }
    ],
-   "instructions": "**This can be used for any vegetable, for example, green peppers, onoin rings, and mushroooms.\nCombine flour, egg, milk, baking powder and salt to make the batter. Beat until smooth. Cover and let stand at least 15 minutes before using. Dip your choice of vegetable into the batter. Let the sur- plus drain off. Deep fry at 350° until brown and crisp.This can be used for any vegetable, for example, green peppers, onion rings, and mushrooms.",
+   "instructions": "**This can be used for any vegetable, for example, green peppers, onion rings, and mushrooms.\nCombine flour, egg, milk, baking powder and salt to make the batter. Beat until smooth. Cover and let stand at least 15 minutes before using. Dip your choice of vegetable into the batter. Let the sur- plus drain off. Deep fry at 350° until brown and crisp.This can be used for any vegetable, for example, green peppers, onion rings, and mushrooms.",
    "yield": {
       "amount": 0,
       "name": ""

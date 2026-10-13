@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 0.33,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 0,
@@ -13,19 +14,23 @@
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 4,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
-         "name": "Tbsp. melted butter"
+         "unit": "tbsp",
+         "name": "melted butter"
       }
    ],
    "instructions": "Put dry ingredients into bowl. Cut in butter with pastry blender or fork. Add milk to moisten so dough is consistency of biscuits. Spread into greased 8 inch square pan. Drizzle with melted butter. Bake at 425° for 20 minutes. Serve with strawberries and whipped cream.",

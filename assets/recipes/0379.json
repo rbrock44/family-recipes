@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0,
@@ -17,35 +19,43 @@
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 0.75,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "Tbsp. corn syrup"
+         "unit": "tbsp",
+         "name": "corn syrup"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 2,
-         "name": "pkg. yeast"
+         "unit": "pkg",
+         "name": "yeast"
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,

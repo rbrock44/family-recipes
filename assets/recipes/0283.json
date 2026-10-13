@@ -9,23 +9,28 @@
       },
       {
          "amount": 4,
-         "name": "Tbsp. butter or margarine"
+         "unit": "tbsp",
+         "name": "butter or margarine"
       },
       {
          "amount": 1,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. consomme"
+         "unit": "cup",
+         "name": "consomme"
       },
       {
          "amount": 0.5,
-         "name": "c. sour cream"
+         "unit": "cup",
+         "name": "sour cream"
       },
       {
          "amount": 1,
-         "name": "tsp. Worcestershire sauce"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 2,
@@ -37,7 +42,8 @@
       },
       {
          "amount": 2,
-         "name": "c. ham, cut into thin strips"
+         "unit": "cup",
+         "name": "ham, cut into thin strips"
       },
       {
          "amount": 2,

@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "pkg. dry yeast"
+         "unit": "pkg",
+         "name": "dry yeast"
       },
       {
          "amount": 2,
-         "name": "Tbsp. oil"
+         "unit": "tbsp",
+         "name": "oil"
       },
       {
          "amount": 2,
-         "name": "c. lukewarm water*"
+         "unit": "cup",
+         "name": "lukewarm water*"
       },
       {
          "amount": 3,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       },
       {
          "amount": 7,

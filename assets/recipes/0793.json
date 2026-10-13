@@ -9,31 +9,38 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. lemon juice"
+         "unit": "tbsp",
+         "name": "lemon juice"
       },
       {
          "amount": 0.25,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 0.125,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 2,
-         "name": "Tbsp. banana liqueur"
+         "unit": "tbsp",
+         "name": "banana liqueur"
       },
       {
          "amount": 0.25,
-         "name": "c. white rum"
+         "unit": "cup",
+         "name": "white rum"
       },
       {
          "amount": 1,
-         "name": "pint vanilla ice cream"
+         "unit": "pt",
+         "name": "vanilla ice cream"
       }
    ],
    "instructions": "Slice bananas in half lengthwise. Brush with lemon juice. Melt sugar and butter in flat chafing dish or 10 inch skillet. Add bananas, saute until just tender. Sprinkle with cinnamon. Remove from heat; add liqueur and rum. Immediately ignite and baste bananas with warm liquid until flame burns out. Divide sauce and bananas over 4 servings of ice cream.",

@@ -9,7 +9,8 @@
       },
       {
          "amount": 3,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 0,
@@ -17,11 +18,13 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. milk"
+         "unit": "tbsp",
+         "name": "milk"
       },
       {
          "amount": 0.5,
-         "name": "c. cubed ham, heated in microwave"
+         "unit": "cup",
+         "name": "cubed ham, heated in microwave"
       },
       {
          "amount": 3,

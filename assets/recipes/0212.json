@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "lb. ground chuck"
+         "unit": "lb",
+         "name": "ground chuck"
       },
       {
          "amount": 0.33,
-         "name": "c. fine dry bread crumbs"
+         "unit": "cup",
+         "name": "fine dry bread crumbs"
       },
       {
          "amount": 1,
-         "name": "Tbsp. instant minced onions"
+         "unit": "tbsp",
+         "name": "instant minced onions"
       },
       {
          "amount": 0.25,
-         "name": "c. shredded raw carrots"
+         "unit": "cup",
+         "name": "shredded raw carrots"
       },
       {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.125,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 1,
-         "name": "c. evaporated milk"
+         "unit": "cup",
+         "name": "evaporated milk"
       }
    ],
    "instructions": "Place all ingredients in medium size mixing bowl. Mix well. Form into individual loaves and place in 8 4 x 6 4 x 2 inch baking dish. Bake in oven at 350° for 20 minutes. While loaves are baking, prepare sauce according to directions. After 20 minutes, spoon over loaves and bake 30 minutes longer.",

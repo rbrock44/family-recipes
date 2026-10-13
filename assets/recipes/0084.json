@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "Tbsp. lemon juice"
+         "unit": "tbsp",
+         "name": "lemon juice"
       },
       {
          "amount": 2,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. wine vinegar"
+         "unit": "tbsp",
+         "name": "wine vinegar"
       },
       {
          "amount": 0,
@@ -25,11 +27,13 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. Season-All"
+         "unit": "tsp",
+         "name": "Season-All"
       },
       {
          "amount": 0.25,
-         "name": "tsp. dry mustard"
+         "unit": "tsp",
+         "name": "dry mustard"
       },
       {
          "amount": 0,
@@ -37,26 +41,31 @@
       },
       {
          "amount": 0,
-         "name": "Dash garlic powder"
+         "unit": "dash",
+         "name": "garlic powder"
       },
       {
          "amount": 2,
-         "name": "tsp. Worcestershire sauce"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 0.5,
-         "name": "tsp. sugar"
+         "unit": "tsp",
+         "name": "sugar"
       },
       {
          "amount": 6,
-         "name": "Tbsp. olive oil"
+         "unit": "tbsp",
+         "name": "olive oil"
       },
       {
          "amount": 0.25,
-         "name": "c. Parmesan cheese"
+         "unit": "cup",
+         "name": "Parmesan cheese"
       }
    ],
-   "instructions": "To coddle egg, cook whole egg in hot but not boiling water for 2 minutes.\nWash romaine, remove outside leave. Break the tender leaves crosswise into pieces about 1 inch wide. Store in plastic bag in refriger- ator until ready to use. When ready to serve, place romaine in large wooden salad bowl. In a small mixing bowl, combine seasonings, lem- on juice, Worcestershire sauce, sugar, oil and vinegar. Mix thorough- ly. Break coddled egg over greens, then pour salad dressing over all and toss lightly. Sprinkle with cheese and croutons and toss again lightly. Serve immediately on chilled salad plates. Excellent with roast beef as well as steaks.",
+   "instructions": "To coddle egg, cook whole egg in hot but not boiling water for 2 minutes.\nWash romaine, remove outside leave. Break the tender leaves crosswise into pieces about 1 inch wide. Store in plastic bag in refriger- ator until ready to use. When ready to serve, place romaine in large wooden salad bowl. In a small mixing bowl, combine seasonings, lem- on juice, Worcestershire sauce, sugar, oil and vinegar. Mix thoroughly. Break coddled egg over greens, then pour salad dressing over all and toss lightly. Sprinkle with cheese and croutons and toss again lightly. Serve immediately on chilled salad plates. Excellent with roast beef as well as steaks.",
    "yield": {
       "amount": 4,
       "name": "(4 to 6) servings"

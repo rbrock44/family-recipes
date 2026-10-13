@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. whole wheat flour"
+         "unit": "cup",
+         "name": "whole wheat flour"
       },
       {
          "amount": 1,
-         "name": "c. white flour"
+         "unit": "cup",
+         "name": "white flour"
       },
       {
          "amount": 1,
-         "name": "c. bran"
+         "unit": "cup",
+         "name": "bran"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "Tbsp. granulated sugar"
+         "unit": "tbsp",
+         "name": "granulated sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. margarine"
+         "unit": "tbsp",
+         "name": "margarine"
       },
       {
          "amount": 1.5,
-         "name": "c. buttermilk"
+         "unit": "cup",
+         "name": "buttermilk"
       }
    ],
    "instructions": "Put all dry ingredients into bowl and mix. Rub in the margarine with fingertips. Make a well in the center and pour in the buttermilk. Mix well and knead lightly. Roll into a ball, using a little flour. \nPlace dough in a deep round floured 8 inch cake pan or iron skil- let (a loaf pan can be used). With a floured knife, make a deep cross across the top of the bread. Bake in 400° oven for 40 minutes. Remove the bread from the pan immediately and wrap in a towel. Stand it on its edge to cool.\nDelivious plain or toasted, with butter and orange marmalade.",

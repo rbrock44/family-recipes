@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "c. cooking oil"
+         "unit": "cup",
+         "name": "cooking oil"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "can pina colada"
+         "unit": "can",
+         "name": "pina colada"
       },
       {
          "amount": 1,
@@ -33,11 +39,13 @@
       },
       {
          "amount": 2,
-         "name": "c. diced bananas"
+         "unit": "cup",
+         "name": "diced bananas"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 3,
@@ -45,7 +53,8 @@
       },
       {
          "amount": 1.5,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Measure dry ingredients, dice bananas and cover with flour. Mix well with rest of dry ingredients. Add oil, nuts, vanilla, eggs, and pine- apple. Blend by hand. Bake at 350°. Serve warm with whipped topping or ice with your favorite frosting. This cake freezes very well.",

@@ -5,7 +5,8 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "box yellow cake mix (without pudding), baked as directed on package in 2 layers"
+      "unit": "box",
+      "name": "yellow cake mix (without pudding), baked as directed on package in 2 layers"
     },
     {
       "amount": 1,
@@ -21,7 +22,8 @@
     },
     {
       "amount": 2,
-      "name": "cans pie filling (your choice of fruit)"
+      "unit": "can",
+      "name": "pie filling (your choice of fruit)"
     },
     {
       "amount": 1,

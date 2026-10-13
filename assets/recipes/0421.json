@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. snipped dried sweet cherries or raisins"
+         "unit": "cup",
+         "name": "snipped dried sweet cherries or raisins"
       },
       {
          "amount": 2,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 3,
-         "name": "Tbsp. brown sugar"
+         "unit": "tbsp",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "c. butter or margarine"
+         "unit": "cup",
+         "name": "butter or margarine"
       },
       {
          "amount": 1,
-         "name": "tsp. finely shredded orange peel"
+         "unit": "tsp",
+         "name": "finely shredded orange peel"
       },
       {
          "amount": 1,

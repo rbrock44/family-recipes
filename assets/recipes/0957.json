@@ -25,19 +25,23 @@
     },
     {
       "amount": 0.75,
-      "name": "c. vinegar"
+      "unit": "cup",
+      "name": "vinegar"
     },
     {
       "amount": 1,
-      "name": "c. oil"
+      "unit": "cup",
+      "name": "oil"
     },
     {
       "amount": 1,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "bottle green goddess dressing"
+      "unit": "bottle",
+      "name": "green goddess dressing"
     }
   ],
   "instructions": "Mix together and chill overnight.",

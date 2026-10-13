@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. Mozzarella cheese, shredded"
+         "unit": "cup",
+         "name": "Mozzarella cheese, shredded"
       },
       {
          "amount": 0.5,
-         "name": "c. Parmesan cheese, grated"
+         "unit": "cup",
+         "name": "Parmesan cheese, grated"
       },
       {
          "amount": 4,
@@ -17,11 +19,13 @@
       },
       {
          "amount": 0,
-         "name": "dash of salt"
+         "unit": "dash",
+         "name": "of salt"
       },
       {
          "amount": 0.5,
-         "name": "stick butter"
+         "unit": "stick",
+         "name": "butter"
       },
       {
          "amount": 1,
@@ -29,20 +33,22 @@
       },
       {
          "amount": 1,
-         "name": "c. Mozzarella cheese"
+         "unit": "cup",
+         "name": "Mozzarella cheese"
       },
       {
          "amount": 1,
-         "name": "box manicotti, cooked as directed"
+         "unit": "box",
+         "name": "manicotti, cooked as directed"
       },
       {
          "amount": 1,
          "name": "(16 oz.) carton Ricotta"
       },
       {
-         "amount": 0.5
-		 ,
-         "name": "c. bread crumbs"
+         "amount": 0.5,
+         "unit": "cup",
+         "name": "bread crumbs"
       }
    ],
    "instructions": "Drain manicotti and place on foil in single layer. Mix next six ingredients together. Stuff pasta. Melt butter; add tomato sauce and garlic powder. Pour some sauce on bottom of baking dish. Add manicotti in single layer. Spoon remaining sauce over top. Sprinkle 1 cup Mozzarella cheese over sauce. Cover. Bake at 350° for 45 min- utes. Uncover during the last 15 minutes.",

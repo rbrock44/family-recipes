@@ -9,19 +9,23 @@
       },
       {
          "amount": 2,
-         "name": "c. grated, unpeeled zucchini"
+         "unit": "cup",
+         "name": "grated, unpeeled zucchini"
       },
       {
          "amount": 1,
-         "name": "c. raisins"
+         "unit": "cup",
+         "name": "raisins"
       },
       {
          "amount": 0.75,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 3,
@@ -29,35 +33,43 @@
       },
       {
          "amount": 1,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "cups sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. cinnamon"
+         "unit": "tbsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. salt (optional)"
+         "unit": "tsp",
+         "name": "salt (optional)"
       },
       {
          "amount": 1,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "In a large mixing bowl, combine flour, sugar, cinnamon, soda, baking powder, oil, vanilla and eggs. Beat at medium speed until well mixed. Stir in zucchini, raisins and nuts. Pour into greased 13x9x2 inch pan. Bake at 350° for 50 minutes.",

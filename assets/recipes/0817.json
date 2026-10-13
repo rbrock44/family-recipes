@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 3,
-         "name": "qt. water"
+         "unit": "qt",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "qt. ginger ale"
+         "unit": "qt",
+         "name": "ginger ale"
       },
       {
          "amount": 1,
-         "name": "can pineapple juice"
+         "unit": "can",
+         "name": "pineapple juice"
       },
       {
          "amount": 1,
-         "name": "qt. soda"
+         "unit": "qt",
+         "name": "soda"
       }
    ],
    "instructions": "Mix all ingredients. Chill and serve.",

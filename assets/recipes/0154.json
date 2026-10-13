@@ -1,15 +1,17 @@
 {
    "name": "Plenty for 20",
    "author": "Carla Graviett",
-   "category": 3                                  ,
+   "category": 3,
    "ingredients": [
       {
          "amount": 2,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
-         "name": "lb. sausage"
+         "unit": "lb",
+         "name": "sausage"
       },
       {
          "amount": 2,
@@ -21,15 +23,18 @@
       },
       {
          "amount": 1.5,
-         "name": "can green peas, drained"
+         "unit": "can",
+         "name": "green peas, drained"
       },
       {
          "amount": 1.5,
-         "name": "lb. Velveeta cheese"
+         "unit": "lb",
+         "name": "Velveeta cheese"
       },
       {
          "amount": 1.5,
-         "name": "can tomatoes, drained and diced up"
+         "unit": "can",
+         "name": "tomatoes, drained and diced up"
       },
       {
          "amount": 1,

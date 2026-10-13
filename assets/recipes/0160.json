@@ -9,27 +9,33 @@
       },
       {
          "amount": 1,
-         "name": "lb. lean ground beef"
+         "unit": "lb",
+         "name": "lean ground beef"
       },
       {
          "amount": 0.25,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 0.5,
-         "name": "c. green peppers"
+         "unit": "cup",
+         "name": "green peppers"
       },
       {
          "amount": 0.5,
-         "name": "c. bread crumbs"
+         "unit": "cup",
+         "name": "bread crumbs"
       },
       {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
-         "name": "tsp. oregano"
+         "unit": "tsp",
+         "name": "oregano"
       },
       {
          "amount": 1,
@@ -37,23 +43,28 @@
       },
       {
          "amount": 2,
-         "name": "c. grated Cheddar cheese"
+         "unit": "cup",
+         "name": "grated Cheddar cheese"
       },
       {
          "amount": 0.25,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.5,
-         "name": "tsp. dry mustard"
+         "unit": "tsp",
+         "name": "dry mustard"
       },
       {
          "amount": 0,
-         "name": "pinch of seasoning salt"
+         "unit": "pinch",
+         "name": "of seasoning salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. Worcestershire sauce"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 1,

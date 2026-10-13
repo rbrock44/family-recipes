@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. crescent roll dough"
+         "unit": "pkg",
+         "name": "crescent roll dough"
       },
       {
          "amount": 4,
@@ -13,15 +14,18 @@
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "lb. sausage, browned and drained"
+         "unit": "lb",
+         "name": "sausage, browned and drained"
       },
       {
          "amount": 2,
-         "name": "c. Mozzarella cheese"
+         "unit": "cup",
+         "name": "Mozzarella cheese"
       }
    ],
    "instructions": "Press rolls (dough) in bottom of greased 9 x 13 pan. Beat eggs and milk with fork. Add sausage. Pour over crescent rolls. Sprinkle grated cheese on top. Bake at 350° for 20 minutes.",

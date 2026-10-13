@@ -9,15 +9,17 @@
       },
       {
          "amount": 1,
-         "name": "can Hormel Chili with no beans"
+         "unit": "can",
+         "name": "Hormel Chili with no beans"
       },
       {
          "amount": 1,
          "name": "(8 oz.) pkg. shredded Monterey Jack and Colby cheese"
       },
-	  {
+      {
          "amount": 1,
-         "name": "can chopped green chilies (optional)"
+         "unit": "can",
+         "name": "chopped green chilies (optional)"
       },
       {
          "amount": 0,

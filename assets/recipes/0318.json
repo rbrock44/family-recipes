@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "Tbsp. milk"
+         "unit": "tbsp",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "c. cooked squash"
+         "unit": "cup",
+         "name": "cooked squash"
       },
       {
          "amount": 1,
@@ -17,27 +19,33 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 2,
-         "name": "Tbsp. chopped onion"
+         "unit": "tbsp",
+         "name": "chopped onion"
       },
       {
          "amount": 0.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       }
    ],
    "instructions": "Mix all ingredients together and drop by teaspoon in a little grease or oil, just enough oil in a skillet to brown on one side, then turn over and brown the other side.",

@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 3,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 1,
-         "name": "quart strawberries"
+         "unit": "qt",
+         "name": "strawberries"
       },
       {
          "amount": 1,

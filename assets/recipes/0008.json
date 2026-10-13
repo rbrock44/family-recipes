@@ -9,13 +9,14 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 1,
          "name": "12 oz. jar of apple jelly"
       },
-	  {
+      {
          "amount": 1,
          "name": "12 oz. jar of currant jelly"
       }

@@ -9,15 +9,18 @@
       },
       {
          "amount": 0.75,
-         "name": "cup sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "tbsp apple cider vinegar"
+         "unit": "tbsp",
+         "name": "apple cider vinegar"
       },
       {
          "amount": 2,
-         "name": "tbsp flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 1,
@@ -29,7 +32,8 @@
       },
       {
          "amount": 0.75,
-         "name": "cup dry roasted peanuts (light salted) finely crushed"
+         "unit": "cup",
+         "name": "dry roasted peanuts (light salted) finely crushed"
       },
       {
          "amount": 1,

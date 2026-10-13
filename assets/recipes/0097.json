@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "cans mandarin oranges"
+         "unit": "can",
+         "name": "mandarin oranges"
       },
       {
          "amount": 1,
-         "name": "can coconut"
+         "unit": "can",
+         "name": "coconut"
       },
       {
          "amount": 1,
@@ -17,19 +19,23 @@
       },
       {
          "amount": 1,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 0.5,
-         "name": "pkg. small marshmallows"
+         "unit": "pkg",
+         "name": "small marshmallows"
       },
       {
          "amount": 1,
-         "name": "can fruit cocktail"
+         "unit": "can",
+         "name": "fruit cocktail"
       },
       {
          "amount": 1,
-         "name": "can chunk pineapple"
+         "unit": "can",
+         "name": "chunk pineapple"
       }
    ],
    "instructions": "Drain the fruit cocktail, pineapple, and mandarin oranges. Add other ingredients and mix well. Serve chilled.",

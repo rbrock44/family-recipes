@@ -9,23 +9,28 @@
       },
       {
          "amount": 4,
-         "name": "c. whipping cream"
+         "unit": "cup",
+         "name": "whipping cream"
       },
       {
          "amount": 2.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. vanilla"
+         "unit": "tbsp",
+         "name": "vanilla"
       },
       {
          "amount": 5,
-         "name": "c. milk (approximately)"
+         "unit": "cup",
+         "name": "milk (approximately)"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "In a large mixing bowl, beat eggs until foamy. Slowly add sugar and beat until thickened. Add cream, vanilla and salt; mix well. Pour into can and add milk to fill line on can and stir well. Churn in freezer about 30 minutes.",

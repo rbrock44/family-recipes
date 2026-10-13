@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick margarine or butter"
+         "unit": "stick",
+         "name": "margarine or butter"
       },
       {
          "amount": 1,
-         "name": "lb. macaroni"
+         "unit": "lb",
+         "name": "macaroni"
       },
       {
          "amount": 6,

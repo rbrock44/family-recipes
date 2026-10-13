@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "c. butter or margarine, softened"
+         "unit": "cup",
+         "name": "butter or margarine, softened"
       },
       {
          "amount": 1,
-         "name": "pkg. (8 oz.) cream cheese, softened"
+         "unit": "pkg",
+         "name": "(8 oz.) cream cheese, softened"
       },
       {
          "amount": 4,
-         "name": "c. confectioners' sugar"
+         "unit": "cup",
+         "name": "confectioners' sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla extract"
+         "unit": "tsp",
+         "name": "vanilla extract"
       }
    ],
    "instructions": "Cream butter and cream cheese in a mixing bowl. Gradually add confectioners sugar and vanilla; beat well. Spread over bars, when cool.",

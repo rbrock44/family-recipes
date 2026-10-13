@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "gal. water"
+         "unit": "gal",
+         "name": "water"
       },
       {
          "amount": 0.75,
-         "name": "c. salt"
+         "unit": "cup",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. white vinegar"
+         "unit": "cup",
+         "name": "white vinegar"
       }
    ],
    "instructions": "Bring to a boil and set aside to cool. Pack shredded cabbage tight in jars. Pour liquid over cabbage, seal.",

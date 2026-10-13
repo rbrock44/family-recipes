@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1.66,
-         "name": "c. Hershey's vanilla milk chips"
+         "unit": "cup",
+         "name": "Hershey's vanilla milk chips"
       },
       {
          "amount": 0.25,
-         "name": "c. whipping cream"
+         "unit": "cup",
+         "name": "whipping cream"
       },
       {
          "amount": 1,

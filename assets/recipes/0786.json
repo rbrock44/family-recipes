@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "stick butter"
+         "unit": "stick",
+         "name": "butter"
       },
-	  {
+      {
          "amount": 1,
-         "name": "c. pecans, chopped fine"
+         "unit": "cup",
+         "name": "pecans, chopped fine"
       },
       {
          "amount": 8,
-         "name": "oz. cream cheese"
+         "unit": "oz",
+         "name": "cream cheese"
       },
       {
          "amount": 1,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
-         "name": "c. Cool Whip"
+         "unit": "cup",
+         "name": "Cool Whip"
       },
       {
          "amount": 2,
-         "name": "pkg. instant chocolate pudding"
+         "unit": "pkg",
+         "name": "instant chocolate pudding"
       },
       {
          "amount": 3,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "To make the crust, combine flour, butter and pecans. Press into the bottom of a 9 x 12 inch oblong pan. Bake for 15 minutes in a 350° oven. Cool. Top with a mixture of cream cheese, powdered sugar and Cool Whip. Next, stir milk, vanilla and pudding until thickened. Pour over the cream cheese layer. Let set until firm. Spread with remaining Cool Whip and top with pecans.",

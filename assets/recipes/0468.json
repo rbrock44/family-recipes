@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1.25,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -13,35 +14,43 @@
       },
       {
          "amount": 1,
-         "name": "c. sour milk or buttermilk"
+         "unit": "cup",
+         "name": "sour milk or buttermilk"
       },
       {
          "amount": 0.5,
-         "name": "c. butter or lard"
+         "unit": "cup",
+         "name": "butter or lard"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1.5,
-         "name": "tsp. cornstarch mixed with 1/2 c. flour"
+         "unit": "tsp",
+         "name": "cornstarch mixed with 1/2 c. flour"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.5,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 0.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "tsp. cloves"
+         "unit": "tsp",
+         "name": "cloves"
       }
    ],
    "instructions": "Cream butter and vanilla until light. Add beaten egg and mix well. Add milk, soda, nutmeg, cinnamon, cloves and flour. Bake in a moderate oven.",

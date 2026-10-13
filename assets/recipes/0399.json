@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "c. oleo"
+         "unit": "cup",
+         "name": "oleo"
       },
       {
          "amount": 1,
-         "name": "box raisins"
+         "unit": "box",
+         "name": "raisins"
       },
       {
          "amount": 2,
-         "name": "tsp. soda"
+         "unit": "tsp",
+         "name": "soda"
       },
       {
          "amount": 2,
@@ -21,27 +24,33 @@
       },
       {
          "amount": 2,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 2,
-         "name": "c. boiling water"
+         "unit": "cup",
+         "name": "boiling water"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 4,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       }
    ],
    "instructions": "Pour the boiling water over the raisins, oleo and soda. Cool. Add eggs, sugar, cinnamon, salt, nuts and flour. Bake in 3 pound coffee cans, that are greased good to the top. Bake for 1 hour at 350°.",

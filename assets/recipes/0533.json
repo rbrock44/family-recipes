@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "qt. strawberries (sliced)"
+         "unit": "qt",
+         "name": "strawberries (sliced)"
       },
       {
          "amount": 0.75,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0,

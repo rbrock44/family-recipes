@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. (8 oz.) cream cheese"
+         "unit": "pkg",
+         "name": "(8 oz.) cream cheese"
       },
       {
          "amount": 1,
-         "name": "can Chili with no beans"
+         "unit": "can",
+         "name": "Chili with no beans"
       },
       {
          "amount": 0,

@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "cans Pillsbury buttermilk biscuits"
+         "unit": "can",
+         "name": "Pillsbury buttermilk biscuits"
       },
       {
          "amount": 1,
-         "name": "Tbsp. cinnamon"
+         "unit": "tbsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. packed brown sugar"
+         "unit": "cup",
+         "name": "packed brown sugar"
       },
       {
          "amount": 0.5,
-         "name": "stick butter or margarine"
+         "unit": "stick",
+         "name": "butter or margarine"
       }
    ],
    "instructions": "Cut biscuits into fourths. Roll in sugar and cinnamon mixture. (I use plastic bag to shake them in.) Place in ungreased Bundt pan. Bring to a boil, the butter and brown sugar. Add a little water to make syrup. Add remains of sugar and cinnamon mixture to syrup. Pour syrup over biscuits. Bake at 350° for 40 to 45 minutes.\nNote: You might want to place a piece of foil over pan after 15 minutes so it does not burn. Let cool 10 minutes. Turn over on plate.\nGreat for breakfast while still warm. I have sprinkled nuts in pan along with biscuits.",

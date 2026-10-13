@@ -9,15 +9,18 @@
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 4,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       }
    ],
    "instructions": "Mix above ingredients together. Chill, then unroll cake and spread on filling. Reroll cake and keep refrigerated.",

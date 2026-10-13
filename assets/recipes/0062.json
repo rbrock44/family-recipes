@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "gal. cucumbers, ground"
+         "unit": "gal",
+         "name": "cucumbers, ground"
       },
       {
          "amount": 2,
@@ -13,11 +14,13 @@
       },
       {
          "amount": 5,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
-	  {
+      {
          "amount": 1,
-         "name": "Tbsp. mustard seed"
+         "unit": "tbsp",
+         "name": "mustard seed"
       },
       {
          "amount": 2,
@@ -27,21 +30,25 @@
          "amount": 8,
          "name": "medium onions, ground"
       },
-	  {
+      {
          "amount": 1,
-         "name": "Tbsp. turmeric powder"
+         "unit": "tbsp",
+         "name": "turmeric powder"
       },
       {
          "amount": 2,
-         "name": "tsp. celery seed"
+         "unit": "tsp",
+         "name": "celery seed"
       },
       {
          "amount": 4,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.25,
-         "name": "c. salt"
+         "unit": "cup",
+         "name": "salt"
       }
    ],
    "instructions": "",

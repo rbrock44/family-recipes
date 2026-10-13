@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. Worcestershire sauce"
+         "unit": "cup",
+         "name": "Worcestershire sauce"
       },
       {
-         "amount":0.25,
-         "name": "c. sugar"
+         "amount": 0.25,
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -17,11 +19,13 @@
       },
       {
          "amount": 2,
-         "name": "tsp. ginger root"
+         "unit": "tsp",
+         "name": "ginger root"
       },
       {
          "amount": 0.25,
-         "name": "c. sherry or white wine"
+         "unit": "cup",
+         "name": "sherry or white wine"
       },
       {
          "amount": 2,
@@ -29,7 +33,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. soy sauce"
+         "unit": "cup",
+         "name": "soy sauce"
       }
    ],
    "instructions": "Wash meat. Place in shallow baking dish. Pour marinade over steaks, refrigerate 2 or 3 hours. Turn occasionally. Drain, reserve marinade. Place in shallow baking dish. Broil 12 inches from broiler for 15 minutes.",

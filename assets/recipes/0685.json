@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. corn syrup, light or dark"
+         "unit": "cup",
+         "name": "corn syrup, light or dark"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.75,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 2,

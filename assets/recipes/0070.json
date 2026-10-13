@@ -5,39 +5,47 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "lb of peeled onions"
+         "unit": "lb",
+         "name": "of peeled onions"
       },
       {
          "amount": 0.5,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 3,
-         "name": "oz. butter or margarine"
-      },
-	  {
-         "amount": 1,
-         "name": "tsp. freshly ground pepper"
+         "unit": "oz",
+         "name": "butter or margarine"
       },
       {
          "amount": 1,
-         "name": "Tbsp. paprika"
+         "unit": "tsp",
+         "name": "freshly ground pepper"
+      },
+      {
+         "amount": 1,
+         "unit": "tbsp",
+         "name": "paprika"
       },
       {
          "amount": 1,
          "name": "bay leaf"
       },
-	  {
+      {
          "amount": 1,
-         "name": "c. white wine, optional"
+         "unit": "cup",
+         "name": "white wine, optional"
       },
       {
          "amount": 1.5,
-         "name": "qt. canned beef bouillon"
+         "unit": "qt",
+         "name": "canned beef bouillon"
       },
       {
          "amount": 1.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Slice onions 1/8-inch thick. Melt butter, place onions in it, saute slowly for 1 1/2 hours in a large soup pot. Add all other ingredients except bouillon, saute over low heat 10 minutes more. Add bouillon and simmer for 2 hours. Adjust color to a rich brown with caramel coloring or kitchen bouquet. Season with salt to taste. Put in refrigerator overnight. This recipe yields 2 quarts of finished soup.\nProper serving: Heat soup. Fill fireproof casserole or individual fireproof bowls with 8 ounces of soups, top with three 1/2-inch slice of French bread and top with 1 1/2 ounces imported Swiss cheese, place under broiler until brown, approximately 5 minutes at 550 degrees.",

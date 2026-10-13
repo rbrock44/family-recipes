@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. (4 serving size) Sugar Free JELL-O, any flavor"
+         "unit": "pkg",
+         "name": "(4 serving size) Sugar Free JELL-O, any flavor"
       },
       {
          "amount": 2,
-         "name": "c. boiling water"
+         "unit": "cup",
+         "name": "boiling water"
       },
       {
          "amount": 1,
-         "name": "c. cold whole milk Ice cubes"
+         "unit": "cup",
+         "name": "cold whole milk Ice cubes"
       },
       {
          "amount": 2,

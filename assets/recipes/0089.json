@@ -17,23 +17,28 @@
       },
       {
          "amount": 1,
-         "name": "lb. spinach"
+         "unit": "lb",
+         "name": "spinach"
       },
       {
          "amount": 0.5,
-         "name": "c. vegetable oil"
+         "unit": "cup",
+         "name": "vegetable oil"
       },
       {
          "amount": 0.25,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 0.33,
-         "name": "c. catsup"
+         "unit": "cup",
+         "name": "catsup"
       },
       {
          "amount": 0.66,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -41,7 +46,8 @@
       },
       {
          "amount": 0,
-         "name": "Dash of seasoned salt"
+         "unit": "dash",
+         "name": "of seasoned salt"
       }
    ],
    "instructions": "Mix together oil, vinegar, catsup, sugar, onion, and seasoned salt. Refrigerate overnight. Mix together bacon, eggs, nuts and spinach. Stir in dressing.",

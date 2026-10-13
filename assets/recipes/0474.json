@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick margarine"
+         "unit": "stick",
+         "name": "margarine"
       },
       {
          "amount": 4,
-         "name": "Tbsp. cocoa"
+         "unit": "tbsp",
+         "name": "cocoa"
       },
       {
          "amount": 6,
-         "name": "Tbsp. buttermilk"
+         "unit": "tbsp",
+         "name": "buttermilk"
       },
       {
          "amount": 3,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. pecans (optional)"
+         "unit": "cup",
+         "name": "pecans (optional)"
       }
    ],
    "instructions": "Mix together and bring to a boil the margarine, cocoa, and buttermilk. Stir in the powdered sugar, vanilla, and pecans. Pour over warm cake.",

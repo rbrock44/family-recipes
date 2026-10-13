@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "c. cubed cooked chicken"
+         "unit": "cup",
+         "name": "cubed cooked chicken"
       },
       {
          "amount": 1.5,
-         "name": "c. diced celery"
+         "unit": "cup",
+         "name": "diced celery"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 3,

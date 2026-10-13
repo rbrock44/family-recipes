@@ -13,9 +13,10 @@
       },
       {
          "amount": 1,
-         "name": "c. shredded lettuce"
+         "unit": "cup",
+         "name": "shredded lettuce"
       },
-	  {
+      {
          "amount": 1,
          "name": "(8 oz.) can tomato sauce"
       },
@@ -27,7 +28,7 @@
          "amount": 1,
          "name": "Salsa or picante sauce"
       },
-	  {
+      {
          "amount": 1,
          "name": "Tortilla chips"
       }

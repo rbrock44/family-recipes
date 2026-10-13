@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "lb. yellow squash"
+         "unit": "lb",
+         "name": "yellow squash"
       },
       {
          "amount": 2,
-         "name": "c. onions, chopped"
+         "unit": "cup",
+         "name": "onions, chopped"
       },
       {
          "amount": 0.25,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 12,
@@ -29,7 +33,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. cracker crumbs"
+         "unit": "cup",
+         "name": "cracker crumbs"
       },
       {
          "amount": 0,

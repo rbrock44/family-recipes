@@ -5,29 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. braunschweiger"
+         "unit": "lb",
+         "name": "braunschweiger"
       },
       {
          "amount": 2,
-         "name": "Tbsp. concentrated lemon juice"
+         "unit": "tbsp",
+         "name": "concentrated lemon juice"
       },
       {
          "amount": 3,
-         "name": "Tbsp. brown sugar"
-      }	  ,
-	  {
+         "unit": "tbsp",
+         "name": "brown sugar"
+      },
+      {
          "amount": 1,
          "name": "1 (8 oz.) cream cheese"
       },
       {
          "amount": 4,
-         "name": "Tbsp. Worcestershire sauce"
+         "unit": "tbsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 0,
          "name": "Onion salt"
       },
-	  {
+      {
          "amount": 0,
          "name": "Garlic salt"
       },

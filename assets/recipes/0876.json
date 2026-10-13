@@ -9,15 +9,18 @@
       },
       {
          "amount": 0.66,
-         "name": "cup butter (1.5 sticks)"
+         "unit": "cup",
+         "name": "butter (1.5 sticks)"
       },
       {
          "amount": 0.66,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 6,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 12,
@@ -25,7 +28,8 @@
       },
       {
          "amount": 1.25,
-         "name": "c. shredded cheese"
+         "unit": "cup",
+         "name": "shredded cheese"
       },
       {
          "amount": 1,

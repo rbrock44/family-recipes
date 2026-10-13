@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. margarine"
+         "unit": "cup",
+         "name": "margarine"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -17,11 +19,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. almond extract"
+         "unit": "tsp",
+         "name": "almond extract"
       },
       {
          "amount": 2.5,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       }
    ],
    "instructions": "In mixing bowl, beat margarine and sugar until fluffy. Add egg yolk and almond extract, beat well. Beat in flour. Force the unchilled dough through a cookie press onto the ungreased cookie sheet. Bake at 375° for 8 to 10 minutes or until edges are firm but not brown. Cool the baked cookies on wire racks.\n\nVariations:\nNutty Cookies: Stir 1/2 c. ground nuts with the flour, toast nuts before grinding.\nChocolate Cookies: Reduce flour to 2 1/4 cup, add an additional 1/4 cup sugar and 1/4 cup unsweetened cocoa powder. Add powder before flour.",

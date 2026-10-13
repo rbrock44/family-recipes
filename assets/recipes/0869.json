@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "stick butter, softened"
+         "unit": "stick",
+         "name": "butter, softened"
       }
    ],
    "instructions": "Mix together until crumbly. Sprinkle crumbs on top of apple mixture. Bake at 350° for 45 minutes.",

@@ -9,23 +9,28 @@
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.33,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.25,
-         "name": "c. melted butter or margarine"
+         "unit": "cup",
+         "name": "melted butter or margarine"
       },
       {
          "amount": 2,

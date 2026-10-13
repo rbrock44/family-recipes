@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.66,
-         "name": "c. cooking oil"
+         "unit": "cup",
+         "name": "cooking oil"
       },
       {
          "amount": 4,
-         "name": "Tbsp. milk"
+         "unit": "tbsp",
+         "name": "milk"
       }
    ],
    "instructions": "Mix all ingredients. Roll out between two pieces of wax paper or plastic wrap. This is enough for a double crust pie.",

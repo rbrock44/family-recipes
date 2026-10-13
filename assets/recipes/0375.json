@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. lukewarm water"
+         "unit": "cup",
+         "name": "lukewarm water"
       },
       {
          "amount": 2,
-         "name": "pkg. Red Star yeast"
+         "unit": "pkg",
+         "name": "Red Star yeast"
       },
       {
          "amount": 2,
@@ -17,23 +19,28 @@
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.66,
-         "name": "c. Wesson oil"
+         "unit": "cup",
+         "name": "Wesson oil"
       },
       {
          "amount": 2,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 2.5,
-         "name": "lb. flour or more"
+         "unit": "lb",
+         "name": "flour or more"
       },
       {
          "amount": 1.25,
-         "name": "stick margarine"
+         "unit": "stick",
+         "name": "margarine"
       },
       {
          "amount": 0,

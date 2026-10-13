@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "c. vegetable oil"
+         "unit": "cup",
+         "name": "vegetable oil"
       },
       {
          "amount": 1,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 0.25,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,

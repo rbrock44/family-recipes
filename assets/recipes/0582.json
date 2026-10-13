@@ -5,43 +5,53 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "c. butter, softened"
+         "unit": "cup",
+         "name": "butter, softened"
       },
       {
          "amount": 0.5,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1.66,
-         "name": "c. vanilla milk chips"
+         "unit": "cup",
+         "name": "vanilla milk chips"
       },
       {
          "amount": 0.25,
-         "name": "c. whipping cream"
+         "unit": "cup",
+         "name": "whipping cream"
       },
       {
          "amount": 8,
-         "name": "oz. pkg. cream cheese"
+         "unit": "oz",
+         "name": "pkg. cream cheese"
       },
       {
          "amount": 0.25,
-         "name": "C. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 0.5,
-         "name": "c. pineapple juice"
+         "unit": "cup",
+         "name": "pineapple juice"
       },
       {
          "amount": 0.5,
-         "name": "tsp. lemon juice"
+         "unit": "tsp",
+         "name": "lemon juice"
       },
       {
          "amount": 0,

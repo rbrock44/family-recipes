@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "c. cider vinegar"
+         "unit": "cup",
+         "name": "cider vinegar"
       },
       {
          "amount": 1,
-         "name": "tsp. turmeric"
+         "unit": "tsp",
+         "name": "turmeric"
       },
       {
          "amount": 2,
-         "name": "Tbsp. mustard seed"
+         "unit": "tbsp",
+         "name": "mustard seed"
       },
       {
          "amount": 4,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. celery seed"
+         "unit": "tsp",
+         "name": "celery seed"
       }
    ],
    "instructions": "Add the well drained cucumber and onions to the hot pickling solution. Heat to the scalding point, stirring to insure even cooking. Avoid over cooking pickles. Pack in clean, hot jars. Cover with the syrup and seal promptly. The turmeric gives the pickles the characteristic yellow color.",

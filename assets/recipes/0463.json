@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box confectioners sugar"
+         "unit": "box",
+         "name": "confectioners sugar"
       },
       {
          "amount": 1,
-         "name": "stick butter, softened"
+         "unit": "stick",
+         "name": "butter, softened"
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 0.5,
-         "name": "c. cocoa"
+         "unit": "cup",
+         "name": "cocoa"
       }
    ],
    "instructions": "Mix all ingredients together and spread on cake.",

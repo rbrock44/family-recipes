@@ -9,15 +9,18 @@
       },
       {
          "amount": 1,
-         "name": "pkg. Pillsbury yellow cake mix"
+         "unit": "pkg",
+         "name": "Pillsbury yellow cake mix"
       },
       {
          "amount": 0.5,
-         "name": "c. vegetable oil"
+         "unit": "cup",
+         "name": "vegetable oil"
       },
       {
          "amount": 1,
-         "name": "can mandarin oranges"
+         "unit": "can",
+         "name": "mandarin oranges"
       }
    ],
    "instructions": "Mix all together. Bake in a 350° oven for 20 to 25 minutes. Cool.",

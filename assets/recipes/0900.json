@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box yellow cake mix"
+         "unit": "box",
+         "name": "yellow cake mix"
       },
       {
          "amount": 1,
@@ -21,26 +22,31 @@
       },
       {
          "amount": 1.5,
-         "name": "cup sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "tsp salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "cup chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       },
       {
          "amount": 1,
-         "name": "cup melted butter"
+         "unit": "cup",
+         "name": "melted butter"
       }
    ],
-   "instructions": "Preheat oven to 350. Grease 13x9 baking dish.\nCombine pumpkin, evaporated milk, eggs, sugar, cinnamon and salt. Mix well and pour into your prepared dish. Sprinkle yeliow cake mix evenly over Pumpkin mixture. Top with chopped pecans. Drizzle butter over pecans. Bake 50-55 minutes",
+   "instructions": "Preheat oven to 350. Grease 13x9 baking dish.\nCombine pumpkin, evaporated milk, eggs, sugar, cinnamon and salt. Mix well and pour into your prepared dish. Sprinkle yellow cake mix evenly over Pumpkin mixture. Top with chopped pecans. Drizzle butter over pecans. Bake 50-55 minutes",
    "yield": {
       "amount": 0,
       "name": ""

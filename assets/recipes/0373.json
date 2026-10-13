@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "pkg. yeast"
+         "unit": "pkg",
+         "name": "yeast"
       },
       {
          "amount": 0.5,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 2,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 3,
@@ -33,15 +39,18 @@
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. shortening or oleo"
+         "unit": "cup",
+         "name": "shortening or oleo"
       },
       {
          "amount": 5,
-         "name": "c. flour (more or less to make soft dough)"
+         "unit": "cup",
+         "name": "flour (more or less to make soft dough)"
       },
       {
          "amount": 0,
@@ -49,7 +58,8 @@
       },
       {
          "amount": 4,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0,

@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. shortening"
-      },
-	  {
-         "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 1,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "brown sugar"
+      },
+      {
+         "amount": 1,
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 2,
@@ -21,39 +24,48 @@
       },
       {
          "amount": 2,
-         "name": "c. cornflakes"
+         "unit": "cup",
+         "name": "cornflakes"
       },
       {
          "amount": 2,
-         "name": "c. rolled oats"
+         "unit": "cup",
+         "name": "rolled oats"
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "c. coconut"
+         "unit": "cup",
+         "name": "coconut"
       },
       {
          "amount": 1,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Cream shortening with brown and white sugar. Continue creaming until light and fluffy. Add eggs and vanilla, beat well. Add cornflakes and oats. Sift flour, baking powder, salt, and soda. Add to mixture. Add coconut and nuts. Drop by teaspoon onto lightly greased baking sheets, placing cookies 2 inches apart. Bake in 375° oven about 10 minutes.",

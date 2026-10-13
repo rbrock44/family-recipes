@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "c. butter"
+      "unit": "cup",
+      "name": "butter"
     },
     {
       "amount": 1.25,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 2,
@@ -17,31 +19,38 @@
     },
     {
       "amount": 3,
-      "name": "c. flour (unsifted)"
+      "unit": "cup",
+      "name": "flour (unsifted)"
     },
     {
       "amount": 0.5,
-      "name": "tsp. soda"
+      "unit": "tsp",
+      "name": "soda"
     },
     {
       "amount": 1,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 2,
-      "name": "tsp. baking powder"
+      "unit": "tsp",
+      "name": "baking powder"
     },
     {
       "amount": 3,
-      "name": "T. milk"
+      "unit": "tbsp",
+      "name": "milk"
     },
     {
       "amount": 2,
-      "name": "c. powdered sugar (frosting)"
+      "unit": "cup",
+      "name": "powdered sugar (frosting)"
     },
     {
       "amount": 3,
-      "name": "T. butter, melted (frosting)"
+      "unit": "tbsp",
+      "name": "butter, melted (frosting)"
     },
     {
       "amount": 0,

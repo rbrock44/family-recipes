@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 2,
@@ -13,39 +14,48 @@
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.5,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "c. boiling water"
+         "unit": "cup",
+         "name": "boiling water"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.75,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.75,
-         "name": "c. cocoa"
+         "unit": "cup",
+         "name": "cocoa"
       }
    ],
    "instructions": "In large bowl of mixer, combine dry ingredients. Add eggs, milk, oil, and vanilla; beat at medium speed 2 minutes. Remove from mixer; stir in boiling water. (Batter will be thin). Pour into two greased and floured 9 inch round pans, three 8 inch round pans, or one 13 x 9 inch pan. Bake at 350° for 30 to 35 minutes for round pans, 35 to 40 min- utes for 13 x 9 inch pan, or until toothpick inserted in center comes out clean. Cool 10 minutes on rack. Remove from pans; cool completely. Frost cooled cake. Chocolate icing is great but peanut butter frosting is the best!!",

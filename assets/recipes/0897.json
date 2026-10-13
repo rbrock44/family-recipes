@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "cup firmly packed brown sugar"
+         "unit": "cup",
+         "name": "firmly packed brown sugar"
       },
       {
          "amount": 0.75,
-         "name": "cup quick-cooking oats"
+         "unit": "cup",
+         "name": "quick-cooking oats"
       },
       {
          "amount": 0.75,
-         "name": "cup chopped walnuts"
+         "unit": "cup",
+         "name": "chopped walnuts"
       },
       {
          "amount": 2,
-         "name": "tbsp all-purpose flour"
+         "unit": "tbsp",
+         "name": "all-purpose flour"
       },
       {
          "amount": 0.25,
-         "name": "tsp ground cinnamon"
+         "unit": "tsp",
+         "name": "ground cinnamon"
       },
       {
          "amount": 6,
-         "name": "tbsp butter, melted"
+         "unit": "tbsp",
+         "name": "butter, melted"
       }
    ],
    "instructions": "1. In a medium bowl, combine brown sugar, oats, walnuts, flour, and cinnamon. Add melted butter, stirring until combined",

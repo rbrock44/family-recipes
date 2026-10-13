@@ -9,11 +9,13 @@
       },
       {
          "amount": 16,
-         "name": "oz. frozen peas"
+         "unit": "oz",
+         "name": "frozen peas"
       },
       {
          "amount": 2,
-         "name": "c. cubed, cooked chicken"
+         "unit": "cup",
+         "name": "cubed, cooked chicken"
       },
       {
          "amount": 2,
@@ -25,7 +27,8 @@
       },
       {
          "amount": 0.75,
-         "name": "lb. small white onions"
+         "unit": "lb",
+         "name": "small white onions"
       },
       {
          "amount": 0,
@@ -33,7 +36,8 @@
       },
       {
          "amount": 1.75,
-         "name": "c. half-and-half"
+         "unit": "cup",
+         "name": "half-and-half"
       },
       {
          "amount": 0,

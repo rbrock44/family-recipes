@@ -5,6 +5,7 @@
   "ingredients": [
     {
       "name": "a",
+      "unit": "cup",
       "amount": 1
     },
     {

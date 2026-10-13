@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box graham crackers"
+         "unit": "box",
+         "name": "graham crackers"
       },
       {
          "amount": 1,
-         "name": "pkg cream cheese, softened"
+         "unit": "pkg",
+         "name": "cream cheese, softened"
       },
       {
          "amount": 0.5,
-         "name": "c. butter, softened"
+         "unit": "cup",
+         "name": "butter, softened"
       },
       {
          "amount": 2,
-         "name": "tbsp brown sugar"
+         "unit": "tbsp",
+         "name": "brown sugar"
       },
       {
          "amount": 0.25,
-         "name": "tsp vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.75,
-         "name": "cup chocolate chips"
+         "unit": "cup",
+         "name": "chocolate chips"
       },
       {
          "amount": 0.75,
-         "name": "cup powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 0.75,
-         "name": "cup chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       }
    ],
    "instructions": "Combine cream cheese, butter & vanilla. Add in sugars & choc chips. Form into a ball & refrigerate overnight. Roll in chopped pecans just before serving. Serve with graham crackers or gingersnaps.",

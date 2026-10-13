@@ -4,35 +4,43 @@
   "category": 8,
   "ingredients": [
     {
-      "name": "cup dark brown sugar",
+      "unit": "cup",
+      "name": "dark brown sugar",
       "amount": 0.25
     },
     {
-      "name": "tbsp coarse sea salt",
+      "unit": "tbsp",
+      "name": "coarse sea salt",
       "amount": 1
     },
     {
-      "name": "tsp cracked black pepper",
+      "unit": "tsp",
+      "name": "cracked black pepper",
       "amount": 2
     },
     {
-      "name": "tsp smoked paprika",
+      "unit": "tsp",
+      "name": "smoked paprika",
       "amount": 2
     },
     {
-      "name": "tsp garlic powder",
+      "unit": "tsp",
+      "name": "garlic powder",
       "amount": 2
     },
     {
-      "name": "tsp onion powder",
+      "unit": "tsp",
+      "name": "onion powder",
       "amount": 2
     },
     {
-      "name": "tsp ground mustard",
+      "unit": "tsp",
+      "name": "ground mustard",
       "amount": 1
     },
     {
-      "name": "tsp cayenne pepper",
+      "unit": "tsp",
+      "name": "cayenne pepper",
       "amount": 0.5
     }
   ],

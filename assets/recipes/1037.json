@@ -5,39 +5,48 @@
   "ingredients": [
     {
       "amount": 3,
-      "name": "T. invert sugar"
+      "unit": "tbsp",
+      "name": "invert sugar"
     },
     {
       "amount": 0.33,
-      "name": "c. chopped cherry & pineapple"
+      "unit": "cup",
+      "name": "chopped cherry & pineapple"
     },
     {
       "amount": 0.33,
-      "name": "c. nuts"
+      "unit": "cup",
+      "name": "nuts"
     },
     {
       "amount": 3,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 2,
-      "name": "T. clear syrup"
+      "unit": "tbsp",
+      "name": "clear syrup"
     },
     {
       "amount": 0,
-      "name": "dash salt"
+      "unit": "dash",
+      "name": "salt"
     },
     {
       "amount": 0.5,
-      "name": "c. water"
+      "unit": "cup",
+      "name": "water"
     },
     {
       "amount": 0.5,
-      "name": "t. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     },
     {
       "amount": 1,
-      "name": "c. plus 2 T. marshmallow cream"
+      "unit": "cup",
+      "name": "plus 2 T. marshmallow cream"
     }
   ],
   "instructions": "Boil 1, 2, 3, 2 or 3 min, drain, reserve liq. Combine liq, sugar, clear syrup, salt & water. Cover, bring to boil.\n\nCook to 250°. Stir until lukewarm & opaque. Add marshmallow cream, vanilla. Stir until creamy, add nuts & fruit.\n\nKnead into candy, form eggs, [illegible word] stand 2 hrs. Dip",

@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 4,
-      "name": "cups sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "can evaporated milk"
+      "unit": "can",
+      "name": "evaporated milk"
     },
     {
       "amount": 1,
-      "name": "stick butter"
+      "unit": "stick",
+      "name": "butter"
     },
     {
       "amount": 2,
@@ -21,7 +24,8 @@
     },
     {
       "amount": 1,
-      "name": "pt. marshmallow cream"
+      "unit": "pt",
+      "name": "marshmallow cream"
     },
     {
       "amount": 0,

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box yellow cake mix"
+         "unit": "box",
+         "name": "yellow cake mix"
       },
       {
          "amount": 1,
@@ -13,11 +14,13 @@
       },
       {
          "amount": 1,
-         "name": "pkg. vanilla instant pudding (small pkg.)"
+         "unit": "pkg",
+         "name": "vanilla instant pudding (small pkg.)"
       },
       {
          "amount": 2,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,

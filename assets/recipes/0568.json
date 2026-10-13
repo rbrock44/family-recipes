@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "stick butter, melted"
+         "unit": "stick",
+         "name": "butter, melted"
       },
       {
          "amount": 2,
-         "name": "c. graham cracker crumbs"
+         "unit": "cup",
+         "name": "graham cracker crumbs"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 1,
@@ -21,11 +24,13 @@
       },
       {
          "amount": 2,
-         "name": "cans sweetened condensed milk"
+         "unit": "can",
+         "name": "sweetened condensed milk"
       },
       {
          "amount": 2,
-         "name": "c. chocolate chips"
+         "unit": "cup",
+         "name": "chocolate chips"
       }
    ],
    "instructions": "Mix butter and crumbs until well coated. Pat into large cookie sheet. Top with coconut, chocolate chips and nuts. Then pour milk evenly over layers. Bake at 350° for 15 minutes or until mixture is bubbly.",

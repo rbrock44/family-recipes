@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box lasagna noodles 32 oz. spaghetti sauce"
+         "unit": "box",
+         "name": "lasagna noodles 32 oz. spaghetti sauce"
       },
       {
          "amount": 2,
@@ -13,11 +14,13 @@
       },
       {
          "amount": 1,
-         "name": "lb. hamburger, drained"
+         "unit": "lb",
+         "name": "hamburger, drained"
       },
       {
          "amount": 2,
-         "name": "oz. cottage cheese"
+         "unit": "oz",
+         "name": "cottage cheese"
       },
       {
          "amount": 1,

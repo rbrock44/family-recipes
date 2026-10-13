@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. sour cream"
+         "unit": "cup",
+         "name": "sour cream"
       },
       {
          "amount": 0.5,
-         "name": "c. mayonnaise"
+         "unit": "cup",
+         "name": "mayonnaise"
       },
       {
          "amount": 1.5,
@@ -25,7 +27,8 @@
       },
       {
          "amount": 0.5,
-         "name": "pkg. frozen peas (thawed and drained)"
+         "unit": "pkg",
+         "name": "frozen peas (thawed and drained)"
       },
       {
          "amount": 4,
@@ -33,7 +36,8 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar "
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 0,

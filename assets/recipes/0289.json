@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "pint sour cream"
+         "unit": "pt",
+         "name": "sour cream"
       },
       {
          "amount": 1,
-         "name": "can cream of chicken soup"
+         "unit": "can",
+         "name": "cream of chicken soup"
       },
       {
          "amount": 0,
@@ -21,15 +23,18 @@
       },
       {
          "amount": 2,
-         "name": "c. Cheddar cheese, grated"
+         "unit": "cup",
+         "name": "Cheddar cheese, grated"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped onions-fine"
+         "unit": "cup",
+         "name": "chopped onions-fine"
       },
       {
          "amount": 0.5,
-         "name": "stick oleo"
+         "unit": "stick",
+         "name": "oleo"
       }
    ],
    "instructions": "Boil potatoes, cool and grate. Melt butter, add sour cream, cheese, soup and onion. Add to grated potatoes and mix well. Pour into 9 x 13 inch baking dish that has been greased. Top with buttered crumbs if desired. Bake at 325° for 45 minutes.",

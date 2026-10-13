@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "lb. ground beef"
+      "unit": "lb",
+      "name": "ground beef"
     },
     {
       "amount": 0.75,
-      "name": "Tbsp. chili powder"
+      "unit": "tbsp",
+      "name": "chili powder"
     },
     {
       "amount": 1,
@@ -17,11 +19,13 @@
     },
     {
       "amount": 1,
-      "name": "can whole kernel corn"
+      "unit": "can",
+      "name": "whole kernel corn"
     },
     {
       "amount": 1,
-      "name": "can tomatoes"
+      "unit": "can",
+      "name": "tomatoes"
     },
     {
       "amount": 0,
@@ -29,23 +33,28 @@
     },
     {
       "amount": 0.5,
-      "name": "c. sifted flour"
+      "unit": "cup",
+      "name": "sifted flour"
     },
     {
       "amount": 2,
-      "name": "Tbsp. sugar"
+      "unit": "tbsp",
+      "name": "sugar"
     },
     {
       "amount": 0.5,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 2,
-      "name": "tsp. baking powder"
+      "unit": "tsp",
+      "name": "baking powder"
     },
     {
       "amount": 0.5,
-      "name": "c. yellow corn meal"
+      "unit": "cup",
+      "name": "yellow corn meal"
     },
     {
       "amount": 1,
@@ -53,11 +62,13 @@
     },
     {
       "amount": 0.5,
-      "name": "c. milk"
+      "unit": "cup",
+      "name": "milk"
     },
     {
       "amount": 2,
-      "name": "Tbsp. lard"
+      "unit": "tbsp",
+      "name": "lard"
     }
   ],
   "instructions": "1 lb ground beef browned with 1/2-1 Tbsp chili powder and 1 chopped onion.\nAdd 1 can whole kernel corn, 1 can tomatoes, and salt. Simmer 45 min.\n\nCover with 1/2 c sifted flour, 2 Tbsp sugar, 1/2 tsp salt, 2 tsp b. powder, 1/2 c yellow corn meal, 1 egg, 1/2 c milk, 2 Tbsp lard.\n\nPour batter over meat mixture. Bake 425 for 20-25 min. Invert to serve.",

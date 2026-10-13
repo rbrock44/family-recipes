@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 2.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1.25,
-         "name": "c. corn syrup"
+         "unit": "cup",
+         "name": "corn syrup"
       },
       {
          "amount": 1,
-         "name": "pkg. peanuts"
+         "unit": "pkg",
+         "name": "peanuts"
       },
       {
          "amount": 0.625,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 3.75,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       }
    ],
    "instructions": "Boil sugar, water and syrup for 2 or 3 minutes. Add peanuts and cook to hard crack stage (300°). Remove and add butter and soda. Pour out on buttered board and pull thin.",

@@ -9,15 +9,18 @@
       },
       {
          "amount": 4,
-         "name": "Tbsp. soy sauce"
+         "unit": "tbsp",
+         "name": "soy sauce"
       },
       {
          "amount": 3,
-         "name": "Tbsp. chicken broth"
+         "unit": "tbsp",
+         "name": "chicken broth"
       },
       {
          "amount": 1,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 1,
@@ -29,19 +32,23 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. sugar"
+         "unit": "tsp",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "tsp. MSG, optional"
+         "unit": "tsp",
+         "name": "MSG, optional"
       },
       {
          "amount": 0.75,
-         "name": "c. cashews"
+         "unit": "cup",
+         "name": "cashews"
       },
       {
          "amount": 0.33,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 1,

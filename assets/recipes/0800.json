@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can lime-aid"
+         "unit": "can",
+         "name": "lime-aid"
       },
       {
          "amount": 1,
-         "name": "can 7-Up"
+         "unit": "can",
+         "name": "7-Up"
       },
       {
          "amount": 1,
-         "name": "can rum, light"
+         "unit": "can",
+         "name": "rum, light"
       },
       {
          "amount": 1,
-         "name": "can water"
+         "unit": "can",
+         "name": "water"
       }
    ],
    "instructions": "Mix all ingredients. Serve over ice.",

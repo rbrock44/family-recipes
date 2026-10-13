@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1.25,
-         "name": "c. boiling water"
+         "unit": "cup",
+         "name": "boiling water"
       },
       {
          "amount": 1,
-         "name": "c. quick oats"
+         "unit": "cup",
+         "name": "quick oats"
       },
       {
          "amount": 2,
@@ -17,35 +19,43 @@
       },
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 0.5,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       }
    ],
    "instructions": "Pour boiling water over quick oats. Let stand for 20 minutes. Cream shortening, sugar, and brown sugar. Add eggs and beat. Add oats, flour, salt, baking powder, cinnamon and nuts. Bake in oblong pan for 35 minutes at 350°.",

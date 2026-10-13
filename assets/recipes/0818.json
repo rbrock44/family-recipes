@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2.5,
-         "name": "c. pineapple juice, chilled"
+         "unit": "cup",
+         "name": "pineapple juice, chilled"
       },
       {
          "amount": 1,
-         "name": "pt. lime, lemon or raspberry sherbet"
+         "unit": "pt",
+         "name": "lime, lemon or raspberry sherbet"
       },
       {
          "amount": 1,
-         "name": "pt. vanilla ice cream"
+         "unit": "pt",
+         "name": "vanilla ice cream"
       },
       {
          "amount": 1,

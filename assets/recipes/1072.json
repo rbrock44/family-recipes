@@ -7,13 +7,35 @@
       "amount": 1,
       "name": "14-ounce can artichoke hearts, drained and chopped"
     },
-    { "amount": 1, "name": "cup grated Parmesan cheese" },
-    { "amount": 1, "name": "cup mayonnaise" },
-    { "amount": 1, "name": "garlic clove, minced" },
-    { "amount": 1, "name": "green onion, chopped" },
-    { "amount": 2, "name": "tablespoons chopped tomatoes" }
+    {
+      "amount": 1,
+      "unit": "cup",
+      "name": "grated Parmesan cheese"
+    },
+    {
+      "amount": 1,
+      "unit": "cup",
+      "name": "mayonnaise"
+    },
+    {
+      "amount": 1,
+      "name": "garlic clove, minced"
+    },
+    {
+      "amount": 1,
+      "name": "green onion, chopped"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped tomatoes"
+    }
   ],
   "instructions": "Preheat oven to 350°. In a bowl, mix first five ingredients. Spoon into 9-inch pie plate. Bake 20 to 25 minutes or until hot and bubbly. Sprinkle with tomatoes. Serve with your favorite cracker or pita chips.",
-  "yield": { "amount": 10, "name": "servings", "upperAmount": 12 },
+  "yield": {
+    "amount": 10,
+    "name": "servings",
+    "upperAmount": 12
+  },
   "link": "https://raw.githubusercontent.com/rbrock44/family-recipes-images/master/recipes/1070.jpg"
 }

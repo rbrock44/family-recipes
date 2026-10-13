@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can Eagle Brand milk"
+         "unit": "can",
+         "name": "Eagle Brand milk"
       },
       {
          "amount": 1,
@@ -17,11 +18,13 @@
       },
       {
          "amount": 0.25,
-         "name": "c. lemon juice"
+         "unit": "cup",
+         "name": "lemon juice"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 2,

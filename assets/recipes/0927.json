@@ -9,19 +9,23 @@
     },
     {
       "amount": 0.25,
-      "name": "c. shortening"
+      "unit": "cup",
+      "name": "shortening"
     },
     {
       "amount": 1,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     },
     {
       "amount": 1,
-      "name": "tsp. soda, dissolved in 1 Tbsp. water"
+      "unit": "tsp",
+      "name": "soda, dissolved in 1 Tbsp. water"
     },
     {
       "amount": 1,
@@ -29,7 +33,8 @@
     },
     {
       "amount": 1,
-      "name": "tsp. cinnamon"
+      "unit": "tsp",
+      "name": "cinnamon"
     }
   ],
   "instructions": "Cream shortening and sugar, add apples, egg.\nAdd flour in 2 parts, add baking soda and cinn.\nBake 350 for 30 min.\n\nI double for a 9x13 pan (grease and flour)",

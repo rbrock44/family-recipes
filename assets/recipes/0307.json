@@ -9,7 +9,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. chopped onions"
+         "unit": "cup",
+         "name": "chopped onions"
       },
       {
          "amount": 1,
@@ -21,7 +22,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. sliced almonds, optional"
+         "unit": "cup",
+         "name": "sliced almonds, optional"
       },
       {
          "amount": 0,

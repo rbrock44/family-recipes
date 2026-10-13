@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 3,
-      "name": "oz. cream cheese"
+      "unit": "oz",
+      "name": "cream cheese"
     },
     {
       "amount": 1,
-      "name": "box powdered sugar"
+      "unit": "box",
+      "name": "powdered sugar"
     },
     {
       "amount": 0,
@@ -17,7 +19,8 @@
     },
     {
       "amount": 3.5,
-      "name": "T. milk, to work (3-4 T)"
+      "unit": "tbsp",
+      "name": "milk, to work (3-4 T)"
     }
   ],
   "instructions": "(No preparation steps were written on this card - only the ingredient list and yield.)",

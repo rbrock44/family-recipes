@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "pkg. yeast"
+         "unit": "pkg",
+         "name": "yeast"
       },
       {
          "amount": 0.25,
-         "name": "c. lukewarm water"
+         "unit": "cup",
+         "name": "lukewarm water"
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "tsp. nutmeg, if desired"
+         "unit": "tsp",
+         "name": "nutmeg, if desired"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 2,

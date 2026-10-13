@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "box yellow cake mix"
+      "unit": "box",
+      "name": "yellow cake mix"
     },
     {
       "amount": 0.75,
-      "name": "c. oil"
+      "unit": "cup",
+      "name": "oil"
     },
     {
       "amount": 3,
@@ -17,7 +19,8 @@
     },
     {
       "amount": 1,
-      "name": "can oranges (11 oz)"
+      "unit": "can",
+      "name": "oranges (11 oz)"
     }
   ],
   "instructions": "Mix together, add beaten egg whites. Pour into 3 greased and floured layer pans. Bake 350 for 35-40 min.\n\nICING: 1 can crushed pineapple, 1 box instant vanilla pudding, 1 large container of Cool-Whip. Blend and spread between layers. Store in refrigerator.",

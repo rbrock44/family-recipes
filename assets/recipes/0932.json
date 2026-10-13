@@ -5,19 +5,23 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "c. brown sugar"
+      "unit": "cup",
+      "name": "brown sugar"
     },
     {
       "amount": 1,
-      "name": "c. white sugar"
+      "unit": "cup",
+      "name": "white sugar"
     },
     {
       "amount": 1.33,
-      "name": "c. crisco"
+      "unit": "cup",
+      "name": "crisco"
     },
     {
       "amount": 2,
-      "name": "tsp. soda"
+      "unit": "tsp",
+      "name": "soda"
     },
     {
       "amount": 3,
@@ -25,19 +29,23 @@
     },
     {
       "amount": 4.5,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     },
     {
       "amount": 0.5,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     },
     {
       "amount": 1,
-      "name": "c. chopped nuts"
+      "unit": "cup",
+      "name": "chopped nuts"
     }
   ],
   "instructions": "Mix and roll in waxed paper, let stand overnight, then slice and bake",

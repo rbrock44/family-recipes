@@ -13,15 +13,18 @@
       },
       {
          "amount": 1,
-         "name": "tsp. parsley flakes"
+         "unit": "tsp",
+         "name": "parsley flakes"
       },
       {
          "amount": 1,
-         "name": "lb. bacon or ham, cooked and drained"
+         "unit": "lb",
+         "name": "bacon or ham, cooked and drained"
       },
       {
          "amount": 1,
-         "name": "c. mild Cheddar cheese, grated"
+         "unit": "cup",
+         "name": "mild Cheddar cheese, grated"
       }
    ],
    "instructions": "Mix together in 9 x 13 casserole dish and cover. Store in the refrigerator overnight. Bake at 350° for 30 minutes.",

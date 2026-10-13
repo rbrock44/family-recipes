@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "Tbsp. fat"
+         "unit": "tbsp",
+         "name": "fat"
       },
       {
          "amount": 2,
-         "name": "lb. round or chuck steak, 1 inch thick"
+         "unit": "lb",
+         "name": "round or chuck steak, 1 inch thick"
       },
       {
          "amount": 1,
@@ -21,11 +23,13 @@
       },
       {
          "amount": 0.33,
-         "name": "c. enriched flour"
+         "unit": "cup",
+         "name": "enriched flour"
       },
       {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
@@ -33,7 +37,8 @@
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       }
    ],
    "instructions": "Combine flour, salt, and pepper; pound into steak. Brown slowly on both sides in hot fat. Pour tomato sauce and pizza sauce over meat. Top with onion slices. Simmer uncovered 10 minutes. Cover and bake in moderate oven (350°) for 1 hour or a little longer, until the steak is fork-tender.",

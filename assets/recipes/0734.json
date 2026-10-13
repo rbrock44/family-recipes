@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. raisins"
+         "unit": "lb",
+         "name": "raisins"
       },
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 3,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 0.25,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0,

@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.25,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 0.25,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       }
    ],
    "instructions": "Mix well, put in small bowl. Roll drop doughnuts in glaze. Put on wax paper to drain and glaze to dry.",

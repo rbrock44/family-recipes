@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "c. light corn syrup"
+         "unit": "cup",
+         "name": "light corn syrup"
       },
       {
          "amount": 3,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.75,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 2,

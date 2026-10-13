@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can Ro-Tel tomatoes"
+         "unit": "can",
+         "name": "Ro-Tel tomatoes"
       },
       {
          "amount": 2,

@@ -21,35 +21,43 @@
       },
       {
          "amount": 2,
-         "name": "tbsp minced shallots"
+         "unit": "tbsp",
+         "name": "minced shallots"
       },
       {
          "amount": 2,
-         "name": "tsp salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp cayenne pepper"
+         "unit": "tsp",
+         "name": "cayenne pepper"
       },
       {
          "amount": 2,
-         "name": "tbsp sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 9,
-         "name": "tbsp olive oil"
+         "unit": "tbsp",
+         "name": "olive oil"
       },
       {
          "amount": 1,
-         "name": "tsp lime zest"
+         "unit": "tsp",
+         "name": "lime zest"
       },
       {
          "amount": 6,
-         "name": "Tbsp fresh lime juice"
+         "unit": "tbsp",
+         "name": "fresh lime juice"
       },
       {
          "amount": 0.5,
-         "name": "cup chopped fresh cilantro, plus more for garnish"
+         "unit": "cup",
+         "name": "chopped fresh cilantro, plus more for garnish"
       },
       {
          "amount": 2,

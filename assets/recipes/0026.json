@@ -5,17 +5,20 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 0.5,
-         "name": "tsp. dry mustard"
+         "unit": "tsp",
+         "name": "dry mustard"
       },
       {
          "amount": 0.25,
-         "name": "tsp. chili powder"
+         "unit": "tsp",
+         "name": "chili powder"
       },
-	  {
+      {
          "amount": 1,
          "name": "(8 oz.) can tomato sauce"
       },
@@ -25,9 +28,10 @@
       },
       {
          "amount": 1,
-         "name": "pkg. taco seasoning mix"
+         "unit": "pkg",
+         "name": "taco seasoning mix"
       },
-	  {
+      {
          "amount": 0.5,
          "name": "medium green pepper, finely chopped"
       },

@@ -9,7 +9,8 @@
       },
       {
          "amount": 2,
-         "name": "lb. round steak"
+         "unit": "lb",
+         "name": "round steak"
       },
       {
          "amount": 0,
@@ -25,15 +26,18 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. basil, ground"
+         "unit": "tsp",
+         "name": "basil, ground"
       },
       {
          "amount": 1,
-         "name": "tsp. Worcestershire sauce"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 0.75,
-         "name": "c. beer Onion"
+         "unit": "cup",
+         "name": "beer Onion"
       }
    ],
    "instructions": "Pound flour into steak, cut in pieces and brown in oil. Place in casserole. Using the pan that the meat was browned in, saute onion. Add tomatoes, seasoning, and beer. Bring mixture to a boil. Pour con- tents over meat and bake at 350° for 1 1/2 hours.",

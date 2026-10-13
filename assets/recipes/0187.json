@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
@@ -13,15 +14,18 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. whole basil"
+         "unit": "tbsp",
+         "name": "whole basil"
       },
       {
          "amount": 2.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "pint tomato juice or 1 lb. can of tomatoes"
+         "unit": "pt",
+         "name": "tomato juice or 1 lb. can of tomatoes"
       },
       {
          "amount": 2,
@@ -29,7 +33,8 @@
       },
       {
          "amount": 8,
-         "name": "oz. pkg. lasagna noodles"
+         "unit": "oz",
+         "name": "pkg. lasagna noodles"
       },
       {
          "amount": 2,
@@ -37,23 +42,28 @@
       },
       {
          "amount": 3,
-         "name": "c. cottage cheese"
+         "unit": "cup",
+         "name": "cottage cheese"
       },
       {
          "amount": 0.5,
-         "name": "c. Parmesan cheese"
+         "unit": "cup",
+         "name": "Parmesan cheese"
       },
       {
          "amount": 2,
-         "name": "Tbsp. parsley flakes"
+         "unit": "tbsp",
+         "name": "parsley flakes"
       },
       {
          "amount": 0.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 1,
-         "name": "lb. Mozzarella cheese"
+         "unit": "lb",
+         "name": "Mozzarella cheese"
       }
    ],
    "instructions": "Brown meat and drain fat. Add garlic, basil, 1 1/2 teaspoon salt, tomato juice and tomato paste. Prepare lasagna noodles and cook according to package directions. Drain and rinse. In a separate bowl mix together eggs, cottage cheese, Parmesan cheese, parsley, 1 tea- spoon salt, and pepper. Lay half noodles in 13 x 92 x 2 inch pan. Spread with half cottage cheese filling, half Mozzarella, and half meat mixture. Repeat. Bake at 375° for 30 minutes. Let stand 10-15 min- utes before cutting into squares. Can be made ahead and refrigerated. Bake for 45 minutes in that case.",

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. corn meal"
+         "unit": "cup",
+         "name": "corn meal"
       },
       {
          "amount": 2,
@@ -13,17 +14,19 @@
       },
       {
          "amount": 2,
-         "name": "c. buttermilk"
+         "unit": "cup",
+         "name": "buttermilk"
       },
       {
          "amount": 1,
-         "name": "tsp. soda"
+         "unit": "tsp",
+         "name": "soda"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
-      
    ],
    "instructions": "Mix all ingredients together and place in cornsticks or muffin pan. In 450° oven, bake for 10 to 15 minutes for corn sticks or muffins; 20 to 25 minutes for corn bread. Makes 12 muffins, corn sticks, or pieces.",
    "yield": {

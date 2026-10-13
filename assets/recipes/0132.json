@@ -13,11 +13,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. garlic salt"
+         "unit": "tsp",
+         "name": "garlic salt"
       },
       {
          "amount": 2,
-         "name": "Tbsp. Italian dressing"
+         "unit": "tbsp",
+         "name": "Italian dressing"
       },
       {
          "amount": 0,

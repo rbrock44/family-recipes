@@ -9,15 +9,18 @@
       },
       {
          "amount": 1,
-         "name": "stick butter, softened"
+         "unit": "stick",
+         "name": "butter, softened"
       },
       {
          "amount": 1,
-         "name": "box powdered sugar"
+         "unit": "box",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
-         "name": "box vanilla wafers, crushed"
+         "unit": "box",
+         "name": "vanilla wafers, crushed"
       }
    ],
    "instructions": "Mix all ingredients together. Chill dough for a little while. Then shape into balls and roll in coconut.",

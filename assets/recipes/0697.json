@@ -9,27 +9,33 @@
       },
       {
          "amount": 0.66,
-         "name": "c. quick cooking oats"
+         "unit": "cup",
+         "name": "quick cooking oats"
       },
       {
          "amount": 0.66,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 0.66,
-         "name": "c. coconut"
+         "unit": "cup",
+         "name": "coconut"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,

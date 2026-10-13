@@ -9,19 +9,23 @@
       },
       {
          "amount": 0.25,
-         "name": "tsp. cream of tartar"
+         "unit": "tsp",
+         "name": "cream of tartar"
       },
       {
          "amount": 0,
-         "name": "Dash salt"
+         "unit": "dash",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.25,
-         "name": "tsp. vanilla extract"
+         "unit": "tsp",
+         "name": "vanilla extract"
       },
       {
          "amount": 1,
@@ -29,15 +33,18 @@
       },
       {
          "amount": 0.25,
-         "name": "c. HERSHEY'S cocoa"
+         "unit": "cup",
+         "name": "HERSHEY'S cocoa"
       },
       {
          "amount": 1,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
-         "name": "c. frozen non-dairy whipped topping, thawed"
+         "unit": "cup",
+         "name": "frozen non-dairy whipped topping, thawed"
       },
       {
          "amount": 1,

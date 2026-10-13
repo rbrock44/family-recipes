@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. carrots, cut into 1/2 inch slices"
+         "unit": "lb",
+         "name": "carrots, cut into 1/2 inch slices"
       },
       {
          "amount": 2,
-         "name": "Tbsp. minced onions"
+         "unit": "tbsp",
+         "name": "minced onions"
       },
       {
          "amount": 0.5,
-         "name": "c. mayonnaise"
+         "unit": "cup",
+         "name": "mayonnaise"
       },
       {
          "amount": 0.33,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "Tbsp. prepared horseradish"
+         "unit": "tbsp",
+         "name": "prepared horseradish"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 0.5,
-         "name": "c. dry bread crumbs"
+         "unit": "cup",
+         "name": "dry bread crumbs"
       },
       {
          "amount": 2,
-         "name": "Tbsp. butter or margarine, melted"
+         "unit": "tbsp",
+         "name": "butter or margarine, melted"
       },
       {
          "amount": 0.5,
-         "name": "c. shredded Cheddar cheese"
+         "unit": "cup",
+         "name": "shredded Cheddar cheese"
       }
    ],
    "instructions": "On stovetop or microwave oven, cook carrots until tender. Place in a 1 quart baking dish; set aside. In a small bowl combine the next 5 ingredients; mix well. Pour over carrots. Combine bread crumbs and butter; sprinkle on top. Bake uncovered at 350° for 25 to 30 minutes. Sprinkle with cheese. Return to oven for 2 to 3 minutes or until cheese melts.",

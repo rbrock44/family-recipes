@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. pineapple juice "
+         "unit": "cup",
+         "name": "pineapple juice"
       },
       {
          "amount": 2,
@@ -13,19 +14,23 @@
       },
       {
          "amount": 3,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
-	  {
+      {
          "amount": 1,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 10,
-         "name": "c. Cool Whip"
+         "unit": "cup",
+         "name": "Cool Whip"
       },
       {
          "amount": 0.25,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       }
    ],
    "instructions": "Combine sugar and flour in saucepan. Add enough pineapple juice to make smooth paste. Slowly stir in rest of juice. Cook over medium heat until thick. Stir in remaining ingredients. Cook until thick. Cool. Fold in Cool Whip just before serving.",

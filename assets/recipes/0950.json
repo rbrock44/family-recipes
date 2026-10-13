@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 16,
-      "name": "oz. can cut wax beans, drained"
+      "unit": "oz",
+      "name": "can cut wax beans, drained"
     },
     {
       "amount": 16,
-      "name": "oz. can French style green beans, drained"
+      "unit": "oz",
+      "name": "can French style green beans, drained"
     },
     {
       "amount": 16,
-      "name": "oz. can red kidney beans, drained"
+      "unit": "oz",
+      "name": "can red kidney beans, drained"
     },
     {
       "amount": 1,
@@ -21,7 +24,8 @@
     },
     {
       "amount": 0.75,
-      "name": "cup Wish-Bone Italian Dressing"
+      "unit": "cup",
+      "name": "Wish-Bone Italian Dressing"
     }
   ],
   "instructions": "In medium bowl, toss together wax beans, green beans, kidney beans, onion and Wish-Bone Italian Dressing. Cover and refrigerate; marinate several hours, tossing occasionally.\nMakes 10 servings.",

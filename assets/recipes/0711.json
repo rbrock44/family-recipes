@@ -9,7 +9,8 @@
       },
       {
          "amount": 1,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
@@ -21,7 +22,8 @@
       },
       {
          "amount": 1,
-         "name": "can cherry or favorite pie filling"
+         "unit": "can",
+         "name": "cherry or favorite pie filling"
       }
    ],
    "instructions": "Cream sugar and cheese together. Fold in Cool Whip and stir well. Pour into cooled pie shells and top with pie filling. Chill.",

@@ -8,7 +8,8 @@
       "amount": 1
     },
     {
-      "name": "c. brown sugar, packed",
+      "unit": "cup",
+      "name": "brown sugar, packed",
       "amount": 0.5
     },
     {
@@ -20,7 +21,8 @@
       "amount": 6
     },
     {
-      "name": "oz. container frozen whipped topping, thawed",
+      "unit": "oz",
+      "name": "container frozen whipped topping, thawed",
       "amount": 8
     }
   ],

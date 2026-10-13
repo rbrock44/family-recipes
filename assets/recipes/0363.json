@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 5,
-         "name": "c. plain flour"
+         "unit": "cup",
+         "name": "plain flour"
       },
       {
          "amount": 1,
-         "name": "tsp. soda"
+         "unit": "tsp",
+         "name": "soda"
       },
       {
          "amount": 3,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 4,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 2,
-         "name": "c. buttermilk"
+         "unit": "cup",
+         "name": "buttermilk"
       },
       {
          "amount": 1,
-         "name": "pkg. dry yeast"
+         "unit": "pkg",
+         "name": "dry yeast"
       },
       {
          "amount": 4,
-         "name": "Tbsp. hot water"
+         "unit": "tbsp",
+         "name": "hot water"
       }
    ],
    "instructions": "Mix dry ingredients; cut in shortening. Add buttermilk and yeast that has been dissolved in hot water. Put in oiled bowl in refrigerator. You don't have to wait for rising. Roll out and cut with biscuit cutter. Bake at 425° for 10 minutes.\nNotes: These biscuits taste even better the second day. Use only the amount needed. Batter will keep up to a week in the refrigerator.",

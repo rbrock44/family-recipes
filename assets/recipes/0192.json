@@ -13,15 +13,18 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. oregano"
+         "unit": "tbsp",
+         "name": "oregano"
       },
       {
          "amount": 0.5,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0,
@@ -29,15 +32,18 @@
       },
       {
          "amount": 1,
-         "name": "lb. mostaccioli noodles"
+         "unit": "lb",
+         "name": "mostaccioli noodles"
       },
       {
          "amount": 0.5,
-         "name": "pkg. Chili-O mix"
+         "unit": "pkg",
+         "name": "Chili-O mix"
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
@@ -45,7 +51,8 @@
       },
       {
          "amount": 1,
-         "name": "can tomato soup"
+         "unit": "can",
+         "name": "tomato soup"
       }
    ],
    "instructions": "Prepare mostaccioli noodles as directed on package. Brown meat and onions in large skillet. Mix together sauce, soup, water,  oregano, and garlic powder. Add browned meat, onion, and chili mix. Simmer until thick. Pour over prepared noodles. Sprinkle with Parmesan cheese, if desired.",

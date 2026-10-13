@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. graham cracker crumbs"
+         "unit": "cup",
+         "name": "graham cracker crumbs"
       },
       {
          "amount": 0.5,
-         "name": "stick butter"
+         "unit": "stick",
+         "name": "butter"
       },
       {
          "amount": 3,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
@@ -21,7 +24,8 @@
       },
       {
          "amount": 1.5,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
@@ -29,7 +33,8 @@
       },
       {
          "amount": 1,
-         "name": "can cherry pie filling"
+         "unit": "can",
+         "name": "cherry pie filling"
       }
    ],
    "instructions": "Mix crumbs, butter and sugar together. Press into 9 inch square dish and bake until brown at 350°. Let cool. Mix remaining ingredients together and spread on the cooled crust. Top with 1 can of cherry pie filling. Refrigerate to chill.",

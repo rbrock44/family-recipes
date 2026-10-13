@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. regular instant tea"
+         "unit": "cup",
+         "name": "regular instant tea"
       },
       {
          "amount": 1,
-         "name": "c. Tang"
+         "unit": "cup",
+         "name": "Tang"
       },
       {
          "amount": 1,
@@ -17,15 +19,18 @@
       },
       {
          "amount": 2.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 2,
-         "name": "tsp. cloves"
+         "unit": "tsp",
+         "name": "cloves"
       }
    ],
    "instructions": "Mix well. Keep in a covered jar. Use 2 to 3 rounded teaspoons per cup of boiling water.",

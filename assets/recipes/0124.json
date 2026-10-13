@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "c. Wesson oil"
+         "unit": "cup",
+         "name": "Wesson oil"
       },
       {
          "amount": 0.5,
-         "name": "tsp. thyme"
+         "unit": "tsp",
+         "name": "thyme"
       },
       {
          "amount": 0.5,
-         "name": "c. red wine or wine vinegar"
+         "unit": "cup",
+         "name": "red wine or wine vinegar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. A1 steak sauce"
+         "unit": "tbsp",
+         "name": "A1 steak sauce"
       },
       {
          "amount": 0.5,
-         "name": "tsp. onion powder"
+         "unit": "tsp",
+         "name": "onion powder"
       },
       {
          "amount": 0.25,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 1,
-         "name": "tsp. sugar"
+         "unit": "tsp",
+         "name": "sugar"
       },
       {
          "amount": 0,

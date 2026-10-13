@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
-	  {
+      {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. peanuts"
+         "unit": "cup",
+         "name": "peanuts"
       },
       {
          "amount": 7.5,
-         "name": "qt. popped corn"
+         "unit": "qt",
+         "name": "popped corn"
       },
-	  {
+      {
          "amount": 2,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
-         "name": "c. margarine"
+         "unit": "cup",
+         "name": "margarine"
       },
       {
          "amount": 0.5,
-         "name": "c. light corn syrup"
+         "unit": "cup",
+         "name": "light corn syrup"
       }
    ],
    "instructions": "Combine brown sugar, margarine, corn syrup and salt in sauce pan and bring to boil. Boil 5 minutes. Remove from heat, beat baking soda in vigorously. Stir in nuts. Stir in nuts. Place popcorn in a large shallow pan, pour caramel mixture over popcorn. Mix until popcorn is coated evenly with mixture. Bake at 200° for 1 hour. Stir every 15 minutes. When cool, break up into smaller pieces.",

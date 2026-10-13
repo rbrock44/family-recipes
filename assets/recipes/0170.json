@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. beef cut in 1 inch cubes"
+         "unit": "lb",
+         "name": "beef cut in 1 inch cubes"
       },
       {
          "amount": 0,
@@ -13,19 +14,23 @@
       },
       {
          "amount": 1,
-         "name": "can beef broth"
+         "unit": "can",
+         "name": "beef broth"
       },
       {
          "amount": 1,
-         "name": "stick butter, melted"
+         "unit": "stick",
+         "name": "butter, melted"
       },
       {
          "amount": 1,
-         "name": "c. rice (not instant)"
+         "unit": "cup",
+         "name": "rice (not instant)"
       },
       {
          "amount": 2,
-         "name": "cans mushrooms"
+         "unit": "can",
+         "name": "mushrooms"
       },
       {
          "amount": 1,

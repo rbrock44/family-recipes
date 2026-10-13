@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 0.5,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 2,
@@ -29,39 +34,48 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. lemon extract"
+         "unit": "tsp",
+         "name": "lemon extract"
       },
       {
          "amount": 1,
-         "name": "tsp. ground nutmeg"
+         "unit": "tsp",
+         "name": "ground nutmeg"
       },
       {
          "amount": 3.5,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. cream of tartar"
+         "unit": "tsp",
+         "name": "cream of tartar"
       },
       {
          "amount": 0.75,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.75,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "c. buttermilk"
+         "unit": "cup",
+         "name": "buttermilk"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar, for top"
+         "unit": "cup",
+         "name": "sugar, for top"
       },
       {
          "amount": 0,

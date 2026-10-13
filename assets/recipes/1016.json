@@ -5,7 +5,8 @@
   "ingredients": [
     {
       "amount": 8,
-      "name": "oz. cream cheese"
+      "unit": "oz",
+      "name": "cream cheese"
     },
     {
       "amount": 1,
@@ -13,15 +14,18 @@
     },
     {
       "amount": 8,
-      "name": "oz. sour cream"
+      "unit": "oz",
+      "name": "sour cream"
     },
     {
       "amount": 1,
-      "name": "pkg. Ranch dressing"
+      "unit": "pkg",
+      "name": "Ranch dressing"
     },
     {
       "amount": 0,
-      "name": "dash of hot sauce"
+      "unit": "dash",
+      "name": "of hot sauce"
     }
   ],
   "instructions": "Spread, ref until use & cut in 1\" slices",

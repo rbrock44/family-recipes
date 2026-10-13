@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 8,
-      "name": "oz. cream cheese"
+      "unit": "oz",
+      "name": "cream cheese"
     },
     {
       "amount": 1,
-      "name": "jar taco sauce"
+      "unit": "jar",
+      "name": "taco sauce"
     },
     {
       "amount": 0,

@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 8,
-         "name": "lb. Mozzarella grated cheese"
+         "unit": "lb",
+         "name": "Mozzarella grated cheese"
       },
       {
          "amount": 15,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 22,
-         "name": "qt. tomato paste"
+         "unit": "qt",
+         "name": "tomato paste"
       },
       {
          "amount": 6,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0.66,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 4,
-         "name": "tsp. gallic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 2,
-         "name": "tsp. Italian seasoning or oregano"
+         "unit": "tsp",
+         "name": "Italian seasoning or oregano"
       }
    ],
    "instructions": "Brown ground beef. Mix all ingredients, except the cheese, together with meat. Spread on buns, top with cheese. Makes enough for 40, 5-inch buns or 36, 4-inch buns.",

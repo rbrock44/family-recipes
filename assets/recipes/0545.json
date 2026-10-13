@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "Tbsp. butter or margarine melted"
+         "unit": "tbsp",
+         "name": "butter or margarine melted"
       },
       {
          "amount": 2,
-         "name": "Tbsp. cocoa"
+         "unit": "tbsp",
+         "name": "cocoa"
       },
       {
          "amount": 1.5,
-         "name": "c. confectioners sugar"
+         "unit": "cup",
+         "name": "confectioners sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. milk"
+         "unit": "tbsp",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Add milk if necessary to make a soft spreading.",

@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 0.5,
-         "name": "stick melted oleo"
+         "unit": "stick",
+         "name": "melted oleo"
       }
    ],
    "instructions": "Mix and sprinkle over sweet potatoes. Bake again at 350° for 20 minutes.",

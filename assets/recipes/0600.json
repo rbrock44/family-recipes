@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. melted butter"
+         "unit": "cup",
+         "name": "melted butter"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 2,
-         "name": "sq. melted chocolate"
+         "unit": "square",
+         "name": "melted chocolate"
       },
       {
          "amount": 1,
@@ -25,27 +29,33 @@
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.5,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1.75,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.25,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "c. nuts or raisins"
+         "unit": "cup",
+         "name": "nuts or raisins"
       }
    ],
    "instructions": "Place butter, sugar and egg in bowl and beat until creamy. Add melted chocolate. Add dry ingredients, alternately with milk. Chill for a few minutes. Drop from a spoon on a greased cookie sheet. Bake 400° for 10 minutes or less.",

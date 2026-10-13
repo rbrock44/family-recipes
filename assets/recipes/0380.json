@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 4.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 2,
@@ -29,27 +34,33 @@
       },
       {
          "amount": 1.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.25,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 0.25,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 0.75,
-         "name": "c. coconut or chopped nuts"
+         "unit": "cup",
+         "name": "coconut or chopped nuts"
       },
       {
          "amount": 1.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       }
    ],
    "instructions": "Sift flour, sugar, baking powder and salt into bowl. Add butter, egg and milk. Beat hard for 2 minutes. Pour into large oblong pan that has been greased and floured. Sprinkle with mixture of 1/4 cup soft butter, 1/4 cup flour, brown sugar, coconut or chopped nuts, and cinnamon (Mix with pastry blender or fork). Bake at 350° for 35-45 minutes.",

@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. lard"
+         "unit": "cup",
+         "name": "lard"
       },
       {
          "amount": 1,
-         "name": "c. sour milk"
+         "unit": "cup",
+         "name": "sour milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0,

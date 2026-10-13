@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box Duncan Hines cake mix (buttery kind)"
+         "unit": "box",
+         "name": "Duncan Hines cake mix (buttery kind)"
       },
       {
          "amount": 4,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. Wesson oil (no other kind) 1 can mandarin oranges-juice and all"
+         "unit": "cup",
+         "name": "Wesson oil (no other kind) 1 can mandarin oranges-juice and all"
       }
    ],
    "instructions": "Blend cake mix, eggs, oil and oranges in mixer. Bake in 3 layers at 325° or until pick comes out dry. Completely cool.",

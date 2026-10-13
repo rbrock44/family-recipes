@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 12,
-         "name": "oz peppers, cleaned and seeds removed"
+         "unit": "oz",
+         "name": "peppers, cleaned and seeds removed"
       },
       {
          "amount": 2,
-         "name": "cups Cider Vinegar"
+         "unit": "cup",
+         "name": "Cider Vinegar"
       },
       {
          "amount": 6,
-         "name": "cups sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,

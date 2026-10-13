@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box Jiffy Banana Nut Muffin Mix"
+         "unit": "box",
+         "name": "Jiffy Banana Nut Muffin Mix"
       },
       {
          "amount": 2,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 1,
-         "name": "c. milk or water"
+         "unit": "cup",
+         "name": "milk or water"
       }
    ],
    "instructions": "Blend ingredients. If batter thickens, add additional tablespoon liquid. Bake on hot griddle or waffle iron. Turn pancakes when bubbles appear and edges begin to dry.",

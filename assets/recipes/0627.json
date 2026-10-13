@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "c. lard"
+         "unit": "cup",
+         "name": "lard"
       },
       {
          "amount": 1,
-         "name": "c. molasses"
+         "unit": "cup",
+         "name": "molasses"
       },
       {
          "amount": 2,
@@ -17,35 +19,43 @@
       },
       {
          "amount": 2.5,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 4,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.25,
-         "name": "tsp. cloves"
+         "unit": "tsp",
+         "name": "cloves"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.5,
-         "name": "tsp. lemon extract"
+         "unit": "tsp",
+         "name": "lemon extract"
       }
    ],
    "instructions": "Melt lard. Add molasses and eggs. Stir well. Sift flour with bak- ing powder, salt, soda, and spices. Add half the sifted dry ingredients and milk alternately beating well after each addition. Add flavoring. Drop by spoonful and bake at 375° for 8 to 10 minutes.",

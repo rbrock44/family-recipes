@@ -13,11 +13,13 @@
       },
       {
          "amount": 2,
-         "name": "c. grated Cheddar cheese"
+         "unit": "cup",
+         "name": "grated Cheddar cheese"
       },
       {
          "amount": 4,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 12,
@@ -25,7 +27,8 @@
       },
       {
          "amount": 2,
-         "name": "tsp. dry mustard"
+         "unit": "tsp",
+         "name": "dry mustard"
       }
    ],
    "instructions": "Mix eggs, milk, and mustard. Gently add other ingredients to the mixture. Salt and pepper to taste. Pour into a greased 9 x 13 inch cake pan. Refrigerate overnight. Bake at 350° for 45 minutes.",

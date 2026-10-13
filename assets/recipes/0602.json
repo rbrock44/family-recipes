@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. (6 oz.) semi-sweet pieces"
+         "unit": "cup",
+         "name": "(6 oz.) semi-sweet pieces"
       },
       {
          "amount": 0.5,
-         "name": "c. sweetened condensed milk"
+         "unit": "cup",
+         "name": "sweetened condensed milk"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,

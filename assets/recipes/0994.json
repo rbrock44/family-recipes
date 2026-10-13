@@ -5,31 +5,38 @@
   "ingredients": [
     {
       "amount": 2,
-      "name": "cups (12-oz. package) semisweet chocolate pieces"
+      "unit": "cup",
+      "name": "(12-oz. package) semisweet chocolate pieces"
     },
     {
       "amount": 3,
-      "name": "packages (4 oz. each) sweet cooking chocolate"
+      "unit": "pkg",
+      "name": "(4 oz. each) sweet cooking chocolate"
     },
     {
       "amount": 1,
-      "name": "jar (8 oz.) marshmallow cream"
+      "unit": "jar",
+      "name": "(8 oz.) marshmallow cream"
     },
     {
       "amount": 2,
-      "name": "cups broken walnuts"
+      "unit": "cup",
+      "name": "broken walnuts"
     },
     {
       "amount": 4.5,
-      "name": "cups sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 0,
-      "name": "pinch of salt"
+      "unit": "pinch",
+      "name": "of salt"
     },
     {
       "amount": 2,
-      "name": "tablespoons butter or margarine"
+      "unit": "tbsp",
+      "name": "butter or margarine"
     },
     {
       "amount": 1,

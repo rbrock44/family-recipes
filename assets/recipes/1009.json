@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "c. salt"
+      "unit": "cup",
+      "name": "salt"
     },
     {
       "amount": 0.5,
-      "name": "c. cornstarch"
+      "unit": "cup",
+      "name": "cornstarch"
     },
     {
       "amount": 0.75,
-      "name": "c. water"
+      "unit": "cup",
+      "name": "water"
     }
   ],
   "instructions": "Cook 2-3 min. When cool enough to handle, knead several min. Add food coloring before kneading",

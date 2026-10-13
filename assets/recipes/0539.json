@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
@@ -17,19 +19,23 @@
       },
       {
          "amount": 2,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 2,
-         "name": "c. crushed pineapple (use juice)"
+         "unit": "cup",
+         "name": "crushed pineapple (use juice)"
       },
       {
          "amount": 0,
-         "name": "Pinch of salt"
+         "unit": "pinch",
+         "name": "of salt"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Mix together. Pour in oblong cake pan. Bake at 350° for 40 to 50 minutes.",

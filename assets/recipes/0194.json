@@ -9,15 +9,18 @@
       },
       {
          "amount": 0.75,
-         "name": "c. Parmesan cheese"
+         "unit": "cup",
+         "name": "Parmesan cheese"
       },
       {
          "amount": 0.5,
-         "name": "c. butter or margarine"
+         "unit": "cup",
+         "name": "butter or margarine"
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,

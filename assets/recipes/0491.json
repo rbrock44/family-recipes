@@ -21,7 +21,8 @@
       },
       {
          "amount": 1,
-         "name": "can fruit, any kind"
+         "unit": "can",
+         "name": "fruit, any kind"
       },
       {
          "amount": 0,
@@ -37,7 +38,8 @@
       },
       {
          "amount": 1,
-         "name": "c. boiling water"
+         "unit": "cup",
+         "name": "boiling water"
       }
    ],
    "instructions": "Mix gelatin with boiling water. Let cool. In the meantime, soak pieces of cake in sherry in bottom of glass bowl. Spread cake with a layer of jam. Pour cooled gelatin on top of soaked cake. Chill. Drain the can of fruit and pour fruit on top of gelatin. Prepare instant pud- ding or custard, and pour over the fruit. Chill. Before serving, top with the whipped cream and cherries, strawberries, peaches or fruit of choice.",

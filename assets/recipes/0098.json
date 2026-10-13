@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "can mandarin oranges, drained"
+         "unit": "can",
+         "name": "mandarin oranges, drained"
       },
       {
          "amount": 1,
-         "name": "lb. cottage cheese (small curd)"
+         "unit": "lb",
+         "name": "cottage cheese (small curd)"
       },
       {
          "amount": 1,
@@ -25,7 +27,8 @@
       },
       {
          "amount": 1.5,
-         "name": "c. miniature marshmallows"
+         "unit": "cup",
+         "name": "miniature marshmallows"
       }
    ],
    "instructions": "Stir all ingredients together except JELL-O. Sprinkle JELL-O over fruit mixture and mix well. Refrigerate.",

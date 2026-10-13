@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick oleo"
+         "unit": "stick",
+         "name": "oleo"
       },
       {
          "amount": 8,
-         "name": "oz. grated Cheddar cheese"
+         "unit": "oz",
+         "name": "grated Cheddar cheese"
       },
       {
          "amount": 0.5,
-         "name": " c. Miracle Whip"
+         "unit": "cup",
+         "name": "Miracle Whip"
       },
-	  {
+      {
          "amount": 1,
-         "name": "Tbsp. minced onion"
+         "unit": "tbsp",
+         "name": "minced onion"
       },
       {
          "amount": 0.5,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. liquid smoke"
-      },
-	  {
-         "amount": 0.5,
-         "name": "tsp. Worcestershire sauce "
+         "unit": "tsp",
+         "name": "liquid smoke"
       },
       {
          "amount": 0.5,
-         "name": "Tbsp. chopped pimentos"
+         "unit": "tsp",
+         "name": "Worcestershire sauce"
+      },
+      {
+         "amount": 0.5,
+         "unit": "tbsp",
+         "name": "chopped pimentos"
       },
       {
          "amount": 0.75,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       }
    ],
    "instructions": "Take first 4 ingredients from refrigerator and soften at room temperature until they are soft enough to blend with mixer at stir speed. Add remaining ingredients until well mixed. Make a ball and sprinkle with paprika and chili powder or roll in chopped nuts.",

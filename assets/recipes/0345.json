@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 3,
-         "name": "pkg. dry Red Star yeast"
+         "unit": "pkg",
+         "name": "dry Red Star yeast"
       },
       {
          "amount": 0.5,
-         "name": "pkg. dry Red Star yeast"
+         "unit": "pkg",
+         "name": "dry Red Star yeast"
       },
       {
          "amount": 0.25,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "pkg. yeast"
+         "unit": "pkg",
+         "name": "yeast"
       }
    ],
    "instructions": "Mix yeast and sugar with water. Stir until dissolved. Add butter, salt and dry milk. Stir well. Then add flour, beating after each cup. When mixed, knead dough for 3 minutes. Divide dough into 3 parts. Shape into French style loaves and place on greased cookie sheets. Let rise until double in size. Bake at 350° for 30 minutes.\nGreat for spaghetti dinner or French style sandwiches.",

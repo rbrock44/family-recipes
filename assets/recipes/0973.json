@@ -9,39 +9,48 @@
     },
     {
       "amount": 0.5,
-      "name": "c. rice, cooked"
+      "unit": "cup",
+      "name": "rice, cooked"
     },
     {
       "amount": 0.25,
-      "name": "c. chopped pecans"
+      "unit": "cup",
+      "name": "chopped pecans"
     },
     {
       "amount": 0.25,
-      "name": "c. chopped green pepper"
+      "unit": "cup",
+      "name": "chopped green pepper"
     },
     {
       "amount": 0.25,
-      "name": "c. celery"
+      "unit": "cup",
+      "name": "celery"
     },
     {
       "amount": 1,
-      "name": "c. (4 oz.) cheddar cheese"
+      "unit": "cup",
+      "name": "(4 oz.) cheddar cheese"
     },
     {
       "amount": 0.25,
-      "name": "tsp. thyme"
+      "unit": "tsp",
+      "name": "thyme"
     },
     {
       "amount": 1,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 0.25,
-      "name": "tsp. pepper"
+      "unit": "tsp",
+      "name": "pepper"
     },
     {
       "amount": 2,
-      "name": "Tbsp. lard"
+      "unit": "tbsp",
+      "name": "lard"
     }
   ],
   "instructions": "Lightly brown chops in drippings filled with the stuffing. Sprinkle with salt and pepper. Place on rack in roasting pan, bake 350 for 30 min. Uncover and continue to cook for 30 more min.",

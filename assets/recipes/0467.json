@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box devil's food cake mix"
+         "unit": "box",
+         "name": "devil's food cake mix"
       },
       {
          "amount": 0.5,
-         "name": "c. coconut"
+         "unit": "cup",
+         "name": "coconut"
       },
       {
          "amount": 1,
@@ -17,11 +19,13 @@
       },
       {
          "amount": 0.5,
-         "name": "c. chocolate chips"
+         "unit": "cup",
+         "name": "chocolate chips"
       },
       {
          "amount": 0.5,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       }
    ],
    "instructions": "Prepare pudding as directed on the package. Blend cake mix into hot pudding. Pour in oblong 13 x 9 1/2 inch pan. Sprinkle with coconut, chocolate chips, and nuts. Bake at 350° for 30 to 35 minutes. Serve warm with whipped cream.",

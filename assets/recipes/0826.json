@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
@@ -13,15 +14,18 @@
       },
       {
          "amount": 0.5,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 0.25,
-         "name": "c. butter, softened"
+         "unit": "cup",
+         "name": "butter, softened"
       },
       {
          "amount": 1,
-         "name": "pkg. devil's food cake mix"
+         "unit": "pkg",
+         "name": "devil's food cake mix"
       },
       {
          "amount": 0,

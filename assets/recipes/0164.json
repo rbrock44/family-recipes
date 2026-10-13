@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. mayonnaise or salad dressing"
+         "unit": "cup",
+         "name": "mayonnaise or salad dressing"
       },
       {
          "amount": 2,
-         "name": "tsp. chili powder"
+         "unit": "tsp",
+         "name": "chili powder"
       },
       {
          "amount": 2,
-         "name": "c. crushed tortilla chips"
+         "unit": "cup",
+         "name": "crushed tortilla chips"
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
-         "name": "c. salsa"
+         "unit": "cup",
+         "name": "salsa"
       },
       {
          "amount": 1,
-         "name": "c. shredded Colby cheese"
+         "unit": "cup",
+         "name": "shredded Colby cheese"
       },
       {
          "amount": 1,
-         "name": "c. shredded Monterey Jack Cheese"
+         "unit": "cup",
+         "name": "shredded Monterey Jack Cheese"
       },
       {
          "amount": 1,
@@ -37,7 +44,8 @@
       },
       {
          "amount": 1,
-         "name": "c. shredded lettuce"
+         "unit": "cup",
+         "name": "shredded lettuce"
       }
    ],
    "instructions": "In a saucepan, brown ground beef; drain. Add salsa, mayonnaise and chili powder; mix well. In an ungreased 2 quart baking dish, layer half of the meat mixture, chips and cheeses. Repeat layers. Bake uncovered, at 350° for 20 to 25 minutes or until heated through. Just before serving, top with tomato and lettuce.",

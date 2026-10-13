@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.25,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 0.5,
-         "name": "c. pineapple juice"
+         "unit": "cup",
+         "name": "pineapple juice"
       },
       {
          "amount": 0.5,
-         "name": "tsp. lemon juice"
+         "unit": "tsp",
+         "name": "lemon juice"
       },
       {
          "amount": 0,

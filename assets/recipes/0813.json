@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "c. vanilla ice cream"
+         "unit": "cup",
+         "name": "vanilla ice cream"
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 2,
@@ -21,7 +23,8 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       }
    ],
    "instructions": "Place all ingredients in a blender. Cover and blend at low speed until combined. Then blend at high speed until foamy for 30 seconds.",

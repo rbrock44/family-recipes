@@ -9,7 +9,8 @@
       },
       {
          "amount": 1,
-         "name": "pkg. dry Hidden Valley Ranch Dressing"
+         "unit": "pkg",
+         "name": "dry Hidden Valley Ranch Dressing"
       },
       {
          "amount": 1,

@@ -9,7 +9,8 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 3,
@@ -17,11 +18,13 @@
       },
       {
          "amount": 0.75,
-         "name": "c. buttermilk"
+         "unit": "cup",
+         "name": "buttermilk"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla extract"
+         "unit": "tsp",
+         "name": "vanilla extract"
       },
       {
          "amount": 1,
@@ -29,31 +32,38 @@
       },
       {
          "amount": 1.5,
-         "name": "c. flaked coconut"
+         "unit": "cup",
+         "name": "flaked coconut"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 2,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 2,
-         "name": "tsp. ground cinnamon"
+         "unit": "tsp",
+         "name": "ground cinnamon"
       },
       {
          "amount": 0.75,
-         "name": "C. vegetable oil"
+         "unit": "cup",
+         "name": "vegetable oil"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "c. grated carrots"
+         "unit": "cup",
+         "name": "grated carrots"
       }
    ],
    "instructions": "Combine eggs, oil, buttermilk, sugar, and vanilla. Beat until smooth. Stir in flour mixture, pineapple, carrots, coconut, and chopped nuts. Pour batter into 2 greased and floured 9-inch round cake pans. Bake at 350° for 35 to 40 minutes or until a wooden pick inserted in center comes out clean. Cool in pan 15 minutes. Remove and let cool completely. Use Cream Cheese Frosting to frost cake.",

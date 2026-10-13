@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. beef Rice-A-Roni"
+         "unit": "pkg",
+         "name": "beef Rice-A-Roni"
       },
       {
          "amount": 1,
-         "name": "can spaghetti sauce"
+         "unit": "can",
+         "name": "spaghetti sauce"
       },
       {
          "amount": 0,

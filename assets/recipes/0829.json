@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. cocoa"
+         "unit": "cup",
+         "name": "cocoa"
       },
       {
          "amount": 2,
-         "name": "lb. 10x sugar"
+         "unit": "lb",
+         "name": "10x sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. homogenized milk"
+         "unit": "cup",
+         "name": "homogenized milk"
       },
       {
          "amount": 2,
-         "name": "sticks margarine"
+         "unit": "stick",
+         "name": "margarine"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.5,

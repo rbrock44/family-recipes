@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 2,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 9,

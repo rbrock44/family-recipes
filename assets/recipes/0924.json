@@ -10,19 +10,23 @@
     },
     {
       "amount": 1,
-      "name": "bottle Orville Redenbacher popping corn oil"
+      "unit": "bottle",
+      "name": "Orville Redenbacher popping corn oil"
     },
     {
       "amount": 1,
-      "name": "pkg. Hidden Valley Ranch dressing"
+      "unit": "pkg",
+      "name": "Hidden Valley Ranch dressing"
     },
     {
       "amount": 0.25,
-      "name": "tsp. onion salt or powder"
+      "unit": "tsp",
+      "name": "onion salt or powder"
     },
     {
       "amount": 0.25,
-      "name": "tsp. garlic salt or powder"
+      "unit": "tsp",
+      "name": "garlic salt or powder"
     }
   ],
   "yield": {

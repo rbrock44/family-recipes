@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. white vinegar"
+         "unit": "cup",
+         "name": "white vinegar"
       },
       {
          "amount": 0,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 1,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       }
    ],
    "instructions": "",

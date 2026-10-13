@@ -9,15 +9,18 @@
       },
       {
          "amount": 0.5,
-         "name": "stick butter"
+         "unit": "stick",
+         "name": "butter"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "box powdered sugar"
+         "unit": "box",
+         "name": "powdered sugar"
       }
    ],
    "instructions": "Beat with mixer and spread on cake.",

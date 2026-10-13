@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. butter or margarine"
+         "unit": "cup",
+         "name": "butter or margarine"
       },
       {
          "amount": 1,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 1.25,
-         "name": "c. flaked coconut"
+         "unit": "cup",
+         "name": "flaked coconut"
       },
       {
          "amount": 0.25,
-         "name": "c. packed brown sugar"
+         "unit": "cup",
+         "name": "packed brown sugar"
       },
       {
          "amount": 1,
-         "name": "c. slivered almonds"
+         "unit": "cup",
+         "name": "slivered almonds"
       },
       {
          "amount": 1,
@@ -29,11 +34,13 @@
       },
       {
          "amount": 2.66,
-         "name": "c. cold milk"
+         "unit": "cup",
+         "name": "cold milk"
       },
       {
          "amount": 2,
-         "name": "c. whipped topping"
+         "unit": "cup",
+         "name": "whipped topping"
       },
       {
          "amount": 0,

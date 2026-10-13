@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 2,
@@ -13,23 +14,28 @@
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       }
    ],
    "instructions": "Melt butter in small baking pan. Beat eggs slightly. Combine sugar, flour, soda and nuts. Stir into eggs and vanilla. Pour into but- tered pan. Do not stir. Bake at 350° for 20 minutes. Cut squares and dust with powdered sugar.",

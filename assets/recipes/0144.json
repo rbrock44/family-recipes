@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 2,
@@ -21,11 +24,13 @@
       },
       {
          "amount": 0.75,
-         "name": "c. oats"
+         "unit": "cup",
+         "name": "oats"
       },
       {
          "amount": 0.75,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0,

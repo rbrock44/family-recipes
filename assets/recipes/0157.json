@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 2,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
@@ -25,11 +27,13 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. chili powder"
+         "unit": "tbsp",
+         "name": "chili powder"
       },
       {
          "amount": 0.25,
-         "name": "tsp. dried oregano"
+         "unit": "tsp",
+         "name": "dried oregano"
       },
       {
          "amount": 1,
@@ -41,19 +45,23 @@
       },
       {
          "amount": 1,
-         "name": "c. shredded lettuce"
+         "unit": "cup",
+         "name": "shredded lettuce"
       },
       {
          "amount": 0.5,
-         "name": "c. medium tomatoes, chopped"
+         "unit": "cup",
+         "name": "medium tomatoes, chopped"
       },
       {
          "amount": 0.25,
-         "name": "c. sliced green onions"
+         "unit": "cup",
+         "name": "sliced green onions"
       },
       {
          "amount": 0.25,
-         "name": "c. shopped, ripe olives"
+         "unit": "cup",
+         "name": "shopped, ripe olives"
       },
       {
          "amount": 1,

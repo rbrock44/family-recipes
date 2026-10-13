@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. German chocolate cake"
+         "unit": "pkg",
+         "name": "German chocolate cake"
       },
       {
          "amount": 4,
@@ -13,11 +14,13 @@
       },
       {
          "amount": 1,
-         "name": "stick oleo"
+         "unit": "stick",
+         "name": "oleo"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 1,
@@ -25,7 +28,8 @@
       },
       {
          "amount": 1,
-         "name": "lb. powdered sugar"
+         "unit": "lb",
+         "name": "powdered sugar"
       }
    ],
    "instructions": "Mix cake mix, 2 eggs, oleo and nuts together and spread on a greased 9 x 13 inch pan (will be a stiff dough). Mix 2 eggs, vanilla, cream cheese, and powdered sugar together and spread on top of cake batter and bake at 350° for 30 to 35 minutes.",

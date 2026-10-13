@@ -1,7 +1,7 @@
 {
    "name": "Dutch-Style Beef and Cabbage",
    "author": "Brenda Schlosser Morrison",
-   "category": 3                                  ,
+   "category": 3,
    "ingredients": [
       {
          "amount": 1,
@@ -9,19 +9,23 @@
       },
       {
          "amount": 2,
-         "name": "Tbsp. all purpose flour"
+         "unit": "tbsp",
+         "name": "all purpose flour"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 2,
-         "name": "Tbsp. cooking oil"
+         "unit": "tbsp",
+         "name": "cooking oil"
       },
       {
          "amount": 3,
@@ -29,15 +33,18 @@
       },
       {
          "amount": 0.75,
-         "name": "c. hot water"
+         "unit": "cup",
+         "name": "hot water"
       },
       {
          "amount": 1,
-         "name": "Tbsp. vinegar"
+         "unit": "tbsp",
+         "name": "vinegar"
       },
       {
          "amount": 2,
-         "name": "tsp. instant beef bouillon granules"
+         "unit": "tsp",
+         "name": "instant beef bouillon granules"
       },
       {
          "amount": 1,

@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "T unsalted butter"
+      "unit": "tbsp",
+      "name": "unsalted butter"
     },
     {
       "amount": 0.67,
-      "name": "c chopped pecans"
+      "unit": "cup",
+      "name": "chopped pecans"
     },
     {
       "amount": 1,
@@ -17,19 +19,23 @@
     },
     {
       "amount": 1,
-      "name": "can Milnot (evaporated milk)"
+      "unit": "can",
+      "name": "Milnot (evaporated milk)"
     },
     {
       "amount": 0.75,
-      "name": "c sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "t vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     },
     {
       "amount": 3,
-      "name": "c whole milk"
+      "unit": "cup",
+      "name": "whole milk"
     }
   ],
   "instructions": "Stir unsalted butter and chopped pecans until brown (3 min).\n\nWhisk in French vanilla pudding mix and Milnot.\n\nBlend in sugar, vanilla, and whole milk.\n\nFreeze.",

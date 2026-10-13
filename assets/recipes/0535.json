@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. frozen strawberries"
+         "unit": "cup",
+         "name": "frozen strawberries"
       }
    ],
    "instructions": "Mix well and pour over hot cake.",

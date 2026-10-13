@@ -5,11 +5,13 @@
   "ingredients": [
     {
       "amount": 2,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     },
     {
       "amount": 2,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 4,
@@ -17,39 +19,48 @@
     },
     {
       "amount": 3,
-      "name": "c. grated carrots"
+      "unit": "cup",
+      "name": "grated carrots"
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     },
     {
       "amount": 1.5,
-      "name": "c. corn oil"
+      "unit": "cup",
+      "name": "corn oil"
     },
     {
       "amount": 2,
-      "name": "tsp. cinnamon"
+      "unit": "tsp",
+      "name": "cinnamon"
     },
     {
       "amount": 0.5,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "tsp. baking powder"
+      "unit": "tsp",
+      "name": "baking powder"
     },
     {
       "amount": 2,
-      "name": "tsp. baking soda"
+      "unit": "tsp",
+      "name": "baking soda"
     },
     {
       "amount": 1,
-      "name": "c. chopped pecans"
+      "unit": "cup",
+      "name": "chopped pecans"
     },
     {
       "amount": 1,
-      "name": "box powdered sugar"
+      "unit": "box",
+      "name": "powdered sugar"
     },
     {
       "amount": 1,
@@ -57,11 +68,13 @@
     },
     {
       "amount": 1,
-      "name": "stick margarine"
+      "unit": "stick",
+      "name": "margarine"
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     }
   ],
   "instructions": "Mix all dry ingredients. Add oil, eggs and vanilla and blend well. Bake in three nine inch pans at 350 for 30 min.\n\nFrosting: Blend well, add milk if necessary.",

@@ -5,39 +5,47 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. yellow corn meal"
+         "unit": "cup",
+         "name": "yellow corn meal"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
-	  {
+      {
          "amount": 1,
          "name": "egg"
       },
       {
          "amount": 2,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 3,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
-	  {
+      {
          "amount": 1,
-         "name": "tsp. onion salt"
+         "unit": "tsp",
+         "name": "onion salt"
       },
       {
          "amount": 2,
-         "name": "c. butter milk"
+         "unit": "cup",
+         "name": "butter milk"
       },
       {
          "amount": 3,
-         "name": "c. green onion"
+         "unit": "cup",
+         "name": "green onion"
       }
    ],
    "instructions": "Mix well, all ingredients. Drop onto cookie sheet using a tea- spoon and bake between 350° and 375° until done",

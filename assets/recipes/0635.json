@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box vanilla wafers, (1 lb. 6 oz.), crushed"
+         "unit": "box",
+         "name": "vanilla wafers, (1 lb. 6 oz.), crushed"
       },
       {
          "amount": 1,
-         "name": "can coconut, (1 lb. 6 oz.)"
+         "unit": "can",
+         "name": "coconut, (1 lb. 6 oz.)"
       },
       {
          "amount": 12,
-         "name": "oz. Florida frozen concentrated orange juice"
+         "unit": "oz",
+         "name": "Florida frozen concentrated orange juice"
       },
       {
          "amount": 0,

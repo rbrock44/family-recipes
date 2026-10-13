@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Cream powdered sugar, cream cheese and vanilla. Stir in Cool Whip. Unroll cake and fill with filling. Re-roll. Refrigerate until ready for use.",

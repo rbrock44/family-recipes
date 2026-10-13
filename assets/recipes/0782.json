@@ -17,7 +17,8 @@
       },
       {
          "amount": 1,
-         "name": "c. Cool Whip"
+         "unit": "cup",
+         "name": "Cool Whip"
       },
       {
          "amount": 0,

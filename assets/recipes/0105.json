@@ -1,7 +1,7 @@
 {
    "name": "Watergate Salad",
    "author": "Juanita Dannenmueller",
-   "category": 2                                  ,
+   "category": 2,
    "ingredients": [
       {
          "amount": 1,
@@ -9,7 +9,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 1,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. small marshmallows, more if desired"
+         "unit": "cup",
+         "name": "small marshmallows, more if desired"
       }
    ],
    "instructions": "Mix all together. Don't drain pineapples. Don't make up pudding. Put in refrigerator.",

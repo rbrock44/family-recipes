@@ -5,31 +5,38 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "cup cut-up dried apricots"
+      "unit": "cup",
+      "name": "cut-up dried apricots"
     },
     {
       "amount": 0.25,
-      "name": "cup hot water"
+      "unit": "cup",
+      "name": "hot water"
     },
     {
       "amount": 1.75,
-      "name": "cups + 2 tbsp. Robin Hood All-Purpose Flour"
+      "unit": "cup",
+      "name": "+ 2 tbsp. Robin Hood All-Purpose Flour"
     },
     {
       "amount": 1,
-      "name": "cup sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 2,
-      "name": "tsp. baking powder"
+      "unit": "tsp",
+      "name": "baking powder"
     },
     {
       "amount": 1,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 0.5,
-      "name": "tsp. soda"
+      "unit": "tsp",
+      "name": "soda"
     },
     {
       "amount": 2,
@@ -37,15 +44,18 @@
     },
     {
       "amount": 0.5,
-      "name": "cup orange juice"
+      "unit": "cup",
+      "name": "orange juice"
     },
     {
       "amount": 2,
-      "name": "tbsp. melted butter"
+      "unit": "tbsp",
+      "name": "melted butter"
     },
     {
       "amount": 0.5,
-      "name": "cup chopped nuts"
+      "unit": "cup",
+      "name": "chopped nuts"
     }
   ],
   "instructions": "Soak apricots in hot water for 30 minutes before preparing batter.\nSpoon flour (not sifted) into dry measuring cup. Level off and pour measured flour into mixing bowl.\nAdd sugar, baking powder, salt and soda to flour (not sifted) and stir well to blend.\nCombine well-beaten eggs, orange juice and melted butter. Add liquid ingredients to blended dry ingredients. Stir until blended.\nFold in apricots and nuts.\nSpread in greased 9x5x3-inch loaf pan.\nBake at 325° for 60-65 minutes. Remove from pan immediately.\nCool on rack.",

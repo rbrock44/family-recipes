@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. finely chopped cooked chicken"
+         "unit": "cup",
+         "name": "finely chopped cooked chicken"
       },
       {
          "amount": 1,
-         "name": "tsp. lemon juice"
+         "unit": "tsp",
+         "name": "lemon juice"
       },
       {
          "amount": 3,
-         "name": "Tbsp. mayonnaise (not Miracle Whip)"
+         "unit": "tbsp",
+         "name": "mayonnaise (not Miracle Whip)"
       },
       {
          "amount": 0.5,
-         "name": "c. finely chopped celery"
+         "unit": "cup",
+         "name": "finely chopped celery"
       },
       {
          "amount": 3,
-         "name": "c. crushed pineapple, well drained"
+         "unit": "cup",
+         "name": "crushed pineapple, well drained"
       },
       {
          "amount": 0.5,
-         "name": "c. finely chopped apple"
+         "unit": "cup",
+         "name": "finely chopped apple"
       },
       {
          "amount": 1.5,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 0.125,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp. onion powder"
+         "unit": "tsp",
+         "name": "onion powder"
       }
    ],
    "instructions": "Combine first four ingredients, mix well. Add remaining ingredients and refrigerate.",

@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 0.25,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 0.25,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "tbl vanilla"
+         "unit": "tbsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Heat all ingredients until sugar desolves - DO NOT BOIL",

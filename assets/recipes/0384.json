@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. finely chopped apples"
+         "unit": "cup",
+         "name": "finely chopped apples"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "c. raisins, ground"
+         "unit": "cup",
+         "name": "raisins, ground"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       }
    ],
    "instructions": "Mix all ingredients and let boil for one minute. Let cool.",

@@ -9,15 +9,18 @@
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 3,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "bag miniature marshmallows"
+         "unit": "bag",
+         "name": "miniature marshmallows"
       }
    ],
    "instructions": "Stir in sugar. Pour into casserole. Mash potatoes with butter. dish. Sprinkle on marshmallows. Bake in oven until marshmallows are melted and brown.",

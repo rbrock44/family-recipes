@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2.25,
-         "name": "C. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1.5,
-         "name": "tsp. allspice"
+         "unit": "tsp",
+         "name": "allspice"
       },
       {
          "amount": 0.75,
-         "name": "c. oleo or Crisco"
+         "unit": "cup",
+         "name": "oleo or Crisco"
       },
       {
          "amount": 3,
@@ -21,39 +24,48 @@
       },
       {
          "amount": 1.5,
-         "name": "c. applesauce"
+         "unit": "cup",
+         "name": "applesauce"
       },
       {
          "amount": 1,
-         "name": "c. raisins"
+         "unit": "cup",
+         "name": "raisins"
       },
       {
          "amount": 1,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 3,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1.5,
-         "name": "tsp. cloves"
+         "unit": "tsp",
+         "name": "cloves"
       },
       {
          "amount": 2,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 3,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 0.5,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Mix together sugar, shortening and vanilla. Beat in eggs. Add applesauce. Add flour, spices, baking soda and salt. Mix in nuts and raisins. Grease and flour an angel food cake pan. Pour batter into pan and bake for 1 hour at 350°.",

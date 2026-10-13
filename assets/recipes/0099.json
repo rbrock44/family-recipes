@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. miniature marshmallows"
+         "unit": "cup",
+         "name": "miniature marshmallows"
       },
       {
          "amount": 0.5,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 1,
-         "name": "can pears"
+         "unit": "can",
+         "name": "pears"
       },
       {
          "amount": 1,
-         "name": "c. pear juice"
+         "unit": "cup",
+         "name": "pear juice"
       },
       {
          "amount": 1,
-         "name": "pkg. lime jello"
+         "unit": "pkg",
+         "name": "lime jello"
       },
       {
          "amount": 1,
-         "name": "pkg. (8 oz.) cream cheese"
+         "unit": "pkg",
+         "name": "(8 oz.) cream cheese"
       },
       {
          "amount": 1,

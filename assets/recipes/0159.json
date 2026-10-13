@@ -9,31 +9,38 @@
       },
       {
          "amount": 0.75,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
-         "name": "c. frozen mixed vegetables"
+         "unit": "cup",
+         "name": "frozen mixed vegetables"
       },
       {
          "amount": 1,
-         "name": "c. shredded Cheddar cheese"
+         "unit": "cup",
+         "name": "shredded Cheddar cheese"
       },
       {
          "amount": 0.75,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 2,
-         "name": "c. Bisquick baking mix"
+         "unit": "cup",
+         "name": "Bisquick baking mix"
       },
       {
          "amount": 0.25,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       }
    ],
    "instructions": "Heat oven to 400°. Generously grease 13 x 9 x 2 inch baking dish. Brown beef and onion together in skillet; drain. Stir in soup, vegetables, and milk. Stir baking mix and water with fork in greased baking dish until moistened; spread evenly. Spread beef mixture over batter; sprinkle with cheese. Bake 30 minutes.",

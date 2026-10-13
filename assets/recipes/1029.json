@@ -5,23 +5,28 @@
   "ingredients": [
     {
       "amount": 2,
-      "name": "pkg strawberry Kool-Aid"
+      "unit": "pkg",
+      "name": "strawberry Kool-Aid"
     },
     {
       "amount": 1,
-      "name": "can 46 oz. pineapple juice"
+      "unit": "can",
+      "name": "46 oz. pineapple juice"
     },
     {
       "amount": 2,
-      "name": "can frozen orange juice (small cans)"
+      "unit": "can",
+      "name": "frozen orange juice (small cans)"
     },
     {
       "amount": 2,
-      "name": "can frozen lemon juice"
+      "unit": "can",
+      "name": "frozen lemon juice"
     },
     {
       "amount": 3,
-      "name": "bottles of gingerale"
+      "unit": "bottle",
+      "name": "of gingerale"
     }
   ],
   "instructions": "Add water with juices",

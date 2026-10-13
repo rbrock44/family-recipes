@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. margarine or butter"
+         "unit": "cup",
+         "name": "margarine or butter"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
@@ -21,31 +24,38 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "pkg. coconut, optional"
+         "unit": "pkg",
+         "name": "coconut, optional"
       },
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 3,
-         "name": "c. oats"
+         "unit": "cup",
+         "name": "oats"
       },
       {
          "amount": 1,
-         "name": "pkg. chocolate chips or butterscotch chips"
+         "unit": "pkg",
+         "name": "chocolate chips or butterscotch chips"
       }
    ],
    "instructions": "Cream margarine and sugars. Add eggs, vanilla. Add dry ingre- dients to mixture. Mix in oats, then chips and coconut. Bake at 325° for 10 to 12 minutes.",

@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "box Duncan Hines chocolate cake mix"
+         "unit": "box",
+         "name": "Duncan Hines chocolate cake mix"
       },
       {
          "amount": 0.5,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 1,
-         "name": "box instant chocolate pudding"
+         "unit": "box",
+         "name": "instant chocolate pudding"
       }
    ],
    "instructions": "Mix cake mix as directed on box. Add oil and one box pudding. Bake in a 9 x 13 inch greased and floured pan at 350°.",

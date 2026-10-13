@@ -13,11 +13,13 @@
       },
       {
          "amount": 0.25,
-         "name": "tsp. ground nutmeg"
+         "unit": "tsp",
+         "name": "ground nutmeg"
       },
-	  {
+      {
          "amount": 0.5,
-         "name": "c. canned crushed pineapple"
+         "unit": "cup",
+         "name": "canned crushed pineapple"
       }
    ],
    "instructions": "Mix all ingredients together and serve with apple wedges, pear wedges, strawberries or other fruit dippers.",

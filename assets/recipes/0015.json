@@ -5,35 +5,43 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "qt. popped corn"
+         "unit": "qt",
+         "name": "popped corn"
       },
       {
          "amount": 1,
-         "name": "c. packed brown sugar"
+         "unit": "cup",
+         "name": "packed brown sugar"
       },
       {
          "amount": 0.25,
-         "name": "c. light corn syrup"
-      } ,
-	  {
+         "unit": "cup",
+         "name": "light corn syrup"
+      },
+      {
          "amount": 0.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1.25,
-         "name": "c. peanuts, optional"
+         "unit": "cup",
+         "name": "peanuts, optional"
       },
       {
          "amount": 0.25,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
-	  {
+      {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "pinch of cream of tartar"
+         "unit": "pinch",
+         "name": "of cream of tartar"
       }
    ],
    "instructions": "Place popped corn and peanuts in brown bag. Set aside. Combine brown sugar, butter, corn syrup and salt in a 2 quart glass bowl. or casserole. Microwave on high three to four minutes, stirring after each minute, until mixture comes to a boil. Microwave two minutes more, stirring after each minute. Stir in baking soda and cream of tar- tar until foamy. Pour mixture over popped corn in bag. Close bag and shake well. Microwave on high for 1 1/2 minutes, shake bag well and microwave 2 1/2 minutes more. (I usually shake bag at one minute intervals.) Shake bag and pour popped corn into a large roasting pan. Cool and stir to separate.",

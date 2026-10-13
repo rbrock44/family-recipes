@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 8,
-         "name": "c. fresh corn"
+         "unit": "cup",
+         "name": "fresh corn"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. dry mustard"
+         "unit": "tbsp",
+         "name": "dry mustard"
       },
       {
          "amount": 1,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 3,
-         "name": "c. chopped sweet red peppers"
+         "unit": "cup",
+         "name": "chopped sweet red peppers"
       },
       {
          "amount": 8,
-         "name": "c. finely chopped cabbage"
+         "unit": "cup",
+         "name": "finely chopped cabbage"
       },
       {
          "amount": 4,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. celery seed"
+         "unit": "tbsp",
+         "name": "celery seed"
       },
       {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       }
    ],
    "instructions": "Combine ingredients in a large kettle and cook for 20 minutes Pour in jars and seal at once.",

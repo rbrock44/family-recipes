@@ -9,7 +9,8 @@
     },
     {
       "amount": 1,
-      "name": "Tbsp. flour"
+      "unit": "tbsp",
+      "name": "flour"
     },
     {
       "amount": 0,
@@ -25,7 +26,8 @@
     },
     {
       "amount": 1,
-      "name": "c. cooked noodles"
+      "unit": "cup",
+      "name": "cooked noodles"
     },
     {
       "amount": 0,
@@ -33,7 +35,8 @@
     },
     {
       "amount": 1,
-      "name": "c. tomato juice"
+      "unit": "cup",
+      "name": "tomato juice"
     },
     {
       "amount": 0,

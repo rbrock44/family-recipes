@@ -9,7 +9,8 @@
       },
       {
          "amount": 1,
-         "name": "c. margarine, softened"
+         "unit": "cup",
+         "name": "margarine, softened"
       },
       {
          "amount": 2,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Combine cream cheese and margarine. Cream until smooth. Add powdered sugar. Beat until light and fluffy. Add vanilla. Spread frosting between layers, sides, and top. Sprinkle with remaining cup of pecans.",

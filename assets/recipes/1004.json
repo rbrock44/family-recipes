@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 4,
-      "name": "c. self-rising flour"
+      "unit": "cup",
+      "name": "self-rising flour"
     },
     {
       "amount": 0.25,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 0.5,
-      "name": "tsp. soda"
+      "unit": "tsp",
+      "name": "soda"
     },
     {
       "amount": 1,
@@ -21,11 +24,13 @@
     },
     {
       "amount": 1,
-      "name": "pkg. yeast, dissolved in 2 c. warm water"
+      "unit": "pkg",
+      "name": "yeast, dissolved in 2 c. warm water"
     },
     {
       "amount": 0.75,
-      "name": "c. melted butter"
+      "unit": "cup",
+      "name": "melted butter"
     }
   ],
   "instructions": "Mix with electric mixer until smooth. Spoon into muffin tins. Ungreased.\n\n(Note: no baking temperature or time is given on the card.)",

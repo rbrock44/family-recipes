@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "sticks melted butter"
+         "unit": "stick",
+         "name": "melted butter"
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       }
    ],
    "instructions": "Mix and press in two pizza pans. Bake at 325° for 10 minutes.",

@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 1,
-         "name": "c. white sugar"
+         "unit": "cup",
+         "name": "white sugar"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
@@ -21,11 +24,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0,
@@ -33,27 +38,33 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 2,
-         "name": "c. quick oats"
+         "unit": "cup",
+         "name": "quick oats"
       },
       {
          "amount": 2,
-         "name": "c. corn flakes"
+         "unit": "cup",
+         "name": "corn flakes"
       },
       {
          "amount": 1,
-         "name": "c. coconut"
+         "unit": "cup",
+         "name": "coconut"
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       }
    ],
    "instructions": "Beat in eggs and mix well. Gradu- ally add soda, powder and vanilla. Then add salt, oats, cornflakes, coconut and flour. Mix well. Chill dough. Drop by spoonful on greased cookie sheet. Bake 12 minutes at 325°.",

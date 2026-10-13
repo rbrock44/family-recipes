@@ -1,7 +1,7 @@
 {
    "name": "Cottage Cheese Salad",
    "author": "Lisa Schlosser",
-   "category": 2                                  ,
+   "category": 2,
    "ingredients": [
       {
          "amount": 1,
@@ -9,11 +9,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 2,
-         "name": "boxes lime JELL-O"
+         "unit": "box",
+         "name": "lime JELL-O"
       },
       {
          "amount": 1,
@@ -25,7 +27,8 @@
       },
       {
          "amount": 1,
-         "name": "tsp. sugar"
+         "unit": "tsp",
+         "name": "sugar"
       },
       {
          "amount": 0,

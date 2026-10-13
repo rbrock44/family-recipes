@@ -1,11 +1,12 @@
 {
    "name": "Pasta Salad",
    "author": "Marilyn Friend",
-   "category": 2                                  ,
+   "category": 2,
    "ingredients": [
       {
          "amount": 8,
-         "name": "oz. garden spirals macaroni"
+         "unit": "oz",
+         "name": "garden spirals macaroni"
       },
       {
          "amount": 1,
@@ -17,7 +18,8 @@
       },
       {
          "amount": 1,
-         "name": "pkg. carrots"
+         "unit": "pkg",
+         "name": "carrots"
       },
       {
          "amount": 1,

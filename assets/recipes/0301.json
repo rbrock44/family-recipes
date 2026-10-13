@@ -9,27 +9,33 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla flavor"
+         "unit": "tsp",
+         "name": "vanilla flavor"
       },
       {
          "amount": 0,
-         "name": "Pinch of salt"
+         "unit": "pinch",
+         "name": "of salt"
       },
       {
          "amount": 1.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "Tbsp. nutmeg"
+         "unit": "tbsp",
+         "name": "nutmeg"
       },
       {
          "amount": 0.25,
-         "name": "stick butter or margarine"
+         "unit": "stick",
+         "name": "butter or margarine"
       }
    ],
    "instructions": "Peel and cut yams in quarters. Sprinkle with sugar and nutmeg; add butter. Add vanilla, salt and water. Cover and simmer over medi- um heat until liquid forms a syrup. Remove from heat and serve.",

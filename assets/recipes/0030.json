@@ -5,17 +5,20 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
-         "name": "pkg. taco seasoning and water"
+         "unit": "pkg",
+         "name": "taco seasoning and water"
       },
       {
          "amount": 0.75,
-         "name": "c. picante sauce"
+         "unit": "cup",
+         "name": "picante sauce"
       },
-	  {
+      {
          "amount": 1,
          "name": "(16 oz.) can refried beans"
       },

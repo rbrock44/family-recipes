@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 4,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 4,
-         "name": "c. grape juice or pineapple juice"
+         "unit": "cup",
+         "name": "grape juice or pineapple juice"
       },
       {
          "amount": 2,
-         "name": "c. orange juice"
+         "unit": "cup",
+         "name": "orange juice"
       },
       {
          "amount": 8,
-         "name": "pt. chilled ginger ale"
+         "unit": "pt",
+         "name": "chilled ginger ale"
       }
    ],
    "instructions": "Boil sugar and water for 3 minutes and cool. Add the juices and chill. Just before serving, add chilled ginger ale.",

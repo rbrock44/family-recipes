@@ -5,31 +5,38 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "c. butter or oleo"
+         "unit": "cup",
+         "name": "butter or oleo"
       },
       {
          "amount": 0.75,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. cooked mashed carrots"
+         "unit": "cup",
+         "name": "cooked mashed carrots"
       },
       {
          "amount": 2,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0,

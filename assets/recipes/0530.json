@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 12,
@@ -17,18 +19,21 @@
       },
       {
          "amount": 12,
-         "name": "Tbsp. water"
+         "unit": "tbsp",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
-   "instructions": "Beat egg yolks and water until foamy. Add sugar 1 tablespoonat a time. Then add flour and baking powder. Add vanilla. Bake in moderate 375° oven for 30 minutes.",
+   "instructions": "Beat egg yolks and water until foamy. Add sugar 1 tablespoon at a time. Then add flour and baking powder. Add vanilla. Bake in moderate 375° oven for 30 minutes.",
    "yield": {
       "amount": 0,
       "name": ""

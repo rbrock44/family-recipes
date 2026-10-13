@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. orange gelatin"
+         "unit": "pkg",
+         "name": "orange gelatin"
       },
       {
          "amount": 0.5,
-         "name": "c. cream, whipped"
+         "unit": "cup",
+         "name": "cream, whipped"
       },
       {
          "amount": 1,
-         "name": "c. orange sections"
+         "unit": "cup",
+         "name": "orange sections"
       },
       {
          "amount": 2,
-         "name": "c. miniature marshmallows"
+         "unit": "cup",
+         "name": "miniature marshmallows"
       }
    ],
    "instructions": "Prepare gelatin as package directs. Chill until slightly thick. Fold in whipped cream, orange sections, and marshmallows. Pour in mold.",

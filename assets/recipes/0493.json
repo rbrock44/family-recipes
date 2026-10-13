@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 0.25,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       }
    ],
    "instructions": "Melt butter. Add brown sugar. Cook 2 minutes. Add milk, bring to a boil. Take off fire, cool, then beat in powdered sugar and spread.",

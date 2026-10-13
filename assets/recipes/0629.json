@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       }
    ],
    "instructions": "Cream butter, sugar and salt. Add flour, vanilla and nuts. Mix well. Roll into balls and bake 3 to 5 minutes at 350°. Then roll in powdered sugar while still hot.",

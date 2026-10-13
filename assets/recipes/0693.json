@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "pkg. butterscotch morsels"
+         "unit": "pkg",
+         "name": "butterscotch morsels"
       },
       {
          "amount": 0.5,
-         "name": "can chow mein dry noodles"
+         "unit": "can",
+         "name": "chow mein dry noodles"
       },
       {
          "amount": 0.5,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       }
    ],
    "instructions": "Melt morsels in double boiler. Remove from stove. Add nuts and chow mein noodles and mix well. Dip out with teaspoon and out on waxed paper. (Use Nestles Butterscotch Tollhouse morsels.)",

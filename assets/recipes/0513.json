@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "tsp. pumpkin pie spice"
+         "unit": "tsp",
+         "name": "pumpkin pie spice"
       },
       {
          "amount": 0.75,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
@@ -25,23 +27,28 @@
       },
       {
          "amount": 0.75,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1.5,
-         "name": "sticks oleo, melted"
+         "unit": "stick",
+         "name": "oleo, melted"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "box yellow cake mix"
+         "unit": "box",
+         "name": "yellow cake mix"
       }
    ],
    "instructions": "Mix together pumpkin, eggs, spice, vanilla, Milnot, salt and sugar. Pour mixture into a 9 x 13 inch baking pan. Sprinkle yellow cake mix over top. Drizzle over top, the melted oleo. Sprinkle chopped pecans. Bake at 350° oven for 60 minutes or until done.",

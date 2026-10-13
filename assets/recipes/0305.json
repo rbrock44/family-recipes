@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "cans shoe peg corn, drained"
+         "unit": "can",
+         "name": "shoe peg corn, drained"
       },
       {
          "amount": 1,
-         "name": "stick margarine"
+         "unit": "stick",
+         "name": "margarine"
       },
       {
          "amount": 1,

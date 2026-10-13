@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "c. peeled, cored & sliced apples (ie. Jonathon)"
+         "unit": "cup",
+         "name": "peeled, cored & sliced apples (ie. Jonathon)"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 2,
-         "name": "tsp. flour"
+         "unit": "tsp",
+         "name": "flour"
       }
    ],
    "instructions": "Mix the above ingredients together and pour into a 9 X 13 pan. Set aside. Go to recipe 'Apple Crisp Topping'",

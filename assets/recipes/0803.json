@@ -13,7 +13,8 @@
       },
       {
          "amount": 10,
-         "name": "lb. sugar, dissolved in hot water"
+         "unit": "lb",
+         "name": "sugar, dissolved in hot water"
       }
    ],
    "instructions": "Mash grapes and let ferment for 3 to 5 days. Draw off juice. Pour juice and sugar into a 5 gallon jug container and add water to fill jug to top. Cover jug opening with sand sack for 3 to 4 months. Draw off and rejug and seal jug with tight-fitting cork or other kind of stopper.",

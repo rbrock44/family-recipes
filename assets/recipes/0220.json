@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. onion powder"
+         "unit": "tsp",
+         "name": "onion powder"
       },
       {
          "amount": 0.25,
-         "name": "tsp. ground ginger"
+         "unit": "tsp",
+         "name": "ground ginger"
       },
       {
          "amount": 1,
-         "name": "Tbsp. brown sugar"
+         "unit": "tbsp",
+         "name": "brown sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. soy sauce"
+         "unit": "tbsp",
+         "name": "soy sauce"
       },
       {
          "amount": 1,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 0.66,
-         "name": "c. cold water"
+         "unit": "cup",
+         "name": "cold water"
       },
       {
          "amount": 1,
-         "name": "lb. boneless, skinless chicken breasts, slightly frozen"
+         "unit": "lb",
+         "name": "boneless, skinless chicken breasts, slightly frozen"
       },
       {
          "amount": 2,
-         "name": "Tbsp. sesame oil or vegetable oil"
+         "unit": "tbsp",
+         "name": "sesame oil or vegetable oil"
       },
       {
          "amount": 1,
@@ -49,7 +58,8 @@
       },
       {
          "amount": 1,
-         "name": "c. fresh snow peas"
+         "unit": "cup",
+         "name": "fresh snow peas"
       },
       {
          "amount": 1,
@@ -61,7 +71,8 @@
       },
       {
          "amount": 4,
-         "name": "c. hot, cooked rice"
+         "unit": "cup",
+         "name": "hot, cooked rice"
       }
    ],
    "instructions": "Combine garlic powder, onion powder, ginger, brown sugar, soy sauce, cornstarch, and water in a small bowl and set aside. Thinly slice chicken breasts. Preheat oil in a wok or large skillet over medium heat. Add green pepper, red pepper, and snow peas to wok or skillet. Cook until vegetables are crisp and tender, 3 minutes, stirring con- stantly. Push vegetables to the side of the wok or skillet. Add chicken and cook until chicken is lightly browned, 3 minutes, stirring constant- ly. Add water chestnuts and stir vegetables and chicken together. Stir in seasoning mixture. Bring to a boil and cook until mixture thickens slightly, 1 to 2 minutes, stirring constantly. Serve over hot rice.",

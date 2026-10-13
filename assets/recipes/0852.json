@@ -4,23 +4,28 @@
   "category": 8,
   "ingredients": [
     {
-      "name": "tbsp coarse kosher salt",
+      "unit": "tbsp",
+      "name": "coarse kosher salt",
       "amount": 2
     },
     {
-      "name": "tbsp coarse black pepper",
+      "unit": "tbsp",
+      "name": "coarse black pepper",
       "amount": 2
     },
     {
-      "name": "tbsp onion powder",
+      "unit": "tbsp",
+      "name": "onion powder",
       "amount": 1
     },
     {
-      "name": "tbsp garlic powder",
+      "unit": "tbsp",
+      "name": "garlic powder",
       "amount": 1
     },
     {
-      "name": "tbsp smoked paprika",
+      "unit": "tbsp",
+      "name": "smoked paprika",
       "amount": 1
     },
     {

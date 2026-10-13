@@ -15,29 +15,35 @@
          "amount": 1,
          "name": "(l6 oz) can red kidney beans"
       },
-	  {
-         "amount": 1,
-         "name": "pkg. frozen baby lima beans"
-      },
-      {
-         "amount": 1.5,
-         "name": " c. chopped green pepper"
-      },
-      {
-         "amount": 1.5,
-         "name": "c. chopped onion"
-      },
-	  {
-         "amount": 1.5,
-         "name": "c. chopped celery"
-      },
-      {
-         "amount": 1.5,
-         "name": "c. brown sugar"
-      },
       {
          "amount": 1,
-         "name": "c. ketchup"
+         "unit": "pkg",
+         "name": "frozen baby lima beans"
+      },
+      {
+         "amount": 1.5,
+         "unit": "cup",
+         "name": "chopped green pepper"
+      },
+      {
+         "amount": 1.5,
+         "unit": "cup",
+         "name": "chopped onion"
+      },
+      {
+         "amount": 1.5,
+         "unit": "cup",
+         "name": "chopped celery"
+      },
+      {
+         "amount": 1.5,
+         "unit": "cup",
+         "name": "brown sugar"
+      },
+      {
+         "amount": 1,
+         "unit": "cup",
+         "name": "ketchup"
       },
       {
          "amount": 0,
@@ -45,7 +51,8 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp garlic salt"
+         "unit": "tsp",
+         "name": "garlic salt"
       },
       {
          "amount": 0,

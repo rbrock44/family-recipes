@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 3,
@@ -25,27 +29,33 @@
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2.5,
-         "name": "Tbsp. hot water"
+         "unit": "tbsp",
+         "name": "hot water"
       },
       {
          "amount": 0.75,
-         "name": "c. oil"
+         "unit": "cup",
+         "name": "oil"
       },
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "c. raw carrots (grated)"
+         "unit": "cup",
+         "name": "raw carrots (grated)"
       },
       {
          "amount": 1,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       }
    ],
    "instructions": "Beat eggs well. Add sugar and hot water. Mix well. Add oil slowly. Add balance of ingredients and blend well. Bake 1 hour at 350°.",

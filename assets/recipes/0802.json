@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "gal. elderberries"
+         "unit": "gal",
+         "name": "elderberries"
       },
       {
          "amount": 0,
@@ -13,11 +14,13 @@
       },
       {
          "amount": 1,
-         "name": "lb. chopped raisins"
+         "unit": "lb",
+         "name": "chopped raisins"
       },
       {
          "amount": 10,
-         "name": "lb. sugar, dissolved in warm water"
+         "unit": "lb",
+         "name": "sugar, dissolved in warm water"
       },
       {
          "amount": 3,
@@ -25,7 +28,8 @@
       },
       {
          "amount": 4,
-         "name": "lb. sand, tied in cloth"
+         "unit": "lb",
+         "name": "sand, tied in cloth"
       }
    ],
    "instructions": "Wash and mash elderberries. Let ferment for 5 or 6 days. Remove solids by passing it through a thin cloth. Add the lemon juice, raisins and sugar to the berry juice in a 5 gallon jug and fill with water. Cover the opening of the jug with grape vine leaves, weighing them down with sand.",

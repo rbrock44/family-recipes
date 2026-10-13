@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 2,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 0.33,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
@@ -21,31 +23,38 @@
       },
       {
          "amount": 0.5,
-         "name": "c. margarine"
+         "unit": "cup",
+         "name": "margarine"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.25,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1.5,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "Sift flour, baking powder, baking soda and salt together. Cream the brown sugar and margarine with the egg. Mash the bananas with the water and the vanilla. Add the banana and egg mixtures to the dry ingredients. Stir only enough to moisten. Add nuts. Spoon batter into greased muffin pan. Bake at 350° for 25 minutes.",

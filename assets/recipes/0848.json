@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "Tbsp. vegetable shortening"
+         "unit": "tbsp",
+         "name": "vegetable shortening"
       },
       {
          "amount": 2,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 0,

@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "Tbsp. Cavender's seasoning"
+         "unit": "tbsp",
+         "name": "Cavender's seasoning"
       },
       {
          "amount": 1,
-         "name": "Tbsp. red cooking wine"
+         "unit": "tbsp",
+         "name": "red cooking wine"
       },
       {
          "amount": 1,
-         "name": "Tbsp. Worcestershire sauce"
+         "unit": "tbsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "c. macaroni"
+         "unit": "cup",
+         "name": "macaroni"
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
@@ -37,15 +43,18 @@
       },
       {
          "amount": 1,
-         "name": "can tomatoes"
+         "unit": "can",
+         "name": "tomatoes"
       },
       {
          "amount": 1,
-         "name": "can mushrooms"
+         "unit": "can",
+         "name": "mushrooms"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       }
    ],
    "instructions": "",

@@ -9,27 +9,33 @@
     },
     {
       "amount": 1,
-      "name": "pkg lemonade mix"
+      "unit": "pkg",
+      "name": "lemonade mix"
     },
     {
       "amount": 0.5,
-      "name": "tsp cinnamon"
+      "unit": "tsp",
+      "name": "cinnamon"
     },
     {
       "amount": 1.5,
-      "name": "c sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 0.75,
-      "name": "c instant tea"
+      "unit": "cup",
+      "name": "instant tea"
     },
     {
       "amount": 0.5,
-      "name": "tsp. cloves"
+      "unit": "tsp",
+      "name": "cloves"
     },
     {
       "amount": 0,
-      "name": "dash nutmeg"
+      "unit": "dash",
+      "name": "nutmeg"
     }
   ],
   "instructions": "Mix in bowl and store in jar.\nDissolve 2 tsp. in one cup of boiling water.",

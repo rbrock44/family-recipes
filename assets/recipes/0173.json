@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 0.75,
-         "name": "lb. ground beef, browned"
+         "unit": "lb",
+         "name": "ground beef, browned"
       },
       {
          "amount": 0.5,
-         "name": "c. uncooked rice"
+         "unit": "cup",
+         "name": "uncooked rice"
       },
       {
          "amount": 0.75,
-         "name": "tsp. garlic powder"
+         "unit": "tsp",
+         "name": "garlic powder"
       },
       {
          "amount": 2,
@@ -29,15 +32,18 @@
       },
       {
          "amount": 0.25,
-         "name": "c. soy sauce"
+         "unit": "cup",
+         "name": "soy sauce"
       },
       {
          "amount": 1.5,
-         "name": "tsp. basil"
+         "unit": "tsp",
+         "name": "basil"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       }
    ],
    "instructions": "Combine all above ingredients in a casserole dish. Microwave on high 27 minutes or bake in 350° oven for 1 hour.",

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "pkg. sugar-free cherry Kool-Aid"
+         "unit": "pkg",
+         "name": "sugar-free cherry Kool-Aid"
       },
       {
          "amount": 1,

@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. raisins, cooked"
+         "unit": "cup",
+         "name": "raisins, cooked"
       },
       {
          "amount": 1.5,
-         "name": "c. raisin juice (add water if needed)"
+         "unit": "cup",
+         "name": "raisin juice (add water if needed)"
       },
       {
          "amount": 1.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 3,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1.5,
-         "name": "Tbsp. lard"
+         "unit": "tbsp",
+         "name": "lard"
       },
       {
          "amount": 0.75,
-         "name": "tsp. nutmeg"
+         "unit": "tsp",
+         "name": "nutmeg"
       },
       {
          "amount": 0.75,
-         "name": "tsp. cloves"
+         "unit": "tsp",
+         "name": "cloves"
       },
       {
          "amount": 0.75,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       }
    ],
    "instructions": "Boil raisins until tender. Cream sugar and lard. Add spices. Dis- solve soda in juice of raisins. Stir in the flour, then add raisins last. Bake in a loaf or layer and put together with caramel or coconut icing.",

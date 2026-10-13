@@ -9,7 +9,8 @@
       },
       {
          "amount": 0.75,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 3,
@@ -17,11 +18,13 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "tsp. lemon juice"
+         "unit": "tsp",
+         "name": "lemon juice"
       },
       {
          "amount": 24,

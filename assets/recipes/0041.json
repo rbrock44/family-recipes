@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 1,
@@ -13,23 +14,28 @@
       },
       {
          "amount": 3,
-         "name": "Tbsp. lemon juice"
-      }	  ,
-	  {
-         "amount": 1,
-         "name": "tsp. sugar"
+         "unit": "tbsp",
+         "name": "lemon juice"
       },
       {
          "amount": 1,
-         "name": "tsp. mustard powder"
+         "unit": "tsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. garlic powder"
+         "unit": "tsp",
+         "name": "mustard powder"
       },
-	  {
+      {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "garlic powder"
+      },
+      {
+         "amount": 1,
+         "unit": "tbsp",
+         "name": "salt"
       }
    ],
    "instructions": "Mix all together and heat in microwave, let cool and put in eggs. Refrigerate. Makes 12 to 18 eggs.",

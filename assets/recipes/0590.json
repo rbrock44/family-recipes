@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. orange slices, cut in small pieces"
+         "unit": "lb",
+         "name": "orange slices, cut in small pieces"
       },
       {
          "amount": 1,
-         "name": "lb. brown sugar"
+         "unit": "lb",
+         "name": "brown sugar"
       },
       {
          "amount": 4,
@@ -17,19 +19,23 @@
       },
       {
          "amount": 2,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Mix orange slices, flour and salt. Add remaining ingredients and mix well. Pour in greased cookie sheet pan and bake in 350° oven about 35 minutes or until brown.",

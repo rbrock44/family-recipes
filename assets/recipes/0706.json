@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2.25,
-         "name": "sticks butter"
+         "unit": "stick",
+         "name": "butter"
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 4,
-         "name": "Tbsp. powdered sugar"
+         "unit": "tbsp",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
-         "name": "pkg. Dream Whip, prepared"
+         "unit": "pkg",
+         "name": "Dream Whip, prepared"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
@@ -29,7 +34,8 @@
       },
       {
          "amount": 1,
-         "name": "can blueberry pie filling"
+         "unit": "can",
+         "name": "blueberry pie filling"
       },
       {
          "amount": 4,

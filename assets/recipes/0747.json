@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.66,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 4,
-         "name": "Tbsp. water"
+         "unit": "tbsp",
+         "name": "water"
       }
    ],
    "instructions": "Mix together the flour and salt. Cut in shortening until crumbly. Sprinkle on water. Gather dough together and press into a ball. Roll to desired thickness.",

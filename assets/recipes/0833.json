@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. Apple-Cinnamon Muffin Mix"
+         "unit": "pkg",
+         "name": "Apple-Cinnamon Muffin Mix"
       },
       {
          "amount": 1,
@@ -13,7 +14,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. milk or water"
+         "unit": "cup",
+         "name": "milk or water"
       }
    ],
    "instructions": "Preheat griddle or waffle iron. Grease lightly. Blend ingredients. If batter thickens, add additional tablespoon liquid. Batter will be slightly lumpy. Bake on hot griddle or waffle iron. For pancakes, turn when bubbles appear and edges begin to dry.",

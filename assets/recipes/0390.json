@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1.5,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 2,
-         "name": "pkg. dry yeast"
+         "unit": "pkg",
+         "name": "dry yeast"
       },
       {
          "amount": 0.25,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.33,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 2,
-         "name": "tsp. salt "
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 4,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,

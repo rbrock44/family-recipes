@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "cup syrup, dark Karo"
+      "unit": "cup",
+      "name": "syrup, dark Karo"
     },
     {
       "amount": 1,
-      "name": "cup pecans"
+      "unit": "cup",
+      "name": "pecans"
     },
     {
       "amount": 0.5,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 3,
@@ -21,11 +24,13 @@
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     },
     {
       "amount": 0.25,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     }
   ],
   "instructions": "Beat eggs lightly, add sugar, syrup and nuts, salt and vanilla.\nBake 350-325 for 40-50 min.",

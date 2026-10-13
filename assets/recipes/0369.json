@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "c. warm milk"
+         "unit": "cup",
+         "name": "warm milk"
       },
       {
          "amount": 2,
-         "name": "pkg. yeast"
+         "unit": "pkg",
+         "name": "yeast"
       },
       {
          "amount": 1,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 3,
@@ -25,15 +29,18 @@
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. melted butter"
+         "unit": "cup",
+         "name": "melted butter"
       },
       {
          "amount": 8,
-         "name": "c. flour or less"
+         "unit": "cup",
+         "name": "flour or less"
       }
    ],
    "instructions": "Break the yeast in warm water. Stir until dissolved. Beat the eggs and add sugar, salt, milk, butter and flour. Mix all together and let rise until double in bulk. Then divide into two parts. Roll to 1/4 inch thickness. Spread with melted butter and cut each piece in 16 wedges. Roll beginning at large end. Place in greased pan, two inches apart. Let rise until light. Bake in 400° oven for about 15 minutes.",

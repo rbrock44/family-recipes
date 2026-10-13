@@ -5,7 +5,8 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "box white cake mix"
+      "unit": "box",
+      "name": "white cake mix"
     },
     {
       "amount": 4,
@@ -13,39 +14,48 @@
     },
     {
       "amount": 5,
-      "name": "tbsp. flour"
+      "unit": "tbsp",
+      "name": "flour"
     },
     {
       "amount": 1,
-      "name": "pkg. strawberry jello"
+      "unit": "pkg",
+      "name": "strawberry jello"
     },
     {
       "amount": 0.5,
-      "name": "c. water"
+      "unit": "cup",
+      "name": "water"
     },
     {
       "amount": 0.5,
-      "name": "c. oil"
+      "unit": "cup",
+      "name": "oil"
     },
     {
       "amount": 0.5,
-      "name": "c. strawberries (1/2 - 3/4 c.)"
+      "unit": "cup",
+      "name": "strawberries (1/2 - 3/4 c.)"
     },
     {
       "amount": 1,
-      "name": "stick oleo (icing)"
+      "unit": "stick",
+      "name": "oleo (icing)"
     },
     {
       "amount": 1,
-      "name": "lb. powdered sugar (icing)"
+      "unit": "lb",
+      "name": "powdered sugar (icing)"
     },
     {
       "amount": 0.25,
-      "name": "c. strawberries (icing)"
+      "unit": "cup",
+      "name": "strawberries (icing)"
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla (icing)"
+      "unit": "tsp",
+      "name": "vanilla (icing)"
     }
   ],
   "instructions": "Bake in tube pan at 350 for 30-40 min.\n\nICING",

@@ -5,19 +5,23 @@
   "ingredients": [
     {
       "amount": 2,
-      "name": "cans pineapple juice"
+      "unit": "can",
+      "name": "pineapple juice"
     },
     {
       "amount": 18,
-      "name": "cups water (4 qt. + 2 cups)"
+      "unit": "cup",
+      "name": "water (4 qt. + 2 cups)"
     },
     {
       "amount": 3,
-      "name": "pkgs. strawberry Kool-aid"
+      "unit": "pkg",
+      "name": "strawberry Kool-aid"
     },
     {
       "amount": 0.33,
-      "name": "cups sugar"
+      "unit": "cup",
+      "name": "sugar"
     }
   ],
   "instructions": "Mix - chill.\n\n(If you use pre-sweetened Kool-aid, cut down on sugar.)",

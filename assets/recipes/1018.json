@@ -5,7 +5,8 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "box broccoli"
+      "unit": "box",
+      "name": "broccoli"
     },
     {
       "amount": 1,
@@ -13,19 +14,23 @@
     },
     {
       "amount": 1,
-      "name": "c. mushroom soup"
+      "unit": "cup",
+      "name": "mushroom soup"
     },
     {
       "amount": 1,
-      "name": "c. mushroom soup"
+      "unit": "cup",
+      "name": "mushroom soup"
     },
     {
       "amount": 1,
-      "name": "stick oleo"
+      "unit": "stick",
+      "name": "oleo"
     },
     {
       "amount": 2,
-      "name": "pkg. garlic cheese"
+      "unit": "pkg",
+      "name": "garlic cheese"
     }
   ],
   "instructions": "Cook broccoli with onion.\nDrain well - mix.\n\nMix in mushroom soup, oleo, and garlic cheese.\nMix.",

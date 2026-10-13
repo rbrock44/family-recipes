@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "lb. ground chuck beef"
+         "unit": "lb",
+         "name": "ground chuck beef"
       },
       {
          "amount": 1,
-         "name": "Tbsp. vegetable oil"
+         "unit": "tbsp",
+         "name": "vegetable oil"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
@@ -25,15 +28,18 @@
       },
       {
          "amount": 0.25,
-         "name": "c. soy sauce"
+         "unit": "cup",
+         "name": "soy sauce"
       },
       {
          "amount": 2,
-         "name": "Tbsp. chopped scallions"
+         "unit": "tbsp",
+         "name": "chopped scallions"
       },
       {
          "amount": 0.5,
-         "name": "tsp. margarine"
+         "unit": "tsp",
+         "name": "margarine"
       },
       {
          "amount": 3,

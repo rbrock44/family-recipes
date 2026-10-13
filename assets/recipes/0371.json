@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. soft butter"
+         "unit": "cup",
+         "name": "soft butter"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0.5,
-         "name": "c. nuts, chopped"
+         "unit": "cup",
+         "name": "nuts, chopped"
       },
       {
          "amount": 0.5,
-         "name": "c. seeded raisins"
+         "unit": "cup",
+         "name": "seeded raisins"
       },
       {
          "amount": 0.5,
-         "name": "c. candied cherries"
+         "unit": "cup",
+         "name": "candied cherries"
       }
    ],
    "instructions": "Mix all ingredients together.",

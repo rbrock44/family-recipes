@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 8,
-         "name": "lb. noodles"
+         "unit": "lb",
+         "name": "noodles"
       },
       {
          "amount": 2,
-         "name": "pkg. Chili-O mix"
+         "unit": "pkg",
+         "name": "Chili-O mix"
       },
       {
          "amount": 8,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 4,
@@ -33,15 +36,18 @@
       },
       {
          "amount": 8,
-         "name": "tsp. oregano, or more"
+         "unit": "tsp",
+         "name": "oregano, or more"
       },
       {
          "amount": 3.5,
-         "name": "tsp. garlic powder or more"
+         "unit": "tsp",
+         "name": "garlic powder or more"
       },
       {
          "amount": 2,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       },
       {
          "amount": 0,

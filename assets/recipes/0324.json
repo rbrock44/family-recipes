@@ -9,19 +9,23 @@
       },
       {
          "amount": 1,
-         "name": "can cream of mushroom soup"
+         "unit": "can",
+         "name": "cream of mushroom soup"
       },
       {
          "amount": 1,
-         "name": "c. diced celery"
+         "unit": "cup",
+         "name": "diced celery"
       },
       {
          "amount": 8,
-         "name": "oz. can of chopped mushrooms"
+         "unit": "oz",
+         "name": "can of chopped mushrooms"
       },
       {
          "amount": 1,
-         "name": "c. white rice, uncooked"
+         "unit": "cup",
+         "name": "white rice, uncooked"
       },
       {
          "amount": 1,
@@ -29,7 +33,8 @@
       },
       {
          "amount": 1,
-         "name": "can sliced water chestnuts"
+         "unit": "can",
+         "name": "sliced water chestnuts"
       }
    ],
    "instructions": "Steam broccoli until it separates. Cook rice according to direc- tions. Mix warm broccoli and rice with remaining ingredients. Put into greased 2 1/2 quart casserole and bake at 350° for 30 minutes.",

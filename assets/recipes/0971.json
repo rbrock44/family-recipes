@@ -17,7 +17,8 @@
     },
     {
       "amount": 2,
-      "name": "c. water"
+      "unit": "cup",
+      "name": "water"
     },
     {
       "amount": 0,

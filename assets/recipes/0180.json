@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
-         "name": "c. onion, chopped"
+         "unit": "cup",
+         "name": "onion, chopped"
       },
       {
          "amount": 1,
@@ -21,23 +23,28 @@
       },
       {
          "amount": 0.75,
-         "name": "c. chopped green peppers"
+         "unit": "cup",
+         "name": "chopped green peppers"
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. sugar"
+         "unit": "tsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. chili powder"
+         "unit": "tsp",
+         "name": "chili powder"
       },
       {
          "amount": 1,
@@ -45,7 +52,8 @@
       },
       {
          "amount": 1,
-         "name": "c. shredded Cheddar cheese"
+         "unit": "cup",
+         "name": "shredded Cheddar cheese"
       }
    ],
    "instructions": "Heat oven to 375°. Cook ground beef and onions in a Dutch oven until beef is done. Stir in remaining ingredients, except the cheese. Add uncooked spaghetti. Cover and bake about 45 minutes, stirring occasionally, until spaghetti is tender. Sprinkle with cheese and bake uncovered about 5 minutes until cheese is melted. I add 2 cans of tomatoes.",

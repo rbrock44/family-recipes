@@ -13,19 +13,23 @@
       },
       {
          "amount": 2,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. cornstarch"
+         "unit": "tsp",
+         "name": "cornstarch"
       },
       {
          "amount": 1,
-         "name": "pkg. Dream Whip"
+         "unit": "pkg",
+         "name": "Dream Whip"
       },
       {
          "amount": 1,
@@ -33,11 +37,13 @@
       },
       {
          "amount": 1,
-         "name": "c. powdered sugar"
+         "unit": "cup",
+         "name": "powdered sugar"
       },
       {
          "amount": 1,
-         "name": "pkg. Jell-O peach or mixed fruit (3 oz.)"
+         "unit": "pkg",
+         "name": "Jell-O peach or mixed fruit (3 oz.)"
       }
    ],
    "instructions": "Place sliced peaches in pie shell. Mix water, sugar and corn- starch together and cook until clear. Remove from heat and add 1 package peach Jell-O or mixed fruit. Let cool, pour over peaches. Then whip 1 package Dream Whip according to directions on box. Add cream cheese and powdered sugar. Spread over pie.",

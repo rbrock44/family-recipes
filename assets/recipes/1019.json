@@ -9,31 +9,38 @@
     },
     {
       "amount": 1,
-      "name": "Tbsp. peanut oil"
+      "unit": "tbsp",
+      "name": "peanut oil"
     },
     {
       "amount": 0.25,
-      "name": "c. diced celery"
+      "unit": "cup",
+      "name": "diced celery"
     },
     {
       "amount": 0.25,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "Tbsp. lemon juice"
+      "unit": "tbsp",
+      "name": "lemon juice"
     },
     {
       "amount": 0.5,
-      "name": "tsp. chili powder"
+      "unit": "tsp",
+      "name": "chili powder"
     },
     {
       "amount": 0.67,
-      "name": "c. diced tomatoes"
+      "unit": "cup",
+      "name": "diced tomatoes"
     },
     {
       "amount": 1,
-      "name": "Tbsp. dry onion"
+      "unit": "tbsp",
+      "name": "dry onion"
     }
   ],
   "instructions": "Serve on lettuce leaves\nor stuff tomatoes",

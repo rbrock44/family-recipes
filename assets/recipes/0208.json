@@ -9,31 +9,38 @@
       },
       {
          "amount": 0.5,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 1,
-         "name": "Tbsp. Worcestershire sauce"
+         "unit": "tbsp",
+         "name": "Worcestershire sauce"
       },
       {
          "amount": 2,
-         "name": "Tbsp. vinegar"
+         "unit": "tbsp",
+         "name": "vinegar"
       },
       {
          "amount": 0.5,
-         "name": "c. catsup"
+         "unit": "cup",
+         "name": "catsup"
       }
    ],
    "instructions": "Brown beef and onion. Pour off fat. Add remaining ingredients. Mix well. Pour into 1 1/2 quart casserole. Bake at 350° for 30 minutes.",

@@ -1,23 +1,27 @@
 {
    "name": "Watergate Salad",
    "author": "Irene Blattel",
-   "category": 2                                  ,
+   "category": 2,
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. instant pistachio pudding"
+         "unit": "pkg",
+         "name": "instant pistachio pudding"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped pecans"
+         "unit": "cup",
+         "name": "chopped pecans"
       },
       {
          "amount": 1,
-         "name": "lb. can crushed pineapple (undrained)"
+         "unit": "lb",
+         "name": "can crushed pineapple (undrained)"
       },
       {
          "amount": 0.5,
-         "name": "c. mini marshmallows"
+         "unit": "cup",
+         "name": "mini marshmallows"
       },
       {
          "amount": 1,

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
@@ -33,15 +34,18 @@
       },
       {
          "amount": 3,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. oregano leaves"
+         "unit": "tsp",
+         "name": "oregano leaves"
       },
       {
          "amount": 2,
@@ -53,7 +57,8 @@
       },
       {
          "amount": 16,
-         "name": "oz. spaghetti"
+         "unit": "oz",
+         "name": "spaghetti"
       },
       {
          "amount": 0,

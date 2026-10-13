@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. Italian sausage, cut into 1/2 inch pieces"
+         "unit": "lb",
+         "name": "Italian sausage, cut into 1/2 inch pieces"
       },
       {
          "amount": 1,

@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "tsp. cloves"
+         "unit": "tsp",
+         "name": "cloves"
       },
       {
          "amount": 2,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "c. vinegar"
+         "unit": "cup",
+         "name": "vinegar"
       },
       {
          "amount": 1,
-         "name": "Tbsp. cinnamon"
+         "unit": "tbsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "tsp. allspice Beets"
+         "unit": "tsp",
+         "name": "allspice Beets"
       }
    ],
    "instructions": "Boil beets in their jackets. When tender, peel beets. Mix remain- ing ingredients together. Slice the beets into the mixture and bring to a boil for about 10 minutes. Put in jars and seal.",

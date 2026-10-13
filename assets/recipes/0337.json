@@ -5,39 +5,48 @@
    "ingredients": [
       {
          "amount": 4,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       },
       {
          "amount": 2,
-         "name": "c. shortening, melted"
+         "unit": "cup",
+         "name": "shortening, melted"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.33,
-         "name": "c. yeast"
+         "unit": "cup",
+         "name": "yeast"
       },
       {
          "amount": 2,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 2,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 9,
-         "name": "c. warm water"
+         "unit": "cup",
+         "name": "warm water"
       },
       {
          "amount": 1.33,
-         "name": "c. dry milk"
+         "unit": "cup",
+         "name": "dry milk"
       },
       {
          "amount": 10,
-         "name": "lb. flour or more"
+         "unit": "lb",
+         "name": "flour or more"
       }
    ],
    "instructions": "Mix yeast, 2 cups warm water and 2 tablespoons of sugar; set aside. Mix dry milk, salt, 1 cup sugar and 3 of the flour together. Add water, yeast mixture and shortening. Mix well. Then add rest of the flour. Knead and let rise until double. Makes about 9 (2 pound) loaves. Bake at 400° for 15 minutes, 350° for 45 minutes.",

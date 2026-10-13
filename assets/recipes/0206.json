@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "cans cream of broccoli soup"
+         "unit": "can",
+         "name": "cream of broccoli soup"
       },
       {
          "amount": 1,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.25,
-         "name": "tsp. dried thyme leaves, crushed"
+         "unit": "tsp",
+         "name": "dried thyme leaves, crushed"
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 4,
-         "name": "c. cooked cut-up vegetables"
+         "unit": "cup",
+         "name": "cooked cut-up vegetables"
       },
       {
          "amount": 2,
-         "name": "c. cubed cooked chicken or turkey"
+         "unit": "cup",
+         "name": "cubed cooked chicken or turkey"
       },
       {
          "amount": 1,

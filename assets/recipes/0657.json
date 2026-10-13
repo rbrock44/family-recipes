@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. lard or butter"
+         "unit": "cup",
+         "name": "lard or butter"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 3,
@@ -17,15 +19,18 @@
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda dissolved in 1/2 C. warm water"
+         "unit": "tsp",
+         "name": "baking soda dissolved in 1/2 C. warm water"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "tsp. cloves"
+         "unit": "tsp",
+         "name": "cloves"
       },
       {
          "amount": 0,
@@ -33,11 +38,13 @@
       },
       {
          "amount": 1.5,
-         "name": "c. walnuts"
+         "unit": "cup",
+         "name": "walnuts"
       },
       {
          "amount": 2,
-         "name": "c. raisins"
+         "unit": "cup",
+         "name": "raisins"
       },
       {
          "amount": 0,

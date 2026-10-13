@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "gal. applesauce"
+         "unit": "gal",
+         "name": "applesauce"
       },
       {
          "amount": 4,
-         "name": "Tbsp. cider vinegar"
+         "unit": "tbsp",
+         "name": "cider vinegar"
       },
       {
          "amount": 8,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       }
    ],
    "instructions": "Cook in 325° or 350° oven until thick, then put into jars and seal. This takes several hours.",

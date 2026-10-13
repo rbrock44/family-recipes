@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 8,
-         "name": "oz. bacon (cooked and crumbled)"
+         "unit": "oz",
+         "name": "bacon (cooked and crumbled)"
       },
       {
          "amount": 9,
@@ -13,15 +14,18 @@
       },
       {
          "amount": 1.5,
-         "name": "c. (7 oz.) Swiss cheese, natural, coarsely shredded"
+         "unit": "cup",
+         "name": "(7 oz.) Swiss cheese, natural, coarsely shredded"
       },
       {
          "amount": 0.75,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0,
-         "name": "Dash cayenne"
+         "unit": "dash",
+         "name": "cayenne"
       },
       {
          "amount": 4,
@@ -33,15 +37,18 @@
       },
       {
          "amount": 0.25,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 0,
-         "name": "Dash nutmeg"
+         "unit": "dash",
+         "name": "nutmeg"
       },
       {
          "amount": 1.5,
-         "name": "c. half-and-half"
+         "unit": "cup",
+         "name": "half-and-half"
       }
    ],
    "instructions": "Bake pastry shell at 425° until lightly browned. Cool. Fry bacon until crisp, let cool, crumble. Saute mushrooms. Place bacon into pas- try shell. Sprinkle cheese and mushrooms over the bacon. Mix season- ings and sprinkle over cheese. Beat eggs and half-and-half together. Pour over cheese and bacon. Bake 45 minutes or until lightly browned and knife inserted into the center comes out clean.",

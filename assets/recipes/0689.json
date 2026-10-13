@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "Tbsp. peanut butter"
+         "unit": "tbsp",
+         "name": "peanut butter"
       },
       {
          "amount": 1,
-         "name": "pkg. (6 oz.) semi sweet chocolate morsels"
+         "unit": "pkg",
+         "name": "(6 oz.) semi sweet chocolate morsels"
       },
       {
          "amount": 2,
-         "name": "c. salted Spanish peanuts"
+         "unit": "cup",
+         "name": "salted Spanish peanuts"
       },
       {
          "amount": 1,
-         "name": "pkg. (6 oz.) butterscotch morsels"
+         "unit": "pkg",
+         "name": "(6 oz.) butterscotch morsels"
       }
    ],
    "instructions": "Combine peanut butter, butterscotch morsels and chocolate morsels in a heavy saucepan. Place over low heat and cook, stirring constantly, until melted. Stir in peanuts. Drop by rounded teaspoon onto waxed paper; chill until firm. Store in a covered container in refrigerator.",

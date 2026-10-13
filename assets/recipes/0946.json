@@ -5,19 +5,23 @@
   "ingredients": [
     {
       "amount": 3,
-      "name": "pints strawberries"
+      "unit": "pt",
+      "name": "strawberries"
     },
     {
       "amount": 1,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 3,
-      "name": "Tbsp. corn starch"
+      "unit": "tbsp",
+      "name": "corn starch"
     },
     {
       "amount": 2,
-      "name": "Tbsp. lemon juice"
+      "unit": "tbsp",
+      "name": "lemon juice"
     },
     {
       "amount": 0,

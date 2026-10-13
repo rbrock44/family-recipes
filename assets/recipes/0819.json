@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. instant cocoa"
+         "unit": "lb",
+         "name": "instant cocoa"
       },
       {
          "amount": 8,
-         "name": "c. powdered milk"
+         "unit": "cup",
+         "name": "powdered milk"
       },
       {
          "amount": 0.5,
-         "name": "lb. powdered sugar"
+         "unit": "lb",
+         "name": "powdered sugar"
       },
       {
          "amount": 3.5,
-         "name": "oz. powdered creamer"
+         "unit": "oz",
+         "name": "powdered creamer"
       }
    ],
    "instructions": "Mix together and store in tight container, To make cocoa, add of above mixture to 1 cup of hot water.",

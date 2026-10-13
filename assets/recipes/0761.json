@@ -9,15 +9,18 @@
       },
       {
          "amount": 0.5,
-         "name": "gal. raspberry sherbet, softened"
+         "unit": "gal",
+         "name": "raspberry sherbet, softened"
       },
       {
          "amount": 1,
-         "name": "c. chocolate chips"
+         "unit": "cup",
+         "name": "chocolate chips"
       },
       {
          "amount": 8,
-         "name": "oz. Cool Whip"
+         "unit": "oz",
+         "name": "Cool Whip"
       },
       {
          "amount": 24,

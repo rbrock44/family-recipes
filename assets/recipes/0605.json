@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 0.66,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 0.66,
-         "name": "c. butter or margarine"
+         "unit": "cup",
+         "name": "butter or margarine"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar, packed"
+         "unit": "cup",
+         "name": "brown sugar, packed"
       },
       {
          "amount": 2,
@@ -25,27 +29,33 @@
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 3.25,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts, optional"
+         "unit": "cup",
+         "name": "chopped nuts, optional"
       },
       {
          "amount": 1,
-         "name": "pkg. (12 oz.) chocolate chips"
+         "unit": "pkg",
+         "name": "(12 oz.) chocolate chips"
       }
    ],
    "instructions": "Heat oven to 375°. Mix thoroughly shortening, butter, sugars, eggs and vanilla. Blend in remaining ingredients. Drop dough by rounded teaspoonfuls 2 inches apart onto ungreased baking sheet. Bake 8 to 10 minutes or until light brown. Cool slightly before removing from baking sheet.",

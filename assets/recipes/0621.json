@@ -9,27 +9,33 @@
       },
       {
          "amount": 1.5,
-         "name": "c. lard"
+         "unit": "cup",
+         "name": "lard"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "c. chopped raisins"
+         "unit": "cup",
+         "name": "chopped raisins"
       },
       {
          "amount": 1,
-         "name": "tsp. cloves"
+         "unit": "tsp",
+         "name": "cloves"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 0,

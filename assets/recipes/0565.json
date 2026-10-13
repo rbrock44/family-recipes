@@ -5,43 +5,53 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. quick cooking oats"
+         "unit": "cup",
+         "name": "quick cooking oats"
       },
       {
          "amount": 1,
-         "name": "c. packed brown sugar"
+         "unit": "cup",
+         "name": "packed brown sugar"
       },
       {
          "amount": 1,
-         "name": "c. all purpose flour"
+         "unit": "cup",
+         "name": "all purpose flour"
       },
       {
          "amount": 2,
-         "name": "c. butter or margarine, melted"
+         "unit": "cup",
+         "name": "butter or margarine, melted"
       },
       {
          "amount": 0.75,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 0.25,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "pkg. (14 oz.) caramels"
+         "unit": "pkg",
+         "name": "(14 oz.) caramels"
       },
       {
          "amount": 0.33,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "c. chocolate chips"
+         "unit": "cup",
+         "name": "chocolate chips"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       }
    ],
    "instructions": "Combine the first six ingredients; sprinkle 1 cup into a greased 13 x 9 inch baking pan, (do not press). Bake at 350° for 10 minutes. In the top of a double boiler over boiling water, cook and stir caramels and milk until caramels are melted. Pour over crust. Top with chocolate chips and nuts. Sprinkle with remaining oat mixture. Bake at 350° for 10 minutes. Cool on a wire rack. Refrigerate to set the caramel.",

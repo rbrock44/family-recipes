@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "can French style green beans"
+      "unit": "can",
+      "name": "French style green beans"
     },
     {
       "amount": 1,
-      "name": "can whole kernel white corn"
+      "unit": "can",
+      "name": "whole kernel white corn"
     },
     {
       "amount": 1,
-      "name": "can peas (small can)"
+      "unit": "can",
+      "name": "peas (small can)"
     },
     {
       "amount": 1,
@@ -25,7 +28,8 @@
     },
     {
       "amount": 1,
-      "name": "c. celery, diced small"
+      "unit": "cup",
+      "name": "celery, diced small"
     },
     {
       "amount": 1,
@@ -33,19 +37,23 @@
     },
     {
       "amount": 1,
-      "name": "tsp. salt, and pepper to taste"
+      "unit": "tsp",
+      "name": "salt, and pepper to taste"
     },
     {
       "amount": 1,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 0.5,
-      "name": "c. oil"
+      "unit": "cup",
+      "name": "oil"
     },
     {
       "amount": 0.75,
-      "name": "c. vinegar"
+      "unit": "cup",
+      "name": "vinegar"
     }
   ],
   "instructions": "Drain all liquid from above items and mix together.\nAdd: 1 green pepper - diced small, 1 cup celery, diced small, 1 onion, chopped small, 1 teaspoon salt and then pepper to taste.\n\nMix 1 cup sugar, 1/2 cup oil, 3/4 cup vinegar. Add together in sauce pan and bring to a boil and boil 5 minutes.\n\nLet cool and then pour over the above mixed vegetables. Chill at least 2 hours before serving.",

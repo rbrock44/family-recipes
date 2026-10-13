@@ -9,23 +9,28 @@
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
@@ -33,7 +38,8 @@
       },
       {
          "amount": 0.5,
-         "name": "stick butter or margarine"
+         "unit": "stick",
+         "name": "butter or margarine"
       }
    ],
    "instructions": "Combine above, bake at 300° for 10 minutes.",

@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
@@ -17,11 +19,13 @@
       },
       {
          "amount": 1,
-         "name": "Tbsp. almond extract"
+         "unit": "tbsp",
+         "name": "almond extract"
       },
       {
          "amount": 3.5,
-         "name": "gal. vanilla ice cream (softened)"
+         "unit": "gal",
+         "name": "vanilla ice cream (softened)"
       },
       {
          "amount": 6,

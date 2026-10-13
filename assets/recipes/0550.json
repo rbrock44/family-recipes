@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. (4 serving size) instant pudding, any flavor"
+         "unit": "pkg",
+         "name": "(4 serving size) instant pudding, any flavor"
       },
       {
          "amount": 0.25,
-         "name": "c. confectioners sugar"
+         "unit": "cup",
+         "name": "confectioners sugar"
       },
       {
          "amount": 1,
-         "name": "c. cold milk"
+         "unit": "cup",
+         "name": "cold milk"
       },
       {
          "amount": 1,

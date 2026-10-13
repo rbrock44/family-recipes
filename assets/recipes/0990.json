@@ -5,23 +5,28 @@
   "ingredients": [
     {
       "amount": 1.5,
-      "name": "c. graham cracker crumbs"
+      "unit": "cup",
+      "name": "graham cracker crumbs"
     },
     {
       "amount": 0.5,
-      "name": "lb. oleo"
+      "unit": "lb",
+      "name": "oleo"
     },
     {
       "amount": 1,
-      "name": "c. peanut butter"
+      "unit": "cup",
+      "name": "peanut butter"
     },
     {
       "amount": 1,
-      "name": "lb. powdered sugar"
+      "unit": "lb",
+      "name": "powdered sugar"
     },
     {
       "amount": 2,
-      "name": "c. chocolate chips"
+      "unit": "cup",
+      "name": "chocolate chips"
     }
   ],
   "instructions": "Mix well until smooth, press into buttered 9x9\" pan.\n\nMelt over hot water:\n2 c. chocolate chips\nSpread over cracker mixture, refrigerate until firm, cut into squares.",

@@ -5,31 +5,38 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "lb. ground beef"
+      "unit": "lb",
+      "name": "ground beef"
     },
     {
       "amount": 3.5,
-      "name": "c. tomato juice"
+      "unit": "cup",
+      "name": "tomato juice"
     },
     {
       "amount": 1,
-      "name": "c. chopped green pepper"
+      "unit": "cup",
+      "name": "chopped green pepper"
     },
     {
       "amount": 0.5,
-      "name": "c. onion"
+      "unit": "cup",
+      "name": "onion"
     },
     {
       "amount": 0.5,
-      "name": "c. raw rice"
+      "unit": "cup",
+      "name": "raw rice"
     },
     {
       "amount": 0.5,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 0.5,
-      "name": "tsp. basil"
+      "unit": "tsp",
+      "name": "basil"
     },
     {
       "amount": 0,

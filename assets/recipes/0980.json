@@ -5,7 +5,8 @@
   "ingredients": [
     {
       "amount": 2,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 4,
@@ -17,15 +18,18 @@
     },
     {
       "amount": 1,
-      "name": "c. butter"
+      "unit": "cup",
+      "name": "butter"
     },
     {
       "amount": 1.5,
-      "name": "tsp. baking powder"
+      "unit": "tsp",
+      "name": "baking powder"
     },
     {
       "amount": 5,
-      "name": "c. flour, about"
+      "unit": "cup",
+      "name": "flour, about"
     }
   ],
   "instructions": "Cream sugar and butter, add eggs. Stir in flour until dough looks thick enough to roll.\nChill and roll small amount at a time.\nCut with cookie cutters. Sprinkle with sugar before baking.",

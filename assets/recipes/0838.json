@@ -9,19 +9,23 @@
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 3,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       }
    ],
    "instructions": "Beat well egg, salt and milk. Add baking powder and flour. Mix well. Fry in pan of deep fat; pour through in a spider web design. Eat as waffles, with syrup; crispy and brown.",

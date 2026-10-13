@@ -9,43 +9,53 @@
     },
     {
       "amount": 1.5,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     },
     {
       "amount": 2,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 4,
-      "name": "Tbsp. cocoa"
+      "unit": "tbsp",
+      "name": "cocoa"
     },
     {
       "amount": 2,
-      "name": "sticks melted oleo"
+      "unit": "stick",
+      "name": "melted oleo"
     },
     {
       "amount": 1,
-      "name": "c. nuts"
+      "unit": "cup",
+      "name": "nuts"
     },
     {
       "amount": 1,
-      "name": "stick oleo (icing)"
+      "unit": "stick",
+      "name": "oleo (icing)"
     },
     {
       "amount": 6,
-      "name": "Tbsp. milk (icing)"
+      "unit": "tbsp",
+      "name": "milk (icing)"
     },
     {
       "amount": 4,
-      "name": "Tbsp. cocoa (icing)"
+      "unit": "tbsp",
+      "name": "cocoa (icing)"
     },
     {
       "amount": 1,
-      "name": "box powdered sugar (icing)"
+      "unit": "box",
+      "name": "powdered sugar (icing)"
     },
     {
       "amount": 1,
-      "name": "c. nuts (icing)"
+      "unit": "cup",
+      "name": "nuts (icing)"
     }
   ],
   "instructions": "Mix well: 4 eggs, 1 1/2 c flour, 2 c sugar, 4 Tbsp cocoa, 2 sticks melted oleo, 1 c nuts.\nBake 375 for 30 min. While hot sprinkle with miniature marshmallows, melt, remove and cool.\n\nICING:\n1 stick oleo, 6 Tbsp milk, 4 Tbsp cocoa, 1 box powdered sugar, 1 c nuts.\nSpread on cooled cake over marshmallows.",

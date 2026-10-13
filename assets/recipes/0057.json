@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 1.33,
-         "name": "c. graham cracker crumbs"
+         "unit": "cup",
+         "name": "graham cracker crumbs"
       },
       {
          "amount": 6,
-         "name": "Tbsp. sugar"
+         "unit": "tbsp",
+         "name": "sugar"
       },
       {
          "amount": 4,
-         "name": "Tbsp. margarine melted"
+         "unit": "tbsp",
+         "name": "margarine melted"
       },
       {
          "amount": 2,
-         "name": "pkg. vanilla pudding"
+         "unit": "pkg",
+         "name": "vanilla pudding"
       },
       {
          "amount": 2,
-         "name": "pkg. peach Jell-O"
+         "unit": "pkg",
+         "name": "peach Jell-O"
       },
       {
          "amount": 3.5,
@@ -29,11 +34,13 @@
       },
       {
          "amount": 1,
-         "name": "can peaches, drained and diced"
+         "unit": "can",
+         "name": "peaches, drained and diced"
       },
       {
          "amount": 12,
-         "name": "oz. whipped topping"
+         "unit": "oz",
+         "name": "whipped topping"
       }
    ],
    "instructions": "Mix together graham cracker crumbs, sugar and margarine. Make crust of 1/2 mixture in 9 x 13 inch pan. Do not bake or chill. Combine pudding, Jell-O and water in sauce pan. Cook and stir over medi- um heat until mixture comes to a full boil. Pour into bowl and chill until it begins to jell. Add peaches and fold in whipped topping. Then spoon into crust and sprinkle with remaining crumbs. Chill.",

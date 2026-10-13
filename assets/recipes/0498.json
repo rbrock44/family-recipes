@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 6,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 0.5,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 1,
-         "name": "c. nuts"
+         "unit": "cup",
+         "name": "nuts"
       },
       {
          "amount": 1,
-         "name": "c. coconut"
+         "unit": "cup",
+         "name": "coconut"
       }
    ],
    "instructions": "Mix ingredients together, pour over cake. Broil in broiler until brown.",

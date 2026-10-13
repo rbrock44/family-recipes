@@ -9,43 +9,53 @@
     },
     {
       "amount": 1,
-      "name": "c. oil"
+      "unit": "cup",
+      "name": "oil"
     },
     {
       "amount": 2,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 2,
-      "name": "tsp. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     },
     {
       "amount": 2,
-      "name": "c. grated zucchini"
+      "unit": "cup",
+      "name": "grated zucchini"
     },
     {
       "amount": 1,
-      "name": "tsp. soda"
+      "unit": "tsp",
+      "name": "soda"
     },
     {
       "amount": 1,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "tsp. cinnamon"
+      "unit": "tsp",
+      "name": "cinnamon"
     },
     {
       "amount": 0.5,
-      "name": "tsp. baking powder"
+      "unit": "tsp",
+      "name": "baking powder"
     },
     {
       "amount": 3,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     },
     {
       "amount": 0.5,
-      "name": "c. chopped nuts"
+      "unit": "cup",
+      "name": "chopped nuts"
     }
   ],
   "instructions": "Cream together and add:\n\nBlend together, add 1/2 c chopped nuts\nPour into 2 greased and floured loaf pans\nBake 325 for 1 hr.",

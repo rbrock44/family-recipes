@@ -13,30 +13,36 @@
       },
       {
          "amount": 1,
-         "name": "c. sour cream"
+         "unit": "cup",
+         "name": "sour cream"
       },
       {
          "amount": 0.5,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 4,
-         "name": "tbl butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "tsp salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.5,
-         "name": "tsp pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 1,
-         "name": "c. chedder cheese"
+         "unit": "cup",
+         "name": "cheddar cheese"
       }
    ],
-   "instructions": "Preheat oven 350°. Bake Potatoes for 1 hour or until done. Fry bacon in small pieces - set aside. Cut potatoes lengthwise. Scoopout potatoes, leaving 1/4 inch in skins. Mix potatoe pulp, sour cream, milk butter, salt & pepper with blender until smooth. Add cheese & bacon. Fill shells and bake 15 mins. Top w/ extra cheese & bacan",
+   "instructions": "Preheat oven 350°. Bake Potatoes for 1 hour or until done. Fry bacon in small pieces - set aside. Cut potatoes lengthwise. Scoopout potatoes, leaving 1/4 inch in skins. Mix potato pulp, sour cream, milk butter, salt & pepper with blender until smooth. Add cheese & bacon. Fill shells and bake 15 mins. Top w/ extra cheese & bacan",
    "yield": {
       "amount": 0,
       "name": ""

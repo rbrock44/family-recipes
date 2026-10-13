@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "qt. frozen strawberries, mashed"
+         "unit": "qt",
+         "name": "frozen strawberries, mashed"
       },
       {
          "amount": 4,
-         "name": "Tbsp. cornstarch"
+         "unit": "tbsp",
+         "name": "cornstarch"
       },
       {
          "amount": 2,
-         "name": "boxes strawberry flavored Jell-O"
+         "unit": "box",
+         "name": "strawberry flavored Jell-O"
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "Tbsp. butter"
+         "unit": "tbsp",
+         "name": "butter"
       },
       {
          "amount": 2,

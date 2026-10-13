@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "qt. popped corn"
+         "unit": "qt",
+         "name": "popped corn"
       },
       {
          "amount": 1,
-         "name": "c. brown sugar"
+         "unit": "cup",
+         "name": "brown sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 0.5,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 0.25,
-         "name": "c. light corn syrup"
+         "unit": "cup",
+         "name": "light corn syrup"
       },
       {
          "amount": 0.5,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       }
    ],
    "instructions": "Stir all ingredients, except popcorn and baking soda, in a micro- wave safe bowl. Cook for 3 to 4 minutes, stirring after each minute. Microwave 2 more minutes. Put popped corn in brown bag. Add baking soda to sugar mixture. Pour mixture over corn. Put bag in microwave for 1 1/2 minutes.",

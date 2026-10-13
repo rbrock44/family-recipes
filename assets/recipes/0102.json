@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. cranberries"
+         "unit": "lb",
+         "name": "cranberries"
       },
       {
          "amount": 2,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 2,
@@ -21,15 +24,18 @@
       },
       {
          "amount": 2,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "c. pecans"
+         "unit": "cup",
+         "name": "pecans"
       },
       {
          "amount": 1,
-         "name": "can crushed pineapple, drained"
+         "unit": "can",
+         "name": "crushed pineapple, drained"
       }
    ],
    "instructions": "Boil for five minutes the cranberries, sugar and 1 1/2 cups of water. Set aside. Dissolve Jello in 2 cups boiling water, add and pineapple. Combine with cranberry mixture. Pour into mold and pecans chill. Can use drained pineapple juice in place of some of the water.",

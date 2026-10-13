@@ -13,19 +13,23 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 3,
-         "name": "Tbsp. flour"
+         "unit": "tbsp",
+         "name": "flour"
       },
       {
          "amount": 2,
-         "name": "Tbsp. water"
+         "unit": "tbsp",
+         "name": "water"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       }
    ],
    "instructions": "Peel and slice the apples. Mix remaining ingredients in bowl and pour into pie shell. Top with remaining crust. Sprinkle with sugar, bake at 400° for about 35 minutes.",

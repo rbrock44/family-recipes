@@ -25,11 +25,13 @@
       },
       {
          "amount": 2,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,
-         "name": "lb. ground pork"
+         "unit": "lb",
+         "name": "ground pork"
       }
    ],
    "instructions": "Mix and bake in buttered pan for two hours. Drain and top with tomato soup. Heat until soup is hot.",

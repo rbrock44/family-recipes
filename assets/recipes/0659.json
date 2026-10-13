@@ -9,19 +9,23 @@
       },
       {
          "amount": 6,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.25,
-         "name": "c. melted butter"
+         "unit": "cup",
+         "name": "melted butter"
       },
       {
          "amount": 3,
-         "name": "tsp. hartshorn"
+         "unit": "tsp",
+         "name": "hartshorn"
       },
       {
          "amount": 1,
-         "name": "tsp. anise oil"
+         "unit": "tsp",
+         "name": "anise oil"
       },
       {
          "amount": 0,

@@ -5,27 +5,33 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. apple cider vinegar (no other)"
+         "unit": "cup",
+         "name": "apple cider vinegar (no other)"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 0.5,
-         "name": "c. Crisco oil (no other)"
+         "unit": "cup",
+         "name": "Crisco oil (no other)"
       },
       {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       },
       {
          "amount": 1,
-         "name": "tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 4,
-         "name": "gal. cut slaw, approximately"
+         "unit": "gal",
+         "name": "cut slaw, approximately"
       },
       {
          "amount": 0,

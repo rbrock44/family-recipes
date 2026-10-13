@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "oz. red food coloring"
+         "unit": "oz",
+         "name": "red food coloring"
       },
       {
          "amount": 2,
-         "name": "tsp. cocoa"
+         "unit": "tsp",
+         "name": "cocoa"
       },
       {
          "amount": 0.5,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 2,
@@ -21,31 +24,38 @@
       },
       {
          "amount": 1.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 1,
-         "name": "c. buttermilk"
+         "unit": "cup",
+         "name": "buttermilk"
       },
       {
          "amount": 2.5,
-         "name": "c. sifted flour"
+         "unit": "cup",
+         "name": "sifted flour"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "Tbsp. vinegar"
+         "unit": "tbsp",
+         "name": "vinegar"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       }
    ],
    "instructions": "Mix together above ingredients.",

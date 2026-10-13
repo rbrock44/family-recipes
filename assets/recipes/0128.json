@@ -5,23 +5,28 @@
    "ingredients": [
       {
          "amount": 3,
-         "name": "lb. roast, cut up in 2 inch cubes "
+         "unit": "lb",
+         "name": "roast, cut up in 2 inch cubes"
       },
       {
          "amount": 2,
-         "name": "tsp. salt"
+         "unit": "tsp",
+         "name": "salt"
       },
       {
          "amount": 2,
-         "name": " tsp. pepper"
+         "unit": "tsp",
+         "name": "pepper"
       },
       {
          "amount": 0.25,
-         "name": "c. onion, chopped "
+         "unit": "cup",
+         "name": "onion, chopped"
       },
       {
          "amount": 1,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       }
    ],
    "instructions": "Mix beef in bowl with flour, salt, pepper and onion until well coated. Put in a greased roasting pan with 1 cup of water. Bake at 400° for 30 minutes then turn oven down to 350° and bake for 3 hours. Check every hour to make sure it has enough water if needed. Add kitchen bouquet if needed when meat is done.",

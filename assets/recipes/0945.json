@@ -5,19 +5,23 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "stick oleo"
+      "unit": "stick",
+      "name": "oleo"
     },
     {
       "amount": 1,
-      "name": "T. flour"
+      "unit": "tbsp",
+      "name": "flour"
     },
     {
       "amount": 1,
-      "name": "tsp. vanilla"
+      "unit": "tsp",
+      "name": "vanilla"
     },
     {
       "amount": 2,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 3,
@@ -25,7 +29,8 @@
     },
     {
       "amount": 0.5,
-      "name": "c. buttermilk"
+      "unit": "cup",
+      "name": "buttermilk"
     }
   ],
   "instructions": "Pour in unbaked pie shell.\n400° for 10 min\nreduce to 350° for 30 min",

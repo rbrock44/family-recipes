@@ -5,27 +5,33 @@
   "ingredients": [
     {
       "amount": 1.5,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "c. pitted dates"
+      "unit": "cup",
+      "name": "pitted dates"
     },
     {
       "amount": 0.5,
-      "name": "c. Pet milk"
+      "unit": "cup",
+      "name": "Pet milk"
     },
     {
       "amount": 0.5,
-      "name": "c. nuts"
+      "unit": "cup",
+      "name": "nuts"
     },
     {
       "amount": 2,
-      "name": "tsp. butter"
+      "unit": "tsp",
+      "name": "butter"
     },
     {
       "amount": 2,
-      "name": "tsp. powdered sugar"
+      "unit": "tsp",
+      "name": "powdered sugar"
     }
   ],
   "instructions": "Cook sugar, dates, and milk to soft ball stage, cool to lukewarm. Add nuts and butter.\nBeat until thick and cool.\nPowder board with powdered sugar and knead.\nShape into roll and let stand 24 hrs. before slicing.",

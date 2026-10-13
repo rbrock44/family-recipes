@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped onion"
+         "unit": "cup",
+         "name": "chopped onion"
       },
       {
          "amount": 2,
-         "name": "cans tomato sauce"
+         "unit": "can",
+         "name": "tomato sauce"
       },
       {
          "amount": 2,
-         "name": "Tbsp. chili powder"
+         "unit": "tbsp",
+         "name": "chili powder"
       },
       {
          "amount": 0,
@@ -25,11 +29,13 @@
       },
       {
          "amount": 1,
-         "name": "c. Cheddar cheese, shredded"
+         "unit": "cup",
+         "name": "Cheddar cheese, shredded"
       },
       {
          "amount": 1,
-         "name": "can pinto beans, drained"
+         "unit": "can",
+         "name": "pinto beans, drained"
       },
       {
          "amount": 1,

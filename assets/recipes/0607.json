@@ -9,23 +9,28 @@
       },
       {
          "amount": 1,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       },
       {
          "amount": 0.66,
-         "name": "c. shortening"
+         "unit": "cup",
+         "name": "shortening"
       },
       {
          "amount": 1,
-         "name": "pkg. Betty Crocker cake mix"
+         "unit": "pkg",
+         "name": "Betty Crocker cake mix"
       },
       {
          "amount": 1,
-         "name": "pkg. (6 oz.) semi-sweet chocolate chips"
+         "unit": "pkg",
+         "name": "(6 oz.) semi-sweet chocolate chips"
       },
       {
          "amount": 0.5,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 0,

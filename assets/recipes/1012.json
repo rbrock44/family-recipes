@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "c. salt"
+      "unit": "cup",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "c. warm water"
+      "unit": "cup",
+      "name": "warm water"
     },
     {
       "amount": 2.5,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     }
   ],
   "instructions": "1 c salt dissolved in 1 c warm water.\nAdd 2 1/2 c flour",

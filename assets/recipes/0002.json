@@ -9,22 +9,26 @@
       },
       {
          "amount": 12,
-         "name": "oz. chocolate chips"
+         "unit": "oz",
+         "name": "chocolate chips"
       },
       {
          "amount": 1.5,
-         "name": "c. peanut butter"
+         "unit": "cup",
+         "name": "peanut butter"
       },
       {
          "amount": 1,
-         "name": "stick of butter"
+         "unit": "stick",
+         "name": "of butter"
       },
       {
          "amount": 1,
-         "name": "box powdered suger"
+         "unit": "box",
+         "name": "powdered sugar"
       }
    ],
-   "instructions": "Pour cereal into large Tupperware bowl. In small saucepan melt chocolate chips, peanut butter and butter. Pour over cereal and shake until coated. Open bowl and add powdered suger. Shake untill coated",
+   "instructions": "Pour cereal into large Tupperware bowl. In small saucepan melt chocolate chips, peanut butter and butter. Pour over cereal and shake until coated. Open bowl and add powdered sugar. Shake until coated",
    "yield": {
       "amount": 0,
       "name": ""

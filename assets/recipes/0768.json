@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "stick margarine"
+         "unit": "stick",
+         "name": "margarine"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
@@ -17,39 +19,48 @@
       },
       {
          "amount": 1,
-         "name": "c. sour cream"
+         "unit": "cup",
+         "name": "sour cream"
       },
       {
          "amount": 1.75,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "tsp. baking soda"
+         "unit": "tsp",
+         "name": "baking soda"
       },
       {
          "amount": 1,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       },
       {
          "amount": 0,
-         "name": "Pinch of salt"
+         "unit": "pinch",
+         "name": "of salt"
       },
       {
          "amount": 0.5,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "tsp. cinnamon"
+         "unit": "tsp",
+         "name": "cinnamon"
       },
       {
          "amount": 1,
-         "name": "c. chopped nuts"
+         "unit": "cup",
+         "name": "chopped nuts"
       },
       {
          "amount": 2,
-         "name": "c. sifted powdered sugar"
+         "unit": "cup",
+         "name": "sifted powdered sugar"
       },
       {
          "amount": 0,
@@ -57,7 +68,8 @@
       },
       {
          "amount": 2,
-         "name": "tsp. vanilla"
+         "unit": "tsp",
+         "name": "vanilla"
       }
    ],
    "instructions": "Cream together margarine, 1 cup sugar; add eggs and sour cream. Cream thoroughly. Sift together flour, baking soda, baking powder and salt. Add 1⁄2 of flour mixture to sour cream mixture, stir until smooth. Add remaining flour and 1 teaspoon vanilla, stir until smooth. Pour 1⁄2 batter into greased and floured pan, sprinkle with mixture of 1⁄2 cup sugar, 1 tsp. cinnamon, 1 c. chopped nuts. Pour remaining batter over cinnamon mixture. Bake 30 minutes at 325°. Glaze: Mix together powdered sugar, milk, and 1 teaspoon vanilla. Heat to dissolve and pour over hot cake.",

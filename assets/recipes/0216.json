@@ -9,7 +9,8 @@
       },
       {
          "amount": 0.66,
-         "name": "c. Italian style bread crumbs"
+         "unit": "cup",
+         "name": "Italian style bread crumbs"
       },
       {
          "amount": 8,

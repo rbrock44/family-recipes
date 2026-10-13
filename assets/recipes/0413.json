@@ -9,27 +9,33 @@
       },
       {
          "amount": 2,
-         "name": "tsp. olive oil"
+         "unit": "tsp",
+         "name": "olive oil"
       },
       {
          "amount": 2,
-         "name": "Tbsp. chopped fresh parsley"
+         "unit": "tbsp",
+         "name": "chopped fresh parsley"
       },
       {
          "amount": 2,
-         "name": "Tbsp. chopped fresh thyme"
+         "unit": "tbsp",
+         "name": "chopped fresh thyme"
       },
       {
          "amount": 2,
-         "name": "tsp. chopped fresh marjoram or 3/4 tsp. dried marjoram"
+         "unit": "tsp",
+         "name": "chopped fresh marjoram or 3/4 tsp. dried marjoram"
       },
       {
          "amount": 0.5,
-         "name": "tsp. paprika"
+         "unit": "tsp",
+         "name": "paprika"
       },
       {
          "amount": 2,
-         "name": "Tbsp. grated Parmesan cheese (optional)"
+         "unit": "tbsp",
+         "name": "grated Parmesan cheese (optional)"
       },
       {
          "amount": 2,

@@ -5,15 +5,18 @@
   "ingredients": [
     {
       "amount": 3,
-      "name": "cups sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
-      "name": "bag fresh cranberries"
+      "unit": "bag",
+      "name": "fresh cranberries"
     },
     {
       "amount": 2,
-      "name": "cups water"
+      "unit": "cup",
+      "name": "water"
     },
     {
       "amount": 2,
@@ -25,23 +28,28 @@
     },
     {
       "amount": 1,
-      "name": "cup finely chopped pecans"
+      "unit": "cup",
+      "name": "finely chopped pecans"
     },
     {
       "amount": 8,
-      "name": "ounces Philadelphia cream cheese (topping)"
+      "unit": "oz",
+      "name": "Philadelphia cream cheese (topping)"
     },
     {
       "amount": 3,
-      "name": "tablespoons sugar (topping)"
+      "unit": "tbsp",
+      "name": "sugar (topping)"
     },
     {
       "amount": 10.5,
-      "name": "ounces marshmallows (topping)"
+      "unit": "oz",
+      "name": "marshmallows (topping)"
     },
     {
       "amount": 12,
-      "name": "ounces Cool Whip (topping)"
+      "unit": "oz",
+      "name": "Cool Whip (topping)"
     }
   ],
   "instructions": "Cook until berries pop open. Set off heat and add sugar, jello, pineapple, pecans. Pour into 9 x 13 inch pan and refrigerate until firm.\n\nSalad topping: (no combining directions given on card for the topping ingredients above)",

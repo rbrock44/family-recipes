@@ -7,13 +7,15 @@
          "amount": 2,
          "name": "mangos, peeled & pitted"
       },
-	  {
+      {
          "amount": 2,
-         "name": "c. orange juice"
+         "unit": "cup",
+         "name": "orange juice"
       },
       {
          "amount": 12,
-         "name": "oz. lower non-fat plain yogurt"
+         "unit": "oz",
+         "name": "lower non-fat plain yogurt"
       },
       {
          "amount": 2,

@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 0.5,
-         "name": "c. firmly packed brown sugar"
+         "unit": "cup",
+         "name": "firmly packed brown sugar"
       },
       {
          "amount": 1,

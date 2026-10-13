@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 0.66,
-         "name": "c. sour milk"
+         "unit": "cup",
+         "name": "sour milk"
       },
       {
          "amount": 1,
-         "name": "c. raisins"
+         "unit": "cup",
+         "name": "raisins"
       },
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
@@ -21,11 +24,13 @@
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 1,
-         "name": "c. butter or oleo"
+         "unit": "cup",
+         "name": "butter or oleo"
       },
       {
          "amount": 2,
@@ -33,7 +38,8 @@
       },
       {
          "amount": 1,
-         "name": "tsp. soda"
+         "unit": "tsp",
+         "name": "soda"
       }
    ],
    "instructions": "Cream sugar, butter, and eggs. Dissolve soda in sour milk and add to egg mixture. Grind orange (rinds and juice) and raisins. Add to mixture. Glaze with powdered sugar and orange juice.",

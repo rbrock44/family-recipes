@@ -5,7 +5,8 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "c. sweet milk"
+         "unit": "cup",
+         "name": "sweet milk"
       },
       {
          "amount": 2,
@@ -13,15 +14,18 @@
       },
       {
          "amount": 0.5,
-         "name": "c. butter"
+         "unit": "cup",
+         "name": "butter"
       },
       {
          "amount": 1,
-         "name": "c. sugar"
+         "unit": "cup",
+         "name": "sugar"
       },
       {
          "amount": 2,
-         "name": "tsp. baking powder"
+         "unit": "tsp",
+         "name": "baking powder"
       }
    ],
    "instructions": "Mix all ingredients together and beat well. Pour into well greased pan and bake at 350° until done.",

@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "c. flour"
+         "unit": "cup",
+         "name": "flour"
       },
       {
          "amount": 1,
-         "name": "Tbsp. salt"
+         "unit": "tbsp",
+         "name": "salt"
       },
       {
          "amount": 1,

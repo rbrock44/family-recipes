@@ -5,15 +5,18 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "lb. macaroni, cooked"
+         "unit": "lb",
+         "name": "macaroni, cooked"
       },
       {
          "amount": 1,
-         "name": "stick margarine or butter"
+         "unit": "stick",
+         "name": "margarine or butter"
       },
       {
          "amount": 0.33,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 0.33,

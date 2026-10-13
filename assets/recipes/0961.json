@@ -5,23 +5,28 @@
   "ingredients": [
     {
       "amount": 0.33,
-      "name": "c. warm water"
+      "unit": "cup",
+      "name": "warm water"
     },
     {
       "amount": 1.5,
-      "name": "pkg. yeast"
+      "unit": "pkg",
+      "name": "yeast"
     },
     {
       "amount": 1,
-      "name": "c. warm milk"
+      "unit": "cup",
+      "name": "warm milk"
     },
     {
       "amount": 0.25,
-      "name": "c. melted shortening"
+      "unit": "cup",
+      "name": "melted shortening"
     },
     {
       "amount": 0.5,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 1,
@@ -29,7 +34,8 @@
     },
     {
       "amount": 3.5,
-      "name": "c. flour"
+      "unit": "cup",
+      "name": "flour"
     },
     {
       "amount": 0,
@@ -41,11 +47,13 @@
     },
     {
       "amount": 0.33,
-      "name": "c. sugar"
+      "unit": "cup",
+      "name": "sugar"
     },
     {
       "amount": 2,
-      "name": "tsp. cinnamon"
+      "unit": "tsp",
+      "name": "cinnamon"
     },
     {
       "amount": 0,

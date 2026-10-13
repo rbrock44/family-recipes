@@ -5,19 +5,23 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "can cream of chicken soup"
+         "unit": "can",
+         "name": "cream of chicken soup"
       },
       {
          "amount": 1,
-         "name": "can cream of mushroom soup"
+         "unit": "can",
+         "name": "cream of mushroom soup"
       },
       {
          "amount": 1,
-         "name": "can enchilada sauce"
+         "unit": "can",
+         "name": "enchilada sauce"
       },
       {
          "amount": 1,
-         "name": "lb. ground beef"
+         "unit": "lb",
+         "name": "ground beef"
       },
       {
          "amount": 1,

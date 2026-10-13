@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 1,
-         "name": "pkg. Lipton onion soup mix"
+         "unit": "pkg",
+         "name": "Lipton onion soup mix"
       },
       {
          "amount": 2,
-         "name": "Tbsp. oil"
+         "unit": "tbsp",
+         "name": "oil"
       },
       {
          "amount": 6,
@@ -17,7 +19,8 @@
       },
       {
          "amount": 0.5,
-         "name": "c. water"
+         "unit": "cup",
+         "name": "water"
       }
    ],
    "instructions": "Wash potatoes and quarter, leave peeling on. Mix soup, oil, and water. Pour over potatoes. Bake 1 hour at 400°. Stir 3 times.",

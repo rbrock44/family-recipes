@@ -21,35 +21,43 @@
     },
     {
       "amount": 0.5,
-      "name": "c. sugar (sprinkled over layers)"
+      "unit": "cup",
+      "name": "sugar (sprinkled over layers)"
     },
     {
       "amount": 1,
-      "name": "c. white vinegar"
+      "unit": "cup",
+      "name": "white vinegar"
     },
     {
       "amount": 2,
-      "name": "Tbsp. sugar"
+      "unit": "tbsp",
+      "name": "sugar"
     },
     {
       "amount": 0.5,
-      "name": "tsp. garlic salt"
+      "unit": "tsp",
+      "name": "garlic salt"
     },
     {
       "amount": 1,
-      "name": "tsp. celery seed"
+      "unit": "tsp",
+      "name": "celery seed"
     },
     {
       "amount": 0.75,
-      "name": "c. oil"
+      "unit": "cup",
+      "name": "oil"
     },
     {
       "amount": 1,
-      "name": "tsp. salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "tsp. dry mustard"
+      "unit": "tsp",
+      "name": "dry mustard"
     }
   ],
   "instructions": "Layer in a bowl, over each layer sprinkle sugar until you have used 1/2 cup.\n\nBoil: 1 c white vinegar, 2 Tbsp sugar, 1/2 tsp garlic salt, 1 tsp celery seed, 3/4 c. oil, 1 tsp salt, 1 tsp dry mustard.\n\nPour over vegetables, wait 1 hr. mix lightly. Set aside for 2-3 hrs. Mix again and serve.\nStays fresh for 3-4 days.",

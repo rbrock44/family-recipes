@@ -5,11 +5,13 @@
    "ingredients": [
       {
          "amount": 2,
-         "name": "boxes instant vanilla pudding"
+         "unit": "box",
+         "name": "instant vanilla pudding"
       },
       {
          "amount": 3,
-         "name": "c. milk"
+         "unit": "cup",
+         "name": "milk"
       },
       {
          "amount": 1,
@@ -21,7 +23,8 @@
       },
       {
          "amount": 2,
-         "name": "cans cherry pie filling"
+         "unit": "can",
+         "name": "cherry pie filling"
       },
       {
          "amount": 6,

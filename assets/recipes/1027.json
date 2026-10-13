@@ -5,59 +5,73 @@
   "ingredients": [
     {
       "amount": 1,
-      "name": "can red kidney beans, drained"
+      "unit": "can",
+      "name": "red kidney beans, drained"
     },
     {
       "amount": 1,
-      "name": "can whole beets, drained and quartered"
+      "unit": "can",
+      "name": "whole beets, drained and quartered"
     },
     {
       "amount": 1,
-      "name": "lb. summer squash, sliced and blanched"
+      "unit": "lb",
+      "name": "summer squash, sliced and blanched"
     },
     {
       "amount": 2,
-      "name": "cups cherry tomatoes"
+      "unit": "cup",
+      "name": "cherry tomatoes"
     },
     {
       "amount": 0.5,
-      "name": "lb carrots, cut in 3 inch strips"
+      "unit": "lb",
+      "name": "carrots, cut in 3 inch strips"
     },
     {
       "amount": 1,
-      "name": "pkg 9oz frozen green beans"
+      "unit": "pkg",
+      "name": "9oz frozen green beans"
     },
     {
       "amount": 1.5,
-      "name": "c corn oil"
+      "unit": "cup",
+      "name": "corn oil"
     },
     {
       "amount": 0.33,
-      "name": "c lemon juice"
+      "unit": "cup",
+      "name": "lemon juice"
     },
     {
       "amount": 2.5,
-      "name": "tsp salt"
+      "unit": "tsp",
+      "name": "salt"
     },
     {
       "amount": 1,
-      "name": "tsp dry mustard"
+      "unit": "tsp",
+      "name": "dry mustard"
     },
     {
       "amount": 0.33,
-      "name": "c vinegar"
+      "unit": "cup",
+      "name": "vinegar"
     },
     {
       "amount": 0.25,
-      "name": "c grated onion"
+      "unit": "cup",
+      "name": "grated onion"
     },
     {
       "amount": 1,
-      "name": "tsp sugar"
+      "unit": "tsp",
+      "name": "sugar"
     },
     {
       "amount": 0.5,
-      "name": "tsp pepper"
+      "unit": "tsp",
+      "name": "pepper"
     }
   ],
   "instructions": "Marinate beets and beans separately.\n\nMarinate: Mix corn oil, lemon juice, salt, dry mustard, vinegar, grated onion, sugar and pepper in jar and cover tightly and shake well.\nUse as marinate or salad dressing.",
