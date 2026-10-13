@@ -60,6 +60,7 @@ describe('CommandPaletteComponent', () => {
       listsUrl: vi.fn(),
       setEmptyRecipe: vi.fn(),
       selectedRecipe: { ...EMPTY_RECIPE },
+      cookMode: false,
     } as unknown as Mocked<RecipeService>;
     service.isFullyLoaded.mockReturnValue(true);
     service.allRecipes.mockReturnValue(RECIPES);
@@ -118,6 +119,14 @@ describe('CommandPaletteComponent', () => {
     fixture.detectChanges();
 
     expect(palette.isOpen()).toBe(true);
+    expect(fab.classList).toContain('hidden');
+  });
+
+  it('should hide the floating jump button in cook mode', () => {
+    service.cookMode = true;
+    fixture.detectChanges();
+
+    const fab = element().querySelector('[data-jump-fab]') as HTMLButtonElement;
     expect(fab.classList).toContain('hidden');
   });
 

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { CookProgress } from '../models/cook-progress.interface';
 import { CustomIngredient } from '../models/custom-ingredient.interface';
 import { Recipe } from '../models/recipe.interface';
 import { RecipeList } from '../models/recipe-list.interface';
@@ -20,6 +21,7 @@ export class RecipeReaderService {
   COLLAPSED_LIST_INGREDIENTS_NAME = "family-recipe-list-ingredients-collapsed"
   RANDOM_PICKS_NAME = "family-recipe-list-random-picks"
   RANDOM_CURRENT_NAME = "family-recipe-list-random-current"
+  COOK_PROGRESS_NAME = "family-recipe-cook-progress"
 
   constructor(private http: HttpClient) {
   }
@@ -264,6 +266,26 @@ export class RecipeReaderService {
 
   private readAllRandomCurrent(): Record<string, string> {
     return this.readStorage(this.RANDOM_CURRENT_NAME, {});
+  }
+
+  readCookProgress(filename: string): CookProgress | undefined {
+    return this.readAllCookProgress()[filename];
+  }
+
+  setCookProgress(filename: string, progress: CookProgress | null): void {
+    const all = this.readAllCookProgress();
+
+    if (progress) {
+      all[filename] = progress;
+    } else {
+      delete all[filename];
+    }
+
+    this.writeStorage(this.COOK_PROGRESS_NAME, all);
+  }
+
+  private readAllCookProgress(): Record<string, CookProgress> {
+    return this.readStorage(this.COOK_PROGRESS_NAME, {});
   }
 
   // Corrupt values or blocked storage (some private modes) should not break the page.

@@ -158,6 +158,11 @@ export class CommandPaletteComponent {
     }
   }
 
+  /** Cook mode fills the screen and has its own buttons where the floating one sits. */
+  cooking(): boolean {
+    return this.service.cookMode;
+  }
+
   close(): void {
     this.palette.close();
     this.returnFocusTo?.focus();

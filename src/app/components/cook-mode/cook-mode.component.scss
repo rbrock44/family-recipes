@@ -1,0 +1,215 @@
+/* Read from across the kitchen: big type, plain light panels, nothing decorative. */
+.cook-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    background: var(--brand-900);
+    color: var(--ink);
+    outline: none;
+}
+
+.cook-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1rem 0.75rem;
+    color: #fff;
+}
+
+.cook-header button {
+    color: #fff;
+}
+
+.cook-title h1 {
+    margin: 0;
+    font-size: clamp(1.4rem, 5vw, 2.4rem);
+    line-height: 1.15;
+}
+
+.cook-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0.35rem 0 0;
+    color: #d9c9f7;
+    font-size: 1rem;
+}
+
+.cook-wake {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.cook-wake mat-icon {
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+}
+
+.cook-body {
+    flex: 1;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    padding: 0 1rem 1rem;
+    overflow-y: auto;
+}
+
+.cook-panel {
+    padding: 1rem 1.25rem;
+    border-radius: var(--radius-lg);
+    background: #fdfbff;
+}
+
+.cook-panel h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.4rem;
+}
+
+.cook-panel ul,
+.cook-panel ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cook-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    border: 0;
+    border-radius: var(--radius-md);
+    background: transparent;
+    color: var(--ink);
+    font: inherit;
+    font-size: 1.3rem;
+    line-height: 1.45;
+    text-align: left;
+    cursor: pointer;
+}
+
+.cook-item:hover {
+    background: var(--table-stripe);
+}
+
+.cook-item:focus-visible {
+    outline: 3px solid var(--brand-500);
+    outline-offset: 1px;
+}
+
+.cook-item mat-icon {
+    flex-shrink: 0;
+    margin-top: 0.15rem;
+    color: var(--brand-500);
+}
+
+.cook-item.checked .cook-text {
+    color: var(--ink-muted);
+    text-decoration: line-through;
+}
+
+.cook-step.current {
+    background: var(--table-header);
+    box-shadow: inset 4px 0 0 var(--brand-500);
+}
+
+.cook-step-number {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 999px;
+    background: var(--brand-500);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.cook-step-number mat-icon {
+    margin: 0;
+    color: #fff;
+}
+
+.cook-step.checked .cook-step-number {
+    background: var(--ink-muted);
+}
+
+.cook-empty {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--ink-muted);
+}
+
+.cook-done {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    background: var(--table-header);
+}
+
+.cook-done p {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.cook-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
+    background: #fdfbff;
+}
+
+.cook-footer > button {
+    color: var(--ink-muted);
+}
+
+.cook-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.cook-position {
+    min-width: 3.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 900px) {
+    .cook-header {
+        padding: 1.5rem 2rem 1rem;
+    }
+
+    .cook-body {
+        grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+        align-items: start;
+        gap: 1.5rem;
+        padding: 0 2rem 1.5rem;
+    }
+
+    .cook-panel {
+        padding: 1.5rem 1.75rem;
+    }
+
+    .cook-footer {
+        padding: 1rem 2rem;
+    }
+}

@@ -1,0 +1,139 @@
+<div
+  class="cook-overlay"
+  role="dialog"
+  aria-modal="true"
+  [attr.aria-label]="'Cook mode: ' + recipe().name"
+  tabindex="-1"
+  #dialog
+  (keydown.escape)="close()"
+  (keydown.arrowright)="onArrow($event, true)"
+  (keydown.arrowleft)="onArrow($event, false)"
+  (keydown.tab)="onTab($event, false)"
+  (keydown.shift.tab)="onTab($event, true)"
+  data-cook-mode
+>
+  <header class="cook-header">
+    <div class="cook-title">
+      <h1>{{ recipe().name }}</h1>
+      <p class="cook-meta">
+        {{ batches() }} {{ batches() === 1 ? 'batch' : 'batches' }}
+        @if (!wakeLock.supported) {
+          <span class="cook-wake" data-cook-wake>· Screen may sleep on this browser</span>
+        } @else if (wakeLock.active()) {
+          <span class="cook-wake" data-cook-wake>
+            · <mat-icon aria-hidden="true">light_mode</mat-icon> Screen stays on
+          </span>
+        }
+      </p>
+    </div>
+    <button mat-icon-button (click)="close()" aria-label="Exit cook mode" data-cook-close>
+      <mat-icon>close</mat-icon>
+    </button>
+  </header>
+
+  <div class="cook-body">
+    <section class="cook-panel cook-ingredients">
+      <h2>Ingredients</h2>
+      <ul>
+        @for (ingredient of recipe().ingredients; track $index) {
+          <li>
+            <button
+              type="button"
+              class="cook-item"
+              [class.checked]="checkedIngredients().has($index)"
+              [attr.aria-pressed]="checkedIngredients().has($index)"
+              (click)="toggleIngredient($index)"
+              data-cook-ingredient
+            >
+              <mat-icon aria-hidden="true">{{
+                checkedIngredients().has($index) ? 'check_box' : 'check_box_outline_blank'
+              }}</mat-icon>
+              <span class="cook-text">
+                @if (hasFraction(amount(ingredient))) {
+                  <app-fraction
+                    [before]="amount(ingredient).split(' ')[0]"
+                    [fraction]="amount(ingredient).split(' ')[1]"
+                    [after]="ingredient.name"
+                  ></app-fraction>
+                } @else {
+                  {{ amount(ingredient) }} {{ ingredient.name }}
+                }
+              </span>
+            </button>
+          </li>
+        }
+      </ul>
+    </section>
+
+    <section class="cook-panel cook-steps">
+      <h2>Steps</h2>
+      @if (steps().length === 0) {
+        <p class="cook-empty">This recipe has no instructions.</p>
+      }
+      <ol>
+        @for (step of steps(); track $index) {
+          <li>
+            <button
+              type="button"
+              class="cook-item cook-step"
+              [class.checked]="doneSteps().has($index)"
+              [class.current]="current() === $index && !allDone()"
+              [attr.aria-pressed]="doneSteps().has($index)"
+              [attr.aria-current]="current() === $index && !allDone() ? 'step' : null"
+              (click)="toggleStep($index)"
+              data-cook-step
+            >
+              <span class="cook-step-number" aria-hidden="true">
+                @if (doneSteps().has($index)) {
+                  <mat-icon>check</mat-icon>
+                } @else {
+                  {{ $index + 1 }}
+                }
+              </span>
+              <span class="cook-text">{{ step }}</span>
+            </button>
+          </li>
+        }
+      </ol>
+
+      @if (allDone()) {
+        <div class="cook-done" data-cook-done>
+          <p>All done. Enjoy!</p>
+          <button mat-flat-button color="primary" (click)="finish()" data-cook-finish>
+            Finish
+          </button>
+        </div>
+      }
+    </section>
+  </div>
+
+  @if (steps().length > 0) {
+    <footer class="cook-footer">
+      <button mat-button (click)="reset()" data-cook-reset>Reset</button>
+      <div class="cook-nav">
+        <button
+          mat-stroked-button
+          (click)="previous()"
+          [disabled]="current() === 0"
+          data-cook-previous
+        >
+          <mat-icon>chevron_left</mat-icon>
+          Back
+        </button>
+        <span class="cook-position" data-cook-position>
+          {{ current() + 1 }} / {{ steps().length }}
+        </span>
+        <button
+          mat-flat-button
+          color="primary"
+          (click)="next()"
+          [disabled]="allDone()"
+          data-cook-next
+        >
+          {{ current() === steps().length - 1 ? 'Done' : 'Next' }}
+          <mat-icon iconPositionEnd>chevron_right</mat-icon>
+        </button>
+      </div>
+    </footer>
+  }
+</div>

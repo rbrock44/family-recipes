@@ -47,6 +47,19 @@ describe('RecipeReaderService', () => {
     expect(reader.readRecent()).toEqual([]);
   });
 
+  it('should save, read and clear cook progress per recipe', () => {
+    localStorage.removeItem(reader.COOK_PROGRESS_NAME);
+    reader.setCookProgress('0001', { ingredients: [1], steps: [0], current: 1 });
+    reader.setCookProgress('0002', { ingredients: [], steps: [], current: 0 });
+
+    expect(reader.readCookProgress('0001')).toEqual({ ingredients: [1], steps: [0], current: 1 });
+
+    reader.setCookProgress('0001', null);
+    expect(reader.readCookProgress('0001')).toBeUndefined();
+    expect(reader.readCookProgress('0002')).toBeDefined();
+    localStorage.removeItem(reader.COOK_PROGRESS_NAME);
+  });
+
   it('should create filenames by total number', () => {
     const expected = [
       '0001',

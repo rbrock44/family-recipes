@@ -6,6 +6,15 @@
       <h2>{{ recipe.author }}</h2>
     </div>
     <div class="recipe-hero-actions">
+      <button
+        mat-icon-button
+        (click)="openCookMode()"
+        aria-label="Cook mode"
+        title="Cook mode"
+        data-cook-mode-open
+      >
+        <mat-icon>soup_kitchen</mat-icon>
+      </button>
       @if (isFavorite()) {
         <button
           mat-icon-button
@@ -35,6 +44,10 @@
       }
     </div>
   </header>
+
+  @if (isCooking()) {
+    <app-cook-mode [recipe]="recipe" [batches]="batches()"></app-cook-mode>
+  }
 
   @if (showImage && recipe.link) {
     <div

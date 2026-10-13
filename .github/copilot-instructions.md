@@ -45,7 +45,9 @@ served from GitHub Pages at `family-recipes.ryan-brock.com`. No backend of its o
   `RecipeReaderService` does the fetch and every `localStorage` read/write, all keyed `family-recipe-*`
 - Share links (favorites, lists) are Unicode-safe base64 JSON from `encodeSharePayload` in `models/list-share.ts`.
   `mergeFavorites` and `ingredient-aggregator.ts` (combines list ingredients scaled by batches) are pure functions
-- Components in `src/app/components/`: `recipe-table`, `header`, `command-palette` (Ctrl K jump), `fraction`,
+- Components in `src/app/components/`: `recipe-table`, `header`, `command-palette` (Ctrl K jump), `cook-mode`
+  (full-screen overlay on its own history entry; `splitSteps` in `utils/instruction-steps.util.ts` breaks
+  instructions into steps, `WakeLockService` keeps the screen on), `fraction`,
   `dry-conversion` / `liquid-conversion`, and the `about-dialog` / `add-to-list-dialog` Material dialogs
 
 ## Conventions

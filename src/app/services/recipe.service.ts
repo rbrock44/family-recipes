@@ -4,6 +4,7 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { EMPTY_RECIPE, HOOPER_FAMILY } from '../constants/constants';
 import { Category } from '../models/category.enum';
+import { CookProgress } from '../models/cook-progress.interface';
 import { CustomIngredient } from '../models/custom-ingredient.interface';
 import { mergeFavorites, SharedFavoritesPayload } from '../models/favorites-share';
 import { Recipe } from '../models/recipe.interface';
@@ -18,6 +19,7 @@ export interface RecipeHistoryState {
   app: true;
   lists?: boolean;
   fromLists?: boolean;
+  cook?: boolean;
 }
 
 @Injectable({
@@ -38,6 +40,8 @@ export class RecipeService {
   favoritesExpanded: boolean = true;
   showLists: boolean = false;
   openedFromLists: boolean = false;
+  // Cook mode sits on its own history entry, so browser/mouse back closes it.
+  cookMode: boolean = false;
   activeListId: string | null = null;
   returnScrollY: number = 0;
   selectMode: boolean = false;
@@ -69,6 +73,29 @@ export class RecipeService {
   /** Pushes a history entry so browser/mouse back returns to the view before it. */
   pushView(url: string, state: Omit<RecipeHistoryState, 'app'> = {}): void {
     this.location.go(url, '', { app: true, ...state });
+  }
+
+  openCookMode(): void {
+    this.cookMode = true;
+    this.pushView(this.location.path(), { fromLists: this.openedFromLists, cook: true });
+  }
+
+  closeCookMode(): void {
+    const state = this.location.getState() as RecipeHistoryState | null;
+    // Stepping back drops the cook entry, so forward reopens it like any other view.
+    if (state?.cook) {
+      this.back();
+    } else {
+      this.cookMode = false;
+    }
+  }
+
+  readCookProgress(filename: string): CookProgress | undefined {
+    return this.reader.readCookProgress(filename);
+  }
+
+  setCookProgress(filename: string, progress: CookProgress | null): void {
+    this.reader.setCookProgress(filename, progress);
   }
 
   /** True when the current entry was pushed by the app, so stepping back stays on the site. */
@@ -117,7 +144,11 @@ export class RecipeService {
     if (recipe) {
       this.showLists = false;
       this.openedFromLists = state?.fromLists === true;
-      this.readRecipe(recipe);
+      // Opening or closing cook mode stays on the same recipe; no need to fetch it again.
+      if (recipe !== this.selectedRecipe.filename) {
+        this.readRecipe(recipe);
+      }
+      this.cookMode = state?.cook === true;
       return;
     }
 
@@ -217,6 +248,7 @@ export class RecipeService {
   }
 
   setEmptyRecipe(): void {
+    this.cookMode = false;
     this.selectedRecipe = {...EMPTY_RECIPE};
   }
 
@@ -399,6 +431,10 @@ export class RecipeService {
   }
 
   readRecipe(filename: string): void {
+    if (filename !== this.selectedRecipe.filename) {
+      this.cookMode = false;
+    }
+
     this.firstValueFrom(filename).then(it => {
       let recipe = this.convertRecipe(it);
       recipe.filename = filename;

@@ -97,6 +97,52 @@ describe('RecipeService', () => {
       expect(service.canGoBack()).toBe(true);
     });
 
+    it('should open cook mode on its own entry so back closes it', () => {
+      service.selectRecipe({ ...sampleRecipe, filename: '0042', name: 'Pie' });
+      service.pushView(service.buildRecipeUrl('0042'), { fromLists: true });
+      service.openedFromLists = true;
+
+      service.openCookMode();
+      expect(service.cookMode).toBe(true);
+      expect(location.path()).toBe('/0042/pie');
+
+      location.back();
+      expect(service.cookMode).toBe(false);
+      expect(service.openedFromLists).toBe(true);
+      // Same recipe, so it is not fetched again.
+      expect(service.readRecipe).not.toHaveBeenCalled();
+
+      location.forward();
+      expect(service.cookMode).toBe(true);
+    });
+
+    it('should close cook mode by stepping back over its entry', () => {
+      service.selectRecipe({ ...sampleRecipe, filename: '0042', name: 'Pie' });
+      service.pushView(service.buildRecipeUrl('0042'));
+      service.openCookMode();
+
+      service.closeCookMode();
+
+      expect(service.cookMode).toBe(false);
+      expect(location.getState()).toEqual({ app: true });
+    });
+
+    it('should close cook mode in place when it has no entry of its own', () => {
+      service.cookMode = true;
+
+      service.closeCookMode();
+
+      expect(service.cookMode).toBe(false);
+    });
+
+    it('should leave cook mode when going home', () => {
+      service.cookMode = true;
+
+      service.setEmptyRecipe();
+
+      expect(service.cookMode).toBe(false);
+    });
+
     it('should build recipe paths with the name once known, and home with its search', () => {
       location.replaceState('/?search=pie');
       expect(service.buildRecipeUrl(null)).toBe('/?search=pie');

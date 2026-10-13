@@ -1,7 +1,7 @@
 <button
   type="button"
   class="jump-fab"
-  [class.hidden]="fabHidden() || palette.isOpen()"
+  [class.hidden]="fabHidden() || palette.isOpen() || cooking()"
   aria-label="Jump to a recipe"
   aria-haspopup="dialog"
   (click)="palette.open()"

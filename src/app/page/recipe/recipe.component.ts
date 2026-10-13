@@ -25,6 +25,7 @@ import { NgClass } from '@angular/common';
 import { FractionComponent } from '../../components/fraction/fraction.component';
 import { LiquidConversionComponent } from '../../components/liquid-conversion/liquid-conversion.component';
 import { DryConversionComponent } from '../../components/dry-conversion/dry-conversion.component';
+import { CookModeComponent } from '../../components/cook-mode/cook-mode.component';
 
 @Component({
   selector: 'app-recipe',
@@ -43,6 +44,7 @@ import { DryConversionComponent } from '../../components/dry-conversion/dry-conv
     FractionComponent,
     LiquidConversionComponent,
     DryConversionComponent,
+    CookModeComponent,
     MatButton,
   ],
 })
@@ -191,6 +193,14 @@ export class RecipeComponent implements OnChanges {
     });
   }
 
+  isCooking(): boolean {
+    return this.service.cookMode;
+  }
+
+  openCookMode(): void {
+    this.service.openCookMode();
+  }
+
   isFavorite(): boolean {
     return this.service.readFavorites().indexOf(this.recipe.filename) > -1;
   }
@@ -224,7 +234,7 @@ export class RecipeComponent implements OnChanges {
     return this.regexMatch(ingredient, 'Possible conversion detected');
   }
 
-  private batches(): number {
+  batches(): number {
     // the input is free text, so an empty, half-typed, or below-1 value falls back to 1
     return Math.max(+this.batchControl.value || 1, 1);
   }

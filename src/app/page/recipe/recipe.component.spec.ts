@@ -4,6 +4,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { HeaderComponent } from 'src/app/components/header/header.component';
 import { RecipeReaderService } from 'src/app/services/recipe-reader.service';
 import { RecipeComponent } from './recipe.component';
+import { RecipeService } from 'src/app/services/recipe.service';
 import {
   provideHttpClient,
   withInterceptorsFromDi,
@@ -31,5 +32,19 @@ describe('RecipeComponent', () => {
   it('should create the app', () => {
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
+  });
+
+  it('should open cook mode from the cook button', () => {
+    const recipeService = TestBed.inject(RecipeService);
+    const open = vi.spyOn(recipeService, 'openCookMode').mockImplementation(() => {
+      recipeService.cookMode = true;
+    });
+    fixture.detectChanges();
+
+    fixture.nativeElement.querySelector('[data-cook-mode-open]').click();
+    fixture.detectChanges();
+
+    expect(open).toHaveBeenCalled();
+    expect(fixture.nativeElement.querySelector('[data-cook-mode]')).toBeTruthy();
   });
 });
