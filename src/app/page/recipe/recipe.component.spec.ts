@@ -133,8 +133,45 @@ describe('RecipeComponent', () => {
       expect(save).toHaveBeenLastCalledWith('0001', 'Less salt, more butter');
 
       show('0002');
-      expect(input.value).toBe('');
+      expect(fixture.componentInstance.noteControl.value).toBe('');
       expect(save).toHaveBeenCalledTimes(1);
+    });
+
+    it('folds an empty note to a plus button that opens and closes it', () => {
+      vi.spyOn(recipeService, 'readNote').mockReturnValue('');
+      vi.spyOn(recipeService, 'setNote').mockImplementation(() => {});
+      const el = (selector: string) => fixture.nativeElement.querySelector(selector) as HTMLElement | null;
+
+      show('0001');
+      expect(el('[data-note-input]')).toBeNull();
+
+      el('[data-open-notes]')!.click();
+      fixture.detectChanges();
+      expect(el('[data-note-input]')).not.toBeNull();
+      expect(el('[data-open-notes]')).toBeNull();
+
+      el('[data-close-notes]')!.click();
+      fixture.detectChanges();
+      expect(el('[data-note-input]')).toBeNull();
+      expect(el('[data-open-notes]')).not.toBeNull();
+    });
+
+    it('keeps a note with text open with no way to close it', () => {
+      vi.spyOn(recipeService, 'readNote').mockReturnValue('Less salt');
+      vi.spyOn(recipeService, 'setNote').mockImplementation(() => {});
+      const el = (selector: string) => fixture.nativeElement.querySelector(selector) as HTMLElement | null;
+
+      show('0001');
+      expect(el('[data-note-input]')).not.toBeNull();
+      expect(el('[data-open-notes]')).toBeNull();
+      expect(el('[data-close-notes]')).toBeNull();
+
+      const input = el('[data-note-input]') as HTMLTextAreaElement;
+      input.value = '';
+      input.dispatchEvent(new Event('input'));
+      fixture.detectChanges();
+      expect(el('[data-note-input]')).not.toBeNull();
+      expect(el('[data-close-notes]')).not.toBeNull();
     });
 
     it('only offers sharing once there is a note, and copies a recipe link carrying it', async () => {

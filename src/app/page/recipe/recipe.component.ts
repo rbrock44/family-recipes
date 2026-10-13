@@ -72,6 +72,8 @@ export class RecipeComponent implements OnChanges {
   decimalControl: FormControl = new FormControl(false);
   noteControl = new FormControl('', { nonNullable: true });
   justSharedNote = false;
+  // An empty note stays folded to a plus button until asked for; one with text is always open.
+  notesOpen = false;
 
   constructor(
     private service: RecipeService,
@@ -89,6 +91,8 @@ export class RecipeComponent implements OnChanges {
     }
 
     this.noteControl.setValue(this.service.readNote(this.recipe.filename), { emitEvent: false });
+    // Clearing a note while typing must not fold the field away under the cursor.
+    this.notesOpen = this.hasNote();
 
     const listId = this.service.activeListId;
     if (!listId) {
@@ -241,6 +245,18 @@ export class RecipeComponent implements OnChanges {
 
   dismissSharedNote(): void {
     this.service.sharedNote = null;
+  }
+
+  hasNote(): boolean {
+    return this.noteControl.value.trim() !== '';
+  }
+
+  notesShown(): boolean {
+    return this.notesOpen || this.hasNote();
+  }
+
+  openNotes(): void {
+    this.notesOpen = true;
   }
 
   shareNote(): void {

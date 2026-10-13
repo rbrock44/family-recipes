@@ -94,6 +94,14 @@
     width: 100%;
 }
 
+.notes-card.collapsed-notes .notes-title-row {
+    margin-bottom: 0;
+}
+
+.add-note {
+    color: #2e7d32;
+}
+
 .shared-note-card {
     background: var(--surface-gradient-mid);
 }
