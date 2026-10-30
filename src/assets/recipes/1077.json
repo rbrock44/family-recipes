@@ -1,0 +1,19 @@
+{
+  "name": "Soft Pumpkin Cookies",
+  "author": "Becky Collier",
+  "category": 6,
+  "ingredients": [
+    { "amount": 1, "unit": "cup", "name": "salted butter, softened" },
+    { "amount": 2, "unit": "cup", "name": "sugar" },
+    { "amount": 1, "unit": "can", "name": "(15 oz) Libby's 100% Pure Pumpkin" },
+    { "amount": 4, "unit": "cup", "name": "all-purpose flour" },
+    { "amount": 2, "unit": "tsp", "name": "baking powder" },
+    { "amount": 2, "unit": "tsp", "name": "baking soda" },
+    { "amount": 2, "unit": "tsp", "name": "cinnamon" },
+    { "amount": 0.75, "unit": "tsp", "name": "salt" },
+    { "amount": 1, "unit": "cup", "name": "chopped nuts, optional" },
+    { "amount": 1, "unit": "can", "name": "Pillsbury Cream Cheese Frosting" }
+  ],
+  "instructions": "1. Preheat oven to 350°F.\n2. In a large mixing bowl, beat the softened butter and sugar together for about 2–3 minutes, until creamy.\n3. Add the entire 15-ounce can of pumpkin and mix until combined. The mixture may look slightly separated—that's okay.\n4. In a separate bowl, whisk together:\n    • 4 cups flour\n    • 2 teaspoons baking powder\n    • 2 teaspoons baking soda\n    • 2 teaspoons cinnamon\n    • ¾ teaspoon salt\n5. Gradually add the dry ingredients to the pumpkin mixture. Mix just until combined.\n6. Stir in the chopped nuts, if using.\n7. Chill the dough for 20–30 minutes. This will help compensate for using butter instead of shortening and keep the cookies from spreading too much.\n8. Drop dough by rounded teaspoonfuls onto an ungreased or parchment-lined baking sheet.\n9. Bake at 350°F for 8–10 minutes, until the tops are set and spring back lightly when touched. They do not need to brown.\n10. Let the cookies sit on the baking sheet for 1–2 minutes, then transfer them to a cooling rack.\n11. Cool completely before frosting.\n12. Frost with Pillsbury Cream Cheese Frosting.\n\nStorage:\nAllow the frosting to set before stacking. Store the frosted cookies loosely covered at room temperature, following the directions on your Pillsbury frosting container. Refrigerate any unused frosting remaining in the tub.",
+  "yield": { "amount": 8, "name": "dozen small cookies" }
+}
