@@ -20199,5 +20199,33 @@
     "instructions": "1. Preheat oven to 350°F.\n2. In a large mixing bowl, beat the softened butter and sugar together for about 2–3 minutes, until creamy.\n3. Add the entire 15-ounce can of pumpkin and mix until combined. The mixture may look slightly separated—that's okay.\n4. In a separate bowl, whisk together:\n    • 4 cups flour\n    • 2 teaspoons baking powder\n    • 2 teaspoons baking soda\n    • 2 teaspoons cinnamon\n    • ¾ teaspoon salt\n5. Gradually add the dry ingredients to the pumpkin mixture. Mix just until combined.\n6. Stir in the chopped nuts, if using.\n7. Chill the dough for 20–30 minutes. This will help compensate for using butter instead of shortening and keep the cookies from spreading too much.\n8. Drop dough by rounded teaspoonfuls onto an ungreased or parchment-lined baking sheet.\n9. Bake at 350°F for 8–10 minutes, until the tops are set and spring back lightly when touched. They do not need to brown.\n10. Let the cookies sit on the baking sheet for 1–2 minutes, then transfer them to a cooling rack.\n11. Cool completely before frosting.\n12. Frost with Pillsbury Cream Cheese Frosting.\n\nStorage:\nAllow the frosting to set before stacking. Store the frosted cookies loosely covered at room temperature, following the directions on your Pillsbury frosting container. Refrigerate any unused frosting remaining in the tub.",
     "yield": { "amount": 8, "name": "dozen small cookies" },
     "filename": "1077"
+  },
+  {
+    "name": "Bugle Snack Mix",
+    "author": "Notre Dame (Becky Collier)",
+    "category": 1,
+    "ingredients": [
+      { "amount": 1, "unit": "bag", "name": "large bag of Bugles" },
+      {
+        "amount": 1,
+        "unit": "bag",
+        "name": "large bag of nacho cheese Bugles"
+      },
+      { "amount": 1, "unit": "bag", "name": "pretzels, regular or mini" },
+      { "amount": 1, "unit": "bag", "name": "white cheddar Goldfish" },
+      { "amount": 1, "unit": "box", "name": "family size Wheat Thins" },
+      { "amount": 1, "unit": "box", "name": "family size Cheez-Its" },
+      {
+        "amount": 1,
+        "unit": "box",
+        "name": "family size white cheddar Cheez-Its"
+      },
+      { "amount": 1, "unit": "box", "name": "mini Club crackers" },
+      { "amount": 2, "unit": "bottle", "name": "Orville popcorn oil" },
+      { "amount": 0.5, "unit": "jar", "name": "ranch dressing powder mix" }
+    ],
+    "instructions": "1. Dump everything but the popcorn oil and ranch dressing into a large trash bag.\n2. Mix the popcorn oil and the ranch dressing together and pour into the trash bag.\n3. Gently mix everything together.\n4. Transfer to 3 ungreased large foil pans.\n5. Bake at 250°F for 45 minutes, stirring every 15 minutes.\n6. Cool completely and store in ziplock bags.",
+    "yield": { "amount": 3, "name": "large foil pans" },
+    "filename": "1078"
   }
 ]
