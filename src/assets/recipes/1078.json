@@ -1,0 +1,19 @@
+{
+  "name": "Bugle Snack Mix",
+  "author": "Notre Dame (Becky Collier)",
+  "category": 1,
+  "ingredients": [
+    { "amount": 1, "unit": "bag", "name": "large bag of Bugles" },
+    { "amount": 1, "unit": "bag", "name": "large bag of nacho cheese Bugles" },
+    { "amount": 1, "unit": "bag", "name": "pretzels, regular or mini" },
+    { "amount": 1, "unit": "bag", "name": "white cheddar Goldfish" },
+    { "amount": 1, "unit": "box", "name": "family size Wheat Thins" },
+    { "amount": 1, "unit": "box", "name": "family size Cheez-Its" },
+    { "amount": 1, "unit": "box", "name": "family size white cheddar Cheez-Its" },
+    { "amount": 1, "unit": "box", "name": "mini Club crackers" },
+    { "amount": 2, "unit": "bottle", "name": "Orville popcorn oil" },
+    { "amount": 0.5, "unit": "jar", "name": "ranch dressing powder mix" }
+  ],
+  "instructions": "1. Dump everything but the popcorn oil and ranch dressing into a large trash bag.\n2. Mix the popcorn oil and the ranch dressing together and pour into the trash bag.\n3. Gently mix everything together.\n4. Transfer to 3 ungreased large foil pans.\n5. Bake at 250°F for 45 minutes, stirring every 15 minutes.\n6. Cool completely and store in ziplock bags.",
+  "yield": { "amount": 3, "name": "large foil pans" }
+}
