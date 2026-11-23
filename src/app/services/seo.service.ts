@@ -4,7 +4,7 @@ import { RouterStateSnapshot, TitleStrategy } from '@angular/router';
 import { isListsPath, parseRecipeId, recipePath } from '../utils/recipe-url.util';
 
 export const SITE_URL = 'https://family-recipes.ryan-brock.com';
-const SITE_TITLE = 'Family Recipes - Searchable Family Recipe Collection';
+const SITE_TITLE = 'Family Recipes by Ryan Brock - Searchable Family Recipe Collection';
 const SITE_DESCRIPTION =
   "Browse and search our family's recipe collection by name, author, or category, with adjustable batch sizes and favorites.";
 
@@ -36,11 +36,11 @@ export class SeoService {
     let noindex = false;
 
     if (recipe) {
-      title = `${recipe.name} - Family Recipes`;
+      title = `${recipe.name} - Family Recipes by Ryan Brock`;
       description = `${recipe.name} by ${recipe.author}, from our searchable family recipe collection.`;
       pagePath = recipePath(recipe.filename, recipe.name);
     } else if (isListsPath(path)) {
-      title = 'Lists - Family Recipes';
+      title = 'Lists - Family Recipes by Ryan Brock';
       pagePath = '/lists';
       // Lists live in this browser's storage, so the page has nothing to index.
       noindex = true;

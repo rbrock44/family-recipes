@@ -30,7 +30,7 @@ describe('SeoService', () => {
   it('describes the home page', () => {
     seo.update('/');
 
-    expect(title.getTitle()).toBe('Family Recipes - Searchable Family Recipe Collection');
+    expect(title.getTitle()).toBe('Family Recipes by Ryan Brock - Searchable Family Recipe Collection');
     expect(tag('name="robots"')).toBe('index, follow');
     expect(tag('property="og:url"')).toBe(`${SITE_URL}/`);
     expect(canonical.getAttribute('href')).toBe(`${SITE_URL}/`);
@@ -39,16 +39,16 @@ describe('SeoService', () => {
   it('describes a recipe by name and author', () => {
     seo.update('/0042/apple-pie', PIE);
 
-    expect(title.getTitle()).toBe('Apple Pie - Family Recipes');
+    expect(title.getTitle()).toBe('Apple Pie - Family Recipes by Ryan Brock');
     expect(tag('name="description"')).toContain('Apple Pie by Mary Hooper');
-    expect(tag('name="twitter:title"')).toBe('Apple Pie - Family Recipes');
+    expect(tag('name="twitter:title"')).toBe('Apple Pie - Family Recipes by Ryan Brock');
     expect(canonical.getAttribute('href')).toBe(`${SITE_URL}/0042/apple-pie/`);
   });
 
   it('keeps the lists page out of search results', () => {
     seo.update('/lists');
 
-    expect(title.getTitle()).toBe('Lists - Family Recipes');
+    expect(title.getTitle()).toBe('Lists - Family Recipes by Ryan Brock');
     expect(tag('name="robots"')).toBe('noindex');
     expect(canonical.getAttribute('href')).toBe(`${SITE_URL}/lists/`);
   });
@@ -57,7 +57,7 @@ describe('SeoService', () => {
     seo.update('/0042/apple-pie', PIE);
     seo.update('/0007');
 
-    expect(title.getTitle()).toBe('Apple Pie - Family Recipes');
+    expect(title.getTitle()).toBe('Apple Pie - Family Recipes by Ryan Brock');
   });
 });
 
