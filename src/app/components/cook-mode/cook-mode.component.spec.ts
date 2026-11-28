@@ -42,6 +42,7 @@ describe('CookModeComponent', () => {
     fixture.componentRef.setInput('recipe', RECIPE);
     fixture.componentRef.setInput('batches', batches);
     fixture.detectChanges();
+    TestBed.tick();
   }
 
   function click(selector: string, index = 0): void {
